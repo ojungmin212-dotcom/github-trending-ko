@@ -1,0 +1,42 @@
+name: Update trending data
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 매일 00:00 UTC = 09:00 KST (GitHub 사정으로 몇 분~수십 분 늦을 수 있음)
+  workflow_dispatch:       # Actions 탭의 "Run workflow" 버튼 / gh workflow run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-trending
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch GitHub trending
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python scripts/fetch_trending.py
+
+      - name: Commit if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/trending.json data/translations.json
+          if git diff --cached --quiet; then
+            echo "데이터 변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "data: update trending $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')"
+          git pull --rebase   # 실행 중에 다른 push가 있었어도 충돌 없이 올라가도록
+          git push

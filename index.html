@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub 트렌딩 30</title>
+<meta name="description" content="GitHub 트렌딩 Top 30 (오늘·이번 주·이번 달) — 한국어 번역 포함, 매일 자동 갱신">
+<meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='14' font-size='14'%3E%E2%98%85%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #f4f6f9;
+    --panel: #ffffff;
+    --panel-soft: #eef2f7;
+    --border: #d9e0e9;
+    --text: #1b2430;
+    --muted: #5d6b7d;
+    --accent: #2456d6;
+    --accent-soft: rgba(36, 86, 214, .07);
+    --star: #9a6700;
+    --up: #1a7f37;
+    --err: #cf222e;
+    --err-soft: rgba(207, 34, 46, .06);
+    --shadow: 0 1px 3px rgba(27, 36, 48, .07);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1117;
+      --panel: #161c26;
+      --panel-soft: #1c2432;
+      --border: #2b3444;
+      --text: #e6edf3;
+      --muted: #8b98a9;
+      --accent: #5b9cff;
+      --accent-soft: rgba(91, 156, 255, .09);
+      --star: #e3b341;
+      --up: #3fb950;
+      --err: #ff7b72;
+      --err-soft: rgba(255, 123, 114, .08);
+      --shadow: none;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1117;
+    --panel: #161c26;
+    --panel-soft: #1c2432;
+    --border: #2b3444;
+    --text: #e6edf3;
+    --muted: #8b98a9;
+    --accent: #5b9cff;
+    --accent-soft: rgba(91, 156, 255, .09);
+    --star: #e3b341;
+    --up: #3fb950;
+    --err: #ff7b72;
+    --err-soft: rgba(255, 123, 114, .08);
+    --shadow: none;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Sans KR", "Malgun Gothic", -apple-system, sans-serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+  }
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .header-inner {
+    max-width: 760px; margin: 0 auto; padding: 12px 16px;
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  }
+  h1 {
+    font-family: "Sora", "IBM Plex Sans KR", sans-serif;
+    font-size: 17px; font-weight: 700;
+    display: flex; align-items: center; gap: 8px; letter-spacing: -.01em;
+  }
+  h1 svg { fill: var(--text); flex-shrink: 0; }
+  h1 .n30 { color: var(--accent); }
+  .tabs {
+    display: flex; gap: 2px;
+    background: var(--panel-soft);
+    border: 1px solid var(--border);
+    border-radius: 9px; padding: 3px;
+  }
+  .tabs button {
+    background: none; border: none; color: var(--muted);
+    font-family: inherit; font-size: 13px; font-weight: 600;
+    padding: 6px 13px; border-radius: 6px; cursor: pointer;
+  }
+  .tabs button.active { background: var(--accent); color: #fff; }
+  .updated { margin-left: auto; font-size: 12px; color: var(--muted); text-align: right; line-height: 1.45; }
+  main { max-width: 760px; margin: 0 auto; padding: 16px; }
+  .card {
+    display: flex; gap: 13px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+  }
+  .rank {
+    font-family: "Sora", sans-serif;
+    font-variant-numeric: tabular-nums;
+    min-width: 34px; text-align: center;
+    font-size: 19px; font-weight: 700;
+    color: var(--muted); padding-top: 1px;
+  }
+  .rank.top3 { color: var(--star); }
+  .info { flex: 1; min-width: 0; }
+  .repo-name { font-size: 15px; font-weight: 700; word-break: break-all; }
+  .repo-name a { color: var(--accent); text-decoration: none; }
+  .repo-name a:hover { text-decoration: underline; }
+  .desc { font-size: 13px; color: var(--muted); margin-top: 4px; word-break: break-word; }
+  .desc-ko {
+    font-size: 13.5px; color: var(--text); margin-top: 7px;
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 6px 10px; word-break: break-word;
+  }
+  .meta {
+    display: flex; gap: 14px; margin-top: 9px;
+    font-size: 12px; color: var(--muted);
+    flex-wrap: wrap; align-items: center;
+    font-variant-numeric: tabular-nums;
+  }
+  .lang-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; border: 1px solid rgba(128,128,128,.25); }
+  .gain { color: var(--up); font-weight: 600; }
+  .badge {
+    font-size: 11px; color: var(--muted);
+    border: 1px solid var(--border); background: var(--panel-soft);
+    border-radius: 999px; padding: 1px 8px;
+    white-space: nowrap; font-weight: 500;
+  }
+  .status { text-align: center; color: var(--muted); padding: 40px 0; font-size: 14px; }
+  .error {
+    background: var(--err-soft);
+    border: 1px solid var(--err);
+    border-radius: 12px;
+    padding: 16px 18px;
+    font-size: 13.5px;
+    word-break: break-word;
+  }
+  .error h2 { font-size: 15px; color: var(--err); margin-bottom: 6px; }
+  .error p { margin: 4px 0; }
+  .error ul { margin: 6px 0 4px 18px; }
+  .error li { margin: 3px 0; }
+  .error code {
+    font-family: Consolas, "D2Coding", "Courier New", monospace; font-size: 12px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 4px; padding: 0 4px;
+  }
+  .error button {
+    margin-top: 10px;
+    background: var(--panel); border: 1px solid var(--border); color: var(--accent);
+    font-family: inherit; font-size: 12.5px; font-weight: 600;
+    padding: 5px 14px; border-radius: 999px; cursor: pointer;
+  }
+  footer {
+    max-width: 760px; margin: 0 auto;
+    text-align: center; font-size: 12px; color: var(--muted);
+    padding: 6px 16px 34px; line-height: 1.7;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  @media (max-width: 480px) {
+    .header-inner { padding: 10px 12px; gap: 8px; }
+    .updated { flex-basis: 100%; text-align: left; margin-left: 0; }
+    main { padding: 12px; }
+    .card { padding: 12px 13px; gap: 10px; }
+    .rank { min-width: 28px; font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>
+      <svg height="22" width="22" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path></svg>
+      GitHub 트렌딩 <span class="n30">30</span>
+    </h1>
+    <div class="tabs" id="tabs">
+      <button data-since="daily" class="active">오늘</button>
+      <button data-since="weekly">이번 주</button>
+      <button data-since="monthly">이번 달</button>
+    </div>
+    <div class="updated">마지막 갱신<br><strong id="updated-at">불러오는 중…</strong></div>
+  </div>
+</header>
+
+<main><div id="notice"></div><div id="list"><p class="status">데이터를 불러오는 중…</p></div></main>
+
+<footer>
+  매일 09:00 KST에 GitHub Actions로 자동 갱신됩니다. 새로고침하면 최신 데이터를 불러옵니다.<br>
+  GitHub 트렌딩은 기간당 최대 25개까지 제공되어, 나머지 순위는 다른 기간 목록에서 채워집니다.<br>
+  출처: <a href="https://github.com/trending" target="_blank" rel="noopener">github.com/trending</a> · 한국어 번역은 기계 번역입니다.
+</footer>
+
+<script>
+// GitHub Pages 프로젝트 사이트(/저장소이름/)에서도 동작하도록 상대 경로 사용
+const DATA_URL = 'data/trending.json';
+let DATA = null;
+let since = 'daily';
+
+const fmt = n => n >= 1000 ? (n/1000).toFixed(1).replace(/\.0$/,'') + 'k' : String(n);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const periodLabel = { daily: '오늘', weekly: '이번 주', monthly: '이번 달' };
+const $list = document.getElementById('list');
+
+function render() {
+  const data = DATA && DATA[since];
+  if (!data || !data.repos || !data.repos.length) {
+    $list.innerHTML = '<p class="status">이 기간의 데이터가 없습니다.</p>';
+    return;
+  }
+  $list.innerHTML = data.repos.map(r => `
+    <div class="card">
+      <div class="rank ${r.rank <= 3 ? 'top3' : ''}">${r.rank}</div>
+      <div class="info">
+        <div class="repo-name">
+          <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.full_name)}</a>
+          ${r.filled_from ? ` <span class="badge">${periodLabel[r.filled_from] || esc(r.filled_from)} 순위에서 보충</span>` : ''}
+        </div>
+        ${r.description ? `<div class="desc">${esc(r.description)}</div>` : ''}
+        ${r.description_ko ? `<div class="desc-ko">${esc(r.description_ko)}</div>` : ''}
+        <div class="meta">
+          ${r.language ? `<span><span class="lang-dot" style="background:${esc(r.language_color || 'var(--muted)')}"></span>${esc(r.language)}</span>` : ''}
+          <span>★ ${fmt(r.stars)}</span>
+          <span>⑂ ${fmt(r.forks)}</span>
+          ${r.stars_period ? `<span class="gain">▲ ${fmt(r.stars_period)} stars (${periodLabel[r.filled_from || since]})</span>` : ''}
+        </div>
+      </div>
+    </div>`).join('');
+}
+
+function showError(err) {
+  document.getElementById('updated-at').textContent = '불러오기 실패';
+  const isFile = location.protocol === 'file:';
+  const is404 = err && err.status === 404;
+  let cause, fixes;
+  if (isFile) {
+    cause = 'index.html을 파일로 직접 열면 브라우저 보안 정책 때문에 data/trending.json을 읽을 수 없습니다.';
+    fixes = ['저장소 폴더에서 <code>python -m http.server 8000</code> 실행 후 <code>http://localhost:8000</code>으로 접속하세요.',
+             '또는 GitHub Pages 공개 URL로 접속하세요.'];
+  } else if (is404) {
+    cause = '<code>data/trending.json</code> 파일을 찾을 수 없습니다 (404). 아직 첫 수집이 실행되지 않았을 수 있습니다.';
+    fixes = ['저장소의 <b>Actions</b> 탭 → <b>Update trending data</b> → <b>Run workflow</b>로 수동 실행하세요.',
+             '실행이 끝나고 Pages 배포가 반영되기까지 1~2분 기다린 뒤 새로고침하세요.'];
+  } else if (err && err.name === 'SyntaxError') {
+    cause = '데이터 파일 형식이 올바르지 않습니다 (JSON 파싱 오류).';
+    fixes = ['Actions 탭에서 최근 실행 로그를 확인하고 워크플로를 다시 실행하세요.'];
+  } else {
+    cause = '네트워크 오류로 데이터를 불러오지 못했습니다' + (err && err.status ? ` (HTTP ${err.status})` : '') + '.';
+    fixes = ['인터넷 연결을 확인하고 새로고침하세요.', 'GitHub Pages 장애 여부는 githubstatus.com에서 확인할 수 있습니다.'];
+  }
+  $list.innerHTML = `
+    <div class="error" role="alert">
+      <h2>데이터를 불러오지 못했습니다</h2>
+      <p>${cause}</p>
+      <ul>${fixes.map(f => `<li>${f}</li>`).join('')}</ul>
+      <p style="color:var(--muted);font-size:12px">상세: ${esc(err && err.message || err)}</p>
+      <button type="button" onclick="load()">다시 시도</button>
+    </div>`;
+}
+
+// 매일 갱신되어야 하므로 36시간 넘게 그대로면 갱신이 멈춘 것으로 보고 알림
+function warnIfStale(fetchedAt) {
+  const m = /^(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2})/.exec(fetchedAt || '');
+  const $notice = document.getElementById('notice');
+  $notice.innerHTML = '';
+  if (!m) return;
+  const hours = (Date.now() - new Date(`${m[1]}T${m[2]}+09:00`)) / 36e5;
+  if (hours < 36) return;
+  $notice.innerHTML = (`
+    <div class="error" role="status" style="margin-bottom:10px">
+      <h2>데이터가 ${Math.floor(hours / 24)}일 넘게 갱신되지 않았습니다</h2>
+      <p>저장소의 <b>Actions</b> 탭에서 <b>Update trending data</b> 실행이 실패했거나 비활성화되지 않았는지 확인하세요.</p>
+    </div>`);
+}
+
+async function load() {
+  $list.innerHTML = '<p class="status">데이터를 불러오는 중…</p>';
+  try {
+    // 캐시 방지: Pages CDN·브라우저 캐시가 어제 데이터를 돌려주지 않도록 타임스탬프 쿼리
+    const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
+    if (!res.ok) {
+      const e = new Error(`HTTP ${res.status} ${res.statusText}`);
+      e.status = res.status;
+      throw e;
+    }
+    DATA = await res.json();
+    document.getElementById('updated-at').textContent = DATA.fetched_at || '알 수 없음';
+    render();
+    warnIfStale(DATA.fetched_at);
+  } catch (err) {
+    console.error(err);
+    showError(err);
+  }
+}
+
+document.getElementById('tabs').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if (!btn) return;
+  since = btn.dataset.since;
+  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b === btn));
+  if (DATA) render();
+  window.scrollTo({ top: 0 });
+});
+
+load();
+</script>
+</body>
+</html>
