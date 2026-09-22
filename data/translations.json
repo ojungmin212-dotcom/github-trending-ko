@@ -1,4 +1,7 @@
 {
+ "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.": "매월 74억 개의 토큰. 34개의 무료 LLM 제공업체. 635개의 무료 모델 엔드포인트. 하나의 /v1 엔드포인트와 사용자 정의 OpenAI 호환 엔드포인트 뒤에 모두 있습니다. 스마트 라우팅, 자동 장애 조치, 암호화된 키. 개인적인 실험만 가능합니다.",
+ "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings": "독립적으로 검증되고 기계 판독 가능한 결과를 통해 다단계 보안 감사를 위한 코딩 에이전트 기술",
+ "A skill to stop your coding agent from burying the answer. ADHD-friendly output.": "코딩 에이전트가 답변을 묻지 못하게 하는 기술입니다. ADHD 친화적인 출력.",
  "A smarter, self-hosted AI assistant — multi-user, multi-agent.": "더 스마트한 자체 호스팅 AI 도우미 — 다중 사용자, 다중 에이전트.",
  "Agent Substrate: the core system": "Agent Substrate: 핵심 시스템",
  "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.": "아름답고 검증 가능한 아키텍처, 워크플로, 시퀀스, 데이터 흐름 및 수명 주기 다이어그램을 위한 에이전트 기술(모션 및 선명한 내보내기 기능이 포함된 독립형 HTML)",
