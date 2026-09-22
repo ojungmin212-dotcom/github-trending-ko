@@ -199,7 +199,9 @@ def add_translations(all_repos, cache):
 
 def write_json(path, obj):
     tmp = path.with_suffix(".tmp")
-    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    # newline="\n": Windows에서 실행해도 LF로 저장해 Actions(Linux) 커밋과 줄바꿈 차이가 나지 않게
+    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n",
+                   encoding="utf-8", newline="\n")
     tmp.replace(path)
 
 
