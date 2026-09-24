@@ -24,9 +24,13 @@ from datetime import datetime, timedelta, timezone
 from html import unescape
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import guides  # noqa: E402  (README 기반 설치·활용 가이드 추출)
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "trending.json"
 CACHE_FILE = ROOT / "data" / "translations.json"
+GUIDES_FILE = ROOT / "data" / "guides.json"
 
 PERIODS = ["daily", "weekly", "monthly"]
 TOP_N = 30
@@ -241,6 +245,17 @@ def main():
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     write_json(CACHE_FILE, dict(sorted(cache.items())))
     write_json(DATA_FILE, result)
+
+    # 설치·활용 가이드 (README 기반). 실패해도 순위 데이터는 이미 저장됐으므로 계속 진행
+    try:
+        try:
+            guide_cache = json.loads(GUIDES_FILE.read_text(encoding="utf-8"))
+        except (FileNotFoundError, json.JSONDecodeError):
+            guide_cache = {}
+        names = list(dict.fromkeys(r["full_name"] for p in PERIODS for r in result[p]["repos"]))
+        write_json(GUIDES_FILE, guides.update_guides(names, guide_cache, log=log))
+    except Exception as e:
+        log(f"[경고] 가이드 갱신 실패 (순위 데이터는 저장됨): {e}")
     log(f"저장 완료: {DATA_FILE.relative_to(ROOT).as_posix()} - "
         + ", ".join(f"{p} {result[p]['count']}개" for p in PERIODS)
         + f" ({result['fetched_at']})")

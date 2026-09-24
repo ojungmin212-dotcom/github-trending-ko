@@ -1,0 +1,1054 @@
+{
+ "Fission-AI/OpenSpec": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/Fission-AI/OpenSpec#readme",
+  "install": [
+   "npm install -g @fission-ai/openspec@latest",
+   "brew install openspec"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "Requires Node.js 20.19.0 or higher. Homebrew installs it as a dependency.\nInstall OpenSpec globally:\nOr install the official Homebrew formula on macOS or Linux:\nThen navigate to your project directory and initialize:\n> Want your AI to do it? Paste the setup prompt into your coding assistant — it installs the CLI, runs openspec init, and verifies the result.\nNow talk to your AI:\n• Not sure what to build yet? Start with /opsx:explore, a no-stakes thinking partner that reads your code, weighs options, and shapes a plan before any code gets written. (Explore guide)\n• Already know what you want? Go straight to /opsx:propose…",
+  "usage_code": "npm install -g @fission-ai/openspec@latest",
+  "license": "MIT",
+  "homepage": "https://openspec.dev/",
+  "topics": [
+   "ai",
+   "context-engineering",
+   "engineering",
+   "planning",
+   "prd",
+   "sdd",
+   "sdlc",
+   "spec"
+  ],
+  "default_branch": "main"
+ },
+ "FxEmbed/FxEmbed": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/FxEmbed/FxEmbed#readme",
+  "install": [
+   "docker compose up -d --build",
+   "curl -H \"Host: fxtwitter.com\" -H \"User-Agent: Discordbot/2.0\" \"http://localhost:8787/user/status/123\"",
+   "docker compose down"
+  ],
+  "usage_title": "Embed videos, polls, quotes, translations, & more on Discord",
+  "usage_text": "[![Crowdin][crowdinbadge]][crowdin]\n[![esbuild][buildbadge]][build]\n[![Tests][testsbadge]][tests]\n[![Status][statusbadge]][status]\n[![License][licensebadge]][license]\n[build]: https://github.com/FxEmbed/FxEmbed/actions/workflows/build.yml\n[buildbadge]: https://github.com/FxEmbed/FxEmbed/actions/workflows/build.yml/badge.svg\n[tests]: https://github.com/FxEmbed/FxEmbed/actions/workflows/tests.yml\n[testsbadge]: https://github.com/FxEmbed/FxEmbed/actions/workflows/tests.yml/badge.svg\n[license]: https://github.com/FxEmbed/FxEmbed/blob/main/LICENSE.md\n[licensebadge]: https://img.shields.io/github/license/FxEmbed/FxEmbed\n[status]: https://status.fxtwitter.com…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://docs.fxembed.com",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "HKUDS/CLI-Anything": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/HKUDS/CLI-Anything#readme",
+  "install": [
+   "pip install cli-anything-hub",
+   "npx skills add HKUDS/CLI-Anything --skill cli-hub-meta-skill -g -y"
+  ],
+  "usage_title": "🚀 Quick Start",
+  "usage_text": "CLI-Anything has two equally useful starting points:\n Phase 1: Empower yourself — your CLI toolkit \nInstall the CLI-Hub package manager first. It lets you browse, search, inspect, install, update, uninstall, and launch CLI-Anything harnesses plus public third-party CLIs from one command.\nPIP\n> Some CLIs wrap real desktop or backend software. If a selected CLI needs GIMP, Blender, LibreOffice, or another upstream tool, install that upstream application too.\n Phase 1.5: Empower your agents — install in one command \nGive SKILL-compatible agents the CLI-Hub meta-skill so they can discover and install the right CLI for a task.\nAlso available on: ClawHub, SkillHub, SkillHub.cn\nNPX SKILLS…",
+  "usage_code": "pip install cli-anything-hub",
+  "license": "Apache-2.0",
+  "homepage": "https://clianything.cc/",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "JetBrains/go-modern-guidelines": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/JetBrains/go-modern-guidelines#readme",
+  "install": [
+   "codex plugin marketplace add JetBrains/go-modern-guidelines",
+   "codex plugin add modern-go-guidelines@goland-codex-marketplace"
+  ],
+  "usage_title": "Usage",
+  "usage_text": "Claude Code invokes the skill automatically when it is relevant to a Go task.\nTo invoke it explicitly:",
+  "usage_code": "/modern-go-guidelines:use-modern-go",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "ai-agents",
+   "coding-agent",
+   "developer-tools",
+   "go",
+   "golang",
+   "guidelines"
+  ],
+  "default_branch": "main"
+ },
+ "JustVugg/colibri": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/JustVugg/colibri#readme",
+  "install": [
+   "git clone https://github.com/JustVugg/colibri && cd colibri/c",
+   "curl -s http://127.0.0.1:8000/v1/brio -H 'Content-Type: application/json' -d '{"
+  ],
+  "usage_title": "See it running",
+  "usage_text": "The web dashboard ( ./coli web ), redesigned in 1.12.0: a workspace with a dock for the chat,\nBrio mode, the Brain page and Profiling, in a light or a dark theme. Here Qwen3.6 answering on a CPU box,\nexperts streamed from disk. \n Brio mode : the same model, told to stop writing. Give it a document and the only answers\nit may pick; it reads the probability of each one, generates nothing, and reports an entropy that says when it is\nnot sure. Here: request changes at 99.9% , entropy 0.005, 4 tokens read, 0 generated. \n The Brain page, Explore : the measured expert atlas of GLM-5.2\ndrawn as a cortex. 13,260 characterised experts in ten regions (Python, SQL, mathematics, poetry, law, Chinese…)…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://justvugg.github.io/colibri",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "K-Dense-AI/scientific-agent-skills": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/K-Dense-AI/scientific-agent-skills#readme",
+  "install": [
+   "curl -LsSf https://astral.sh/uv/install.sh | sh",
+   "pip install uv"
+  ],
+  "usage_title": "🎥 More tutorials",
+  "usage_text": "Recorded walkthroughs of these skills on real research tasks, from the K-Dense YouTube channel:\n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://arxiv.org/abs/2609.00065",
+  "topics": [
+   "agent-skills",
+   "ai-scientist",
+   "bioinformatics",
+   "chemoinformatics",
+   "claude",
+   "claude-skills",
+   "claudecode",
+   "clinical-research"
+  ],
+  "default_branch": "main"
+ },
+ "Lakr233/vphone-cli": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/Lakr233/vphone-cli#readme",
+  "install": [
+   "git clone https://github.com/Lakr233/vphone-cli.git"
+  ],
+  "usage_title": "Get started",
+  "usage_text": "You need an Apple Silicon Mac running macOS 15 or newer, Xcode to build from source, an iPhone restore IPSW, and a compatible cloudOS IPSW. Follow host setup to permit the VM's private entitlements, then check the verified firmware pairs. A nested macOS VM cannot run the guest.\nvm create prepares and restores the guest, installs the JB system changes, and checks that vphoned responds. It stops the verification boot when finished; vm launch starts the VM window for use. Creation needs network access and administrator privileges for CFW installation. See create and run for details.\nVersion 2.x starts only VMs created with its schemaVersion=2 format. Older VMs must be recreated.",
+  "usage_code": "git clone https://github.com/Lakr233/vphone-cli.git\ncd vphone-cli\nxcodebuild -workspace VPhone.xcworkspace -scheme VPhone \\\n  -configuration Debug -destination 'platform=macOS,arch=arm64' \\\n  -derivedDataPath .build/XcodeBundle build\nexport PATH=\"$PWD/.build/XcodeBundle/Build/Products/Debug/VPhone.bundle/Contents/MacOS:$PATH\"\n\nvphone-cli host preflight\nvphone-cli vm create myphone \\\n  --iphone-source /path/to/iPhone17,3_Restore.ipsw \\\n  --cloudos-source /path/to/cloudOS.ipsw\nvphone-cli vm launch myphone",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "LibreChat-AI/LibreChat": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/LibreChat-AI/LibreChat#readme",
+  "install": [],
+  "usage_title": "✨ Features",
+  "usage_text": "• 🖥️ UI & Experience inspired by ChatGPT with enhanced design and features\n• 🤖 AI Model Selection: \n• Anthropic (Claude), AWS Bedrock, OpenAI, Azure OpenAI, Google, Vertex AI, OpenAI Responses API (incl. Azure)\n• Custom Endpoints: Use any OpenAI-compatible API with LibreChat, no proxy required\n• Compatible with Local & Remote AI Providers:\n• Ollama, AMD Lemonade, groq, Cohere, Mistral AI, Apple MLX, koboldcpp, together.ai,\n• OpenRouter, Helicone, Perplexity, ShuttleAI, Deepseek, Qwen, and more\n• 🔧 Code Interpreter API: \n• Secure, Sandboxed Execution in Python, Node.js (JS/TS), Go, C/C++, Java, PHP, Rust, and Fortran\n• Seamless File Handling: Upload, process, and download files directly…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://librechat.ai/",
+  "topics": [
+   "ai",
+   "anthropic",
+   "artifacts",
+   "aws",
+   "azure",
+   "chatgpt",
+   "chatgpt-clone",
+   "claude"
+  ],
+  "default_branch": "main"
+ },
+ "NVIDIA/Model-Optimizer": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/NVIDIA/Model-Optimizer#readme",
+  "install": [
+   "pip install -U nvidia-modelopt[all]",
+   "git clone git@github.com:NVIDIA/Model-Optimizer.git",
+   "pip install -e .[dev]"
+  ],
+  "usage_title": "NVIDIA Model Optimizer",
+  "usage_text": "Documentation |\nRoadmap |\nAnnouncement Blogs\n______________________________________________________________________\nNVIDIA Model Optimizer (referred to as Model Optimizer, or ModelOpt) is a library comprising state-of-the-art model optimization techniques including quantization, pruning, Neural Architecture Search (NAS), distillation, speculative decoding and sparsity to accelerate models.\n[Input] Model Optimizer currently supports inputs of a Hugging Face, PyTorch or ONNX model.\n[Optimize] Model Optimizer provides Python APIs for users to easily compose the above model optimization techniques and export an optimized quantized checkpoint…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://nvidia.github.io/Model-Optimizer/",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "THU-MAIC/OpenMAIC": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/THU-MAIC/OpenMAIC#readme",
+  "install": [
+   "git clone https://github.com/THU-MAIC/OpenMAIC.git",
+   "pnpm install"
+  ],
+  "usage_title": "3. Run",
+  "usage_text": "Open http://localhost:3000 and start learning!",
+  "usage_code": "pnpm dev",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "Tencent/BrowserSkill": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/Tencent/BrowserSkill#readme",
+  "install": [
+   "curl -fsSL https://raw.githubusercontent.com/Tencent/BrowserSkill/main/install.sh | sh",
+   "pnpm install --frozen-lockfile"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "For local automation, you need an AI agent + the bsk CLI + the browser extension. The CLI includes the background daemon. The skill teaches your agent how to use it.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "agent",
+   "browser-use",
+   "dsh-plugin"
+  ],
+  "default_branch": "main"
+ },
+ "Tencent/WeKnora": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/Tencent/WeKnora#readme",
+  "install": [
+   "git clone https://github.com/Tencent/WeKnora.git",
+   "docker compose pull  # Pull the latest images",
+   "docker compose up -d  # Start core services",
+   "docker compose --profile neo4j --profile minio pull",
+   "docker compose --profile neo4j --profile minio up -d",
+   "docker compose down  # Stop services"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "ONLINE \n WeChat Dialog Open Platform \n Manage knowledge bases online and connect Q&A to Official Accounts, Mini Programs and other WeChat scenarios. \n Open the platform → \n CLOUD \n Tencent Cloud Lighthouse \n Deploy WeKnora from an application template and run it on your own cloud server. \n Deploy on Tencent Cloud → \n SELF-HOSTED \n Your own environment \n Deploy with Docker or Kubernetes and configure models, storage and networking yourself. \n Run with Docker Compose ↓",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://weknora.weixin.qq.com",
+  "topics": [
+   "agent",
+   "agentic",
+   "ai",
+   "chatbot",
+   "dsh-plugin",
+   "embeddings",
+   "evaluation",
+   "generative-ai"
+  ],
+  "default_branch": "main"
+ },
+ "TencentCloud/Octop": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/TencentCloud/Octop#readme",
+  "install": [
+   "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash",
+   "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.bat -o install.bat",
+   "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash -s -- --extras browser",
+   "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash -s -- --extras channels-feishu",
+   "pip install octop"
+  ],
+  "usage_title": "3. Run",
+  "usage_text": "Open http://127.0.0.1:8088. With Docker, the first init generates a random admin password (written to /data/.octop/credential.txt) unless OCTOPDEFAULTPASSWORD is set. Interactive octop init / the setup wizard asks you to choose a password (≥8 characters, letters and digits).",
+  "usage_code": "# Foreground (API + Web dashboard)\noctop run\n\n# Custom host / port\noctop run --host 0.0.0.0 --port 8088\n\n# Register as a system service (systemd / launchd / Windows service)\noctop service start",
+  "license": "MIT",
+  "homepage": "https://octop.cloud",
+  "topics": [
+   "agent",
+   "agentic-ai",
+   "ai",
+   "ai-agent",
+   "ai-agents",
+   "local-first",
+   "long-term-memory"
+  ],
+  "default_branch": "main"
+ },
+ "addyosmani/agent-skills": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/addyosmani/agent-skills#readme",
+  "install": [
+   "npx skills add addyosmani/agent-skills  # install all 25 skills",
+   "npx skills add addyosmani/agent-skills --list  # browse before installing",
+   "npx skills add addyosmani/agent-skills --skill code-review-and-quality  # five-axis review before merge",
+   "npx skills add addyosmani/agent-skills --skill interview-me  # requirements interrogation, one question at a time",
+   "npx skills add addyosmani/agent-skills --skill test-driven-development  # red-green-refactor, enforced",
+   "git clone https://github.com/addyosmani/agent-skills.git"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "Fastest path — any agent, one command. The open skills CLI installs into 70+ agents (Claude Code, Cursor, Codex, Copilot, Cline, and more):\nOr grab individual skills:\n> Installing one skill? A per-skill npx install copies only\n> skills/ /, not the repo-level references/ directory. The skill still\n> works, but paths to supplementary shared checklists are unavailable. Use a\n> whole-repo integration, clone the repository, or copy the needed checklist into\n> a references/ directory inside the installed skill. This portability gap is\n> tracked in #361.\nPrefer a native integration? Pick your tool below.\n Claude Code (recommended) \nMarketplace install…",
+  "usage_code": "npx skills add addyosmani/agent-skills            # install all 25 skills\nnpx skills add addyosmani/agent-skills --list     # browse before installing",
+  "license": "MIT",
+  "homepage": "https://skills.addy.ie",
+  "topics": [
+   "agent-skills",
+   "antigravity",
+   "claude-code",
+   "codex",
+   "cursor",
+   "skills"
+  ],
+  "default_branch": "main"
+ },
+ "affaan-m/ECC": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/affaan-m/ECC#readme",
+  "install": [
+   "npx ecc-universal@2.2.2 setup",
+   "bash ./install.sh --target claude --modules hooks-runtime --enable-hooks",
+   "npx ecc-universal@2.2.2 list-installed",
+   "npx ecc-universal@2.2.2 doctor",
+   "npx ecc-universal@2.2.2 repair",
+   "npx ecc-universal@2.2.2 uninstall --dry-run"
+  ],
+  "usage_title": "Running Tests",
+  "usage_text": "The plugin includes a comprehensive test suite:",
+  "usage_code": "# Run all tests\nnode tests/run-all.js\n\n# Run individual test files\nnode tests/lib/utils.test.js\nnode tests/lib/package-manager.test.js\nnode tests/hooks/hooks.test.js",
+  "license": "MIT",
+  "homepage": "https://ecc.tools",
+  "topics": [
+   "ai-agents",
+   "anthropic",
+   "claude",
+   "claude-code",
+   "developer-tools",
+   "llm",
+   "mcp",
+   "productivity"
+  ],
+  "default_branch": "main"
+ },
+ "akitaonrails/ai-memory": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/akitaonrails/ai-memory#readme",
+  "install": [
+   "git clone https://github.com/akitaonrails/ai-memory",
+   "curl -fsSL \"$wrapper_base\" -o \"$wrapper_tmp/ai-memory-wrapper\"",
+   "curl -fsSL \"$wrapper_base.sha256\" -o \"$wrapper_tmp/ai-memory-wrapper.sha256\""
+  ],
+  "usage_title": "How it works",
+  "usage_text": "Agents emit sanitized observations through lifecycle hooks as you work.\nAt session end, observations become coherent markdown pages in the\nproject's wiki (optionally LLM-written; useful even without). The next\nsession — any agent, any machine — gets a bounded brief and can search\neverything: full-text, entities, links, and (optionally) vectors, fused\ninto one ranking. Cross-agent handoffs carry the baton explicitly.\nThe full design, including the invariants that keep multi-user and\nmulti-session use safe, is in docs/ARCHITECTURE.md.",
+  "usage_code": "capture ──▶ consolidate ──▶ recall ──▶ handoff\n hooks        session-end      search     next agent,\n observe      summaries as     + brief    any harness\n silently     wiki pages       injection",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "alibaba/open-code-review": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/alibaba/open-code-review#readme",
+  "install": [
+   "npm install -g @alibaba-group/open-code-review"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "1. Configure LLM\nYou must configure an LLM before reviewing code, unless you use Delegation Mode.\nThe interactive UI guides you through provider selection, API key entry, and model configuration, then automatically tests connectivity.\nFor CLI setup, environment variables, custom providers, and other advanced configuration, see Configuration.\n2. Review",
+  "usage_code": "ocr config provider          # Select a built-in provider or add a custom one\nocr config model             # Pick a model for the active provider",
+  "license": "Apache-2.0",
+  "homepage": "https://open-codereview.ai",
+  "topics": [
+   "agent",
+   "agent-skills",
+   "code-review",
+   "code-review-assistant",
+   "harness",
+   "repository-level-context"
+  ],
+  "default_branch": "main"
+ },
+ "anthropics/claude-code": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/anthropics/claude-code#readme",
+  "install": [
+   "curl -fsSL https://claude.ai/install.sh | bash",
+   "brew install --cask claude-code",
+   "winget install Anthropic.ClaudeCode",
+   "npm install -g @anthropic-ai/claude-code"
+  ],
+  "usage_title": "Get started",
+  "usage_text": "> [!NOTE]\n> Installation via npm is deprecated. Use one of the recommended methods below.\nFor more installation options, uninstall steps, and troubleshooting, see the setup documentation.\n1. Install Claude Code:\n MacOS/Linux (Recommended):\n Homebrew (MacOS/Linux):\n Windows (Recommended):\n WinGet (Windows):\n NPM (Deprecated):\n2. Navigate to your project directory and run claude.",
+  "usage_code": "    curl -fsSL https://claude.ai/install.sh | bash\n    ",
+  "license": "",
+  "homepage": "https://code.claude.com/docs/en/overview",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "anthropics/financial-services": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/anthropics/financial-services#readme",
+  "install": [
+   "claude plugin install claude-for-msft-365-install@claude-for-financial-services",
+   "claude plugin marketplace add anthropics/financial-services",
+   "claude plugin install financial-analysis@claude-for-financial-services",
+   "claude plugin install pitch-agent@claude-for-financial-services",
+   "claude plugin install gl-reconciler@claude-for-financial-services",
+   "claude plugin install market-researcher@claude-for-financial-services"
+  ],
+  "usage_title": "Claude for Financial Services",
+  "usage_text": "Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.\nEverything here is available two ways from one source: install it as a Claude Cowork plugin, or deploy it through the Claude Managed Agents API behind your own workflow engine. Same system prompt, same skills — you choose where it runs.\n> [!IMPORTANT]…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "anthropics/knowledge-work-plugins": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/anthropics/knowledge-work-plugins#readme",
+  "install": [
+   "claude plugin marketplace add anthropics/knowledge-work-plugins",
+   "claude plugin install sales@knowledge-work-plugins"
+  ],
+  "usage_title": "Knowledge Work Plugins",
+  "usage_text": "Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork, also compatible with Claude Code.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "ayghri/i-have-adhd": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/ayghri/i-have-adhd#readme",
+  "install": [
+   "claude plugin marketplace add <your-username>/i-have-adhd",
+   "claude plugin install i-have-adhd@i-have-adhd"
+  ],
+  "usage_title": "What it does",
+  "usage_text": "A skill for your coding assistant that stops it from burying the answer. Action first. Steps numbered. No \"Hope this helps!\"\nKacper Rutkiewicz | AI Made Simple has made a good breakdown of an earlier version of the skill.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "adhd",
+   "claude-",
+   "claude-code-plugin",
+   "claude-skills",
+   "developer-tools",
+   "productivity"
+  ],
+  "default_branch": "main"
+ },
+ "bilawalsidhu/gods-eye-view": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/bilawalsidhu/gods-eye-view#readme",
+  "install": [
+   "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
+   "npm run doctor",
+   "npm run dev"
+  ],
+  "usage_title": "⚡ Quick Start",
+  "usage_text": "Start without an account or API keys. Both paths open the same app with\nEsri satellite imagery and keyless terrain. OSM is the fallback if Esri is\nunreachable. Flights, military traffic, satellites, earthquakes, public\ncameras, radio, and launches are available without keys.\nFor photorealistic 3D, add a Cesium ion token for eligible personal,\nnon-commercial use, or a Google Maps key for the direct, metered route and\nGoogle place search. Provider terms and quotas apply. Add keys through the\napp's POWER UP panel; Keys & Costs explains the options.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://maptheworld.ai/",
+  "topics": [
+   "3d-globe",
+   "cesium",
+   "flight-tracking",
+   "geospatial",
+   "geospatial-intelligence",
+   "gis",
+   "osint",
+   "photogrammetry"
+  ],
+  "default_branch": "main"
+ },
+ "cilium/cilium": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/cilium/cilium#readme",
+  "install": [],
+  "usage_title": "",
+  "usage_text": "",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://cilium.io",
+  "topics": [
+   "bpf",
+   "cncf",
+   "cni",
+   "containers",
+   "ebpf",
+   "k8s",
+   "kernel",
+   "kubernetes"
+  ],
+  "default_branch": "main"
+ },
+ "cline/cline": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/cline/cline#readme",
+  "install": [
+   "npm install @cline/sdk"
+  ],
+  "usage_title": "CLI",
+  "usage_text": "Run Cline in your terminal.\nInteractive chat or fully headless \nfor CI/CD and scripting.\n Learn more",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://cline.bot",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "cloudflare/quiche": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/cloudflare/quiche#readme",
+  "install": [
+   "cargo run --bin quiche-client -- https://cloudflare-quic.com/",
+   "cargo run --bin quiche-server -- --cert apps/src/bin/cert.crt --key apps/src/bin/cert.key",
+   "git clone https://github.com/cloudflare/quiche",
+   "cargo install cargo-ndk",
+   "cargo install cargo-lipo"
+  ],
+  "usage_title": "Cloudflare",
+  "usage_text": "quiche powers Cloudflare edge network's [HTTP/3 support][cloudflare-http3]. The\ncloudflare-quic.com website can be used for\ntesting and experimentation.",
+  "usage_code": "",
+  "license": "BSD-2-Clause",
+  "homepage": "https://docs.quic.tech/quiche/",
+  "topics": [
+   "http3",
+   "network-programming",
+   "protocol",
+   "quic",
+   "rust"
+  ],
+  "default_branch": "master"
+ },
+ "cloudflare/security-audit-skill": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
+  "install": [
+   "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
+   "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit --global"
+  ],
+  "usage_title": "Usage",
+  "usage_text": "Start your coding agent in (or pointed at) the codebase you want to audit, then ask it to do a security audit:\nThe skill activates automatically when the request matches its trigger (security audit, find vulnerabilities, pen-test the code, etc.). A direct codebase audit or pen-test request uses full audit mode. Security questions and focused vulnerability work use guidance mode unless you request report artifacts. In full audit mode, an unspecified output directory defaults to ~/security-audit-skill/ /run- . The workflow writes inside the target repository only when you explicitly select a directory that version control ignores.",
+  "usage_code": "security audit this codebase",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "cursor/plugins": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/cursor/plugins#readme",
+  "install": [],
+  "usage_title": "Cursor plugins",
+  "usage_text": "Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "davila7/claude-code-templates": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/davila7/claude-code-templates#readme",
+  "install": [
+   "npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests --mcp development/github-integration --yes",
+   "npx claude-code-templates@latest",
+   "npx claude-code-templates@latest --agent development-tools/code-reviewer --yes",
+   "npx claude-code-templates@latest --command performance/optimize-bundle --yes",
+   "npx claude-code-templates@latest --setting performance/mcp-timeouts --yes",
+   "npx claude-code-templates@latest --hook git/pre-commit-validation --yes"
+  ],
+  "usage_title": "Claude Code Templates (aitmpl.com)",
+  "usage_text": "Ready-to-use configurations for Anthropic's Claude Code. A comprehensive collection of AI agents, custom commands, settings, hooks, external integrations (MCPs), and project templates to enhance your development workflow.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://aitmpl.com",
+  "topics": [
+   "anthropic",
+   "anthropic-claude",
+   "claude",
+   "claude-code"
+  ],
+  "default_branch": "main"
+ },
+ "debpalash/VoiceStudio": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
+  "install": [
+   "curl -fsSL https://voicestudio.sh/install | sh",
+   "curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z",
+   "curl -fsSL https://voicestudio.sh/install | sh -s -- --main",
+   "curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall",
+   "git clone https://github.com/debpalash/VoiceStudio.git",
+   "bun install"
+  ],
+  "usage_title": "Your voice. Your workflow.",
+  "usage_text": "Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine. Features & engine catalog.\nLocal workflows run on your hardware. Remote services are optional; usage analytics requires consent.\n Explore the workspaces · Clone, dub, design & models \n Voice cloning Video dubbing \n Voice design Local models",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://voicestudio.sh",
+  "topics": [
+   "ai",
+   "audiobook",
+   "cuda",
+   "dubbing",
+   "elevenlabs-alternative",
+   "huggingface",
+   "local-first",
+   "mlx"
+  ],
+  "default_branch": "main"
+ },
+ "dream-num/univer": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/dream-num/univer#readme",
+  "install": [
+   "pnpm add @univerjs/presets @univerjs/preset-sheets-core",
+   "git clone https://github.com/dream-num/univer.git",
+   "pnpm install"
+  ],
+  "usage_title": "Featured example: Univer Workspace",
+  "usage_text": "Univer Workspace is an open-source, self-hostable workspace built on Univer Office SDK, where people and AI agents create, collaborate on, and review Office content. Developers can use the complete implementation as a reference, learn how to integrate the SDK, and build their own products.\n• Agents can generate spreadsheet-based mini-apps, such as decision-making dashboards, interactive reports, and business dashboards.\n• Metrics, charts, and controls on the web page are bound to cells, supporting data reads, writes, and collaborative updates.\nExplore Univer Workspace",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.univer.ai",
+  "topics": [
+   "board",
+   "collaboration",
+   "data-table",
+   "doc",
+   "docx",
+   "excel",
+   "grid",
+   "pdf"
+  ],
+  "default_branch": "dev"
+ },
+ "ever-co/ever-gauzy": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/ever-co/ever-gauzy#readme",
+  "install": [],
+  "usage_title": "✨ Features",
+  "usage_text": "Main features:\n• Human Resources Management (HRM) with Time Management / Tracking and Employees Performance Monitoring\n• Customer Relationship Management (CRM)\n• Enterprise Resource Planning (ERP)\n• Projects / Tasks Management\n• Sales Management\n• Financial and Cost Management (including Accounting, Invoicing, etc)\n• Inventory, Supply Chain Management, and Production Management\nA more detailed list of the features available in the platform:\n• Headless APIs\n• Dashboard (provides an overview of different metrics, such as company income/expenses, employee bonuses, etc.)\n• Time Management / Time Tracking / Activity Tracking / Timesheets…",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://gauzy.co",
+  "topics": [
+   "accounting",
+   "billing",
+   "bookkeeping",
+   "crm",
+   "crm-platform",
+   "erp",
+   "expenses",
+   "hr"
+  ],
+  "default_branch": "develop"
+ },
+ "every-app/open-seo": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/every-app/open-seo#readme",
+  "install": [
+   "npx skills add every-app/open-seo --skill simple-issue-description"
+  ],
+  "usage_title": "OpenSEO",
+  "usage_text": "> Open source alternative to Semrush and Ahrefs\nOpenSEO is an SEO tool for the people. If tools like Semrush or Ahrefs are too expensive or bloated, OpenSEO is a pay-as-you-go alternative that you actually control.\n> All-in-one SEO tool for you and your AI agent.\nConnect with any agent like Claude Code, OpenClaw or Hermes. We have pre-built skills, but you can build your own to tailor OpenSEO to your needs.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://openseo.so",
+  "topics": [
+   "backlink-analysis",
+   "google-search-console-mcp",
+   "keyword-research",
+   "mcp",
+   "seo",
+   "seo-agent",
+   "seo-audit",
+   "seo-automation"
+  ],
+  "default_branch": "main"
+ },
+ "google-research/timesfm": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/google-research/timesfm#readme",
+  "install": [
+   "git clone https://github.com/google-research/timesfm.git",
+   "uv pip install -e .[torch]"
+  ],
+  "usage_title": "TimesFM",
+  "usage_text": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation\nmodel developed by Google Research for time-series forecasting.\n• Paper:\n A decoder-only foundation model for time-series forecasting,\n ICML 2024.\n• (NEW!) TimesFM 3.0 Checkpoint:\n google/timesfm-3.0-pytorch.\n• Checkpoints (up to 2.5):\n TimesFM Hugging Face Collection.\n• Google Research blog\n (New blog post for TimesFM 3.0 coming soon!).\n• TimesFM in Google 1P Products:\n• BigQuery ML:\n Enterprise level SQL queries for scalability and reliability.\n• Google Sheets:\n For your daily spreadsheet.\n• Vertex Model Garden:\n Dockerized endpoint for agentic calling…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/",
+  "topics": [],
+  "default_branch": "master"
+ },
+ "google/ax": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/google/ax#readme",
+  "install": [
+   "go install github.com/google/ax/cmd/ax@latest"
+  ],
+  "usage_title": "3. Run your first task",
+  "usage_text": "Want to see the whole lifecycle end to end? Run ./demo.sh. It applies a custom workspace, waits for readiness, runs commands over ax ssh, and suspends the task.",
+  "usage_code": "ax apply -f examples/task.yaml       # Task + Workspace + Gateway + Model in one file\nax get tasks\n# NAME      ATESPACE   PHASE     ACTOR           WORKER-IP    AGE\n# task123   default    Running   task123         10.20.3.67   1m\n\nax watch task task123                # stream phase and condition changes live\nax ssh task123 -- ls -la /workspace  # poke around inside the sandbox\nax suspend task task123              # checkpoint and pause\nax resume task task123               # pick up where it left off",
+  "license": "Apache-2.0",
+  "homepage": "https://agentexecutor.io",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "jingyaogong/minimind": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/jingyaogong/minimind#readme",
+  "install": [
+   "git clone --depth 1 https://github.com/jingyaogong/minimind",
+   "git clone https://huggingface.co/jingyaogong/minimind-3",
+   "ollama run jingyaogong/minimind-3",
+   "git clone https://github.com/EleutherAI/lm-evaluation-harness",
+   "curl http://localhost:8998/v1/chat/completions -H \"Content-Type: application/json\" -d '{",
+   "ollama create -f minimind.modelfile minimind-local"
+  ],
+  "usage_title": "📌 项目介绍",
+  "usage_text": "大语言模型（Large Language Model, LLM）的出现，引发了全球范围内对 AI 的空前关注。无论是 ChatGPT、DeepSeek 还是 Qwen，都以惊艳的效果让人真切感受到这场技术浪潮的冲击力。然而，动辄数百亿参数的模型规模，使得它们对个人设备而言不仅难以训练，甚至连部署都显得遥不可及。打开大模型的“黑盒子”，真正去理解其内部运作机制，本应是一件令人心潮澎湃的事。遗憾的是，绝大多数探索最终都止步于使用 LoRA 等技术对现有大模型做少量微调，学习一些新指令或特定任务。这更像是在教牛顿如何使用 21 世纪的智能手机——虽然有趣，却偏离了理解物理本质的初衷。\n与此同时，第三方的大模型框架与工具库，如 transformers / trl / peft 等，往往只暴露出高度抽象的接口。只需短短十几行代码，就可以完成“加载模型 + 加载数据集 + 推理 + 强化学习”的全流程训练。这种高效封装固然便利，却也在一定程度上把开发者与底层实现隔离开来，削弱了深入理解 LLM 核心代码的机会。我认为 “用乐高自己拼出一架飞机，远比坐在头等舱里飞行更让人兴奋”，然而更现实的问题是，互联网上充斥着大量付费课程和营销内容，用漏洞百出、一知半解的讲解包装所谓的 AI 教程。正因如此，本项目的初衷就是尽可能降低 LLM 的学习门槛，让每个人都能从理解每一行代码开始，从 0 开始亲手训练一个极小的语言模型。是的，从零开始训练，而不是仅仅停留在推理层面。最低只需不到 3 块钱的服务器成本，就能亲身体验从 0 到 1 构建一个语言模型的全过程。\n😊 一起感受创造的乐趣吧！\n---",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://jingyaogong.github.io/minimind",
+  "topics": [
+   "artificial-intelligence",
+   "large-language-model"
+  ],
+  "default_branch": "master"
+ },
+ "julyx10/lap": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/julyx10/lap#readme",
+  "install": [
+   "brew install --cask lap",
+   "brew install nasm pkg-config autoconf automake libtool cmake",
+   "git clone --recursive https://github.com/julyx10/lap.git",
+   "cargo install tauri-cli --version \"^2.0.0\" --locked",
+   "apt install gstreamer1.0-libav gstreamer1.0-plugins-good"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Flexible library browsing by date, folder, location, camera, lens, tags, ratings, and faces, with random sorting and a small-image filter.\n• Interactive Map View to explore geotagged photos and videos in clusters that follow your current filters.\n• Smart Albums save rule-based views with custom grouping and sorting.\n• Collections and tags to organize selected files in bulk without moving or duplicating the originals.\n• Local AI search for text prompts, visual similarity, subjects, face clustering, and optional multilingual search in 50+ languages.\n• Apple Live Photos and Google Motion Photos with motion playback and a unified Smart Album filter…",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "https://julyx10.github.io/lap/",
+  "topics": [
+   "desktop-app",
+   "digital-asset-manager",
+   "duplicate-detection",
+   "face-recognition",
+   "family-photos",
+   "image-search",
+   "large-photo-collections",
+   "linux-app"
+  ],
+  "default_branch": "main"
+ },
+ "leejet/stable-diffusion.cpp": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/leejet/stable-diffusion.cpp#readme",
+  "install": [
+   "curl -L -O https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Plain C/C++ implementation based on ggml, working in the same way as llama.cpp\n• Super lightweight and without external dependencies\n• Supported models\n• Image Models\n• SD1.x, SD2.x, SD-Turbo\n• SDXL, SDXL-Turbo\n• Some SD1.x and SDXL distilled models\n• SD3/SD3.5\n• FLUX.1-dev/FLUX.1-schnell\n• FLUX.2-dev/FLUX.2-klein\n• Lens\n• Chroma\n• Chroma1-Radiance\n• Qwen Image\n• Qwen Image 2.1\n• PiD\n• LongCat Image\n• Z-Image\n• MiniT2I\n• SenseNova U1.5\n• Ovis-Image\n• Anima\n• ERNIE-Image\n• Boogu Image\n• Krea2\n• Mage-Flow\n• SeFi-Image\n• HiDream-O1-Image\n• Ideogram4\n• LLaDA-Image\n• Image Edit Models\n• FLUX.1-Kontext-dev\n• Qwen Image Edit series\n• LongCat Image Edit\n• Boogu Image Edit\n• Mage-Flow-Edit…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "ai",
+   "cplusplus",
+   "diffusion",
+   "flux",
+   "flux-dev",
+   "ggml",
+   "image-generation",
+   "image2image"
+  ],
+  "default_branch": "master"
+ },
+ "magnitudedev/magnitude": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/magnitudedev/magnitude#readme",
+  "install": [],
+  "usage_title": "Get started",
+  "usage_text": "1. Download Magnitude, install it, and open the app.\n2. Choose a recommended model in Discover and download it.\n3. Connect your agent in Connections and start using it.\nThe desktop app includes the magnitude CLI. No separate installation is needed.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://magnitude.dev",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "melgarafael/DeskcommCRM": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/melgarafael/DeskcommCRM#readme",
+  "install": [
+   "curl -fsSL https://raw.githubusercontent.com/melgarafael/DeskcommCRM/main/hostgator-setup-kit/comecar.sh | bash",
+   "git clone https://github.com/melgarafael/DeskcommCRM.git",
+   "bash hostgator-setup-kit/install.sh",
+   "curl -fsSL https://raw.githubusercontent.com/melgarafael/DeskcommCRM/main/scripts/instalar-guias.sh | bash",
+   "curl -fsSL https://raw.githubusercontent.com/melgarafael/DeskcommCRM/main/scripts/instalar-guias.sh | bash -s -- --remover",
+   "bash hostgator-setup-kit/update.sh"
+  ],
+  "usage_title": "🛠️ DeskcommCRM — o Sistema Operacional de Vendas com IA, ope",
+  "usage_text": "Agentes de IA que atendem, qualificam e vendem no WhatsApp — dentro de um CRM open source rodando no seu servidor.\nSem mensalidade, sem feature travada, seus dados com você. A alternativa aberta a Kommo, Octadesk e Intercom.\n⚡ Instalar · 🔄 Atualizar · 🧭 Visão · 🏗️ Arquitetura · 🤝 Contribuir · 🗺️ Roadmap\n---\n> ### ☁️ Rode este CRM em produção com 1 comando\n>\n> O DeskcommCRM foi desenvolvido em parceria com a HostGator: o hostgator-setup-kit/\n> instala o CRM completo (app + WhatsApp + banco) numa VPS com um único comando, e o\n> runbook de produção já assume esse ambiente.\n>\n> 👉 Assinar a VPS HostGator com desconto da parceria —…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://deskcomm.com.br",
+  "topics": [
+   "ai",
+   "ai-agents",
+   "chatbot",
+   "crm",
+   "customer-support",
+   "ecommerce",
+   "lgpd",
+   "mcp"
+  ],
+  "default_branch": "main"
+ },
+ "mvt-project/mvt": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/mvt-project/mvt#readme",
+  "install": [
+   "pip3 install mvt",
+   "curl -LsSf https://astral.sh/uv/install.sh | sh",
+   "uv tool install mvt"
+  ],
+  "usage_title": "Usage",
+  "usage_text": "MVT provides three commands: mvt-ios and mvt-android analyse acquisitions from devices of that platform, and mvt hosts what belongs to neither: version, completion, plugins and download-iocs (version and download-iocs remain available on the platform commands for now). Running mvt on its own shows the installed version, update notices and the available commands. Check out the documentation to learn how to use them!\nPass --verbose to any of the three commands, before the command name (mvt-ios --verbose check-backup ...), for debug output. The --verbose option the check-* commands accept after their name still works but is kept for compatibility only and will be removed in a future release.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://mvt.re",
+  "topics": [
+   "android",
+   "forensics",
+   "forensics-tools",
+   "ios",
+   "mobile",
+   "security"
+  ],
+  "default_branch": "main"
+ },
+ "obra/superpowers": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/obra/superpowers#readme",
+  "install": [
+   "git clone https://github.com/obra/superpowers.git"
+  ],
+  "usage_title": "How it works",
+  "usage_text": "It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it doesn't just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \nAfter you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "ai",
+   "brainstorming",
+   "coding",
+   "obra",
+   "sdlc",
+   "skills",
+   "subagent-driven-development",
+   "superpowers"
+  ],
+  "default_branch": "main"
+ },
+ "omacom/omarchy": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/omacom/omarchy#readme",
+  "install": [],
+  "usage_title": "Omarchy",
+  "usage_text": "Omarchy is a beautiful, fun & agentic Linux distribution by DHH.\nRead more at omarchy.org.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://omarchy.org",
+  "topics": [],
+  "default_branch": "quattro"
+ },
+ "pytorch/pytorch": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/pytorch/pytorch#readme",
+  "install": [
+   "conda create -y -n <CONDA_NAME>",
+   "pip install --group dev",
+   "pip install mkl-static mkl-include",
+   "conda install -c conda-forge libuv=1.51",
+   "python -m pip install --no-build-isolation -v -e ."
+  ],
+  "usage_title": "Getting Started",
+  "usage_text": "Pointers to get you started:\n• Tutorials: get you started with understanding and using PyTorch\n• Examples: easy to understand PyTorch code across all domains\n• The API Reference\n• Glossary",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://pytorch.org",
+  "topics": [
+   "autograd",
+   "deep-learning",
+   "gpu",
+   "machine-learning",
+   "neural-network",
+   "numpy",
+   "python",
+   "tensor"
+  ],
+  "default_branch": "main"
+ },
+ "rohitg00/ai-engineering-from-scratch": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch#readme",
+  "install": [
+   "npx skills add rohitg00/ai-engineering-from-scratch",
+   "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git"
+  ],
+  "usage_title": "Getting started",
+  "usage_text": "Three ways in. Pick one.\nOption A — learn in your terminal (recommended). After the Node.js,\nnpx, host, and scope preflight above, install the learning skills into a\ncompatible agent and let the course drive itself:\nUse the host-specific invocation table above. The installed skills provide\nstart-learning, learn, course-guide, and the focused\nlearn-mcp and learn-agent-skills routes. Lesson prose can\nstream from this repository without a clone. A local clone is required for\ncopied repository code commands and executable MCP or Agent Skills labs.\nProgress lives in LEARNING.md, MCP-LEARNING.md, or\nAGENT-SKILLS-LEARNING.md in your project, so every session can resume…",
+  "usage_code": "npx skills add rohitg00/ai-engineering-from-scratch",
+  "license": "MIT",
+  "homepage": "https://aiengineeringfromscratch.com",
+  "topics": [
+   "agents",
+   "ai",
+   "ai-agents",
+   "ai-engineering",
+   "computer-vision",
+   "course",
+   "deep-learning",
+   "from-scratch"
+  ],
+  "default_branch": "main"
+ },
+ "stablyai/orca": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/stablyai/orca#readme",
+  "install": [
+   "brew install --cask stablyai/orca/orca"
+  ],
+  "usage_title": "Mobile Companion",
+  "usage_text": "Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere.\niOS App Store · TestFlight · Android APK 0.0.50 · Docs →",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://onOrca.dev",
+  "topics": [
+   "ade",
+   "agent-ide",
+   "ai-agents",
+   "claude-code",
+   "cli",
+   "codex",
+   "cursor-agent",
+   "devtools"
+  ],
+  "default_branch": "main"
+ },
+ "strands-agents/harness-sdk": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/strands-agents/harness-sdk#readme",
+  "install": [
+   "pip install strands-harness",
+   "npm install @strands-agents/harness",
+   "pip install strands-agents strands-agents-tools",
+   "npm install @strands-agents/sdk",
+   "pip install hatch",
+   "npm ci  # install from repo root"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "The easiest way to get started is with Strands harness, a fully assembled, state-of-the-art agent. A single create_harness() (Python) or createHarness() (TypeScript) call gives you an optimized agent with benchmarked defaults for the model, tools, memory, sessions, and context management — ready to take from idea to production. Follow the harness quickstart, or see the Python Strands harness and TypeScript Strands harness packages to get started.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "http://strandsagents.com/",
+  "topics": [
+   "agent-framework",
+   "agentic",
+   "agentic-ai",
+   "agents",
+   "ai",
+   "ai-agents",
+   "anthropic",
+   "autonomous-agents"
+  ],
+  "default_branch": "main"
+ },
+ "superdesigndev/treg": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/superdesigndev/treg#readme",
+  "install": [
+   "curl -fsSL https://treg.to/install.sh | sh",
+   "bash scripts/build-dashboard.sh # Node 22.12+ and npm; build the Dashboard",
+   "uv sync  # create the venv from uv.lock (pulls the server deps for dev)",
+   "uv run python -m treg upgrade  # prepare schema + run idempotent release tasks without serving",
+   "uv run python -m treg  # serve on 0.0.0.0:18790 (add --reload for dev)",
+   "uv run python -m treg keygen  # print a fresh Fernet key for TREG_SECRET_KEY"
+  ],
+  "usage_title": "Quickstart",
+  "usage_text": "Same flow as the dashboard's Getting started guide:\nFish Audio provides S2.1 Pro speech, public-voice discovery, and private voice cloning.\nSpeech is binary stdout, so redirect it to a file. A discovered voice's _id or a team voice id is\nthe TTS reference_id; voices created on treg's Fish account are durable team resources:\nWith your own Fish key, requests remain an unrestricted, unmetered upstream relay and Fish owns the\naccount boundary.\nCatalog tool inputs are described by treg catalog get . Tools marked strict_query reject undeclared or repeated query parameters, unsupported values and request bodies…",
+  "usage_code": "# 1. install the CLI — also points it at the registry\ncurl -fsSL https://treg.to/install.sh | sh\n\n# 2. sign in (GitHub default · --email for a one-time code · --token for agents/CI)\ntreg login\n\n# 3. do something useful immediately — no key, nothing registered\ntreg catalog search \"backlinks for a domain\"     # find a tool by what it DOES\ntreg call tikhub.tiktok.user.profile --query uniqueId=tiktok\ntreg balance                                     # exactly what that cost\n\n# (or `treg onboard` for the guided walkthrough)",
+  "license": "",
+  "homepage": "https://treg.to",
+  "topics": [
+   "agents",
+   "api-keys",
+   "cli",
+   "credentials",
+   "developer-tools",
+   "dsh-plugin",
+   "mcp",
+   "proxy"
+  ],
+  "default_branch": "main"
+ },
+ "tech-leads-club/agent-skills": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/tech-leads-club/agent-skills#readme",
+  "install": [
+   "npx @tech-leads-club/agent-skills",
+   "npm install -g @tech-leads-club/agent-skills"
+  ],
+  "usage_title": "🌟 Featured Skills",
+  "usage_text": "A glimpse of what's available in our growing catalog:\n → Browse all skills",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://agent-skills.techleads.club",
+  "topics": [
+   "agent",
+   "ai",
+   "antigravity",
+   "claude-code",
+   "copilot",
+   "cursor",
+   "skills"
+  ],
+  "default_branch": "main"
+ },
+ "tt-a1i/archify": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/tt-a1i/archify#readme",
+  "install": [
+   "npx skills add tt-a1i/archify -g",
+   "npx -y skills add tt-a1i/archify --skill archify --agent cursor --global --copy --yes",
+   "npx skills use tt-a1i/archify@archify --agent codex"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Current development version: v2.17.0-dev.1. See Changelog.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://tt-a1i.github.io/archify/",
+  "topics": [
+   "agent-skills",
+   "architecture-as-code",
+   "architecture-diagram",
+   "claude-skill",
+   "code-visualization",
+   "codex",
+   "coding-agents",
+   "data-flow-diagram"
+  ],
+  "default_branch": "main"
+ },
+ "vectorize-io/hindsight": {
+  "fetched": "2026-09-25",
+  "readme_url": "https://github.com/vectorize-io/hindsight#readme",
+  "install": [
+   "npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs",
+   "docker run -it --pull always --name hindsight --restart unless-stopped -p 8888:8888 -p 9999:9999 -e HINDSIGHT_API_LLM_API_KEY=$OPENAI_API_KEY -v hindsight-data:/home/hindsight/.pg0 ghcr.io/vectorize-io/hindsight:latest",
+   "docker compose up",
+   "pip install hindsight-api",
+   "helm install hindsight oci://ghcr.io/vectorize-io/charts/hindsight --set api.llm.provider=openai --set api.llm.apiKey=sk-xxx --set postgresql.enabled=true",
+   "pip install hindsight-client -U  # Python"
+  ],
+  "usage_title": "What is Hindsight?",
+  "usage_text": "Hindsight™ is an agent memory system built to create smarter agents that learn over time. Most agent memory systems focus on recalling conversation history. Hindsight is focused on making agents that learn, not just remember.\nIt eliminates the shortcomings of alternative techniques such as RAG and knowledge graph and delivers state-of-the-art performance on long term memory tasks.\nContents\n• Memory Performance & Accuracy\n• Quick Start — server · clients · platforms · embedded\n• Adding Hindsight to Your Agent — LLM Wrapper · integrations · coding agents · MCP\n• Core Concepts — memory types · retain / recall / reflect · observations · mental models & knowledge pages · banks\n• Use Cases…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://hindsight.vectorize.io/",
+  "topics": [
+   "agentic-ai",
+   "agents",
+   "ai-memory",
+   "memory"
+  ],
+  "default_branch": "main"
+ }
+}

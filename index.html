@@ -141,6 +141,55 @@
     border-radius: 999px; padding: 1px 8px;
     white-space: nowrap; font-weight: 500;
   }
+  .guide-btn {
+    margin-top: 10px;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--accent);
+    font-family: inherit; font-size: 12px; font-weight: 600;
+    padding: 5px 12px; border-radius: 999px; cursor: pointer;
+  }
+  .guide-btn:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .guide-panel {
+    margin-top: 10px;
+    border: 1px solid var(--border);
+    background: var(--panel-soft);
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 13px;
+    word-break: break-word;
+  }
+  .guide-panel h4 { font-size: 13.5px; margin: 14px 0 5px; color: var(--accent); display: flex; align-items: center; gap: 6px; }
+  .guide-panel h4:first-child { margin-top: 0; }
+  .guide-panel h4 small { color: var(--muted); font-weight: 500; font-size: 11.5px; }
+  .guide-panel p { margin: 4px 0; }
+  .guide-panel .usage-text { white-space: pre-line; color: var(--text); }
+  .guide-panel .muted { color: var(--muted); }
+  .guide-panel a { color: var(--accent); }
+  .cmd {
+    display: flex; align-items: flex-start; gap: 8px;
+    background: var(--bg); border: 1px solid var(--border);
+    border-radius: 8px; padding: 7px 8px 7px 10px; margin: 6px 0;
+  }
+  .cmd pre {
+    flex: 1; min-width: 0; margin: 0;
+    font-family: Consolas, "D2Coding", "Courier New", monospace; font-size: 12px; line-height: 1.5;
+    white-space: pre-wrap; word-break: break-all;
+  }
+  .cmd.prompt pre { white-space: pre-wrap; word-break: break-word; font-family: inherit; font-size: 12.5px; }
+  .copy-btn {
+    flex-shrink: 0;
+    background: var(--panel); border: 1px solid var(--border); color: var(--muted);
+    font-family: inherit; font-size: 11px; font-weight: 600;
+    padding: 3px 9px; border-radius: 6px; cursor: pointer; white-space: nowrap;
+  }
+  .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
+  .copy-btn.done { color: var(--up); border-color: var(--up); }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+  .chip { font-size: 11px; color: var(--muted); border: 1px solid var(--border); background: var(--panel); border-radius: 999px; padding: 1px 8px; }
+  .agent-tabs { display: inline-flex; gap: 2px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 2px; margin: 2px 0 4px; }
+  .agent-tabs button { background: none; border: none; color: var(--muted); font-family: inherit; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 6px; cursor: pointer; }
+  .agent-tabs button.active { background: var(--accent); color: #fff; }
   .status { text-align: center; color: var(--muted); padding: 40px 0; font-size: 14px; }
   .error {
     background: var(--err-soft);
@@ -237,9 +286,128 @@ function render() {
           <span>⑂ ${fmt(r.forks)}</span>
           ${r.stars_period ? `<span class="gain">▲ ${fmt(r.stars_period)} stars (${periodLabel[r.filled_from || since]})</span>` : ''}
         </div>
+        <button class="guide-btn" type="button" data-repo="${esc(r.full_name)}" aria-expanded="false">📖 설치·활용 가이드</button>
+        <div class="guide-panel" hidden></div>
       </div>
     </div>`).join('');
 }
+
+// ---- 설치·활용 가이드 (README 기반 규칙 추출, data/guides.json) ----
+const GUIDES_URL = 'data/guides.json';
+let GUIDES = null, guidesError = null;
+fetch(`${GUIDES_URL}?t=${Date.now()}`, { cache: 'no-store' })
+  .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
+  .then(g => { GUIDES = g; })
+  .catch(e => { guidesError = e; console.warn('guides.json 로드 실패', e); });
+
+function findRepo(name) {
+  for (const k of ['daily', 'weekly', 'monthly']) {
+    const hit = ((DATA && DATA[k] || {}).repos || []).find(r => r.full_name === name);
+    if (hit) return hit;
+  }
+  return { full_name: name, url: `https://github.com/${name}` };
+}
+
+// 저장소 안에서 실행해야 하는 명령(clone 뒤 cd 해서 실행)인지, 패키지 설치 명령인지 구분
+const IN_REPO = /^((npm|pnpm|yarn|bun) (install|i|ci)\b|pip3? install (-e |--editable )?\.|pip3? install -r |uv (sync|pip install -e)|poetry install|make\b|cargo (build|run)|go (build|run)\b|docker compose|docker-compose|\.\/|bash |sh |python3? -m venv|npm run|pnpm (dev|start|run)|yarn (dev|start))/;
+const isClone = c => /^git clone\b/.test(c);
+const dirOf = url => url.replace(/\/+$/, '').split('/').pop().replace(/\.git$/, '');
+
+function buildPrompt(r, g) {
+  // 프롬프트에는 짧은 명령만 힌트로 넣는다 (긴 docker run 옵션 등은 에이전트가 README에서 직접 읽음)
+  const install = (g.install || []).filter(c => !isClone(c) && c.length <= 100);
+  return [
+    `GitHub 저장소 ${r.full_name} (${r.url}) 를 이 컴퓨터에서 바로 쓸 수 있게 준비해줘.`,
+    ``,
+    `1. 현재 폴더에 git clone ${r.url} 으로 받고, 그 폴더로 이동해서 작업해.`,
+    `2. README와 설치 문서를 읽고 필요한 런타임·의존성을 설치해.` + (install.length ? ` README에서 찾은 설치 명령: ${install.slice(0, 3).join(' / ')}` : ''),
+    `3. README의 Quick Start / Usage 예제를 실제로 실행해서 동작을 확인하고, 실패하면 원인을 찾아 고쳐.`,
+    `4. 끝나면 (a) 이 프로젝트가 무엇을 하는지, (b) 실행 방법, (c) 내 작업에 활용할 수 있는 시나리오 3가지를 한국어로 정리해줘.`,
+    r.description ? `\n참고 설명: ${r.description}` : '',
+  ].join('\n').trim();
+}
+// 셸 한 줄용: 큰따옴표·백틱·$ 를 피한 짧은 버전 (bash·PowerShell 모두에서 그대로 실행 가능)
+function buildOneLiner(r) {
+  return `GitHub 저장소 ${r.url} 를 현재 폴더에 clone 하고, README대로 의존성을 설치한 뒤 Quick Start 예제를 실행해 동작을 확인하고, 사용법과 활용 시나리오 3가지를 한국어로 정리해줘`;
+}
+const cmdBox = (text, cls = '') => `
+  <div class="cmd ${cls}"><pre>${esc(text)}</pre><button type="button" class="copy-btn" data-copy="${esc(text)}">복사</button></div>`;
+
+function renderGuide(r, g) {
+  const install = g.install || [];
+  const pkgCmds = install.filter(c => !isClone(c) && !IN_REPO.test(c));
+  const repoCmds = install.filter(c => IN_REPO.test(c));
+  const dir = dirOf(r.url);
+  const quick = [`git clone ${r.url}`, `cd ${dir}`].concat(repoCmds.slice(0, 2)).join(' && ');
+  const prompt = buildPrompt(r, g);
+  const one = buildOneLiner(r);
+  const chips = [g.license && `⚖ ${g.license}`, r.language && `${r.language}`]
+    .concat((g.topics || []).slice(0, 5).map(t => `#${t}`)).filter(Boolean);
+  return `
+    <h4>무엇인가요?</h4>
+    ${r.description_ko ? `<p>${esc(r.description_ko)}</p>` : ''}
+    ${r.description ? `<p class="muted">${esc(r.description)}</p>` : '<p class="muted">저장소에 설명이 없습니다.</p>'}
+    ${g.homepage ? `<p>🔗 <a href="${esc(g.homepage)}" target="_blank" rel="noopener">${esc(g.homepage)}</a></p>` : ''}
+    ${chips.length ? `<div class="chips">${chips.map(c => `<span class="chip">${esc(c)}</span>`).join('')}</div>` : ''}
+
+    <h4>설치 방법 <small>README에서 자동 추출</small></h4>
+    ${pkgCmds.length ? `<p class="muted">패키지로 설치:</p>${pkgCmds.map(c => cmdBox(c)).join('')}` : ''}
+    <p class="muted">소스로 받아서 바로 실행 (터미널에 붙여넣기):</p>
+    ${cmdBox(quick)}
+    ${!install.length ? `<p class="muted">README에서 설치 명령을 찾지 못했습니다. <a href="${esc(g.readme_url || r.url)}" target="_blank" rel="noopener">README 보기 ↗</a></p>` : ''}
+
+    <h4>활용 방법 ${g.usage_title ? `<small>README · ${esc(g.usage_title)}</small>` : ''}</h4>
+    ${g.usage_text ? `<p class="usage-text">${esc(g.usage_text)}</p>` : '<p class="muted">README에서 사용법 섹션을 찾지 못했습니다.</p>'}
+    ${g.usage_code ? cmdBox(g.usage_code) : ''}
+    <p class="muted"><a href="${esc(g.readme_url || r.url)}" target="_blank" rel="noopener">전체 README 보기 ↗</a></p>
+
+    <h4>AI 에이전트로 바로 쓰기 <small>Claude Code · Codex</small></h4>
+    <p class="muted">데스크톱 앱이나 채팅창에 붙여넣으면 에이전트가 clone → 설치 → 예제 실행 → 사용법 정리까지 알아서 진행합니다.</p>
+    ${cmdBox(prompt, 'prompt')}
+    <p class="muted">CLI에서 한 줄로 시작 (저장소를 받을 폴더에서 실행):</p>
+    ${cmdBox(`claude "${one}"`)}
+    ${cmdBox(`codex "${one}"`)}
+    <p class="muted">설치 명령은 README에서 규칙으로 뽑은 것이라 틀릴 수 있습니다. 정확한 절차는 저장소 README를 우선하세요.</p>`;
+}
+
+async function copyText(text) {
+  try { await navigator.clipboard.writeText(text); return true; } catch (_) {}
+  const ta = document.createElement('textarea');
+  ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch (_) {}
+  ta.remove();
+  return ok;
+}
+
+$list.addEventListener('click', async e => {
+  const copy = e.target.closest('.copy-btn');
+  if (copy) {
+    const ok = await copyText(copy.dataset.copy);
+    copy.textContent = ok ? '✓ 복사됨' : '복사 실패';
+    copy.classList.toggle('done', ok);
+    setTimeout(() => { copy.textContent = '복사'; copy.classList.remove('done'); }, 1500);
+    return;
+  }
+  const btn = e.target.closest('.guide-btn');
+  if (!btn) return;
+  const panel = btn.parentElement.querySelector('.guide-panel');
+  const open = panel.hidden;
+  panel.hidden = !open;
+  btn.setAttribute('aria-expanded', String(open));
+  btn.textContent = open ? '📖 가이드 접기' : '📖 설치·활용 가이드';
+  if (!open || panel.dataset.loaded) return;
+  const r = findRepo(btn.dataset.repo);
+  if (!GUIDES) {
+    panel.innerHTML = guidesError
+      ? `<p class="muted">가이드 데이터(data/guides.json)를 불러오지 못했습니다 (${esc(guidesError.message)}). 워크플로가 한 번 실행되면 생성됩니다.</p>`
+      : '<p class="muted">가이드 데이터를 불러오는 중… 잠시 후 다시 눌러주세요.</p>';
+    return;
+  }
+  panel.innerHTML = renderGuide(r, GUIDES[r.full_name] || {});
+  panel.dataset.loaded = '1';
+});
 
 function showError(err) {
   document.getElementById('updated-at').textContent = '불러오기 실패';

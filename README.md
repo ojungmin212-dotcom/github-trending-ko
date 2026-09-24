@@ -28,6 +28,8 @@
 | `scripts/fetch_trending.py` | 수집·파싱·보충·번역 후 `data/trending.json` 저장 (표준 라이브러리만 사용) |
 | `data/trending.json` | 대시보드 데이터. Actions가 매일 갱신 |
 | `data/translations.json` | 번역 캐시 (원문 → 번역). 번역에 성공한 문장은 다시 요청하지 않음 |
+| `scripts/guides.py` | 각 저장소 README에서 설치 명령·사용법을 규칙으로 추출 (LLM 없음) |
+| `data/guides.json` | 저장소별 가이드 캐시 (7일마다 갱신, 30일간 순위에 없으면 삭제) |
 | `index.html` | 정적 대시보드. 상대 경로로 JSON을 읽음 (`/저장소이름/` 하위 경로에서도 동작) |
 | `.github/workflows/update.yml` | 매일 실행 + 수동 실행(workflow_dispatch) |
 
@@ -53,6 +55,24 @@ GitHub 트렌딩은 기간당 최대 25개(날에 따라 더 적음)만 보여�
 > 그래서 "10개 미만" 판정은 보충한 뒤의 개수로 합니다.
 
 번역에 실패한 문장은 빈 값으로 두고 계속 진행합니다. 실패한 문장은 캐시하지 않으므로 다음 실행 때 다시 시도합니다.
+
+## 설치·활용 가이드 기능
+
+각 카드의 **📖 설치·활용 가이드** 버튼을 누르면 다음이 펼쳐집니다.
+
+| 섹션 | 내용 | 출처 |
+|---|---|---|
+| 무엇인가요? | 한국어 번역 설명, 원문 설명, 홈페이지, 라이선스, 토픽 | 트렌딩 페이지 + GitHub API |
+| 설치 방법 | README 코드 블록에서 찾은 설치 명령(`pip`, `npm`, `docker`, `cargo`, `brew` …) + `git clone && cd && …` 한 줄 명령 | README (규칙 추출) |
+| 활용 방법 | Usage / Quick Start / Getting Started 섹션 요약과 첫 코드 블록 | README (규칙 추출) |
+| AI 에이전트로 바로 쓰기 | Claude Code·Codex 데스크톱 앱에 붙여넣는 프롬프트, `claude "…"` / `codex "…"` CLI 한 줄 명령 | 템플릿 |
+
+모든 항목에 **복사** 버튼이 있습니다.
+
+- 가이드는 LLM 없이 README를 규칙으로 파싱해 만듭니다. 그래서 설치 명령이 빠지거나(README에 코드 블록이 없는 경우) 관련 없는 명령이 섞일 수 있습니다. 화면에도 "README를 우선하세요" 안내를 붙여 두었습니다.
+- README는 `raw.githubusercontent.com`에서 받으므로 토큰이나 속도 제한이 없습니다. 라이선스·토픽·홈페이지만 GitHub API를 쓰며, Actions에서는 자동 제공되는 `GITHUB_TOKEN`을, 로컬에서는 `gh auth token`을 사용합니다 (없으면 그 항목만 비워 둡니다).
+- 가이드 생성에 실패해도 순위 데이터는 이미 저장된 뒤라 워크플로는 성공으로 끝납니다 (로그에 `[경고]`만 남음).
+- 에이전트 프롬프트는 "clone → README대로 설치 → Quick Start 실행 → 사용법·활용 시나리오 3가지를 한국어로 정리" 순서로 시키는 템플릿입니다. CLI 한 줄 명령은 bash와 PowerShell 양쪽에서 그대로 실행되도록 큰따옴표·`$`·백틱을 피했습니다.
 
 ## 수동 실행
 
