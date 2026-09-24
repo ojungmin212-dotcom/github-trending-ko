@@ -4,302 +4,600 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GitHub 트렌딩 30</title>
-<meta name="description" content="GitHub 트렌딩 Top 30 (오늘·이번 주·이번 달) — 한국어 번역 포함, 매일 자동 갱신">
-<meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='14' font-size='14'%3E%E2%98%85%3C/text%3E%3C/svg%3E">
+<meta name="description" content="GitHub 트렌딩 Top 30 (오늘·이번 주·이번 달) — 한국어 번역과 설치·활용 가이드 포함, 매일 자동 갱신">
+<meta name="theme-color" content="#0c0c0c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%2376b900'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap">
 <style>
+  /* build.nvidia.com 디자인 토큰 (다크 전용) */
   :root {
-    --bg: #f4f6f9;
-    --panel: #ffffff;
-    --panel-soft: #eef2f7;
-    --border: #d9e0e9;
-    --text: #1b2430;
-    --muted: #5d6b7d;
-    --accent: #2456d6;
-    --accent-soft: rgba(36, 86, 214, .07);
-    --star: #9a6700;
-    --up: #1a7f37;
-    --err: #cf222e;
-    --err-soft: rgba(207, 34, 46, .06);
-    --shadow: 0 1px 3px rgba(27, 36, 48, .07);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0d1117;
-      --panel: #161c26;
-      --panel-soft: #1c2432;
-      --border: #2b3444;
-      --text: #e6edf3;
-      --muted: #8b98a9;
-      --accent: #5b9cff;
-      --accent-soft: rgba(91, 156, 255, .09);
-      --star: #e3b341;
-      --up: #3fb950;
-      --err: #ff7b72;
-      --err-soft: rgba(255, 123, 114, .08);
-      --shadow: none;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #0d1117;
-    --panel: #161c26;
-    --panel-soft: #1c2432;
-    --border: #2b3444;
-    --text: #e6edf3;
-    --muted: #8b98a9;
-    --accent: #5b9cff;
-    --accent-soft: rgba(91, 156, 255, .09);
-    --star: #e3b341;
-    --up: #3fb950;
-    --err: #ff7b72;
-    --err-soft: rgba(255, 123, 114, .08);
-    --shadow: none;
+    --bg: #0c0c0c;
+    --panel: #161616;
+    --panel-2: #1f1f1f;
+    --border: rgba(255, 255, 255, .2);
+    --border-soft: rgba(255, 255, 255, .1);
+    --text: #ffffff;
+    --text-2: #e0e0e0;
+    --muted: #a7a7a7;
+    --dim: #898989;
+    --green: #76b900;
+    --green-dark: #1d3300;
+    --purple-bg: #331344; --purple-fg: #f0b9fd;
+    --blue-bg: #002050;   --blue-fg: #7cd7fe;
+    --err: #ff6b6b;
+    --font: "NVIDIA Sans", "Inter", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+    --mono: ui-monospace, Consolas, "D2Coding", "Courier New", monospace;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { color-scheme: dark; }
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: "IBM Plex Sans KR", "Malgun Gothic", -apple-system, sans-serif;
-    line-height: 1.5;
+    font-family: var(--font);
+    font-size: 14px; line-height: 1.5;
     -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
   }
-  header {
-    position: sticky; top: 0; z-index: 10;
-    background: var(--panel);
-    border-bottom: 1px solid var(--border);
-    box-shadow: var(--shadow);
+  /* 배경: 고정 캔버스(점·선 애니메이션) + 가장자리 초록 글로우 */
+  #net {
+    position: fixed; inset: 0; z-index: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    opacity: 0; transition: opacity 1.2s ease;
   }
-  .header-inner {
-    max-width: 760px; margin: 0 auto; padding: 12px 16px;
-    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  #net.on { opacity: .6; }
+  body::before {
+    content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background:
+      radial-gradient(55% 45% at 100% 85%, rgba(118, 185, 0, .13), transparent 70%),
+      radial-gradient(45% 40% at 0% 95%, rgba(118, 185, 0, .09), transparent 70%);
   }
-  h1 {
-    font-family: "Sora", "IBM Plex Sans KR", sans-serif;
-    font-size: 17px; font-weight: 700;
-    display: flex; align-items: center; gap: 8px; letter-spacing: -.01em;
+  .page { position: relative; z-index: 1; }
+
+  /* ---- 상단 내비게이션 ---- */
+  nav.top {
+    position: sticky; top: 0; z-index: 20;
+    height: 48px;
+    background: rgba(12, 12, 12, .82);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-soft);
   }
-  h1 svg { fill: var(--text); flex-shrink: 0; }
-  h1 .n30 { color: var(--accent); }
-  .tabs {
-    display: flex; gap: 2px;
-    background: var(--panel-soft);
-    border: 1px solid var(--border);
-    border-radius: 9px; padding: 3px;
+  .nav-inner {
+    max-width: 1280px; margin: 0 auto; padding: 0 20px; height: 100%;
+    display: flex; align-items: center; gap: 4px;
   }
+  .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px; letter-spacing: .01em; margin-right: 20px; color: var(--text); text-decoration: none; white-space: nowrap; }
+  .brand svg { fill: var(--green); }
+  .nav-links { display: flex; height: 100%; }
+  .nav-links a {
+    display: flex; align-items: center; height: 48px; padding: 0 16px;
+    color: rgba(255, 255, 255, .6); text-decoration: none; font-size: 14px; position: relative; white-space: nowrap;
+  }
+  .nav-links a:hover { color: var(--text-2); }
+  .nav-links a.active { color: var(--text-2); font-weight: 500; }
+  .nav-links a.active::after { content: ""; position: absolute; left: 16px; right: 16px; bottom: 0; height: 2px; background: var(--green); }
+  .nav-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+  .nav-search {
+    display: flex; align-items: center; gap: 8px;
+    width: 220px; height: 28px; padding: 0 8px;
+    background: #1f1f1f; border: 1px solid var(--border); border-radius: 4px;
+    color: var(--dim); font-size: 12px; cursor: text;
+  }
+  .nav-search input { flex: 1; min-width: 0; background: none; border: none; color: var(--text); font: inherit; font-size: 13px; outline: none; }
+  .nav-search input::placeholder { color: var(--dim); }
+  .nav-search kbd { font: inherit; font-size: 11px; color: var(--dim); border: 1px solid var(--border-soft); border-radius: 3px; padding: 0 5px; }
+  .updated { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .updated strong { color: var(--text-2); font-weight: 500; }
+
+  /* ---- 히어로 ---- */
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
+  .hero { display: flex; align-items: center; gap: 16px; padding: 28px 0 22px; }
+  .hero-icon {
+    width: 48px; height: 48px; flex-shrink: 0;
+    display: grid; place-items: center;
+    border: 1px solid var(--border); border-radius: 10px; background: rgba(255, 255, 255, .03);
+  }
+  .hero-icon svg { fill: var(--text); }
+  .hero h1 { font-size: 24px; font-weight: 700; line-height: 1.2; }
+  .hero p { font-size: 18px; color: var(--text); margin-top: 6px; }
+  .hero p span { color: var(--muted); }
+
+  /* ---- 기간 탭 (밑줄형) ---- */
+  .tabs { display: flex; gap: 24px; border-bottom: 1px solid var(--border-soft); margin-bottom: 20px; }
   .tabs button {
-    background: none; border: none; color: var(--muted);
-    font-family: inherit; font-size: 13px; font-weight: 600;
-    padding: 6px 13px; border-radius: 6px; cursor: pointer;
+    background: none; border: none; color: rgba(255, 255, 255, .6);
+    font: inherit; font-size: 14px; font-weight: 500;
+    padding: 0 0 10px; cursor: pointer; position: relative;
   }
-  .tabs button.active { background: var(--accent); color: #fff; }
-  .updated { margin-left: auto; font-size: 12px; color: var(--muted); text-align: right; line-height: 1.45; }
-  main { max-width: 760px; margin: 0 auto; padding: 16px; }
+  .tabs button:hover { color: var(--text-2); }
+  .tabs button.active { color: var(--text); }
+  .tabs button.active::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--green); }
+  .tabs .beta { margin-left: 6px; font-size: 10px; font-weight: 700; color: var(--green); border: 1px solid var(--green); border-radius: 4px; padding: 0 5px; vertical-align: 1px; }
+
+  /* ---- 본문: 필터 사이드바 + 목록 ---- */
+  .layout { display: grid; grid-template-columns: 200px 1fr; gap: 20px; align-items: start; padding-bottom: 40px; }
+  aside.filters {
+    background: var(--panel); border: 1px solid var(--border-soft); border-radius: 12px;
+    position: sticky; top: 64px;
+  }
+  .f-head { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid var(--border-soft); font-weight: 700; }
+  .f-head button { background: none; border: none; color: var(--muted); font-size: 16px; cursor: pointer; line-height: 1; }
+  .f-sec { padding: 10px 14px 12px; border-bottom: 1px solid var(--border-soft); }
+  .f-sec:last-child { border-bottom: none; }
+  .f-title { display: flex; justify-content: space-between; font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+  .f-title span { color: var(--dim); font-weight: 400; font-size: 12px; }
+  .f-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; font-size: 13px; cursor: pointer; color: var(--text-2); user-select: none; }
+  .f-row .cnt { margin-left: auto; font-size: 11px; color: var(--dim); }
+  .f-row input { accent-color: var(--green); width: 14px; height: 14px; }
+  .switch { position: relative; width: 26px; height: 14px; border-radius: 999px; background: #3a3a3a; flex-shrink: 0; transition: background .15s; }
+  .switch::after { content: ""; position: absolute; top: 2px; left: 2px; width: 10px; height: 10px; border-radius: 50%; background: #fff; transition: transform .15s; }
+  .f-row input:checked + .switch { background: var(--green); }
+  .f-row input:checked + .switch::after { transform: translateX(12px); }
+  .f-row input[type=checkbox].sw { position: absolute; opacity: 0; width: 0; height: 0; }
+  .f-more { background: none; border: none; color: var(--text); font: inherit; font-size: 12px; font-weight: 700; padding: 4px 0; cursor: pointer; }
+  .f-foot { display: flex; gap: 8px; padding: 10px 14px; border-top: 1px solid var(--border-soft); }
+  .btn { font: inherit; font-size: 12px; font-weight: 700; padding: 5px 9px; border-radius: 4px; border: 1px solid transparent; cursor: pointer; background: none; color: var(--dim); }
+  .btn.solid { background: #4b4b4b; color: var(--text); flex: 1; }
+  .btn.green { background: var(--green); color: #0c0c0c; border-color: var(--green); }
+  .btn:hover { color: var(--text); }
+
+  .toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+  .toolbar .count { font-size: 14px; white-space: nowrap; }
+  .refine {
+    flex: 1; min-width: 200px; display: flex; align-items: center; gap: 8px;
+    height: 32px; padding: 0 4px 0 12px;
+    background: rgba(0, 0, 0, .6); border: 1px solid var(--border); border-radius: 4px;
+  }
+  .refine svg { fill: var(--dim); flex-shrink: 0; }
+  .refine input { flex: 1; min-width: 0; background: none; border: none; color: var(--text); font: inherit; outline: none; }
+  .refine input::placeholder { color: var(--dim); }
+  .refine .go { width: 24px; height: 24px; display: grid; place-items: center; padding: 0; }
+  .refine .go svg { fill: #0c0c0c; }
+  .sort { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 500; }
+  .sort select {
+    height: 32px; padding: 0 28px 0 12px; font: inherit; font-size: 14px;
+    background: var(--panel) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23a7a7a7'/%3E%3C/svg%3E") no-repeat right 10px center;
+    color: var(--text); border: 1px solid var(--border); border-radius: 4px; appearance: none; -webkit-appearance: none; cursor: pointer;
+  }
+
+  /* ---- 카드 그리드 ---- */
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
   .card {
-    display: flex; gap: 13px;
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 14px 16px;
-    margin-bottom: 10px;
-    box-shadow: var(--shadow);
+    background: var(--panel); border: 1px solid var(--border); border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .12);
+    padding: 16px 16px 12px; display: flex; flex-direction: column; gap: 10px;
+    transition: border-color .15s;
   }
-  .rank {
-    font-family: "Sora", sans-serif;
-    font-variant-numeric: tabular-nums;
-    min-width: 34px; text-align: center;
-    font-size: 19px; font-weight: 700;
-    color: var(--muted); padding-top: 1px;
-  }
-  .rank.top3 { color: var(--star); }
-  .info { flex: 1; min-width: 0; }
-  .repo-name { font-size: 15px; font-weight: 700; word-break: break-all; }
-  .repo-name a { color: var(--accent); text-decoration: none; }
-  .repo-name a:hover { text-decoration: underline; }
-  .desc { font-size: 13px; color: var(--muted); margin-top: 4px; word-break: break-word; }
-  .desc-ko {
-    font-size: 13.5px; color: var(--text); margin-top: 7px;
-    background: var(--accent-soft);
-    border-left: 3px solid var(--accent);
-    border-radius: 0 8px 8px 0;
-    padding: 6px 10px; word-break: break-word;
-  }
-  .meta {
-    display: flex; gap: 14px; margin-top: 9px;
-    font-size: 12px; color: var(--muted);
-    flex-wrap: wrap; align-items: center;
-    font-variant-numeric: tabular-nums;
-  }
-  .lang-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; border: 1px solid rgba(128,128,128,.25); }
-  .gain { color: var(--up); font-weight: 600; }
-  .badge {
-    font-size: 11px; color: var(--muted);
-    border: 1px solid var(--border); background: var(--panel-soft);
-    border-radius: 999px; padding: 1px 8px;
-    white-space: nowrap; font-weight: 500;
-  }
-  .guide-btn {
-    margin-top: 10px;
-    background: none;
-    border: 1px solid var(--border);
-    color: var(--accent);
-    font-family: inherit; font-size: 12px; font-weight: 600;
-    padding: 5px 12px; border-radius: 999px; cursor: pointer;
-  }
-  .guide-btn:hover { border-color: var(--accent); background: var(--accent-soft); }
-  .guide-panel {
-    margin-top: 10px;
-    border: 1px solid var(--border);
-    background: var(--panel-soft);
-    border-radius: 10px;
-    padding: 12px 14px;
-    font-size: 13px;
-    word-break: break-word;
-  }
-  .guide-panel h4 { font-size: 13.5px; margin: 14px 0 5px; color: var(--accent); display: flex; align-items: center; gap: 6px; }
+  .card:hover { border-color: rgba(255, 255, 255, .35); }
+  .card.expanded { grid-column: 1 / -1; }
+  .card-top { display: flex; align-items: center; gap: 8px; }
+  .owner { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 14px; min-width: 0; }
+  .owner img { width: 16px; height: 16px; border-radius: 3px; }
+  .owner span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .badges { margin-left: auto; display: flex; gap: 6px; flex-shrink: 0; }
+  .badge { font-size: 12px; font-weight: 700; line-height: 18px; padding: 0 8px; border-radius: 4px; white-space: nowrap; }
+  .badge.purple { background: var(--purple-bg); color: var(--purple-fg); }
+  .badge.blue { background: var(--blue-bg); color: var(--blue-fg); }
+  .badge.green { background: var(--green-dark); color: var(--green); }
+  .title { font-size: 18px; font-weight: 700; line-height: 1.25; word-break: break-all; }
+  .title a { color: var(--text); text-decoration: none; }
+  .title a:hover { text-decoration: underline; text-decoration-color: var(--green); }
+  .title .rank { color: var(--green); font-variant-numeric: tabular-nums; margin-right: 6px; }
+  .title .rank.top3 { color: #ffd166; }
+  .desc { font-size: 14px; color: var(--text); word-break: break-word; }
+  .desc-en { font-size: 13px; color: var(--muted); word-break: break-word; }
+  .card-foot { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-top: auto; padding-top: 4px; font-variant-numeric: tabular-nums; }
+  .pill { font-size: 12px; font-weight: 500; color: #eee; border: 1px solid var(--muted); border-radius: 32px; padding: 0 12px; line-height: 20px; white-space: nowrap; display: inline-flex; align-items: center; gap: 5px; }
+  .pill.gain { color: var(--green); border-color: rgba(118, 185, 0, .6); }
+  .lang-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .card-foot .right { margin-left: auto; display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 12px; }
+  .guide-btn { font: inherit; font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 4px; border: 1px solid var(--border); background: none; color: var(--text); cursor: pointer; }
+  .guide-btn:hover { border-color: var(--green); color: var(--green); }
+  .guide-btn.open { background: var(--green); color: #0c0c0c; border-color: var(--green); }
+
+  /* ---- 가이드 패널 ---- */
+  .guide-panel { border-top: 1px solid var(--border-soft); padding-top: 12px; font-size: 13px; word-break: break-word; }
+  .guide-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .guide-panel h4 { font-size: 13px; font-weight: 700; margin: 14px 0 6px; display: flex; align-items: center; gap: 8px; text-transform: uppercase; letter-spacing: .04em; }
+  .guide-panel h4::before { content: ""; width: 3px; height: 12px; background: var(--green); border-radius: 1px; }
   .guide-panel h4:first-child { margin-top: 0; }
-  .guide-panel h4 small { color: var(--muted); font-weight: 500; font-size: 11.5px; }
+  .guide-panel h4 small { color: var(--dim); font-weight: 400; font-size: 11px; text-transform: none; letter-spacing: 0; }
   .guide-panel p { margin: 4px 0; }
-  .guide-panel .usage-text { white-space: pre-line; color: var(--text); }
+  .guide-panel .usage-text { white-space: pre-line; color: var(--text-2); }
   .guide-panel .muted { color: var(--muted); }
-  .guide-panel a { color: var(--accent); }
+  .guide-panel a { color: var(--green); }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+  .chip { font-size: 11px; color: var(--muted); border: 1px solid var(--border-soft); background: var(--panel-2); border-radius: 999px; padding: 1px 8px; }
   .cmd {
     display: flex; align-items: flex-start; gap: 8px;
-    background: var(--bg); border: 1px solid var(--border);
-    border-radius: 8px; padding: 7px 8px 7px 10px; margin: 6px 0;
+    background: #0c0c0c; border: 1px solid var(--border-soft);
+    border-radius: 8px; padding: 8px 8px 8px 10px; margin: 6px 0;
   }
-  .cmd pre {
-    flex: 1; min-width: 0; margin: 0;
-    font-family: Consolas, "D2Coding", "Courier New", monospace; font-size: 12px; line-height: 1.5;
-    white-space: pre-wrap; word-break: break-all;
-  }
-  .cmd.prompt pre { white-space: pre-wrap; word-break: break-word; font-family: inherit; font-size: 12.5px; }
-  .copy-btn {
-    flex-shrink: 0;
-    background: var(--panel); border: 1px solid var(--border); color: var(--muted);
-    font-family: inherit; font-size: 11px; font-weight: 600;
-    padding: 3px 9px; border-radius: 6px; cursor: pointer; white-space: nowrap;
-  }
-  .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
-  .copy-btn.done { color: var(--up); border-color: var(--up); }
-  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
-  .chip { font-size: 11px; color: var(--muted); border: 1px solid var(--border); background: var(--panel); border-radius: 999px; padding: 1px 8px; }
-  .agent-tabs { display: inline-flex; gap: 2px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 2px; margin: 2px 0 4px; }
-  .agent-tabs button { background: none; border: none; color: var(--muted); font-family: inherit; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 6px; cursor: pointer; }
-  .agent-tabs button.active { background: var(--accent); color: #fff; }
-  .status { text-align: center; color: var(--muted); padding: 40px 0; font-size: 14px; }
-  .error {
-    background: var(--err-soft);
-    border: 1px solid var(--err);
-    border-radius: 12px;
-    padding: 16px 18px;
-    font-size: 13.5px;
-    word-break: break-word;
-  }
+  .cmd pre { flex: 1; min-width: 0; margin: 0; font-family: var(--mono); font-size: 12px; line-height: 1.5; white-space: pre-wrap; word-break: break-all; color: var(--text-2); }
+  .cmd.prompt pre { white-space: pre-wrap; word-break: break-word; font-family: var(--font); font-size: 12.5px; }
+  .copy-btn { flex-shrink: 0; background: var(--panel-2); border: 1px solid var(--border-soft); color: var(--muted); font: inherit; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 4px; cursor: pointer; white-space: nowrap; }
+  .copy-btn:hover { color: var(--green); border-color: var(--green); }
+  .copy-btn.done { color: #0c0c0c; background: var(--green); border-color: var(--green); }
+
+  /* ---- 상태·오류 ---- */
+  .status { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 60px 0; }
+  .error { grid-column: 1 / -1; background: var(--panel); border: 1px solid var(--err); border-radius: 16px; padding: 16px 18px; font-size: 13.5px; }
   .error h2 { font-size: 15px; color: var(--err); margin-bottom: 6px; }
-  .error p { margin: 4px 0; }
   .error ul { margin: 6px 0 4px 18px; }
-  .error li { margin: 3px 0; }
-  .error code {
-    font-family: Consolas, "D2Coding", "Courier New", monospace; font-size: 12px;
-    background: var(--panel); border: 1px solid var(--border); border-radius: 4px; padding: 0 4px;
+  .error code { font-family: var(--mono); font-size: 12px; background: #0c0c0c; border: 1px solid var(--border-soft); border-radius: 4px; padding: 0 4px; }
+  .error button { margin-top: 10px; }
+  #notice:empty { display: none; }
+  #notice .error { margin-bottom: 16px; }
+
+  footer { border-top: 1px solid var(--border-soft); color: var(--dim); font-size: 12px; text-align: center; padding: 20px 20px 40px; line-height: 1.8; }
+  footer a { color: var(--muted); }
+
+  .filter-toggle { display: none; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    aside.filters { position: static; display: none; }
+    aside.filters.show { display: block; }
+    .filter-toggle { display: inline-flex; }
+    .grid { grid-template-columns: 1fr; }
+    .nav-search { width: 150px; }
+    .updated { display: none; }
+    .guide-cols { grid-template-columns: 1fr; }
   }
-  .error button {
-    margin-top: 10px;
-    background: var(--panel); border: 1px solid var(--border); color: var(--accent);
-    font-family: inherit; font-size: 12.5px; font-weight: 600;
-    padding: 5px 14px; border-radius: 999px; cursor: pointer;
+  @media (max-width: 560px) {
+    .wrap, .nav-inner { padding: 0 16px; }
+    .nav-links a { padding: 0 10px; }
+    .brand { margin-right: 6px; }
+    .brand span { display: none; }
+    .nav-search { display: none; }
+    .hero { padding: 20px 0 16px; gap: 12px; }
+    .hero h1 { font-size: 21px; }
+    .hero p { font-size: 14px; }
+    .card { padding: 14px 14px 10px; }
+    .title { font-size: 16px; }
   }
-  footer {
-    max-width: 760px; margin: 0 auto;
-    text-align: center; font-size: 12px; color: var(--muted);
-    padding: 6px 16px 34px; line-height: 1.7;
-  }
-  footer a { color: var(--accent); text-decoration: none; }
-  @media (max-width: 480px) {
-    .header-inner { padding: 10px 12px; gap: 8px; }
-    .updated { flex-basis: 100%; text-align: left; margin-left: 0; }
-    main { padding: 12px; }
-    .card { padding: 12px 13px; gap: 10px; }
-    .rank { min-width: 28px; font-size: 17px; }
-  }
+  @media (prefers-reduced-motion: reduce) { #net { transition: none; } }
 </style>
 </head>
 <body>
+<canvas id="net" aria-hidden="true"></canvas>
 
-<header>
-  <div class="header-inner">
-    <h1>
-      <svg height="22" width="22" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path></svg>
-      GitHub 트렌딩 <span class="n30">30</span>
-    </h1>
-    <div class="tabs" id="tabs">
-      <button data-since="daily" class="active">오늘</button>
-      <button data-since="weekly">이번 주</button>
-      <button data-since="monthly">이번 달</button>
+<div class="page">
+<nav class="top">
+  <div class="nav-inner">
+    <a class="brand" href="./">
+      <svg height="20" width="20" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path></svg>
+      <span>GitHub 트렌딩</span>
+    </a>
+    <div class="nav-links">
+      <a href="#" class="active">Trending</a>
+      <a href="https://github.com/trending" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://github.com/ojungmin212-dotcom/github-trending-ko" target="_blank" rel="noopener">Docs ↗</a>
     </div>
-    <div class="updated">마지막 갱신<br><strong id="updated-at">불러오는 중…</strong></div>
+    <div class="nav-right">
+      <label class="nav-search">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="#898989"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"/></svg>
+        <input id="q" type="search" placeholder="Search" autocomplete="off">
+        <kbd>Ctrl+K</kbd>
+      </label>
+      <div class="updated">마지막 갱신 <strong id="updated-at">불러오는 중…</strong></div>
+    </div>
   </div>
-</header>
+</nav>
 
-<main><div id="notice"></div><div id="list"><p class="status">데이터를 불러오는 중…</p></div></main>
+<div class="wrap">
+  <div class="hero">
+    <div class="hero-icon">
+      <svg width="26" height="26" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
+    </div>
+    <div>
+      <h1>Trending</h1>
+      <p>GitHub에서 지금 가장 주목받는 오픈소스 30개 <span>— 한국어 번역과 설치·활용 가이드, AI 에이전트 프롬프트 포함</span></p>
+    </div>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button data-since="daily" class="active">오늘</button>
+    <button data-since="weekly">이번 주</button>
+    <button data-since="monthly">이번 달</button>
+  </div>
+
+  <div class="layout">
+    <aside class="filters" id="filters">
+      <div class="f-head">Filters <button type="button" id="f-reset-x" title="필터 초기화">×</button></div>
+      <div class="f-sec">
+        <label class="f-row"><input type="checkbox" class="sw" id="f-ko"><span class="switch"></span>한국어 번역 있음<span class="cnt" id="c-ko"></span></label>
+        <label class="f-row"><input type="checkbox" class="sw" id="f-orig"><span class="switch"></span>보충 항목 제외<span class="cnt" id="c-orig"></span></label>
+        <label class="f-row"><input type="checkbox" class="sw" id="f-guide"><span class="switch"></span>설치 명령 있음<span class="cnt" id="c-guide"></span></label>
+      </div>
+      <div class="f-sec">
+        <div class="f-title">Language <span id="lang-sel"></span></div>
+        <div id="lang-list"></div>
+        <button type="button" class="f-more" id="lang-more" hidden>+ Show more</button>
+      </div>
+      <div class="f-foot">
+        <button type="button" class="btn" id="f-reset">Reset</button>
+        <button type="button" class="btn solid" id="f-close">Apply</button>
+      </div>
+    </aside>
+
+    <section>
+      <div class="toolbar">
+        <div class="count" id="count">— repositories</div>
+        <label class="refine">
+          <svg width="14" height="14" viewBox="0 0 16 16"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"/></svg>
+          <input id="refine" type="search" placeholder="Refine repositories" autocomplete="off">
+          <button type="button" class="btn green go" aria-label="검색"><svg width="12" height="12" viewBox="0 0 16 16"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"/></svg></button>
+        </label>
+        <button type="button" class="btn filter-toggle" id="filter-toggle" style="border-color:var(--border);color:var(--text)">☰ Filters</button>
+        <label class="sort">Sort By
+          <select id="sort">
+            <option value="rank">Trending Rank</option>
+            <option value="gain">Stars Gained</option>
+            <option value="stars">Total Stars</option>
+            <option value="forks">Forks</option>
+          </select>
+        </label>
+      </div>
+      <div id="notice"></div>
+      <div class="grid" id="list"><p class="status">데이터를 불러오는 중…</p></div>
+    </section>
+  </div>
+</div>
 
 <footer>
   매일 09:00 KST에 GitHub Actions로 자동 갱신됩니다. 새로고침하면 최신 데이터를 불러옵니다.<br>
   GitHub 트렌딩은 기간당 최대 25개까지 제공되어, 나머지 순위는 다른 기간 목록에서 채워집니다.<br>
-  출처: <a href="https://github.com/trending" target="_blank" rel="noopener">github.com/trending</a> · 한국어 번역은 기계 번역입니다.
+  출처: <a href="https://github.com/trending" target="_blank" rel="noopener">github.com/trending</a> · 한국어 번역은 기계 번역 · 가이드는 README에서 규칙으로 추출한 것입니다.
 </footer>
+</div>
 
 <script>
+// ============ 배경: 점·선 네트워크 애니메이션 (build.nvidia.com 스타일) ============
+(function () {
+  const canvas = document.getElementById('net');
+  const ctx = canvas.getContext('2d');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const GREEN = [118, 185, 0];
+  const LINK = 100;         // 이 거리 안의 점끼리 선으로 연결
+  let W = 0, H = 0, dpr = 1, pts = [], raf = 0, last = 0;
+
+  function resize() {
+    dpr = Math.min(devicePixelRatio || 1, 2);
+    W = innerWidth; H = innerHeight;
+    canvas.width = W * dpr; canvas.height = H * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const n = Math.min(220, Math.round(W * H / 10000));   // 약 1개 / 10,000px²
+    while (pts.length < n) pts.push(spawn());
+    pts.length = n;
+  }
+  function spawn() {
+    const a = Math.random() * Math.PI * 2, v = 8 + Math.random() * 37;  // 8~45 px/s
+    return {
+      x: Math.random() * W, y: Math.random() * H,
+      vx: Math.cos(a) * v, vy: Math.sin(a) * v,
+      r: 0.9 + Math.random() * 0.8,
+      green: Math.random() < 0.22,
+      tw: Math.random() * Math.PI * 2,
+    };
+  }
+  function frame(t) {
+    const dt = Math.min(0.05, (t - last) / 1000 || 0); last = t;
+    ctx.clearRect(0, 0, W, H);
+    for (const p of pts) {
+      p.x += p.vx * dt; p.y += p.vy * dt; p.tw += dt * 1.5;
+      if (p.x < -10) p.x = W + 10; else if (p.x > W + 10) p.x = -10;
+      if (p.y < -10) p.y = H + 10; else if (p.y > H + 10) p.y = -10;
+    }
+    ctx.lineWidth = 1;
+    for (let i = 0; i < pts.length; i++) {
+      const a = pts[i];
+      for (let j = i + 1; j < pts.length; j++) {
+        const b = pts[j], dx = a.x - b.x, dy = a.y - b.y;
+        if (Math.abs(dx) > LINK || Math.abs(dy) > LINK) continue;
+        const d = Math.sqrt(dx * dx + dy * dy);
+        if (d > LINK) continue;
+        ctx.strokeStyle = `rgba(${GREEN},${(1 - d / LINK) * 0.4})`;
+        ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+      }
+    }
+    for (const p of pts) {
+      const tw = 0.75 + 0.25 * Math.sin(p.tw);
+      ctx.fillStyle = p.green ? `rgba(${GREEN},${tw})` : `rgba(255,255,255,${tw})`;
+      ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+    }
+    if (!reduce) raf = requestAnimationFrame(frame);
+  }
+  resize();
+  addEventListener('resize', () => { cancelAnimationFrame(raf); resize(); last = 0; raf = requestAnimationFrame(frame); });
+  document.addEventListener('visibilitychange', () => {   // 탭이 안 보이면 멈춤
+    if (document.hidden) cancelAnimationFrame(raf); else { last = 0; raf = requestAnimationFrame(frame); }
+  });
+  raf = requestAnimationFrame(frame);
+  requestAnimationFrame(() => canvas.classList.add('on'));
+})();
+
+// ============ 데이터 로드·렌더 ============
 // GitHub Pages 프로젝트 사이트(/저장소이름/)에서도 동작하도록 상대 경로 사용
 const DATA_URL = 'data/trending.json';
-let DATA = null;
+const GUIDES_URL = 'data/guides.json';
+let DATA = null, GUIDES = null, guidesError = null;
 let since = 'daily';
+const state = { q: '', sort: 'rank', ko: false, orig: false, guide: false, langs: new Set(), langMore: false };
 
 const fmt = n => n >= 1000 ? (n/1000).toFixed(1).replace(/\.0$/,'') + 'k' : String(n);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const periodLabel = { daily: '오늘', weekly: '이번 주', monthly: '이번 달' };
-const $list = document.getElementById('list');
+const $ = id => document.getElementById(id);
+const $list = $('list');
 
-function render() {
+function currentRepos() {
   const data = DATA && DATA[since];
-  if (!data || !data.repos || !data.repos.length) {
-    $list.innerHTML = '<p class="status">이 기간의 데이터가 없습니다.</p>';
-    return;
-  }
-  $list.innerHTML = data.repos.map(r => `
-    <div class="card">
-      <div class="rank ${r.rank <= 3 ? 'top3' : ''}">${r.rank}</div>
-      <div class="info">
-        <div class="repo-name">
-          <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.full_name)}</a>
-          ${r.filled_from ? ` <span class="badge">${periodLabel[r.filled_from] || esc(r.filled_from)} 순위에서 보충</span>` : ''}
-        </div>
-        ${r.description ? `<div class="desc">${esc(r.description)}</div>` : ''}
-        ${r.description_ko ? `<div class="desc-ko">${esc(r.description_ko)}</div>` : ''}
-        <div class="meta">
-          ${r.language ? `<span><span class="lang-dot" style="background:${esc(r.language_color || 'var(--muted)')}"></span>${esc(r.language)}</span>` : ''}
-          <span>★ ${fmt(r.stars)}</span>
-          <span>⑂ ${fmt(r.forks)}</span>
-          ${r.stars_period ? `<span class="gain">▲ ${fmt(r.stars_period)} stars (${periodLabel[r.filled_from || since]})</span>` : ''}
-        </div>
-        <button class="guide-btn" type="button" data-repo="${esc(r.full_name)}" aria-expanded="false">📖 설치·활용 가이드</button>
-        <div class="guide-panel" hidden></div>
-      </div>
-    </div>`).join('');
+  return data && data.repos ? data.repos : [];
 }
 
-// ---- 설치·활용 가이드 (README 기반 규칙 추출, data/guides.json) ----
-const GUIDES_URL = 'data/guides.json';
-let GUIDES = null, guidesError = null;
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  let rs = currentRepos().filter(r =>
+    (!state.ko || r.description_ko) &&
+    (!state.orig || !r.filled_from) &&
+    (!state.guide || (GUIDES && GUIDES[r.full_name] && GUIDES[r.full_name].install && GUIDES[r.full_name].install.length)) &&
+    (!state.langs.size || state.langs.has(r.language || '(없음)')) &&
+    (!q || [r.full_name, r.description, r.description_ko, r.language].join(' ').toLowerCase().includes(q))
+  );
+  const key = { gain: 'stars_period', stars: 'stars', forks: 'forks' }[state.sort];
+  if (key) rs = rs.slice().sort((a, b) => (b[key] || 0) - (a[key] || 0));
+  return rs;
+}
+
+function renderFilters() {
+  const rs = currentRepos();
+  $('c-ko').textContent = rs.filter(r => r.description_ko).length;
+  $('c-orig').textContent = rs.filter(r => !r.filled_from).length;
+  $('c-guide').textContent = GUIDES ? rs.filter(r => (GUIDES[r.full_name] || {}).install?.length).length : '';
+  const counts = {};
+  for (const r of rs) { const l = r.language || '(없음)'; counts[l] = (counts[l] || 0) + 1; }
+  const langs = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const show = state.langMore ? langs : langs.slice(0, 6);
+  $('lang-list').innerHTML = show.map(([l, n]) => `
+    <label class="f-row"><input type="checkbox" data-lang="${esc(l)}" ${state.langs.has(l) ? 'checked' : ''}>${esc(l)}<span class="cnt">${n}</span></label>`).join('');
+  $('lang-more').hidden = langs.length <= 6;
+  $('lang-more').textContent = state.langMore ? '− Show less' : `+ Show more (${langs.length - 6})`;
+  $('lang-sel').textContent = state.langs.size ? `${state.langs.size} selected` : '';
+}
+
+function cardHTML(r) {
+  const owner = r.full_name.split('/')[0];
+  const filled = r.filled_from ? `<span class="badge purple">${periodLabel[r.filled_from]} 순위에서 보충</span>` : '';
+  const hasInstall = GUIDES && (GUIDES[r.full_name] || {}).install?.length;
+  return `
+    <article class="card" data-repo="${esc(r.full_name)}">
+      <div class="card-top">
+        <div class="owner"><img src="https://github.com/${esc(owner)}.png?size=32" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><span>${esc(owner)}</span></div>
+        <div class="badges">${hasInstall ? '<span class="badge blue">Installable</span>' : ''}${filled}</div>
+      </div>
+      <div class="title"><span class="rank ${r.rank <= 3 ? 'top3' : ''}">#${r.rank}</span><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.full_name.split('/')[1])}</a></div>
+      ${r.description_ko ? `<div class="desc">${esc(r.description_ko)}</div>` : ''}
+      ${r.description ? `<div class="${r.description_ko ? 'desc-en' : 'desc'}">${esc(r.description)}</div>` : (r.description_ko ? '' : '<div class="desc-en">설명 없음</div>')}
+      <div class="card-foot">
+        ${r.language ? `<span class="pill"><span class="lang-dot" style="background:${esc(r.language_color || '#a7a7a7')}"></span>${esc(r.language)}</span>` : ''}
+        <span class="pill">★ ${fmt(r.stars)}</span>
+        <span class="pill">⑂ ${fmt(r.forks)}</span>
+        ${r.stars_period ? `<span class="pill gain">▲ ${fmt(r.stars_period)} <small style="color:var(--muted);font-weight:400">${periodLabel[r.filled_from || since]}</small></span>` : ''}
+        <span class="right"><button class="guide-btn" type="button" aria-expanded="false">📖 가이드</button></span>
+      </div>
+      <div class="guide-panel" hidden></div>
+    </article>`;
+}
+
+function render() {
+  if (!DATA) return;
+  renderFilters();
+  const rs = filtered();
+  $('count').textContent = `${rs.length} repositories`;
+  $list.innerHTML = rs.length ? rs.map(cardHTML).join('') : '<p class="status">조건에 맞는 저장소가 없습니다.</p>';
+}
+
+// ---- 오류·오래된 데이터 안내 ----
+function showError(err) {
+  $('updated-at').textContent = '불러오기 실패';
+  const isFile = location.protocol === 'file:';
+  const is404 = err && err.status === 404;
+  let cause, fixes;
+  if (isFile) {
+    cause = 'index.html을 파일로 직접 열면 브라우저 보안 정책 때문에 data/trending.json을 읽을 수 없습니다.';
+    fixes = ['저장소 폴더에서 <code>python -m http.server 8000</code> 실행 후 <code>http://localhost:8000</code>으로 접속하세요.',
+             '또는 GitHub Pages 공개 URL로 접속하세요.'];
+  } else if (is404) {
+    cause = '<code>data/trending.json</code> 파일을 찾을 수 없습니다 (404). 아직 첫 수집이 실행되지 않았을 수 있습니다.';
+    fixes = ['저장소의 <b>Actions</b> 탭 → <b>Update trending data</b> → <b>Run workflow</b>로 수동 실행하세요.',
+             '실행이 끝나고 Pages 배포가 반영되기까지 1~2분 기다린 뒤 새로고침하세요.'];
+  } else if (err && err.name === 'SyntaxError') {
+    cause = '데이터 파일 형식이 올바르지 않습니다 (JSON 파싱 오류).';
+    fixes = ['Actions 탭에서 최근 실행 로그를 확인하고 워크플로를 다시 실행하세요.'];
+  } else {
+    cause = '네트워크 오류로 데이터를 불러오지 못했습니다' + (err && err.status ? ` (HTTP ${err.status})` : '') + '.';
+    fixes = ['인터넷 연결을 확인하고 새로고침하세요.', 'GitHub Pages 장애 여부는 githubstatus.com에서 확인할 수 있습니다.'];
+  }
+  $list.innerHTML = `
+    <div class="error" role="alert">
+      <h2>데이터를 불러오지 못했습니다</h2>
+      <p>${cause}</p>
+      <ul>${fixes.map(f => `<li>${f}</li>`).join('')}</ul>
+      <p style="color:var(--muted);font-size:12px">상세: ${esc(err && err.message || err)}</p>
+      <button type="button" class="btn green" onclick="load()">다시 시도</button>
+    </div>`;
+}
+// 매일 갱신되어야 하므로 36시간 넘게 그대로면 갱신이 멈춘 것으로 보고 알림
+function warnIfStale(fetchedAt) {
+  const m = /^(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2})/.exec(fetchedAt || '');
+  $('notice').innerHTML = '';
+  if (!m) return;
+  const hours = (Date.now() - new Date(`${m[1]}T${m[2]}+09:00`)) / 36e5;
+  if (hours < 36) return;
+  $('notice').innerHTML = `
+    <div class="error" role="status">
+      <h2>데이터가 ${Math.floor(hours / 24)}일 넘게 갱신되지 않았습니다</h2>
+      <p>저장소의 <b>Actions</b> 탭에서 <b>Update trending data</b> 실행이 실패했거나 비활성화되지 않았는지 확인하세요.</p>
+    </div>`;
+}
+
+async function load() {
+  $list.innerHTML = '<p class="status">데이터를 불러오는 중…</p>';
+  try {
+    // 캐시 방지: Pages CDN·브라우저 캐시가 어제 데이터를 돌려주지 않도록 타임스탬프 쿼리
+    const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
+    if (!res.ok) { const e = new Error(`HTTP ${res.status} ${res.statusText}`); e.status = res.status; throw e; }
+    DATA = await res.json();
+    $('updated-at').textContent = DATA.fetched_at || '알 수 없음';
+    render();
+    warnIfStale(DATA.fetched_at);
+  } catch (err) {
+    console.error(err);
+    showError(err);
+  }
+}
 fetch(`${GUIDES_URL}?t=${Date.now()}`, { cache: 'no-store' })
   .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
-  .then(g => { GUIDES = g; })
+  .then(g => { GUIDES = g; if (DATA) render(); })
   .catch(e => { guidesError = e; console.warn('guides.json 로드 실패', e); });
 
+// ---- 탭·필터·검색·정렬 ----
+$('tabs').addEventListener('click', e => {
+  const btn = e.target.closest('button'); if (!btn) return;
+  since = btn.dataset.since;
+  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b === btn));
+  render();
+});
+$('filters').addEventListener('change', e => {
+  const t = e.target;
+  if (t.dataset.lang !== undefined) { t.checked ? state.langs.add(t.dataset.lang) : state.langs.delete(t.dataset.lang); }
+  else if (t.id === 'f-ko') state.ko = t.checked;
+  else if (t.id === 'f-orig') state.orig = t.checked;
+  else if (t.id === 'f-guide') state.guide = t.checked;
+  render();
+});
+$('lang-more').addEventListener('click', () => { state.langMore = !state.langMore; renderFilters(); });
+function resetFilters() {
+  Object.assign(state, { ko: false, orig: false, guide: false, langMore: false }); state.langs.clear();
+  ['f-ko', 'f-orig', 'f-guide'].forEach(id => { $(id).checked = false; });
+  render();
+}
+$('f-reset').addEventListener('click', resetFilters);
+$('f-reset-x').addEventListener('click', resetFilters);
+$('f-close').addEventListener('click', () => $('filters').classList.remove('show'));
+$('filter-toggle').addEventListener('click', () => $('filters').classList.toggle('show'));
+$('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
+let qTimer;
+function onQuery(v, other) { state.q = v; other.value = v; clearTimeout(qTimer); qTimer = setTimeout(render, 120); }
+$('refine').addEventListener('input', e => onQuery(e.target.value, $('q')));
+$('q').addEventListener('input', e => onQuery(e.target.value, $('refine')));
+addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); ($('q').offsetParent ? $('q') : $('refine')).focus(); }
+});
+
+// ============ 설치·활용 가이드 (README 기반 규칙 추출, data/guides.json) ============
 function findRepo(name) {
   for (const k of ['daily', 'weekly', 'monthly']) {
     const hit = ((DATA && DATA[k] || {}).repos || []).find(r => r.full_name === name);
@@ -307,7 +605,6 @@ function findRepo(name) {
   }
   return { full_name: name, url: `https://github.com/${name}` };
 }
-
 // 저장소 안에서 실행해야 하는 명령(clone 뒤 cd 해서 실행)인지, 패키지 설치 명령인지 구분
 const IN_REPO = /^((npm|pnpm|yarn|bun) (install|i|ci)\b|pip3? install (-e |--editable )?\.|pip3? install -r |uv (sync|pip install -e)|poetry install|make\b|cargo (build|run)|go (build|run)\b|docker compose|docker-compose|\.\/|bash |sh |python3? -m venv|npm run|pnpm (dev|start|run)|yarn (dev|start))/;
 const isClone = c => /^git clone\b/.test(c);
@@ -337,37 +634,40 @@ function renderGuide(r, g) {
   const install = g.install || [];
   const pkgCmds = install.filter(c => !isClone(c) && !IN_REPO.test(c));
   const repoCmds = install.filter(c => IN_REPO.test(c));
-  const dir = dirOf(r.url);
-  const quick = [`git clone ${r.url}`, `cd ${dir}`].concat(repoCmds.slice(0, 2)).join(' && ');
-  const prompt = buildPrompt(r, g);
-  const one = buildOneLiner(r);
-  const chips = [g.license && `⚖ ${g.license}`, r.language && `${r.language}`]
-    .concat((g.topics || []).slice(0, 5).map(t => `#${t}`)).filter(Boolean);
+  const quick = [`git clone ${r.url}`, `cd ${dirOf(r.url)}`].concat(repoCmds.slice(0, 2)).join(' && ');
+  const prompt = buildPrompt(r, g), one = buildOneLiner(r);
+  const chips = [g.license && `⚖ ${g.license}`, r.language].concat((g.topics || []).slice(0, 6).map(t => `#${t}`)).filter(Boolean);
+  const readme = esc(g.readme_url || r.url);
   return `
-    <h4>무엇인가요?</h4>
-    ${r.description_ko ? `<p>${esc(r.description_ko)}</p>` : ''}
-    ${r.description ? `<p class="muted">${esc(r.description)}</p>` : '<p class="muted">저장소에 설명이 없습니다.</p>'}
-    ${g.homepage ? `<p>🔗 <a href="${esc(g.homepage)}" target="_blank" rel="noopener">${esc(g.homepage)}</a></p>` : ''}
-    ${chips.length ? `<div class="chips">${chips.map(c => `<span class="chip">${esc(c)}</span>`).join('')}</div>` : ''}
+    <div class="guide-cols">
+      <div>
+        <h4>무엇인가요?</h4>
+        ${r.description_ko ? `<p>${esc(r.description_ko)}</p>` : ''}
+        ${r.description ? `<p class="muted">${esc(r.description)}</p>` : '<p class="muted">저장소에 설명이 없습니다.</p>'}
+        ${g.homepage ? `<p>🔗 <a href="${esc(g.homepage)}" target="_blank" rel="noopener">${esc(g.homepage)}</a></p>` : ''}
+        ${chips.length ? `<div class="chips">${chips.map(c => `<span class="chip">${esc(c)}</span>`).join('')}</div>` : ''}
 
-    <h4>설치 방법 <small>README에서 자동 추출</small></h4>
-    ${pkgCmds.length ? `<p class="muted">패키지로 설치:</p>${pkgCmds.map(c => cmdBox(c)).join('')}` : ''}
-    <p class="muted">소스로 받아서 바로 실행 (터미널에 붙여넣기):</p>
-    ${cmdBox(quick)}
-    ${!install.length ? `<p class="muted">README에서 설치 명령을 찾지 못했습니다. <a href="${esc(g.readme_url || r.url)}" target="_blank" rel="noopener">README 보기 ↗</a></p>` : ''}
+        <h4>설치 방법 <small>README에서 자동 추출</small></h4>
+        ${pkgCmds.length ? `<p class="muted">패키지로 설치:</p>${pkgCmds.map(c => cmdBox(c)).join('')}` : ''}
+        <p class="muted">소스로 받아서 바로 실행 (터미널에 붙여넣기):</p>
+        ${cmdBox(quick)}
+        ${!install.length ? `<p class="muted">README에서 설치 명령을 찾지 못했습니다. <a href="${readme}" target="_blank" rel="noopener">README 보기 ↗</a></p>` : ''}
 
-    <h4>활용 방법 ${g.usage_title ? `<small>README · ${esc(g.usage_title)}</small>` : ''}</h4>
-    ${g.usage_text ? `<p class="usage-text">${esc(g.usage_text)}</p>` : '<p class="muted">README에서 사용법 섹션을 찾지 못했습니다.</p>'}
-    ${g.usage_code ? cmdBox(g.usage_code) : ''}
-    <p class="muted"><a href="${esc(g.readme_url || r.url)}" target="_blank" rel="noopener">전체 README 보기 ↗</a></p>
-
-    <h4>AI 에이전트로 바로 쓰기 <small>Claude Code · Codex</small></h4>
-    <p class="muted">데스크톱 앱이나 채팅창에 붙여넣으면 에이전트가 clone → 설치 → 예제 실행 → 사용법 정리까지 알아서 진행합니다.</p>
-    ${cmdBox(prompt, 'prompt')}
-    <p class="muted">CLI에서 한 줄로 시작 (저장소를 받을 폴더에서 실행):</p>
-    ${cmdBox(`claude "${one}"`)}
-    ${cmdBox(`codex "${one}"`)}
-    <p class="muted">설치 명령은 README에서 규칙으로 뽑은 것이라 틀릴 수 있습니다. 정확한 절차는 저장소 README를 우선하세요.</p>`;
+        <h4>활용 방법 ${g.usage_title ? `<small>README · ${esc(g.usage_title)}</small>` : ''}</h4>
+        ${g.usage_text ? `<p class="usage-text">${esc(g.usage_text)}</p>` : '<p class="muted">README에서 사용법 섹션을 찾지 못했습니다.</p>'}
+        ${g.usage_code ? cmdBox(g.usage_code) : ''}
+        <p class="muted"><a href="${readme}" target="_blank" rel="noopener">전체 README 보기 ↗</a></p>
+      </div>
+      <div>
+        <h4>AI 에이전트로 바로 쓰기 <small>Claude Code · Codex</small></h4>
+        <p class="muted">데스크톱 앱이나 채팅창에 붙여넣으면 에이전트가 clone → 설치 → 예제 실행 → 사용법 정리까지 알아서 진행합니다.</p>
+        ${cmdBox(prompt, 'prompt')}
+        <p class="muted">CLI에서 한 줄로 시작 (저장소를 받을 폴더에서 실행):</p>
+        ${cmdBox(`claude "${one}"`)}
+        ${cmdBox(`codex "${one}"`)}
+        <p class="muted">설치 명령은 README에서 규칙으로 뽑은 것이라 틀릴 수 있습니다. 정확한 절차는 저장소 README를 우선하세요.</p>
+      </div>
+    </div>`;
 }
 
 async function copyText(text) {
@@ -392,13 +692,17 @@ $list.addEventListener('click', async e => {
   }
   const btn = e.target.closest('.guide-btn');
   if (!btn) return;
-  const panel = btn.parentElement.querySelector('.guide-panel');
+  const card = btn.closest('.card');
+  const panel = card.querySelector('.guide-panel');
   const open = panel.hidden;
   panel.hidden = !open;
+  card.classList.toggle('expanded', open);
+  btn.classList.toggle('open', open);
   btn.setAttribute('aria-expanded', String(open));
-  btn.textContent = open ? '📖 가이드 접기' : '📖 설치·활용 가이드';
+  btn.textContent = open ? '📖 접기' : '📖 가이드';
+  if (open) card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   if (!open || panel.dataset.loaded) return;
-  const r = findRepo(btn.dataset.repo);
+  const r = findRepo(card.dataset.repo);
   if (!GUIDES) {
     panel.innerHTML = guidesError
       ? `<p class="muted">가이드 데이터(data/guides.json)를 불러오지 못했습니다 (${esc(guidesError.message)}). 워크플로가 한 번 실행되면 생성됩니다.</p>`
@@ -407,80 +711,6 @@ $list.addEventListener('click', async e => {
   }
   panel.innerHTML = renderGuide(r, GUIDES[r.full_name] || {});
   panel.dataset.loaded = '1';
-});
-
-function showError(err) {
-  document.getElementById('updated-at').textContent = '불러오기 실패';
-  const isFile = location.protocol === 'file:';
-  const is404 = err && err.status === 404;
-  let cause, fixes;
-  if (isFile) {
-    cause = 'index.html을 파일로 직접 열면 브라우저 보안 정책 때문에 data/trending.json을 읽을 수 없습니다.';
-    fixes = ['저장소 폴더에서 <code>python -m http.server 8000</code> 실행 후 <code>http://localhost:8000</code>으로 접속하세요.',
-             '또는 GitHub Pages 공개 URL로 접속하세요.'];
-  } else if (is404) {
-    cause = '<code>data/trending.json</code> 파일을 찾을 수 없습니다 (404). 아직 첫 수집이 실행되지 않았을 수 있습니다.';
-    fixes = ['저장소의 <b>Actions</b> 탭 → <b>Update trending data</b> → <b>Run workflow</b>로 수동 실행하세요.',
-             '실행이 끝나고 Pages 배포가 반영되기까지 1~2분 기다린 뒤 새로고침하세요.'];
-  } else if (err && err.name === 'SyntaxError') {
-    cause = '데이터 파일 형식이 올바르지 않습니다 (JSON 파싱 오류).';
-    fixes = ['Actions 탭에서 최근 실행 로그를 확인하고 워크플로를 다시 실행하세요.'];
-  } else {
-    cause = '네트워크 오류로 데이터를 불러오지 못했습니다' + (err && err.status ? ` (HTTP ${err.status})` : '') + '.';
-    fixes = ['인터넷 연결을 확인하고 새로고침하세요.', 'GitHub Pages 장애 여부는 githubstatus.com에서 확인할 수 있습니다.'];
-  }
-  $list.innerHTML = `
-    <div class="error" role="alert">
-      <h2>데이터를 불러오지 못했습니다</h2>
-      <p>${cause}</p>
-      <ul>${fixes.map(f => `<li>${f}</li>`).join('')}</ul>
-      <p style="color:var(--muted);font-size:12px">상세: ${esc(err && err.message || err)}</p>
-      <button type="button" onclick="load()">다시 시도</button>
-    </div>`;
-}
-
-// 매일 갱신되어야 하므로 36시간 넘게 그대로면 갱신이 멈춘 것으로 보고 알림
-function warnIfStale(fetchedAt) {
-  const m = /^(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2})/.exec(fetchedAt || '');
-  const $notice = document.getElementById('notice');
-  $notice.innerHTML = '';
-  if (!m) return;
-  const hours = (Date.now() - new Date(`${m[1]}T${m[2]}+09:00`)) / 36e5;
-  if (hours < 36) return;
-  $notice.innerHTML = (`
-    <div class="error" role="status" style="margin-bottom:10px">
-      <h2>데이터가 ${Math.floor(hours / 24)}일 넘게 갱신되지 않았습니다</h2>
-      <p>저장소의 <b>Actions</b> 탭에서 <b>Update trending data</b> 실행이 실패했거나 비활성화되지 않았는지 확인하세요.</p>
-    </div>`);
-}
-
-async function load() {
-  $list.innerHTML = '<p class="status">데이터를 불러오는 중…</p>';
-  try {
-    // 캐시 방지: Pages CDN·브라우저 캐시가 어제 데이터를 돌려주지 않도록 타임스탬프 쿼리
-    const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
-    if (!res.ok) {
-      const e = new Error(`HTTP ${res.status} ${res.statusText}`);
-      e.status = res.status;
-      throw e;
-    }
-    DATA = await res.json();
-    document.getElementById('updated-at').textContent = DATA.fetched_at || '알 수 없음';
-    render();
-    warnIfStale(DATA.fetched_at);
-  } catch (err) {
-    console.error(err);
-    showError(err);
-  }
-}
-
-document.getElementById('tabs').addEventListener('click', e => {
-  const btn = e.target.closest('button');
-  if (!btn) return;
-  since = btn.dataset.since;
-  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b === btn));
-  if (DATA) render();
-  window.scrollTo({ top: 0 });
 });
 
 load();
