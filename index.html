@@ -114,10 +114,14 @@
   .tabs button:hover { color: var(--text-2); }
   .tabs button.active { color: var(--text); }
   .tabs button.active::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--green); }
+  .tabs .fav-tab { margin-left: auto; }
+  .tabs .fav-tab .n { display: inline-block; min-width: 18px; margin-left: 4px; padding: 0 5px; border-radius: 999px; background: #2a2a2a; color: var(--text-2); font-size: 11px; line-height: 18px; text-align: center; }
+  .tabs .fav-tab.active .n { background: var(--green); color: #0c0c0c; }
   .tabs .beta { margin-left: 6px; font-size: 10px; font-weight: 700; color: var(--green); border: 1px solid var(--green); border-radius: 4px; padding: 0 5px; vertical-align: 1px; }
 
   /* ---- 본문: 필터 사이드바 + 목록 ---- */
-  .layout { display: grid; grid-template-columns: 200px 1fr; gap: 20px; align-items: start; padding-bottom: 40px; }
+  .layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 20px; align-items: start; padding-bottom: 40px; }
+  .layout > section { min-width: 0; }
   aside.filters {
     background: var(--panel); border: 1px solid var(--border-soft); border-radius: 12px;
     position: sticky; top: 64px;
@@ -146,7 +150,7 @@
   .toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
   .toolbar .count { font-size: 14px; white-space: nowrap; }
   .refine {
-    flex: 1; min-width: 200px; display: flex; align-items: center; gap: 8px;
+    flex: 1 1 200px; min-width: 0; display: flex; align-items: center; gap: 8px;
     height: 32px; padding: 0 4px 0 12px;
     background: rgba(0, 0, 0, .6); border: 1px solid var(--border); border-radius: 4px;
   }
@@ -177,6 +181,35 @@
   .owner img { width: 16px; height: 16px; border-radius: 3px; }
   .owner span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .badges { margin-left: auto; display: flex; gap: 6px; flex-shrink: 0; }
+  .fav-btn {
+    flex-shrink: 0; width: 28px; height: 28px; margin: -5px -6px -5px 0;
+    display: grid; place-items: center;
+    background: none; border: 1px solid transparent; border-radius: 6px;
+    color: var(--dim); font-size: 18px; line-height: 1; cursor: pointer;
+    transition: color .15s, transform .15s;
+  }
+  .fav-btn:hover { color: #ffd166; border-color: var(--border-soft); }
+  .fav-btn.on { color: #ffd166; }
+  .fav-btn.pop { transform: scale(1.3); }
+  .card.faved { border-color: rgba(255, 209, 102, .45); }
+  .live { font-size: 12px; font-weight: 700; color: var(--green); margin-right: 6px; }
+  .live.out { color: var(--dim); font-weight: 500; }
+  .fav-bar {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    background: var(--panel); border: 1px solid var(--border-soft); border-radius: 12px;
+    padding: 10px 14px; margin-bottom: 16px; font-size: 13px; color: var(--muted);
+  }
+  .fav-bar[hidden] { display: none; }   /* display:flex 가 hidden 속성을 덮어쓰지 않도록 */
+  .fav-bar .grow { flex: 1 1 200px; min-width: 0; }
+  .fav-bar .btn { border-color: var(--border); color: var(--text); }
+  .fav-bar .btn:hover { border-color: var(--green); color: var(--green); }
+  .fav-bar .btn.danger:hover { border-color: var(--err); color: var(--err); }
+  .toast {
+    position: fixed; left: 50%; bottom: 24px; z-index: 50; transform: translate(-50%, 20px);
+    background: #1f1f1f; color: var(--text); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 14px; font-size: 13px; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
   .badge { font-size: 12px; font-weight: 700; line-height: 18px; padding: 0 8px; border-radius: 4px; white-space: nowrap; }
   .badge.purple { background: var(--purple-bg); color: var(--purple-fg); }
   .badge.blue { background: var(--blue-bg); color: var(--blue-fg); }
@@ -236,7 +269,7 @@
 
   .filter-toggle { display: none; }
   @media (max-width: 900px) {
-    .layout { grid-template-columns: 1fr; }
+    .layout { grid-template-columns: minmax(0, 1fr); }
     aside.filters { position: static; display: none; }
     aside.filters.show { display: block; }
     .filter-toggle { display: inline-flex; }
@@ -301,6 +334,7 @@
     <button data-since="daily" class="active">오늘</button>
     <button data-since="weekly">이번 주</button>
     <button data-since="monthly">이번 달</button>
+    <button data-since="fav" class="fav-tab">★ 관심 레포<span class="n" id="fav-count">0</span></button>
   </div>
 
   <div class="layout">
@@ -341,6 +375,11 @@
         </label>
       </div>
       <div id="notice"></div>
+      <div class="fav-bar" id="fav-bar" hidden>
+        <span class="grow">★ 표시한 레포는 이 브라우저에 저장됩니다. 트렌딩에서 빠져도 목록에 남습니다.</span>
+        <button type="button" class="btn" id="fav-share">🔗 다른 기기로 옮기기 (링크 복사)</button>
+        <button type="button" class="btn danger" id="fav-clear">전체 삭제</button>
+      </div>
       <div class="grid" id="list"><p class="status">데이터를 불러오는 중…</p></div>
     </section>
   </div>
@@ -352,6 +391,7 @@
   출처: <a href="https://github.com/trending" target="_blank" rel="noopener">github.com/trending</a> · 한국어 번역은 기계 번역 · 가이드는 README에서 규칙으로 추출한 것입니다.
 </footer>
 </div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
 // ============ 배경: 점·선 네트워크 애니메이션 (build.nvidia.com 스타일) ============
@@ -432,7 +472,92 @@ const periodLabel = { daily: '오늘', weekly: '이번 주', monthly: '이번 �
 const $ = id => document.getElementById(id);
 const $list = $('list');
 
+// ============ 관심 레포 (브라우저 localStorage에 저장) ============
+// 서버가 없는 정적 사이트라 기기별로 따로 저장된다. 옮길 때는 ?fav= 공유 링크를 쓴다.
+const FAV_KEY = 'gtk-favs-v1';
+const SNAP_FIELDS = ['full_name', 'url', 'description', 'description_ko', 'language', 'language_color', 'stars', 'forks'];
+const NAME_RE = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
+let FAVS = loadFavs();   // { full_name: { ...snapshot, added: ISO 문자열 } }
+
+function loadFavs() {
+  try {
+    const v = JSON.parse(localStorage.getItem(FAV_KEY) || '{}');
+    return v && typeof v === 'object' && !Array.isArray(v) ? v : {};
+  } catch (_) { return {}; }
+}
+function saveFavs() {
+  try { localStorage.setItem(FAV_KEY, JSON.stringify(FAVS)); return true; }
+  catch (_) { toast('이 브라우저에서는 저장할 수 없습니다 (사생활 보호 모드 등)'); return false; }
+}
+const isFav = name => Object.prototype.hasOwnProperty.call(FAVS, name);
+function snapshot(r) {
+  const s = {};
+  for (const k of SNAP_FIELDS) if (r[k] !== undefined) s[k] = r[k];
+  s.url = s.url || `https://github.com/${r.full_name}`;
+  return s;
+}
+function toggleFav(name) {
+  if (isFav(name)) delete FAVS[name];
+  else FAVS[name] = { ...snapshot(findRepo(name)), added: new Date().toISOString() };
+  saveFavs();
+  updateFavCount();
+  return isFav(name);
+}
+function updateFavCount() { $('fav-count').textContent = Object.keys(FAVS).length; }
+
+// 저장된 레포가 지금 트렌딩 어디에 있는지 (오늘 > 이번 주 > 이번 달 순으로 첫 번째)
+function liveOf(name) {
+  for (const p of ['daily', 'weekly', 'monthly']) {
+    const hit = ((DATA && DATA[p] || {}).repos || []).find(r => r.full_name === name);
+    if (hit) return { period: p, repo: hit };
+  }
+  return null;
+}
+function favList() {
+  let changed = false;
+  const list = Object.entries(FAVS)
+    .sort((a, b) => String(b[1].added || '').localeCompare(String(a[1].added || '')))   // 최근에 추가한 순
+    .map(([name, snap]) => {
+      const live = liveOf(name);
+      if (live) {   // 순위에 있으면 스타·설명을 최신 값으로 갱신해 저장
+        const fresh = snapshot(live.repo);
+        if (SNAP_FIELDS.some(k => fresh[k] !== snap[k])) { FAVS[name] = { ...fresh, added: snap.added }; changed = true; }
+        return { ...live.repo, _period: live.period, _live: true };
+      }
+      return { ...snap, full_name: name, rank: null, stars_period: 0, filled_from: null, _live: false };
+    });
+  if (changed) saveFavs();
+  return list;
+}
+
+// ?fav=owner/repo,owner/repo 링크로 열면 관심 목록에 합치고 주소창에서 지운다
+function importFavsFromUrl() {
+  const params = new URLSearchParams(location.search);
+  const raw = params.get('fav');
+  if (raw === null) return;
+  const names = raw.split(',').map(s => s.trim()).filter(s => NAME_RE.test(s)).slice(0, 500);
+  let added = 0;
+  const now = Date.now();
+  names.forEach((n, i) => {
+    if (!isFav(n)) { FAVS[n] = { full_name: n, url: `https://github.com/${n}`, added: new Date(now - i).toISOString() }; added++; }
+  });
+  if (added) saveFavs();
+  params.delete('fav');
+  const qs = params.toString();
+  history.replaceState(null, '', location.pathname + (qs ? `?${qs}` : '') + location.hash);
+  toast(added ? `관심 레포 ${added}개를 가져왔습니다` : '링크의 레포가 이미 모두 관심 목록에 있습니다');
+  since = 'fav';
+}
+
+let toastTimer;
+function toast(msg) {
+  const t = $('toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
 function currentRepos() {
+  if (since === 'fav') return DATA ? favList() : [];
   const data = DATA && DATA[since];
   return data && data.repos ? data.repos : [];
 }
@@ -471,20 +596,31 @@ function cardHTML(r) {
   const owner = r.full_name.split('/')[0];
   const filled = r.filled_from ? `<span class="badge purple">${periodLabel[r.filled_from]} 순위에서 보충</span>` : '';
   const hasInstall = GUIDES && (GUIDES[r.full_name] || {}).install?.length;
+  const faved = isFav(r.full_name);
+  const favView = since === 'fav';
+  // 관심 탭에서는 순위 대신 "지금 어느 순위에 있는지"를 보여준다
+  const rankHTML = favView
+    ? (r._live ? `<span class="live">${periodLabel[r._period]} #${r.rank}</span>` : '<span class="live out">순위 밖</span>')
+    : `<span class="rank ${r.rank <= 3 ? 'top3' : ''}">#${r.rank}</span>`;
+  const gainPeriod = periodLabel[r.filled_from || r._period || since];
   return `
-    <article class="card" data-repo="${esc(r.full_name)}">
+    <article class="card ${faved ? 'faved' : ''}" data-repo="${esc(r.full_name)}">
       <div class="card-top">
         <div class="owner"><img src="https://github.com/${esc(owner)}.png?size=32" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><span>${esc(owner)}</span></div>
-        <div class="badges">${hasInstall ? '<span class="badge blue">Installable</span>' : ''}${filled}</div>
+        <div class="badges">${hasInstall ? '<span class="badge blue">Installable</span>' : ''}${favView ? '' : filled}</div>
+        <button type="button" class="fav-btn ${faved ? 'on' : ''}" aria-pressed="${faved}" title="${faved ? '관심 레포에서 빼기' : '관심 레포로 저장'}">${faved ? '★' : '☆'}</button>
       </div>
-      <div class="title"><span class="rank ${r.rank <= 3 ? 'top3' : ''}">#${r.rank}</span><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.full_name.split('/')[1])}</a></div>
+      <div class="title">${rankHTML}<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.full_name.split('/')[1])}</a></div>
       ${r.description_ko ? `<div class="desc">${esc(r.description_ko)}</div>` : ''}
-      ${r.description ? `<div class="${r.description_ko ? 'desc-en' : 'desc'}">${esc(r.description)}</div>` : (r.description_ko ? '' : '<div class="desc-en">설명 없음</div>')}
+      ${r.description ? `<div class="${r.description_ko ? 'desc-en' : 'desc'}">${esc(r.description)}</div>`
+        : r.description_ko ? ''
+        : favView && !r._live && r.stars === undefined ? '<div class="desc-en">공유 링크로 가져온 레포입니다. 트렌딩에 다시 오르면 설명·스타 정보가 채워집니다.</div>'
+        : '<div class="desc-en">설명 없음</div>'}
       <div class="card-foot">
         ${r.language ? `<span class="pill"><span class="lang-dot" style="background:${esc(r.language_color || '#a7a7a7')}"></span>${esc(r.language)}</span>` : ''}
-        <span class="pill">★ ${fmt(r.stars)}</span>
-        <span class="pill">⑂ ${fmt(r.forks)}</span>
-        ${r.stars_period ? `<span class="pill gain">▲ ${fmt(r.stars_period)} <small style="color:var(--muted);font-weight:400">${periodLabel[r.filled_from || since]}</small></span>` : ''}
+        ${r.stars !== undefined ? `<span class="pill">★ ${fmt(r.stars)}</span>` : ''}
+        ${r.forks !== undefined ? `<span class="pill">⑂ ${fmt(r.forks)}</span>` : ''}
+        ${r.stars_period ? `<span class="pill gain">▲ ${fmt(r.stars_period)} <small style="color:var(--muted);font-weight:400">${gainPeriod}</small></span>` : ''}
         <span class="right"><button class="guide-btn" type="button" aria-expanded="false">📖 가이드</button></span>
       </div>
       <div class="guide-panel" hidden></div>
@@ -492,11 +628,21 @@ function cardHTML(r) {
 }
 
 function render() {
+  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b.dataset.since === since));
+  updateFavCount();
+  const favView = since === 'fav';
+  const favN = Object.keys(FAVS).length;
+  $('fav-bar').hidden = !favView || !favN;
+  $('sort').options[0].textContent = favView ? '최근 추가순' : 'Trending Rank';
   if (!DATA) return;
   renderFilters();
   const rs = filtered();
   $('count').textContent = `${rs.length} repositories`;
-  $list.innerHTML = rs.length ? rs.map(cardHTML).join('') : '<p class="status">조건에 맞는 저장소가 없습니다.</p>';
+  let empty = '<p class="status">조건에 맞는 저장소가 없습니다.</p>';
+  if (favView && !favN) {
+    empty = '<p class="status">아직 관심 레포가 없습니다.<br>카드 오른쪽 위의 <b style="color:#ffd166">☆</b>를 누르면 여기에 모입니다.</p>';
+  }
+  $list.innerHTML = rs.length ? rs.map(cardHTML).join('') : empty;
 }
 
 // ---- 오류·오래된 데이터 안내 ----
@@ -567,9 +713,23 @@ fetch(`${GUIDES_URL}?t=${Date.now()}`, { cache: 'no-store' })
 $('tabs').addEventListener('click', e => {
   const btn = e.target.closest('button'); if (!btn) return;
   since = btn.dataset.since;
-  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b === btn));
   render();
 });
+$('fav-share').addEventListener('click', async () => {
+  const names = Object.keys(FAVS);
+  const url = `${location.origin}${location.pathname}?fav=${names.map(encodeURIComponent).join(',').replace(/%2F/g, '/')}`;
+  toast(await copyText(url)
+    ? `링크를 복사했습니다 (${names.length}개). 다른 기기에서 열면 관심 목록에 합쳐집니다`
+    : '복사하지 못했습니다');
+});
+$('fav-clear').addEventListener('click', () => {
+  const n = Object.keys(FAVS).length;
+  if (!n || !confirm(`관심 레포 ${n}개를 모두 삭제할까요? 되돌릴 수 없습니다.`)) return;
+  FAVS = {}; saveFavs(); render();
+  toast('관심 레포를 모두 삭제했습니다');
+});
+// 다른 탭(창)에서 관심 목록을 바꾸면 이 창도 맞춘다
+addEventListener('storage', e => { if (e.key === FAV_KEY) { FAVS = loadFavs(); render(); } });
 $('filters').addEventListener('change', e => {
   const t = e.target;
   if (t.dataset.lang !== undefined) { t.checked ? state.langs.add(t.dataset.lang) : state.langs.delete(t.dataset.lang); }
@@ -682,6 +842,21 @@ async function copyText(text) {
 }
 
 $list.addEventListener('click', async e => {
+  const fav = e.target.closest('.fav-btn');
+  if (fav) {
+    const card = fav.closest('.card');
+    const name = card.dataset.repo;
+    const on = toggleFav(name);
+    if (since === 'fav') { render(); toast(`관심 레포에서 뺐습니다: ${name}`); return; }
+    fav.classList.toggle('on', on);
+    fav.textContent = on ? '★' : '☆';
+    fav.setAttribute('aria-pressed', String(on));
+    fav.title = on ? '관심 레포에서 빼기' : '관심 레포로 저장';
+    card.classList.toggle('faved', on);
+    fav.classList.add('pop'); setTimeout(() => fav.classList.remove('pop'), 150);
+    toast(on ? `관심 레포에 추가했습니다: ${name}` : `관심 레포에서 뺐습니다: ${name}`);
+    return;
+  }
   const copy = e.target.closest('.copy-btn');
   if (copy) {
     const ok = await copyText(copy.dataset.copy);
@@ -713,6 +888,8 @@ $list.addEventListener('click', async e => {
   panel.dataset.loaded = '1';
 });
 
+importFavsFromUrl();
+render();
 load();
 </script>
 </body>
