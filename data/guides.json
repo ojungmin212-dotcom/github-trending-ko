@@ -1,4 +1,29 @@
 {
+ "DietrichGebert/ponytail": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
+  "install": [
+   "codex plugin marketplace add DietrichGebert/ponytail",
+   "codex plugin add ponytail@ponytail",
+   "git clone https://github.com/DietrichGebert/ponytail"
+  ],
+  "usage_title": "How it works",
+  "usage_text": "Before writing code, the agent stops at the first rung that holds:\nThe ladder runs after it understands the problem, not instead of it: it reads the code the change touches and traces the real flow before picking a rung. Lazy about the solution, never about reading.\nLazy, not negligent: trust-boundary validation, data-loss handling, security, and accessibility are never on the chopping block.",
+  "usage_code": "1. Does this need to exist?   → no: skip it (YAGNI)\n2. Already in this codebase?  → reuse it, don't rewrite\n3. Stdlib does it?            → use it\n4. Native platform feature?   → use it\n5. Installed dependency?      → use it\n6. One line?                  → one line\n7. Only then: the minimum that works",
+  "license": "MIT",
+  "homepage": "https://ponytail.dev",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "claude",
+   "claude-code",
+   "claude-code-plugin",
+   "cursor-rules",
+   "developer-tools",
+   "llm"
+  ],
+  "default_branch": "main"
+ },
  "Fission-AI/OpenSpec": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/Fission-AI/OpenSpec#readme",
@@ -254,6 +279,18 @@
   ],
   "default_branch": "main"
  },
+ "abue-ammar/tinycast": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/abue-ammar/tinycast#readme",
+  "install": [],
+  "usage_title": "Features",
+  "usage_text": "• App launcher — fuzzy-search and launch anything, pin favorites, see what's running, quit an app\n or every app at once.\n• Global hotkey — one shortcut summons the palette from anywhere.\n• Per-app hotkeys — bind a key to an app; press it to toggle (focus/hide).\n• Search Files — open files and folders from the folders you choose, through Spotlight, with no\n index of our own.\n• Dictionary — look a word up with the Define Word command, or define whatever you typed from the\n launcher's fallbacks, read from the Mac's own dictionaries.\n• Clipboard history — text and images, searchable, pasted back into the app you were using…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://tinycast.dev",
+  "topics": [],
+  "default_branch": "main"
+ },
  "addyosmani/agent-skills": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/addyosmani/agent-skills#readme",
@@ -345,6 +382,34 @@
   ],
   "default_branch": "main"
  },
+ "androoAGI/starnet": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/androoAGI/starnet#readme",
+  "install": [
+   "git clone https://github.com/androoAGI/starnet.git",
+   "npm run desktop:dev  # dev shell",
+   "npm run desktop:build  # build installers locally",
+   "npm run test:fast  # required merge gate",
+   "npm run test:http  # live sidecar HTTP/E2E suite",
+   "npm run security:secrets  # full-history secret scan; requires Gitleaks in PATH"
+  ],
+  "usage_title": "Run from source",
+  "usage_text": "Requirements: Node.js 18+ (Node.js 22 matches CI), Git. Rust and the\nTauri prerequisites only for the desktop shell.\nThe sidecar uses Node core modules only, so it runs without installing anything:\nOpen , then connect a provider —\nbring your own OpenRouter API key (BYOK) or use a supported OAuth sign-in. Provider requests leave your machine when you run an agent;\nstation state, transcripts, memory, and ledgers stay in the local StarNet workspace unless you\nexplicitly use a network tool or connector. See PRIVACY.md for the full data map.",
+  "usage_code": "git clone https://github.com/androoAGI/starnet.git\ncd starnet\nnode sidecar/index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/androoAGI/starnet-releases/releases/latest",
+  "topics": [
+   "agent-harness",
+   "ai",
+   "ai-agents",
+   "byok",
+   "desktop-app",
+   "game-ui",
+   "llm",
+   "local-first"
+  ],
+  "default_branch": "feat/harness-backend"
+ },
  "anthropics/claude-code": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/anthropics/claude-code#readme",
@@ -360,6 +425,22 @@
   "license": "",
   "homepage": "https://code.claude.com/docs/en/overview",
   "topics": [],
+  "default_branch": "main"
+ },
+ "anthropics/claude-plugins-official": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/anthropics/claude-plugins-official#readme",
+  "install": [],
+  "usage_title": "Claude Code Plugins Directory",
+  "usage_text": "A curated directory of high-quality plugins for Claude Code.\n> ⚠️ Important: Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://code.claude.com/docs/en/plugins",
+  "topics": [
+   "claude-code",
+   "mcp",
+   "skills"
+  ],
   "default_branch": "main"
  },
  "anthropics/financial-services": {
@@ -394,6 +475,20 @@
   "license": "Apache-2.0",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "anthropics/skills": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/anthropics/skills#readme",
+  "install": [],
+  "usage_title": "Creating a Basic Skill",
+  "usage_text": "Skills are simple to create - just a folder with a SKILL.md file containing YAML frontmatter and instructions. You can use the template-skill in this repository as a starting point:\nThe frontmatter requires only two fields:\n• name - A unique identifier for your skill (lowercase, hyphens for spaces)\n• description - A complete description of what the skill does and when to use it\nThe markdown content below contains the instructions, examples, and guidelines that Claude will follow. For more details, see How to create custom skills.",
+  "usage_code": "---\nname: my-skill-name\ndescription: A clear description of what this skill does and when to use it\n---\n\n# My Skill Name\n\n[Add your instructions here that Claude will follow when this skill is active]\n\n## Examples\n- Example usage 1\n- Example usage 2\n\n## Guidelines\n- Guideline 1\n- Guideline 2",
+  "license": "",
+  "homepage": "",
+  "topics": [
+   "agent-skills"
+  ],
   "default_branch": "main"
  },
  "ayghri/i-have-adhd": {
@@ -440,6 +535,34 @@
    "gis",
    "osint",
    "photogrammetry"
+  ],
+  "default_branch": "main"
+ },
+ "bojieli/ai-agent-book": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/bojieli/ai-agent-book#readme",
+  "install": [
+   "python -m pip install -e \".[ch1]\"",
+   "uv run python chapter1/context/main.py",
+   "git clone https://github.com/anthropics/claude-quickstarts.git chapter6/claude-quickstarts && git -C chapter6/claude-quickstarts checkout --detach 9bcc95e316e5ef6542b4c9d0469f4078829eead5  # 实验 6-8 使用 computer-use-demo/",
+   "git clone https://github.com/browser-use/browser-use.git chapter6/browser-use && git -C chapter6/browser-use checkout --detach ec9277c5001f2cb78ee419c927775a3cfc227ff8  # 实验 6-9",
+   "git clone https://github.com/google-research/android_world.git chapter7/android_world && git -C chapter7/android_world checkout --detach 0e95d641e244504c22087cc29b013f3b2428a261",
+   "git clone https://huggingface.co/datasets/gaia-benchmark/GAIA chapter7/GAIA && git -C chapter7/GAIA checkout --detach 682dd723ee1e1697e00360edccf2366dc8418dd9"
+  ],
+  "usage_title": "深入理解 AI Agent：设计原理与工程实践",
+  "usage_text": "中文 ← 当前 · English · Español · Bahasa Indonesia · العربية · 繁體中文（台灣） · Русский · Tiếng Việt · தமிழ் · 日本語 · Türkçe · 한국어 · Magyar · עברית · Português (Brasil)\n> 📥 下载 PDF / EPUB（推荐）— 推荐使用 PDF / EPUB 离线阅读，排版最佳；也可在线阅读（支持多语言切换、章节折叠、高亮与笔记，每次推送自动更新）。\nAgent = LLM + 上下文 + 工具——本书围绕这个核心公式，用 10 章把 AI Agent 从原理讲到工程实战。全书正文、配图、109 个配套实验全部开源，欢迎亲手把实验跑一遍。\n> 📚 姊妹篇《深入理解 AI Infra：量化分析与系统设计》已开源发布，欢迎阅读：github.com/bojieli/ai-infra-book\n>\n> 要开发好基于模型的应用，还需要理解这类应用赖以运行的基础设施。姊妹篇讨论的就是支撑模型训练与推理的 AI Infra：参数和上下文状态存在哪里，计算怎样执行，多个加速器怎样协作。\n> 📢 2.0 版变更（相较 1.4 版）：本仓库书稿版本已由 1.4 升级为 2.0。2.0 版将原第四章中的“异步交互”部分与原第九章中关于“多模态 Agent”的内容合并，重组为新的第六章“交互：观察与动作空间的扩展”。原第六章“Agent 的评估”、第七章“模型后训练”和第八章“Agent 的持续进化”依次后移一章，现分别为第七、八、九章。\n>…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "agent",
+   "agent-memory",
+   "ai-agent",
+   "book",
+   "coding-agent",
+   "context-engineering",
+   "large-language-models",
+   "llm"
   ],
   "default_branch": "main"
  },
@@ -580,6 +703,27 @@
    "mlx"
   ],
   "default_branch": "main"
+ },
+ "derv82/wifit3": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/derv82/wifit3#readme",
+  "install": [
+   "uv run wifit3",
+   "uv run pyinstaller wifit3.spec --noconfirm --clean"
+  ],
+  "usage_title": "Option 2: Run from Source",
+  "usage_text": "wifit3 uses Astral's uv. sync sets up dependencies:",
+  "usage_code": "uv sync\nuv run wifit3",
+  "license": "GPL-2.0",
+  "homepage": "",
+  "topics": [
+   "cross-platform",
+   "userland",
+   "wifi-scanner",
+   "wifi-security",
+   "wireless-security"
+  ],
+  "default_branch": "master"
  },
  "dream-num/univer": {
   "fetched": "2026-09-25",
@@ -728,6 +872,18 @@
   ],
   "default_branch": "main"
  },
+ "kelseyhightower/kubernetes-the-hard-way": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/kelseyhightower/kubernetes-the-hard-way#readme",
+  "install": [],
+  "usage_title": "Kubernetes The Hard Way",
+  "usage_text": "This tutorial walks you through setting up Kubernetes the hard way. This guide is not for someone looking for a fully automated tool to bring up a Kubernetes cluster. Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.\n> The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that stop you from learning!",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "master"
+ },
  "leejet/stable-diffusion.cpp": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/leejet/stable-diffusion.cpp#readme",
@@ -760,6 +916,21 @@
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "https://magnitude.dev",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "mattpocock/skills": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/mattpocock/skills#readme",
+  "install": [
+   "claude plugins install mattpocock-skills",
+   "npx skills@latest add mattpocock/skills"
+  ],
+  "usage_title": "2. Run /setup-matt-pocock-skills",
+  "usage_text": "In your agent, run it once per repo. It will:\n• Ask you which issue tracker you want to use (GitHub, Linear, or local files)\n• Ask you what labels you apply to tickets when you triage them (/triage uses labels)\n• Ask you where you want to save any docs we create",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://aihero.dev/skills",
   "topics": [],
   "default_branch": "main"
  },
@@ -837,6 +1008,26 @@
   ],
   "default_branch": "main"
  },
+ "odoo/odoo": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/odoo/odoo#readme",
+  "install": [],
+  "usage_title": "Getting started with Odoo",
+  "usage_text": "For a standard installation please follow the Setup instructions\nfrom the documentation.\nTo learn the software, we recommend the Odoo eLearning,\nor Scale-up, the business game.\nDevelopers can start with the developer tutorials.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://www.odoo.com",
+  "topics": [
+   "apps",
+   "business",
+   "erp",
+   "management",
+   "odoo",
+   "odoo-apps",
+   "python"
+  ],
+  "default_branch": "20.0"
+ },
  "omacom/omarchy": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/omacom/omarchy#readme",
@@ -848,6 +1039,58 @@
   "homepage": "https://omarchy.org",
   "topics": [],
   "default_branch": "quattro"
+ },
+ "openbao/openbao": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/openbao/openbao#readme",
+  "install": [
+   "go run . server -dev # Or `./bin/bao server -dev` if you've built the binary already."
+  ],
+  "usage_title": "Documentation and Getting Started",
+  "usage_text": "Documentation is available on the OpenBao website.",
+  "usage_code": "",
+  "license": "MPL-2.0",
+  "homepage": "https://openbao.org/",
+  "topics": [
+   "go",
+   "secret-management",
+   "security"
+  ],
+  "default_branch": "main"
+ },
+ "paperclipai/paperclip": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/paperclipai/paperclip#readme",
+  "install": [
+   "curl -fsSLO https://paperclip.ing/install.sh",
+   "curl -fsSLO https://paperclip.ing/install.sh.sha256",
+   "bash install.sh",
+   "curl -fsSL https://paperclip.ing/install.sh | bash -s -- --no-prompt --no-onboard",
+   "npx --registry https://registry.npmjs.org paperclipai onboard --yes",
+   "npm config get registry"
+  ],
+  "usage_title": "Features",
+  "usage_text": "🔌 Bring Your Own Agent \nAny agent, any runtime, one org chart. If it can receive a heartbeat, it's hired.\n 🎯 Goal Alignment \nEvery task traces back to the organization mission. Agents know what to do and why .\n 💓 Heartbeats \nAgents wake on a schedule, check work, and act. Delegation flows up and down the org chart.\n 💰 Cost Control \nMonthly budgets per agent. When they hit the limit, they stop. No runaway costs.\n 🏢 Multi-Organization \nOne deployment, many organizations. Complete data isolation. One control plane for your portfolio.\n 🎫 Ticket System \nEvery conversation traced. Every decision explained. Full tool-call tracing and immutable audit log.\n 🛡️ Governance…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://paperclip.ing",
+  "topics": [],
+  "default_branch": "master"
+ },
+ "pbakaus/impeccable": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/pbakaus/impeccable#readme",
+  "install": [
+   "npx impeccable install",
+   "npx impeccable update"
+  ],
+  "usage_title": "Usage Examples",
+  "usage_text": "Or use /impeccable directly with a description:",
+  "usage_code": "/impeccable audit blog           # Audit blog hub + post pages\n/impeccable critique landing     # UX design review\n/impeccable polish settings      # Final pass before shipping\n/impeccable harden checkout      # Add error handling + edge cases",
+  "license": "Apache-2.0",
+  "homepage": "https://impeccable.style",
+  "topics": [],
+  "default_branch": "main"
  },
  "pytorch/pytorch": {
   "fetched": "2026-09-25",
@@ -897,6 +1140,30 @@
    "course",
    "deep-learning",
    "from-scratch"
+  ],
+  "default_branch": "main"
+ },
+ "shy3130/tick-stock-panel": {
+  "fetched": "2026-09-26",
+  "readme_url": "https://github.com/shy3130/tick-stock-panel#readme",
+  "install": [
+   "docker run -d --name tsp -p 3018:3018 -v ${PWD}/data:/app/data ghcr.io/shy3130/tick-stock-panel:latest",
+   "docker compose up --build"
+  ],
+  "usage_title": "📈 TSP · A股智能量化工作台",
+  "usage_text": "自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台\n多数据源能力路由 · 分钟级策略执行 · 全时段异动监控 · AI 对话助手\n✨ 核心功能 · 📸 界面预览 · 🏗️ 技术架构 · 🚀 快速开始 · ⚙️ 配置 · 📚 完整文档\n本项目由 RunningHub 提供支持 · 单一接口直连 400+ 主流大模型 · 免费测试\n---\n> [!IMPORTANT]\n> 本项目以个人开源为主进行开发维护，数据源插件化，可任意接入第三方数据源。仅供学习研究使用。\n>\n> ⚠️ 本项目谨作为本地量化提供解决思路与方案，不作为投资软件或者看盘软件。明确不做：不对标同花顺 / 通达信，不内置「AI 荐股 / 涨停预测」。\n📮 有任何项目问题可邮件联系 415333856@qq.com · 觉得有用请点个 ⭐ Star\n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "a-stock",
+   "ai-agent",
+   "aigc",
+   "backtesting",
+   "daily",
+   "duckdb",
+   "fastapi",
+   "llm"
   ],
   "default_branch": "main"
  },
