@@ -175,6 +175,34 @@
   ],
   "default_branch": "main"
  },
+ "MakazhanAlpamys/Soup": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/MakazhanAlpamys/Soup#readme",
+  "install": [
+   "pipx install soup-cli",
+   "uv tool install soup-cli  # same idea, if you already use uv",
+   "pipx install \"soup-cli[train]\"",
+   "pipx install \"soup-cli[all]\"",
+   "pipx install \"git+https://github.com/MakazhanAlpamys/Soup.git\"",
+   "pip install soup-cli"
+  ],
+  "usage_title": "Why Soup?",
+  "usage_text": "Training LLMs is still painful. Even experienced teams spend 30-50% of their time fighting\ninfrastructure instead of improving models. Soup fixes that.\n• Zero SSH. Never SSH into a broken GPU box again.\n• One config. A simple YAML file is all you need.\n• Auto everything. Batch size, GPU detection, quantization — handled.\n• Works locally. Train on your own GPU with QLoRA. No cloud required.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://trysoup.dev",
+  "topics": [
+   "cli",
+   "consumer-gpu",
+   "dpo",
+   "fine-tuning",
+   "gguf",
+   "huggingface",
+   "llm",
+   "llmops"
+  ],
+  "default_branch": "main"
+ },
  "NVIDIA/Model-Optimizer": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/NVIDIA/Model-Optimizer#readme",
@@ -288,6 +316,18 @@
   "usage_code": "",
   "license": "",
   "homepage": "https://tinycast.dev",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "actions/runner-images": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/actions/runner-images#readme",
+  "install": [],
+  "usage_title": "Package managers usage",
+  "usage_text": "We use third-party package managers to install software during the image generation process. The table below lists the package managers and the software installed.\n> [!NOTE]\n> Third-party repositories are re-evaluated every year to identify if they are still useful and secure.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
   "topics": [],
   "default_branch": "main"
  },
@@ -427,6 +467,18 @@
   "topics": [],
   "default_branch": "main"
  },
+ "anthropics/claude-code-action": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/anthropics/claude-code-action#readme",
+  "install": [],
+  "usage_title": "Features",
+  "usage_text": "• 🎯 Intelligent Mode Detection: Automatically selects the appropriate execution mode based on your workflow context—no configuration needed\n• 🤖 Interactive Code Assistant: Claude can answer questions about code, architecture, and programming\n• 🔍 Code Review: Analyzes PR changes and suggests improvements\n• ✨ Code Implementation: Can implement simple fixes, refactoring, and even new features\n• 💬 PR/Issue Integration: Works seamlessly with GitHub comments and PR reviews\n• 🛠️ Flexible Tool Access: Access to GitHub APIs and file operations (additional tools can be enabled via configuration)…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "anthropics/claude-plugins-official": {
   "fetched": "2026-09-26",
   "readme_url": "https://github.com/anthropics/claude-plugins-official#readme",
@@ -536,6 +588,20 @@
    "osint",
    "photogrammetry"
   ],
+  "default_branch": "main"
+ },
+ "block/buzz": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/block/buzz#readme",
+  "install": [
+   "git clone https://github.com/block/buzz.git && cd buzz"
+  ],
+  "usage_title": "Getting started",
+  "usage_text": "New to Buzz? Pick the path that matches you.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "bojieli/ai-agent-book": {
@@ -907,6 +973,18 @@
   ],
   "default_branch": "master"
  },
+ "llvm/llvm-project": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/llvm/llvm-project#readme",
+  "install": [],
+  "usage_title": "The LLVM Compiler Infrastructure",
+  "usage_text": "Welcome to the LLVM project!\nThis repository contains the source code for LLVM, a toolkit for the\nconstruction of highly optimized compilers, optimizers, and run-time\nenvironments.\nThe LLVM project has multiple components. The core of the project is\nitself called \"LLVM\". This contains all of the tools, libraries, and header\nfiles needed to process intermediate representations and convert them into\nobject files. Tools include an assembler, disassembler, bitcode analyzer, and\nbitcode optimizer.\nC-like languages use the Clang frontend. This\ncomponent compiles C, C++, Objective-C, and Objective-C++ code into LLVM bitcode\n-- and from there into object files, using LLVM.\nOther components include…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "http://llvm.org",
+  "topics": [],
+  "default_branch": "main"
+ },
  "magnitudedev/magnitude": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/magnitudedev/magnitude#readme",
@@ -959,6 +1037,49 @@
    "ecommerce",
    "lgpd",
    "mcp"
+  ],
+  "default_branch": "main"
+ },
+ "microsoft/vscode": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/microsoft/vscode#readme",
+  "install": [],
+  "usage_title": "The Repository",
+  "usage_text": "This repository (\"Code - OSS\") is where we (Microsoft) develop the Visual Studio Code product together with the community. Not only do we work on code and issues here, but we also publish our roadmap, monthly iteration plans, and our endgame plans. This source code is available to everyone under the standard MIT license.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://code.visualstudio.com",
+  "topics": [
+   "editor",
+   "electron",
+   "microsoft",
+   "typescript",
+   "visual-studio-code"
+  ],
+  "default_branch": "main"
+ },
+ "mobile-next/mobile-mcp": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/mobile-next/mobile-mcp#readme",
+  "install": [
+   "claude mcp add mobile-mcp -- npx -y @mobilenext/mobile-mcp@latest",
+   "codex mcp add mobile-mcp npx \"@mobilenext/mobile-mcp@latest\"",
+   "npx @mobilenext/mobile-mcp@latest"
+  ],
+  "usage_title": "Main Features",
+  "usage_text": "• 🚀 Accessibility-first — fast and cheap: drives apps from the native accessibility tree (no vision model, no image tokens), falling back to screenshots + coordinates only when needed.\n• 📱 One API, every target: the same tools work across iOS and Android — simulators, emulators, and real devices.\n• 🧠 No platform expertise required: no XCUITest, no Espresso, no per-platform glue — describe the goal and the agent does it.\n• 🧰 Full device control: taps, swipes, and gestures; app install/launch/terminate; screen recording; hardware buttons; deep links; orientation…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://mobilenext.ai",
+  "topics": [
+   "agent",
+   "android",
+   "emulator",
+   "ios",
+   "mcp",
+   "mobile",
+   "physical",
+   "real"
   ],
   "default_branch": "main"
  },
@@ -1269,6 +1390,30 @@
   ],
   "default_branch": "main"
  },
+ "tensorflow/tensorflow": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/tensorflow/tensorflow#readme",
+  "install": [
+   "pip install tensorflow",
+   "pip install tensorflow-cpu"
+  ],
+  "usage_title": "Install",
+  "usage_text": "See the TensorFlow install guide for the\npip package, to\nenable GPU support, use a\nDocker container, and\nbuild from source.\nTo install the current release, which includes support for\nCUDA-enabled GPU cards *(Ubuntu and\nWindows)*:\nOther devices (DirectX and MacOS-metal) are supported using\nDevice Plugins.\nA smaller CPU-only TensorFlow package is also available:\nTo update TensorFlow to the latest version, add the --upgrade flag to the\ncommands above.\n*Nightly binaries are available for testing using the\ntf-nightly and\ntf-nightly-cpu packages on PyPI.*",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://tensorflow.org",
+  "topics": [
+   "deep-learning",
+   "deep-neural-networks",
+   "distributed",
+   "machine-learning",
+   "ml",
+   "neural-network",
+   "python",
+   "tensorflow"
+  ],
+  "default_branch": "master"
+ },
  "tt-a1i/archify": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/tt-a1i/archify#readme",
@@ -1316,6 +1461,41 @@
    "ai-memory",
    "memory"
   ],
+  "default_branch": "main"
+ },
+ "vercel/next.js": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/vercel/next.js#readme",
+  "install": [],
+  "usage_title": "",
+  "usage_text": "",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://nextjs.org",
+  "topics": [
+   "blog",
+   "browser",
+   "compiler",
+   "components",
+   "hybrid",
+   "nextjs",
+   "node",
+   "react"
+  ],
+  "default_branch": "canary"
+ },
+ "zhaoxuya520/reverse-skill": {
+  "fetched": "2026-09-27",
+  "readme_url": "https://github.com/zhaoxuya520/reverse-skill#readme",
+  "install": [
+   "git clone https://github.com/zhaoxuya520/reverse-skill.git"
+  ],
+  "usage_title": "Testing (run after any routing/config change)",
+  "usage_text": "GitHub Actions CI runs all of the above on Windows + Ubuntu for every push/PR.",
+  "usage_code": "# 1. Routing regression — 173 (hint → expected PRIMARY) cases, fails CI on any mismatch\npowershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/test-routing.ps1\n# 2. Structure coherence + supply-chain pin gate (unpinned auto-install fails)\npowershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/verify-routing-coherence.ps1\n# 3. Smoke: verify + script parse + quick route matrix\npowershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/smoke.ps1\n# 4. INDEX.md drift check (regenerate with extract-summaries.ps1 if dirty)\npowershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/extract-summaries.ps1 -Check",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  }
 }
