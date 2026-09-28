@@ -79,6 +79,24 @@
   "topics": [],
   "default_branch": "main"
  },
+ "InfinityLoop1308/PipePipe": {
+  "fetched": "2026-09-28",
+  "readme_url": "https://github.com/InfinityLoop1308/PipePipe#readme",
+  "install": [],
+  "usage_title": "Media Features",
+  "usage_text": "• Display live chats in danmaku-style overlays\n• Support AV1 and VP9 codecs for efficient, high-quality playback \n• Enable music player mode with background playback",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "https://pipepipe.dev",
+  "topics": [
+   "android",
+   "mediaplayer",
+   "newpipe",
+   "sponsorblock",
+   "youtube"
+  ],
+  "default_branch": "main"
+ },
  "JetBrains/go-modern-guidelines": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/JetBrains/go-modern-guidelines#readme",
@@ -1058,6 +1076,34 @@
   ],
   "default_branch": "main"
  },
+ "miuuyy/codex-chatgpt-web": {
+  "fetched": "2026-09-28",
+  "readme_url": "https://github.com/miuuyy/codex-chatgpt-web#readme",
+  "install": [
+   "curl -fsSL https://github.com/miuuyy/codex-chatgpt-web/releases/latest/download/install-launcher.sh | sh",
+   "git clone https://github.com/miuuyy/codex-chatgpt-web.git && cd codex-chatgpt-web && bun run app",
+   "bun run app",
+   "bun run dev:launcher",
+   "bun run src/cli.ts dev status",
+   "bun run dev:chat compaction-lab \"Reply with exactly: DEV READY\""
+  ],
+  "usage_title": "Get started",
+  "usage_text": "Available models: Free/Go → Luna / Think. Accounts with reasoning controls → Instant–High, plus Extra High and Pro when available. The launcher detects what your account can use.\n1. Install the launcher using the download for your system above.\n2. Sign in to ChatGPT in the embedded browser and run the browser smoke test.\n3. Install models and restart Codex once. In automatic mode, choose a model ending in (Web). Pro versions have separate entries; Sol reasoning is selected through Effort. Zero Risk keeps its dedicated entry.\n4. For coding with tools, open MCP in the launcher and complete the Full harness setup below…",
+  "usage_code": "curl -fsSL https://github.com/miuuyy/codex-chatgpt-web/releases/latest/download/install-launcher.sh | sh",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "chatgpt",
+   "chatgpt-pro",
+   "codex",
+   "free-ai",
+   "mcp",
+   "openai",
+   "playwright",
+   "quickstart"
+  ],
+  "default_branch": "main"
+ },
  "mobile-next/mobile-mcp": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/mobile-next/mobile-mcp#readme",
@@ -1080,6 +1126,29 @@
    "mobile",
    "physical",
    "real"
+  ],
+  "default_branch": "main"
+ },
+ "mvschwarz/openrig": {
+  "fetched": "2026-09-28",
+  "readme_url": "https://github.com/mvschwarz/openrig#readme",
+  "install": [
+   "npm install -g @openrig/cli"
+  ],
+  "usage_title": "Install and first run",
+  "usage_text": "Requires Node.js 20, 22 or 24 and tmux. Launching a rig writes provider hooks and workspace trust settings. Before running the commands below, read what OpenRig changes on your machine and back up the relevant files.\nTo install with Bun instead, run bun add -g @openrig/cli. OpenRig still runs on Node.js, so install Node.js 22 as well. Bun may block this package's postinstall script, in which case the Node.js and SQLite check described under what OpenRig changes on your machine does not run at install time…",
+  "usage_code": "npm install -g @openrig/cli\nrig setup --dry-run",
+  "license": "Apache-2.0",
+  "homepage": "https://openrig.dev",
+  "topics": [
+   "agent-harness",
+   "agent-orchestration",
+   "agent-skills",
+   "ai-coding",
+   "claude-code",
+   "cli",
+   "codex-cli",
+   "multi-agent"
   ],
   "default_branch": "main"
  },
@@ -1212,6 +1281,25 @@
   "homepage": "https://impeccable.style",
   "topics": [],
   "default_branch": "main"
+ },
+ "pollen-robotics/microduck_rl": {
+  "fetched": "2026-09-28",
+  "readme_url": "https://github.com/pollen-robotics/microduck_rl#readme",
+  "install": [
+   "git clone https://github.com/pollen-robotics/microduck_rl",
+   "uv run train Mjlab-Velocity-Flat-MicroDuck --env.scene.num-envs 4096",
+   "uv run play Mjlab-Velocity-Flat-MicroDuck --wandb-run-path <entity/project/run_id>",
+   "uv run scripts/export.py Mjlab-Velocity-Flat-MicroDuck --wandb-run-path <...>",
+   "uv run publish --onnx output.onnx --repo <user>/microduck-<name> --kind episodic --duration-s 4.0  # share it (see \"Publishing a policy\")",
+   "uv run scripts/infer_policy.py --walking output.onnx"
+  ],
+  "usage_title": "Quickstart",
+  "usage_text": "Requires a CUDA GPU (training runs through MuJoCo Warp) and uv.\n> On ARM boxes (DGX Spark / GB10, Jetson): uv sync pulls ~2 GB of CUDA\n> wheels on first run and uv's default 30 s HTTP timeout can abort mid-download.\n> Export UVHTTPTIMEOUT=600 for the first sync. \nResume from a checkpoint:\nNo GPU? Add --hf-jobs to any train command to run it on Hugging Face Jobs\ninstead of locally (see scripts/hf/README.md).",
+  "usage_code": "git clone https://github.com/pollen-robotics/microduck_rl\ncd microduck_rl\n\n# train the walking policy (uses your GPU; ~1-2 h for a usable gait at 4096 envs)\nuv run train Mjlab-Velocity-Flat-MicroDuck --env.scene.num-envs 4096\n\n# watch a trained policy in the viewer\nuv run play Mjlab-Velocity-Flat-MicroDuck --wandb-run-path <entity/project/run_id>\n\n# export to ONNX for deployment\nuv run scripts/export.py Mjlab-Velocity-Flat-MicroDuck --wandb-run-path <...>\nuv run publish --onnx output.onnx --repo <user>/microduck-<name> --kind episodic --duration-s 4.0   # share it (see \"Publishing a policy\")\n\n# drive the exported policy in CPU MuJoCo with the keyboard\nuv run scripts/infer_policy.py --walking output.onnx",
+  "license": "Apache-2.0",
+  "homepage": "https://pollen-robotics.com/microduck",
+  "topics": [],
+  "default_branch": "develop"
  },
  "pytorch/pytorch": {
   "fetched": "2026-09-25",
@@ -1463,6 +1551,22 @@
   ],
   "default_branch": "main"
  },
+ "vercel-labs/scriptc": {
+  "fetched": "2026-09-28",
+  "readme_url": "https://github.com/vercel-labs/scriptc#readme",
+  "install": [
+   "npm install -g scriptc",
+   "npm install picocolors",
+   "pnpm install && pnpm -r build"
+  ],
+  "usage_title": "scriptc",
+  "usage_text": "scriptc compiles TypeScript and JavaScript to typed IR, readable C, textual LLVM IR, native assembly and objects, native executables, and WebAssembly modules. It uses the TypeScript compiler for parsing and type checking. Source outputs require only Node. On macOS 15+ arm64, ordinary LLVM-tier executables use scriptc's bundled helper and precompiled runtime pack; clang is only the platform linker driver and does not compile program or runtime C.\nStatic builds include a small native runtime, but no Node or JavaScript engine. Code that cannot compile statically is reported as a diagnostic. For npm packages and any-typed code, --dynamic embeds quickjs-ng explicitly…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://scriptc.dev",
+  "topics": [],
+  "default_branch": "main"
+ },
  "vercel/next.js": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/vercel/next.js#readme",
@@ -1483,6 +1587,20 @@
    "react"
   ],
   "default_branch": "canary"
+ },
+ "willfaust/Madeira": {
+  "fetched": "2026-09-28",
+  "readme_url": "https://github.com/willfaust/Madeira#readme",
+  "install": [
+   "git clone --recurse-submodules <this repo>"
+  ],
+  "usage_title": "Madeira",
+  "usage_text": "Run Windows PC games on a non-jailbroken iPhone.\nMadeira combines Wine (ARM64EC),\nFEX-Emu for x86-64 → ARM64 translation, and\nDXMT for D3D11 → Metal, running as a single\nMach process on iOS with wineserver as a thread rather than a separate process.",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
  },
  "zhaoxuya520/reverse-skill": {
   "fetched": "2026-09-27",
