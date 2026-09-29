@@ -237,6 +237,18 @@
   "topics": [],
   "default_branch": "main"
  },
+ "NawfalMotii79/PLFM_RADAR": {
+  "fetched": "2026-09-29",
+  "readme_url": "https://github.com/NawfalMotii79/PLFM_RADAR#readme",
+  "install": [],
+  "usage_title": "🔬 Key Features",
+  "usage_text": "• Open Source Hardware & Software - Complete schematics, PCB layouts, firmware, and software available\n• Dual Version Availability:\n• AERIS-10N (Nexus): 3km range with 8x16 patch antenna array\n• AERIS-10E (Extended): 20km range with 32x16 dielectric-filled slotted waveguide array\n• Full Electronic Beam Steering - ±45° electronic steering in elevation and azimuth\n• Advanced Signal Processing - On-board FPGA handles pulse compression, Doppler FFT, MTI, and CFAR\n• Python GUI - User-friendly interface with map integration\n• GPS/IMU Integration - Real-time position and attitude correction\n• Modular Design - Separate power management, frequency synthesis, and RF boards",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "THU-MAIC/OpenMAIC": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/THU-MAIC/OpenMAIC#readme",
@@ -650,6 +662,22 @@
   ],
   "default_branch": "main"
  },
+ "byoungd/up": {
+  "fetched": "2026-09-29",
+  "readme_url": "https://github.com/byoungd/up#readme",
+  "install": [],
+  "usage_title": "人生进阶指南",
+  "usage_text": "中文 | English\n韩先凯 著（笔名：离谱）\n副标题：AI 时代终身学习指南。这是一份持续更新的书稿，从英语这扇具体的门出发，写到 AI 学习、真实项目、创业失败、身体恢复，以及一个普通人怎样把生活一点点交还给自己。\n 持续更新书稿 \n 下载中文 EPUB \n Download English EPUB \n 下载中文 PDF \n Download English PDF \n 源码与勘误 \n 读者实践回执 \n 正文 CC BY-NC 4.0 \nAI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得到一份解释、一段代码、一张计划表，甚至一个看似笃定的人生建议。可真正稀缺的东西并没有因此消失：知道什么问题值得追问，辨别什么证据可以相信，把建议变成真实作品，并为最后的判断承担责任。\n这是一份面向普通人的终身学习指南。它不要求你先成为天才、专家或意志坚定的人，也不许诺某个工具会替你改变命运。它想做的，是陪你在变化加速的时代里，一次次重新学习：面对陌生问题，借助 AI，也保留自己的判断；完成一件真实的事，再把经验带到下一段路。\n项目在 2017 年从《离谱的英语学习指南》开始。英语曾是全部地图，如今它成为地图上的一条基础路径。我们继续向外走，进入 AI 学习、项目开发、资源层创业、人生复盘与恢复。不是因为过去不再重要，而是因为所有训练最终都指向同一个问题：当世界不断改变，我还能不能继续学习、继续创造、继续成为生活的参与者？…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://biezou.com",
+  "topics": [
+   "chinese",
+   "english-learning",
+   "tutorial"
+  ],
+  "default_branch": "master"
+ },
  "cilium/cilium": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/cilium/cilium#readme",
@@ -723,6 +751,26 @@
   "homepage": "",
   "topics": [],
   "default_branch": "main"
+ },
+ "cs341-illinois/coursebook": {
+  "fetched": "2026-09-29",
+  "readme_url": "https://github.com/cs341-illinois/coursebook#readme",
+  "install": [],
+  "usage_title": "Coursebook",
+  "usage_text": "Welcome to the systems programming coursebook!\nThis repository houses a high-quality, open-source introductory systems programming textbook used by the CS 341: System Programming course at the University of Illinois Urbana-Champaign\nThe book assumes that you have taken a programming language course and are familiar with assembly instructions.\nAll of the code and instruction will be in C, as it is the de-facto language of the Linux Kernel.\nThe Coursebook is an aim to standardize and build upon Angrave's original wikibook experiment.\nThe most recent version of the coursebook as a single pdf is here: main.pdf.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://cs341.cs.illinois.edu/coursebook",
+  "topics": [
+   "awesome",
+   "c",
+   "latex",
+   "linux",
+   "posix",
+   "system-programming",
+   "wikibook"
+  ],
+  "default_branch": "master"
  },
  "cursor/plugins": {
   "fetched": "2026-09-25",
@@ -833,6 +881,22 @@
    "pdf"
   ],
   "default_branch": "dev"
+ },
+ "elastic/elasticsearch": {
+  "fetched": "2026-09-29",
+  "readme_url": "https://github.com/elastic/elasticsearch",
+  "install": [],
+  "usage_title": "",
+  "usage_text": "",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://www.elastic.co/products/elasticsearch",
+  "topics": [
+   "elasticsearch",
+   "java",
+   "search-engine"
+  ],
+  "default_branch": "main"
  },
  "ever-co/ever-gauzy": {
   "fetched": "2026-09-25",
@@ -1501,6 +1565,30 @@
    "tensorflow"
   ],
   "default_branch": "master"
+ },
+ "trycua/cua": {
+  "fetched": "2026-09-29",
+  "readme_url": "https://github.com/trycua/cua#readme",
+  "install": [
+   "uv tool install 'cua-bench[browser]'",
+   "uv tool run --from 'cua-bench[browser]' playwright install chromium"
+  ],
+  "usage_title": "Choose your path",
+  "usage_text": "• Cua Fleets: Provision a Linux desktop, run a command, and save a screenshot.\n• CUA-S1: Explore small, specialized models for computer-use decisions.\n• Cua Driver: Operate Calculator and verify its result.\n• Lume: Create a Tahoe VM and connect over SSH.\n• Cua Bench: Create and verify a simulated task.\nBring your own agent and model, or explore CUA-S1 for specialized decisions. Cua provides the computer and automation tools. Computer-Use 2.0 describes an agent moving between code, APIs, and graphical interfaces within the same task.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://cua.ai",
+  "topics": [
+   "agent",
+   "ai-agent",
+   "apple",
+   "computer-use",
+   "computer-use-agent",
+   "containerization",
+   "cua",
+   "desktop-automation"
+  ],
+  "default_branch": "main"
  },
  "tt-a1i/archify": {
   "fetched": "2026-09-25",
