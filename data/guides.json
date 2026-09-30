@@ -237,6 +237,48 @@
   "topics": [],
   "default_branch": "main"
  },
+ "NVIDIA/OpenShell": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/NVIDIA/OpenShell#readme",
+  "install": [
+   "curl -LsSf https://raw.githubusercontent.com/NVIDIA/OpenShell/main/install.sh | sh",
+   "npx skills add NVIDIA/OpenShell"
+  ],
+  "usage_title": "How It Works",
+  "usage_text": "OpenShell governs what agents can do in two ways: it instruments the kernel to enforce policy on every file access, system call, and network connection at runtime, and it uses formal verification to check what a policy change would allow before it is applied.\n• Kernel-level enforcement. Each agent runs in an isolated sandbox. Kernel controls confine which files it can access and which system calls it can make, and every network connection passes through a policy check before it leaves the sandbox. Agents never see real credentials; OpenShell adds them only to requests bound for approved endpoints…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.nvidia.com/openshell/latest/",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "NVIDIA/SkillSpector": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/NVIDIA/SkillSpector#readme",
+  "install": [
+   "uv tool install git+https://github.com/NVIDIA/skillspector.git",
+   "uv tool install 'skillspector[mcp] @ git+https://github.com/NVIDIA/skillspector.git'",
+   "git clone https://github.com/NVIDIA/skillspector.git",
+   "make install",
+   "make install-dev"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Multi-format input: Scan Git repos, URLs, zip files, directories, or single files\n• 71 vulnerability patterns across 17 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, anti-refusal, trigger abuse, dangerous code (AST), taint tracking, YARA signatures, MCP least privilege, and MCP tool poisoning\n• Two-stage analysis: Fast static analysis + optional LLM semantic evaluation\n• Live vulnerability lookups: SC4 queries OSV.dev for real-time CVE data with automatic offline fallback\n• Multiple output formats: Terminal, JSON, Markdown, and SARIF reports…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.nvidia.com/skills/scanning-agent-skills",
+  "topics": [
+   "agent-security",
+   "agent-skills",
+   "agentic-ai",
+   "ai-security",
+   "claude-code",
+   "mcp",
+   "prompt-injection",
+   "security-scanner"
+  ],
+  "default_branch": "main"
+ },
  "NawfalMotii79/PLFM_RADAR": {
   "fetched": "2026-09-29",
   "readme_url": "https://github.com/NawfalMotii79/PLFM_RADAR#readme",
@@ -247,6 +289,28 @@
   "license": "",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "PrismML-Eng/Bonsai-demo": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/PrismML-Eng/Bonsai-demo#readme",
+  "install": [
+   "git clone https://github.com/PrismML-Eng/Bonsai-demo.git",
+   "git clone -b prism https://github.com/PrismML-Eng/llama.cpp.git"
+  ],
+  "usage_title": "Bonsai Demo",
+  "usage_text": "Backend and model format compatibility: BACKEND-SUPPORT.md.\n Website  | \n GitHub  | \n Discord \n Models: \n Bonsai 2 27B GGUF ·\n Bonsai 2 27B MLX \n---\nRun Bonsai 2 27B locally on Mac (Metal), Linux/Windows (CUDA, Vulkan, ROCm), or CPU.\nFor the earlier Bonsai 1-bit and Ternary-Bonsai models (27B, 8B, 4B, 1.7B), see\nBonsai1_README.md. For troubleshooting, see FAQ.md.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://prismml.com/",
+  "topics": [
+   "bonsai",
+   "llamacpp",
+   "llm",
+   "mlx",
+   "prism-ml",
+   "small-models"
+  ],
   "default_branch": "main"
  },
  "THU-MAIC/OpenMAIC": {
@@ -337,6 +401,29 @@
   ],
   "default_branch": "main"
  },
+ "VectifyAI/PageIndex": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/VectifyAI/PageIndex#readme",
+  "install": [
+   "pip install -U pageindex"
+  ],
+  "usage_title": "PageIndex: Vectorless, Reasoning-based RAG",
+  "usage_text": "Reasoning-based RAG  ◦  No Vector DB, No Chunking  ◦  Context-Aware Retrieval  ◦  Reads Like a Human \n 🌐 Website   •  \n ☁️ Cloud   •  \n 📖 Docs   •  \n 📝 Blog   •  \n ✉️ Contact  \n Updates \n• [Aug '26] 🔥 PageIndex SDK: pip install -U pageindex now ships local mode: index, retrieve, and chat entirely on your machine with your own LLM key, or point the same client at PageIndex Cloud with an API key.\n• [Aug '26] ⚡ PageIndex Flash: fast tree index generation for text-based PDFs, now the default indexing method in PageIndex SDK local mode…",
+  "usage_code": "pip install -U pageindex",
+  "license": "MIT",
+  "homepage": "https://pageindex.ai",
+  "topics": [
+   "agentic-ai",
+   "agents",
+   "ai",
+   "ai-agents",
+   "context-engineering",
+   "information-retrieval",
+   "llm",
+   "rag"
+  ],
+  "default_branch": "main"
+ },
  "abue-ammar/tinycast": {
   "fetched": "2026-09-26",
   "readme_url": "https://github.com/abue-ammar/tinycast#readme",
@@ -412,6 +499,34 @@
    "llm",
    "mcp",
    "productivity"
+  ],
+  "default_branch": "main"
+ },
+ "ahujasid/mcp-for-blender": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/ahujasid/mcp-for-blender#readme",
+  "install": [
+   "brew install uv",
+   "curl -LsSf https://astral.sh/uv/install.sh | sh",
+   "claude mcp add blender uvx mcp-for-blender",
+   "codex mcp add blender -- uvx mcp-for-blender",
+   "uvx mcp-for-blender install-addon",
+   "pipx install mcp-for-blender"
+  ],
+  "usage_title": "Quickstart",
+  "usage_text": "> Note: the PyPI package blender-mcp is now mcp-for-blender. Existing setups\n> keep working — uvx blender-mcp still runs the server and **no config change is\n> required**. New installs should use mcp-for-blender.\n> What changed and why\nThree steps: install uv, point your MCP client at the server, install the Blender addon.\n1. Install uv\n> Warning: Do not proceed before installing uv. Use the official installer — not pip install uv.\n2. Add the MCP server to your client\n Claude Desktop — Settings → Developer → Edit Config \n Claude Code \n Codex \n Cursor / VS Code / OpenCode / Antigravity \nSee MCP Client Setup below for per-client instructions and one-click install buttons…",
+  "usage_code": "# macOS\nbrew install uv\n\n# Linux\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n\n# Windows\npowershell -c \"irm https://astral.sh/uv/install.ps1 | iex\"",
+  "license": "MIT",
+  "homepage": "https://www.mcp-for-blender.com/",
+  "topics": [
+   "3d-modeling",
+   "ai",
+   "blender",
+   "blender-addon",
+   "blender-mcp",
+   "claude",
+   "generative-ai",
+   "llm"
   ],
   "default_branch": "main"
  },
@@ -571,6 +686,22 @@
   "topics": [
    "agent-skills"
   ],
+  "default_branch": "main"
+ },
+ "averygan/reclip": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/averygan/reclip#readme",
+  "install": [
+   "brew install yt-dlp ffmpeg  # or apt install ffmpeg && pip install yt-dlp",
+   "git clone https://github.com/averygan/reclip.git",
+   "docker build -t reclip . && docker run -p 8899:8899 reclip"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Download videos from 1000+ supported sites (via yt-dlp)\n• MP4 video or MP3 audio extraction\n• Quality/resolution picker\n• Bulk downloads — paste multiple URLs at once\n• Automatic URL deduplication\n• Clean, responsive UI — no frameworks, no build step\n• Single Python file backend (~150 lines)",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "ayghri/i-have-adhd": {
@@ -942,6 +1073,27 @@
   ],
   "default_branch": "main"
  },
+ "fmtlib/fmt": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/fmtlib/fmt#readme",
+  "install": [],
+  "usage_title": "Features",
+  "usage_text": "• Simple format API with positional\n arguments for localization\n• Implementation of C++20\n std::format and\n C++23 std::print\n• Format string syntax similar\n to Python\\'s\n format\n• Fast IEEE 754 floating-point formatter with correct rounding,\n shortness and round-trip guarantees using the\n Dragonbox algorithm\n• Portable Unicode support\n• Safe printf\n implementation\n including the POSIX extension for positional arguments\n• Extensibility: support for user-defined\n types\n• High performance: faster than common standard library\n implementations of (s)printf, iostreams, to_string and\n to_chars, see Speed tests and Converting a\n hundred million integers to strings per\n second…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://fmt.dev",
+  "topics": [
+   "c-plus-plus",
+   "chrono",
+   "cpp",
+   "cross-platform",
+   "floating-point",
+   "formatting",
+   "multiplatform",
+   "output"
+  ],
+  "default_branch": "main"
+ },
  "google-research/timesfm": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/google-research/timesfm#readme",
@@ -969,6 +1121,34 @@
   "license": "Apache-2.0",
   "homepage": "https://agentexecutor.io",
   "topics": [],
+  "default_branch": "main"
+ },
+ "heygen-com/hyperframes": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/heygen-com/hyperframes#readme",
+  "install": [
+   "claude plugin marketplace add heygen-com/hyperframes",
+   "claude plugin install hyperframes@hyperframes",
+   "npx skills add heygen-com/hyperframes",
+   "bun run package:codex-plugin",
+   "npx hyperframes init my-video",
+   "npx hyperframes preview  # preview in browser with live reload"
+  ],
+  "usage_title": "How It Works",
+  "usage_text": "Define a video as HTML. Add data attributes for timing and tracks. Use GSAP, CSS, Lottie, Three.js, Anime.js, WAAPI, or your own frame adapter for seekable animation.\nPreview instantly in the browser. Render locally or in Docker. The renderer seeks each frame in headless Chrome and encodes the result with FFmpeg, so the same input produces the same video.",
+  "usage_code": "<div id=\"stage\" data-composition-id=\"launch\" data-start=\"0\" data-width=\"1920\" data-height=\"1080\">\n  <video\n    class=\"clip\"\n    data-start=\"0\"\n    data-duration=\"6\"\n    data-track-index=\"0\"\n    src=\"intro.mp4\"\n    muted\n    playsinline\n  ></video>\n\n  <h1 id=\"title\" class=\"clip\" data-start=\"1\" data-duration=\"4\" data-track-index=\"1\">Launch day</h1>\n\n  <audio\n    data-start=\"0\"\n    data-duration=\"6\"\n    data-track-index=\"2\"\n    data-volume=\"0.5\"\n…",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "ai",
+   "animation",
+   "ffmpeg",
+   "framework",
+   "gsap",
+   "html",
+   "mcp",
+   "puppeteer"
+  ],
   "default_branch": "main"
  },
  "jingyaogong/minimind": {
@@ -1067,6 +1247,30 @@
   "topics": [],
   "default_branch": "main"
  },
+ "longbridge/gpui-kit": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/longbridge/gpui-kit#readme",
+  "install": [
+   "npx skills add longbridge/gpui-kit",
+   "cargo run",
+   "cargo run -p example-dock",
+   "cargo run -p example-markdown",
+   "cargo run -p example-html",
+   "cargo run -p example-editor"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• 75+ Components and Primitives: Forms, navigation, overlays, data display, editing, feedback, and layout, with polished interactions and productive defaults.\n• Production Ready: Used to build Longbridge Pro from day one and continuously refined in a publicly shipped commercial desktop application.\n• WebAssembly: Run applications and the same component showcases on the web with wasm32-unknown-unknown.\n• Accessibility: AccessKit roles, names, states, relationships, and actions are built into the interaction layer and covered by tests.\n• UI Integration Testing: Render real components in headless windows, drive pointer and keyboard input, and assert state, focus, layout, and accessibility…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "http://gpui-kit.com",
+  "topics": [
+   "desktop-application",
+   "gpui",
+   "rust",
+   "uikit"
+  ],
+  "default_branch": "main"
+ },
  "magnitudedev/magnitude": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/magnitudedev/magnitude#readme",
@@ -1092,6 +1296,32 @@
   "license": "MIT",
   "homepage": "https://aihero.dev/skills",
   "topics": [],
+  "default_branch": "main"
+ },
+ "max-sixty/worktrunk": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/max-sixty/worktrunk#readme",
+  "install": [
+   "brew install worktrunk && wt config shell install",
+   "cargo install worktrunk && wt config shell install",
+   "winget install max-sixty.worktrunk",
+   "pacman -S worktrunk && wt config shell install",
+   "conda install -c conda-forge worktrunk && wt config shell install",
+   "gh pr create  # or glab mr create"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Create a worktree for a new feature:\nThis creates a new branch and worktree, then switches to it. Do your work, then check all worktrees with wt list:\nThe @ marks the current worktree. + means staged changes, ↑1 means 1 commit ahead of main, ⇡ means unpushed commits.\nWhen done, either:\nPR workflow — commit, push, open a PR, merge via GitHub/GitLab, then clean up:\nLocal merge — squash, rebase onto main, fast-forward merge, clean up:\nFor parallel agents, create multiple worktrees and launch an agent in each:\nThe -x flag runs a command after switching; arguments after -- are passed to it. Configure post-start hooks to automate setup (install deps, start dev servers).",
+  "usage_code": "$ wt switch --create feature-auth\n✓ Created branch feature-auth from main and worktree @ ~/repo.feature-auth",
+  "license": "",
+  "homepage": "https://worktrunk.dev",
+  "topics": [
+   "agents",
+   "claude-code",
+   "codex",
+   "developer-tools",
+   "git",
+   "worktrees"
+  ],
   "default_branch": "main"
  },
  "melgarafael/DeskcommCRM": {
@@ -1168,6 +1398,34 @@
   ],
   "default_branch": "main"
  },
+ "mksglu/context-mode": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/mksglu/context-mode#readme",
+  "install": [
+   "claude mcp add context-mode -- npx -y context-mode",
+   "npm install -g context-mode",
+   "npm install -g context-mode  # the plugin's MCP server runs the global binary",
+   "git clone https://github.com/mksglu/context-mode.git",
+   "npm run install:openclaw",
+   "npm run install:openclaw -- /path/to/openclaw-state"
+  ],
+  "usage_title": "The Problem",
+  "usage_text": "Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://context-mode.com",
+  "topics": [
+   "antigravity",
+   "claude",
+   "claude-code",
+   "claude-code-hooks",
+   "claude-code-plugins",
+   "claude-code-skill",
+   "codex",
+   "codex-cli"
+  ],
+  "default_branch": "main"
+ },
  "mobile-next/mobile-mcp": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/mobile-next/mobile-mcp#readme",
@@ -1236,6 +1494,29 @@
    "ios",
    "mobile",
    "security"
+  ],
+  "default_branch": "main"
+ },
+ "oblien/openship": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/oblien/openship#readme",
+  "install": [
+   "curl -fsSL https://get.openship.io | sh  # install  (or: npm i -g openship — needs Node 22+)",
+   "curl -fsSL https://get.openship.io/dev | sh  # main (default)",
+   "curl -fsSL https://get.openship.io/dev | OPENSHIP_REF=dev sh  # a branch/tag (var goes on sh, not curl)",
+   "git clone https://github.com/oblien/openship.git && cd openship",
+   "docker compose --env-file .env -f docker/docker-compose.yml up -d"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "There's one decision to make first: how you run Openship itself (the control plane). Everything else is the same afterwards.\n> [!TIP]\n> Solo? Use the desktop app. It runs Openship's control plane on your own machine only while the app is open — nothing is left running on an always-on server, nothing is exposed publicly. You only need an always-on server install once you want push-to-deploy (CI/CD), team access, or to host apps on that box — the things that need a public, always-on endpoint.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://openship.io",
+  "topics": [
+   "agents",
+   "ai",
+   "deployments",
+   "self-hosted"
   ],
   "default_branch": "main"
  },
@@ -1392,6 +1673,18 @@
   ],
   "default_branch": "main"
  },
+ "rakyll/hey": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/rakyll/hey#readme",
+  "install": [],
+  "usage_title": "Usage",
+  "usage_text": "hey runs provided number of requests in the provided concurrency level and prints stats.\nIt also supports HTTP2 endpoints.",
+  "usage_code": "Usage: hey [options...] <url>\n\nOptions:\n  -n  Number of requests to run. Default is 200.\n  -c  Number of workers to run concurrently. Total number of requests cannot\n      be smaller than the concurrency level. Default is 50.\n  -q  Rate limit, in queries per second (QPS) per worker. Default is no rate limit.\n  -z  Duration of application to send requests. When duration is reached,\n      application stops and exits. If duration is specified, n is ignored.\n      Examples: -z 10s -z 3m.\n  -o  Output type. If none provided, a summary is printed.\n      \"csv\" is the only supported alternative. Dumps the response\n      metrics in comma-separated values format.\n\n  -m  HTTP method, one of GET, POST, PUT, DELETE, HEAD, OPTIONS.\n  -H  Custom HTTP header. You can specify as many as needed by repeating the flag.\n      For example, -H \"Accept: text/html\" -H \"Content-Type: application/xml\" .\n  -t  Timeout for each request in seconds. Default is 20, use 0 for infinite.\n…",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "master"
+ },
  "rohitg00/ai-engineering-from-scratch": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch#readme",
@@ -1516,6 +1809,34 @@
    "dsh-plugin",
    "mcp",
    "proxy"
+  ],
+  "default_branch": "main"
+ },
+ "t8y2/dbx": {
+  "fetched": "2026-09-30",
+  "readme_url": "https://github.com/t8y2/dbx#readme",
+  "install": [
+   "brew install --cask dbx",
+   "scoop bucket add dbx https://github.com/t8y2/scoop-bucket",
+   "scoop install dbx",
+   "winget install t8y2.dbx",
+   "flatpak remote-add --if-not-exists flatpark https://dl.flatpark.org/flatpark.flatpakrepo",
+   "flatpak install flatpark com.dbxio.dbx"
+  ],
+  "usage_title": "🤝 Partners",
+  "usage_text": "1Panel is a modern open-source Linux server management panel and lightweight AI management platform, offering an intuitive web interface for one-stop management of AI agents, local LLMs, websites, databases, containers, files, and more.\n Visit 1Panel \n Easysearch is an enterprise-grade distributed search engine compatible with Elasticsearch APIs, combining full-text, vector, geospatial search, real-time analytics, and AI capabilities in one platform.\n Visit Easysearch",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://dbxio.com",
+  "topics": [
+   "ai",
+   "cli",
+   "clickhouse",
+   "database",
+   "database-client",
+   "database-management",
+   "docker",
+   "gui"
   ],
   "default_branch": "main"
  },
