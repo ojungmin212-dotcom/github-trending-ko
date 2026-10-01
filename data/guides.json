@@ -1,4 +1,25 @@
 {
+ "ComposioHQ/awesome-claude-skills": {
+  "fetched": "2026-10-01",
+  "readme_url": "https://github.com/ComposioHQ/awesome-claude-skills#readme",
+  "install": [],
+  "usage_title": "Quickstart: Connect Claude to 1000+ Apps",
+  "usage_text": "The connect-apps plugin lets Claude perform real actions - send emails, create issues, post to Slack. It handles auth and connects to 1000+ apps using Composio under the hood.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "antigravity",
+   "automation",
+   "claude",
+   "claude-code",
+   "codex",
+   "composio"
+  ],
+  "default_branch": "master"
+ },
  "DietrichGebert/ponytail": {
   "fetched": "2026-09-26",
   "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
@@ -567,6 +588,31 @@
   ],
   "default_branch": "main"
  },
+ "alirezarezvani/claude-skills": {
+  "fetched": "2026-10-01",
+  "readme_url": "https://github.com/alirezarezvani/claude-skills#readme",
+  "install": [
+   "git clone https://github.com/alirezarezvani/claude-skills.git",
+   "npx agent-skills-cli add alirezarezvani/claude-skills --agent codex",
+   "bash <(curl -s https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/scripts/openclaw-install.sh)"
+  ],
+  "usage_title": "Claude Code Skills & Plugins — Agent Skills for Every Coding",
+  "usage_text": "388 production-ready Claude Code skills, plugins, and agent skills for 13 AI coding tools.\nThe most comprehensive open-source library of Claude Code skills and agent plugins — also works with OpenAI Codex, Gemini CLI, Cursor, and 9 more coding agents. Reusable expertise packages covering engineering, DevOps, marketing (incl. AEO — Answer Engine Optimization for LLM citation), security (PreToolUse hooks), compliance, C-level advisory (incl…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://alirezarezvani.medium.com/",
+  "topics": [
+   "agent-plugins",
+   "agent-skills",
+   "agentic-ai",
+   "ai-coding-agent",
+   "anthropic-claude",
+   "claude-ai",
+   "claude-code",
+   "claude-code-plugins"
+  ],
+  "default_branch": "main"
+ },
  "androoAGI/starnet": {
   "fetched": "2026-09-26",
   "readme_url": "https://github.com/androoAGI/starnet#readme",
@@ -883,6 +929,21 @@
   "topics": [],
   "default_branch": "main"
  },
+ "colbymchenry/codegraph": {
+  "fetched": "2026-10-01",
+  "readme_url": "https://github.com/colbymchenry/codegraph#readme",
+  "install": [
+   "curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh",
+   "npx @colbymchenry/codegraph"
+  ],
+  "usage_title": "Key Features",
+  "usage_text": "How auto-syncing works — and why you don't need to run codegraph sync manually \nWhen your agent (Claude Code, Cursor, Codex, opencode) launches codegraph serve --mcp, three layers keep the index in step with your code — and make sure the agent never gets a silent wrong answer in the brief window between an edit and the next sync:\n1. File watcher with debounced auto-sync. A native FSEvents / inotify / ReadDirectoryChangesW watcher captures every source-file create / modify / delete and triggers a re-index after a debounce window (default 2000ms, tunable via CODEGRAPHWATCHDEBOUNCE_MS, clamped to [100ms, 60s]). Bursts of edits collapse into a single sync…",
+  "usage_code": "agent writes src/Widget.ts\n  → watcher fires (<100ms)\n  → debounce (default 2s)\n  → sync; Widget.ts is in the index\n  → next agent query sees it",
+  "license": "MIT",
+  "homepage": "https://colbymchenry.github.io/codegraph/",
+  "topics": [],
+  "default_branch": "main"
+ },
  "cs341-illinois/coursebook": {
   "fetched": "2026-09-29",
   "readme_url": "https://github.com/cs341-illinois/coursebook#readme",
@@ -1073,6 +1134,27 @@
   ],
   "default_branch": "main"
  },
+ "firebase/firebase-ios-sdk": {
+  "fetched": "2026-10-01",
+  "readme_url": "https://github.com/firebase/firebase-ios-sdk#readme",
+  "install": [],
+  "usage_title": "Firebase Apple Open Source Development",
+  "usage_text": "This repository contains the source code for all Apple platform Firebase\nlibraries except FirebaseAnalytics.\nFirebase is an app development platform with libraries, services, and tools to\nhelp you build, grow, and monetize your app. Learn more about Firebase at the\nofficial Firebase website.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://firebase.google.com",
+  "topics": [
+   "ai",
+   "analytics",
+   "authentication",
+   "crash-reporting",
+   "database",
+   "database-as-a-service",
+   "firebase",
+   "firebase-auth"
+  ],
+  "default_branch": "main"
+ },
  "fmtlib/fmt": {
   "fetched": "2026-09-30",
   "readme_url": "https://github.com/fmtlib/fmt#readme",
@@ -1121,6 +1203,34 @@
   "license": "Apache-2.0",
   "homepage": "https://agentexecutor.io",
   "topics": [],
+  "default_branch": "main"
+ },
+ "harry0703/MoneyPrinterTurbo": {
+  "fetched": "2026-10-01",
+  "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo#readme",
+  "install": [
+   "git clone https://github.com/harry0703/MoneyPrinterTurbo.git",
+   "docker compose -f docker-compose.release.yml up",
+   "uv python install 3.11",
+   "pip install -r requirements.txt",
+   "sh webui.sh",
+   "uv run python main.py"
+  ],
+  "usage_title": "一站式 AI 短视频生成工具",
+  "usage_text": "只需提供视频 主题 或 关键词 ，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。\n简体中文 | English | 日本語 | 版本发布 | 问题反馈",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "ai-video-generator",
+   "content-creation",
+   "ffmpeg",
+   "instagram-reels",
+   "llm",
+   "python",
+   "short-video",
+   "subtitles"
+  ],
   "default_branch": "main"
  },
  "heygen-com/hyperframes": {
@@ -1451,6 +1561,22 @@
   ],
   "default_branch": "main"
  },
+ "modelcontextprotocol/servers": {
+  "fetched": "2026-10-01",
+  "readme_url": "https://github.com/modelcontextprotocol/servers#readme",
+  "install": [
+   "npx -y @modelcontextprotocol/server-memory",
+   "uvx mcp-server-git",
+   "pip install mcp-server-git"
+  ],
+  "usage_title": "Model Context Protocol servers",
+  "usage_text": "This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as references to community-built servers and additional resources.\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on the MCP Registry. The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n> [!WARNING]…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://modelcontextprotocol.io",
+  "topics": [],
+  "default_branch": "main"
+ },
  "mvschwarz/openrig": {
   "fetched": "2026-09-28",
   "readme_url": "https://github.com/mvschwarz/openrig#readme",
@@ -1590,6 +1716,29 @@
    "go",
    "secret-management",
    "security"
+  ],
+  "default_branch": "main"
+ },
+ "openclaw/openclaw": {
+  "fetched": "2026-10-01",
+  "readme_url": "https://github.com/openclaw/openclaw#readme",
+  "install": [
+   "curl -fsSL https://openclaw.ai/install.sh | bash",
+   "npm install -g openclaw@latest --allow-scripts=openclaw"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "On a fresh install, the installer scripts start onboarding automatically.\nComplete the wizard they open. If you installed the package directly with npm,\npnpm, or Bun, run:\nAfter onboarding:\nOnboarding verifies model access, creates the workspace, and configures the Gateway. The last command opens the Control UI; send a message there to confirm the assistant is working. See the getting started guide for channel setup and troubleshooting.",
+  "usage_code": "openclaw onboard --install-daemon",
+  "license": "",
+  "homepage": "https://openclaw.ai",
+  "topics": [
+   "ai",
+   "assistant",
+   "crustacean",
+   "molty",
+   "openclaw",
+   "own-your-data",
+   "personal"
   ],
   "default_branch": "main"
  },
