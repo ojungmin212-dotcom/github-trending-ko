@@ -69,8 +69,24 @@
   ],
   "default_branch": "main"
  },
+ "Friedrich-M/UniMate": {
+  "fetched": "2026-10-02",
+  "readme_url": "https://github.com/Friedrich-M/UniMate#readme",
+  "install": [
+   "conda create -n unimate python=3.10 -y",
+   "pip install \"setuptools<81\"",
+   "pip install -r requirements.txt --no-build-isolation"
+  ],
+  "usage_title": "🔥 News",
+  "usage_text": "• [2026-09-27] Preview checkpoints are released at HuggingFace; new checkpoints will be synced there. 📦\n• [2026-09-06] The training and inference code is released. 🚀\n• [2026-08-30] The UniML3D dataset and its data-processing pipeline are released. 🚀\n• [2026-08-01] Our Interactive Demo is live — browse our animation results in 3D. 🎮\n• [2026-07-18] UniMate is accepted to SIGGRAPH Asia 2026! 🎉\n> [TODO] We will release an official preprocessing pipeline for new (out-of-distribution) rigs by this week.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://linzhanmou.com/unimate/",
+  "topics": [],
+  "default_branch": "main"
+ },
  "FxEmbed/FxEmbed": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/FxEmbed/FxEmbed#readme",
   "install": [
    "docker compose up -d --build",
@@ -86,7 +102,7 @@
   "default_branch": "main"
  },
  "HKUDS/CLI-Anything": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/HKUDS/CLI-Anything#readme",
   "install": [
    "pip install cli-anything-hub",
@@ -98,6 +114,27 @@
   "license": "Apache-2.0",
   "homepage": "https://clianything.cc/",
   "topics": [],
+  "default_branch": "main"
+ },
+ "HunxByts/GhostTrack": {
+  "fetched": "2026-10-02",
+  "readme_url": "https://github.com/HunxByts/GhostTrack#readme",
+  "install": [],
+  "usage_title": "GhostTrack",
+  "usage_text": "Useful tool to track location or mobile number, so this tool can be called osint or also information gathering\nNew update :\nsudo apt-get install git\nsudo apt-get install python3\npkg install git\npkg install python3\ngit clone https://github.com/HunxByts/GhostTrack.git\ncd GhostTrack\npip3 install -r requirements.txt\npython3 GhostTR.py\n IP Tracker Phone Tracker Username Tracker```\non this menu you can search for information from the target username on social media\n :zap: Author : \n• HunxByts",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [
+   "cybersecurity",
+   "fyp",
+   "hacking",
+   "hacking-tool",
+   "indonesia",
+   "information",
+   "information-gathering",
+   "ip-geolocation"
+  ],
   "default_branch": "main"
  },
  "InfinityLoop1308/PipePipe": {
@@ -335,14 +372,14 @@
   "default_branch": "main"
  },
  "THU-MAIC/OpenMAIC": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/THU-MAIC/OpenMAIC#readme",
   "install": [
    "git clone https://github.com/THU-MAIC/OpenMAIC.git",
    "pnpm install"
   ],
-  "usage_title": "3. Run",
-  "usage_text": "Open http://localhost:3000 and start learning!",
+  "usage_title": "4. Run",
+  "usage_text": "Open http://localhost:3000 and start learning! Without a DATABASE_URL the\nserver refuses to start and tells you how to provide one (see\nServer-backed persistence).",
   "usage_code": "pnpm dev",
   "license": "MIT",
   "homepage": "",
@@ -369,7 +406,7 @@
   "default_branch": "main"
  },
  "Tencent/WeKnora": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/Tencent/WeKnora#readme",
   "install": [
    "git clone https://github.com/Tencent/WeKnora.git",
@@ -397,13 +434,12 @@
   "default_branch": "main"
  },
  "TencentCloud/Octop": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/TencentCloud/Octop#readme",
   "install": [
    "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash",
    "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.bat -o install.bat",
    "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash -s -- --extras browser",
-   "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash -s -- --extras channels-feishu",
    "pip install octop"
   ],
   "usage_title": "3. Run",
@@ -496,15 +532,15 @@
   "default_branch": "main"
  },
  "affaan-m/ECC": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/affaan-m/ECC#readme",
   "install": [
-   "npx ecc-universal@2.2.2 setup",
+   "npx ecc-universal@2.2.3 setup",
    "bash ./install.sh --target claude --modules hooks-runtime --enable-hooks",
-   "npx ecc-universal@2.2.2 list-installed",
-   "npx ecc-universal@2.2.2 doctor",
-   "npx ecc-universal@2.2.2 repair",
-   "npx ecc-universal@2.2.2 uninstall --dry-run"
+   "npx ecc-universal@2.2.3 list-installed",
+   "npx ecc-universal@2.2.3 doctor",
+   "npx ecc-universal@2.2.3 repair",
+   "npx ecc-universal@2.2.3 uninstall --dry-run"
   ],
   "usage_title": "Running Tests",
   "usage_text": "The plugin includes a comprehensive test suite:",
@@ -521,6 +557,25 @@
    "mcp",
    "productivity"
   ],
+  "default_branch": "main"
+ },
+ "agent-substrate/substrate": {
+  "fetched": "2026-10-02",
+  "readme_url": "https://github.com/agent-substrate/substrate#readme",
+  "install": [
+   "go install ./cmd/kubectl-ate",
+   "kubectl ate create actor my-counter-1 -a ate-demo-counter --template counter",
+   "curl -X POST -H \"ate-target-actor: ate-demo-counter/my-counter-1\" -i http://localhost:8000/",
+   "go run ./tools/setup-gcp bootstrap",
+   "go run ./tools/setup-gcp create cluster",
+   "go run ./tools/setup-gcp create bucket"
+  ],
+  "usage_title": "Demo",
+  "usage_text": "Watch the Agent Substrate cluster multiplex ~250 stateful actors across just 8 physical pods.\nThis demo highlights the core developer experience and \"Agentic Infrastructure\" capabilities of Substrate:\n1. Actor Teleport: High-performance suspend and resume of actors onto any available worker in the pool with sub-second activation.\n2. State Persistence: Persistent working memory (volatile RAM) and filesystem state preserved perfectly across hibernation cycles via full-state snapshots.\n3. Agent Multiplexing: Demonstrates 30x+ oversubscription by \"juggling\" a large registry of stateful actors onto a small pool of shared physical pods…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "ahujasid/mcp-for-blender": {
@@ -568,7 +623,7 @@
   "default_branch": "main"
  },
  "alibaba/open-code-review": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/alibaba/open-code-review#readme",
   "install": [
    "npm install -g @alibaba-group/open-code-review"
@@ -642,7 +697,7 @@
   "default_branch": "feat/harness-backend"
  },
  "anthropics/claude-code": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/anthropics/claude-code#readme",
   "install": [
    "curl -fsSL https://claude.ai/install.sh | bash",
@@ -687,7 +742,7 @@
   "default_branch": "main"
  },
  "anthropics/financial-services": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/anthropics/financial-services#readme",
   "install": [
    "claude plugin install claude-for-msft-365-install@claude-for-financial-services",
@@ -751,7 +806,7 @@
   "default_branch": "main"
  },
  "ayghri/i-have-adhd": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/ayghri/i-have-adhd#readme",
   "install": [
    "claude plugin marketplace add <your-username>/i-have-adhd",
@@ -773,7 +828,7 @@
   "default_branch": "main"
  },
  "bilawalsidhu/gods-eye-view": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/bilawalsidhu/gods-eye-view#readme",
   "install": [
    "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
@@ -781,7 +836,7 @@
    "npm run dev"
   ],
   "usage_title": "⚡ Quick Start",
-  "usage_text": "Start without an account or API keys. Both paths open the same app with\nEsri satellite imagery and keyless terrain. OSM is the fallback if Esri is\nunreachable. Flights, military traffic, satellites, earthquakes, public\ncameras, radio, and launches are available without keys.\nFor photorealistic 3D, add a Cesium ion token for eligible personal,\nnon-commercial use, or a Google Maps key for the direct, metered route and\nGoogle place search. Provider terms and quotas apply. Add keys through the\napp's POWER UP panel; Keys & Costs explains the options.",
+  "usage_text": "Start without an account or API keys. Both paths open the same app with\nEsri satellite imagery and keyless terrain. OSM is the fallback if Esri is\nunreachable. Flights, military traffic, satellites, earthquakes, public\ncameras, radio, and launches are available without keys.\nFor photorealistic 3D, add a Cesium ion token for eligible personal,\nnon-commercial use, or a Google Maps key for the direct, metered route and\nGoogle place search. Provider terms and quotas apply. Add keys through the\napp's POWER UP panel; Keys & Costs explains the options.\n> Already installed? Update to the latest version. Older versions query\n> public OpenStreetMap Overpass servers, which now refuse them, so Traffic…",
   "usage_code": "",
   "license": "",
   "homepage": "https://maptheworld.ai/",
@@ -965,7 +1020,7 @@
   "default_branch": "master"
  },
  "cursor/plugins": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/cursor/plugins#readme",
   "install": [],
   "usage_title": "Cursor plugins",
@@ -977,7 +1032,7 @@
   "default_branch": "main"
  },
  "davila7/claude-code-templates": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/davila7/claude-code-templates#readme",
   "install": [
    "npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests --mcp development/github-integration --yes",
@@ -1001,7 +1056,7 @@
   "default_branch": "main"
  },
  "debpalash/VoiceStudio": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
   "install": [
    "curl -fsSL https://voicestudio.sh/install | sh",
@@ -1050,7 +1105,7 @@
   "default_branch": "master"
  },
  "dream-num/univer": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/dream-num/univer#readme",
   "install": [
    "pnpm add @univerjs/presets @univerjs/preset-sheets-core",
@@ -1073,6 +1128,23 @@
    "pdf"
   ],
   "default_branch": "dev"
+ },
+ "earendil-works/pi": {
+  "fetched": "2026-10-02",
+  "readme_url": "https://github.com/earendil-works/pi#readme",
+  "install": [
+   "npm install --ignore-scripts  # Install all dependencies without running lifecycle scripts",
+   "npm run build  # Refresh model data, then build all packages",
+   "npm run build:offline # Rebuild using existing model data without network access",
+   "npm run check  # Lint, format, and type check"
+  ],
+  "usage_title": "Pi Agent Harness",
+  "usage_text": "This is the home of the Pi agent harness project including our self extensible coding agent.\n• @earendil-works/pi-coding-agent: Interactive coding agent CLI\n• @earendil-works/pi-agent-core: Agent runtime with tool calling and state management\n• @earendil-works/pi-ai: Unified multi-provider LLM API (OpenAI, Anthropic, Google, …)\nTo learn more about Pi:\n• Visit pi.dev, the project website with demos\n• Read the documentation, but you can also ask the agent to explain itself",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
  },
  "elastic/elasticsearch": {
   "fetched": "2026-09-29",
@@ -1154,6 +1226,27 @@
    "firebase-auth"
   ],
   "default_branch": "main"
+ },
+ "flutter/flutter": {
+  "fetched": "2026-10-02",
+  "readme_url": "https://github.com/flutter/flutter#readme",
+  "install": [],
+  "usage_title": "Documentation",
+  "usage_text": "• Install Flutter\n• Flutter documentation\n• Development wiki\n• Contributing to Flutter\nFor release and other announcements, join the\nflutter-announce\nmailing list. Our documentation also tracks breaking\nchanges across releases.",
+  "usage_code": "",
+  "license": "BSD-3-Clause",
+  "homepage": "https://flutter.dev",
+  "topics": [
+   "android",
+   "app-framework",
+   "cross-platform",
+   "dart",
+   "dart-platform",
+   "desktop",
+   "flutter",
+   "flutter-package"
+  ],
+  "default_branch": "master"
  },
  "fmtlib/fmt": {
   "fetched": "2026-09-30",
@@ -1262,7 +1355,7 @@
   "default_branch": "main"
  },
  "jingyaogong/minimind": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/jingyaogong/minimind#readme",
   "install": [
    "git clone --depth 1 https://github.com/jingyaogong/minimind",
@@ -1647,7 +1740,7 @@
   "default_branch": "main"
  },
  "obra/superpowers": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/obra/superpowers#readme",
   "install": [
    "git clone https://github.com/obra/superpowers.git"
@@ -1740,6 +1833,21 @@
    "own-your-data",
    "personal"
   ],
+  "default_branch": "main"
+ },
+ "pablostanley/yoinks": {
+  "fetched": "2026-10-02",
+  "readme_url": "https://github.com/pablostanley/yoinks#readme",
+  "install": [
+   "npm install -g yoinks",
+   "npx yoinks"
+  ],
+  "usage_title": "Usage",
+  "usage_text": "yoinks takes over the terminal (full-screen, centered — and restores your\nscrollback on exit). Pick a format with ↑/↓ (or j/k, or number keys) and\nhit enter. esc goes back, ^c quits. Or just use the mouse — the yoink\nbutton, the format list and the footer hints are all clickable, and\nclicking the logo takes you back home. Files are saved to ~/Downloads,\nand the file path is printed to your terminal when you're done.\nThe default auto theme uses your terminal's own foreground and background,\nso it follows light and dark terminal themes without guessing. Press ^t or\nclick the theme control in the footer to cycle through auto, light, and…",
+  "usage_code": "$ yoinks https://youtu.be/dQw4w9WgXcQ    # straight to the format picker\n$ yoinks                                 # prompts for a url\n$ yoinks --theme light                   # force the light palette",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "paperclipai/paperclip": {
@@ -1835,7 +1943,7 @@
   "default_branch": "master"
  },
  "rohitg00/ai-engineering-from-scratch": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch#readme",
   "install": [
    "npx skills add rohitg00/ai-engineering-from-scratch",
@@ -1934,15 +2042,15 @@
   "default_branch": "main"
  },
  "superdesigndev/treg": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/superdesigndev/treg#readme",
   "install": [
    "curl -fsSL https://treg.to/install.sh | sh",
+   "npx skills add superdesigndev/treg  # every public skill",
+   "npx skills add superdesigndev/treg --skill lead-signals  # just one",
    "bash scripts/build-dashboard.sh # Node 22.12+ and npm; build the Dashboard",
    "uv sync  # create the venv from uv.lock (pulls the server deps for dev)",
-   "uv run python -m treg upgrade  # prepare schema + run idempotent release tasks without serving",
-   "uv run python -m treg  # serve on 0.0.0.0:18790 (add --reload for dev)",
-   "uv run python -m treg keygen  # print a fresh Fernet key for TREG_SECRET_KEY"
+   "uv run python -m treg upgrade  # prepare schema + run idempotent release tasks without serving"
   ],
   "usage_title": "Quickstart",
   "usage_text": "Same flow as the dashboard's Getting started guide:\nFish Audio provides S2.1 Pro speech, public-voice discovery, and private voice cloning.\nSpeech is binary stdout, so redirect it to a file. A discovered voice's _id or a team voice id is\nthe TTS reference_id; voices created on treg's Fish account are durable team resources:\nWith your own Fish key, requests remain an unrestricted, unmetered upstream relay and Fish owns the\naccount boundary.\nCatalog tool inputs are described by treg catalog get . Tools marked strict_query reject undeclared or repeated query parameters, unsupported values and request bodies…",
@@ -1987,6 +2095,21 @@
    "docker",
    "gui"
   ],
+  "default_branch": "main"
+ },
+ "tashfeenahmed/freellmapi": {
+  "fetched": "2026-10-02",
+  "readme_url": "https://github.com/tashfeenahmed/freellmapi#readme",
+  "install": [
+   "curl -fsSL https://freellmapi.co/install.sh | bash",
+   "npx freellmapi setup-claude --url http://localhost:3001 --api-key <unified-key>"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Every OpenAI-style surface — /v1/chat/completions, /v1/responses (what Codex CLI needs), /v1/completions (editor ghost-text autocomplete), /v1/images/generations, /v1/videos/generations, /v1/audio/speech, /v1/audio/transcriptions, /v1/embeddings, and /v1/models — streaming and non-streaming, from the official SDKs or any OpenAI-compatible client. API reference →\n• Anthropic Messages API — /v1/messages speaks Anthropic's wire format over the same router, so Claude Code and the official Anthropic SDKs run against your free pool. Details →…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://freellmapi.co",
+  "topics": [],
   "default_branch": "main"
  },
  "tech-leads-club/agent-skills": {
@@ -2036,6 +2159,21 @@
   ],
   "default_branch": "master"
  },
+ "tile-ai/tilelang": {
+  "fetched": "2026-10-02",
+  "readme_url": "https://github.com/tile-ai/tilelang#readme",
+  "install": [
+   "pip install tilelang",
+   "pip install tilelang --find-links https://tile-ai.github.io/whl/nightly"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "The following example defines, compiles, runs, and verifies an FP16 GEMM kernel with FP32 accumulation and a fused ReLU epilogue. It uses PyTorch CUDA tensors; PyTorch uses the same cuda device name on ROCm systems. TileLang selects the target automatically from the current environment.\n@tilelang.jit specializes the kernel for the input shape and compile-time arguments on first use. T.Pipelined stages global-to-shared transfers, T.gemm maps the tile operation to the target backend, and T.Parallel expresses the elementwise ReLU epilogue. Continue with the language basics, then explore the GEMM examples for layouts, autotuning, and architecture-specific optimizations.",
+  "usage_code": "import torch\nimport tilelang\nimport tilelang.language as T\n\n\n@tilelang.jit\ndef matmul_relu(A, B, block_M: int = 128, block_N: int = 128, block_K: int = 32):\n    M, N, K = T.const(\"M, N, K\")\n    A: T.Tensor((M, K), T.float16)\n    B: T.Tensor((K, N), T.float16)\n    C = T.empty((M, N), T.float16)\n\n    with T.Kernel(T.ceildiv(N, block_N), T.ceildiv(M, block_M), threads=128) as (bx, by):\n        A_shared = T.alloc_shared((block_M, block_K), T.float16)\n        B_shared = T.alloc_shared((block_K, block_N), T.float16)\n        C_local = T.alloc_fragment((block_M, block_N), T.float32)\n\n        T.clear(C_local)\n…",
+  "license": "",
+  "homepage": "https://tilelang.com/",
+  "topics": [],
+  "default_branch": "main"
+ },
  "trycua/cua": {
   "fetched": "2026-09-29",
   "readme_url": "https://github.com/trycua/cua#readme",
@@ -2061,7 +2199,7 @@
   "default_branch": "main"
  },
  "tt-a1i/archify": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/tt-a1i/archify#readme",
   "install": [
    "npx skills add tt-a1i/archify -g",
@@ -2069,7 +2207,7 @@
    "npx skills use tt-a1i/archify@archify --agent codex"
   ],
   "usage_title": "Quick start",
-  "usage_text": "Current development version: v2.17.0-dev.1. See Changelog.",
+  "usage_text": "Current stable version: v3.0.1. See Changelog.",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://tt-a1i.github.io/archify/",
@@ -2086,7 +2224,7 @@
   "default_branch": "main"
  },
  "vectorize-io/hindsight": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-02",
   "readme_url": "https://github.com/vectorize-io/hindsight#readme",
   "install": [
    "npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs",
