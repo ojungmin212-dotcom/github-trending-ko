@@ -14,6 +14,7 @@
  "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.": "귀하의 브라우저에 있는 스파이 위성 시뮬레이터는 데이터가 실제라는 점을 제외하고는 가능합니다. 사실적인 3D 지구본에서 실시간 오픈 소스 공간 인텔리전스를 경험해 보세요.",
  "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.": "양자화, 증류, 가지치기, 신경 아키텍처 검색, 추론적 디코딩 등과 같은 SOTA 모델 최적화 기술의 통합 라이브러리입니다. 추론 속도를 최적화하기 위해 TensorRT-LLM, TensorRT, vLLM 등과 같은 다운스트림 배포 프레임워크를 위한 딥 러닝 모델을 압축합니다.",
  "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI": "AI 에이전트 툴킷: 통합 LLM API, 에이전트 루프, TUI, 코딩 에이전트 CLI",
+ "Agent Skills for Google products and technologies": "Google 제품 및 기술에 대한 상담사 기술",
  "Agent Substrate: the core system": "Agent Substrate: 핵심 시스템",
  "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.": "아름답고 검증 가능한 아키텍처, 워크플로, 시퀀스, 데이터 흐름 및 수명 주기 다이어그램을 위한 에이전트 기술(모션 및 선명한 내보내기 기능이 포함된 독립형 HTML)",
  "Alternative Twitter front-end": "대체 트위터 프런트엔드",
@@ -27,6 +28,7 @@
  "Bonsai Demo": "",
  "Bootstrap Kubernetes the hard way. No scripts.": "Kubernetes를 어려운 방식으로 부트스트랩합니다. 스크립트가 없습니다.",
  "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.": "에이전트 하네스를 구축하고 이를 엔드 투 엔드로 제어하세요. Python 및 TypeScript의 프로덕션 AI 에이전트를 위한 오픈 소스 SDK - 모든 모델, 모든 클라우드.",
+ "Build production-ready applications in TypeScript": "TypeScript로 프로덕션에 즉시 사용 가능한 애플리케이션 구축",
  "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.": "Claude Code, Codex 및 Pi에서 자신만의 에이전트 네트워크를 구축하세요. 즉, 역할, 공유 컨텍스트 및 소유 작업을 갖춘 지속적인 팀입니다.",
  "CLI tool for configuring and monitoring Claude Code": "Claude Code 구성 및 모니터링을 위한 CLI 도구",
  "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.": "Claude Code는 터미널에 존재하는 에이전트 코딩 도구로, 코드베이스를 이해하고 자연어 명령을 통해 일상적인 작업을 실행하고, 복잡한 코드를 설명하고, Git 워크플로를 처리하여 더 빠르게 코딩할 수 있도록 도와줍니다.",
@@ -36,6 +38,7 @@
  "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.": "AI 코딩 에이전트를 위한 컨텍스트 창 최적화. 샌드박스 도구 출력(98% 감소), 세션 메모리 유지 및 MCP + 후크를 통해 17개 플랫폼에 대한 라우팅을 시행합니다.",
  "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.": "공급업체 간 3D Gaussian Splatting 트레이너 - 메시, Vulkan 또는 CUDA에 표시하는 비디오입니다.",
  "Cursor plugin specification and official plugins": "커서 플러그인 사양 및 공식 플러그인",
+ "Developer-first error tracking and performance monitoring": "개발자 우선 오류 추적 및 성능 모니터링",
  "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++": "순수 C/C++의 확산 모델(SD,Flux,Wan,Qwen Image,Z-Image,...) 추론",
  "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels": "고성능 GPU/CPU/가속기 커널 개발을 간소화하도록 설계된 도메인별 언어",
  "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.": "거의 모든 웹사이트에서 비디오를 다운로드하세요. 깔끔한 웹 UI를 갖춘 경량의 자체 호스팅 미디어 다운로더입니다.",
@@ -59,6 +62,7 @@
  "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.": "AI 에이전트가 작업을 중단하지 않고 실제 로그인된 브라우저를 사용할 수 있도록 하세요. 모든 쉘 지원 AI 에이전트 전반에 걸친 브라우저 자동화를 위한 CLI + 확장입니다.",
  "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.": "MVT(Mobile Verification Toolkit)는 잠재적인 손상의 징후를 찾기 위해 모바일 장치의 포렌식을 수행하는 데 도움이 됩니다.",
  "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.": "AI 에이전트가 방에서 가장 게으른 선임 개발자처럼 생각하게 만듭니다. 최고의 코드는 한번도 작성하지 않은 코드입니다.",
+ "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.": "Claude Code 및 AI 에이전트를 위한 마케팅 기술. CRO, 카피라이팅, SEO, 분석 및 성장 엔지니어링.",
  "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)": "모바일 자동화 및 스크래핑을 위한 모델 컨텍스트 프로토콜 서버(iOS, Android, 에뮬레이터, 시뮬레이터 및 실제 장치)",
  "Model Context Protocol Servers": "모델 컨텍스트 프로토콜 서버",
  "Multi-agent harness that runs Claude Code and Codex together as one system": "Claude Code와 Codex를 하나의 시스템으로 함께 실행하는 다중 에이전트 하네스",
@@ -125,5 +129,6 @@
  "🏡 Open source home automation that puts local control and privacy first.": "🏡 로컬 제어 및 개인 정보 보호를 최우선으로 생각하는 오픈 소스 홈 자동화.",
  "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG": "📑 PageIndex: 벡터리스, 추론 기반 RAG를 위한 문서 인덱스",
  "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3": "🥧 QUIC 전송 프로토콜과 HTTP/3의 멋진 구현",
- "🧠 Train a 64M-parameter LLM from scratch in just 2h!": "🧠 단 2시간 만에 64M 매개변수 LLM을 처음부터 훈련하세요!"
+ "🧠 Train a 64M-parameter LLM from scratch in just 2h!": "🧠 단 2시간 만에 64M 매개변수 LLM을 처음부터 훈련하세요!",
+ "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.": "🪨 소수의 토큰이 트릭을 수행하는데 왜 많은 토큰을 사용합니까? 원시인처럼 말하여 토큰의 65%를 삭감하는 코딩 에이전트를 위한 바이럴 스킬 + 프록시."
 }

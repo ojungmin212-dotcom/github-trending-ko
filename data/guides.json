@@ -21,7 +21,7 @@
   "default_branch": "master"
  },
  "DietrichGebert/ponytail": {
-  "fetched": "2026-09-26",
+  "fetched": "2026-10-03",
   "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
   "install": [
    "codex plugin marketplace add DietrichGebert/ponytail",
@@ -42,6 +42,29 @@
    "cursor-rules",
    "developer-tools",
    "llm"
+  ],
+  "default_branch": "main"
+ },
+ "Effect-TS/effect": {
+  "fetched": "2026-10-03",
+  "readme_url": "https://github.com/Effect-TS/effect#readme",
+  "install": [
+   "npm install effect"
+  ],
+  "usage_title": "Effect",
+  "usage_text": "Effect is a library for building robust, maintainable, type-safe, and production grade applications in TypeScript. It helps you handle the hard problems at scale: typed errors, dependency injection, structured concurrency, scheduling, tracing, and unified schema validation.\n> Effect 4.x is a long-term support (LTS) release. If you are upgrading from Effect 3.x, follow the migration guide.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://effect.website",
+  "topics": [
+   "cli",
+   "clustering",
+   "concurrency",
+   "dependency-injection",
+   "effect",
+   "error-handling",
+   "javascript",
+   "observability"
   ],
   "default_branch": "main"
  },
@@ -174,6 +197,34 @@
    "go",
    "golang",
    "guidelines"
+  ],
+  "default_branch": "main"
+ },
+ "JuliusBrussee/caveman": {
+  "fetched": "2026-10-03",
+  "readme_url": "https://github.com/JuliusBrussee/caveman#readme",
+  "install": [
+   "npx skills add JuliusBrussee/caveman -g",
+   "npm install -g @caveman-ai/cli && caveman setup --install",
+   "npm install @caveman-ai/middleware @caveman-ai/sdk  # TypeScript, plus your framework (ai, openai, …)",
+   "pip install 'caveman-middleware[langchain]' caveman-sdk  # Python 3.11+, swap the extra for your framework",
+   "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/v3.1.0/install.sh | bash",
+   "claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman"
+  ],
+  "usage_title": "why use many token when few do trick",
+  "usage_text": "Your AI coding agent bills by the word and writes like it knows that. Caveman make it stop.\n▶️ ThePrimeagen reacts: \"No way this actually works\"\n🏆 #1 on GitHub Trending · July 2026  ·  🥇 #1 Repository of the Day on Trendshift · April 2026\n#1 on Hacker News  ·  #8 Product of the Day \n📄 Cited in CAVEWOMAN, an Adobe Research paper that measured caveman-style output cutting cost 1.4 to 2.4×, up to 3×  ·  🧪 Tested by JetBrains on 86 real coding tasks: \"costs you nothing measurable in quality\"\n⚡ One command, no account, no API key. npx skills add JuliusBrussee/caveman -g → Quick Start\n---…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.caveman.so/docs/quickstart",
+  "topics": [
+   "ai",
+   "anthropic",
+   "caveman",
+   "claude",
+   "claude-code",
+   "llm",
+   "meme",
+   "prompt-engineering"
   ],
   "default_branch": "main"
  },
@@ -347,6 +398,27 @@
   "license": "",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "Panniantong/Agent-Reach": {
+  "fetched": "2026-10-03",
+  "readme_url": "https://github.com/Panniantong/Agent-Reach#readme",
+  "install": [],
+  "usage_title": "❤️赞助商",
+  "usage_text": "> 想出现在这里？\n 点击折叠 \n BrowserAct 支持从 Amazon、LinkedIn、X、Google Maps 等复杂网站提取你需要的任意数据。你只需用自然语言描述抓取需求，Agent 就会基于真实浏览器自动探索并测试页面流程，生成可靠、可复用的数据采集 Bot，并返回结构化结果。无需手动构建爬虫，无需编写代码。BrowserAct 内置隐身浏览、验证码处理和高质量住宅代理，帮助你更稳定地完成复杂网页数据采集。新用户注册即送 1000 积分， 立即免费试用 。 \n 在腾讯云 Lighthouse 秒级部署 OpenClaw 全能助手，可通过对话丝滑接入 Agent Reach，给你的 OpenClaw 一键装上互联网能力。 \n CoreClaw | 网页抓取平台与现成数据采集工具，CoreClaw 提供 100+ 现成数据采集工具，支持 Amazon、TikTok、Google Maps、Instagram、Facebook、YouTube 等平台，无需代码，支持 JSON/CSV 导出，仅对成功结果计费。 免费$3测试！ \n 优刻得星图astraflow大模型 ，支持200+模型一键调用：内置 Kimi K3、DeepSeek V4/V3、Qwen 3、GLM5.2、happyhorse等全球领先开源大模型，无需自训，开箱即用 \n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "agent-infrastructure",
+   "ai-agent",
+   "ai-search",
+   "automation",
+   "bilibili",
+   "claude-code",
+   "cli",
+   "cursor"
+  ],
   "default_branch": "main"
  },
  "PrismML-Eng/Bonsai-demo": {
@@ -761,7 +833,7 @@
   "default_branch": "main"
  },
  "anthropics/knowledge-work-plugins": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-03",
   "readme_url": "https://github.com/anthropics/knowledge-work-plugins#readme",
   "install": [
    "claude plugin marketplace add anthropics/knowledge-work-plugins",
@@ -997,6 +1069,27 @@
   "license": "MIT",
   "homepage": "https://colbymchenry.github.io/codegraph/",
   "topics": [],
+  "default_branch": "main"
+ },
+ "coreyhaines31/marketingskills": {
+  "fetched": "2026-10-03",
+  "readme_url": "https://github.com/coreyhaines31/marketingskills#readme",
+  "install": [
+   "npx skills add coreyhaines31/marketingskills",
+   "npx skills add coreyhaines31/marketingskills --skill cro copywriting",
+   "npx skills add coreyhaines31/marketingskills --list",
+   "npx skills add coreyhaines31/marketingskills -a claude-code"
+  ],
+  "usage_title": "Usage",
+  "usage_text": "Once installed, just ask your agent to help with marketing tasks:\nYou can also invoke skills directly:",
+  "usage_code": "\"Help me optimize this landing page for conversions\"\n→ Uses cro skill\n\n\"Write homepage copy for my SaaS\"\n→ Uses copywriting skill\n\n\"Set up GA4 tracking for signups\"\n→ Uses analytics skill\n\n\"Create a 5-email welcome sequence\"\n→ Uses emails skill",
+  "license": "MIT",
+  "homepage": "https://marketing-skills.com",
+  "topics": [
+   "claude",
+   "codex",
+   "marketing"
+  ],
   "default_branch": "main"
  },
  "cs341-illinois/coursebook": {
@@ -1269,6 +1362,27 @@
   ],
   "default_branch": "main"
  },
+ "getsentry/sentry": {
+  "fetched": "2026-10-03",
+  "readme_url": "https://github.com/getsentry/sentry#readme",
+  "install": [],
+  "usage_title": "What's Sentry?",
+  "usage_text": "Sentry is the debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://sentry.io",
+  "topics": [
+   "apm",
+   "crash-reporting",
+   "crash-reports",
+   "csp-report",
+   "devops",
+   "django",
+   "error-logging",
+   "error-monitoring"
+  ],
+  "default_branch": "master"
+ },
  "google-research/timesfm": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/google-research/timesfm#readme",
@@ -1285,17 +1399,36 @@
   "default_branch": "master"
  },
  "google/ax": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-03",
   "readme_url": "https://github.com/google/ax#readme",
   "install": [
+   "kubectl get svc api -n ate-system",
    "go install github.com/google/ax/cmd/ax@latest"
   ],
   "usage_title": "3. Run your first task",
   "usage_text": "Want to see the whole lifecycle end to end? Run ./demo.sh. It applies a custom workspace, waits for readiness, runs commands over ax ssh, and suspends the task.",
-  "usage_code": "ax apply -f examples/task.yaml       # Task + Workspace + Gateway + Model in one file\nax get tasks\n# NAME      ATESPACE   PHASE     ACTOR           WORKER-IP    AGE\n# task123   default    Running   task123         10.20.3.67   1m\n\nax watch task task123                # stream phase and condition changes live\nax ssh task123 -- ls -la /workspace  # poke around inside the sandbox\nax suspend task task123              # checkpoint and pause\nax resume task task123               # pick up where it left off",
+  "usage_code": "ax apply -f examples/task.yaml       # Task + Workspace + Model in one file\nax get tasks\n# NAME      ATESPACE   PHASE     ACTOR           WORKER-IP    AGE\n# task123   default    Running   task123         10.20.3.67   1m\n\nax watch task task123                # stream phase and condition changes live\nax ssh task123 -- ls -la /workspace  # poke around inside the sandbox\nax suspend task task123              # checkpoint and pause\nax resume task task123               # pick up where it left off",
   "license": "Apache-2.0",
   "homepage": "https://agentexecutor.io",
   "topics": [],
+  "default_branch": "main"
+ },
+ "google/skills": {
+  "fetched": "2026-10-03",
+  "readme_url": "https://github.com/google/skills#readme",
+  "install": [
+   "npx skills add google/skills"
+  ],
+  "usage_title": "Agent Skills",
+  "usage_text": "This repository contains Agent Skills for Google\nproducts and technologies, including Google Cloud.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "google",
+   "googlecloud",
+   "skills"
+  ],
   "default_branch": "main"
  },
  "harry0703/MoneyPrinterTurbo": {
@@ -1487,7 +1620,7 @@
   "default_branch": "main"
  },
  "mattpocock/skills": {
-  "fetched": "2026-09-26",
+  "fetched": "2026-10-03",
   "readme_url": "https://github.com/mattpocock/skills#readme",
   "install": [
    "claude plugins install mattpocock-skills",
@@ -1851,18 +1984,18 @@
   "default_branch": "main"
  },
  "paperclipai/paperclip": {
-  "fetched": "2026-09-26",
+  "fetched": "2026-10-03",
   "readme_url": "https://github.com/paperclipai/paperclip#readme",
   "install": [
-   "curl -fsSLO https://paperclip.ing/install.sh",
-   "curl -fsSLO https://paperclip.ing/install.sh.sha256",
-   "bash install.sh",
-   "curl -fsSL https://paperclip.ing/install.sh | bash -s -- --no-prompt --no-onboard",
-   "npx --registry https://registry.npmjs.org paperclipai onboard --yes",
-   "npm config get registry"
+   "npx paperclipai@latest onboard --yes",
+   "npm config get registry",
+   "npx --registry https://registry.npmjs.org paperclipai@latest onboard --yes",
+   "npx paperclipai@latest onboard --yes --bind lan",
+   "npx paperclipai@latest onboard --yes --bind tailnet",
+   "git clone https://github.com/paperclipai/paperclip.git"
   ],
   "usage_title": "Features",
-  "usage_text": "🔌 Bring Your Own Agent \nAny agent, any runtime, one org chart. If it can receive a heartbeat, it's hired.\n 🎯 Goal Alignment \nEvery task traces back to the organization mission. Agents know what to do and why .\n 💓 Heartbeats \nAgents wake on a schedule, check work, and act. Delegation flows up and down the org chart.\n 💰 Cost Control \nMonthly budgets per agent. When they hit the limit, they stop. No runaway costs.\n 🏢 Multi-Organization \nOne deployment, many organizations. Complete data isolation. One control plane for your portfolio.\n 🎫 Ticket System \nEvery conversation traced. Every decision explained. Full tool-call tracing and immutable audit log.\n 🛡️ Governance…",
+  "usage_text": "🔌 Bring Your Own Agent \nAny agent, any runtime, one org chart. If it can receive a heartbeat, it's hired.\n 🎯 Goal Alignment \nLink tasks and projects to your organization goals. Agents receive the goal context behind their work.\n 💓 Heartbeats \nAgents wake for assigned work, follow-up messages, or configured schedules. Delegation flows up and down the org chart.\n 💰 Cost Control \nCompany, agent, and project budgets . Track reported spend, get threshold alerts, and pause work at configured limits.\n 🏢 Multi-Organization \nOne deployment, many organizations. Separate tasks, agents, permissions, and activity histories for each.\n 🎫 Task Threads…",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://paperclip.ing",
@@ -1870,7 +2003,7 @@
   "default_branch": "master"
  },
  "pbakaus/impeccable": {
-  "fetched": "2026-09-26",
+  "fetched": "2026-10-03",
   "readme_url": "https://github.com/pbakaus/impeccable#readme",
   "install": [
    "npx impeccable install",
@@ -1904,7 +2037,7 @@
   "default_branch": "develop"
  },
  "pytorch/pytorch": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-03",
   "readme_url": "https://github.com/pytorch/pytorch#readme",
   "install": [
    "conda create -y -n <CONDA_NAME>",
