@@ -400,6 +400,24 @@
   "topics": [],
   "default_branch": "main"
  },
+ "OpenCut-app/OpenCut": {
+  "fetched": "2026-10-04",
+  "readme_url": "https://github.com/OpenCut-app/OpenCut#readme",
+  "install": [
+   "bash <(curl -fsSL https://moonrepo.dev/install/proto.sh)"
+  ],
+  "usage_title": "Status",
+  "usage_text": "OpenCut is being rewritten from the ground up. What's coming:\n• An Editor API\n• First-class third party plugins (made possible by a plugin-first architecture)\n• Desktop, mobile, and browser from one codebase (Rust core)\n• MCP server (for AI agents)\n• Headless mode (automation, batch rendering)\n• A scripting tab directly in the editor\nYou can still find the previous version at opencut-app/opencut-classic, which is the one to reach for today. opencut.app still runs the classic version. The rewrite will live at new.opencut.app until it's ready to take over.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://opencut.app",
+  "topics": [
+   "editor",
+   "oss",
+   "videoeditor"
+  ],
+  "default_branch": "main"
+ },
  "Panniantong/Agent-Reach": {
   "fetched": "2026-10-03",
   "readme_url": "https://github.com/Panniantong/Agent-Reach#readme",
@@ -578,7 +596,7 @@
   "default_branch": "main"
  },
  "addyosmani/agent-skills": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-04",
   "readme_url": "https://github.com/addyosmani/agent-skills#readme",
   "install": [
    "npx skills add addyosmani/agent-skills  # install all 25 skills",
@@ -966,6 +984,26 @@
   ],
   "default_branch": "main"
  },
+ "boykopovar/AnyPS5": {
+  "fetched": "2026-10-04",
+  "readme_url": "https://github.com/boykopovar/AnyPS5#readme",
+  "install": [],
+  "usage_title": "About",
+  "usage_text": "Tool for automatic executables porting to Linux and Windows.\nIncludes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process.\nUsage, Build instructions, Technical debt of the project, code style conventions, contributing",
+  "usage_code": "",
+  "license": "GPL-2.0",
+  "homepage": "",
+  "topics": [
+   "anyps5",
+   "dynamic-library",
+   "game-porting",
+   "ps5",
+   "ps5-tools",
+   "spir-v",
+   "vulkan"
+  ],
+  "default_branch": "main"
+ },
  "byoungd/up": {
   "fetched": "2026-09-29",
   "readme_url": "https://github.com/byoungd/up#readme",
@@ -1014,6 +1052,18 @@
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "https://cline.bot",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "cloudflare/cloudflare-os": {
+  "fetched": "2026-10-04",
+  "readme_url": "https://github.com/cloudflare/cloudflare-os#readme",
+  "install": [],
+  "usage_title": "Quick Start",
+  "usage_text": "To quickly run Cloudflare OS locally, install pnpm, then do:\n pnpm run-local\nThen visit: http://localhost:8787\nThis runs the whole stack locally on wrangler and workerd. This is not meant for production use, but is a quick way to see what the product does.\nAlternatively, you can deploy to your Cloudflare account.\n(More options at the end of this readme.)",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://os.cloudflare.app",
   "topics": [],
   "default_branch": "main"
  },
@@ -1487,6 +1537,44 @@
   ],
   "default_branch": "main"
  },
+ "humanlayer/skills": {
+  "fetched": "2026-10-04",
+  "readme_url": "https://github.com/humanlayer/skills#readme",
+  "install": [
+   "npx skills add humanlayer/skills --skill SKILLNAME",
+   "npx skills add humanlayer/skills --skill show-me",
+   "npx skills add humanlayer/skills --skill visual-pr",
+   "npx skills add humanlayer/skills --skill improve-claude-md",
+   "npx skills add humanlayer/skills --skill narrow-react-prop-types",
+   "npx skills add humanlayer/skills --skill build-iterated-agentic-loop"
+  ],
+  "usage_title": "show-me",
+  "usage_text": "Explains the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts.\nThen invoke:",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "jamwithai/production-agentic-rag-course": {
+  "fetched": "2026-10-04",
+  "readme_url": "https://github.com/jamwithai/production-agentic-rag-course#readme",
+  "install": [
+   "git clone <repository-url>",
+   "docker compose up --build -d",
+   "curl http://localhost:8000/api/v1/health",
+   "uv run jupyter notebook notebooks/week1/week1_setup.ipynb",
+   "uv run jupyter notebook notebooks/week3/week3_opensearch.ipynb",
+   "uv run jupyter notebook notebooks/week4/week4_hybrid_search.ipynb"
+  ],
+  "usage_title": "Phase 1 RAG Systems: arXiv Paper Curator",
+  "usage_text": "A Learner-Focused Journey into Production RAG Systems \n Learn to build modern AI systems from the ground up through hands-on implementation \n Master the most in-demand AI engineering skills: RAG (Retrieval-Augmented Generation)",
+  "usage_code": "# 1. Clone and setup\ngit clone <repository-url>\ncd arxiv-paper-curator\n\n# 2. Configure environment (IMPORTANT!)\ncp .env.example .env\n# The .env file contains all necessary configuration for OpenSearch, \n# arXiv API, and service connections. Defaults work out of the box.\n# You need to add Jina embeddings free api key and langfuse keys (check the blogs)\n\n# 3. Install dependencies\nuv sync\n\n# 4. Start all services\ndocker compose up --build -d\n\n# 5. Verify everything works\ncurl http://localhost:8000/api/v1/health",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "jingyaogong/minimind": {
   "fetched": "2026-10-02",
   "readme_url": "https://github.com/jingyaogong/minimind#readme",
@@ -1658,6 +1746,25 @@
    "git",
    "worktrees"
   ],
+  "default_branch": "main"
+ },
+ "meituan-longcat/LongCat-Video": {
+  "fetched": "2026-10-04",
+  "readme_url": "https://github.com/meituan-longcat/LongCat-Video#readme",
+  "install": [
+   "git clone --single-branch --branch main https://github.com/meituan-longcat/LongCat-Video",
+   "conda create -n longcat-video python=3.10",
+   "pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124",
+   "pip install ninja",
+   "pip install psutil",
+   "pip install packaging"
+  ],
+  "usage_title": "Key Features",
+  "usage_text": "• 🌟 Unified architecture for multiple tasks: LongCat-Video unifies Text-to-Video, Image-to-Video, and Video-Continuation tasks within a single video generation framework. It natively supports all these tasks with a single model and consistently delivers strong performance across each individual task.\n• 🌟 Long video generation: LongCat-Video is natively pretrained on Video-Continuation tasks, enabling it to produce minutes-long videos without color drifting or quality degradation…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "melgarafael/DeskcommCRM": {
@@ -2017,6 +2124,24 @@
   "topics": [],
   "default_branch": "main"
  },
+ "pingdotgg/t3code": {
+  "fetched": "2026-10-04",
+  "readme_url": "https://github.com/pingdotgg/t3code#readme",
+  "install": [
+   "curl -fsSL https://t3.codes/install.sh | sh",
+   "winget install T3Tools.T3Code",
+   "brew install --cask t3-code",
+   "apt install ./T3-Code-*.deb",
+   "curl -fsSL https://vite.plus | bash"
+  ],
+  "usage_title": "T3 Code",
+  "usage_text": "T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app.\nWorks with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, and Google Antigravity. If they're set up on your computer, T3 Code can control them.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://t3.codes",
+  "topics": [],
+  "default_branch": "main"
+ },
  "pollen-robotics/microduck_rl": {
   "fetched": "2026-09-28",
   "readme_url": "https://github.com/pollen-robotics/microduck_rl#readme",
@@ -2292,6 +2417,33 @@
   ],
   "default_branch": "master"
  },
+ "thedotmack/claude-mem": {
+  "fetched": "2026-10-04",
+  "readme_url": "https://github.com/thedotmack/claude-mem#readme",
+  "install": [
+   "npx claude-mem install --ide grok-bot",
+   "npx claude-mem install",
+   "npx claude-mem install --ide opencode",
+   "npx claude-mem install --ide antigravity",
+   "npx claude-mem install --ide omp"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "Install claude-mem for Grok Bot:\nGrok Bot has no host hooks, so we watch the chat log files. Default is CMEM Pro, the hosted memory. Local observer is opt-in: --provider host. Installing this plugin does not install Cursor.\nAwareness push pilot (LFG + Orifice): needle observations (decision, bugfix, securityalert, sensitive) are appended as dated - YYYY-MM-DD [awareness] … lines into that bot's memory/log/YYYY-MM.md. Grok Bot already re-reads the log from disk. This does not write profile.md, user-memory, or project memory. Disable with CLAUDEMEMGROKBOTAWARENESSENABLED=false.\nInstall with a single command…",
+  "usage_code": "npx claude-mem install --ide grok-bot",
+  "license": "Apache-2.0",
+  "homepage": "https://claude-mem.ai",
+  "topics": [
+   "ai",
+   "ai-agents",
+   "ai-memory",
+   "anthropic",
+   "artificial-intelligence",
+   "chromadb",
+   "claude",
+   "claude-agent-sdk"
+  ],
+  "default_branch": "main"
+ },
  "tile-ai/tilelang": {
   "fetched": "2026-10-02",
   "readme_url": "https://github.com/tile-ai/tilelang#readme",
@@ -2397,7 +2549,7 @@
   "default_branch": "main"
  },
  "vercel/next.js": {
-  "fetched": "2026-09-27",
+  "fetched": "2026-10-04",
   "readme_url": "https://github.com/vercel/next.js#readme",
   "install": [],
   "usage_title": "",
