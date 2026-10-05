@@ -388,6 +388,22 @@
   ],
   "default_branch": "main"
  },
+ "NationalSecurityAgency/ghidra": {
+  "fetched": "2026-10-05",
+  "readme_url": "https://github.com/NationalSecurityAgency/ghidra#readme",
+  "install": [],
+  "usage_title": "Ghidra Software Reverse Engineering Framework",
+  "usage_text": "Ghidra is a software reverse engineering (SRE) framework created and maintained by the \n[National Security Agency][nsa] Research Directorate. This framework includes a suite of \nfull-featured, high-end software analysis tools that enable users to analyze compiled code on a \nvariety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, \nassembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra \nsupports a wide variety of processor instruction sets and executable formats and can be run in both \nuser-interactive and automated modes. Users may also develop their own Ghidra extension components…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "disassembler",
+   "reverse-engineering",
+   "software-analysis"
+  ],
+  "default_branch": "master"
+ },
  "NawfalMotii79/PLFM_RADAR": {
   "fetched": "2026-09-29",
   "readme_url": "https://github.com/NawfalMotii79/PLFM_RADAR#readme",
@@ -879,6 +895,20 @@
   ],
   "default_branch": "main"
  },
+ "antirez/ds4": {
+  "fetched": "2026-10-05",
+  "readme_url": "https://github.com/antirez/ds4#readme",
+  "install": [
+   "git clone https://github.com/antirez/ds4.git"
+  ],
+  "usage_title": "How to use this project?",
+  "usage_text": "I (Salvatore) believe that the way projects should be shipped and used changed because of AI. The main differences today are:\n1. With AI, users can modify the software in significant ways with low efforts, costs, and even lacking deep domain knowledge about the task they want to accomplish. For instance, a DwarfStar user with a specific hardware setup can ask a coding agent to improve the inference speed of this software for the specific hardware setup, asking the model to reach the maximum prefill and generation speed without impacting correctness, and also asking to do a deep QA pass…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "averygan/reclip": {
   "fetched": "2026-09-30",
   "readme_url": "https://github.com/averygan/reclip#readme",
@@ -1019,6 +1049,54 @@
    "tutorial"
   ],
   "default_branch": "master"
+ },
+ "caddyserver/caddy": {
+  "fetched": "2026-10-05",
+  "readme_url": "https://github.com/caddyserver/caddy#readme",
+  "install": [
+   "git clone \"https://github.com/caddyserver/caddy.git\"",
+   "go run -exec ./setcap.sh main.go"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Easy configuration with the Caddyfile\n• Powerful configuration with its native JSON config\n• Dynamic configuration with the JSON API\n• Config adapters if you don't like JSON\n• Automatic HTTPS by default\n• ZeroSSL and Let's Encrypt for public names\n• Fully-managed local CA for internal names & IPs\n• Can coordinate with other Caddy instances in a cluster\n• Multi-issuer fallback\n• Encrypted ClientHello (ECH) support\n• Stays up when other servers go down due to TLS/OCSP/certificate-related issues\n• Production-ready after serving trillions of requests and managing millions of TLS certificates\n• Scales to hundreds of thousands of sites as proven in production…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://caddyserver.com",
+  "topics": [
+   "acme",
+   "automatic-https",
+   "caddy",
+   "caddyfile",
+   "go",
+   "golang",
+   "http",
+   "http-server"
+  ],
+  "default_branch": "master"
+ },
+ "calesthio/OpenMontage": {
+  "fetched": "2026-10-05",
+  "readme_url": "https://github.com/calesthio/OpenMontage#readme",
+  "install": [
+   "git clone https://github.com/calesthio/OpenMontage.git",
+   "make setup"
+  ],
+  "usage_title": "Install & Run",
+  "usage_text": "Open the project in your AI coding assistant and tell it what you want:\nOr if you want the real-footage path:\nThat's it. The agent researches your topic with live web search, generates AI images, writes and narrates the script with voice direction, finds royalty-free background music automatically, burns in word-level subtitles, and renders the final video. Before you see anything, the system runs a multi-point self-review — ffprobe validation, frame sampling, audio level analysis, delivery promise verification, and subtitle checks. Every provider selection is scored across 7 dimensions with an auditable decision log. Every creative decision gets your approval…",
+  "usage_code": "git clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\nmake setup",
+  "license": "AGPL-3.0",
+  "homepage": "https://www.openmontage.video/",
+  "topics": [
+   "agent",
+   "agentic-ai",
+   "ai",
+   "claude",
+   "copilot",
+   "cursor",
+   "elevenlabs",
+   "ffmpeg"
+  ],
+  "default_branch": "main"
  },
  "cilium/cilium": {
   "fetched": "2026-09-25",
@@ -1289,6 +1367,34 @@
   "topics": [],
   "default_branch": "main"
  },
+ "earthtojake/text-to-cad": {
+  "fetched": "2026-10-05",
+  "readme_url": "https://github.com/earthtojake/text-to-cad#readme",
+  "install": [
+   "claude plugin marketplace add earthtojake/text-to-cad",
+   "claude plugin install text-to-cad@earthtojake",
+   "codex plugin marketplace add earthtojake/text-to-cad",
+   "codex plugin add text-to-cad@earthtojake",
+   "git clone --depth 1 --branch plugin https://github.com/earthtojake/text-to-cad ~/.cursor/plugins/local/text-to-cad",
+   "npx skills add earthtojake/text-to-cad"
+  ],
+  "usage_title": "Usage analytics",
+  "usage_text": "The CAD app (the plugin's cad server) and the browser viewer (cadgen viewer) can send anonymous usage counts: a\nrandom install ID, versions, where you installed it from, your OS and agent app, how often each CAD tool was\ncalled and views were used, and a one-way code and the format of each distinct\nfile shown (to count files, not identify them). Our server also counts installs\nper country, from each request's IP address, as weekly and monthly totals only.\nNever file names, paths, contents or prompts. It is off until you allow it\nin either app's one-time prompt (one answer counts for both); change it later with…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://www.texttocad.dev",
+  "topics": [
+   "agents",
+   "ai-agents",
+   "cad",
+   "mechanical-engineering",
+   "robotics",
+   "step",
+   "stl",
+   "stp"
+  ],
+  "default_branch": "main"
+ },
  "elastic/elasticsearch": {
   "fetched": "2026-09-29",
   "readme_url": "https://github.com/elastic/elasticsearch",
@@ -1410,6 +1516,20 @@
    "multiplatform",
    "output"
   ],
+  "default_branch": "main"
+ },
+ "garrytan/gstack": {
+  "fetched": "2026-10-05",
+  "readme_url": "https://github.com/garrytan/gstack#readme",
+  "install": [
+   "git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "1. Install gstack (about 30 seconds of setup — see below)\n2. Run /office-hours — describe what you're building\n3. Run /plan-ceo-review on any feature idea\n4. Run /review on any branch with changes\n5. Run /qa on your staging URL or an isolated local API, CLI, job or webhook\n6. Stop there. You'll know if this is for you.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "getsentry/sentry": {
@@ -1795,6 +1915,30 @@
   ],
   "default_branch": "main"
  },
+ "michael-denyer/pstack-claude": {
+  "fetched": "2026-10-05",
+  "readme_url": "https://github.com/michael-denyer/pstack-claude#readme",
+  "install": [
+   "codex plugin marketplace add michael-denyer/pstack-claude",
+   "codex plugin add pstack@pstack-claude"
+  ],
+  "usage_title": "Getting started",
+  "usage_text": "For a bug, it reproduces the failure, uses how and why to investigate, delegates the fix, then reruns the failing case. If the fix crosses a function boundary, it brings in architect before implementation. You receive the fix and the failing and passing evidence.\nOther playbooks cover planning, features, refactoring, performance issues, investigations, prototypes, PR maintenance, shipping, and longer projects.",
+  "usage_code": "Use poteto-mode to fix the search filter resetting when I change pages.",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "agent-plugin",
+   "agent-skills",
+   "agentic-ai",
+   "anthropic",
+   "chatgpt",
+   "claude",
+   "claude-code",
+   "claude-code-plugin"
+  ],
+  "default_branch": "main"
+ },
  "microsoft/vscode": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/microsoft/vscode#readme",
@@ -1911,14 +2055,14 @@
   "default_branch": "main"
  },
  "mvschwarz/openrig": {
-  "fetched": "2026-09-28",
+  "fetched": "2026-10-05",
   "readme_url": "https://github.com/mvschwarz/openrig#readme",
   "install": [
    "npm install -g @openrig/cli"
   ],
-  "usage_title": "Install and first run",
-  "usage_text": "Requires Node.js 20, 22 or 24 and tmux. Launching a rig writes provider hooks and workspace trust settings. Before running the commands below, read what OpenRig changes on your machine and back up the relevant files.\nTo install with Bun instead, run bun add -g @openrig/cli. OpenRig still runs on Node.js, so install Node.js 22 as well. Bun may block this package's postinstall script, in which case the Node.js and SQLite check described under what OpenRig changes on your machine does not run at install time…",
-  "usage_code": "npm install -g @openrig/cli\nrig setup --dry-run",
+  "usage_title": "See it running",
+  "usage_text": "Start here: the guided first-use path: install, launch a two-agent team in your repository, and get one reviewed change.\nNot setting this up today? Get the next walkthrough and occasional OpenRig updates → https://openrig.dev/follow",
+  "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "https://openrig.dev",
   "topics": [
@@ -2416,6 +2560,28 @@
    "tensorflow"
   ],
   "default_branch": "master"
+ },
+ "tester-army/e2e": {
+  "fetched": "2026-10-05",
+  "readme_url": "https://github.com/tester-army/e2e#readme",
+  "install": [
+   "npx e2e init"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "init asks for an engine, web or mobile, and a model provider, then writes a\nconfig and an example test. The\nquickstart covers the rest.",
+  "usage_code": "npx e2e init",
+  "license": "Apache-2.0",
+  "homepage": "https://tester.army/e2e",
+  "topics": [
+   "e2e",
+   "e2e-testing",
+   "end-to-end-testing",
+   "mobile",
+   "mobile-testing",
+   "playwright",
+   "web"
+  ],
+  "default_branch": "main"
  },
  "thedotmack/claude-mem": {
   "fetched": "2026-10-04",
