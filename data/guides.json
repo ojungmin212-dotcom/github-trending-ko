@@ -45,6 +45,31 @@
   ],
   "default_branch": "main"
  },
+ "DuarteSantos8/openGym": {
+  "fetched": "2026-10-06",
+  "readme_url": "https://github.com/DuarteSantos8/openGym#readme",
+  "install": [
+   "git clone https://github.com/DuarteSantos8/openGym",
+   "docker compose pull  # prebuilt images, amd64 + arm64 (skip this to build from source)",
+   "docker compose up -d"
+  ],
+  "usage_title": "Features",
+  "usage_text": "Planning\n• A routine per weekday over a library of 1,324 exercises with animated demos, searchable and\n browsable by muscle on a body map. Filter by the equipment you own.\n• Four starter plans (Push/Pull/Legs, Upper/Lower, Full Body, 5×5) that load as ordinary,\n editable routines.\n• Move a session to another day without touching the weekly plan. The week starts on Monday or\n Sunday, your choice.\n• Supersets, warm-up sets, drop sets and rest-pause, timed exercises (planks, hangs, carries),\n cardio by time and speed, rest time per exercise, planned deloads.\n• Your own exercises, with your own photo, GIF or short video. Location data is stripped on the\n device before upload.\nTraining…",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://opengym.duarte-santos.ch",
+  "topics": [
+   "bodyweight",
+   "docker",
+   "fitness",
+   "fitness-tracker",
+   "gym",
+   "health",
+   "mcp",
+   "nodejs"
+  ],
+  "default_branch": "main"
+ },
  "Effect-TS/effect": {
   "fetched": "2026-10-03",
   "readme_url": "https://github.com/Effect-TS/effect#readme",
@@ -122,6 +147,34 @@
   "license": "MIT",
   "homepage": "https://docs.fxembed.com",
   "topics": [],
+  "default_branch": "main"
+ },
+ "Gaurav-Gosain/tuios": {
+  "fetched": "2026-10-06",
+  "readme_url": "https://github.com/Gaurav-Gosain/tuios#readme",
+  "install": [
+   "brew install tuios",
+   "brew install gaurav-gosain/tap/tuios-ghostty",
+   "nix run github:Gaurav-Gosain/tuios/v0.8.5#tuios  # a release",
+   "nix run github:Gaurav-Gosain/tuios#tuios  # the latest main",
+   "nix run nixpkgs#tuios  # the nixpkgs package",
+   "curl -fsSL https://raw.githubusercontent.com/Gaurav-Gosain/tuios/main/install.sh | bash"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "tuios attaches to a daemon-backed session, so the session outlives the\nterminal window it started in. New panes are tiled. See\nSESSIONS.md to turn either off.",
+  "usage_code": "tuios                    # Launch TUIOS\ntuios --show-keys        # Launch with key overlay for learning\ntuios --standalone       # Launch without the daemon, for this run only",
+  "license": "MIT",
+  "homepage": "https://tuios.dev",
+  "topics": [
+   "ai-agents",
+   "bubbletea",
+   "charm",
+   "claude-code",
+   "cli",
+   "codex",
+   "coding-agents",
+   "developer-tools"
+  ],
   "default_branch": "main"
  },
  "HKUDS/CLI-Anything": {
@@ -302,6 +355,27 @@
   ],
   "default_branch": "main"
  },
+ "M-Abozaid/esp32-c3-adblock": {
+  "fetched": "2026-10-06",
+  "readme_url": "https://github.com/M-Abozaid/esp32-c3-adblock#readme",
+  "install": [],
+  "usage_title": "esp32-c3-adblock",
+  "usage_text": "日本語 README\nA Pi-hole-style DNS ad-blocker that runs on a $2 ESP32-C3 — no PSRAM required.\n> 📰 Featured on Tom's Hardware, XDA Developers, and Korben.\nThe trick everyone misses: you don't need to keep the blocklist in RAM. Store the\ndomains as sorted 40-bit hashes in flash and binary-search them. 140,000+ domains\nfit in ~0.7 MB of flash and are matched in ~10 ms, using ~50 KB of RAM.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "adblocker",
+   "arduino",
+   "dns",
+   "dns-sinkhole",
+   "esp32",
+   "esp32-c3",
+   "iot",
+   "pi-hole"
+  ],
+  "default_branch": "main"
+ },
  "MakazhanAlpamys/Soup": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/MakazhanAlpamys/Soup#readme",
@@ -476,6 +550,25 @@
    "small-models"
   ],
   "default_branch": "main"
+ },
+ "Stremio/stremio-web": {
+  "fetched": "2026-10-06",
+  "readme_url": "https://github.com/Stremio/stremio-web#readme",
+  "install": [
+   "pnpm install",
+   "docker build -t stremio-web .",
+   "docker run -p 8080:8080 stremio-web"
+  ],
+  "usage_title": "✨ Features",
+  "usage_text": "• 🧩 Addon-powered — discover movies, series and channels from catalogs provided by addons\n• 🔄 Sync everywhere — your library and Continue Watching follow your Stremio account across devices\n• 📺 Casting — play on the big screen via Chromecast\n• 💬 Subtitles — addon-provided or local, with customizable styling\n• ⌨️ Keyboard-first player — full playback control without touching the mouse\n• 🌍 50+ languages — community-translated via stremio-translations\n• 📱 Installable — runs as a standalone PWA",
+  "usage_code": "",
+  "license": "GPL-2.0",
+  "homepage": "https://web.stremio.com",
+  "topics": [
+   "hacktoberfest",
+   "stremio"
+  ],
+  "default_branch": "development"
  },
  "THU-MAIC/OpenMAIC": {
   "fetched": "2026-10-02",
@@ -2054,6 +2147,20 @@
   "topics": [],
   "default_branch": "main"
  },
+ "msitarzewski/agency-agents": {
+  "fetched": "2026-10-06",
+  "readme_url": "https://github.com/msitarzewski/agency-agents#readme",
+  "install": [
+   "brew install --cask msitarzewski/agency-agents/agency-agents"
+  ],
+  "usage_title": "Scenario 3: Enterprise Feature Development",
+  "usage_text": "Your Team:\n1. 👔 Senior Project Manager - Scope and task planning\n2. 💎 Senior Developer - Complex implementation\n3. 🎨 UI Designer - Design system and components\n4. 🧪 Experiment Tracker - A/B test planning\n5. 📸 Evidence Collector - Quality verification\n6. 🔍 Reality Checker - Production readiness\nResult: Enterprise-grade delivery with quality gates and documentation.\n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "mvschwarz/openrig": {
   "fetched": "2026-10-05",
   "readme_url": "https://github.com/mvschwarz/openrig#readme",
@@ -2626,14 +2733,15 @@
   "default_branch": "main"
  },
  "trycua/cua": {
-  "fetched": "2026-09-29",
+  "fetched": "2026-10-06",
   "readme_url": "https://github.com/trycua/cua#readme",
   "install": [
+   "curl -fsSL https://cua.ai/install.sh | sh",
    "uv tool install 'cua-bench[browser]'",
    "uv tool run --from 'cua-bench[browser]' playwright install chromium"
   ],
   "usage_title": "Choose your path",
-  "usage_text": "• Cua Fleets: Provision a Linux desktop, run a command, and save a screenshot.\n• CUA-S1: Explore small, specialized models for computer-use decisions.\n• Cua Driver: Operate Calculator and verify its result.\n• Lume: Create a Tahoe VM and connect over SSH.\n• Cua Bench: Create and verify a simulated task.\nBring your own agent and model, or explore CUA-S1 for specialized decisions. Cua provides the computer and automation tools. Computer-Use 2.0 describes an agent moving between code, APIs, and graphical interfaces within the same task.",
+  "usage_text": "• Cua Spaces: Install the app and run your first Space.\n• Cua Driver: Operate Calculator and verify its result.\n• Lume: Create a Tahoe VM and connect over SSH.\n• Cua SDK and CLI: Install cua and create a local sandbox.\n• CUA-S1: Explore small, specialized models for computer-use decisions.\n• Cua Bench: Create and verify a simulated task.\nBring your own agent and model, or explore CUA-S1 for specialized decisions. Cua provides the computer and automation tools. Computer-Use 2.0 describes an agent moving between code, APIs, and graphical interfaces within the same task.\n---",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://cua.ai",
