@@ -282,15 +282,17 @@
   "default_branch": "main"
  },
  "JustVugg/colibri": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-07",
   "readme_url": "https://github.com/JustVugg/colibri#readme",
   "install": [
-   "git clone https://github.com/JustVugg/colibri && cd colibri/c",
-   "curl -s http://127.0.0.1:8000/v1/brio -H 'Content-Type: application/json' -d '{"
+   "apt install git python3 build-essential",
+   "git clone https://github.com/JustVugg/colibri",
+   "brew install libomp git python",
+   "git clone https://github.com/JustVugg/colibri && cd colibri/c"
   ],
-  "usage_title": "See it running",
-  "usage_text": "The web dashboard ( ./coli web ), redesigned in 1.12.0: a workspace with a dock for the chat,\nBrio mode, the Brain page and Profiling, in a light or a dark theme. Here Qwen3.6 answering on a CPU box,\nexperts streamed from disk. \n Brio mode : the same model, told to stop writing. Give it a document and the only answers\nit may pick; it reads the probability of each one, generates nothing, and reports an entropy that says when it is\nnot sure. Here: request changes at 99.9% , entropy 0.005, 4 tokens read, 0 generated. \n The Brain page, Explore : the measured expert atlas of GLM-5.2\ndrawn as a cortex. 13,260 characterised experts in ten regions (Python, SQL, mathematics, poetry, law, Chinese…)…",
-  "usage_code": "",
+  "usage_title": "Get started in one step",
+  "usage_text": "You need a computer with 8 GB of RAM at the very least (16 GB or more is\nbetter), 22 GB free on the disk for the smallest model, and an internet\nconnection. A graphics card is optional.\nWindows\n1. On this page click Code, then Download ZIP, and unzip it.\n2. Double-click START-HERE.bat in the unzipped folder. If Python is\n missing, it offers to install it for you.\nLinux (Ubuntu and Debian; other distributions have the same packages under\ntheir own names)\nmacOS (with Homebrew)\nYou answer one question, which model, and Enter takes the recommendation. Then\nthe setup:\n1. looks at your machine: RAM, free disk, CPU and GPUs…",
+  "usage_code": "sudo apt install git python3 build-essential\ngit clone https://github.com/JustVugg/colibri\ncd colibri\n./start-here.sh",
   "license": "Apache-2.0",
   "homepage": "https://justvugg.github.io/colibri",
   "topics": [],
@@ -421,7 +423,7 @@
   "default_branch": "main"
  },
  "NVIDIA/OpenShell": {
-  "fetched": "2026-09-30",
+  "fetched": "2026-10-07",
   "readme_url": "https://github.com/NVIDIA/OpenShell#readme",
   "install": [
    "curl -LsSf https://raw.githubusercontent.com/NVIDIA/OpenShell/main/install.sh | sh",
@@ -658,7 +660,7 @@
   "default_branch": "main"
  },
  "VectifyAI/PageIndex": {
-  "fetched": "2026-09-30",
+  "fetched": "2026-10-07",
   "readme_url": "https://github.com/VectifyAI/PageIndex#readme",
   "install": [
    "pip install -U pageindex"
@@ -1128,20 +1130,24 @@
   "default_branch": "main"
  },
  "byoungd/up": {
-  "fetched": "2026-09-29",
+  "fetched": "2026-10-07",
   "readme_url": "https://github.com/byoungd/up#readme",
   "install": [],
   "usage_title": "人生进阶指南",
-  "usage_text": "中文 | English\n韩先凯 著（笔名：离谱）\n副标题：AI 时代终身学习指南。这是一份持续更新的书稿，从英语这扇具体的门出发，写到 AI 学习、真实项目、创业失败、身体恢复，以及一个普通人怎样把生活一点点交还给自己。\n 持续更新书稿 \n 下载中文 EPUB \n Download English EPUB \n 下载中文 PDF \n Download English PDF \n 源码与勘误 \n 读者实践回执 \n 正文 CC BY-NC 4.0 \nAI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得到一份解释、一段代码、一张计划表，甚至一个看似笃定的人生建议。可真正稀缺的东西并没有因此消失：知道什么问题值得追问，辨别什么证据可以相信，把建议变成真实作品，并为最后的判断承担责任。\n这是一份面向普通人的终身学习指南。它不要求你先成为天才、专家或意志坚定的人，也不许诺某个工具会替你改变命运。它想做的，是陪你在变化加速的时代里，一次次重新学习：面对陌生问题，借助 AI，也保留自己的判断；完成一件真实的事，再把经验带到下一段路。\n项目在 2017 年从《离谱的英语学习指南》开始。英语曾是全部地图，如今它成为地图上的一条基础路径。我们继续向外走，进入 AI 学习、项目开发、资源层创业、人生复盘与恢复。不是因为过去不再重要，而是因为所有训练最终都指向同一个问题：当世界不断改变，我还能不能继续学习、继续创造、继续成为生活的参与者？…",
+  "usage_text": "中文 | English\n韩先凯 著（笔名：离谱）\n副标题：AI 时代终身学习指南。这是一份持续更新的书稿，从英语这扇具体的门出发，写到 AI 学习、真实项目、创业失败、身体恢复，以及一个普通人怎样把生活一点点交还给自己。\n 持续更新书稿 \n 下载中心 \n 下载中文 EPUB \n Download English EPUB \n 下载中文 PDF \n Download English PDF \n 源码与勘误 \n 读者实践回执 \n 正文 CC BY-NC 4.0 \n 从这里开始 \n 先选一个动作，再决定读多远 \n 第一次来不用读完整本。按今天的需要选一个入口，完成一个小动作，结果会告诉你下一页该去哪里。 \n 我还不知道从哪里开始 用阅读指南按问题选择入口，知道何时留下证据、何时回来复查。 \n 我想在今天做成一件事 先用五分钟写下真实问题、已有证据、最小动作和边界，再决定是否需要完整记录。 \n 我想先测一项英语能力 从一个真实场景开始，保存首版，再选择听、说、读、写中的一条训练线。 \nAI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得到一份解释、一段代码、一张计划表，甚至一个看似笃定的人生建议。可真正稀缺的东西并没有因此消失：知道什么问题值得追问，辨别什么证据可以相信，把建议变成真实作品，并为最后的判断承担责任。\n这是一份面向普通人的终身学习指南。它不要求你先成为天才、专家或意志坚定的人，也不许诺某个工具会替你改变命运。它想做的，是陪你在变化加速的时代里，一次次重新学习：面对陌生问题，借助 AI，也保留自己的判断；完成一件真实的事，再把经验带到下一段路。…",
   "usage_code": "",
   "license": "",
-  "homepage": "https://biezou.com",
+  "homepage": "https://byoungd.github.io/up/",
   "topics": [
+   "ai-literacy",
    "chinese",
    "english-learning",
+   "lifelong-learning",
+   "open-education",
+   "self-directed-learning",
    "tutorial"
   ],
-  "default_branch": "master"
+  "default_branch": "main"
  },
  "caddyserver/caddy": {
   "fetched": "2026-10-05",
@@ -1188,6 +1194,32 @@
    "cursor",
    "elevenlabs",
    "ffmpeg"
+  ],
+  "default_branch": "main"
+ },
+ "cathrynlavery/diagram-design": {
+  "fetched": "2026-10-07",
+  "readme_url": "https://github.com/cathrynlavery/diagram-design#readme",
+  "install": [
+   "codex plugin marketplace add cathrynlavery/diagram-design",
+   "codex plugin add diagram-design@diagram-design",
+   "npx skills add cathrynlavery/diagram-design",
+   "git clone git@github.com:cathrynlavery/diagram-design.git ~/code/diagram-design"
+  ],
+  "usage_title": "First-run gate",
+  "usage_text": "The skill won't silently ship default-skinned diagrams into a branded project. On first use in a new project, it checks if style-guide.md has been customized. If not, it pauses and asks:\n> \"This is your first diagram in this project. The style guide is still at the default. Want to run onboarding, paste tokens manually, or proceed with default?\"\nSee skills/diagram-design/references/onboarding.md for the full spec.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://cathrynlavery.github.io/diagram-design/",
+  "topics": [
+   "agent-skills",
+   "claude-code",
+   "codex",
+   "data-visualization",
+   "diagrams",
+   "drawio",
+   "mermaid",
+   "svg"
   ],
   "default_branch": "main"
  },
@@ -1395,6 +1427,20 @@
    "local-first",
    "mlx"
   ],
+  "default_branch": "main"
+ },
+ "deepseek-ai/DeepGEMM": {
+  "fetched": "2026-10-07",
+  "readme_url": "https://github.com/deepseek-ai/DeepGEMM#readme",
+  "install": [
+   "git clone --recursive git@github.com:deepseek-ai/DeepGEMM.git"
+  ],
+  "usage_title": "DeepGEMM",
+  "usage_text": "DeepGEMM is a unified, high-performance tensor core kernel library that brings together the key computation primitives of modern large language models — GEMMs (FP8, FP4, BF16), fused MoE with overlapped communication (Mega MoE), MQA scoring for the lightning indexer, HyperConnection (HC), and more — into a single, cohesive CUDA codebase. All kernels are compiled at runtime through DeepJIT, requiring no CUDA compilation during installation…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "derv82/wifit3": {
@@ -1723,7 +1769,7 @@
   "default_branch": "main"
  },
  "heygen-com/hyperframes": {
-  "fetched": "2026-09-30",
+  "fetched": "2026-10-07",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
   "install": [
    "claude plugin marketplace add heygen-com/hyperframes",
@@ -1737,7 +1783,7 @@
   "usage_text": "Define a video as HTML. Add data attributes for timing and tracks. Use GSAP, CSS, Lottie, Three.js, Anime.js, WAAPI, or your own frame adapter for seekable animation.\nPreview instantly in the browser. Render locally or in Docker. The renderer seeks each frame in headless Chrome and encodes the result with FFmpeg, so the same input produces the same video.",
   "usage_code": "<div id=\"stage\" data-composition-id=\"launch\" data-start=\"0\" data-width=\"1920\" data-height=\"1080\">\n  <video\n    class=\"clip\"\n    data-start=\"0\"\n    data-duration=\"6\"\n    data-track-index=\"0\"\n    src=\"intro.mp4\"\n    muted\n    playsinline\n  ></video>\n\n  <h1 id=\"title\" class=\"clip\" data-start=\"1\" data-duration=\"4\" data-track-index=\"1\">Launch day</h1>\n\n  <audio\n    data-start=\"0\"\n    data-duration=\"6\"\n    data-track-index=\"2\"\n    data-volume=\"0.5\"\n…",
   "license": "Apache-2.0",
-  "homepage": "",
+  "homepage": "https://hyperframes.dev",
   "topics": [
    "ai",
    "animation",
@@ -1936,7 +1982,7 @@
   "default_branch": "main"
  },
  "max-sixty/worktrunk": {
-  "fetched": "2026-09-30",
+  "fetched": "2026-10-07",
   "readme_url": "https://github.com/max-sixty/worktrunk#readme",
   "install": [
    "brew install worktrunk && wt config shell install",
@@ -2079,7 +2125,7 @@
   "default_branch": "main"
  },
  "mksglu/context-mode": {
-  "fetched": "2026-09-30",
+  "fetched": "2026-10-07",
   "readme_url": "https://github.com/mksglu/context-mode#readme",
   "install": [
    "claude mcp add context-mode -- npx -y context-mode",
@@ -2145,6 +2191,32 @@
   "license": "",
   "homepage": "https://modelcontextprotocol.io",
   "topics": [],
+  "default_branch": "main"
+ },
+ "morluto/rea": {
+  "fetched": "2026-10-07",
+  "readme_url": "https://github.com/morluto/rea#readme",
+  "install": [
+   "npx rea-agents setup",
+   "curl -fsSL https://raw.githubusercontent.com/morluto/rea/main/install.sh | bash",
+   "npm install --global rea-agents",
+   "npx -y rea-agents@latest doctor"
+  ],
+  "usage_title": "Run setup (recommended)",
+  "usage_text": "Set up REA with your agent:\nChoose which supported agents should use REA, then review the exact paths and changes before approving. Existing REA registrations are selected by default; newly detected agents are available to select, but detection alone does not select them. Setup adds MCP access and REA's guided workflow for selected agents. Hopper is a separate optional choice with its own consent. Setup can also record an existing Ghidra installation.\nSetup shows its changes before applying them and backs up existing configuration. See Installation and setup for requirements and setup options.",
+  "usage_code": "npx rea-agents setup",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "agent-skills",
+   "ai-agent-tools",
+   "ai-agents",
+   "binary-analysis",
+   "cli",
+   "coding-agents",
+   "cordis",
+   "ctf"
+  ],
   "default_branch": "main"
  },
  "msitarzewski/agency-agents": {
