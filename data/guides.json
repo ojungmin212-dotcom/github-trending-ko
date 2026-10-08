@@ -93,6 +93,22 @@
   ],
   "default_branch": "main"
  },
+ "EpicGames/raddebugger": {
+  "fetched": "2026-10-08",
+  "readme_url": "https://github.com/EpicGames/raddebugger#readme",
+  "install": [
+   "apt update && sudo apt install build-essential",
+   "apt update && sudo apt install clang llvm",
+   "apt install -y libfreetype6-dev libx11-dev libxext-dev libxfixes-dev libxrandr-dev libgl-dev libegl-dev"
+  ],
+  "usage_title": "The RAD Debugger Project",
+  "usage_text": "NOTE: This README does not document usage instructions and tips for the\r\ndebugger itself, and is intended as a technical overview of the project. The\r\ndebugger's README, which includes usage instructions and tips, can be found\r\npackaged along with debugger releases, or within the build folder after a\r\nlocal copy has been built. You can find pre-built release binaries\r\nhere._\r\nThe RAD Debugger is a native, user-mode, multi-process, graphical debugger. It\r\ncurrently only supports local-machine Windows x64 debugging with PDBs, with\r\nplans to expand and port in the future. In the future we'll expand to also\r\nsupport native Linux debugging and DWARF debug info.\r…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "master"
+ },
  "Fission-AI/OpenSpec": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/Fission-AI/OpenSpec#readme",
@@ -1295,7 +1311,7 @@
   "default_branch": "master"
  },
  "cloudflare/security-audit-skill": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-08",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
   "install": [
    "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
@@ -1966,6 +1982,29 @@
   "topics": [],
   "default_branch": "main"
  },
+ "manaflow-ai/cmux": {
+  "fetched": "2026-10-08",
+  "readme_url": "https://github.com/manaflow-ai/cmux#readme",
+  "install": [
+   "brew install --cask cmux"
+  ],
+  "usage_title": "Features",
+  "usage_text": "Notification rings \nPanes get a blue ring and tabs light up when coding agents need your attention\n Notification panel \nSee all pending notifications in one place, jump to the most recent unread\n In-app browser \nSplit a browser alongside your terminal with a scriptable API ported from agent-browser \n Vertical + horizontal tabs \nSidebar shows git branch, linked PR status/number, working directory, listening ports, and latest notification text. Split horizontally and vertically.\n SSH…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://cmux.com",
+  "topics": [
+   "amp",
+   "claude-code",
+   "cli",
+   "codex",
+   "coding-agents",
+   "gemini",
+   "ghostty",
+   "macos"
+  ],
+  "default_branch": "main"
+ },
  "mattpocock/skills": {
   "fetched": "2026-10-03",
   "readme_url": "https://github.com/mattpocock/skills#readme",
@@ -2569,6 +2608,24 @@
    "fastapi",
    "llm"
   ],
+  "default_branch": "main"
+ },
+ "spotify/portal-ai-plugins": {
+  "fetched": "2026-10-08",
+  "readme_url": "https://github.com/spotify/portal-ai-plugins#readme",
+  "install": [
+   "claude plugin marketplace add spotify/portal-ai-plugins",
+   "claude plugin install portal@portal",
+   "claude plugin install shunt@portal  # optional: token-saving AiKA delegation",
+   "codex plugin marketplace add spotify/portal-ai-plugins",
+   "npx @spotify/portal-cli <command>"
+  ],
+  "usage_title": "Spotify Portal AI Plugins",
+  "usage_text": "Bring Spotify Portal into Claude Code, Codex, and Cursor.\nThis plugin provides focused workflows for the\nPortal CLI: set up\nauthentication, search your software catalog, build service briefings, run\ndiagnostics, and invoke Portal actions.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "stablyai/orca": {
