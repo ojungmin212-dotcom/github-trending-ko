@@ -5,12 +5,13 @@
 서버, 유료 서비스, 외부 파이썬 패키지 없이 동작합니다.
 
 - 공개 URL: `https://<사용자명>.github.io/<저장소이름>/`
-- 갱신 시각: 매일 09:00 KST (cron `0 0 * * *`, UTC 기준)
+- 갱신 시각: 매일 07:35 KST 예정 (cron `35 22 * * *`, UTC 기준)
+  GitHub 예약 실행은 부하에 따라 수 시간 늦을 수 있습니다. **실제 수집 시각은 화면의 "마지막 갱신"**(`data/trending.json`의 `fetched_at`)을 보세요.
 
 ## 동작 원리
 
 ```
-[매일 00:00 UTC] GitHub Actions (.github/workflows/update.yml)
+[매일 22:35 UTC] GitHub Actions (.github/workflows/update.yml)
    └─ python scripts/fetch_trending.py
         ├─ github.com/trending?since=daily|weekly|monthly 수집 (재시도 3회)
         ├─ HTML 파싱 → 기간별 목록

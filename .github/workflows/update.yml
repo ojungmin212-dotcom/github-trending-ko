@@ -2,7 +2,11 @@ name: Update trending data
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 매일 00:00 UTC = 09:00 KST (GitHub 사정으로 몇 분~수십 분 늦을 수 있음)
+    # 매일 22:35 UTC = 다음날 07:35 KST.
+    # 00:00 UTC(정각·자정)는 예약이 가장 몰리는 슬롯이라 실제 실행이 4~5시간 밀렸다
+    # (2026-10-02~10-09 관측: 매일 13:33~14:36 KST). 혼잡을 피해 정각이 아닌 분으로 옮긴다.
+    # GitHub 예약은 원래 지연될 수 있으므로 실제 수집 시각은 data/trending.json의 fetched_at을 볼 것.
+    - cron: "35 22 * * *"
   workflow_dispatch:       # Actions 탭의 "Run workflow" 버튼 / gh workflow run
 
 permissions:
