@@ -623,7 +623,7 @@
   "default_branch": "main"
  },
  "Tencent/WeKnora": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/Tencent/WeKnora#readme",
   "install": [
    "git clone https://github.com/Tencent/WeKnora.git",
@@ -651,7 +651,7 @@
   "default_branch": "main"
  },
  "TencentCloud/Octop": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/TencentCloud/Octop#readme",
   "install": [
    "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash",
@@ -749,7 +749,7 @@
   "default_branch": "main"
  },
  "affaan-m/ECC": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/affaan-m/ECC#readme",
   "install": [
    "npx ecc-universal@2.2.3 setup",
@@ -777,7 +777,7 @@
   "default_branch": "main"
  },
  "agent-substrate/substrate": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/agent-substrate/substrate#readme",
   "install": [
    "go install ./cmd/kubectl-ate",
@@ -840,7 +840,7 @@
   "default_branch": "main"
  },
  "alibaba/open-code-review": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/alibaba/open-code-review#readme",
   "install": [
    "npm install -g @alibaba-group/open-code-review"
@@ -914,7 +914,7 @@
   "default_branch": "feat/harness-backend"
  },
  "anthropics/claude-code": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/anthropics/claude-code#readme",
   "install": [
    "curl -fsSL https://claude.ai/install.sh | bash",
@@ -959,7 +959,7 @@
   "default_branch": "main"
  },
  "anthropics/financial-services": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/anthropics/financial-services#readme",
   "install": [
    "claude plugin install claude-for-msft-365-install@claude-for-financial-services",
@@ -1037,7 +1037,7 @@
   "default_branch": "main"
  },
  "ayghri/i-have-adhd": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/ayghri/i-have-adhd#readme",
   "install": [
    "claude plugin marketplace add <your-username>/i-have-adhd",
@@ -1059,7 +1059,7 @@
   "default_branch": "main"
  },
  "bilawalsidhu/gods-eye-view": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/bilawalsidhu/gods-eye-view#readme",
   "install": [
    "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
@@ -1382,7 +1382,7 @@
   "default_branch": "master"
  },
  "cursor/plugins": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/cursor/plugins#readme",
   "install": [],
   "usage_title": "Cursor plugins",
@@ -1418,7 +1418,7 @@
   "default_branch": "main"
  },
  "debpalash/VoiceStudio": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
   "install": [
    "curl -fsSL https://voicestudio.sh/install | sh",
@@ -1934,6 +1934,18 @@
   ],
   "default_branch": "master"
  },
+ "liquidslr/system-design-notes": {
+  "fetched": "2026-10-09",
+  "readme_url": "https://github.com/liquidslr/system-design-notes#readme",
+  "install": [],
+  "usage_title": "System Design Interview - An Insider's Guide (Vol 1 and 2)",
+  "usage_text": "These notes are based on the System Design Interview books - Vol 1 and Vol 2 2nd Ed \nCheck the notes here: https://pagefy.io/system-design/system-design-interview-by-alex-xu\nNote: These notes are a work in progress. \n• Chapter 1 - Scale From Zero To Millions Of Users\n• Chapter 2 - Back-of-the-envelope Estimation\n• Chapter 3 - A Framework For System Design Interviews\n• Chapter 4 - Design A Rate Limiter\n• Chapter 5 - Design Consistent Hashing\n• Chapter 6 - Design A Key-Value Store\n• Chapter 7 - Design A Unique ID Generator In Distributed Systems\n• Chapter 8 - Design A URL Shortener\n• Chapter 9 - Design A Web Crawler\n• Chapter 10 - Design A Notification System…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://pagefy-blush.vercel.app/system-design/system-design-interview-by-alex-xu",
+  "topics": [],
+  "default_branch": "main"
+ },
  "llvm/llvm-project": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/llvm/llvm-project#readme",
@@ -2438,7 +2450,7 @@
   "default_branch": "main"
  },
  "pablostanley/yoinks": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/pablostanley/yoinks#readme",
   "install": [
    "npm install -g yoinks",
@@ -2651,6 +2663,24 @@
   ],
   "default_branch": "main"
  },
+ "storytold/artcraft": {
+  "fetched": "2026-10-09",
+  "readme_url": "https://github.com/storytold/artcraft#readme",
+  "install": [],
+  "usage_title": "Show, Don't Tell: Advanced Crafting Features",
+  "usage_text": "Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size.\nMore previews are coming for scene blocking, canvas editing, and scene relighting.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://getartcraft.com",
+  "topics": [
+   "3d-graphics",
+   "ai",
+   "aivideo",
+   "filmmaking",
+   "imagegeneration"
+  ],
+  "default_branch": "main"
+ },
  "strands-agents/harness-sdk": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/strands-agents/harness-sdk#readme",
@@ -2736,7 +2766,7 @@
   "default_branch": "main"
  },
  "tashfeenahmed/freellmapi": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/tashfeenahmed/freellmapi#readme",
   "install": [
    "curl -fsSL https://freellmapi.co/install.sh | bash",
@@ -2912,7 +2942,7 @@
   "default_branch": "main"
  },
  "vectorize-io/hindsight": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-09",
   "readme_url": "https://github.com/vectorize-io/hindsight#readme",
   "install": [
    "npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs",
