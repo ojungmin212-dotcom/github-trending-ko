@@ -47,16 +47,15 @@
   "default_branch": "master"
  },
  "DietrichGebert/ponytail": {
-  "fetched": "2026-10-03",
+  "fetched": "2026-10-10",
   "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
   "install": [
    "codex plugin marketplace add DietrichGebert/ponytail",
-   "codex plugin add ponytail@ponytail",
-   "git clone https://github.com/DietrichGebert/ponytail"
+   "codex plugin add ponytail@ponytail"
   ],
   "usage_title": "How it works",
-  "usage_text": "Before writing code, the agent stops at the first rung that holds:\nThe ladder runs after it understands the problem, not instead of it: it reads the code the change touches and traces the real flow before picking a rung. Lazy about the solution, never about reading.\nLazy, not negligent: trust-boundary validation, data-loss handling, security, and accessibility are never on the chopping block.",
-  "usage_code": "1. Does this need to exist?   → no: skip it (YAGNI)\n2. Already in this codebase?  → reuse it, don't rewrite\n3. Stdlib does it?            → use it\n4. Native platform feature?   → use it\n5. Installed dependency?      → use it\n6. One line?                  → one line\n7. Only then: the minimum that works",
+  "usage_text": "The ladder runs after it understands the problem, not instead of it: it reads the code the change touches and traces the real flow before picking a rung. Lazy about the solution, never about reading.\nLazy, not negligent: trust-boundary validation, data-loss handling, security, and accessibility are never on the chopping block.\nLogic with a branch, a loop, a parser, money or security leaves one small test behind. Every reply ends with what was skipped or not checked and any risk you should know.",
+  "usage_code": "",
   "license": "MIT",
   "homepage": "https://ponytail.dev",
   "topics": [
@@ -553,7 +552,7 @@
   "default_branch": "main"
  },
  "Panniantong/Agent-Reach": {
-  "fetched": "2026-10-03",
+  "fetched": "2026-10-10",
   "readme_url": "https://github.com/Panniantong/Agent-Reach#readme",
   "install": [],
   "usage_title": "❤️赞助商",
@@ -1023,7 +1022,7 @@
   "default_branch": "main"
  },
  "anthropics/knowledge-work-plugins": {
-  "fetched": "2026-10-03",
+  "fetched": "2026-10-10",
   "readme_url": "https://github.com/anthropics/knowledge-work-plugins#readme",
   "install": [
    "claude plugin marketplace add anthropics/knowledge-work-plugins",
@@ -2063,14 +2062,16 @@
   "default_branch": "main"
  },
  "mattpocock/skills": {
-  "fetched": "2026-10-03",
+  "fetched": "2026-10-10",
   "readme_url": "https://github.com/mattpocock/skills#readme",
   "install": [
-   "claude plugins install mattpocock-skills",
-   "npx skills@latest add mattpocock/skills"
+   "claude plugin install mattpocock-skills@claude-plugins-official",
+   "codex plugin marketplace add mattpocock/skills",
+   "codex plugin add mattpocock-skills@mattpocock",
+   "npx skills@latest add mattpocock/skills -a <agent>  # cursor, opencode, devin, windsurf, amp, pi; omit -a to choose"
   ],
   "usage_title": "2. Run /setup-matt-pocock-skills",
-  "usage_text": "In your agent, run it once per repo. It will:\n• Ask you which issue tracker you want to use (GitHub, Linear, or local files)\n• Ask you what labels you apply to tickets when you triage them (/triage uses labels)\n• Ask you where you want to save any docs we create",
+  "usage_text": "In your agent, run it once per repo. It will:\n• Ask you which issue tracker you want to use (GitHub, GitLab, local files, or anything else you describe)\n• Ask you what labels you apply to tickets when you triage them (/triage uses labels)\n• Ask you where you want to save any docs we create",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://aihero.dev/skills",
@@ -2510,7 +2511,7 @@
   "default_branch": "main"
  },
  "paperclipai/paperclip": {
-  "fetched": "2026-10-03",
+  "fetched": "2026-10-10",
   "readme_url": "https://github.com/paperclipai/paperclip#readme",
   "install": [
    "npx paperclipai@latest onboard --yes",
