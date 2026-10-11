@@ -767,7 +767,7 @@
   "default_branch": "main"
  },
  "addyosmani/agent-skills": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-11",
   "readme_url": "https://github.com/addyosmani/agent-skills#readme",
   "install": [
    "npx skills add addyosmani/agent-skills  # install all 25 skills",
@@ -1170,14 +1170,14 @@
   "default_branch": "main"
  },
  "boykopovar/AnyPS5": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-11",
   "readme_url": "https://github.com/boykopovar/AnyPS5#readme",
   "install": [],
   "usage_title": "About",
-  "usage_text": "Tool for automatic executables porting to Linux and Windows.\nIncludes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process.\nUsage, Build instructions, Technical debt of the project, code style conventions, contributing",
+  "usage_text": "Tool for automatic executables porting to Linux and Windows.\nIncludes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process.\nUsage, Build instructions, Architecture, Technical debt of the project, code style conventions, contributing",
   "usage_code": "",
   "license": "GPL-2.0",
-  "homepage": "",
+  "homepage": "https://discord.gg/BHFztBPUe",
   "topics": [
    "anyps5",
    "dynamic-library",
@@ -1676,7 +1676,7 @@
   "default_branch": "main"
  },
  "flutter/flutter": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-11",
   "readme_url": "https://github.com/flutter/flutter#readme",
   "install": [],
   "usage_title": "Documentation",
@@ -1856,6 +1856,61 @@
   ],
   "default_branch": "main"
  },
+ "huggingface/transformers": {
+  "fetched": "2026-10-11",
+  "readme_url": "https://github.com/huggingface/transformers#readme",
+  "install": [
+   "pip install \"transformers[torch]\"",
+   "uv pip install \"transformers[torch]\"",
+   "git clone https://github.com/huggingface/transformers.git",
+   "pip install '.[torch]'",
+   "uv pip install '.[torch]'"
+  ],
+  "usage_title": "Quickstart",
+  "usage_text": "Get started with Transformers right away with the Pipeline API. The Pipeline is a high-level inference class that supports text, audio, vision, and multimodal tasks. It handles preprocessing the input and returns the appropriate output.\nInstantiate a pipeline and specify model to use for text generation. The model is downloaded and cached so you can easily reuse it again. Finally, pass some text to prompt the model.\nTo chat with a model, the usage pattern is the same. The only difference is you need to construct a chat history (the input to Pipeline) between you and the system.\n> [!TIP]…",
+  "usage_code": "from transformers import pipeline\n\npipeline = pipeline(task=\"text-generation\", model=\"Qwen/Qwen2.5-1.5B\")\npipeline(\"the secret to baking a really good cake is \")\n[{'generated_text': 'the secret to baking a really good cake is 1) to use the right ingredients and 2) to follow the recipe exactly. the recipe for the cake is as follows: 1 cup of sugar, 1 cup of flour, 1 cup of milk, 1 cup of butter, 1 cup of eggs, 1 cup of chocolate chips. if you want to make 2 cakes, how much sugar do you need? To make 2 cakes, you will need 2 cups of sugar.'}]",
+  "license": "Apache-2.0",
+  "homepage": "https://huggingface.co/transformers",
+  "topics": [
+   "audio",
+   "deep-learning",
+   "deepseek",
+   "gemma",
+   "glm",
+   "hacktoberfest",
+   "llm",
+   "machine-learning"
+  ],
+  "default_branch": "main"
+ },
+ "hugohe3/ppt-master": {
+  "fetched": "2026-10-11",
+  "readme_url": "https://github.com/hugohe3/ppt-master#readme",
+  "install": [
+   "brew install python",
+   "apt install python3 python3-pip",
+   "brew install pandoc",
+   "apt install pandoc",
+   "git clone https://github.com/hugohe3/ppt-master.git",
+   "pip install -r requirements.txt"
+  ],
+  "usage_title": "Product Positioning",
+  "usage_text": "Editable is now table stakes — the real question is how much of PowerPoint you actually get. PPT Master delivers PowerPoint's native object model itself, and in depth: native shapes and connectors with working adjustment handles, data-backed charts and tables on demand, and the full text / picture / fill / effect model — click any element and keep editing it as a native PowerPoint object; and through the template / structured route, it can hand you a deck with real slide masters and layouts (p:sldMaster / p:sldLayout inheritance)…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://hugohe3.github.io/ppt-master-examples/",
+  "topics": [
+   "ai-agent",
+   "aippt",
+   "office",
+   "powerpoint",
+   "powerpoint-generation",
+   "ppt",
+   "pptx",
+   "presentation"
+  ],
+  "default_branch": "main"
+ },
  "humanlayer/skills": {
   "fetched": "2026-10-04",
   "readme_url": "https://github.com/humanlayer/skills#readme",
@@ -2003,7 +2058,7 @@
   "default_branch": "main"
  },
  "longbridge/gpui-kit": {
-  "fetched": "2026-09-30",
+  "fetched": "2026-10-11",
   "readme_url": "https://github.com/longbridge/gpui-kit#readme",
   "install": [
    "npx skills add longbridge/gpui-kit",
@@ -2330,6 +2385,21 @@
   "topics": [],
   "default_branch": "main"
  },
+ "multica-ai/andrej-karpathy-skills": {
+  "fetched": "2026-10-11",
+  "readme_url": "https://github.com/multica-ai/andrej-karpathy-skills#readme",
+  "install": [
+   "curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md",
+   "curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md"
+  ],
+  "usage_title": "Karpathy-Inspired Claude Code Guidelines",
+  "usage_text": "> Check out my new project Multica — an open-source platform for running and managing coding agents with reusable skills.\n>\n> Follow me on X: https://x.com/jiayuan_jy\nA single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.\nEnglish | 简体中文",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "mvschwarz/openrig": {
   "fetched": "2026-10-05",
   "readme_url": "https://github.com/mvschwarz/openrig#readme",
@@ -2545,11 +2615,12 @@
   "default_branch": "main"
  },
  "pingdotgg/t3code": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-11",
   "readme_url": "https://github.com/pingdotgg/t3code#readme",
   "install": [
    "curl -fsSL https://t3.codes/install.sh | sh",
    "winget install T3Tools.T3Code",
+   "scoop install extras/t3code",
    "brew install --cask t3-code",
    "apt install ./T3-Code-*.deb",
    "curl -fsSL https://vite.plus | bash"
@@ -2582,7 +2653,7 @@
   "default_branch": "develop"
  },
  "pytorch/pytorch": {
-  "fetched": "2026-10-03",
+  "fetched": "2026-10-11",
   "readme_url": "https://github.com/pytorch/pytorch#readme",
   "install": [
    "conda create -y -n <CONDA_NAME>",
@@ -2618,6 +2689,24 @@
   "license": "Apache-2.0",
   "homepage": "",
   "topics": [],
+  "default_branch": "master"
+ },
+ "ranxianglei/billion-context": {
+  "fetched": "2026-10-11",
+  "readme_url": "https://github.com/ranxianglei/billion-context#readme",
+  "install": [
+   "npm install -g billion-context --prefix=~/.local",
+   "curl -s http://localhost:8787/__bili/health",
+   "curl -s http://localhost:8787/__bili/stats"
+  ],
+  "usage_title": "billion-context",
+  "usage_text": "English | 中文 \n Context-compression plugin — billion-context is all you need. \n small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality \n npm install -g billion-context --prefix=~/.local \n---\n> Cache health at a glance: a healthy session keeps a 95–97% prefix-cache hit rate — compression itself costs ≤2%. Sustained lower? Check attribution with /acp or /acp-cache (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug (please report) · other/unknown.",
+  "usage_code": "Agent (Claude Code / Codex / Cursor / Aider ...)\n        │  you point the agent's base URL at the proxy\n        ▼\n┌─────────────────┐\n│  billion-context│   1. parse the request (Anthropic or OpenAI shape)\n│     proxy       │   2. run acp-kernel compression on the conversation\n│                 │   3. inject a `compress` tool + compression philosophy\n│                 │   4. forward to the real model API\n│                 │   5. rewrite the streaming response\n└─────────────────┘\n        │\n        ▼\n   real model API (Anthropic / OpenAI / compatible)",
+  "license": "",
+  "homepage": "",
+  "topics": [
+   "dsh-plugin"
+  ],
   "default_branch": "master"
  },
  "rohitg00/ai-engineering-from-scratch": {
@@ -2850,7 +2939,7 @@
   "default_branch": "main"
  },
  "tensorflow/tensorflow": {
-  "fetched": "2026-09-27",
+  "fetched": "2026-10-11",
   "readme_url": "https://github.com/tensorflow/tensorflow#readme",
   "install": [
    "pip install tensorflow",
@@ -2896,12 +2985,13 @@
   "default_branch": "main"
  },
  "thedotmack/claude-mem": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-11",
   "readme_url": "https://github.com/thedotmack/claude-mem#readme",
   "install": [
    "npx claude-mem install --ide grok-bot",
    "npx claude-mem install",
    "npx claude-mem install --ide opencode",
+   "npx claude-mem install --ide t3code",
    "npx claude-mem install --ide antigravity",
    "npx claude-mem install --ide omp"
   ],
