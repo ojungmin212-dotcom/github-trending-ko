@@ -506,7 +506,7 @@
   "default_branch": "main"
  },
  "NationalSecurityAgency/ghidra": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-12",
   "readme_url": "https://github.com/NationalSecurityAgency/ghidra#readme",
   "install": [],
   "usage_title": "Ghidra Software Reverse Engineering Framework",
@@ -1283,6 +1283,23 @@
   ],
   "default_branch": "main"
  },
+ "chrislgarry/Apollo-11": {
+  "fetched": "2026-10-12",
+  "readme_url": "https://github.com/chrislgarry/Apollo-11#readme",
+  "install": [],
+  "usage_title": "Apollo-11",
+  "usage_text": "[![NASA][1]][2]\n[![SWH]][SWH_URL]\n[![Comanche]][ComancheMilestone]\n[![Luminary]][LuminaryMilestone]\n🌐\n[Azerbaijani][AZ],\n[bahasa Indonesia][ID],\n[Basa Jawa][JV],\n[Català][CA],\n[Čeština][CZ],\n[Dansk][DA],\n[Deutsch][DE],\n[English][EN],\n[Español][ES],\n[Français][FR],\n[Galego][GL],\n[Italiano][IT],\n[Kurdî][KU],\n[Lietuvių][LT],\n[Mongolian][MN],\n[Nederlands][NL],\n[Norsk][NO],\n[Polski][PL],\n[Português][PT_BR],\n[Română][RO],\n[Suomi][FI],\n[Svenska][SV],\n[tiếng Việt][VI],\n[Türkçe][TR],\n[Ελληνικά][GR],\n[Беларуская мова][BE],\n[Русский][RU],\n[Українська][UK],\n[العربية][AR],\n[فارسی][FA],\n[नेपाली भाषा][NE]\n[हिंदी][HI_IN],\n[অসমীয়া][AS_IN],\n[বাংলা][BD_BN],\n[မြန်မာ][MM],\n[한국어][KO_KR],\n[日本語][JA]…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [
+   "agc",
+   "apollo",
+   "hacktoberfest",
+   "nasa"
+  ],
+  "default_branch": "master"
+ },
  "cilium/cilium": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/cilium/cilium#readme",
@@ -1437,6 +1454,21 @@
   "topics": [],
   "default_branch": "main"
  },
+ "danyuchn/asd-ste100-skill": {
+  "fetched": "2026-10-12",
+  "readme_url": "https://github.com/danyuchn/asd-ste100-skill#readme",
+  "install": [
+   "npx skills add danyuchn/asd-ste100-skill",
+   "git clone https://github.com/danyuchn/asd-ste100-skill ~/.claude/skills/asd-ste100"
+  ],
+  "usage_title": "Usage",
+  "usage_text": "Trigger with a request to simplify or clarify English text:\nOr paste text and ask Claude to \"disambiguate this\" / \"apply STE100 to this\" / \"reduce ambiguity in this output.\"\nYou get the rewritten text back and nothing else. To see which rules were applied, add \"show the diff\" or \"explain the changes\" to the request.",
+  "usage_code": "Disambiguate this tool description\nRewrite this error message so an agent can't misparse it\nApply ASD-STE100 to this instruction",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "master"
+ },
  "davila7/claude-code-templates": {
   "fetched": "2026-10-02",
   "readme_url": "https://github.com/davila7/claude-code-templates#readme",
@@ -1567,18 +1599,18 @@
   "default_branch": "main"
  },
  "earthtojake/text-to-cad": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-12",
   "readme_url": "https://github.com/earthtojake/text-to-cad#readme",
   "install": [
-   "claude plugin marketplace add earthtojake/text-to-cad",
+   "claude plugin marketplace add earthtojake/text-to-cad#latest",
    "claude plugin install text-to-cad@earthtojake",
-   "codex plugin marketplace add earthtojake/text-to-cad",
+   "codex plugin marketplace add earthtojake/text-to-cad --ref latest",
    "codex plugin add text-to-cad@earthtojake",
-   "git clone --depth 1 --branch plugin https://github.com/earthtojake/text-to-cad ~/.cursor/plugins/local/text-to-cad",
-   "npx skills add earthtojake/text-to-cad"
+   "git clone --depth 1 --branch latest https://github.com/earthtojake/text-to-cad ~/.cursor/plugins/local/text-to-cad",
+   "npx skills add earthtojake/text-to-cad#latest"
   ],
-  "usage_title": "Usage analytics",
-  "usage_text": "The CAD app (the plugin's cad server) and the browser viewer (cadgen viewer) can send anonymous usage counts: a\nrandom install ID, versions, where you installed it from, your OS and agent app, how often each CAD tool was\ncalled and views were used, and a one-way code and the format of each distinct\nfile shown (to count files, not identify them). Our server also counts installs\nper country, from each request's IP address, as weekly and monthly totals only.\nNever file names, paths, contents or prompts. It is off until you allow it\nin either app's one-time prompt (one answer counts for both); change it later with…",
+  "usage_title": "text-to-cad",
+  "usage_text": "The text-to-cad plugin gives your agent local workflows for generating 3D models\nas STEP, GLB, STL or 3MF files. It also does design for manufacturing checks,\ngenerates engineering drawings, and connects to popular 3D printing, sheet metal\nand CNC fabrication services.\nIt is supported by all popular agents that support plugins or the\nskills framework, including Claude Code, Codex, Cursor,\nGemini and Grok.",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://www.texttocad.dev",
@@ -2081,6 +2113,29 @@
   ],
   "default_branch": "main"
  },
+ "lyogavin/airllm": {
+  "fetched": "2026-10-12",
+  "readme_url": "https://github.com/lyogavin/airllm#readme",
+  "install": [
+   "pip install airllm"
+  ],
+  "usage_title": "example of other models (ChatGLM, QWen, Baichuan, Mistral, e",
+  "usage_text": "• ChatGLM:\n• QWen:\n• Baichuan, InternLM, Mistral, etc:",
+  "usage_code": "from airllm import AutoModel\nMAX_LENGTH = 128\nmodel = AutoModel.from_pretrained(\"THUDM/chatglm3-6b-base\")\ninput_text = ['What is the capital of China?',]\ninput_tokens = model.tokenizer(input_text,\n    return_tensors=\"pt\", \n    return_attention_mask=False, \n    truncation=True, \n    max_length=MAX_LENGTH, \n    padding=True)\ngeneration_output = model.generate(\n    input_tokens['input_ids'].cuda(), \n    max_new_tokens=5,\n    use_cache= True,\n    return_dict_in_generate=True)\nmodel.tokenizer.decode(generation_output.sequences[0])",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "chinese-llm",
+   "chinese-nlp",
+   "finetune",
+   "generative-ai",
+   "instruct-gpt",
+   "instruction-set",
+   "llama",
+   "llm"
+  ],
+  "default_branch": "main"
+ },
  "magnitudedev/magnitude": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/magnitudedev/magnitude#readme",
@@ -2401,13 +2456,15 @@
   "default_branch": "main"
  },
  "mvschwarz/openrig": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-12",
   "readme_url": "https://github.com/mvschwarz/openrig#readme",
   "install": [
+   "curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.6.8/scripts/install.sh | sh -s -- --dry-run",
+   "curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.6.8/scripts/install.sh | sh",
    "npm install -g @openrig/cli"
   ],
   "usage_title": "See it running",
-  "usage_text": "Start here: the guided first-use path: install, launch a two-agent team in your repository, and get one reviewed change.\nNot setting this up today? Get the next walkthrough and occasional OpenRig updates → https://openrig.dev/follow",
+  "usage_text": "Start here: the guided first-use path: install, talk to the kernel operator, then choose a team for your first useful change.\nNot setting this up today? Get the next walkthrough and occasional OpenRig updates → https://openrig.dev/follow",
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "https://openrig.dev",
@@ -2963,13 +3020,13 @@
   "default_branch": "master"
  },
  "tester-army/e2e": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-12",
   "readme_url": "https://github.com/tester-army/e2e#readme",
   "install": [
    "npx e2e init"
   ],
   "usage_title": "Quick start",
-  "usage_text": "init asks for an engine, web or mobile, and a model provider, then writes a\nconfig and an example test. The\nquickstart covers the rest.",
+  "usage_text": "init asks for an engine, web or mobile, and a model provider, then writes a\nconfig and an example test. The\nquickstart covers the rest.\nTo see a finished setup in your stack, open\nexamples/:\nVite, Next.js, Astro, Expo, SwiftUI, Jetpack Compose, Kotlin Multiplatform,\nand Flutter, each a standalone project with a passing suite.",
   "usage_code": "npx e2e init",
   "license": "Apache-2.0",
   "homepage": "https://tester.army/e2e",
