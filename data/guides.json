@@ -1,4 +1,19 @@
 {
+ "Alishahryar1/free-claude-code": {
+  "fetched": "2026-10-13",
+  "readme_url": "https://github.com/Alishahryar1/free-claude-code#readme",
+  "install": [
+   "curl -fsSL \"https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.sh\" | sh",
+   "curl -fsSL \"https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/uninstall.sh\" | sh"
+  ],
+  "usage_title": "4. Run Your Coding Agent",
+  "usage_text": "Claude Code:\nCodex:\nPi:\nOpenCode 2:\nCline:\nHermes:\nDeepSeek Harness Web:\nGrok Build:\nMuse Code:\nAider:\n Select an FCC model from Claude Code's native /model picker.",
+  "usage_code": "fcc-claude",
+  "license": "",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "BerriAI/litellm": {
   "fetched": "2026-10-09",
   "readme_url": "https://github.com/BerriAI/litellm#readme",
@@ -71,7 +86,7 @@
   "default_branch": "main"
  },
  "DuarteSantos8/openGym": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-13",
   "readme_url": "https://github.com/DuarteSantos8/openGym#readme",
   "install": [
    "git clone https://github.com/DuarteSantos8/openGym",
@@ -79,10 +94,10 @@
    "docker compose up -d"
   ],
   "usage_title": "Features",
-  "usage_text": "Planning\n• A routine per weekday over a library of 1,324 exercises with animated demos, searchable and\n browsable by muscle on a body map. Filter by the equipment you own.\n• Four starter plans (Push/Pull/Legs, Upper/Lower, Full Body, 5×5) that load as ordinary,\n editable routines.\n• Move a session to another day without touching the weekly plan. The week starts on Monday or\n Sunday, your choice.\n• Supersets, warm-up sets, drop sets and rest-pause, timed exercises (planks, hangs, carries),\n cardio by time and speed, rest time per exercise, planned deloads.\n• Your own exercises, with your own photo, GIF or short video. Location data is stripped on the\n device before upload.\nTraining…",
+  "usage_text": "Planning\n• A routine per weekday over a library of over 5,600 exercises with animated demos, searchable and\n browsable by muscle on a body map. Filter by the equipment you own.\n• Four starter plans (Push/Pull/Legs, Upper/Lower, Full Body, 5×5) that load as ordinary,\n editable routines.\n• Move a session to another day without touching the weekly plan. The week starts on Monday or\n Sunday, your choice.\n• Or skip the weekdays altogether: a rotation (A, B, C, A, ...) where the next session is\n simply the next one you haven't done, however the week went.\n• Supersets, warm-up sets, drop sets and rest-pause, timed exercises (planks, hangs, carries)…",
   "usage_code": "",
   "license": "AGPL-3.0",
-  "homepage": "https://opengym.duarte-santos.ch",
+  "homepage": "https://opengym.ch",
   "topics": [
    "bodyweight",
    "docker",
@@ -2285,6 +2300,22 @@
   ],
   "default_branch": "main"
  },
+ "microsoft/BitNet": {
+  "fetched": "2026-10-13",
+  "readme_url": "https://github.com/microsoft/BitNet#readme",
+  "install": [
+   "git clone --recursive https://github.com/microsoft/BitNet.git",
+   "conda create -n bitnet-cpp python=3.10",
+   "pip install -r requirements.txt"
+  ],
+  "usage_title": "Basic usage",
+  "usage_text": "usage: runinference.py [-h] [-m MODEL] [-n NPREDICT] -p PROMPT [-t THREADS] [-c CTX_SIZE] [-temp TEMPERATURE] [-cnv]\nRun inference\noptional arguments:\n -h, --help show this help message and exit\n -m MODEL, --model MODEL\n Path to model file\n -n NPREDICT, --n-predict NPREDICT\n Number of tokens to predict when generating text\n -p PROMPT, --prompt PROMPT\n Prompt to generate text from\n -t THREADS, --threads THREADS\n Number of threads to use\n -c CTXSIZE, --ctx-size CTXSIZE\n Size of the prompt context\n -temp TEMPERATURE, --temperature TEMPERATURE\n Temperature, a hyperparameter that controls the randomness of the generated text…",
+  "usage_code": "# Run inference with the quantized model\npython run_inference.py -m models/BitNet-b1.58-2B-4T/ggml-model-i2_s.gguf -p \"You are a helpful assistant\" -cnv",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "microsoft/vscode": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/microsoft/vscode#readme",
@@ -2581,6 +2612,34 @@
   "topics": [],
   "default_branch": "quattro"
  },
+ "open-webui/open-webui": {
+  "fetched": "2026-10-13",
+  "readme_url": "https://github.com/open-webui/open-webui#readme",
+  "install": [
+   "pip install open-webui",
+   "docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+   "docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+   "docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda",
+   "docker run -d -p 3000:8080 -e OPENAI_API_KEY=your_secret_key -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+   "docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama"
+  ],
+  "usage_title": "Key Features of Open WebUI ⭐",
+  "usage_text": "• 🚀 Effortless Setup: Install seamlessly via pip, uv, Docker, or Kubernetes (kubectl, kustomize, or helm), with :ollama and :cuda tagged images available for container deployments.\n• 🤝 Broad Model & API Integration: Connect any OpenAI-compatible API alongside local Ollama models. Point the API URL at LMStudio, GroqCloud, Mistral, OpenRouter, vLLM, and more to mix and match providers freely.\n• 🔐 Granular RBAC & User Groups: Administrators define detailed roles, groups, and permissions, giving each user exactly the access they need. Secure by default, with tailored experiences per group…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://openwebui.com",
+  "topics": [
+   "ai",
+   "llm",
+   "llm-ui",
+   "llm-webui",
+   "llms",
+   "mcp",
+   "ollama",
+   "ollama-webui"
+  ],
+  "default_branch": "main"
+ },
  "openbao/openbao": {
   "fetched": "2026-09-26",
   "readme_url": "https://github.com/openbao/openbao#readme",
@@ -2767,15 +2826,16 @@
   "default_branch": "master"
  },
  "rohitg00/ai-engineering-from-scratch": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-13",
   "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch#readme",
   "install": [
    "npx skills add rohitg00/ai-engineering-from-scratch",
+   "npx --version",
    "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git"
   ],
-  "usage_title": "Getting started",
-  "usage_text": "Three ways in. Pick one.\nOption A — learn in your terminal (recommended). After the Node.js,\nnpx, host, and scope preflight above, install the learning skills into a\ncompatible agent and let the course drive itself:\nUse the host-specific invocation table above. The installed skills provide\nstart-learning, learn, course-guide, and the focused\nlearn-mcp and learn-agent-skills routes. Lesson prose can\nstream from this repository without a clone. A local clone is required for\ncopied repository code commands and executable MCP or Agent Skills labs.\nProgress lives in LEARNING.md, MCP-LEARNING.md, or\nAGENT-SKILLS-LEARNING.md in your project, so every session can resume…",
-  "usage_code": "npx skills add rohitg00/ai-engineering-from-scratch",
+  "usage_title": "Run local code",
+  "usage_text": "The preflight separates requirements needed now from tools needed later. Every\nrequired failure includes the detected reason and a corrective command. The\nvectors.py command is a dependency-free lesson and ends by showing that a matrix\ntimes a vector is the operation inside a neural network layer. Save that\nterminal output as your first evidence.\n Use every lesson the same way",
+  "usage_code": "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git\ncd ai-engineering-from-scratch\npython3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner\npython3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py",
   "license": "MIT",
   "homepage": "https://aiengineeringfromscratch.com",
   "topics": [
@@ -3085,7 +3145,7 @@
   "default_branch": "main"
  },
  "trycua/cua": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-13",
   "readme_url": "https://github.com/trycua/cua#readme",
   "install": [
    "curl -fsSL https://cua.ai/install.sh | sh",
