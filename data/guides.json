@@ -338,7 +338,7 @@
   "default_branch": "main"
  },
  "JustVugg/colibri": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-10-14",
   "readme_url": "https://github.com/JustVugg/colibri#readme",
   "install": [
    "apt install git python3 build-essential",
@@ -479,7 +479,7 @@
   "default_branch": "main"
  },
  "NVIDIA/OpenShell": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-10-14",
   "readme_url": "https://github.com/NVIDIA/OpenShell#readme",
   "install": [
    "curl -LsSf https://raw.githubusercontent.com/NVIDIA/OpenShell/main/install.sh | sh",
@@ -1273,19 +1273,19 @@
   "default_branch": "main"
  },
  "cathrynlavery/diagram-design": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-10-14",
   "readme_url": "https://github.com/cathrynlavery/diagram-design#readme",
   "install": [
+   "npx skills add cathrynlavery/diagram-design",
    "codex plugin marketplace add cathrynlavery/diagram-design",
    "codex plugin add diagram-design@diagram-design",
-   "npx skills add cathrynlavery/diagram-design",
    "git clone git@github.com:cathrynlavery/diagram-design.git ~/code/diagram-design"
   ],
   "usage_title": "First-run gate",
   "usage_text": "The skill won't silently ship default-skinned diagrams into a branded project. On first use in a new project, it checks if style-guide.md has been customized. If not, it pauses and asks:\n> \"This is your first diagram in this project. The style guide is still at the default. Want to run onboarding, paste tokens manually, or proceed with default?\"\nSee skills/diagram-design/references/onboarding.md for the full spec.",
   "usage_code": "",
   "license": "MIT",
-  "homepage": "https://cathrynlavery.github.io/diagram-design/",
+  "homepage": "https://diagramdesign.dev",
   "topics": [
    "agent-skills",
    "claude-code",
@@ -1814,6 +1814,27 @@
   "topics": [],
   "default_branch": "master"
  },
+ "google/artemis": {
+  "fetched": "2026-10-14",
+  "readme_url": "https://github.com/google/artemis#readme",
+  "install": [
+   "uv run artemis mcp --install antigravity",
+   "uv run artemis mcp --install all"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "Ensure an Android device (with USB Debugging enabled) or emulator is connected. The one-click startup script will automatically:\n• Install System Toolchains: Detect and auto-install ADB, scrcpy, FFmpeg, and Python (uv) dependencies.\n• Mount Global MCP Server & AI Agent Rules: Prompt to automatically install global MCP configurations and the Artemis Mobile Testing Mindset (rules.md) into your AI IDEs (Antigravity, Cursor, Claude Code, Codex, Windsurf, VS Code, Cline/Roo, OpenClaw).",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "ai-agents",
+   "android",
+   "google",
+   "test-automation",
+   "testing"
+  ],
+  "default_branch": "main"
+ },
  "google/ax": {
   "fetched": "2026-10-03",
   "readme_url": "https://github.com/google/ax#readme",
@@ -1876,7 +1897,7 @@
   "default_branch": "main"
  },
  "heygen-com/hyperframes": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-10-14",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
   "install": [
    "claude plugin marketplace add heygen-com/hyperframes",
@@ -2363,7 +2384,7 @@
   "default_branch": "main"
  },
  "mksglu/context-mode": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-10-14",
   "readme_url": "https://github.com/mksglu/context-mode#readme",
   "install": [
    "claude mcp add context-mode -- npx -y context-mode",
@@ -2432,26 +2453,26 @@
   "default_branch": "main"
  },
  "morluto/rea": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-10-14",
   "readme_url": "https://github.com/morluto/rea#readme",
   "install": [
    "npx rea-agents setup",
-   "curl -fsSL https://raw.githubusercontent.com/morluto/rea/main/install.sh | bash",
+   "npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --json",
    "npm install --global rea-agents",
-   "npx -y rea-agents@latest doctor"
+   "npx rea-agents@latest setup"
   ],
-  "usage_title": "Run setup (recommended)",
-  "usage_text": "Set up REA with your agent:\nChoose which supported agents should use REA, then review the exact paths and changes before approving. Existing REA registrations are selected by default; newly detected agents are available to select, but detection alone does not select them. Setup adds MCP access and REA's guided workflow for selected agents. Hopper is a separate optional choice with its own consent. Setup can also record an existing Ghidra installation.\nSetup shows its changes before applying them and backs up existing configuration. See Installation and setup for requirements and setup options.",
-  "usage_code": "npx rea-agents setup",
+  "usage_title": "One MCP for reverse engineering across binaries, application",
+  "usage_text": "See a feature you like. Understand how it works, down to the binary level.\nWebsite · Guides · Showcases\nQuick start · How REA works · What you can analyze · Showcases · FAQ · Documentation\n npx rea-agents setup \n> [!IMPORTANT]\n> Get REA from morluto/rea,\n> rea.tools, or the rea-agents npm package.\n> Follow the installation and release links from these official sources. A similar\n> repository name or copied README does not establish that a download is official.\n Join the Reverse Engineering Community \n Discord · Q&A · Show and Tell \n---…",
+  "usage_code": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://rea.tools",
   "topics": [
    "agent-skills",
-   "ai-agent-tools",
    "ai-agents",
    "binary-analysis",
+   "claude-code",
    "cli",
-   "coding-agents",
+   "codex",
    "cordis",
    "ctf"
   ],
@@ -3249,6 +3270,22 @@
   "topics": [],
   "default_branch": "main"
  },
+ "vercel-labs/skills": {
+  "fetched": "2026-10-14",
+  "readme_url": "https://github.com/vercel-labs/skills#readme",
+  "install": [
+   "npx skills add vercel-labs/agent-skills",
+   "npx skills use vercel-labs/agent-skills@web-design-guidelines | claude",
+   "npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-code"
+  ],
+  "usage_title": "Examples",
+  "usage_text": "Direct download URLs are tried after well-known discovery. They may point to a single valid SKILL.md file or a .zip, .tar, .tar.gz, or .tgz archive; the URL does not need to include a file extension. Downloads are limited to 10 MiB, extracted content to 25 MiB, and archives to 1000 files by default. Override with SKILLSDOWNLOADMAXBYTES, SKILLSEXTRACTMAXBYTES, and SKILLSEXTRACTMAX_FILES when you trust the source.",
+  "usage_code": "# List skills in a repository\nnpx skills add vercel-labs/agent-skills --list\n\n# Install specific skills\nnpx skills add vercel-labs/agent-skills --skill frontend-design --skill skill-creator\n\n# Install a skill with spaces in the name (must be quoted)\nnpx skills add owner/repo --skill \"Convex Best Practices\"\n\n# Install to specific agents\nnpx skills add vercel-labs/agent-skills -a claude-code -a opencode\n\n# Non-interactive installation (CI/CD friendly)\nnpx skills add vercel-labs/agent-skills --skill frontend-design -g -a claude-code -y\n\n# Install all skills from a repo to all agents\nnpx skills add vercel-labs/agent-skills --all\n\n…",
+  "license": "MIT",
+  "homepage": "https://skills.sh",
+  "topics": [],
+  "default_branch": "main"
+ },
  "vercel/next.js": {
   "fetched": "2026-10-04",
   "readme_url": "https://github.com/vercel/next.js#readme",
@@ -3282,6 +3319,25 @@
   "license": "GPL-3.0",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "xtool-org/xtool": {
+  "fetched": "2026-10-14",
+  "readme_url": "https://github.com/xtool-org/xtool#readme",
+  "install": [],
+  "usage_title": "Getting Started",
+  "usage_text": "1. Follow the guide to install xtool\n• Installation (Linux/Windows)\n• Installation (macOS)\n2. Create and run your first xtool-powered app by following the tutorial!",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://xtool.sh",
+  "topics": [
+   "ios",
+   "linux",
+   "swift",
+   "swift-package-manager",
+   "windows",
+   "xcode"
+  ],
   "default_branch": "main"
  },
  "zhaoxuya520/reverse-skill": {
