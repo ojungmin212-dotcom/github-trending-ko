@@ -134,7 +134,7 @@
   "default_branch": "main"
  },
  "EpicGames/raddebugger": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-15",
   "readme_url": "https://github.com/EpicGames/raddebugger#readme",
   "install": [
    "apt update && sudo apt install build-essential",
@@ -206,12 +206,12 @@
   "default_branch": "main"
  },
  "Gaurav-Gosain/tuios": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-15",
   "readme_url": "https://github.com/Gaurav-Gosain/tuios#readme",
   "install": [
    "brew install tuios",
    "brew install gaurav-gosain/tap/tuios-ghostty",
-   "nix run github:Gaurav-Gosain/tuios/v0.8.5#tuios  # a release",
+   "nix run github:Gaurav-Gosain/tuios/v0.9.3#tuios  # a release",
    "nix run github:Gaurav-Gosain/tuios#tuios  # the latest main",
    "nix run nixpkgs#tuios  # the nixpkgs package",
    "curl -fsSL https://raw.githubusercontent.com/Gaurav-Gosain/tuios/main/install.sh | bash"
@@ -234,7 +234,7 @@
   "default_branch": "main"
  },
  "HKUDS/CLI-Anything": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-15",
   "readme_url": "https://github.com/HKUDS/CLI-Anything#readme",
   "install": [
    "pip install cli-anything-hub",
@@ -355,7 +355,7 @@
   "default_branch": "main"
  },
  "K-Dense-AI/scientific-agent-skills": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-15",
   "readme_url": "https://github.com/K-Dense-AI/scientific-agent-skills#readme",
   "install": [
    "curl -LsSf https://astral.sh/uv/install.sh | sh",
@@ -1998,6 +1998,34 @@
   "topics": [],
   "default_branch": "main"
  },
+ "ifixai-ai/iFixAi": {
+  "fetched": "2026-10-15",
+  "readme_url": "https://github.com/ifixai-ai/iFixAi#readme",
+  "install": [
+   "pip install \"ifixai[openai]\"  # or anthropic, gemini, etc.: install the provider extra you'll test",
+   "codex plugin marketplace add ifixai-ai/iFixAi",
+   "codex plugin add ifixai@ifixai-community",
+   "uvx ifixai install --agents cursor  # any slug: claude, codex, vscode, windsurf, cline, continue, gemini, zed",
+   "uvx ifixai install --agents all  # scaffold every agent at once",
+   "uvx ifixai install --list  # every supported agent and where its file lands"
+  ],
+  "usage_title": "Three ways to run",
+  "usage_text": "All three run the same diagnostic underneath. The difference is how you configure and drive it.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://www.ifixai.ai",
+  "topics": [
+   "agent-evaluation",
+   "ai",
+   "ai-alignment",
+   "ai-evaluation",
+   "ai-governance",
+   "ai-safety",
+   "cli",
+   "diagnostic-tool"
+  ],
+  "default_branch": "main"
+ },
  "jamwithai/production-agentic-rag-course": {
   "fetched": "2026-10-04",
   "readme_url": "https://github.com/jamwithai/production-agentic-rag-course#readme",
@@ -2555,6 +2583,45 @@
   ],
   "default_branch": "main"
  },
+ "ntdevlabs/tiny11builder": {
+  "fetched": "2026-10-15",
+  "readme_url": "https://github.com/ntdevlabs/tiny11builder#readme",
+  "install": [],
+  "usage_title": "Tiny11 Builder",
+  "usage_text": "Build a smaller Windows 11 ISO with a native WinUI app. Download an official\nWindows image or use your own, choose what to remove, and create your ISO.",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "winui-preview"
+ },
+ "nvm-sh/nvm": {
+  "fetched": "2026-10-15",
+  "readme_url": "https://github.com/nvm-sh/nvm#readme",
+  "install": [
+   "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash",
+   "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash",
+   "docker build -t nvmimage --build-arg NODE_VERSION=19 .",
+   "docker run --rm -it nvmimage",
+   "git clone https://github.com/nvm-sh/nvm.git \"$NVM_DIR\""
+  ],
+  "usage_title": "Usage",
+  "usage_text": "To download, compile, and install the latest release of node, do this:\nTo install a specific version of node:\nTo set an alias:\nMake sure that your alias does not contain any spaces or slashes.\nThe first version installed becomes the default. New shells will start with the default version of node (e.g., nvm alias default).\nYou can list available versions using ls-remote:\nWhen no version or --lts filter is given, the list also marks the version the node alias would install, and every version that one of your own aliases would resolve to. Each kind of annotation always starts in the same column, so the output can be sliced with cut -c or similar tools…",
+  "usage_code": "nvm install node # \"node\" is an alias for the latest version",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "bash",
+   "install",
+   "lts",
+   "node",
+   "node-js",
+   "nodejs",
+   "nvm",
+   "nvmrc"
+  ],
+  "default_branch": "master"
+ },
  "oblien/openship": {
   "fetched": "2026-09-30",
   "readme_url": "https://github.com/oblien/openship#readme",
@@ -2868,6 +2935,22 @@
    "course",
    "deep-learning",
    "from-scratch"
+  ],
+  "default_branch": "main"
+ },
+ "rust-lang/rust": {
+  "fetched": "2026-10-15",
+  "readme_url": "https://github.com/rust-lang/rust#readme",
+  "install": [],
+  "usage_title": "Quick Start",
+  "usage_text": "Read [\"Installation\"] from [The Book].\n[\"Installation\"]: https://doc.rust-lang.org/book/ch01-01-installation.html\n[The Book]: https://doc.rust-lang.org/book/index.html",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://www.rust-lang.org",
+  "topics": [
+   "compiler",
+   "language",
+   "rust"
   ],
   "default_branch": "main"
  },
@@ -3306,6 +3389,34 @@
    "react"
   ],
   "default_branch": "canary"
+ },
+ "vxcontrol/pentagi": {
+  "fetched": "2026-10-15",
+  "readme_url": "https://github.com/vxcontrol/pentagi#readme",
+  "install": [
+   "wget -O installer.zip https://pentagi.com/downloads/linux/amd64/installer-latest.zip",
+   "docker ps",
+   "curl -o .env https://raw.githubusercontent.com/vxcontrol/pentagi/master/.env.example",
+   "curl -o example.custom.provider.yml https://raw.githubusercontent.com/vxcontrol/pentagi/master/examples/configs/custom-openai.provider.yml",
+   "curl -o example.ollama.provider.yml https://raw.githubusercontent.com/vxcontrol/pentagi/master/examples/configs/ollama-llama318b.provider.yml",
+   "curl -o example.bedrock.provider.yml https://raw.githubusercontent.com/vxcontrol/pentagi/master/examples/configs/bedrock.provider.yml"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Secure & Isolated. All operations are performed in a sandboxed Docker environment with complete isolation.\n• Fully Autonomous. AI-powered agent that automatically determines and executes penetration testing steps with optional execution monitoring and intelligent task planning for enhanced reliability.\n• Professional Pentesting Tools. Built-in suite of 20+ professional security tools including nmap, metasploit, sqlmap, and more.\n• Smart Memory System. Long-term storage of research results and successful approaches for future use.\n• Optional Knowledge Graph Integration. Graphiti-powered knowledge graph using Neo4j for semantic relationship tracking and advanced context understanding…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://pentagi.com",
+  "topics": [
+   "ai-agents",
+   "ai-security-tool",
+   "anthropic",
+   "autonomous-agents",
+   "golang",
+   "gpt",
+   "graphql",
+   "multi-agent-system"
+  ],
+  "default_branch": "main"
  },
  "willfaust/Madeira": {
   "fetched": "2026-09-28",
