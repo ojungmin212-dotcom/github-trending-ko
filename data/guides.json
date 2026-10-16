@@ -310,21 +310,19 @@
   "default_branch": "main"
  },
  "JuliusBrussee/caveman": {
-  "fetched": "2026-10-03",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/JuliusBrussee/caveman#readme",
   "install": [
+   "npx @caveman-ai/cli@latest",
    "npx skills add JuliusBrussee/caveman -g",
-   "npm install -g @caveman-ai/cli && caveman setup --install",
-   "npm install @caveman-ai/middleware @caveman-ai/sdk  # TypeScript, plus your framework (ai, openai, …)",
-   "pip install 'caveman-middleware[langchain]' caveman-sdk  # Python 3.11+, swap the extra for your framework",
-   "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/v3.1.0/install.sh | bash",
-   "claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman"
+   "claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman",
+   "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/v4.0.1/install.sh | bash"
   ],
-  "usage_title": "why use many token when few do trick",
-  "usage_text": "Your AI coding agent bills by the word and writes like it knows that. Caveman make it stop.\n▶️ ThePrimeagen reacts: \"No way this actually works\"\n🏆 #1 on GitHub Trending · July 2026  ·  🥇 #1 Repository of the Day on Trendshift · April 2026\n#1 on Hacker News  ·  #8 Product of the Day \n📄 Cited in CAVEWOMAN, an Adobe Research paper that measured caveman-style output cutting cost 1.4 to 2.4×, up to 3×  ·  🧪 Tested by JetBrains on 86 real coding tasks: \"costs you nothing measurable in quality\"\n⚡ One command, no account, no API key. npx skills add JuliusBrussee/caveman -g → Quick Start\n---…",
+  "usage_title": "why many token when few do trick",
+  "usage_text": "Caveman make your AI agent say less and read less. Code stay exact. Brain still big.\n 33.2% fewer input tokens, whole sessions 54 Claude Code runs , 18 of 18 answers right \n 54% cheaper with Auto, same score 85 coding tasks vs Opus 5.5 at xhigh, interim \n 397 → 76 tokens for one test run Blocks vs | tail -20 \n 1.4 to 2.4× cheaper with caveman-style output Adobe Research , eight models \nCited by Adobe Research · A/B tested by JetBrains · Remade for Elasticsearch on Elasticsearch Labs \n#1 on Hacker News · #1 on GitHub Trending · \"No way this actually works.\" ThePrimeagen\nInstall · Six rocks · Proof · Say less · Read less · Auto · Blocks · Commands · Caveman Cloud\n---…",
   "usage_code": "",
   "license": "Apache-2.0",
-  "homepage": "https://docs.caveman.so/docs/quickstart",
+  "homepage": "https://docs.caveman.so/caveman",
   "topics": [
    "ai",
    "anthropic",
@@ -682,7 +680,7 @@
   "default_branch": "main"
  },
  "Tencent/WeKnora": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/Tencent/WeKnora#readme",
   "install": [
    "git clone https://github.com/Tencent/WeKnora.git",
@@ -710,7 +708,7 @@
   "default_branch": "main"
  },
  "TencentCloud/Octop": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/TencentCloud/Octop#readme",
   "install": [
    "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash",
@@ -719,7 +717,7 @@
    "pip install octop"
   ],
   "usage_title": "3. Run",
-  "usage_text": "Open http://127.0.0.1:8088. With Docker, the first init generates a random admin password (written to /data/.octop/credential.txt) unless OCTOPDEFAULTPASSWORD is set. Interactive octop init / the setup wizard asks you to choose a password (≥8 characters, letters and digits).",
+  "usage_text": "Open http://127.0.0.1:8088. With Docker, a valid OCTOPDEFAULTPASSWORD creates the admin on first boot (credentials in /data/.octop/credential.txt); if it is unset or rejected, open the setup wizard (unlock password in /data/.octop/octop-login.txt). Interactive octop init / the setup wizard asks you to choose a password (≥8 characters, letters and digits).",
   "usage_code": "# Foreground (API + Web dashboard)\noctop run\n\n# Custom host / port\noctop run --host 0.0.0.0 --port 8088\n\n# Register as a system service (systemd / launchd / Windows service)\noctop service start",
   "license": "MIT",
   "homepage": "https://octop.cloud",
@@ -808,7 +806,7 @@
   "default_branch": "main"
  },
  "affaan-m/ECC": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/affaan-m/ECC#readme",
   "install": [
    "npx ecc-universal@2.2.3 setup",
@@ -836,7 +834,7 @@
   "default_branch": "main"
  },
  "agent-substrate/substrate": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/agent-substrate/substrate#readme",
   "install": [
    "go install ./cmd/kubectl-ate",
@@ -846,8 +844,8 @@
    "go run ./tools/setup-gcp create cluster",
    "go run ./tools/setup-gcp create bucket"
   ],
-  "usage_title": "Demo",
-  "usage_text": "Watch the Agent Substrate cluster multiplex ~250 stateful actors across just 8 physical pods.\nThis demo highlights the core developer experience and \"Agentic Infrastructure\" capabilities of Substrate:\n1. Actor Teleport: High-performance suspend and resume of actors onto any available worker in the pool with sub-second activation.\n2. State Persistence: Persistent working memory (volatile RAM) and filesystem state preserved perfectly across hibernation cycles via full-state snapshots.\n3. Agent Multiplexing: Demonstrates 30x+ oversubscription by \"juggling\" a large registry of stateful actors onto a small pool of shared physical pods…",
+  "usage_title": "Ecosystem & Examples",
+  "usage_text": "• Agent Executor: A distributed agent runtime that demonstrates building a secure, hyper-scalable agent harness on Agent Substrate (see the announcement blog and integration guide).\n• kagent: A CNCF Sandbox project and Kubernetes-native framework for building, deploying, and managing AI agents that uses Agent Substrate to run sandboxed, stateful agent workloads (see the announcement blog).",
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "",
@@ -899,7 +897,7 @@
   "default_branch": "main"
  },
  "alibaba/open-code-review": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/alibaba/open-code-review#readme",
   "install": [
    "npm install -g @alibaba-group/open-code-review"
@@ -973,7 +971,7 @@
   "default_branch": "feat/harness-backend"
  },
  "anthropics/claude-code": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/anthropics/claude-code#readme",
   "install": [
    "curl -fsSL https://claude.ai/install.sh | bash",
@@ -1002,7 +1000,7 @@
   "default_branch": "main"
  },
  "anthropics/claude-plugins-official": {
-  "fetched": "2026-09-26",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/anthropics/claude-plugins-official#readme",
   "install": [],
   "usage_title": "Claude Code Plugins Directory",
@@ -1018,7 +1016,7 @@
   "default_branch": "main"
  },
  "anthropics/financial-services": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/anthropics/financial-services#readme",
   "install": [
    "claude plugin install claude-for-msft-365-install@claude-for-financial-services",
@@ -1458,7 +1456,7 @@
   "default_branch": "master"
  },
  "cursor/plugins": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/cursor/plugins#readme",
   "install": [],
   "usage_title": "Cursor plugins",
@@ -1509,7 +1507,7 @@
   "default_branch": "main"
  },
  "debpalash/VoiceStudio": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
   "install": [
    "curl -fsSL https://voicestudio.sh/install | sh",
@@ -2129,6 +2127,27 @@
   ],
   "default_branch": "master"
  },
+ "lightseekorg/tokenspeed": {
+  "fetched": "2026-10-16",
+  "readme_url": "https://github.com/lightseekorg/tokenspeed#readme",
+  "install": [],
+  "usage_title": "Differentiation",
+  "usage_text": "TokenSpeed takes a fundamentally different architectural approach from existing LLM inference engines. The PyTorch Foundation highlighted these architectural differentiators when welcoming TokenSpeed to the PyTorch Ecosystem Landscape:\n> TokenSpeed is an open source LLM inference engine and the first to separate the control plane from the execution plane. The control plane is implemented in C++ as a finite-state machine, using the type system to enforce safe resource management, including request lifecycles and KV cache state, at compile time rather than runtime…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://lightseek.org/blog/lightseek-tokenspeed.html",
+  "topics": [
+   "b200",
+   "b300",
+   "blackwell",
+   "deepseek",
+   "gb200",
+   "gb300",
+   "glm",
+   "gpt-oss"
+  ],
+  "default_branch": "main"
+ },
  "liquidslr/system-design-notes": {
   "fetched": "2026-10-09",
   "readme_url": "https://github.com/liquidslr/system-design-notes#readme",
@@ -2646,7 +2665,7 @@
   "default_branch": "main"
  },
  "obra/superpowers": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/obra/superpowers#readme",
   "install": [
    "git clone https://github.com/obra/superpowers.git"
@@ -2954,6 +2973,32 @@
   ],
   "default_branch": "main"
  },
+ "ruvnet/ruflo": {
+  "fetched": "2026-10-16",
+  "readme_url": "https://github.com/ruvnet/ruflo#readme",
+  "install": [
+   "npx ruflo@latest init wizard",
+   "npx -y ruflo@latest mcp start",
+   "curl -fsSL https://cdn.jsdelivr.net/gh/ruvnet/ruflo@main/scripts/install.sh | bash",
+   "npm install -g ruflo@latest"
+  ],
+  "usage_title": "Get started with Ruflo",
+  "usage_text": "Start in Claude Code with core tools, the visual console and runtime mods. Requires Claude Code 2.1.287 or later. Run inside Claude Code:\nCore provides foundation tools. Console opens the agent cockpit. Mods add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review their code before installing.\n Using Codex or another MCP enabled tool? Use NPX for Ruflo project setup and connect your client to the Ruflo MCP server. Run the setup wizard in your project terminal:\nFor clients that support local stdio MCP servers, configure command npx and arguments [\"-y\", \"ruflo@latest\", \"mcp\", \"start\"]. The equivalent server command is…",
+  "usage_code": "/plugin marketplace add ruvnet/ruflo\n/plugin install ruflo-core@ruflo\n/plugin install ruflo-console@ruflo\n/plugin install ruflo-mods@ruflo\n/reload-plugins\n/ruflo",
+  "license": "MIT",
+  "homepage": "https://Cognitum.One",
+  "topics": [
+   "agentic-ai",
+   "agentic-framework",
+   "agentic-workflow",
+   "agents",
+   "ai-agents",
+   "ai-assistant",
+   "ai-skills",
+   "autonomous-agents"
+  ],
+  "default_branch": "main"
+ },
  "shy3130/tick-stock-panel": {
   "fetched": "2026-09-26",
   "readme_url": "https://github.com/shy3130/tick-stock-panel#readme",
@@ -3122,7 +3167,7 @@
   "default_branch": "main"
  },
  "tashfeenahmed/freellmapi": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/tashfeenahmed/freellmapi#readme",
   "install": [
    "curl -fsSL https://freellmapi.co/install.sh | bash",
@@ -3299,7 +3344,7 @@
   "default_branch": "main"
  },
  "twostraws/SwiftUI-Agent-Skill": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/twostraws/SwiftUI-Agent-Skill#readme",
   "install": [
    "npx skills add https://github.com/twostraws/swiftui-agent-skill --skill swiftui-pro",
@@ -3314,7 +3359,7 @@
   "default_branch": "main"
  },
  "vectorize-io/hindsight": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-16",
   "readme_url": "https://github.com/vectorize-io/hindsight#readme",
   "install": [
    "npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs",
@@ -3430,6 +3475,34 @@
   "license": "GPL-3.0",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "xerj-org/xerj": {
+  "fetched": "2026-10-16",
+  "readme_url": "https://github.com/xerj-org/xerj#readme",
+  "install": [
+   "curl -fsSL https://xerj.org/get | sh",
+   "curl localhost:9200/_cat/indices",
+   "curl \"localhost:9200/ax-*/_search?q=checkout+error\"",
+   "curl localhost:9200/ax-orders/_search -H 'content-type: application/json' -d '{",
+   "git clone https://github.com/xerj-org/xerj",
+   "cargo run --release -p es-yaml-runner -- --dir tests/es-compat-yaml/yaml"
+  ],
+  "usage_title": "XERJ",
+  "usage_text": "English | 简体中文\nXERJ is a community-trusted local AI search that indexes any folder automatically, so your\ncoding agent stops burning tokens reading files one by one and pulls the exact code it\nneeds instead. Reference coding is its main use case and the clearest win: point an agent\nat a task and it downloads the open-source repos closest to it, indexes them, and reuses\nhow they solved the problem before writing its own code. In a controlled study that cut a\ncoding agent's output tokens by 2.7x at the same 16/16 solve rate\n(case study), and people report\nroughly 5x in everyday work\n(field reports).\nIt is enough for a smaller, cheaper model to out-code a pricier one working from memory…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://xerj.org",
+  "topics": [
+   "ai-search",
+   "ai-search-algorithms",
+   "ai-search-engine",
+   "ai-search-free",
+   "ai-search-module",
+   "ai-search-optimization",
+   "ai-searchengine",
+   "bm25-search"
+  ],
   "default_branch": "main"
  },
  "xtool-org/xtool": {
