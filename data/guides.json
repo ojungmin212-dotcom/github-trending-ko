@@ -432,6 +432,29 @@
   ],
   "default_branch": "main"
  },
+ "MadsLorentzen/ai-job-search": {
+  "fetched": "2026-10-17",
+  "readme_url": "https://github.com/MadsLorentzen/ai-job-search#readme",
+  "install": [
+   "gh repo fork MadsLorentzen/ai-job-search --clone"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "> 🎥 Prefer to see it in action first? The Next New Thing did a hands-on walkthrough of how the workflow is actually used, from setup to a finished application (recorded August 2026 - commands may have evolved since).",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "ai",
+   "ai-agents",
+   "career",
+   "claude-code",
+   "cover-letter",
+   "cv",
+   "interview-preparation",
+   "job-application"
+  ],
+  "default_branch": "master"
+ },
  "MakazhanAlpamys/Soup": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/MakazhanAlpamys/Soup#readme",
@@ -733,7 +756,7 @@
   "default_branch": "main"
  },
  "VectifyAI/PageIndex": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-10-17",
   "readme_url": "https://github.com/VectifyAI/PageIndex#readme",
   "install": [
    "pip install -U pageindex"
@@ -942,6 +965,23 @@
   ],
   "default_branch": "main"
  },
+ "android/skills": {
+  "fetched": "2026-10-17",
+  "readme_url": "https://github.com/android/skills#readme",
+  "install": [
+   "codex plugin marketplace add android/skills",
+   "codex plugin add android-skills@android-skills"
+  ],
+  "usage_title": "Android skills",
+  "usage_text": "Android skills are a dedicated repository of AI-optimized, modular instructions and\nresources, to help agents better understand and execute specific patterns that follow the best\npractices and guidance on Android development\nfrom developer.android.com.\nAndroid skills follow the open-standard agent skills - markdown\nfiles (SKILL.md) that provide a technical specification of a task, and ground LLMs with\ninformation on specialized domains and workflows.\nOur Android skill development focuses on **use cases and workflows where evaluations show LLMs\nunderperform**.\nWe aren't prioritizing well-established areas where LLMs are already proficient, such\nas basic Jetpack Compose best practices…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "skills"
+  ],
+  "default_branch": "main"
+ },
  "androoAGI/starnet": {
   "fetched": "2026-09-26",
   "readme_url": "https://github.com/androoAGI/starnet#readme",
@@ -1035,7 +1075,7 @@
   "default_branch": "main"
  },
  "anthropics/knowledge-work-plugins": {
-  "fetched": "2026-10-10",
+  "fetched": "2026-10-17",
   "readme_url": "https://github.com/anthropics/knowledge-work-plugins#readme",
   "install": [
    "claude plugin marketplace add anthropics/knowledge-work-plugins",
@@ -1385,7 +1425,7 @@
   "default_branch": "master"
  },
  "cloudflare/security-audit-skill": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-17",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
   "install": [
    "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
@@ -1922,6 +1962,27 @@
   ],
   "default_branch": "main"
  },
+ "hmjz100/LinkSwift": {
+  "fetched": "2026-10-17",
+  "readme_url": "https://github.com/hmjz100/LinkSwift#readme",
+  "install": [],
+  "usage_title": "介绍",
+  "usage_text": "支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 光鸭云盘 / 夸克网盘 / UC网盘 / 123云盘 九大网盘 \n相比较原脚本，增加了更多功能~",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://github.com/hmjz100/LinkSwift/raw/main/%EF%BC%88%E6%94%B9%EF%BC%89%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B.user.js",
+  "topics": [
+   "123pan",
+   "aliyun-drive",
+   "aliyunpan",
+   "aria2",
+   "baidu",
+   "baidu-netdisk",
+   "baidunetdisk",
+   "baidupan"
+  ],
+  "default_branch": "dev"
+ },
  "huggingface/transformers": {
   "fetched": "2026-10-11",
   "readme_url": "https://github.com/huggingface/transformers#readme",
@@ -2255,7 +2316,7 @@
   "default_branch": "main"
  },
  "mattpocock/skills": {
-  "fetched": "2026-10-10",
+  "fetched": "2026-10-17",
   "readme_url": "https://github.com/mattpocock/skills#readme",
   "install": [
    "claude plugin install mattpocock-skills@claude-plugins-official",
@@ -2804,7 +2865,7 @@
   "default_branch": "main"
  },
  "paperclipai/paperclip": {
-  "fetched": "2026-10-10",
+  "fetched": "2026-10-17",
   "readme_url": "https://github.com/paperclipai/paperclip#readme",
   "install": [
    "npx paperclipai@latest onboard --yes",
@@ -2819,7 +2880,16 @@
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://paperclip.ing",
-  "topics": [],
+  "topics": [
+   "acpx",
+   "agent-orchestration",
+   "agent-skills",
+   "agentic-ai",
+   "ai-agents",
+   "ai-engineering",
+   "ai-governance",
+   "ai-tools"
+  ],
   "default_branch": "master"
  },
  "pbakaus/impeccable": {
@@ -3065,13 +3135,13 @@
   "default_branch": "main"
  },
  "storytold/artcraft": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-17",
   "readme_url": "https://github.com/storytold/artcraft#readme",
   "install": [],
   "usage_title": "Show, Don't Tell: Advanced Crafting Features",
   "usage_text": "Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size.\nMore previews are coming for scene blocking, canvas editing, and scene relighting.",
   "usage_code": "",
-  "license": "",
+  "license": "Apache-2.0",
   "homepage": "https://getartcraft.com",
   "topics": [
    "3d-graphics",
