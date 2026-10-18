@@ -803,7 +803,7 @@
   "default_branch": "main"
  },
  "addyosmani/agent-skills": {
-  "fetched": "2026-10-11",
+  "fetched": "2026-10-18",
   "readme_url": "https://github.com/addyosmani/agent-skills#readme",
   "install": [
    "npx skills add addyosmani/agent-skills  # install all 25 skills",
@@ -904,15 +904,18 @@
   "default_branch": "main"
  },
  "akitaonrails/ai-memory": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-18",
   "readme_url": "https://github.com/akitaonrails/ai-memory#readme",
   "install": [
+   "curl -fsSL https://github.com/akitaonrails/ai-memory/releases/latest/download/install.sh | sh",
+   "claude plugin marketplace add akitaonrails/ai-memory && claude plugin install ai-memory@ai-memory",
+   "codex plugin marketplace add akitaonrails/ai-memory && codex plugin add ai-memory@ai-memory",
+   "dnf install ./ai-memory-*.rpm",
    "git clone https://github.com/akitaonrails/ai-memory",
-   "curl -fsSL \"$wrapper_base\" -o \"$wrapper_tmp/ai-memory-wrapper\"",
-   "curl -fsSL \"$wrapper_base.sha256\" -o \"$wrapper_tmp/ai-memory-wrapper.sha256\""
+   "curl -fsSL \"$wrapper_base\" -o \"$wrapper_tmp/ai-memory-wrapper\""
   ],
   "usage_title": "How it works",
-  "usage_text": "Agents emit sanitized observations through lifecycle hooks as you work.\nAt session end, observations become coherent markdown pages in the\nproject's wiki (optionally LLM-written; useful even without). The next\nsession — any agent, any machine — gets a bounded brief and can search\neverything: full-text, entities, links, and (optionally) vectors, fused\ninto one ranking. Cross-agent handoffs carry the baton explicitly.\nThe full design, including the invariants that keep multi-user and\nmulti-session use safe, is in docs/ARCHITECTURE.md.",
+  "usage_text": "Agents emit sanitized observations through lifecycle hooks as you work.\nAt session end, observations become coherent markdown pages in the\nproject's wiki (optionally LLM-written; useful even without). The next\nsession, in any agent on any machine, gets a bounded brief and can search\neverything: full-text, entities, links, and (optionally) vectors, fused\ninto one ranking. Cross-agent handoffs pass the baton explicitly.\nThe full design, including the invariants that keep multi-user and\nmulti-session use safe, is in docs/ARCHITECTURE.md.\nAn optional server-rendered management console provides\nuser administration, session inspection and deletion, and personal MCP API keys…",
   "usage_code": "capture ──▶ consolidate ──▶ recall ──▶ handoff\n hooks        session-end      search     next agent,\n observe      summaries as     + brief    any harness\n silently     wiki pages       injection",
   "license": "MIT",
   "homepage": "",
@@ -1009,6 +1012,25 @@
    "local-first"
   ],
   "default_branch": "feat/harness-backend"
+ },
+ "anomalyco/opencode": {
+  "fetched": "2026-10-18",
+  "readme_url": "https://github.com/anomalyco/opencode#readme",
+  "install": [
+   "curl -fsSL https://opencode.ai/install | bash",
+   "npm i -g @opencode/cli@latest  # or bun/pnpm/yarn",
+   "scoop install opencode  # Windows",
+   "choco install opencode  # Windows",
+   "brew install anomalyco/tap/opencode # macOS and Linux (recommended, always up to date)",
+   "brew install opencode  # macOS and Linux (official brew formula, updated less)"
+  ],
+  "usage_title": "Desktop App (BETA)",
+  "usage_text": "OpenCode is also available as a desktop application. Download directly from the releases page or opencode.ai/download.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://opencode.ai",
+  "topics": [],
+  "default_branch": "dev"
  },
  "anthropics/claude-code": {
   "fetched": "2026-10-16",
@@ -1223,14 +1245,14 @@
   "default_branch": "main"
  },
  "boykopovar/AnyPS5": {
-  "fetched": "2026-10-11",
+  "fetched": "2026-10-18",
   "readme_url": "https://github.com/boykopovar/AnyPS5#readme",
   "install": [],
   "usage_title": "About",
-  "usage_text": "Tool for automatic executables porting to Linux and Windows.\nIncludes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process.\nUsage, Build instructions, Architecture, Technical debt of the project, code style conventions, contributing",
+  "usage_text": "Tool for automatic executables porting to Linux and Windows.\nWeb converter - files stay on your device.\nIncludes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process.\nDiscord, Usage, Build instructions, Architecture, Technical debt of the project, code style conventions, contributing",
   "usage_code": "",
   "license": "GPL-2.0",
-  "homepage": "https://discord.gg/BHFztBPUe",
+  "homepage": "https://boykopovar.github.io/AnyPS5/",
   "topics": [
    "anyps5",
    "dynamic-library",
@@ -2234,7 +2256,7 @@
   "default_branch": "main"
  },
  "longbridge/gpui-kit": {
-  "fetched": "2026-10-11",
+  "fetched": "2026-10-18",
   "readme_url": "https://github.com/longbridge/gpui-kit#readme",
   "install": [
    "npx skills add longbridge/gpui-kit",
@@ -2985,7 +3007,7 @@
   "default_branch": "master"
  },
  "ranxianglei/billion-context": {
-  "fetched": "2026-10-11",
+  "fetched": "2026-10-18",
   "readme_url": "https://github.com/ranxianglei/billion-context#readme",
   "install": [
    "npm install -g billion-context --prefix=~/.local",
@@ -3112,25 +3134,25 @@
   "default_branch": "main"
  },
  "stablyai/orca": {
-  "fetched": "2026-09-25",
+  "fetched": "2026-10-18",
   "readme_url": "https://github.com/stablyai/orca#readme",
   "install": [
    "brew install --cask stablyai/orca/orca"
   ],
   "usage_title": "Mobile Companion",
-  "usage_text": "Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere.\niOS App Store · TestFlight · Android APK 0.0.50 · Docs →",
+  "usage_text": "Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere.\niOS App Store · Android APK · Docs →",
   "usage_code": "",
   "license": "MIT",
-  "homepage": "https://onOrca.dev",
+  "homepage": "https://orca.dev",
   "topics": [
    "ade",
    "agent-ide",
    "ai-agents",
+   "automation",
+   "bot",
    "claude-code",
-   "cli",
    "codex",
-   "cursor-agent",
-   "devtools"
+   "ghostty"
   ],
   "default_branch": "main"
  },
