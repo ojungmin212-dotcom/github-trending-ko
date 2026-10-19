@@ -40,6 +40,27 @@
   ],
   "default_branch": "main"
  },
+ "Comfy-Org/ComfyUI": {
+  "fetched": "2026-10-19",
+  "readme_url": "https://github.com/Comfy-Org/ComfyUI#readme",
+  "install": [
+   "pip install comfy-cli"
+  ],
+  "usage_title": "Examples",
+  "usage_text": "See what ComfyUI can do with the newer template workflows or old example workflows.",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "https://www.comfy.org/",
+  "topics": [
+   "ai",
+   "comfy",
+   "comfyui",
+   "python",
+   "pytorch",
+   "stable-diffusion"
+  ],
+  "default_branch": "master"
+ },
  "ComposioHQ/awesome-claude-skills": {
   "fetched": "2026-10-01",
   "readme_url": "https://github.com/ComposioHQ/awesome-claude-skills#readme",
@@ -376,6 +397,18 @@
   ],
   "default_branch": "main"
  },
+ "Kruk2/jasna": {
+  "fetched": "2026-10-19",
+  "readme_url": "https://github.com/Kruk2/jasna#readme",
+  "install": [],
+  "usage_title": "Quick start",
+  "usage_text": "1. Download the release for your system and GPU.\n2. Unpack it into a folder with no Chinese, Japanese, accented or other\n non-English characters in the path.\n3. Start the app:\n• Windows: double-click jasna.exe.\n• Linux NVIDIA: run the jasna file.\n• Linux AMD: run runjasnaamd.sh.\n4. Add a video, choose settings and click the ▶ button at the bottom.\nYour first job is slow. On NVIDIA, Jasna first prepares the models for\nyour exact GPU. This takes about 15–60 minutes, only once. Close other\napps and don't use the PC during this time. When you update Jasna, copy the\nmodel_weights folder to the new version, so you don't wait again…",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "Lakr233/vphone-cli": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/Lakr233/vphone-cli#readme",
@@ -542,7 +575,7 @@
   "default_branch": "main"
  },
  "NationalSecurityAgency/ghidra": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-19",
   "readme_url": "https://github.com/NationalSecurityAgency/ghidra#readme",
   "install": [],
   "usage_title": "Ghidra Software Reverse Engineering Framework",
@@ -2541,6 +2574,24 @@
   ],
   "default_branch": "main"
  },
+ "mlabonne/llm-course": {
+  "fetched": "2026-10-19",
+  "readme_url": "https://github.com/mlabonne/llm-course#readme",
+  "install": [],
+  "usage_title": "1. Running LLMs",
+  "usage_text": "Running LLMs can be difficult due to high hardware requirements. Depending on your use case, you might want to simply consume a model through an API (like GPT-4) or run it locally. In any case, additional prompting and guidance techniques can improve and constrain the output for your applications.\n• LLM APIs: APIs are a convenient way to deploy LLMs. This space is divided between private LLMs (OpenAI, Google, Anthropic, etc.) and open-source LLMs (OpenRouter, Hugging Face, Together AI, etc.)…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://mlabonne.github.io/blog/",
+  "topics": [
+   "course",
+   "large-language-models",
+   "llm",
+   "machine-learning",
+   "roadmap"
+  ],
+  "default_branch": "main"
+ },
  "mobile-next/mobile-mcp": {
   "fetched": "2026-09-27",
   "readme_url": "https://github.com/mobile-next/mobile-mcp#readme",
@@ -2930,7 +2981,7 @@
   "default_branch": "main"
  },
  "pingdotgg/t3code": {
-  "fetched": "2026-10-11",
+  "fetched": "2026-10-19",
   "readme_url": "https://github.com/pingdotgg/t3code#readme",
   "install": [
    "curl -fsSL https://t3.codes/install.sh | sh",
