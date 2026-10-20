@@ -811,6 +811,29 @@
   ],
   "default_branch": "main"
  },
+ "YuJunZhiXue/dsh-purge": {
+  "fetched": "2026-10-20",
+  "readme_url": "https://github.com/YuJunZhiXue/dsh-purge#readme",
+  "install": [
+   "git clone https://github.com/YuJunZhiXue/dsh-purge.git \"$DSH_HOME/plugins/dsh-purge\"",
+   "pnpm install"
+  ],
+  "usage_title": "目录",
+  "usage_text": "• 赞助\n• 广告位\n• 介绍\n• 署名要求\n• 许可证\n• 违规商用公示\n• 适配范围\n• 安装\n• 界面\n• 使用\n• 自己的服务器\n• 工作原理\n• 还原\n• 更新\n---",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [
+   "deepseek",
+   "deepseek-harness",
+   "dsh-plugin",
+   "dsh-plugins",
+   "harness-jailbreak",
+   "jailbreak",
+   "llm-jailbreak"
+  ],
+  "default_branch": "master"
+ },
  "abue-ammar/tinycast": {
   "fetched": "2026-09-26",
   "readme_url": "https://github.com/abue-ammar/tinycast#readme",
@@ -1707,7 +1730,7 @@
   "default_branch": "main"
  },
  "earthtojake/text-to-cad": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-20",
   "readme_url": "https://github.com/earthtojake/text-to-cad#readme",
   "install": [
    "claude plugin marketplace add earthtojake/text-to-cad#latest",
@@ -1986,6 +2009,34 @@
    "python",
    "short-video",
    "subtitles"
+  ],
+  "default_branch": "main"
+ },
+ "headroomlabs-ai/headroom": {
+  "fetched": "2026-10-20",
+  "readme_url": "https://github.com/headroomlabs-ai/headroom#readme",
+  "install": [
+   "uv tool install --python 3.13 \"headroom-ai[all]\"  # CLI in a self-contained env",
+   "pip install \"headroom-ai[all]\"  # Python — ships the `headroom` CLI",
+   "npm install headroom-ai  # TypeScript SDK only — no CLI",
+   "uv tool install --python 3.13 \"headroom-ai[all]\"  # CLI, isolated app env",
+   "pip install \"headroom-ai[all]\"  # Python, everything — includes the CLI",
+   "npm install headroom-ai  # TypeScript SDK (library only)"
+  ],
+  "usage_title": "How it works",
+  "usage_text": "• ContentRouter detects the content type and selects a compressor for it.\n• SmartCrusher / CodeCompressor / Kompress-v2-base handle JSON, source code and prose respectively.\n• CacheAligner flags volatile content that would bust a provider KV-cache prefix. It never rewrites prompts.\n• CCR stores originals locally so the model can call headroom_retrieve when it needs the full text.\n→ Architecture ·\nCCR ·\nKompress-v2-base model card",
+  "usage_code": " Your agent / app\n   (Claude Code, Cursor, Codex, LangChain, Agno, Strands, your own code…)\n        │   prompts · tool outputs · logs · RAG results · files\n        ▼\n    ┌────────────────────────────────────────────────────┐\n    │  Headroom   (runs locally — your data stays here)  │\n    │  ────────────────────────────────────────────────  │\n    │  CacheAligner  →  ContentRouter  →  CCR            │\n    │                    ├─ SmartCrusher   (JSON)        │\n    │                    ├─ CodeCompressor (AST)         │\n    │                    └─ Kompress-v2-base (text, HF)  │\n    │                                                    │\n    │  Cross-agent memory  ·  headroom learn  ·  MCP     │\n    └────────────────────────────────────────────────────┘\n        │   compressed prompt  +  retrieval tool\n        ▼\n LLM provider  (Anthropic · OpenAI · Bedrock · …)",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.headroomlabs.ai/docs",
+  "topics": [
+   "agent",
+   "ai",
+   "anthropic",
+   "claude-code",
+   "compression",
+   "context-engineering",
+   "context-window",
+   "cursor"
   ],
   "default_branch": "main"
  },
@@ -2966,7 +3017,7 @@
   "default_branch": "master"
  },
  "pbakaus/impeccable": {
-  "fetched": "2026-10-03",
+  "fetched": "2026-10-20",
   "readme_url": "https://github.com/pbakaus/impeccable#readme",
   "install": [
    "npx impeccable install",
@@ -3076,7 +3127,7 @@
   "default_branch": "master"
  },
  "rohitg00/ai-engineering-from-scratch": {
-  "fetched": "2026-10-13",
+  "fetched": "2026-10-20",
   "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch#readme",
   "install": [
    "npx skills add rohitg00/ai-engineering-from-scratch",
@@ -3096,7 +3147,7 @@
    "computer-vision",
    "course",
    "deep-learning",
-   "from-scratch"
+   "dsh"
   ],
   "default_branch": "main"
  },
@@ -3141,6 +3192,21 @@
    "autonomous-agents"
   ],
   "default_branch": "main"
+ },
+ "shiyu-coder/Kronos": {
+  "fetched": "2026-10-20",
+  "readme_url": "https://github.com/shiyu-coder/Kronos#readme",
+  "install": [
+   "pip install -r requirements.txt",
+   "pip install pyqlib"
+  ],
+  "usage_title": "✨ Live Demo",
+  "usage_text": "We have set up a live demo to visualize Kronos's forecasting results. The webpage showcases a forecast for the BTC/USDT trading pair over the next 24 hours. \r\n👉 Access the Live Demo Here",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "master"
  },
  "shy3130/tick-stock-panel": {
   "fetched": "2026-09-26",
@@ -3616,6 +3682,18 @@
   "usage_text": "Run Windows PC games on a non-jailbroken iPhone.\nMadeira combines Wine (ARM64EC),\nFEX-Emu for x86-64 → ARM64 translation, and\nDXMT for D3D11 → Metal, running as a single\nMach process on iOS with wineserver as a thread rather than a separate process.",
   "usage_code": "",
   "license": "GPL-3.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "withmarbleapp/os-taxonomy": {
+  "fetched": "2026-10-20",
+  "readme_url": "https://github.com/withmarbleapp/os-taxonomy#readme",
+  "install": [],
+  "usage_title": "Marble Skill Taxonomy",
+  "usage_text": "An open, structured taxonomy of what children learn across the primary/elementary years — decomposed into fine-grained \"micro-topics\", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by Marble.\n> Version: v1 · Topics: 1,591 · Prerequisite edges: 3,225 · Subjects: 8",
+  "usage_code": "",
+  "license": "ODbL-1.0",
   "homepage": "",
   "topics": [],
   "default_branch": "main"
