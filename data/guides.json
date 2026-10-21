@@ -83,7 +83,7 @@
   "default_branch": "master"
  },
  "DietrichGebert/ponytail": {
-  "fetched": "2026-10-10",
+  "fetched": "2026-10-21",
   "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
   "install": [
    "codex plugin marketplace add DietrichGebert/ponytail",
@@ -253,6 +253,34 @@
    "developer-tools"
   ],
   "default_branch": "main"
+ },
+ "Graphify-Labs/graphify": {
+  "fetched": "2026-10-21",
+  "readme_url": "https://github.com/Graphify-Labs/graphify#readme",
+  "install": [
+   "brew install python@3.12 uv",
+   "winget install astral-sh.uv",
+   "apt install python3.12 python3-pip pipx",
+   "curl -LsSf https://astral.sh/uv/install.sh | sh",
+   "uv tool install graphifyy  # recommended, isolated env (if 'graphify' isn't found after, run: uv tool update-shell)",
+   "pipx install graphifyy  # alternative"
+  ],
+  "usage_title": "See it in action",
+  "usage_text": "Once the graph is built you query it instead of reading files. Real output, graphify run on the FastAPI codebase shown above:\nEvery edge carries a confidence tag (EXTRACTED = explicit in the source, INFERRED = derived by resolution), so you can tell what was read directly from what was inferred. graphify query \" \" returns a scoped subgraph for a plain-language question, and graphify path A B traces how any two things connect.\n---",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://www.graphify.com",
+  "topics": [
+   "ai-agents",
+   "antigravity",
+   "ast",
+   "claude-code",
+   "code-analysis",
+   "code-search",
+   "codex",
+   "cursor"
+  ],
+  "default_branch": "v8"
  },
  "HKUDS/CLI-Anything": {
   "fetched": "2026-10-15",
@@ -533,7 +561,7 @@
   "default_branch": "main"
  },
  "NVIDIA/OpenShell": {
-  "fetched": "2026-10-14",
+  "fetched": "2026-10-21",
   "readme_url": "https://github.com/NVIDIA/OpenShell#readme",
   "install": [
    "curl -LsSf https://raw.githubusercontent.com/NVIDIA/OpenShell/main/install.sh | sh",
@@ -1389,12 +1417,13 @@
   "default_branch": "main"
  },
  "cathrynlavery/diagram-design": {
-  "fetched": "2026-10-14",
+  "fetched": "2026-10-21",
   "readme_url": "https://github.com/cathrynlavery/diagram-design#readme",
   "install": [
    "npx skills add cathrynlavery/diagram-design",
    "codex plugin marketplace add cathrynlavery/diagram-design",
    "codex plugin add diagram-design@diagram-design",
+   "git clone https://github.com/cathrynlavery/diagram-design.git",
    "git clone git@github.com:cathrynlavery/diagram-design.git ~/code/diagram-design"
   ],
   "usage_title": "First-run gate",
@@ -2041,7 +2070,7 @@
   "default_branch": "main"
  },
  "heygen-com/hyperframes": {
-  "fetched": "2026-10-14",
+  "fetched": "2026-10-21",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
   "install": [
    "claude plugin marketplace add heygen-com/hyperframes",
@@ -2058,13 +2087,13 @@
   "homepage": "https://hyperframes.dev",
   "topics": [
    "ai",
+   "ai-agents",
    "animation",
+   "claude-code",
    "ffmpeg",
    "framework",
    "gsap",
-   "html",
-   "mcp",
-   "puppeteer"
+   "html"
   ],
   "default_branch": "main"
  },
@@ -2598,7 +2627,7 @@
   "default_branch": "main"
  },
  "mksglu/context-mode": {
-  "fetched": "2026-10-14",
+  "fetched": "2026-10-21",
   "readme_url": "https://github.com/mksglu/context-mode#readme",
   "install": [
    "claude mcp add context-mode -- npx -y context-mode",
@@ -2685,7 +2714,7 @@
   "default_branch": "main"
  },
  "morluto/rea": {
-  "fetched": "2026-10-14",
+  "fetched": "2026-10-21",
   "readme_url": "https://github.com/morluto/rea#readme",
   "install": [
    "npx rea-agents setup",
@@ -2693,8 +2722,8 @@
    "npm install --global rea-agents",
    "npx rea-agents@latest setup"
   ],
-  "usage_title": "One MCP for reverse engineering across binaries, application",
-  "usage_text": "See a feature you like. Understand how it works, down to the binary level.\nWebsite · Guides · Showcases\nQuick start · How REA works · What you can analyze · Showcases · FAQ · Documentation\n npx rea-agents setup \n> [!IMPORTANT]\n> Get REA from morluto/rea,\n> rea.tools, or the rea-agents npm package.\n> Follow the installation and release links from these official sources. A similar\n> repository name or copied README does not establish that a download is official.\n Join the Reverse Engineering Community \n Discord · Q&A · Show and Tell \n---…",
+  "usage_title": "Quick start",
+  "usage_text": "On Linux, Ghidra, JADX, firmware tool launches and static JavaScript/Electron\nanalysis require a procps-compatible ps on REA's PATH for process ownership\nchecks. Recovery steps are in docs/installation.md under\n\"Linux owned-process prerequisite\".",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://rea.tools",
@@ -2706,12 +2735,12 @@
    "cli",
    "codex",
    "cordis",
-   "ctf"
+   "decompiler"
   ],
   "default_branch": "main"
  },
  "msitarzewski/agency-agents": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-21",
   "readme_url": "https://github.com/msitarzewski/agency-agents#readme",
   "install": [
    "brew install --cask msitarzewski/agency-agents/agency-agents"
@@ -3232,6 +3261,29 @@
   ],
   "default_branch": "main"
  },
+ "sickn33/agentic-awesome-skills": {
+  "fetched": "2026-10-21",
+  "readme_url": "https://github.com/sickn33/agentic-awesome-skills#readme",
+  "install": [
+   "npm exec --yes --ignore-scripts --package=agentic-awesome-skills@19.12.1 -- agentic-awesome-skills --release 19.12.1 --path .agents/skills --skills brainstorming,systematic-debugging --dry-run"
+  ],
+  "usage_title": "AAS Core — Agentic Awesome Skills",
+  "usage_text": "> Find reusable instructions for your project, inspect their complete files, and keep an exact skill set you can review and reuse.\nAgentic Awesome Skills is a library of 2,724+ installable SKILL.md playbooks. AAS Core helps Codex or Claude search the complete local catalog, record the skills the agent chooses, and preview a plan you can inspect before changing a target. Core does not rank or recommend skills.\nCurrent release: V19.12.1. AAS Core supports local catalog inspection, agent-owned selection, stack validation, and plan preview. Apply and recovery remain experimental. Read the AAS Core preview guide for setup and exact trust boundaries…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://aaskills.tech/",
+  "topics": [
+   "agent-skills",
+   "agentic-skills",
+   "ai-agent-skills",
+   "ai-agents",
+   "ai-coding",
+   "ai-workflows",
+   "antigravity",
+   "antigravity-skills"
+  ],
+  "default_branch": "main"
+ },
  "spotify/portal-ai-plugins": {
   "fetched": "2026-10-08",
   "readme_url": "https://github.com/spotify/portal-ai-plugins#readme",
@@ -3644,6 +3696,29 @@
   ],
   "default_branch": "canary"
  },
+ "vllm-project/vllm": {
+  "fetched": "2026-10-21",
+  "readme_url": "https://github.com/vllm-project/vllm#readme",
+  "install": [
+   "uv pip install vllm"
+  ],
+  "usage_title": "Getting Started",
+  "usage_text": "Install vLLM with uv (recommended) or pip:\nOr build from source for development.\nVisit our documentation to learn more.\n• Installation\n• Quickstart\n• List of Supported Models",
+  "usage_code": "uv pip install vllm\nvllm download-kernels  # precompiled kernels for faster startup",
+  "license": "Apache-2.0",
+  "homepage": "https://vllm.ai",
+  "topics": [
+   "amd",
+   "blackwell",
+   "cuda",
+   "deepseek",
+   "deepseek-v3",
+   "gpt",
+   "gpt-oss",
+   "inference"
+  ],
+  "default_branch": "main"
+ },
  "vxcontrol/pentagi": {
   "fetched": "2026-10-15",
   "readme_url": "https://github.com/vxcontrol/pentagi#readme",
@@ -3696,6 +3771,33 @@
   "license": "ODbL-1.0",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "wshobson/agents": {
+  "fetched": "2026-10-21",
+  "readme_url": "https://github.com/wshobson/agents#readme",
+  "install": [
+   "gh repo clone wshobson/agents ~/agents",
+   "make install-opencode",
+   "make install-antigravity",
+   "make install-copilot",
+   "make install-pi"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Choose a plugin for the work you do:\nSee the plugin catalog for all 94 plugins and the usage guide for commands and examples.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://sethhobson.com",
+  "topics": [
+   "agent-skills",
+   "agentic-ai",
+   "ai-agents",
+   "anthropic",
+   "antigravity",
+   "claude",
+   "claude-code",
+   "claude-code-marketplace"
+  ],
   "default_branch": "main"
  },
  "xerj-org/xerj": {
