@@ -283,7 +283,7 @@
   "default_branch": "v8"
  },
  "HKUDS/CLI-Anything": {
-  "fetched": "2026-10-15",
+  "fetched": "2026-10-22",
   "readme_url": "https://github.com/HKUDS/CLI-Anything#readme",
   "install": [
    "pip install cli-anything-hub",
@@ -402,7 +402,7 @@
   "default_branch": "main"
  },
  "K-Dense-AI/scientific-agent-skills": {
-  "fetched": "2026-10-15",
+  "fetched": "2026-10-22",
   "readme_url": "https://github.com/K-Dense-AI/scientific-agent-skills#readme",
   "install": [
    "curl -LsSf https://astral.sh/uv/install.sh | sh",
@@ -3371,6 +3371,51 @@
   ],
   "default_branch": "main"
  },
+ "strelov1/freehire": {
+  "fetched": "2026-10-22",
+  "readme_url": "https://github.com/strelov1/freehire#readme",
+  "install": [
+   "curl localhost:8080/health",
+   "curl localhost:8080/api/v1/jobs"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Migrations are applied automatically on first Postgres volume init\n(the migrations/ folder is mounted into /docker-entrypoint-initdb.d).\nChanging a migration does not re-apply to an existing volume — recreate it with\ndocker compose down -v && make up, or apply pending files manually with\nmake migrate.\nIf port 8080 is already taken, pick another host port:",
+  "usage_code": "make up        # build + start the whole stack in Docker:\n               # api, web, postgres, meilisearch, redis, s3\ncurl localhost:8080/health\ncurl localhost:8080/api/v1/jobs",
+  "license": "MIT",
+  "homepage": "https://freehire.me",
+  "topics": [
+   "ats",
+   "career",
+   "careers",
+   "golang",
+   "hiring",
+   "job-aggregator",
+   "job-board",
+   "job-portal"
+  ],
+  "default_branch": "main"
+ },
+ "supabase/supabase": {
+  "fetched": "2026-10-22",
+  "readme_url": "https://github.com/supabase/supabase#readme",
+  "install": [],
+  "usage_title": "How it works",
+  "usage_text": "Supabase is a combination of open source tools. We’re building the features of Firebase using enterprise-grade, open source products. If the tools and communities exist, with an MIT, Apache 2, or equivalent open license, we will use and support that tool. If the tool doesn't exist, we build and open source it ourselves. Supabase is not a 1-to-1 mapping of Firebase. Our aim is to give developers a Firebase-like developer experience using open source tools.\nArchitecture\nSupabase is a hosted platform. You can sign up and start using Supabase without installing anything.\nYou can also self-host and develop locally…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://supabase.com",
+  "topics": [
+   "ai",
+   "alternative",
+   "auth",
+   "database",
+   "deno",
+   "embeddings",
+   "example",
+   "firebase"
+  ],
+  "default_branch": "master"
+ },
  "superdesigndev/treg": {
   "fetched": "2026-10-02",
   "readme_url": "https://github.com/superdesigndev/treg#readme",
@@ -3601,6 +3646,31 @@
    "codex",
    "coding-agents",
    "data-flow-diagram"
+  ],
+  "default_branch": "main"
+ },
+ "twentyhq/twenty": {
+  "fetched": "2026-10-22",
+  "readme_url": "https://github.com/twentyhq/twenty#readme",
+  "install": [
+   "npx create-twenty-app my-app",
+   "npx twenty app:publish --private",
+   "npx skills add https://github.com/twentyhq/twenty/tree/agent-skills --list"
+  ],
+  "usage_title": "Why Twenty",
+  "usage_text": "Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves. Twenty is the CRM you build, ship, and version like the rest of your stack.\n Learn more about why we built Twenty",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://twenty.com",
+  "topics": [
+   "crm",
+   "crm-system",
+   "customer",
+   "good-first-issue",
+   "graphql",
+   "hacktoberfest",
+   "javascript",
+   "marketing"
   ],
   "default_branch": "main"
  },
