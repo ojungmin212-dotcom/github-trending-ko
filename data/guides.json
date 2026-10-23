@@ -544,6 +544,22 @@
   ],
   "default_branch": "main"
  },
+ "Meloong-Git/PCL": {
+  "fetched": "2026-10-23",
+  "readme_url": "https://github.com/Meloong-Git/PCL#readme",
+  "install": [],
+  "usage_title": "Plain Craft Launcher",
+  "usage_text": "包含 PCL 的大部分源代码，包括 UI 库、动画模块、下载模块、Minecraft 启动模块等！ \n代码并不是实时更新的，它会在每次 PCL 发布更新时同步一次。 \n非常感谢社区的大力支持！",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://meloong.com/PCL",
+  "topics": [
+   "launcher",
+   "minecraft",
+   "minecraft-launcher"
+  ],
+  "default_branch": "main"
+ },
  "NVIDIA/Model-Optimizer": {
   "fetched": "2026-09-25",
   "readme_url": "https://github.com/NVIDIA/Model-Optimizer#readme",
@@ -792,7 +808,7 @@
   "default_branch": "main"
  },
  "TencentCloud/Octop": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-23",
   "readme_url": "https://github.com/TencentCloud/Octop#readme",
   "install": [
    "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash",
@@ -913,7 +929,7 @@
   "default_branch": "main"
  },
  "affaan-m/ECC": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-23",
   "readme_url": "https://github.com/affaan-m/ECC#readme",
   "install": [
    "npx ecc-universal@2.2.3 setup",
@@ -1146,7 +1162,7 @@
   "default_branch": "main"
  },
  "anthropics/claude-plugins-official": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-23",
   "readme_url": "https://github.com/anthropics/claude-plugins-official#readme",
   "install": [],
   "usage_title": "Claude Code Plugins Directory",
@@ -1603,7 +1619,7 @@
   "default_branch": "master"
  },
  "cursor/plugins": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-23",
   "readme_url": "https://github.com/cursor/plugins#readme",
   "install": [],
   "usage_title": "Cursor plugins",
@@ -1654,15 +1670,15 @@
   "default_branch": "main"
  },
  "debpalash/VoiceStudio": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-23",
   "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
   "install": [
    "curl -fsSL https://voicestudio.sh/install | sh",
    "curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z",
    "curl -fsSL https://voicestudio.sh/install | sh -s -- --main",
    "curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall",
-   "git clone https://github.com/debpalash/VoiceStudio.git",
-   "bun install"
+   "curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh",
+   "git clone https://github.com/debpalash/VoiceStudio.git"
   ],
   "usage_title": "Your voice. Your workflow.",
   "usage_text": "Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine. Features & engine catalog.\nLocal workflows run on your hardware. Remote services are optional; usage analytics requires consent.\n Explore the workspaces · Clone, dub, design & models \n Voice cloning Video dubbing \n Voice design Local models",
@@ -1845,6 +1861,31 @@
    "seo-automation"
   ],
   "default_branch": "main"
+ },
+ "fastapi/fastapi": {
+  "fetched": "2026-10-23",
+  "readme_url": "https://github.com/fastapi/fastapi#readme",
+  "install": [
+   "uv add \"fastapi[standard]\"",
+   "uv run fastapi dev",
+   "uv run fastapi deploy"
+  ],
+  "usage_title": "Run it",
+  "usage_text": "Run the server with:\n About the command fastapi dev ... \nThe command fastapi dev reads your main.py file automatically, detects the FastAPI app in it, and starts a server using Uvicorn.\nBy default, fastapi dev will start with auto-reload enabled for local development.\nYou can read more about it in the FastAPI CLI docs.",
+  "usage_code": "$ uv run fastapi dev\n\n ╭────────── FastAPI CLI - Development mode ───────────╮\n │                                                     │\n │  Serving at: http://127.0.0.1:8000                  │\n │                                                     │\n │  API docs: http://127.0.0.1:8000/docs               │\n │                                                     │\n │  Running in development mode, for production use:   │\n │                                                     │\n │  fastapi run                                        │\n │                                                     │\n ╰─────────────────────────────────────────────────────╯\n\nINFO:     Will watch for changes in these directories: ['/home/user/code/awesomeapp']\nINFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)\nINFO:     Started reloader process [2248755] using WatchFiles\nINFO:     Started server process [2248757]\n…",
+  "license": "MIT",
+  "homepage": "https://fastapi.tiangolo.com/",
+  "topics": [
+   "api",
+   "async",
+   "asyncio",
+   "fastapi",
+   "framework",
+   "json",
+   "json-schema",
+   "openapi"
+  ],
+  "default_branch": "master"
  },
  "firebase/firebase-ios-sdk": {
   "fetched": "2026-10-01",
@@ -2389,6 +2430,27 @@
    "gpui",
    "rust",
    "uikit"
+  ],
+  "default_branch": "main"
+ },
+ "luongnv89/claude-howto": {
+  "fetched": "2026-10-23",
+  "readme_url": "https://github.com/luongnv89/claude-howto#readme",
+  "install": [
+   "git clone https://github.com/luongnv89/claude-howto.git",
+   "claude mcp add --transport http github https://api.githubcopilot.com/mcp/ --header \"Authorization: Bearer YOUR_GITHUB_PAT\"",
+   "uv pip install -r scripts/requirements-dev.txt",
+   "uv run scripts/build_epub.py"
+  ],
+  "usage_title": "3. Combine features into workflows",
+  "usage_text": "The real power is in combining features. Learn to wire slash commands + memory + subagents + hooks into automated pipelines that handle code reviews, deployments, and documentation generation.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "http://luongnv.com/claude-howto/",
+  "topics": [
+   "claude-code",
+   "guide",
+   "tutorial"
   ],
   "default_branch": "main"
  },
@@ -3060,6 +3122,23 @@
   "topics": [],
   "default_branch": "main"
  },
+ "php/php-src": {
+  "fetched": "2026-10-23",
+  "readme_url": "https://github.com/php/php-src#readme",
+  "install": [
+   "make install",
+   "apt install -y pkg-config build-essential autoconf bison re2c libxml2-dev libsqlite3-dev",
+   "dnf install re2c bison autoconf make ccache libxml2-devel sqlite-devel",
+   "brew install autoconf bison re2c libiconv libxml2 sqlite"
+  ],
+  "usage_title": "The PHP Interpreter",
+  "usage_text": "PHP is a popular general-purpose scripting language that is especially suited to\nweb development. Fast, flexible and pragmatic, PHP powers everything from your\nblog to the most popular websites in the world.\nPHP is distributed under the Modified BSD License\n(SPDX-License-Identifier: BSD-3-Clause).",
+  "usage_code": "",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.php.net",
+  "topics": [],
+  "default_branch": "master"
+ },
  "pingdotgg/t3code": {
   "fetched": "2026-10-19",
   "readme_url": "https://github.com/pingdotgg/t3code#readme",
@@ -3197,7 +3276,7 @@
   "default_branch": "main"
  },
  "ruvnet/ruflo": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-23",
   "readme_url": "https://github.com/ruvnet/ruflo#readme",
   "install": [
    "npx ruflo@latest init wizard",
@@ -3473,7 +3552,7 @@
   "default_branch": "main"
  },
  "tashfeenahmed/freellmapi": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-23",
   "readme_url": "https://github.com/tashfeenahmed/freellmapi#readme",
   "install": [
    "curl -fsSL https://freellmapi.co/install.sh | bash",
@@ -3690,7 +3769,7 @@
   "default_branch": "main"
  },
  "vectorize-io/hindsight": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-23",
   "readme_url": "https://github.com/vectorize-io/hindsight#readme",
   "install": [
    "npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs",
