@@ -646,6 +646,34 @@
   "topics": [],
   "default_branch": "main"
  },
+ "OpenBMB/VoxCPM": {
+  "fetched": "2026-10-24",
+  "readme_url": "https://github.com/OpenBMB/VoxCPM#readme",
+  "install": [
+   "pip install voxcpm",
+   "pip install modelscope",
+   "pip install \"voxcpm[timestamps]\"",
+   "pip install nano-vllm-voxcpm",
+   "uv pip install vllm==0.19.0 --torch-backend=auto",
+   "git clone https://github.com/vllm-project/vllm-omni.git && cd vllm-omni"
+  ],
+  "usage_title": "✨ Highlights",
+  "usage_text": "• 🌍 30-Language Multilingual — Input text in any of the 30 supported languages and synthesize directly, no language tag needed\n• 🎨 Voice Design — Create a brand-new voice from a natural-language description alone (gender, age, tone, emotion, pace …), no reference audio required\n• 🎛️ Controllable Cloning — Clone any voice from a short reference clip, with optional style guidance to steer emotion, pace, and expression while preserving the original timbre…",
+  "usage_code": "# Voice design (no reference audio needed)\nvoxcpm design \\\n  --text \"VoxCPM2 brings studio-quality multilingual speech synthesis.\" \\\n  --output out.wav\n\n# Controllable voice cloning with style control\nvoxcpm design \\\n  --text \"VoxCPM2 brings studio-quality multilingual speech synthesis.\" \\\n  --control \"Young female voice, warm and gentle, slightly smiling\" \\\n  --seed 42 \\\n  --output out.wav\n\n# Voice cloning (reference audio)\nvoxcpm clone \\\n  --text \"This is a voice cloning demo.\" \\\n  --reference-audio path/to/voice.wav \\\n  --output out.wav\n\n…",
+  "license": "Apache-2.0",
+  "homepage": "https://voxcpm.com",
+  "topics": [
+   "audio",
+   "deeplearning",
+   "minicpm",
+   "multilingual",
+   "python",
+   "pytorch",
+   "speech",
+   "speech-synthesis"
+  ],
+  "default_branch": "main"
+ },
  "OpenCut-app/OpenCut": {
   "fetched": "2026-10-04",
   "readme_url": "https://github.com/OpenCut-app/OpenCut#readme",
@@ -707,6 +735,32 @@
   ],
   "default_branch": "main"
  },
+ "Renhuai123/ziwei-doushu": {
+  "fetched": "2026-10-24",
+  "readme_url": "https://github.com/Renhuai123/ziwei-doushu#readme",
+  "install": [
+   "git clone https://github.com/Renhuai123/ziwei-doushu.git",
+   "npm install",
+   "npm run dev",
+   "npm run typecheck  # TypeScript 全量类型检查"
+  ],
+  "usage_title": "六、界面是一份 Demo",
+  "usage_text": "界面代码在 app/ 与 components/。仓库里的界面是一套最小可运行示例，作用是把排盘引擎跑起来、把盘画出来，方便你在它基础上做自己的产品。线上商业版的界面不在开源范围内，两者差距很大：\nDemo 能跑通的：出生信息表单、命盘方格与宫位详情、本命 / 大限 / 流年切换、古籍阅读器（全文搜索）、命理百科（14 主星 × 12 宫位）、亮暗主题、移动端适配。\nDemo 里没有的：线上重做过的交互界面、AI 流式解读、合盘图谱、分享卡片，以及断语内容本身（db-analysis.ts 是占位实现）。也就是说，Demo 画得出盘，但给不出线上那套解读。\n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://metisziwei.com/?from=gh-about",
+  "topics": [
+   "bazi",
+   "chinese-astrology",
+   "divination",
+   "fortune-telling",
+   "nextjs",
+   "open-source",
+   "purple-star-astrology",
+   "typescript"
+  ],
+  "default_branch": "main"
+ },
  "Robbyant/lingbot-map": {
   "fetched": "2026-10-09",
   "readme_url": "https://github.com/Robbyant/lingbot-map#readme",
@@ -724,6 +778,28 @@
   "license": "Apache-2.0",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "SnailSploit/Claude-Red": {
+  "fetched": "2026-10-24",
+  "readme_url": "https://github.com/SnailSploit/Claude-Red#readme",
+  "install": [
+   "git clone https://github.com/SnailSploit/claude-red ~/.claude/skills/claude-red",
+   "git clone --filter=blob:none --sparse https://github.com/SnailSploit/claude-red"
+  ],
+  "usage_title": "claude-red",
+  "usage_text": "Offensive security skills for Claude — drop-in SKILL.md files that turn Claude into a context-aware red team operator.\nOverview • Quickstart • Categories • Skill Index • Roadmap • Contributing\n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "claude-ai",
+   "claude-pt",
+   "claude-skills",
+   "redteam",
+   "redteam-tools",
+   "skills"
+  ],
   "default_branch": "main"
  },
  "Stremio/stremio-web": {
@@ -833,13 +909,13 @@
   "default_branch": "main"
  },
  "VectifyAI/PageIndex": {
-  "fetched": "2026-10-17",
+  "fetched": "2026-10-24",
   "readme_url": "https://github.com/VectifyAI/PageIndex#readme",
   "install": [
    "pip install -U pageindex"
   ],
   "usage_title": "PageIndex: Vectorless, Reasoning-based RAG",
-  "usage_text": "Reasoning-based RAG  ◦  No Vector DB, No Chunking  ◦  Context-Aware Retrieval  ◦  Reads Like a Human \n 🌐 Website   •  \n ☁️ Cloud   •  \n 📖 Docs   •  \n 📝 Blog   •  \n ✉️ Contact  \n Updates \n• [Aug '26] 🔥 PageIndex SDK: pip install -U pageindex now ships local mode: index, retrieve, and chat entirely on your machine with your own LLM key, or point the same client at PageIndex Cloud with an API key.\n• [Aug '26] ⚡ PageIndex Flash: fast tree index generation for text-based PDFs, now the default indexing method in PageIndex SDK local mode…",
+  "usage_text": "Reasoning-based RAG  ◦  No Vector DB, No Chunking  ◦  Context-Aware Retrieval  ◦  Reads Like a Human \n 🌐 Website   •  \n ☁️ Cloud   •  \n 📖 Docs   •  \n 📝 Blog   •  \n ✉️ Contact  \n Updates \n• [Aug '26] 🔥 PageIndex SDK: local and cloud modes — one client to index, retrieve, and chat on your machine (with your own LLM API key) or on PageIndex Cloud.\n• [Aug '26] ⚡ PageIndex Flash: fast tree index generation for text-based PDFs, now the default indexing method in PageIndex SDK local mode.\n• Scale PageIndex to Millions of Documents: PageIndex File System is a file-level tree indexing layer that lets PageIndex reason over an entire corpus, not just a single document…",
   "usage_code": "pip install -U pageindex",
   "license": "MIT",
   "homepage": "https://pageindex.ai",
@@ -1069,7 +1145,7 @@
   "default_branch": "main"
  },
  "android/skills": {
-  "fetched": "2026-10-17",
+  "fetched": "2026-10-24",
   "readme_url": "https://github.com/android/skills#readme",
   "install": [
    "codex plugin marketplace add android/skills",
@@ -1197,7 +1273,7 @@
   "default_branch": "main"
  },
  "anthropics/knowledge-work-plugins": {
-  "fetched": "2026-10-17",
+  "fetched": "2026-10-24",
   "readme_url": "https://github.com/anthropics/knowledge-work-plugins#readme",
   "install": [
    "claude plugin marketplace add anthropics/knowledge-work-plugins",
@@ -1548,7 +1624,7 @@
   "default_branch": "master"
  },
  "cloudflare/security-audit-skill": {
-  "fetched": "2026-10-17",
+  "fetched": "2026-10-24",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
   "install": [
    "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
@@ -1815,6 +1891,30 @@
    "elasticsearch",
    "java",
    "search-engine"
+  ],
+  "default_branch": "main"
+ },
+ "elie222/rakazo": {
+  "fetched": "2026-10-24",
+  "readme_url": "https://github.com/elie222/rakazo#readme",
+  "install": [
+   "curl -fsSLO https://raw.githubusercontent.com/elie222/rakazo/main/infra/compose/install-images.sh &&",
+   "bash install-images.sh"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Persistent bots with their own conversations, memory, routines, and history\n• Voice mode: speak replies, dictate, and call a bot. Bring your own ElevenLabs, OpenAI, Cartesia, or Fish Audio key\n• Shared Team Computers and isolated Private computers\n• Browser, terminal, file, and graphical desktop access\n• Bots that can delegate to peer bots or short-lived subagents\n• Bring-your-own model credentials through Pi\n• App integrations through Composio or Pipedream Connect, plus user-installed Treg, remote MCP, and OpenAPI tool sources\n• Docker, E2B, Daytona, CreateOS, Boat, and trusted local-computer support",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://rakazo.com",
+  "topics": [
+   "ai-agents",
+   "chatgpt",
+   "docker",
+   "electron",
+   "expo",
+   "grok",
+   "llm",
+   "self-hosted"
   ],
   "default_branch": "main"
  },
@@ -2878,6 +2978,30 @@
   ],
   "default_branch": "main"
  },
+ "nodejs/node": {
+  "fetched": "2026-10-24",
+  "readme_url": "https://github.com/nodejs/node#readme",
+  "install": [
+   "curl -fsLo \"/path/to/nodejs-keyring.kbx\" \"https://github.com/nodejs/release-keys/raw/HEAD/gpg/pubring.kbx\"",
+   "curl -fsO \"https://nodejs.org/dist/${VERSION}/SHASUMS256.txt.asc\" && gpgv --keyring=\"/path/to/nodejs-keyring.kbx\" --output SHASUMS256.txt < SHASUMS256.txt.asc && shasum --check SHASUMS256.txt --ignore-missing"
+  ],
+  "usage_title": "Node.js",
+  "usage_text": "Node.js is an open-source, cross-platform JavaScript runtime environment.\nFor information on using Node.js, see the [Node.js website][].\nThe Node.js project uses an open governance model. The\n[OpenJS Foundation][] provides support for the project.\nContributors are expected to act in a collaborative manner to move\nthe project forward. We encourage the constructive exchange of contrary\nopinions and compromise. The TSC\nreserves the right to limit or block contributors who repeatedly act in ways\nthat discourage, exhaust, or otherwise negatively affect other participants.\nThis project has a [Code of Conduct][].",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://nodejs.org",
+  "topics": [
+   "javascript",
+   "js",
+   "linux",
+   "macos",
+   "mit",
+   "node",
+   "nodejs",
+   "runtime"
+  ],
+  "default_branch": "main"
+ },
  "ntdevlabs/tiny11builder": {
   "fetched": "2026-10-15",
   "readme_url": "https://github.com/ntdevlabs/tiny11builder#readme",
@@ -3080,7 +3204,7 @@
   "default_branch": "main"
  },
  "paperclipai/paperclip": {
-  "fetched": "2026-10-17",
+  "fetched": "2026-10-24",
   "readme_url": "https://github.com/paperclipai/paperclip#readme",
   "install": [
    "npx paperclipai@latest onboard --yes",
@@ -3636,7 +3760,7 @@
   "default_branch": "main"
  },
  "thedotmack/claude-mem": {
-  "fetched": "2026-10-11",
+  "fetched": "2026-10-24",
   "readme_url": "https://github.com/thedotmack/claude-mem#readme",
   "install": [
    "npx claude-mem install --ide grok-bot",
