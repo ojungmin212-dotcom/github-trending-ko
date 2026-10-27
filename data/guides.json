@@ -488,34 +488,6 @@
   ],
   "default_branch": "master"
  },
- "MakazhanAlpamys/Soup": {
-  "fetched": "2026-09-27",
-  "readme_url": "https://github.com/MakazhanAlpamys/Soup#readme",
-  "install": [
-   "pipx install soup-cli",
-   "uv tool install soup-cli  # same idea, if you already use uv",
-   "pipx install \"soup-cli[train]\"",
-   "pipx install \"soup-cli[all]\"",
-   "pipx install \"git+https://github.com/MakazhanAlpamys/Soup.git\"",
-   "pip install soup-cli"
-  ],
-  "usage_title": "Why Soup?",
-  "usage_text": "Training LLMs is still painful. Even experienced teams spend 30-50% of their time fighting\ninfrastructure instead of improving models. Soup fixes that.\n• Zero SSH. Never SSH into a broken GPU box again.\n• One config. A simple YAML file is all you need.\n• Auto everything. Batch size, GPU detection, quantization — handled.\n• Works locally. Train on your own GPU with QLoRA. No cloud required.",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://trysoup.dev",
-  "topics": [
-   "cli",
-   "consumer-gpu",
-   "dpo",
-   "fine-tuning",
-   "gguf",
-   "huggingface",
-   "llm",
-   "llmops"
-  ],
-  "default_branch": "main"
- },
  "Meloong-Git/PCL": {
   "fetched": "2026-10-23",
   "readme_url": "https://github.com/Meloong-Git/PCL#readme",
@@ -548,7 +520,7 @@
   "default_branch": "main"
  },
  "NVIDIA/SkillSpector": {
-  "fetched": "2026-09-30",
+  "fetched": "2026-10-27",
   "readme_url": "https://github.com/NVIDIA/SkillSpector#readme",
   "install": [
    "uv tool install git+https://github.com/NVIDIA/skillspector.git",
@@ -663,11 +635,11 @@
   "default_branch": "main"
  },
  "Panniantong/Agent-Reach": {
-  "fetched": "2026-10-10",
+  "fetched": "2026-10-27",
   "readme_url": "https://github.com/Panniantong/Agent-Reach#readme",
   "install": [],
   "usage_title": "❤️赞助商",
-  "usage_text": "> 想出现在这里？\n 点击折叠 \n BrowserAct 支持从 Amazon、LinkedIn、X、Google Maps 等复杂网站提取你需要的任意数据。你只需用自然语言描述抓取需求，Agent 就会基于真实浏览器自动探索并测试页面流程，生成可靠、可复用的数据采集 Bot，并返回结构化结果。无需手动构建爬虫，无需编写代码。BrowserAct 内置隐身浏览、验证码处理和高质量住宅代理，帮助你更稳定地完成复杂网页数据采集。新用户注册即送 1000 积分， 立即免费试用 。 \n 在腾讯云 Lighthouse 秒级部署 OpenClaw 全能助手，可通过对话丝滑接入 Agent Reach，给你的 OpenClaw 一键装上互联网能力。 \n CoreClaw | 网页抓取平台与现成数据采集工具，CoreClaw 提供 100+ 现成数据采集工具，支持 Amazon、TikTok、Google Maps、Instagram、Facebook、YouTube 等平台，无需代码，支持 JSON/CSV 导出，仅对成功结果计费。 免费$3测试！ \n 优刻得星图astraflow大模型 ，支持200+模型一键调用：内置 Kimi K3、DeepSeek V4/V3、Qwen 3、GLM5.2、happyhorse等全球领先开源大模型，无需自训，开箱即用 \n---",
+  "usage_text": "> 想出现在这里？\n 点击展开 \n Bright Data 亮数据 | 全球领先的数据采集基础设施。Scraper Studio 智能爬取器让你用自然语言一键生成爬虫，无需写代码；Unlocker 网站解锁器自动绕过反爬虫机制，轻松采集 Amazon、Google、LinkedIn、TikTok 等复杂网站数据。内置 350+ 现成 API 集成，覆盖电商、社交、搜索、地图等全品类数据源，直接调用开箱即用。1.5 亿+ 全球真实住宅 IP 保障采集稳定性。每月免费 5,000 次请求， 立即免费注册 。 \n RapidProxy 是专为开发者打造的数据采集代理解决方案，提供稳定可靠的住宅代理服务。拥有 9000 万+ 全球住宅 IP，覆盖 200+ 国家和地区，支持智能轮换与精准地理定位，可用于网页抓取、AI 数据采集与训练、SEO 监控、电商数据分析等场景，帮助提升数据采集效率与稳定性。支持 Playwright、Selenium、Puppeteer 等主流自动化框架，流量永久有效，价格低至 $0.55/GB， 支持免费测试 。 \n BrowserAct 支持从 Amazon、LinkedIn、X、Google Maps 等复杂网站提取你需要的任意数据。你只需用自然语言描述抓取需求，Agent 就会基于真实浏览器自动探索并测试页面流程，生成可靠、可复用的数据采集 Bot，并返回结构化结果。无需手动构建爬虫，无需编写代码。BrowserAct 内置隐身浏览、验证码处理和高质量住宅代理，帮助你更稳定地完成复杂网页数据采集。新用户注册即送 1000 积分， 立即免费试用 。…",
   "usage_code": "",
   "license": "MIT",
   "homepage": "",
@@ -927,18 +899,6 @@
   ],
   "default_branch": "master"
  },
- "actions/runner-images": {
-  "fetched": "2026-09-27",
-  "readme_url": "https://github.com/actions/runner-images#readme",
-  "install": [],
-  "usage_title": "Package managers usage",
-  "usage_text": "We use third-party package managers to install software during the image generation process. The table below lists the package managers and the software installed.\n> [!NOTE]\n> Third-party repositories are re-evaluated every year to identify if they are still useful and secure.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "addyosmani/agent-skills": {
   "fetched": "2026-10-18",
   "readme_url": "https://github.com/addyosmani/agent-skills#readme",
@@ -1059,6 +1019,31 @@
   "topics": [],
   "default_branch": "main"
  },
+ "alchaincyf/huashu-design": {
+  "fetched": "2026-10-27",
+  "readme_url": "https://github.com/alchaincyf/huashu-design#readme",
+  "install": [
+   "npx skills add alchaincyf/huashu-design",
+   "npm i -g skills@latest  # 或 npx skills@latest add alchaincyf/huashu-design",
+   "git clone https://github.com/alchaincyf/huashu-design.git ~/.claude/skills/huashu-design"
+  ],
+  "usage_title": "Huashu Design",
+  "usage_text": "> 「打字。回车。一份能交付的设计。」\n> \"Type. Hit enter. A finished design lands in your lap.\"\n在你的 agent 里打一句话，拿回一份能交付的设计。\n3 到 30 分钟，你能 ship 一段产品发布动画、一个能点击的 App 原型、一套能编辑的 PPT、一份印刷级的信息图。\n不是「AI 做的还行」那种水平——是看起来像大厂设计团队做的。给 skill 你的品牌资产（logo、色板、UI 截图），它会读懂你的品牌气质；什么都不给，六张缩略图里挑出的三个真实方向 + 84 种带样张的风格库也能兜底到不出 AI slop。\n你看到这篇 README 里的每一页设计，都是 huashu-design 自己做的。 不是 Figma，不是 AE，就是一句话 prompt + skill 跑通。下次产品发布要做宣传片？现在你也能做。\n跨 agent 通用——Claude Code、Cursor、Codex、OpenClaw、Hermes 都能装。\n> 📣 已改为 MIT 协议。 自 2026-05-14 起本 skill 完全开源（MIT License），个人和商用都免费，无需事先授权。原「个人使用免费、企业商用需授权」的条款已作废。(查看变更)\n> 🆕 3.0：三个方向更敢，项目之间也不再长一个样。 先出六张缩略图再挑三版做成真稿；风格库扩到 84 种（新增 App、中文与东亚两个分区），每种都有样张；参照作品先截图再动手；带一个只量事实的设计体检，和一本记住你做过什么样子的外观账本。详见核心机制…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "agent-skills",
+   "ai-design",
+   "claude-code",
+   "claude-skills",
+   "codex",
+   "cursor",
+   "design",
+   "html"
+  ],
+  "default_branch": "master"
+ },
  "alibaba/open-code-review": {
   "fetched": "2026-10-16",
   "readme_url": "https://github.com/alibaba/open-code-review#readme",
@@ -1154,18 +1139,6 @@
   "usage_code": "    curl -fsSL https://claude.ai/install.sh | bash\n    ",
   "license": "",
   "homepage": "https://code.claude.com/docs/en/overview",
-  "topics": [],
-  "default_branch": "main"
- },
- "anthropics/claude-code-action": {
-  "fetched": "2026-09-27",
-  "readme_url": "https://github.com/anthropics/claude-code-action#readme",
-  "install": [],
-  "usage_title": "Features",
-  "usage_text": "• 🎯 Intelligent Mode Detection: Automatically selects the appropriate execution mode based on your workflow context—no configuration needed\n• 🤖 Interactive Code Assistant: Claude can answer questions about code, architecture, and programming\n• 🔍 Code Review: Analyzes PR changes and suggests improvements\n• ✨ Code Implementation: Can implement simple fixes, refactoring, and even new features\n• 💬 PR/Issue Integration: Works seamlessly with GitHub comments and PR reviews\n• 🛠️ Flexible Tool Access: Access to GitHub APIs and file operations (additional tools can be enabled via configuration)…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
   "topics": [],
   "default_branch": "main"
  },
@@ -1310,20 +1283,6 @@
    "osint",
    "photogrammetry"
   ],
-  "default_branch": "main"
- },
- "block/buzz": {
-  "fetched": "2026-09-27",
-  "readme_url": "https://github.com/block/buzz#readme",
-  "install": [
-   "git clone https://github.com/block/buzz.git && cd buzz"
-  ],
-  "usage_title": "Getting started",
-  "usage_text": "New to Buzz? Pick the path that matches you.",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "",
-  "topics": [],
   "default_branch": "main"
  },
  "boykopovar/AnyPS5": {
@@ -1700,7 +1659,7 @@
   "default_branch": "main"
  },
  "earthtojake/text-to-cad": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-27",
   "readme_url": "https://github.com/earthtojake/text-to-cad#readme",
   "install": [
    "claude plugin marketplace add earthtojake/text-to-cad#latest",
@@ -1889,6 +1848,27 @@
    "error-monitoring"
   ],
   "default_branch": "master"
+ },
+ "gitroomhq/postiz-app": {
+  "fetched": "2026-10-27",
+  "readme_url": "https://github.com/gitroomhq/postiz-app#readme",
+  "install": [],
+  "usage_title": "Quick Start",
+  "usage_text": "To have the project up and running, please follow the Quick Start Guide",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://postiz.com",
+  "topics": [
+   "nextjs",
+   "open-source",
+   "open-source-social-media-scheduling-tool",
+   "oss",
+   "postiz-cloud",
+   "postiz-hosted",
+   "redis",
+   "scheduling-tool"
+  ],
+  "default_branch": "main"
  },
  "google-gemini/gemini-cli": {
   "fetched": "2026-10-25",
@@ -2261,18 +2241,6 @@
   "topics": [],
   "default_branch": "main"
  },
- "llvm/llvm-project": {
-  "fetched": "2026-09-27",
-  "readme_url": "https://github.com/llvm/llvm-project#readme",
-  "install": [],
-  "usage_title": "The LLVM Compiler Infrastructure",
-  "usage_text": "Welcome to the LLVM project!\nThis repository contains the source code for LLVM, a toolkit for the\nconstruction of highly optimized compilers, optimizers, and run-time\nenvironments.\nThe LLVM project has multiple components. The core of the project is\nitself called \"LLVM\". This contains all of the tools, libraries, and header\nfiles needed to process intermediate representations and convert them into\nobject files. Tools include an assembler, disassembler, bitcode analyzer, and\nbitcode optimizer.\nC-like languages use the Clang frontend. This\ncomponent compiles C, C++, Objective-C, and Objective-C++ code into LLVM bitcode\n-- and from there into object files, using LLVM.\nOther components include…",
-  "usage_code": "",
-  "license": "",
-  "homepage": "http://llvm.org",
-  "topics": [],
-  "default_branch": "main"
- },
  "longbridge/gpui-kit": {
   "fetched": "2026-10-18",
   "readme_url": "https://github.com/longbridge/gpui-kit#readme",
@@ -2490,24 +2458,6 @@
   "topics": [],
   "default_branch": "main"
  },
- "microsoft/vscode": {
-  "fetched": "2026-09-27",
-  "readme_url": "https://github.com/microsoft/vscode#readme",
-  "install": [],
-  "usage_title": "The Repository",
-  "usage_text": "This repository (\"Code - OSS\") is where we (Microsoft) develop the Visual Studio Code product together with the community. Not only do we work on code and issues here, but we also publish our roadmap, monthly iteration plans, and our endgame plans. This source code is available to everyone under the standard MIT license.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://code.visualstudio.com",
-  "topics": [
-   "editor",
-   "electron",
-   "microsoft",
-   "typescript",
-   "visual-studio-code"
-  ],
-  "default_branch": "main"
- },
  "miuuyy/codex-chatgpt-web": {
   "fetched": "2026-09-28",
   "readme_url": "https://github.com/miuuyy/codex-chatgpt-web#readme",
@@ -2579,31 +2529,6 @@
    "llm",
    "machine-learning",
    "roadmap"
-  ],
-  "default_branch": "main"
- },
- "mobile-next/mobile-mcp": {
-  "fetched": "2026-09-27",
-  "readme_url": "https://github.com/mobile-next/mobile-mcp#readme",
-  "install": [
-   "claude mcp add mobile-mcp -- npx -y @mobilenext/mobile-mcp@latest",
-   "codex mcp add mobile-mcp npx \"@mobilenext/mobile-mcp@latest\"",
-   "npx @mobilenext/mobile-mcp@latest"
-  ],
-  "usage_title": "Main Features",
-  "usage_text": "• 🚀 Accessibility-first — fast and cheap: drives apps from the native accessibility tree (no vision model, no image tokens), falling back to screenshots + coordinates only when needed.\n• 📱 One API, every target: the same tools work across iOS and Android — simulators, emulators, and real devices.\n• 🧠 No platform expertise required: no XCUITest, no Espresso, no per-platform glue — describe the goal and the agent does it.\n• 🧰 Full device control: taps, swipes, and gestures; app install/launch/terminate; screen recording; hardware buttons; deep links; orientation…",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://mobilenext.ai",
-  "topics": [
-   "agent",
-   "android",
-   "emulator",
-   "ios",
-   "mcp",
-   "mobile",
-   "physical",
-   "real"
   ],
   "default_branch": "main"
  },
@@ -2700,6 +2625,30 @@
    "cli",
    "codex-cli",
    "multi-agent"
+  ],
+  "default_branch": "main"
+ },
+ "nightly-labs/openbot": {
+  "fetched": "2026-10-27",
+  "readme_url": "https://github.com/nightly-labs/openbot#readme",
+  "install": [
+   "curl -fsSL https://chatgpt.com/codex/install.sh | sh",
+   "curl -fsSL https://claude.ai/install.sh | bash"
+  ],
+  "usage_title": "OpenBot",
+  "usage_text": "OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local\nCodex App Server and\nClaude Code, plus Grok CLI,\nOpenCode, Gemini, Cursor CLI, and Cline CLI through ACP. It gives every agent its own workspace and\nconversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent\nmessaging in one desktop app.\n> [!WARNING]\n> OpenBot is a development preview. Agents currently run with danger-full-access and\n> approvalPolicy: never. They can read and modify files, run commands, use the network, and control\n> the embedded browser without per-action confirmations after the explicit first-launch consent…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://openbot.run/",
+  "topics": [
+   "ai-agents",
+   "bun",
+   "codex",
+   "electron",
+   "local-first",
+   "macos",
+   "solidjs",
+   "typescript"
   ],
   "default_branch": "main"
  },
@@ -2907,7 +2856,7 @@
   "default_branch": "master"
  },
  "pbakaus/impeccable": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-27",
   "readme_url": "https://github.com/pbakaus/impeccable#readme",
   "install": [
    "npx impeccable install",
@@ -3046,7 +2995,7 @@
   "default_branch": "master"
  },
  "rohitg00/ai-engineering-from-scratch": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-27",
   "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch#readme",
   "install": [
    "npx skills add rohitg00/ai-engineering-from-scratch",
@@ -3730,20 +3679,6 @@
    "windows",
    "xcode"
   ],
-  "default_branch": "main"
- },
- "zhaoxuya520/reverse-skill": {
-  "fetched": "2026-09-27",
-  "readme_url": "https://github.com/zhaoxuya520/reverse-skill#readme",
-  "install": [
-   "git clone https://github.com/zhaoxuya520/reverse-skill.git"
-  ],
-  "usage_title": "Testing (run after any routing/config change)",
-  "usage_text": "GitHub Actions CI runs all of the above on Windows + Ubuntu for every push/PR.",
-  "usage_code": "# 1. Routing regression — 173 (hint → expected PRIMARY) cases, fails CI on any mismatch\npowershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/test-routing.ps1\n# 2. Structure coherence + supply-chain pin gate (unpinned auto-install fails)\npowershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/verify-routing-coherence.ps1\n# 3. Smoke: verify + script parse + quick route matrix\npowershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/smoke.ps1\n# 4. INDEX.md drift check (regenerate with extract-summaries.ps1 if dirty)\npowershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/extract-summaries.ps1 -Check",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
   "default_branch": "main"
  }
 }
