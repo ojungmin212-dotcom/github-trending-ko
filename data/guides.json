@@ -454,6 +454,31 @@
   "topics": [],
   "default_branch": "main"
  },
+ "Leonxlnx/taste-skill": {
+  "fetched": "2026-10-29",
+  "readme_url": "https://github.com/Leonxlnx/taste-skill#readme",
+  "install": [
+   "npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"",
+   "codex plugin marketplace add Leonxlnx/taste-skill",
+   "codex plugin add taste-skill@taste-skill"
+  ],
+  "usage_title": "Install",
+  "usage_text": "That installs the skill with the npx skills CLI.\nThe skill runs its scripts with Node 22+ and an installed Chrome, Edge or Chromium. It installs nothing and needs no API keys. Finding pictures needs network access.\n Claude Code plugin \nRun these inside Claude Code. The skill is namespaced under taste-skill:, so it does not collide with your other skills.\n/plugin update upgrades it later.\n Codex plugin \nStart a new Codex session afterwards so the skill is loaded.\n From a clone, linked instead of copied \n./install.sh symlinks the skill into Claude Code (--codex for Codex, --all-agents for both), so a git pull updates it in place…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://tasteskill.dev",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "anti-slop",
+   "claude-code",
+   "codex",
+   "cursor",
+   "design-system",
+   "frontend"
+  ],
+  "default_branch": "main"
+ },
  "M-Abozaid/esp32-c3-adblock": {
   "fetched": "2026-10-06",
   "readme_url": "https://github.com/M-Abozaid/esp32-c3-adblock#readme",
@@ -571,18 +596,6 @@
    "software-analysis"
   ],
   "default_branch": "master"
- },
- "NawfalMotii79/PLFM_RADAR": {
-  "fetched": "2026-09-29",
-  "readme_url": "https://github.com/NawfalMotii79/PLFM_RADAR#readme",
-  "install": [],
-  "usage_title": "🔬 Key Features",
-  "usage_text": "• Open Source Hardware & Software - Complete schematics, PCB layouts, firmware, and software available\n• Dual Version Availability:\n• AERIS-10N (Nexus): 3km range with 8x16 patch antenna array\n• AERIS-10E (Extended): 20km range with 32x16 dielectric-filled slotted waveguide array\n• Full Electronic Beam Steering - ±45° electronic steering in elevation and azimuth\n• Advanced Signal Processing - On-board FPGA handles pulse compression, Doppler FFT, MTI, and CFAR\n• Python GUI - User-friendly interface with map integration\n• GPS/IMU Integration - Real-time position and attitude correction\n• Modular Design - Separate power management, frequency synthesis, and RF boards",
-  "usage_code": "",
-  "license": "",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
  },
  "Nutlope/hallmark": {
   "fetched": "2026-10-25",
@@ -1513,26 +1526,6 @@
   ],
   "default_branch": "main"
  },
- "cs341-illinois/coursebook": {
-  "fetched": "2026-09-29",
-  "readme_url": "https://github.com/cs341-illinois/coursebook#readme",
-  "install": [],
-  "usage_title": "Coursebook",
-  "usage_text": "Welcome to the systems programming coursebook!\nThis repository houses a high-quality, open-source introductory systems programming textbook used by the CS 341: System Programming course at the University of Illinois Urbana-Champaign\nThe book assumes that you have taken a programming language course and are familiar with assembly instructions.\nAll of the code and instruction will be in C, as it is the de-facto language of the Linux Kernel.\nThe Coursebook is an aim to standardize and build upon Angrave's original wikibook experiment.\nThe most recent version of the coursebook as a single pdf is here: main.pdf.",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://cs341.cs.illinois.edu/coursebook",
-  "topics": [
-   "awesome",
-   "c",
-   "latex",
-   "linux",
-   "posix",
-   "system-programming",
-   "wikibook"
-  ],
-  "default_branch": "master"
- },
  "cursor/plugins": {
   "fetched": "2026-10-23",
   "readme_url": "https://github.com/cursor/plugins#readme",
@@ -1696,22 +1689,6 @@
   ],
   "default_branch": "main"
  },
- "elastic/elasticsearch": {
-  "fetched": "2026-09-29",
-  "readme_url": "https://github.com/elastic/elasticsearch",
-  "install": [],
-  "usage_title": "",
-  "usage_text": "",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://www.elastic.co/products/elasticsearch",
-  "topics": [
-   "elasticsearch",
-   "java",
-   "search-engine"
-  ],
-  "default_branch": "main"
- },
  "elayadesign/ai-design-skills": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/elayadesign/ai-design-skills#readme",
@@ -1749,6 +1726,24 @@
    "llm",
    "self-hosted"
   ],
+  "default_branch": "main"
+ },
+ "expo/skills": {
+  "fetched": "2026-10-29",
+  "readme_url": "https://github.com/expo/skills#readme",
+  "install": [
+   "npx skills@latest add expo/skills --skill '*'",
+   "claude plugin install expo@claude-plugins-official",
+   "codex plugin add expo@openai-curated",
+   "npx skills@latest update",
+   "npx skills@latest update expo-router"
+  ],
+  "usage_title": "How It Works",
+  "usage_text": "Skills give AI agents focused Expo knowledge: when to use Expo APIs, how to structure common workflows, and which Expo, EAS, React Native, iOS, and Android constraints matter. Expo documentation, Expo CLI, and EAS CLI remain the source of truth; these skills help agents apply them correctly.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "fastapi/fastapi": {
@@ -2058,7 +2053,7 @@
   "default_branch": "main"
  },
  "hmjz100/LinkSwift": {
-  "fetched": "2026-10-17",
+  "fetched": "2026-10-29",
   "readme_url": "https://github.com/hmjz100/LinkSwift#readme",
   "install": [],
   "usage_title": "介绍",
@@ -2178,6 +2173,20 @@
    "cli",
    "diagnostic-tool"
   ],
+  "default_branch": "main"
+ },
+ "jakubkrehel/skills": {
+  "fetched": "2026-10-29",
+  "readme_url": "https://github.com/jakubkrehel/skills#readme",
+  "install": [
+   "npx skills add jakubkrehel/skills"
+  ],
+  "usage_title": "Skills that help build great interfaces",
+  "usage_text": "• better-interface: Reviews a screen, flow or whole interface across accessibility, layout, writing, typography, color and UI polish, and returns one ranked report.\n• better-ui: Polishes surfaces, icons and motion with exact values for border radius, optical alignment, shadows, icon states and animation.\n• better-typography: Sets and reviews how text renders, from the type scale and spacing to font features, wrapping, truncation and punctuation.\n• better-colors: Builds and checks color systems by generating palettes, naming semantic tokens, converting between formats and measuring contrast…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://jakub.kr/skills",
+  "topics": [],
   "default_branch": "main"
  },
  "jamwithai/production-agentic-rag-course": {
@@ -2331,6 +2340,29 @@
    "instruction-set",
    "llama",
    "llm"
+  ],
+  "default_branch": "main"
+ },
+ "macro-inc/macro": {
+  "fetched": "2026-10-29",
+  "readme_url": "https://github.com/macro-inc/macro#readme",
+  "install": [
+   "claude mcp add --transport http macro https://mcp-server.macro.com/mcp"
+  ],
+  "usage_title": "Features",
+  "usage_text": "Macro is composed of 'blocks' designed to be modular, extensible, and work together like Lego. For each block, we studied the best prior art and tried to make it even better.\nEach surface is purpose-built for its job rather than composed from a generic block primitive — but every one of them shares the same backend; cross-references between a doc and a task, or a channel message and an email, are natively stored as a bidirectional graph.",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://macro.com",
+  "topics": [
+   "agent",
+   "ai",
+   "ai-agents",
+   "all-in-one",
+   "crm",
+   "crm-system",
+   "email",
+   "linear"
   ],
   "default_branch": "main"
  },
@@ -3013,6 +3045,34 @@
   ],
   "default_branch": "main"
  },
+ "ruvnet/RuView": {
+  "fetched": "2026-10-29",
+  "readme_url": "https://github.com/ruvnet/RuView#readme",
+  "install": [
+   "npx @ruvnet/ruview@0.9.1 doctor",
+   "npx @ruvnet/ruview@0.9.1 guidance --topic sensing --query \"model loading\"",
+   "npx @ruvnet/ruview@0.9.1 devices",
+   "npx @ruvnet/ruview@0.9.1 esp32 --watch  # ESP32 + Realtek RAC1 nodes, live view",
+   "npx @ruvnet/ruview@0.9.1 esp32 --seconds 45 --analyze  # live CSI through the vitals kernel",
+   "npx @ruvnet/ruview@0.9.1 mmwave --source esphome --host <kit-ip>"
+  ],
+  "usage_title": "🔬 How It Works",
+  "usage_text": "WiFi routers flood every room with radio waves. When a person moves — or even breathes — those waves scatter differently. WiFi DensePose reads that scattering pattern and reconstructs what happened:\nThe Self-Learning system (ADR-024) provides\ncamera-free representation-learning components. Cross-room pose remains a separate, data-gated\nproblem: MERIDIAN (ADR-027) is\nProposed, while the measured calibration reference requires labeled CSI/keypoint pairs and\nmodel-specific adapters. See the model compatibility boundary.\n---",
+  "usage_code": "WiFi Router → radio waves pass through room → hit human body → scatter\n    ↓\nESP32 mesh (4-6 nodes) captures CSI on channels 1/6/11 via TDM protocol\n    ↓\nMulti-Band Fusion: 3 channels × 56 subcarriers = 168 virtual subcarriers per link\n    ↓\nMultistatic Fusion: N×(N-1) links → attention-weighted cross-viewpoint embedding\n    ↓\nCoherence Gate: accept/reject measurements → stable for days without tuning\n    ↓\nSignal Processing: Hampel, SpotFi, Fresnel, BVP, spectrogram → clean features\n    ↓\nAI Backbone (RuVector): attention, graph algorithms, compression, field model\n    ↓\nSignal-Line Protocol (CRV): 6-stage gestalt → sensory → topology → coherence → search → model\n    ↓\nNeural Network: processed signals → 17 body keypoints + vital signs + room model\n    ↓\n…",
+  "license": "MIT",
+  "homepage": "https://Cognitum.One/RuView",
+  "topics": [
+   "awesome",
+   "claude",
+   "densepose",
+   "esp32",
+   "firmware",
+   "home-assistant",
+   "home-automation",
+   "iot"
+  ],
+  "default_branch": "main"
+ },
  "ruvnet/ruflo": {
   "fetched": "2026-10-23",
   "readme_url": "https://github.com/ruvnet/ruflo#readme",
@@ -3623,6 +3683,18 @@
    "bm25-search"
   ],
   "default_branch": "main"
+ },
+ "xiaolai/the-craft-of-selfteaching": {
+  "fetched": "2026-10-29",
+  "readme_url": "https://github.com/xiaolai/the-craft-of-selfteaching#readme",
+  "install": [],
+  "usage_title": "自学是门手艺",
+  "usage_text": "> 没有自学能力的人没有未来\n作者：李笑来\n特别感谢霍炬（@virushuo）、洪强宁（@hongqn) 两位良师诤友在此书写作过程中给予我的巨大帮助！\n请先行阅读 T-appendix.jupyter-installation-and-setup 以便在本地安装 Jupyterlab 而后就能用更好的体验阅读本书。\n有兴趣帮忙的朋友，请先行阅读 如何使用 Pull Request 为这本书校对。\n2019 年 3 月 23 日，新增 Markdown 版本：\n> https://github.com/selfteaching/the-craft-of-selfteaching/tree/master/markdown",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "master"
  },
  "xtool-org/xtool": {
   "fetched": "2026-10-14",
