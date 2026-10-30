@@ -107,6 +107,32 @@
   ],
   "default_branch": "master"
  },
+ "CopilotKit/OpenBot": {
+  "fetched": "2026-10-30",
+  "readme_url": "https://github.com/CopilotKit/OpenBot#readme",
+  "install": [
+   "bun install",
+   "npx --yes copilotkit@latest login",
+   "npx --yes copilotkit@latest project select",
+   "bun scripts/setup-learning.ts",
+   "bash scripts/start.sh"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "> Setting up with an AI assistant? Paste prompt.txt into it first. It carries the\n> same steps as below plus the things that are easy to get wrong: which of the blank keys in\n> .env.example are actually yours to fill (the CopilotKit key and a model key), which the start\n> script fills for you, and what each start-up refusal means. Every claim in it is checked against\n> this repository.\n1. Create .env:\n2. Connect a fresh managed Intelligence project:\n The helper provisions the selected project's runtime key, creates or reuses its\n openbot Learning container, then writes both settings to .env. It preserves\n custom container assignments and never replaces an existing OpenBot key; with one…",
+  "usage_code": "   cp .env.example .env\n   bun install\n   ",
+  "license": "MIT",
+  "homepage": "https://www.copilotkit.ai/openbot",
+  "topics": [
+   "ag-ui",
+   "agent-governance",
+   "ai-agents",
+   "browser-automation",
+   "copilotkit",
+   "generative-ui",
+   "mcp"
+  ],
+  "default_branch": "main"
+ },
  "DietrichGebert/ponytail": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
@@ -128,6 +154,29 @@
    "cursor-rules",
    "developer-tools",
    "llm"
+  ],
+  "default_branch": "main"
+ },
+ "Donchitos/Claude-Code-Game-Studios": {
+  "fetched": "2026-10-30",
+  "readme_url": "https://github.com/Donchitos/Claude-Code-Game-Studios#readme",
+  "install": [
+   "git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git my-game"
+  ],
+  "usage_title": "Why This Exists",
+  "usage_text": "Building a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code. There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\"\nClaude Code Game Studios solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work. Each agent has defined responsibilities, escalation paths, and quality gates…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "ai-agents",
+   "ai-assisted-development",
+   "anthropic",
+   "claude",
+   "claude-code",
+   "game-design",
+   "game-development",
+   "gamedev"
   ],
   "default_branch": "main"
  },
@@ -678,28 +727,6 @@
   ],
   "default_branch": "main"
  },
- "PrismML-Eng/Bonsai-demo": {
-  "fetched": "2026-09-30",
-  "readme_url": "https://github.com/PrismML-Eng/Bonsai-demo#readme",
-  "install": [
-   "git clone https://github.com/PrismML-Eng/Bonsai-demo.git",
-   "git clone -b prism https://github.com/PrismML-Eng/llama.cpp.git"
-  ],
-  "usage_title": "Bonsai Demo",
-  "usage_text": "Backend and model format compatibility: BACKEND-SUPPORT.md.\n Website  | \n GitHub  | \n Discord \n Models: \n Bonsai 2 27B GGUF ·\n Bonsai 2 27B MLX \n---\nRun Bonsai 2 27B locally on Mac (Metal), Linux/Windows (CUDA, Vulkan, ROCm), or CPU.\nFor the earlier Bonsai 1-bit and Ternary-Bonsai models (27B, 8B, 4B, 1.7B), see\nBonsai1_README.md. For troubleshooting, see FAQ.md.",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://prismml.com/",
-  "topics": [
-   "bonsai",
-   "llamacpp",
-   "llm",
-   "mlx",
-   "prism-ml",
-   "small-models"
-  ],
-  "default_branch": "main"
- },
  "Renhuai123/ziwei-doushu": {
   "fetched": "2026-10-24",
   "readme_url": "https://github.com/Renhuai123/ziwei-doushu#readme",
@@ -949,7 +976,7 @@
   "default_branch": "main"
  },
  "affaan-m/ECC": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-30",
   "readme_url": "https://github.com/affaan-m/ECC#readme",
   "install": [
    "npx ecc-universal@2.2.3 setup",
@@ -993,34 +1020,6 @@
   "license": "Apache-2.0",
   "homepage": "",
   "topics": [],
-  "default_branch": "main"
- },
- "ahujasid/mcp-for-blender": {
-  "fetched": "2026-09-30",
-  "readme_url": "https://github.com/ahujasid/mcp-for-blender#readme",
-  "install": [
-   "brew install uv",
-   "curl -LsSf https://astral.sh/uv/install.sh | sh",
-   "claude mcp add blender uvx mcp-for-blender",
-   "codex mcp add blender -- uvx mcp-for-blender",
-   "uvx mcp-for-blender install-addon",
-   "pipx install mcp-for-blender"
-  ],
-  "usage_title": "Quickstart",
-  "usage_text": "> Note: the PyPI package blender-mcp is now mcp-for-blender. Existing setups\n> keep working — uvx blender-mcp still runs the server and **no config change is\n> required**. New installs should use mcp-for-blender.\n> What changed and why\nThree steps: install uv, point your MCP client at the server, install the Blender addon.\n1. Install uv\n> Warning: Do not proceed before installing uv. Use the official installer — not pip install uv.\n2. Add the MCP server to your client\n Claude Desktop — Settings → Developer → Edit Config \n Claude Code \n Codex \n Cursor / VS Code / OpenCode / Antigravity \nSee MCP Client Setup below for per-client instructions and one-click install buttons…",
-  "usage_code": "# macOS\nbrew install uv\n\n# Linux\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n\n# Windows\npowershell -c \"irm https://astral.sh/uv/install.ps1 | iex\"",
-  "license": "MIT",
-  "homepage": "https://www.mcp-for-blender.com/",
-  "topics": [
-   "3d-modeling",
-   "ai",
-   "blender",
-   "blender-addon",
-   "blender-mcp",
-   "claude",
-   "generative-ai",
-   "llm"
-  ],
   "default_branch": "main"
  },
  "akitaonrails/ai-memory": {
@@ -1166,7 +1165,7 @@
   "default_branch": "main"
  },
  "anthropics/claude-plugins-official": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-30",
   "readme_url": "https://github.com/anthropics/claude-plugins-official#readme",
   "install": [],
   "usage_title": "Claude Code Plugins Directory",
@@ -1223,22 +1222,6 @@
   ],
   "usage_title": "How to use this project?",
   "usage_text": "I (Salvatore) believe that the way projects should be shipped and used changed because of AI. The main differences today are:\n1. With AI, users can modify the software in significant ways with low efforts, costs, and even lacking deep domain knowledge about the task they want to accomplish. For instance, a DwarfStar user with a specific hardware setup can ask a coding agent to improve the inference speed of this software for the specific hardware setup, asking the model to reach the maximum prefill and generation speed without impacting correctness, and also asking to do a deep QA pass…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
- "averygan/reclip": {
-  "fetched": "2026-09-30",
-  "readme_url": "https://github.com/averygan/reclip#readme",
-  "install": [
-   "brew install yt-dlp ffmpeg  # or apt install ffmpeg && pip install yt-dlp",
-   "git clone https://github.com/averygan/reclip.git",
-   "docker build -t reclip . && docker run -p 8899:8899 reclip"
-  ],
-  "usage_title": "Features",
-  "usage_text": "• Download videos from 1000+ supported sites (via yt-dlp)\n• MP4 video or MP3 audio extraction\n• Quality/resolution picker\n• Bulk downloads — paste multiple URLs at once\n• Automatic URL deduplication\n• Clean, responsive UI — no frameworks, no build step\n• Single Python file backend (~150 lines)",
   "usage_code": "",
   "license": "MIT",
   "homepage": "",
@@ -1527,7 +1510,7 @@
   "default_branch": "main"
  },
  "cursor/plugins": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-30",
   "readme_url": "https://github.com/cursor/plugins#readme",
   "install": [],
   "usage_title": "Cursor plugins",
@@ -1578,19 +1561,19 @@
   "default_branch": "main"
  },
  "debpalash/VoiceStudio": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-30",
   "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
   "install": [
    "curl -fsSL https://voicestudio.sh/install | sh",
-   "curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z",
-   "curl -fsSL https://voicestudio.sh/install | sh -s -- --main",
-   "curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall",
-   "curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh",
-   "git clone https://github.com/debpalash/VoiceStudio.git"
+   "curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z  # a specific release",
+   "curl -fsSL https://voicestudio.sh/install | sh -s -- --main  # build current main",
+   "curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall  # remove the app, keep your data",
+   "git clone https://github.com/debpalash/VoiceStudio.git",
+   "bun run dev"
   ],
-  "usage_title": "Your voice. Your workflow.",
-  "usage_text": "Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine. Features & engine catalog.\nLocal workflows run on your hardware. Remote services are optional; usage analytics requires consent.\n Explore the workspaces · Clone, dub, design & models \n Voice cloning Video dubbing \n Voice design Local models",
-  "usage_code": "",
+  "usage_title": "Get started",
+  "usage_text": "macOS / Linux\nWindows (PowerShell)\nOr download an installer from the table above. Then open Voice cloning, pick a voice or add a clean reference recording, type your text and generate. The app asks before it downloads any model.\n> [!NOTE]\n> On macOS, \"VoiceStudio is damaged and can't be opened\" means Gatekeeper blocked the app, not that the download is broken. See the Gatekeeper fix.\n More install options : a specific version, current main, uninstall, from source, with a coding agent \nIf voicestudio.sh is unreachable, run the script straight from the repository:\ncurl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh…",
+  "usage_code": "curl -fsSL https://voicestudio.sh/install | sh",
   "license": "AGPL-3.0",
   "homepage": "https://voicestudio.sh",
   "topics": [
@@ -1812,27 +1795,6 @@
    "flutter-package"
   ],
   "default_branch": "master"
- },
- "fmtlib/fmt": {
-  "fetched": "2026-09-30",
-  "readme_url": "https://github.com/fmtlib/fmt#readme",
-  "install": [],
-  "usage_title": "Features",
-  "usage_text": "• Simple format API with positional\n arguments for localization\n• Implementation of C++20\n std::format and\n C++23 std::print\n• Format string syntax similar\n to Python\\'s\n format\n• Fast IEEE 754 floating-point formatter with correct rounding,\n shortness and round-trip guarantees using the\n Dragonbox algorithm\n• Portable Unicode support\n• Safe printf\n implementation\n including the POSIX extension for positional arguments\n• Extensibility: support for user-defined\n types\n• High performance: faster than common standard library\n implementations of (s)printf, iostreams, to_string and\n to_chars, see Speed tests and Converting a\n hundred million integers to strings per\n second…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://fmt.dev",
-  "topics": [
-   "c-plus-plus",
-   "chrono",
-   "cpp",
-   "cross-platform",
-   "floating-point",
-   "formatting",
-   "multiplatform",
-   "output"
-  ],
-  "default_branch": "main"
  },
  "garrytan/gstack": {
   "fetched": "2026-10-05",
@@ -2101,7 +2063,7 @@
   "default_branch": "main"
  },
  "hugohe3/ppt-master": {
-  "fetched": "2026-10-11",
+  "fetched": "2026-10-30",
   "readme_url": "https://github.com/hugohe3/ppt-master#readme",
   "install": [
    "brew install python",
@@ -2111,8 +2073,8 @@
    "git clone https://github.com/hugohe3/ppt-master.git",
    "pip install -r requirements.txt"
   ],
-  "usage_title": "Product Positioning",
-  "usage_text": "Editable is now table stakes — the real question is how much of PowerPoint you actually get. PPT Master delivers PowerPoint's native object model itself, and in depth: native shapes and connectors with working adjustment handles, data-backed charts and tables on demand, and the full text / picture / fill / effect model — click any element and keep editing it as a native PowerPoint object; and through the template / structured route, it can hand you a deck with real slide masters and layouts (p:sldMaster / p:sldLayout inheritance)…",
+  "usage_title": "PPT Master — AI generates native PowerPoint from any documen",
+  "usage_text": "English | 中文\n> 💼 I'm open to new opportunities. Investment background (CPA · CPV · Consulting Engineer), also building AI tools and open source. Happy to talk about any opportunity: heyug3@gmail.com · hehugo.com.\n> 🆕 I built a construction project economic evaluation site: cs.hehugo.com (in Chinese) — the wind, solar and storage templates are now open to everyone; just register and use them (a comparable module in one commercial package sells for ¥100,000).",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://hugohe3.github.io/ppt-master-examples/",
@@ -2515,6 +2477,30 @@
   "topics": [],
   "default_branch": "main"
  },
+ "milind-soni/OpenMausBot": {
+  "fetched": "2026-10-30",
+  "readme_url": "https://github.com/milind-soni/OpenMausBot#readme",
+  "install": [
+   "git clone https://github.com/milind-soni/OpenMausBot && cd OpenMausBot",
+   "pnpm install"
+  ],
+  "usage_title": "How it works",
+  "usage_text": "Two processes. The app holds no transports of its own — it sends typed commands over HTTP and folds one SSE\nevent stream into state. The harness server owns every agent process and normalizes each provider's native\nprotocol into one canonical runtime event stream (logged per-thread as NDJSON).",
+  "usage_code": "flowchart LR\n    subgraph app [\"App — React + Tailwind (5199)\"]\n        UI[Chat UI · model picker · computer panel]\n    end\n    subgraph server [\"Harness server (127.0.0.1:8799)\"]\n        REG[Driver registry] --> BUS[Event bus → SSE]\n        BROKER[Permission broker]\n    end\n    subgraph agents [\"Agents on your computer\"]\n        CL[claude CLI]\n        CX[codex CLI]\n        GR[grok CLI]\n    end\n    UI -- \"HTTP commands\" --> server\n    BUS -- \"one SSE stream\" --> UI\n    REG --> CL & CX & GR\n    CL & CX & GR -- \"permission requests\" --> BROKER\n    server -- \"Boat API\" --> BOAT[(\"Cloud computer<br/>boat.dev\")]\n…",
+  "license": "Apache-2.0",
+  "homepage": "https://www.openmausbot.com/",
+  "topics": [
+   "ai-agents",
+   "claude-code",
+   "codex",
+   "computer-use",
+   "docker",
+   "electron",
+   "expo",
+   "grok"
+  ],
+  "default_branch": "main"
+ },
  "mksglu/context-mode": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/mksglu/context-mode#readme",
@@ -2744,29 +2730,6 @@
   ],
   "default_branch": "master"
  },
- "oblien/openship": {
-  "fetched": "2026-09-30",
-  "readme_url": "https://github.com/oblien/openship#readme",
-  "install": [
-   "curl -fsSL https://get.openship.io | sh  # install  (or: npm i -g openship — needs Node 22+)",
-   "curl -fsSL https://get.openship.io/dev | sh  # main (default)",
-   "curl -fsSL https://get.openship.io/dev | OPENSHIP_REF=dev sh  # a branch/tag (var goes on sh, not curl)",
-   "git clone https://github.com/oblien/openship.git && cd openship",
-   "docker compose --env-file .env -f docker/docker-compose.yml up -d"
-  ],
-  "usage_title": "Quick Start",
-  "usage_text": "There's one decision to make first: how you run Openship itself (the control plane). Everything else is the same afterwards.\n> [!TIP]\n> Solo? Use the desktop app. It runs Openship's control plane on your own machine only while the app is open — nothing is left running on an always-on server, nothing is exposed publicly. You only need an always-on server install once you want push-to-deploy (CI/CD), team access, or to host apps on that box — the things that need a public, always-on endpoint.",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://openship.io",
-  "topics": [
-   "agents",
-   "ai",
-   "deployments",
-   "self-hosted"
-  ],
-  "default_branch": "main"
- },
  "obra/superpowers": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/obra/superpowers#readme",
@@ -2900,7 +2863,7 @@
   "default_branch": "main"
  },
  "php/php-src": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-30",
   "readme_url": "https://github.com/php/php-src#readme",
   "install": [
    "make install",
@@ -2973,18 +2936,6 @@
    "tensor"
   ],
   "default_branch": "main"
- },
- "rakyll/hey": {
-  "fetched": "2026-09-30",
-  "readme_url": "https://github.com/rakyll/hey#readme",
-  "install": [],
-  "usage_title": "Usage",
-  "usage_text": "hey runs provided number of requests in the provided concurrency level and prints stats.\nIt also supports HTTP2 endpoints.",
-  "usage_code": "Usage: hey [options...] <url>\n\nOptions:\n  -n  Number of requests to run. Default is 200.\n  -c  Number of workers to run concurrently. Total number of requests cannot\n      be smaller than the concurrency level. Default is 50.\n  -q  Rate limit, in queries per second (QPS) per worker. Default is no rate limit.\n  -z  Duration of application to send requests. When duration is reached,\n      application stops and exits. If duration is specified, n is ignored.\n      Examples: -z 10s -z 3m.\n  -o  Output type. If none provided, a summary is printed.\n      \"csv\" is the only supported alternative. Dumps the response\n      metrics in comma-separated values format.\n\n  -m  HTTP method, one of GET, POST, PUT, DELETE, HEAD, OPTIONS.\n  -H  Custom HTTP header. You can specify as many as needed by repeating the flag.\n      For example, -H \"Accept: text/html\" -H \"Content-Type: application/xml\" .\n  -t  Timeout for each request in seconds. Default is 20, use 0 for infinite.\n…",
-  "license": "Apache-2.0",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "master"
  },
  "ranxianglei/billion-context": {
   "fetched": "2026-10-18",
@@ -3074,7 +3025,7 @@
   "default_branch": "main"
  },
  "ruvnet/ruflo": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-30",
   "readme_url": "https://github.com/ruvnet/ruflo#readme",
   "install": [
    "npx ruflo@latest init wizard",
@@ -3269,36 +3220,8 @@
   ],
   "default_branch": "main"
  },
- "t8y2/dbx": {
-  "fetched": "2026-09-30",
-  "readme_url": "https://github.com/t8y2/dbx#readme",
-  "install": [
-   "brew install --cask dbx",
-   "scoop bucket add dbx https://github.com/t8y2/scoop-bucket",
-   "scoop install dbx",
-   "winget install t8y2.dbx",
-   "flatpak remote-add --if-not-exists flatpark https://dl.flatpark.org/flatpark.flatpakrepo",
-   "flatpak install flatpark com.dbxio.dbx"
-  ],
-  "usage_title": "🤝 Partners",
-  "usage_text": "1Panel is a modern open-source Linux server management panel and lightweight AI management platform, offering an intuitive web interface for one-stop management of AI agents, local LLMs, websites, databases, containers, files, and more.\n Visit 1Panel \n Easysearch is an enterprise-grade distributed search engine compatible with Elasticsearch APIs, combining full-text, vector, geospatial search, real-time analytics, and AI capabilities in one platform.\n Visit Easysearch",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://dbxio.com",
-  "topics": [
-   "ai",
-   "cli",
-   "clickhouse",
-   "database",
-   "database-client",
-   "database-management",
-   "docker",
-   "gui"
-  ],
-  "default_branch": "main"
- },
  "tashfeenahmed/freellmapi": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-30",
   "readme_url": "https://github.com/tashfeenahmed/freellmapi#readme",
   "install": [
    "curl -fsSL https://freellmapi.co/install.sh | bash",
