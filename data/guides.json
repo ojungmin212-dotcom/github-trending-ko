@@ -86,27 +86,6 @@
   ],
   "default_branch": "master"
  },
- "ComposioHQ/awesome-claude-skills": {
-  "fetched": "2026-10-01",
-  "readme_url": "https://github.com/ComposioHQ/awesome-claude-skills#readme",
-  "install": [],
-  "usage_title": "Quickstart: Connect Claude to 1000+ Apps",
-  "usage_text": "The connect-apps plugin lets Claude perform real actions - send emails, create issues, post to Slack. It handles auth and connects to 1000+ apps using Composio under the hood.",
-  "usage_code": "",
-  "license": "",
-  "homepage": "",
-  "topics": [
-   "agent-skills",
-   "ai-agents",
-   "antigravity",
-   "automation",
-   "claude",
-   "claude-code",
-   "codex",
-   "composio"
-  ],
-  "default_branch": "master"
- },
  "CopilotKit/OpenBot": {
   "fetched": "2026-10-30",
   "readme_url": "https://github.com/CopilotKit/OpenBot#readme",
@@ -728,7 +707,7 @@
   "default_branch": "main"
  },
  "Renhuai123/ziwei-doushu": {
-  "fetched": "2026-10-24",
+  "fetched": "2026-10-31",
   "readme_url": "https://github.com/Renhuai123/ziwei-doushu#readme",
   "install": [
    "git clone https://github.com/Renhuai123/ziwei-doushu.git",
@@ -740,7 +719,7 @@
   "usage_text": "界面代码在 app/ 与 components/。仓库里的界面是一套最小可运行示例，作用是把排盘引擎跑起来、把盘画出来，方便你在它基础上做自己的产品。线上商业版的界面不在开源范围内，两者差距很大：\nDemo 能跑通的：出生信息表单、命盘方格与宫位详情、本命 / 大限 / 流年切换、古籍阅读器（全文搜索）、命理百科（14 主星 × 12 宫位）、亮暗主题、移动端适配。\nDemo 里没有的：线上重做过的交互界面、AI 流式解读、合盘图谱、分享卡片，以及断语内容本身（db-analysis.ts 是占位实现）。也就是说，Demo 画得出盘，但给不出线上那套解读。\n---",
   "usage_code": "",
   "license": "MIT",
-  "homepage": "https://metisziwei.com/?from=gh-about",
+  "homepage": "https://ouranic.cn/?from=gh-about",
   "topics": [
    "bazi",
    "chinese-astrology",
@@ -1087,33 +1066,8 @@
   ],
   "default_branch": "main"
  },
- "alirezarezvani/claude-skills": {
-  "fetched": "2026-10-01",
-  "readme_url": "https://github.com/alirezarezvani/claude-skills#readme",
-  "install": [
-   "git clone https://github.com/alirezarezvani/claude-skills.git",
-   "npx agent-skills-cli add alirezarezvani/claude-skills --agent codex",
-   "bash <(curl -s https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/scripts/openclaw-install.sh)"
-  ],
-  "usage_title": "Claude Code Skills & Plugins — Agent Skills for Every Coding",
-  "usage_text": "388 production-ready Claude Code skills, plugins, and agent skills for 13 AI coding tools.\nThe most comprehensive open-source library of Claude Code skills and agent plugins — also works with OpenAI Codex, Gemini CLI, Cursor, and 9 more coding agents. Reusable expertise packages covering engineering, DevOps, marketing (incl. AEO — Answer Engine Optimization for LLM citation), security (PreToolUse hooks), compliance, C-level advisory (incl…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://alirezarezvani.medium.com/",
-  "topics": [
-   "agent-plugins",
-   "agent-skills",
-   "agentic-ai",
-   "ai-coding-agent",
-   "anthropic-claude",
-   "claude-ai",
-   "claude-code",
-   "claude-code-plugins"
-  ],
-  "default_branch": "main"
- },
  "android/skills": {
-  "fetched": "2026-10-24",
+  "fetched": "2026-10-31",
   "readme_url": "https://github.com/android/skills#readme",
   "install": [
    "codex plugin marketplace add android/skills",
@@ -1200,7 +1154,7 @@
   "default_branch": "main"
  },
  "anthropics/knowledge-work-plugins": {
-  "fetched": "2026-10-24",
+  "fetched": "2026-10-31",
   "readme_url": "https://github.com/anthropics/knowledge-work-plugins#readme",
   "install": [
    "claude plugin marketplace add anthropics/knowledge-work-plugins",
@@ -1212,6 +1166,20 @@
   "license": "Apache-2.0",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "anthropics/skills": {
+  "fetched": "2026-10-31",
+  "readme_url": "https://github.com/anthropics/skills#readme",
+  "install": [],
+  "usage_title": "Creating a Basic Skill",
+  "usage_text": "Skills are simple to create - just a folder with a SKILL.md file containing YAML frontmatter and instructions. You can use the template-skill in this repository as a starting point:\nThe frontmatter requires only two fields:\n• name - A unique identifier for your skill (lowercase, hyphens for spaces)\n• description - A complete description of what the skill does and when to use it\nThe markdown content below contains the instructions, examples, and guidelines that Claude will follow. For more details, see How to create custom skills.",
+  "usage_code": "---\nname: my-skill-name\ndescription: A clear description of what this skill does and when to use it\n---\n\n# My Skill Name\n\n[Add your instructions here that Claude will follow when this skill is active]\n\n## Examples\n- Example usage 1\n- Example usage 2\n\n## Guidelines\n- Guideline 1\n- Guideline 2",
+  "license": "",
+  "homepage": "",
+  "topics": [
+   "agent-skills"
+  ],
   "default_branch": "main"
  },
  "antirez/ds4": {
@@ -1436,7 +1404,7 @@
   "default_branch": "main"
  },
  "cloudflare/security-audit-skill": {
-  "fetched": "2026-10-24",
+  "fetched": "2026-10-31",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
   "install": [
    "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
@@ -1447,21 +1415,6 @@
   "usage_code": "security audit this codebase",
   "license": "MIT",
   "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
- "colbymchenry/codegraph": {
-  "fetched": "2026-10-01",
-  "readme_url": "https://github.com/colbymchenry/codegraph#readme",
-  "install": [
-   "curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh",
-   "npx @colbymchenry/codegraph"
-  ],
-  "usage_title": "Key Features",
-  "usage_text": "How auto-syncing works — and why you don't need to run codegraph sync manually \nWhen your agent (Claude Code, Cursor, Codex, opencode) launches codegraph serve --mcp, three layers keep the index in step with your code — and make sure the agent never gets a silent wrong answer in the brief window between an edit and the next sync:\n1. File watcher with debounced auto-sync. A native FSEvents / inotify / ReadDirectoryChangesW watcher captures every source-file create / modify / delete and triggers a re-index after a debounce window (default 2000ms, tunable via CODEGRAPHWATCHDEBOUNCE_MS, clamped to [100ms, 60s]). Bursts of edits collapse into a single sync…",
-  "usage_code": "agent writes src/Widget.ts\n  → watcher fires (<100ms)\n  → debounce (default 2s)\n  → sync; Widget.ts is in the index\n  → next agent query sees it",
-  "license": "MIT",
-  "homepage": "https://colbymchenry.github.io/codegraph/",
   "topics": [],
   "default_branch": "main"
  },
@@ -1754,27 +1707,6 @@
   ],
   "default_branch": "master"
  },
- "firebase/firebase-ios-sdk": {
-  "fetched": "2026-10-01",
-  "readme_url": "https://github.com/firebase/firebase-ios-sdk#readme",
-  "install": [],
-  "usage_title": "Firebase Apple Open Source Development",
-  "usage_text": "This repository contains the source code for all Apple platform Firebase\nlibraries except FirebaseAnalytics.\nFirebase is an app development platform with libraries, services, and tools to\nhelp you build, grow, and monetize your app. Learn more about Firebase at the\nofficial Firebase website.",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://firebase.google.com",
-  "topics": [
-   "ai",
-   "analytics",
-   "authentication",
-   "crash-reporting",
-   "database",
-   "database-as-a-service",
-   "firebase",
-   "firebase-auth"
-  ],
-  "default_branch": "main"
- },
  "flutter/flutter": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/flutter/flutter#readme",
@@ -1927,34 +1859,6 @@
    "google",
    "googlecloud",
    "skills"
-  ],
-  "default_branch": "main"
- },
- "harry0703/MoneyPrinterTurbo": {
-  "fetched": "2026-10-01",
-  "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo#readme",
-  "install": [
-   "git clone https://github.com/harry0703/MoneyPrinterTurbo.git",
-   "docker compose -f docker-compose.release.yml up",
-   "uv python install 3.11",
-   "pip install -r requirements.txt",
-   "sh webui.sh",
-   "uv run python main.py"
-  ],
-  "usage_title": "一站式 AI 短视频生成工具",
-  "usage_text": "只需提供视频 主题 或 关键词 ，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。\n简体中文 | English | 日本語 | 版本发布 | 问题反馈",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [
-   "ai-video-generator",
-   "content-creation",
-   "ffmpeg",
-   "instagram-reels",
-   "llm",
-   "python",
-   "short-video",
-   "subtitles"
   ],
   "default_branch": "main"
  },
@@ -2204,6 +2108,34 @@
   ],
   "default_branch": "master"
  },
+ "lightpanda-io/browser": {
+  "fetched": "2026-10-31",
+  "readme_url": "https://github.com/lightpanda-io/browser#readme",
+  "install": [
+   "brew install lightpanda-io/browser/lightpanda",
+   "curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && chmod a+x ./lightpanda",
+   "nix run github:lightpanda-io/browser -- --help",
+   "curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-aarch64-macos && chmod a+x ./lightpanda",
+   "docker run -d --name lightpanda -p 127.0.0.1:9222:9222 lightpanda/browser:latest",
+   "apt install xz-utils ca-certificates pkg-config libglib2.0-dev clang make curl git"
+  ],
+  "usage_title": "Build and run",
+  "usage_text": "You can build the entire browser with make build or make build-dev for debug\nenv.\nBut you can directly use the zig command: zig build run.",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://lightpanda.io",
+  "topics": [
+   "browser",
+   "browser-automation",
+   "cdp",
+   "headless",
+   "lightpanda",
+   "playwright",
+   "puppeteer",
+   "zig"
+  ],
+  "default_branch": "main"
+ },
  "lightseekorg/tokenspeed": {
   "fetched": "2026-10-16",
   "readme_url": "https://github.com/lightseekorg/tokenspeed#readme",
@@ -2376,7 +2308,7 @@
   "default_branch": "main"
  },
  "mattpocock/skills": {
-  "fetched": "2026-10-17",
+  "fetched": "2026-10-31",
   "readme_url": "https://github.com/mattpocock/skills#readme",
   "install": [
    "claude plugin install mattpocock-skills@claude-plugins-official",
@@ -2547,22 +2479,6 @@
   ],
   "default_branch": "main"
  },
- "modelcontextprotocol/servers": {
-  "fetched": "2026-10-01",
-  "readme_url": "https://github.com/modelcontextprotocol/servers#readme",
-  "install": [
-   "npx -y @modelcontextprotocol/server-memory",
-   "uvx mcp-server-git",
-   "pip install mcp-server-git"
-  ],
-  "usage_title": "Model Context Protocol servers",
-  "usage_text": "This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as references to community-built servers and additional resources.\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on the MCP Registry. The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n> [!WARNING]…",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://modelcontextprotocol.io",
-  "topics": [],
-  "default_branch": "main"
- },
  "morluto/rea": {
   "fetched": "2026-10-21",
   "readme_url": "https://github.com/morluto/rea#readme",
@@ -2619,11 +2535,13 @@
   "default_branch": "main"
  },
  "mvschwarz/openrig": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-31",
   "readme_url": "https://github.com/mvschwarz/openrig#readme",
   "install": [
-   "curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.6.8/scripts/install.sh | sh -s -- --dry-run",
-   "curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.6.8/scripts/install.sh | sh",
+   "npx skills add https://github.com/mvschwarz/openrig/tree/v0.7.5/skills/rigs --skill rigs --agent claude-code",
+   "npx skills add https://github.com/mvschwarz/openrig/tree/v0.7.5/skills/rigs --skill rigs --agent codex",
+   "curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.7.5/scripts/install.sh | sh -s -- --dry-run",
+   "curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.7.5/scripts/install.sh | sh",
    "npm install -g @openrig/cli"
   ],
   "usage_title": "See it running",
@@ -2778,29 +2696,6 @@
    "mcp",
    "ollama",
    "ollama-webui"
-  ],
-  "default_branch": "main"
- },
- "openclaw/openclaw": {
-  "fetched": "2026-10-01",
-  "readme_url": "https://github.com/openclaw/openclaw#readme",
-  "install": [
-   "curl -fsSL https://openclaw.ai/install.sh | bash",
-   "npm install -g openclaw@latest --allow-scripts=openclaw"
-  ],
-  "usage_title": "Quick start",
-  "usage_text": "On a fresh install, the installer scripts start onboarding automatically.\nComplete the wizard they open. If you installed the package directly with npm,\npnpm, or Bun, run:\nAfter onboarding:\nOnboarding verifies model access, creates the workspace, and configures the Gateway. The last command opens the Control UI; send a message there to confirm the assistant is working. See the getting started guide for channel setup and troubleshooting.",
-  "usage_code": "openclaw onboard --install-daemon",
-  "license": "",
-  "homepage": "https://openclaw.ai",
-  "topics": [
-   "ai",
-   "assistant",
-   "crustacean",
-   "molty",
-   "openclaw",
-   "own-your-data",
-   "personal"
   ],
   "default_branch": "main"
  },
@@ -3282,7 +3177,7 @@
   "default_branch": "main"
  },
  "thedotmack/claude-mem": {
-  "fetched": "2026-10-24",
+  "fetched": "2026-10-31",
   "readme_url": "https://github.com/thedotmack/claude-mem#readme",
   "install": [
    "npx claude-mem install --ide grok-bot",
@@ -3453,16 +3348,17 @@
   "default_branch": "main"
  },
  "vercel-labs/skills": {
-  "fetched": "2026-10-14",
+  "fetched": "2026-10-31",
   "readme_url": "https://github.com/vercel-labs/skills#readme",
   "install": [
    "npx skills add vercel-labs/agent-skills",
-   "npx skills use vercel-labs/agent-skills@web-design-guidelines | claude",
-   "npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-code"
+   "npx skills add vercel-labs/agent-skills --skill web-design-guidelines -a claude-code",
+   "npx skills find",
+   "npx skills use vercel-labs/agent-skills@web-design-guidelines --agent claude-code"
   ],
-  "usage_title": "Examples",
-  "usage_text": "Direct download URLs are tried after well-known discovery. They may point to a single valid SKILL.md file or a .zip, .tar, .tar.gz, or .tgz archive; the URL does not need to include a file extension. Downloads are limited to 10 MiB, extracted content to 25 MiB, and archives to 1000 files by default. Override with SKILLSDOWNLOADMAXBYTES, SKILLSEXTRACTMAXBYTES, and SKILLSEXTRACTMAX_FILES when you trust the source.",
-  "usage_code": "# List skills in a repository\nnpx skills add vercel-labs/agent-skills --list\n\n# Install specific skills\nnpx skills add vercel-labs/agent-skills --skill frontend-design --skill skill-creator\n\n# Install a skill with spaces in the name (must be quoted)\nnpx skills add owner/repo --skill \"Convex Best Practices\"\n\n# Install to specific agents\nnpx skills add vercel-labs/agent-skills -a claude-code -a opencode\n\n# Non-interactive installation (CI/CD friendly)\nnpx skills add vercel-labs/agent-skills --skill frontend-design -g -a claude-code -y\n\n# Install all skills from a repo to all agents\nnpx skills add vercel-labs/agent-skills --all\n\n…",
+  "usage_title": "Experimental Features",
+  "usage_text": "Commands prefixed with experimental_ are previews. Their names, options, and behavior may change or be removed in any release without notice. \nSome npm packages bundle instructions for your agent alongside their code. Sync links them into your project so they update with the dependency, and also installs skill packs declared in package.json:\nSee the experimental commands reference for options, the skills field, and the RFC behind it.",
+  "usage_code": "npm install -D skills agent-browser\nnpx skills experimental_sync -y",
   "license": "MIT",
   "homepage": "https://skills.sh",
   "topics": [],
