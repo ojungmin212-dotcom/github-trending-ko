@@ -39,6 +39,31 @@
   "topics": [],
   "default_branch": "main"
  },
+ "AstrBotDevs/AstrBot": {
+  "fetched": "2026-11-01",
+  "readme_url": "https://github.com/AstrBotDevs/AstrBot#readme",
+  "install": [
+   "uv tool install astrbot --python 3.12",
+   "git clone https://github.com/AstrBotDevs/AstrBot",
+   "pip install pre-commit"
+  ],
+  "usage_title": "Key Features",
+  "usage_text": "1. 💯 Free & Open Source.\n2. ✨ AI LLM Conversations, Multimodal, Agent, MCP, Skills, Knowledge Base, Persona Settings, Auto Context Compression.\n3. 🤖 Supports integration with Dify, Alibaba Cloud Bailian, Coze, and other agent platforms.\n4. 🌐 Multi-Platform: QQ, WeChat Work, Feishu, DingTalk, WeChat Official Accounts, Telegram, Slack, and more.\n5. 📦 Plugin Extensions with 1000+ plugins available for one-click installation.\n6. 🛡️ Agent Sandbox for isolated, safe execution of code, shell calls, and session-level resource reuse.\n7. 💻 WebUI Support.\n8. 🌈 Web ChatUI Support with built-in agent sandbox and web search.\n9. 🌐 Internationalization (i18n) Support.",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://astrbot.app",
+  "topics": [
+   "agent",
+   "ai",
+   "astrbot",
+   "chatbot",
+   "chatgpt",
+   "discord",
+   "docker",
+   "gemini"
+  ],
+  "default_branch": "master"
+ },
  "BerriAI/litellm": {
   "fetched": "2026-10-09",
   "readme_url": "https://github.com/BerriAI/litellm#readme",
@@ -223,38 +248,6 @@
   "topics": [],
   "default_branch": "master"
  },
- "Friedrich-M/UniMate": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/Friedrich-M/UniMate#readme",
-  "install": [
-   "conda create -n unimate python=3.10 -y",
-   "pip install \"setuptools<81\"",
-   "pip install -r requirements.txt --no-build-isolation"
-  ],
-  "usage_title": "🔥 News",
-  "usage_text": "• [2026-09-27] Preview checkpoints are released at HuggingFace; new checkpoints will be synced there. 📦\n• [2026-09-06] The training and inference code is released. 🚀\n• [2026-08-30] The UniML3D dataset and its data-processing pipeline are released. 🚀\n• [2026-08-01] Our Interactive Demo is live — browse our animation results in 3D. 🎮\n• [2026-07-18] UniMate is accepted to SIGGRAPH Asia 2026! 🎉\n> [TODO] We will release an official preprocessing pipeline for new (out-of-distribution) rigs by this week.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://linzhanmou.com/unimate/",
-  "topics": [],
-  "default_branch": "main"
- },
- "FxEmbed/FxEmbed": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/FxEmbed/FxEmbed#readme",
-  "install": [
-   "docker compose up -d --build",
-   "curl -H \"Host: fxtwitter.com\" -H \"User-Agent: Discordbot/2.0\" \"http://localhost:8787/user/status/123\"",
-   "docker compose down"
-  ],
-  "usage_title": "Embed videos, polls, quotes, translations, & more on Discord",
-  "usage_text": "[![Crowdin][crowdinbadge]][crowdin]\n[![esbuild][buildbadge]][build]\n[![Tests][testsbadge]][tests]\n[![Status][statusbadge]][status]\n[![License][licensebadge]][license]\n[build]: https://github.com/FxEmbed/FxEmbed/actions/workflows/build.yml\n[buildbadge]: https://github.com/FxEmbed/FxEmbed/actions/workflows/build.yml/badge.svg\n[tests]: https://github.com/FxEmbed/FxEmbed/actions/workflows/tests.yml\n[testsbadge]: https://github.com/FxEmbed/FxEmbed/actions/workflows/tests.yml/badge.svg\n[license]: https://github.com/FxEmbed/FxEmbed/blob/main/LICENSE.md\n[licensebadge]: https://img.shields.io/github/license/FxEmbed/FxEmbed\n[status]: https://status.fxtwitter.com…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://docs.fxembed.com",
-  "topics": [],
-  "default_branch": "main"
- },
  "Gaurav-Gosain/tuios": {
   "fetched": "2026-10-25",
   "readme_url": "https://github.com/Gaurav-Gosain/tuios#readme",
@@ -351,27 +344,6 @@
    "interactive-learning",
    "learning",
    "multi-agent-systems"
-  ],
-  "default_branch": "main"
- },
- "HunxByts/GhostTrack": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/HunxByts/GhostTrack#readme",
-  "install": [],
-  "usage_title": "GhostTrack",
-  "usage_text": "Useful tool to track location or mobile number, so this tool can be called osint or also information gathering\nNew update :\nsudo apt-get install git\nsudo apt-get install python3\npkg install git\npkg install python3\ngit clone https://github.com/HunxByts/GhostTrack.git\ncd GhostTrack\npip3 install -r requirements.txt\npython3 GhostTR.py\n IP Tracker Phone Tracker Username Tracker```\non this menu you can search for information from the target username on social media\n :zap: Author : \n• HunxByts",
-  "usage_code": "",
-  "license": "",
-  "homepage": "",
-  "topics": [
-   "cybersecurity",
-   "fyp",
-   "hacking",
-   "hacking-tool",
-   "indonesia",
-   "information",
-   "information-gathering",
-   "ip-geolocation"
   ],
   "default_branch": "main"
  },
@@ -626,13 +598,13 @@
   "default_branch": "master"
  },
  "Nutlope/hallmark": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-11-01",
   "readme_url": "https://github.com/Nutlope/hallmark#readme",
   "install": [
    "npx skills add nutlope/hallmark -g"
   ],
   "usage_title": "Hallmark",
-  "usage_text": "A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.\nusehallmark.com  ·  forty-eight themes  ·  custom on request  ·  redesign and audit by name\nMade by Together AI.\nHallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of forty-eight materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says…",
+  "usage_text": "A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.\nusehallmark.com  ·  fifty themes  ·  custom on request  ·  redesign and audit by name\nMade by Together AI.\nHallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says thanks without…",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://www.usehallmark.com/",
@@ -682,6 +654,29 @@
    "editor",
    "oss",
    "videoeditor"
+  ],
+  "default_branch": "main"
+ },
+ "Orkas-AI/Orkas": {
+  "fetched": "2026-11-01",
+  "readme_url": "https://github.com/Orkas-AI/Orkas#readme",
+  "install": [
+   "git clone https://github.com/Orkas-AI/Orkas.git"
+  ],
+  "usage_title": "Run Claude Code, Codex, OpenCode, OpenClaw and Hermes-Agent ",
+  "usage_text": "Orkas runs the CLI agents you already have installed as local sessions, next to its own specialists — the coding agents Claude Code, Codex and OpenCode, and the personal agents OpenClaw and Hermes-Agent. The Commander hands each one the part it's best at and keeps one plan across all of them, so a single chat can fix the bug, review the change and draft the release note. Open-source tools such as HyperFrames plug in the same way.\nUsing Claude Code and Codex together →\n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://orkas.ai?source=gh-orkas",
+  "topics": [
+   "agent-collaboration",
+   "agent-harness",
+   "agent-orchestration",
+   "agent-team",
+   "agent-workflow",
+   "ai-assistant",
+   "ai-automation",
+   "ai-employee"
   ],
   "default_branch": "main"
  },
@@ -793,7 +788,7 @@
   "default_branch": "development"
  },
  "THU-MAIC/OpenMAIC": {
-  "fetched": "2026-10-02",
+  "fetched": "2026-11-01",
   "readme_url": "https://github.com/THU-MAIC/OpenMAIC#readme",
   "install": [
    "git clone https://github.com/THU-MAIC/OpenMAIC.git",
@@ -906,16 +901,18 @@
   "default_branch": "main"
  },
  "YuJunZhiXue/dsh-purge": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-11-01",
   "readme_url": "https://github.com/YuJunZhiXue/dsh-purge#readme",
   "install": [
+   "pnpm add https://codeload.github.com/YuJunZhiXue/dsh-purge/tar.gz/refs/heads/master",
+   "pnpm add --allow-build=dsh-purge --allow-build=dsh-purge@https://codeload.github.com/YuJunZhiXue/dsh-purge/tar.gz/refs/heads/master https://codeload.github.com/YuJunZhiXue/dsh-purge/tar.gz/refs/heads/master",
    "git clone https://github.com/YuJunZhiXue/dsh-purge.git \"$DSH_HOME/plugins/dsh-purge\"",
    "pnpm install"
   ],
-  "usage_title": "目录",
-  "usage_text": "• 赞助\n• 广告位\n• 介绍\n• 署名要求\n• 许可证\n• 违规商用公示\n• 适配范围\n• 安装\n• 界面\n• 使用\n• 自己的服务器\n• 工作原理\n• 还原\n• 更新\n---",
-  "usage_code": "",
-  "license": "",
+  "usage_title": "Quick start",
+  "usage_text": "Have dsh on PATH? One command, one restart, one click. Run the line for the host you open (the desktop EXE is the same with desktop instead of web):\n1. Fully quit and reopen the host you installed into. Web: stop dsh web and start it again. Desktop: quit the tray icon too, then open the exe.\n2. On that host, click dsh-purge beside the session title → Clean → Apply. A successful Apply restarts the host once.\nDone — verify with /purge status in chat. If pnpm asks about build scripts, or anything below does not appear, follow the step by step.",
+  "usage_code": "# Official `dsh web`\ndsh plugin --profile web add https://codeload.github.com/YuJunZhiXue/dsh-purge/tar.gz/refs/heads/master\n\n# Official desktop EXE\ndsh plugin --profile desktop add https://codeload.github.com/YuJunZhiXue/dsh-purge/tar.gz/refs/heads/master",
+  "license": "Apache-2.0",
   "homepage": "",
   "topics": [
    "deepseek",
@@ -1279,6 +1276,27 @@
   ],
   "default_branch": "main"
  },
+ "bregman-arie/devops-exercises": {
+  "fetched": "2026-11-01",
+  "readme_url": "https://github.com/bregman-arie/devops-exercises#readme",
+  "install": [],
+  "usage_title": "Network",
+  "usage_text": "In general, what do you need in order to communicate? \n• A common language (for the two ends to understand)\n• A way to address who you want to communicate with\n• A Connection (so the content of the communication can reach the recipients)\n What is TCP/IP? \nA set of protocols that define how two or more devices can communicate with each other.\nTo learn more about TCP/IP, read here\n What is Ethernet? \nEthernet simply refers to the most common type of Local Area Network (LAN) used today. A LAN—in contrast to a WAN (Wide Area Network), which spans a larger geographical area—is a connected network of computers in a small area, like your office, college campus, or even home…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "",
+  "topics": [
+   "ansible",
+   "aws",
+   "azure",
+   "coding",
+   "containers",
+   "devops",
+   "docker",
+   "git"
+  ],
+  "default_branch": "master"
+ },
  "byoungd/up": {
   "fetched": "2026-10-07",
   "readme_url": "https://github.com/byoungd/up#readme",
@@ -1489,30 +1507,6 @@
   "topics": [],
   "default_branch": "master"
  },
- "davila7/claude-code-templates": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/davila7/claude-code-templates#readme",
-  "install": [
-   "npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests --mcp development/github-integration --yes",
-   "npx claude-code-templates@latest",
-   "npx claude-code-templates@latest --agent development-tools/code-reviewer --yes",
-   "npx claude-code-templates@latest --command performance/optimize-bundle --yes",
-   "npx claude-code-templates@latest --setting performance/mcp-timeouts --yes",
-   "npx claude-code-templates@latest --hook git/pre-commit-validation --yes"
-  ],
-  "usage_title": "Claude Code Templates (aitmpl.com)",
-  "usage_text": "Ready-to-use configurations for Anthropic's Claude Code. A comprehensive collection of AI agents, custom commands, settings, hooks, external integrations (MCPs), and project templates to enhance your development workflow.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://aitmpl.com",
-  "topics": [
-   "anthropic",
-   "anthropic-claude",
-   "claude",
-   "claude-code"
-  ],
-  "default_branch": "main"
- },
  "debpalash/VoiceStudio": {
   "fetched": "2026-10-30",
   "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
@@ -1549,48 +1543,6 @@
   ],
   "usage_title": "DeepGEMM",
   "usage_text": "DeepGEMM is a unified, high-performance tensor core kernel library that brings together the key computation primitives of modern large language models — GEMMs (FP8, FP4, BF16), fused MoE with overlapped communication (Mega MoE), MQA scoring for the lightning indexer, HyperConnection (HC), and more — into a single, cohesive CUDA codebase. All kernels are compiled at runtime through DeepJIT, requiring no CUDA compilation during installation…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
- "dream-num/univer": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/dream-num/univer#readme",
-  "install": [
-   "pnpm add @univerjs/presets @univerjs/preset-sheets-core",
-   "git clone https://github.com/dream-num/univer.git",
-   "pnpm install"
-  ],
-  "usage_title": "Featured example: Univer Workspace",
-  "usage_text": "Univer Workspace is an open-source, self-hostable workspace built on Univer Office SDK, where people and AI agents create, collaborate on, and review Office content. Developers can use the complete implementation as a reference, learn how to integrate the SDK, and build their own products.\n• Agents can generate spreadsheet-based mini-apps, such as decision-making dashboards, interactive reports, and business dashboards.\n• Metrics, charts, and controls on the web page are bound to cells, supporting data reads, writes, and collaborative updates.\nExplore Univer Workspace",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://docs.univer.ai",
-  "topics": [
-   "board",
-   "collaboration",
-   "data-table",
-   "doc",
-   "docx",
-   "excel",
-   "grid",
-   "pdf"
-  ],
-  "default_branch": "dev"
- },
- "earendil-works/pi": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/earendil-works/pi#readme",
-  "install": [
-   "npm install --ignore-scripts  # Install all dependencies without running lifecycle scripts",
-   "npm run build  # Refresh model data, then build all packages",
-   "npm run build:offline # Rebuild using existing model data without network access",
-   "npm run check  # Lint, format, and type check"
-  ],
-  "usage_title": "Pi Agent Harness",
-  "usage_text": "This is the home of the Pi agent harness project including our self extensible coding agent.\n• @earendil-works/pi-coding-agent: Interactive coding agent CLI\n• @earendil-works/pi-agent-core: Agent runtime with tool calling and state management\n• @earendil-works/pi-ai: Unified multi-provider LLM API (OpenAI, Anthropic, Google, …)\nTo learn more about Pi:\n• Visit pi.dev, the project website with demos\n• Read the documentation, but you can also ask the agent to explain itself",
   "usage_code": "",
   "license": "MIT",
   "homepage": "",
@@ -2085,28 +2037,6 @@
   "homepage": "",
   "topics": [],
   "default_branch": "main"
- },
- "jingyaogong/minimind": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/jingyaogong/minimind#readme",
-  "install": [
-   "git clone --depth 1 https://github.com/jingyaogong/minimind",
-   "git clone https://huggingface.co/jingyaogong/minimind-3",
-   "ollama run jingyaogong/minimind-3",
-   "git clone https://github.com/EleutherAI/lm-evaluation-harness",
-   "curl http://localhost:8998/v1/chat/completions -H \"Content-Type: application/json\" -d '{",
-   "ollama create -f minimind.modelfile minimind-local"
-  ],
-  "usage_title": "📌 项目介绍",
-  "usage_text": "大语言模型（Large Language Model, LLM）的出现，引发了全球范围内对 AI 的空前关注。无论是 ChatGPT、DeepSeek 还是 Qwen，都以惊艳的效果让人真切感受到这场技术浪潮的冲击力。然而，动辄数百亿参数的模型规模，使得它们对个人设备而言不仅难以训练，甚至连部署都显得遥不可及。打开大模型的“黑盒子”，真正去理解其内部运作机制，本应是一件令人心潮澎湃的事。遗憾的是，绝大多数探索最终都止步于使用 LoRA 等技术对现有大模型做少量微调，学习一些新指令或特定任务。这更像是在教牛顿如何使用 21 世纪的智能手机——虽然有趣，却偏离了理解物理本质的初衷。\n与此同时，第三方的大模型框架与工具库，如 transformers / trl / peft 等，往往只暴露出高度抽象的接口。只需短短十几行代码，就可以完成“加载模型 + 加载数据集 + 推理 + 强化学习”的全流程训练。这种高效封装固然便利，却也在一定程度上把开发者与底层实现隔离开来，削弱了深入理解 LLM 核心代码的机会。我认为 “用乐高自己拼出一架飞机，远比坐在头等舱里飞行更让人兴奋”，然而更现实的问题是，互联网上充斥着大量付费课程和营销内容，用漏洞百出、一知半解的讲解包装所谓的 AI 教程。正因如此，本项目的初衷就是尽可能降低 LLM 的学习门槛，让每个人都能从理解每一行代码开始，从 0 开始亲手训练一个极小的语言模型。是的，从零开始训练，而不是仅仅停留在推理层面。最低只需不到 3 块钱的服务器成本，就能亲身体验从 0 到 1 构建一个语言模型的全过程。\n😊 一起感受创造的乐趣吧！\n---",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://jingyaogong.github.io/minimind",
-  "topics": [
-   "artificial-intelligence",
-   "large-language-model"
-  ],
-  "default_branch": "master"
  },
  "lightpanda-io/browser": {
   "fetched": "2026-10-31",
@@ -3087,34 +3017,6 @@
   ],
   "default_branch": "master"
  },
- "superdesigndev/treg": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/superdesigndev/treg#readme",
-  "install": [
-   "curl -fsSL https://treg.to/install.sh | sh",
-   "npx skills add superdesigndev/treg  # every public skill",
-   "npx skills add superdesigndev/treg --skill lead-signals  # just one",
-   "bash scripts/build-dashboard.sh # Node 22.12+ and npm; build the Dashboard",
-   "uv sync  # create the venv from uv.lock (pulls the server deps for dev)",
-   "uv run python -m treg upgrade  # prepare schema + run idempotent release tasks without serving"
-  ],
-  "usage_title": "Quickstart",
-  "usage_text": "Same flow as the dashboard's Getting started guide:\nFish Audio provides S2.1 Pro speech, public-voice discovery, and private voice cloning.\nSpeech is binary stdout, so redirect it to a file. A discovered voice's _id or a team voice id is\nthe TTS reference_id; voices created on treg's Fish account are durable team resources:\nWith your own Fish key, requests remain an unrestricted, unmetered upstream relay and Fish owns the\naccount boundary.\nCatalog tool inputs are described by treg catalog get . Tools marked strict_query reject undeclared or repeated query parameters, unsupported values and request bodies…",
-  "usage_code": "# 1. install the CLI — also points it at the registry\ncurl -fsSL https://treg.to/install.sh | sh\n\n# 2. sign in (GitHub default · --email for a one-time code · --token for agents/CI)\ntreg login\n\n# 3. do something useful immediately — no key, nothing registered\ntreg catalog search \"backlinks for a domain\"     # find a tool by what it DOES\ntreg call tikhub.tiktok.user.profile --query uniqueId=tiktok\ntreg balance                                     # exactly what that cost\n\n# (or `treg onboard` for the guided walkthrough)",
-  "license": "",
-  "homepage": "https://treg.to",
-  "topics": [
-   "agents",
-   "api-keys",
-   "cli",
-   "credentials",
-   "developer-tools",
-   "dsh-plugin",
-   "mcp",
-   "proxy"
-  ],
-  "default_branch": "main"
- },
  "tashfeenahmed/freellmapi": {
   "fetched": "2026-10-30",
   "readme_url": "https://github.com/tashfeenahmed/freellmapi#readme",
@@ -3204,21 +3106,6 @@
   ],
   "default_branch": "main"
  },
- "tile-ai/tilelang": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/tile-ai/tilelang#readme",
-  "install": [
-   "pip install tilelang",
-   "pip install tilelang --find-links https://tile-ai.github.io/whl/nightly"
-  ],
-  "usage_title": "Quick Start",
-  "usage_text": "The following example defines, compiles, runs, and verifies an FP16 GEMM kernel with FP32 accumulation and a fused ReLU epilogue. It uses PyTorch CUDA tensors; PyTorch uses the same cuda device name on ROCm systems. TileLang selects the target automatically from the current environment.\n@tilelang.jit specializes the kernel for the input shape and compile-time arguments on first use. T.Pipelined stages global-to-shared transfers, T.gemm maps the tile operation to the target backend, and T.Parallel expresses the elementwise ReLU epilogue. Continue with the language basics, then explore the GEMM examples for layouts, autotuning, and architecture-specific optimizations.",
-  "usage_code": "import torch\nimport tilelang\nimport tilelang.language as T\n\n\n@tilelang.jit\ndef matmul_relu(A, B, block_M: int = 128, block_N: int = 128, block_K: int = 32):\n    M, N, K = T.const(\"M, N, K\")\n    A: T.Tensor((M, K), T.float16)\n    B: T.Tensor((K, N), T.float16)\n    C = T.empty((M, N), T.float16)\n\n    with T.Kernel(T.ceildiv(N, block_N), T.ceildiv(M, block_M), threads=128) as (bx, by):\n        A_shared = T.alloc_shared((block_M, block_K), T.float16)\n        B_shared = T.alloc_shared((block_K, block_N), T.float16)\n        C_local = T.alloc_fragment((block_M, block_N), T.float32)\n\n        T.clear(C_local)\n…",
-  "license": "",
-  "homepage": "https://tilelang.com/",
-  "topics": [],
-  "default_branch": "main"
- },
  "togg53192-cmd/jailbreaks": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/togg53192-cmd/jailbreaks#readme",
@@ -3255,31 +3142,6 @@
    "containerization",
    "cua",
    "desktop-automation"
-  ],
-  "default_branch": "main"
- },
- "tt-a1i/archify": {
-  "fetched": "2026-10-02",
-  "readme_url": "https://github.com/tt-a1i/archify#readme",
-  "install": [
-   "npx skills add tt-a1i/archify -g",
-   "npx -y skills add tt-a1i/archify --skill archify --agent cursor --global --copy --yes",
-   "npx skills use tt-a1i/archify@archify --agent codex"
-  ],
-  "usage_title": "Quick start",
-  "usage_text": "Current stable version: v3.0.1. See Changelog.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://tt-a1i.github.io/archify/",
-  "topics": [
-   "agent-skills",
-   "architecture-as-code",
-   "architecture-diagram",
-   "claude-skill",
-   "code-visualization",
-   "codex",
-   "coding-agents",
-   "data-flow-diagram"
   ],
   "default_branch": "main"
  },
@@ -3405,6 +3267,30 @@
    "gpt",
    "gpt-oss",
    "inference"
+  ],
+  "default_branch": "main"
+ },
+ "vorssaint/vorssaint-utils": {
+  "fetched": "2026-11-01",
+  "readme_url": "https://github.com/vorssaint/vorssaint-utils#readme",
+  "install": [
+   "brew install --cask vorssaint",
+   "git clone https://github.com/vorssaint/vorssaint-utils.git"
+  ],
+  "usage_title": "Install only what you use",
+  "usage_text": "Choose individual features or start with a preset. Uninstalled features stop loading and disappear from the interface; reinstalling restores their settings. Setup asks only for the permissions your choices need.\nReorder or hide panel sections, choose a compact layout, and export settings to another Mac. The app supports more than a dozen languages.",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "https://vorssaint.com",
+  "topics": [
+   "alt-tab",
+   "app-uninstaller",
+   "appkit",
+   "finder",
+   "free",
+   "keep-awake",
+   "mac-os",
+   "menu-bar"
   ],
   "default_branch": "main"
  },
