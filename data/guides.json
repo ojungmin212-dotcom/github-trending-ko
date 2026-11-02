@@ -1,6 +1,6 @@
 {
  "AgriciDaniel/claude-seo": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-11-02",
   "readme_url": "https://github.com/AgriciDaniel/claude-seo#readme",
   "install": [
    "git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git",
@@ -209,29 +209,6 @@
   ],
   "default_branch": "main"
  },
- "Effect-TS/effect": {
-  "fetched": "2026-10-03",
-  "readme_url": "https://github.com/Effect-TS/effect#readme",
-  "install": [
-   "npm install effect"
-  ],
-  "usage_title": "Effect",
-  "usage_text": "Effect is a library for building robust, maintainable, type-safe, and production grade applications in TypeScript. It helps you handle the hard problems at scale: typed errors, dependency injection, structured concurrency, scheduling, tracing, and unified schema validation.\n> Effect 4.x is a long-term support (LTS) release. If you are upgrading from Effect 3.x, follow the migration guide.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://effect.website",
-  "topics": [
-   "cli",
-   "clustering",
-   "concurrency",
-   "dependency-injection",
-   "effect",
-   "error-handling",
-   "javascript",
-   "observability"
-  ],
-  "default_branch": "main"
- },
  "EpicGames/raddebugger": {
   "fetched": "2026-10-15",
   "readme_url": "https://github.com/EpicGames/raddebugger#readme",
@@ -247,6 +224,31 @@
   "homepage": "",
   "topics": [],
   "default_branch": "master"
+ },
+ "FlashML-org/FreeToken": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/FlashML-org/FreeToken#readme",
+  "install": [
+   "uv pip install \"freetoken[accel]\"",
+   "git clone https://github.com/FlashML-org/FreeToken.git && cd FreeToken",
+   "uv pip install -e \".[accel]\""
+  ],
+  "usage_title": "About",
+  "usage_text": "FreeToken is an edge-native Mixture-of-Experts (MoE) serving engine designed for running frontier-scale open-weight models on personal and consumer hardware. It treats heterogeneous edge resources—GPUs, CPUs, host memory, and interconnects—as a unified, elastic inference platform. Its core features include: \n• Fast Edge-Native Runtime: Provides efficient MoE serving with bandwidth-adaptive CPU–GPU co-execution ($q^\\star$ policy), full-layer double-buffered prefill streaming, global LRU expert caching, graph-compatible execution, and the FTW fast weight format…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "flashml.ai",
+  "topics": [
+   "deepseek-v4",
+   "edge",
+   "glm",
+   "inference",
+   "minimax",
+   "moe",
+   "qwen",
+   "transformer"
+  ],
+  "default_branch": "main"
  },
  "Gaurav-Gosain/tuios": {
   "fetched": "2026-10-25",
@@ -348,7 +350,7 @@
   "default_branch": "main"
  },
  "JetBrains/thinkrail": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-11-02",
   "readme_url": "https://github.com/JetBrains/thinkrail#readme",
   "install": [
    "apt install libgtk-3-0 libwebkit2gtk-4.1-0 libayatana-appindicator3-1 librsvg2-2",
@@ -359,7 +361,7 @@
    "git clone https://github.com/JetBrains/thinkrail.git"
   ],
   "usage_title": "ThinkRail",
-  "usage_text": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through\nliving specs today, and building its own capabilities tomorrow.\nWe built a rich interface around the pi\ncoding agent, isolated work into separate workspaces, and gave the agent durable project knowledge\nthrough living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can\ncreate the tools it needs based on how you actually work.\nWebsite: thinkrail.ai · Blog: thinkrail.ai/blog\n⭐ If you find ThinkRail useful, give it a star — it helps others discover it.\nA pi session and the change it made, scoped to an isolated git-worktree workspace.",
+  "usage_text": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through\nliving specs today, and building its own capabilities tomorrow.\nWe built a rich interface around the pi\ncoding agent, isolated work into separate workspaces, and gave the agent durable project knowledge\nthrough living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can\ncreate the tools it needs based on how you actually work.\nWebsite: thinkrail.ai · Blog: thinkrail.ai/blog ·\nDiscord: thinkrail.ai/discord\n⭐ If you find ThinkRail useful, give it a star — it helps others discover it…",
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "https://thinkrail.ai/",
@@ -582,7 +584,7 @@
   "default_branch": "main"
  },
  "NationalSecurityAgency/ghidra": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-11-02",
   "readme_url": "https://github.com/NationalSecurityAgency/ghidra#readme",
   "install": [],
   "usage_title": "Ghidra Software Reverse Engineering Framework",
@@ -803,7 +805,7 @@
   "default_branch": "main"
  },
  "TauricResearch/TradingAgents": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-11-02",
   "readme_url": "https://github.com/TauricResearch/TradingAgents#readme",
   "install": [
    "git clone https://github.com/TauricResearch/TradingAgents.git",
@@ -1080,6 +1082,27 @@
   ],
   "default_branch": "main"
  },
+ "anomalyco/hex": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/anomalyco/hex#readme",
+  "install": [],
+  "usage_title": "How it works",
+  "usage_text": "• hold the shortcut, speak, then let go\n• Hex transcribes on your device and pastes into whatever app you're in\n• the first run downloads a speech model; after that nothing leaves your machine\n• experimental features live in Labs, at the bottom of the sidebar",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://anoma.ly/hex",
+  "topics": [
+   "dictation",
+   "linux",
+   "local-first",
+   "macos",
+   "rust",
+   "speech-recognition",
+   "speech-to-text",
+   "voice-control"
+  ],
+  "default_branch": "dev"
+ },
  "anomalyco/opencode": {
   "fetched": "2026-10-25",
   "readme_url": "https://github.com/anomalyco/opencode#readme",
@@ -1228,6 +1251,29 @@
    "claude-skills",
    "developer-tools",
    "productivity"
+  ],
+  "default_branch": "main"
+ },
+ "beenuar/AiSOC": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/beenuar/AiSOC#readme",
+  "install": [
+   "git clone https://github.com/beenuar/AiSOC && cd AiSOC"
+  ],
+  "usage_title": "What it looks like running",
+  "usage_text": "Watch the full three minutes — install to AI verdict on one\nserver against the published images, terminal waits shortened and the recording saying so on screen.\nThe stills below are from a v20.1.0 run under the same rules — the recording is older than they are.\n(step by step · what is real)",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://beenuar.github.io/AiSOC/",
+  "topics": [
+   "agentic-ai",
+   "ai-security",
+   "alert-triage",
+   "blue-team",
+   "cybersecurity",
+   "detection-engineering",
+   "incident-response",
+   "langgraph"
   ],
   "default_branch": "main"
  },
@@ -1409,6 +1455,25 @@
   ],
   "default_branch": "master"
  },
+ "cjpais/Handy": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/cjpais/Handy#readme",
+  "install": [
+   "apt install ./Handy_*.deb"
+  ],
+  "usage_title": "How It Works",
+  "usage_text": "1. Press a configurable keyboard shortcut: hold it to record and release to stop, or tap it to toggle recording on and off (Hold-only and Toggle-only modes are also available)\n2. Speak your words while the shortcut is active\n3. Release and Handy processes your speech using Whisper\n4. Get your transcribed text pasted directly into whatever app you're using\nThe process is entirely local:\n• Silence is filtered using VAD (Voice Activity Detection) with Silero\n• Transcription uses your choice of models:\n• Whisper models (Small/Medium/Turbo/Large) with GPU acceleration when available\n• Parakeet V3 - CPU-optimized model with excellent performance and automatic language detection…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://handy.computer",
+  "topics": [
+   "accessibility",
+   "cross-platform",
+   "speech-to-text",
+   "tauri-v2"
+  ],
+  "default_branch": "main"
+ },
  "cloudflare/cloudflare-os": {
   "fetched": "2026-10-04",
   "readme_url": "https://github.com/cloudflare/cloudflare-os#readme",
@@ -1456,27 +1521,6 @@
    "inertiajs",
    "laravel",
    "mariadb"
-  ],
-  "default_branch": "main"
- },
- "coreyhaines31/marketingskills": {
-  "fetched": "2026-10-03",
-  "readme_url": "https://github.com/coreyhaines31/marketingskills#readme",
-  "install": [
-   "npx skills add coreyhaines31/marketingskills",
-   "npx skills add coreyhaines31/marketingskills --skill cro copywriting",
-   "npx skills add coreyhaines31/marketingskills --list",
-   "npx skills add coreyhaines31/marketingskills -a claude-code"
-  ],
-  "usage_title": "Usage",
-  "usage_text": "Once installed, just ask your agent to help with marketing tasks:\nYou can also invoke skills directly:",
-  "usage_code": "\"Help me optimize this landing page for conversions\"\n→ Uses cro skill\n\n\"Write homepage copy for my SaaS\"\n→ Uses copywriting skill\n\n\"Set up GA4 tracking for signups\"\n→ Uses analytics skill\n\n\"Create a 5-email welcome sequence\"\n→ Uses emails skill",
-  "license": "MIT",
-  "homepage": "https://marketing-skills.com",
-  "topics": [
-   "claude",
-   "codex",
-   "marketing"
   ],
   "default_branch": "main"
  },
@@ -1694,26 +1738,17 @@
   "topics": [],
   "default_branch": "main"
  },
- "getsentry/sentry": {
-  "fetched": "2026-10-03",
-  "readme_url": "https://github.com/getsentry/sentry#readme",
+ "ghostty-org/ghostty": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/ghostty-org/ghostty#readme",
   "install": [],
-  "usage_title": "What's Sentry?",
-  "usage_text": "Sentry is the debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster.",
+  "usage_title": "Rich Windowing Features",
+  "usage_text": "The Mac and Linux (build with GTK) apps support multi-window, tabbing, and\nsplits with additional features such as tab renaming, coloring, etc. These\nfeatures allow for a higher degree of organization and customization than\nsingle-window terminals.",
   "usage_code": "",
-  "license": "",
-  "homepage": "https://sentry.io",
-  "topics": [
-   "apm",
-   "crash-reporting",
-   "crash-reports",
-   "csp-report",
-   "devops",
-   "django",
-   "error-logging",
-   "error-monitoring"
-  ],
-  "default_branch": "master"
+  "license": "MIT",
+  "homepage": "https://ghostty.org",
+  "topics": [],
+  "default_branch": "main"
  },
  "gitroomhq/postiz-app": {
   "fetched": "2026-10-27",
@@ -1778,39 +1813,6 @@
    "google",
    "test-automation",
    "testing"
-  ],
-  "default_branch": "main"
- },
- "google/ax": {
-  "fetched": "2026-10-03",
-  "readme_url": "https://github.com/google/ax#readme",
-  "install": [
-   "kubectl get svc api -n ate-system",
-   "go install github.com/google/ax/cmd/ax@latest"
-  ],
-  "usage_title": "3. Run your first task",
-  "usage_text": "Want to see the whole lifecycle end to end? Run ./demo.sh. It applies a custom workspace, waits for readiness, runs commands over ax ssh, and suspends the task.",
-  "usage_code": "ax apply -f examples/task.yaml       # Task + Workspace + Model in one file\nax get tasks\n# NAME      ATESPACE   PHASE     ACTOR           WORKER-IP    AGE\n# task123   default    Running   task123         10.20.3.67   1m\n\nax watch task task123                # stream phase and condition changes live\nax ssh task123 -- ls -la /workspace  # poke around inside the sandbox\nax suspend task task123              # checkpoint and pause\nax resume task task123               # pick up where it left off",
-  "license": "Apache-2.0",
-  "homepage": "https://agentexecutor.io",
-  "topics": [],
-  "default_branch": "main"
- },
- "google/skills": {
-  "fetched": "2026-10-03",
-  "readme_url": "https://github.com/google/skills#readme",
-  "install": [
-   "npx skills add google/skills"
-  ],
-  "usage_title": "Agent Skills",
-  "usage_text": "This repository contains Agent Skills for Google\nproducts and technologies, including Google Cloud.",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "",
-  "topics": [
-   "google",
-   "googlecloud",
-   "skills"
   ],
   "default_branch": "main"
  },
@@ -1965,6 +1967,23 @@
   "topics": [],
   "default_branch": "main"
  },
+ "hyprwm/Hyprland": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/hyprwm/Hyprland#readme",
+  "install": [],
+  "usage_title": "Features",
+  "usage_text": "• All of the eyecandy: gradient borders, many types of blur, animations, glow, shadows and much more\n• A lot of customization\n• 100% independent, no wlroots, no libweston, no kwin, no mutter.\n• Custom bezier and spring curves for the best animations\n• Powerful plugin support\n• Built-in plugin manager\n• Tearing support for better gaming performance\n• Easily expandable and readable codebase\n• Fast and active development\n• Not afraid to provide bleeding-edge features\n• Config reloaded instantly upon saving\n• Global keybinds passed to your apps of choice\n• Tiling/pseudotiling/floating/fullscreen windows\n• Special workspaces (scratchpads)\n• Window groups (tabbed mode)…",
+  "usage_code": "",
+  "license": "BSD-3-Clause",
+  "homepage": "https://hypr.land",
+  "topics": [
+   "compositor",
+   "cpp26",
+   "wayland",
+   "wayland-compositor"
+  ],
+  "default_branch": "main"
+ },
  "ifixai-ai/iFixAi": {
   "fetched": "2026-10-15",
   "readme_url": "https://github.com/ifixai-ai/iFixAi#readme",
@@ -2036,6 +2055,32 @@
   "license": "",
   "homepage": "",
   "topics": [],
+  "default_branch": "main"
+ },
+ "kornia/kornia": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/kornia/kornia#readme",
+  "install": [
+   "pip install kornia",
+   "pip install -e .",
+   "curl -fsSL https://pixi.sh/install.sh | bash",
+   "pip install git+https://github.com/kornia/kornia"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "Kornia is not just another computer vision library — it's your gateway to effortless Computer Vision and AI.\n Get started with Kornia image transformation and augmentation! \n Find out Kornia ONNX models with ONNXSequential!",
+  "usage_code": "import numpy as np\nimport kornia_rs as kr\n\nfrom kornia.augmentation import AugmentationSequential, RandomAffine, RandomBrightness\nfrom kornia.filters import StableDiffusionDissolving\n\n# Load and prepare your image\nimg: np.ndarray = kr.read_image_any(\"img.jpeg\")\nimg = kr.resize(img, (256, 256), interpolation=\"bilinear\")\n\n# alternatively, load image with PIL\n# img = Image.open(\"img.jpeg\").resize((256, 256))\n# img = np.array(img)\n\nimg = np.stack([img] * 2)  # batch images\n\n# Define an augmentation pipeline\naugmentation_pipeline = AugmentationSequential(RandomAffine((-45.0, 45.0), p=1.0), RandomBrightness((0.0, 1.0), p=1.0))\n…",
+  "license": "Apache-2.0",
+  "homepage": "https://kornia.readthedocs.io",
+  "topics": [
+   "artificial-intelligence",
+   "computer-vision",
+   "deep-learning",
+   "hacktoberfest",
+   "image-processing",
+   "machine-learning",
+   "neural-network",
+   "python"
+  ],
   "default_branch": "main"
  },
  "lightpanda-io/browser": {
@@ -2450,7 +2495,7 @@
   "default_branch": "main"
  },
  "multica-ai/andrej-karpathy-skills": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-11-02",
   "readme_url": "https://github.com/multica-ai/andrej-karpathy-skills#readme",
   "install": [
    "curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md",
@@ -2672,6 +2717,25 @@
   ],
   "default_branch": "master"
  },
+ "patchy631/ai-engineering-hub": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/patchy631/ai-engineering-hub#readme",
+  "install": [],
+  "usage_title": "🎯 Getting Started",
+  "usage_text": "New to AI Engineering? Start here:\n1. Complete Beginners: Check out the AI Engineering Roadmap for a comprehensive learning path\n2. Learn the Basics: Start with Beginner Projects like OCR apps and simple RAG implementations\n3. Build Your Skills: Move to Intermediate Projects with agents and complex workflows\n4. Master Advanced Concepts: Tackle Advanced Projects including fine-tuning and production systems\n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://join.dailydoseofds.com",
+  "topics": [
+   "agents",
+   "ai",
+   "llms",
+   "machine-learning",
+   "mcp",
+   "rag"
+  ],
+  "default_branch": "main"
+ },
  "pbakaus/impeccable": {
   "fetched": "2026-10-27",
   "readme_url": "https://github.com/pbakaus/impeccable#readme",
@@ -2705,7 +2769,7 @@
   "default_branch": "master"
  },
  "pingdotgg/t3code": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-11-02",
   "readme_url": "https://github.com/pingdotgg/t3code#readme",
   "install": [
    "curl -fsSL https://t3.codes/install.sh | sh",
@@ -2713,10 +2777,10 @@
    "scoop install extras/t3code",
    "brew install --cask t3-code",
    "apt install ./T3-Code-*.deb",
-   "curl -fsSL https://vite.plus | bash"
+   "nix profile add github:NixOS/nixpkgs/nixos-unstable#t3code"
   ],
   "usage_title": "T3 Code",
-  "usage_text": "T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app.\nWorks with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, and Google Antigravity. If they're set up on your computer, T3 Code can control them.",
+  "usage_text": "T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app.\nWorks with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them.",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://t3.codes",
@@ -2734,6 +2798,27 @@
   "homepage": "https://pollen-robotics.com/microduck",
   "topics": [],
   "default_branch": "main"
+ },
+ "public-apis/public-apis": {
+  "fetched": "2026-11-02",
+  "readme_url": "https://github.com/public-apis/public-apis#readme",
+  "install": [],
+  "usage_title": "APILayer Unified Suite is now Live! 🎉 🥳",
+  "usage_text": "APILayer unified suite allows you to integrate production-grade REST APIs using One Account, One Dashboard, and One API key. Whether you need to geocode an address, validate an email, fetch a flight, pull stock market data, or scrape a search result.\nSign up and start building today!\nFork our official APILayer Postman Collection and get started in under 60 seconds.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
+  "topics": [
+   "api",
+   "apis",
+   "dataset",
+   "development",
+   "free",
+   "list",
+   "lists",
+   "open-source"
+  ],
+  "default_branch": "master"
  },
  "pytorch/pytorch": {
   "fetched": "2026-10-11",
@@ -2876,7 +2961,7 @@
   "default_branch": "main"
  },
  "shiyu-coder/Kronos": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-11-02",
   "readme_url": "https://github.com/shiyu-coder/Kronos#readme",
   "install": [
    "pip install -r requirements.txt",
