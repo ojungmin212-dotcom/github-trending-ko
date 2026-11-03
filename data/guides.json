@@ -137,6 +137,34 @@
   ],
   "default_branch": "main"
  },
+ "D4Vinci/Scrapling": {
+  "fetched": "2026-11-03",
+  "readme_url": "https://github.com/D4Vinci/Scrapling#readme",
+  "install": [
+   "pip install scrapling",
+   "pip install \"scrapling[shell]\"",
+   "pip install \"scrapling[fetchers]\"",
+   "pip install \"scrapling[ai]\"",
+   "pip install \"scrapling[rag]\"",
+   "pip install \"scrapling[all]\""
+  ],
+  "usage_title": "AI Features",
+  "usage_text": "• 🤖 MCP Server: Let AI chatbots and agents (Claude/Cursor/etc) scrape through Scrapling with HTTP requests, browser actions, screenshots, saved login state, and background API responses. Uses our stealthy browser with the right tools to enable suitable AI models to bypass any CAPTCHA is faces while working (not to mention our Cloudflare solver). It uses a lot of methods to reduce the content sent to the model, block ads, and protect it against Prompt-Injection. Remote browsers over CDP and HTTP transport with authentication options are included. (demo video)…",
+  "usage_code": "",
+  "license": "BSD-3-Clause",
+  "homepage": "https://scrapling.readthedocs.io/en/latest/",
+  "topics": [
+   "ai",
+   "ai-scraping",
+   "automation",
+   "crawler",
+   "crawling",
+   "crawling-python",
+   "data",
+   "data-extraction"
+  ],
+  "default_branch": "main"
+ },
  "DietrichGebert/ponytail": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
@@ -404,7 +432,7 @@
   "default_branch": "main"
  },
  "JustVugg/colibri": {
-  "fetched": "2026-10-14",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/JustVugg/colibri#readme",
   "install": [
    "apt install git python3 build-essential",
@@ -638,24 +666,6 @@
    "pytorch",
    "speech",
    "speech-synthesis"
-  ],
-  "default_branch": "main"
- },
- "OpenCut-app/OpenCut": {
-  "fetched": "2026-10-04",
-  "readme_url": "https://github.com/OpenCut-app/OpenCut#readme",
-  "install": [
-   "bash <(curl -fsSL https://moonrepo.dev/install/proto.sh)"
-  ],
-  "usage_title": "Status",
-  "usage_text": "OpenCut is being rewritten from the ground up. What's coming:\n• An Editor API\n• First-class third party plugins (made possible by a plugin-first architecture)\n• Desktop, mobile, and browser from one codebase (Rust core)\n• MCP server (for AI agents)\n• Headless mode (automation, batch rendering)\n• A scripting tab directly in the editor\nYou can still find the previous version at opencut-app/opencut-classic, which is the one to reach for today. opencut.app still runs the classic version. The rewrite will live at new.opencut.app until it's ready to take over.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://opencut.app",
-  "topics": [
-   "editor",
-   "oss",
-   "videoeditor"
   ],
   "default_branch": "main"
  },
@@ -1474,18 +1484,6 @@
   ],
   "default_branch": "main"
  },
- "cloudflare/cloudflare-os": {
-  "fetched": "2026-10-04",
-  "readme_url": "https://github.com/cloudflare/cloudflare-os#readme",
-  "install": [],
-  "usage_title": "Quick Start",
-  "usage_text": "To quickly run Cloudflare OS locally, install pnpm, then do:\n pnpm run-local\nThen visit: http://localhost:8787\nThis runs the whole stack locally on wrangler and workerd. This is not meant for production use, but is a quick way to see what the product does.\nAlternatively, you can deploy to your Cloudflare account.\n(More options at the end of this readme.)",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://os.cloudflare.app",
-  "topics": [],
-  "default_branch": "main"
- },
  "cloudflare/security-audit-skill": {
   "fetched": "2026-10-31",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
@@ -1594,18 +1592,13 @@
   "default_branch": "main"
  },
  "earthtojake/text-to-cad": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/earthtojake/text-to-cad#readme",
   "install": [
-   "claude plugin marketplace add earthtojake/text-to-cad#latest",
-   "claude plugin install text-to-cad@earthtojake",
-   "codex plugin marketplace add earthtojake/text-to-cad --ref latest",
-   "codex plugin add text-to-cad@earthtojake",
-   "git clone --depth 1 --branch latest https://github.com/earthtojake/text-to-cad ~/.cursor/plugins/local/text-to-cad",
-   "npx skills add earthtojake/text-to-cad#latest"
+   "curl -fsSL https://texttocad.dev/install.sh | sh"
   ],
-  "usage_title": "text-to-cad",
-  "usage_text": "The text-to-cad plugin gives your agent local workflows for generating 3D models\nas STEP, GLB, STL or 3MF files. It also does design for manufacturing checks,\ngenerates engineering drawings, and connects to popular 3D printing, sheet metal\nand CNC fabrication services.\nIt is supported by all popular agents that support plugins or the\nskills framework, including Claude Code, Codex, Cursor,\nGemini and Grok.",
+  "usage_title": "How it works",
+  "usage_text": "1. Your agent writes each model as a Python script with build123d, built on Open CASCADE.\n2. Running the script, python model.py, builds the model with text-to-cad's\n server into an .xbf document (its parts, names, colours, materials and joints)\n and the STEP, GLB, STL or 3MF files the script declares. The server keeps each\n model's work in memory, so an edit rebuilds only what it changed.\n3. The CAD viewer shows the model in your agent app or your browser, and follows\n every rebuild.",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://www.texttocad.dev",
@@ -1948,25 +1941,6 @@
   ],
   "default_branch": "main"
  },
- "humanlayer/skills": {
-  "fetched": "2026-10-04",
-  "readme_url": "https://github.com/humanlayer/skills#readme",
-  "install": [
-   "npx skills add humanlayer/skills --skill SKILLNAME",
-   "npx skills add humanlayer/skills --skill show-me",
-   "npx skills add humanlayer/skills --skill visual-pr",
-   "npx skills add humanlayer/skills --skill improve-claude-md",
-   "npx skills add humanlayer/skills --skill narrow-react-prop-types",
-   "npx skills add humanlayer/skills --skill build-iterated-agentic-loop"
-  ],
-  "usage_title": "show-me",
-  "usage_text": "Explains the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts.\nThen invoke:",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "hyprwm/Hyprland": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/hyprwm/Hyprland#readme",
@@ -2026,25 +2000,6 @@
   "topics": [],
   "default_branch": "main"
  },
- "jamwithai/production-agentic-rag-course": {
-  "fetched": "2026-10-04",
-  "readme_url": "https://github.com/jamwithai/production-agentic-rag-course#readme",
-  "install": [
-   "git clone <repository-url>",
-   "docker compose up --build -d",
-   "curl http://localhost:8000/api/v1/health",
-   "uv run jupyter notebook notebooks/week1/week1_setup.ipynb",
-   "uv run jupyter notebook notebooks/week3/week3_opensearch.ipynb",
-   "uv run jupyter notebook notebooks/week4/week4_hybrid_search.ipynb"
-  ],
-  "usage_title": "Phase 1 RAG Systems: arXiv Paper Curator",
-  "usage_text": "A Learner-Focused Journey into Production RAG Systems \n Learn to build modern AI systems from the ground up through hands-on implementation \n Master the most in-demand AI engineering skills: RAG (Retrieval-Augmented Generation)",
-  "usage_code": "# 1. Clone and setup\ngit clone <repository-url>\ncd arxiv-paper-curator\n\n# 2. Configure environment (IMPORTANT!)\ncp .env.example .env\n# The .env file contains all necessary configuration for OpenSearch, \n# arXiv API, and service connections. Defaults work out of the box.\n# You need to add Jina embeddings free api key and langfuse keys (check the blogs)\n\n# 3. Install dependencies\nuv sync\n\n# 4. Start all services\ndocker compose up --build -d\n\n# 5. Verify everything works\ncurl http://localhost:8000/api/v1/health",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "jbiaojerry/ebook-treasure-chest": {
   "fetched": "2026-10-25",
   "readme_url": "https://github.com/jbiaojerry/ebook-treasure-chest#readme",
@@ -2056,6 +2011,20 @@
   "homepage": "",
   "topics": [],
   "default_branch": "main"
+ },
+ "karpathy/nanochat": {
+  "fetched": "2026-11-03",
+  "readme_url": "https://github.com/karpathy/nanochat#readme",
+  "install": [
+   "bash runs/speedrun.sh"
+  ],
+  "usage_title": "Running on CPU / MPS",
+  "usage_text": "The script runs/runcpu.sh shows a very simple example of running on CPU or Apple Silicon. It dramatically shrinks the LLM that is being trained to make things fit into a reasonable time interval of a few ten minutes of training. You will not get strong results in this way.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "master"
  },
  "kornia/kornia": {
   "fetched": "2026-11-02",
@@ -2300,7 +2269,7 @@
   "default_branch": "main"
  },
  "max-sixty/worktrunk": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/max-sixty/worktrunk#readme",
   "install": [
    "brew install worktrunk && wt config shell install",
@@ -2325,31 +2294,13 @@
   ],
   "default_branch": "main"
  },
- "meituan-longcat/LongCat-Video": {
-  "fetched": "2026-10-04",
-  "readme_url": "https://github.com/meituan-longcat/LongCat-Video#readme",
-  "install": [
-   "git clone --single-branch --branch main https://github.com/meituan-longcat/LongCat-Video",
-   "conda create -n longcat-video python=3.10",
-   "pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124",
-   "pip install ninja",
-   "pip install psutil",
-   "pip install packaging"
-  ],
-  "usage_title": "Key Features",
-  "usage_text": "• 🌟 Unified architecture for multiple tasks: LongCat-Video unifies Text-to-Video, Image-to-Video, and Video-Continuation tasks within a single video generation framework. It natively supports all these tasks with a single model and consistently delivers strong performance across each individual task.\n• 🌟 Long video generation: LongCat-Video is natively pretrained on Video-Continuation tasks, enabling it to produce minutes-long videos without color drifting or quality degradation…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "michael-denyer/pstack-claude": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/michael-denyer/pstack-claude#readme",
   "install": [
    "codex plugin marketplace add michael-denyer/pstack-claude",
-   "codex plugin add pstack@pstack-claude"
+   "codex plugin add pstack@pstack-claude",
+   "git clone https://github.com/michael-denyer/pstack-claude"
   ],
   "usage_title": "Getting started",
   "usage_text": "For a bug, it reproduces the failure, uses how and why to investigate, delegates the fix, then reruns the failing case. If the fix crosses a function boundary, it brings in architect before implementation. You receive the fix and the failing and passing evidence.\nOther playbooks cover planning, features, refactoring, performance issues, investigations, prototypes, PR maintenance, shipping, and longer projects.",
@@ -2364,7 +2315,7 @@
    "chatgpt",
    "claude",
    "claude-code",
-   "claude-code-plugin"
+   "claude-code-skills"
   ],
   "default_branch": "main"
  },
@@ -2455,7 +2406,7 @@
   "default_branch": "main"
  },
  "morluto/rea": {
-  "fetched": "2026-10-21",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/morluto/rea#readme",
   "install": [
    "npx rea-agents setup",
@@ -2470,13 +2421,13 @@
   "homepage": "https://rea.tools",
   "topics": [
    "agent-skills",
-   "ai-agents",
-   "binary-analysis",
+   "ai",
+   "android",
    "claude-code",
    "cli",
-   "codex",
-   "cordis",
-   "decompiler"
+   "cpp",
+   "dsh-plugin",
+   "html"
   ],
   "default_branch": "main"
  },
@@ -2674,6 +2625,28 @@
   ],
   "default_branch": "main"
  },
+ "p-e-w/heretic": {
+  "fetched": "2026-11-03",
+  "readme_url": "https://github.com/p-e-w/heretic#readme",
+  "install": [
+   "pip install -U heretic-llm"
+  ],
+  "usage_title": "Modify any LLM that you can run on your hardware[^1]",
+  "usage_text": "[^1]: Heretic supports on-the-fly 4-bit model quantization with bitsandbytes,\nwhich can reduce the amount of VRAM required to process a model to the same amount\nthat is used to run a typical quantized version of it, at a slight accuracy cost.\nSet the quantization option to bnb_4bit to enable this.\nHeretic is a unique tool that lets you do what only corporations with access\nto massive computing power usually do: Modify, rather than merely run,\nlanguage models. It does not perform expensive training; rather, it uses\na collection of mathematical techniques to steer behavior based on contrasting\nexample prompts and matching scorers.\nHeretic can, depending on the configuration…",
+  "usage_code": "",
+  "license": "AGPL-3.0",
+  "homepage": "https://heretic-project.org",
+  "topics": [
+   "abliteration",
+   "anti-censorship",
+   "anticensorship",
+   "censorship",
+   "censorship-resistance",
+   "llm",
+   "transformer"
+  ],
+  "default_branch": "master"
+ },
  "pablostanley/yoinks": {
   "fetched": "2026-10-09",
   "readme_url": "https://github.com/pablostanley/yoinks#readme",
@@ -2690,7 +2663,7 @@
   "default_branch": "main"
  },
  "paperclipai/paperclip": {
-  "fetched": "2026-10-24",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/paperclipai/paperclip#readme",
   "install": [
    "npx paperclipai@latest onboard --yes",
@@ -2737,18 +2710,24 @@
   "default_branch": "main"
  },
  "pbakaus/impeccable": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/pbakaus/impeccable#readme",
   "install": [
    "npx impeccable install",
-   "npx impeccable update"
+   "npx impeccable link --source=vendor/impeccable --providers=claude,cursor"
   ],
-  "usage_title": "Usage Examples",
-  "usage_text": "Or use /impeccable directly with a description:",
-  "usage_code": "/impeccable audit blog           # Audit blog hub + post pages\n/impeccable critique landing     # UX design review\n/impeccable polish settings      # Final pass before shipping\n/impeccable harden checkout      # Add error handling + edge cases",
+  "usage_title": "How it works",
+  "usage_text": "Run /impeccable init once per project. It reads your code, asks only what it can't infer (who the product is for, what it needs to do, the constraints), and writes PRODUCT.md. Every later command reads it. Run /impeccable document to capture your existing visual system in DESIGN.md, so changes stay on-brand. More on context files.\nThen name a command and a target:\nOr just describe what you want: /impeccable redo this hero section. Narrow targets get better results; a single section reviewed closely beats a whole page at a glance. Pin a command you use often with /impeccable pin audit to get /audit as its own shortcut.",
+  "usage_code": "/impeccable critique the onboarding flow\n/impeccable quieter the landing page\n/impeccable polish settings\n/impeccable harden checkout",
   "license": "Apache-2.0",
   "homepage": "https://impeccable.style",
-  "topics": [],
+  "topics": [
+   "agent-skills",
+   "ai",
+   "anti-slop",
+   "design",
+   "slop"
+  ],
   "default_branch": "main"
  },
  "php/php-src": {
@@ -2848,12 +2827,15 @@
   "default_branch": "main"
  },
  "ranxianglei/billion-context": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/ranxianglei/billion-context#readme",
   "install": [
    "npm install -g billion-context --prefix=~/.local",
    "curl -s http://localhost:8787/__bili/health",
-   "curl -s http://localhost:8787/__bili/stats"
+   "curl -s http://localhost:8787/__bili/stats",
+   "git clone https://github.com/ranxianglei/billion-context.git",
+   "npm run build",
+   "docker build -t billion-context ."
   ],
   "usage_title": "billion-context",
   "usage_text": "English | 中文 \n Context-compression plugin — billion-context is all you need. \n small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality \n npm install -g billion-context --prefix=~/.local \n---\n> Cache health at a glance: a healthy session keeps a 95–97% prefix-cache hit rate — compression itself costs ≤2%. Sustained lower? Check attribution with /acp or /acp-cache (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug (please report) · other/unknown.",
@@ -3142,16 +3124,16 @@
   "default_branch": "master"
  },
  "tester-army/e2e": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-11-03",
   "readme_url": "https://github.com/tester-army/e2e#readme",
   "install": [
    "npx e2e init"
   ],
   "usage_title": "Quick start",
-  "usage_text": "init asks for an engine, web or mobile, and a model provider, then writes a\nconfig and an example test. The\nquickstart covers the rest.\nTo see a finished setup in your stack, open\nexamples/:\nVite, Next.js, Astro, Expo, SwiftUI, Jetpack Compose, Kotlin Multiplatform,\nand Flutter, each a standalone project with a passing suite.",
+  "usage_text": "init asks for an engine, web or mobile, and a model provider, then writes a\nconfig and an example test. The\nquickstart covers the rest.\nTo see a finished setup in your stack, open\nexamples/:\nVite, Next.js, Astro, Angular, Expo, SwiftUI, Jetpack Compose, Kotlin Multiplatform,\nFlutter, and .NET MAUI, each a standalone project with a passing suite.",
   "usage_code": "npx e2e init",
   "license": "Apache-2.0",
-  "homepage": "https://tester.army/e2e",
+  "homepage": "https://e2e.tester.army",
   "topics": [
    "e2e",
    "e2e-testing",
@@ -3294,6 +3276,30 @@
   ],
   "default_branch": "main"
  },
+ "vercel-labs/agent-desktop": {
+  "fetched": "2026-11-03",
+  "readme_url": "https://github.com/vercel-labs/agent-desktop#readme",
+  "install": [
+   "npm install -g agent-desktop",
+   "npx skills add https://github.com/vercel-labs/agent-desktop --skill agent-desktop"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Observe, act on a ref, observe again. Any app name from agent-desktop list-apps works; Finder is the macOS example.\nEach command prints one JSON envelope; a trimmed snapshot follows the commands.\n• Refs belong to their snapshot. A bare @e8 is rejected with INVALID_ARGS. When the UI changes, an action\n returns STALEREF or AMBIGUOUSTARGET: take a new snapshot and use its refs.\n• Several windows give AMBIGUOUS_TARGET; snapshot lists the candidate window ids in error.details. Pass one\n with --window-id.\n• Dense apps: map first with snapshot --skeleton --app Slack -i --compact, then drill into one region with\n snapshot --root @s8f3k2p9:e3 -i --compact…",
+  "usage_code": "agent-desktop snapshot --app Finder -i      # interactive elements, each with a ref\nagent-desktop click @s8f3k2p9:e8            # act on a ref from that snapshot\nagent-desktop snapshot --app Finder -i      # observe again to verify",
+  "license": "Apache-2.0",
+  "homepage": "https://agent-browser.dev/desktop",
+  "topics": [
+   "accessibility",
+   "accessibility-api",
+   "ai-agents",
+   "automation",
+   "cli",
+   "computer-use",
+   "computer-use-agent",
+   "computer-use-agents"
+  ],
+  "default_branch": "main"
+ },
  "vercel-labs/skills": {
   "fetched": "2026-10-31",
   "readme_url": "https://github.com/vercel-labs/skills#readme",
@@ -3310,27 +3316,6 @@
   "homepage": "https://skills.sh",
   "topics": [],
   "default_branch": "main"
- },
- "vercel/next.js": {
-  "fetched": "2026-10-04",
-  "readme_url": "https://github.com/vercel/next.js#readme",
-  "install": [],
-  "usage_title": "",
-  "usage_text": "",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://nextjs.org",
-  "topics": [
-   "blog",
-   "browser",
-   "compiler",
-   "components",
-   "hybrid",
-   "nextjs",
-   "node",
-   "react"
-  ],
-  "default_branch": "canary"
  },
  "vllm-project/vllm": {
   "fetched": "2026-10-21",
