@@ -889,6 +889,34 @@
   ],
   "default_branch": "main"
  },
+ "Usagi-org/ai-goofish-monitor": {
+  "fetched": "2026-11-04",
+  "readme_url": "https://github.com/Usagi-org/ai-goofish-monitor#readme",
+  "install": [
+   "git clone https://github.com/Usagi-org/ai-goofish-monitor && cd ai-goofish-monitor",
+   "docker compose up -d",
+   "docker compose logs -f app",
+   "docker compose down",
+   "docker pull ghcr.nju.edu.cn/usagi-org/ai-goofish:latest",
+   "docker tag ghcr.nju.edu.cn/usagi-org/ai-goofish:latest ghcr.io/usagi-org/ai-goofish:latest"
+  ],
+  "usage_title": "核心特性",
+  "usage_text": "• Web 可视化管理: 任务管理、账号管理、AI 标准编辑、运行日志、结果浏览\n• AI 驱动: 自然语言创建任务，多模态模型深度分析商品\n• 多任务并发: 独立配置关键词、价格、筛选条件和 AI Prompt\n• 高级筛选: 包邮、新发布时间范围、省/市/区三级区域筛选\n• 即时通知: 支持 ntfy.sh、企业微信、Bark、Telegram、Webhook等多渠道\n• 定时调度: 支持 Cron 配置周期性任务\n• 账号与代理轮换: 多账号管理、任务绑定账号、代理池轮换与失败重试\n• Docker 部署: 一键容器化部署",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "ai",
+   "ai-assistant",
+   "ai-tools",
+   "automation",
+   "gemini",
+   "goofish",
+   "open-source",
+   "openai"
+  ],
+  "default_branch": "master"
+ },
  "VectifyAI/PageIndex": {
   "fetched": "2026-10-24",
   "readme_url": "https://github.com/VectifyAI/PageIndex#readme",
@@ -1212,20 +1240,6 @@
   ],
   "default_branch": "main"
  },
- "antirez/ds4": {
-  "fetched": "2026-10-05",
-  "readme_url": "https://github.com/antirez/ds4#readme",
-  "install": [
-   "git clone https://github.com/antirez/ds4.git"
-  ],
-  "usage_title": "How to use this project?",
-  "usage_text": "I (Salvatore) believe that the way projects should be shipped and used changed because of AI. The main differences today are:\n1. With AI, users can modify the software in significant ways with low efforts, costs, and even lacking deep domain knowledge about the task they want to accomplish. For instance, a DwarfStar user with a specific hardware setup can ask a coding agent to improve the inference speed of this software for the specific hardware setup, asking the model to reach the maximum prefill and generation speed without impacting correctness, and also asking to do a deep QA pass…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "aws/agent-toolkit-for-aws": {
   "fetched": "2026-10-25",
   "readme_url": "https://github.com/aws/agent-toolkit-for-aws#readme",
@@ -1370,54 +1384,6 @@
    "open-education",
    "self-directed-learning",
    "tutorial"
-  ],
-  "default_branch": "main"
- },
- "caddyserver/caddy": {
-  "fetched": "2026-10-05",
-  "readme_url": "https://github.com/caddyserver/caddy#readme",
-  "install": [
-   "git clone \"https://github.com/caddyserver/caddy.git\"",
-   "go run -exec ./setcap.sh main.go"
-  ],
-  "usage_title": "Features",
-  "usage_text": "• Easy configuration with the Caddyfile\n• Powerful configuration with its native JSON config\n• Dynamic configuration with the JSON API\n• Config adapters if you don't like JSON\n• Automatic HTTPS by default\n• ZeroSSL and Let's Encrypt for public names\n• Fully-managed local CA for internal names & IPs\n• Can coordinate with other Caddy instances in a cluster\n• Multi-issuer fallback\n• Encrypted ClientHello (ECH) support\n• Stays up when other servers go down due to TLS/OCSP/certificate-related issues\n• Production-ready after serving trillions of requests and managing millions of TLS certificates\n• Scales to hundreds of thousands of sites as proven in production…",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://caddyserver.com",
-  "topics": [
-   "acme",
-   "automatic-https",
-   "caddy",
-   "caddyfile",
-   "go",
-   "golang",
-   "http",
-   "http-server"
-  ],
-  "default_branch": "master"
- },
- "calesthio/OpenMontage": {
-  "fetched": "2026-10-05",
-  "readme_url": "https://github.com/calesthio/OpenMontage#readme",
-  "install": [
-   "git clone https://github.com/calesthio/OpenMontage.git",
-   "make setup"
-  ],
-  "usage_title": "Install & Run",
-  "usage_text": "Open the project in your AI coding assistant and tell it what you want:\nOr if you want the real-footage path:\nThat's it. The agent researches your topic with live web search, generates AI images, writes and narrates the script with voice direction, finds royalty-free background music automatically, burns in word-level subtitles, and renders the final video. Before you see anything, the system runs a multi-point self-review — ffprobe validation, frame sampling, audio level analysis, delivery promise verification, and subtitle checks. Every provider selection is scored across 7 dimensions with an auditable decision log. Every creative decision gets your approval…",
-  "usage_code": "git clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\nmake setup",
-  "license": "AGPL-3.0",
-  "homepage": "https://www.openmontage.video/",
-  "topics": [
-   "agent",
-   "agentic-ai",
-   "ai",
-   "claude",
-   "copilot",
-   "cursor",
-   "elevenlabs",
-   "ffmpeg"
   ],
   "default_branch": "main"
  },
@@ -1696,6 +1662,32 @@
   ],
   "default_branch": "master"
  },
+ "floci-io/floci": {
+  "fetched": "2026-11-04",
+  "readme_url": "https://github.com/floci-io/floci#readme",
+  "install": [
+   "docker compose up",
+   "docker run -d --name floci -p 4566:4566 -v /var/run/docker.sock:/var/run/docker.sock -u root floci/floci:latest",
+   "npm install --save-dev @floci/testcontainers",
+   "pip install testcontainers-floci"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "The fastest way to run Floci is with the official CLI\nNo Docker? Each release also ships a standalone floci-aws\nbinary for Linux, macOS and Windows; see Native binary.\nExport the AWS environment variables:\nUse your existing AWS tools normally:",
+  "usage_code": "floci start",
+  "license": "MIT",
+  "homepage": "https://floci.io/floci/",
+  "topics": [
+   "aws",
+   "aws-emulation",
+   "devops",
+   "docker",
+   "ec2",
+   "ecs",
+   "localstack",
+   "s3"
+  ],
+  "default_branch": "main"
+ },
  "flutter/flutter": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/flutter/flutter#readme",
@@ -1716,20 +1708,6 @@
    "flutter-package"
   ],
   "default_branch": "master"
- },
- "garrytan/gstack": {
-  "fetched": "2026-10-05",
-  "readme_url": "https://github.com/garrytan/gstack#readme",
-  "install": [
-   "git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack"
-  ],
-  "usage_title": "Quick start",
-  "usage_text": "1. Install gstack (about 30 seconds of setup — see below)\n2. Run /office-hours — describe what you're building\n3. Run /plan-ceo-review on any feature idea\n4. Run /review on any branch with changes\n5. Run /qa on your staging URL or an isolated local API, CLI, job or webhook\n6. Stop there. You'll know if this is for you.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
  },
  "ghostty-org/ghostty": {
   "fetched": "2026-11-02",
@@ -1838,7 +1816,7 @@
   "default_branch": "main"
  },
  "heygen-com/hyperframes": {
-  "fetched": "2026-10-28",
+  "fetched": "2026-11-04",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
   "install": [
    "claude plugin marketplace add heygen-com/hyperframes",
@@ -2360,7 +2338,7 @@
   "default_branch": "main"
  },
  "mksglu/context-mode": {
-  "fetched": "2026-10-28",
+  "fetched": "2026-11-04",
   "readme_url": "https://github.com/mksglu/context-mode#readme",
   "install": [
    "claude mcp add context-mode -- npx -y context-mode",
@@ -2374,7 +2352,7 @@
   "usage_text": "Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides.",
   "usage_code": "",
   "license": "",
-  "homepage": "https://contextmode.ai",
+  "homepage": "https://contextmode.ai/?utm_source=github&utm_medium=about",
   "topics": [
    "antigravity",
    "claude",
@@ -2575,7 +2553,7 @@
   "default_branch": "master"
  },
  "obra/superpowers": {
-  "fetched": "2026-10-28",
+  "fetched": "2026-11-04",
   "readme_url": "https://github.com/obra/superpowers#readme",
   "install": [
    "git clone https://github.com/obra/superpowers.git"
@@ -2981,7 +2959,7 @@
   "default_branch": "main"
  },
  "spotify/portal-ai-plugins": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-11-04",
   "readme_url": "https://github.com/spotify/portal-ai-plugins#readme",
   "install": [
    "claude plugin marketplace add spotify/portal-ai-plugins",
@@ -2991,7 +2969,7 @@
    "npx @spotify/portal-cli <command>"
   ],
   "usage_title": "Spotify Portal AI Plugins",
-  "usage_text": "Bring Spotify Portal into Claude Code, Codex, and Cursor.\nThis plugin provides focused workflows for the\nPortal CLI: set up\nauthentication, search your software catalog, build service briefings, run\ndiagnostics, and invoke Portal actions.",
+  "usage_text": "Bring Spotify Portal into Claude Code, Codex, Cursor, and pi.\nThis plugin provides focused workflows for the\nPortal CLI: set up\nauthentication, search your software catalog, build service briefings, run\ndiagnostics, and invoke Portal actions.",
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "",
