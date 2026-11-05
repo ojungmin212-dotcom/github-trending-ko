@@ -253,6 +253,29 @@
   "topics": [],
   "default_branch": "master"
  },
+ "FareedKhan-dev/kimi-k3-in-c": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c#readme",
+  "install": [
+   "git clone https://github.com/FareedKhan-dev/kimi-k3-in-c.git"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Clone, build and run the entire test suite. No checkpoint, no network, no Python. The\nwhole thing takes about a minute.\nIt ends like this, or it failed:\nThat is the whole engine: every kernel, the streaming cache, the safetensors reader, the\nconfig reader, the tokenizer, and an end-to-end oracle over a 13-layer model built with the\nsame tensor graph as the released one, checked against a PyTorch reference from fixtures\ncommitted to the repository.\nOne published measurement also replays on the spot, from a trace recorded during a full\n93-layer run (this one needs Python 3.9+ and numpy):\n100,096 expert requests, reprinting the capacity table in\nexpert-cache-capacity.txt.",
+  "usage_code": "git clone https://github.com/FareedKhan-dev/kimi-k3-in-c.git\ncd kimi-k3-in-c\n\nmake -j            # seconds. Seven C files, a compiler and OpenMP\nmake test          # under a minute",
+  "license": "Apache-2.0",
+  "homepage": "https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59",
+  "topics": [
+   "avx2",
+   "c99",
+   "cpu-inference",
+   "deep-learning",
+   "from-scratch",
+   "inference-engine",
+   "kimi-k3",
+   "linear-attention"
+  ],
+  "default_branch": "main"
+ },
  "FlashML-org/FreeToken": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/FlashML-org/FreeToken#readme",
@@ -405,6 +428,23 @@
   ],
   "default_branch": "main"
  },
+ "JiaFeiMiao-K-Cat/DiscImageStudio": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio#readme",
+  "install": [
+   "dotnet run --project src/DiscImageStudio.App --configuration Release",
+   "dotnet run --project src/DvdImageSolver --configuration Release -- selftest",
+   "dotnet run --project tests/DiscImageStudio.ArchitectureTests --configuration Release",
+   "dotnet run --project src/DiscImageStudio.Cli -c Release -- --help"
+  ],
+  "usage_title": "快速开始",
+  "usage_text": "Windows 下载 win-x64.exe 后可直接运行。Linux 或 macOS 请下载与 CPU 匹配的实验性 CLI 压缩包，解压后运行 ./disc-image-studio --help。这些发布包均自带 .NET 运行时。 GitHub Releases",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "JuliusBrussee/caveman": {
   "fetched": "2026-10-16",
   "readme_url": "https://github.com/JuliusBrussee/caveman#readme",
@@ -509,27 +549,6 @@
   ],
   "default_branch": "main"
  },
- "M-Abozaid/esp32-c3-adblock": {
-  "fetched": "2026-10-06",
-  "readme_url": "https://github.com/M-Abozaid/esp32-c3-adblock#readme",
-  "install": [],
-  "usage_title": "esp32-c3-adblock",
-  "usage_text": "日本語 README\nA Pi-hole-style DNS ad-blocker that runs on a $2 ESP32-C3 — no PSRAM required.\n> 📰 Featured on Tom's Hardware, XDA Developers, and Korben.\nThe trick everyone misses: you don't need to keep the blocklist in RAM. Store the\ndomains as sorted 40-bit hashes in flash and binary-search them. 140,000+ domains\nfit in ~0.7 MB of flash and are matched in ~10 ms, using ~50 KB of RAM.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [
-   "adblocker",
-   "arduino",
-   "dns",
-   "dns-sinkhole",
-   "esp32",
-   "esp32-c3",
-   "iot",
-   "pi-hole"
-  ],
-  "default_branch": "main"
- },
  "MadsLorentzen/ai-job-search": {
   "fetched": "2026-10-17",
   "readme_url": "https://github.com/MadsLorentzen/ai-job-search#readme",
@@ -566,6 +585,27 @@
    "launcher",
    "minecraft",
    "minecraft-launcher"
+  ],
+  "default_branch": "main"
+ },
+ "MichaelCade/90DaysOfDevOps": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/MichaelCade/90DaysOfDevOps#readme",
+  "install": [],
+  "usage_title": "90DaysOfDevOps",
+  "usage_text": "This repository started as a way to document my journey on getting a better foundational knowledge of \"DevOps\". It was started on the 1st January 2022 and ran to the 31st March 2022 which is 90 Days! \nWhat started off as a learning in public project has quickly become a structured way of learning the foundations of DevOps principles, processes and tooling. Maybe you can help contribute some resources you have found useful to the project. \n• DevOps - Written content by myself but then translated and corrected and enhanced by the community \n• DevSecOps - Focus on Security and other topics we did not get to in 2022, Perspectives from communinty subject matter experts…",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://www.90daysofdevops.com/",
+  "topics": [
+   "ansible",
+   "backup",
+   "containers",
+   "devops",
+   "iac",
+   "kubernetes",
+   "networking",
+   "terraform"
   ],
   "default_branch": "main"
  },
@@ -609,6 +649,24 @@
    "prompt-injection",
    "security-scanner"
   ],
+  "default_branch": "main"
+ },
+ "NVIDIA/auto-ontology": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/NVIDIA/auto-ontology#readme",
+  "install": [
+   "git clone https://github.com/NVIDIA/auto-ontology.git && cd auto-ontology",
+   "docker compose up -d --wait postgres",
+   "git clone https://github.com/NVIDIA/auto-ontology-eval.git ../auto-ontology-eval",
+   "uv run python scripts/seed/seed_wwi.py --database-name wideworldimporters --drop)",
+   "docker compose up -d --build"
+  ],
+  "usage_title": "Key Features",
+  "usage_text": "• Natural-language querying of structured data — questions are translated to\n SQL and executed against connected databases, powered by NVIDIA NIM.\n• Semantic catalog / ontology layer over relational sources, stored in\n Postgres alongside the catalog it describes.\n• Authentication & RBAC —using Better Auth.\n• Web UI for chat, analysis, data catalog, analytics, and settings.\n• Flexible deployment — Helm chart for Kubernetes or Docker Compose for a\n local stack.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
   "default_branch": "main"
  },
  "NationalSecurityAgency/ghidra": {
@@ -780,25 +838,6 @@
   ],
   "default_branch": "main"
  },
- "Stremio/stremio-web": {
-  "fetched": "2026-10-06",
-  "readme_url": "https://github.com/Stremio/stremio-web#readme",
-  "install": [
-   "pnpm install",
-   "docker build -t stremio-web .",
-   "docker run -p 8080:8080 stremio-web"
-  ],
-  "usage_title": "✨ Features",
-  "usage_text": "• 🧩 Addon-powered — discover movies, series and channels from catalogs provided by addons\n• 🔄 Sync everywhere — your library and Continue Watching follow your Stremio account across devices\n• 📺 Casting — play on the big screen via Chromecast\n• 💬 Subtitles — addon-provided or local, with customizable styling\n• ⌨️ Keyboard-first player — full playback control without touching the mouse\n• 🌍 50+ languages — community-translated via stremio-translations\n• 📱 Installable — runs as a standalone PWA",
-  "usage_code": "",
-  "license": "GPL-2.0",
-  "homepage": "https://web.stremio.com",
-  "topics": [
-   "hacktoberfest",
-   "stremio"
-  ],
-  "default_branch": "development"
- },
  "THU-MAIC/OpenMAIC": {
   "fetched": "2026-11-01",
   "readme_url": "https://github.com/THU-MAIC/OpenMAIC#readme",
@@ -886,6 +925,55 @@
    "ai-agents",
    "local-first",
    "long-term-memory"
+  ],
+  "default_branch": "main"
+ },
+ "The-PR-Agent/pr-agent": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/The-PR-Agent/pr-agent#readme",
+  "install": [
+   "pip install \"pr-agent[github]\""
+  ],
+  "usage_title": "Getting Started",
+  "usage_text": "> [!NOTE]\n> Docker Hub namespace migration. Releases 0.34.2 and later are published under pragent/pr-agent. Older releases (up to and including v0.31) remain available at the legacy codiumai/pr-agent namespace as a frozen archive — no new images are pushed there. Update any pinned image: / docker pull / uses: docker:// references when upgrading to 0.34.2+.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://www.pr-agent.ai",
+  "topics": [
+   "ai",
+   "anthropic",
+   "code-review",
+   "coding-assistant",
+   "devtools",
+   "ollama",
+   "openai",
+   "pull-request"
+  ],
+  "default_branch": "main"
+ },
+ "Thysrael/Horizon": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/Thysrael/Horizon#readme",
+  "install": [
+   "git clone https://github.com/Thysrael/Horizon.git",
+   "pip install -e .",
+   "uv pip install --only-binary=:all: openbb openbb-benzinga",
+   "docker compose build --build-arg EXTRAS=openbb horizon"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• 📡 Bring Your Sources Together — Follow RSS, Hacker News, Reddit, Telegram, X, GitHub, financial news, and more.\n• 🎯 Decide What's Worth Reading — Define scoring rubrics with profiles, set individual thresholds, and merge repeated stories within each profile.\n• 🧩 Give Every Read the Right Treatment — Choose summaries, context, solutions, or takeaways with Markdown prompts and JSON block definitions.\n• 💬 Go Beyond the Headline — Add web-researched background and community discussion where they help explain the story.\n• ⚖️ Make Room for All Your Interests — Cap the briefing's length and each category's share so one busy topic doesn't crowd out the rest…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://www.horizon1123.top",
+  "topics": [
+   "aggregator",
+   "feishu-bot",
+   "llm",
+   "mcp",
+   "news",
+   "openclaw",
+   "python",
+   "webhook"
   ],
   "default_branch": "main"
  },
@@ -1327,11 +1415,11 @@
   "default_branch": "main"
  },
  "boykopovar/AnyPS5": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-11-05",
   "readme_url": "https://github.com/boykopovar/AnyPS5#readme",
   "install": [],
   "usage_title": "About",
-  "usage_text": "Tool for automatic executables porting to Linux and Windows.\nWeb converter - files stay on your device.\nIncludes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process.\nDiscord, Usage, Build instructions, Architecture, Technical debt of the project, code style conventions, contributing",
+  "usage_text": "Tool for automatic executables porting to Linux and Windows.\nThe relinker-only build runs on macOS, including Apple silicon.\nWeb converter - files stay on your device.\nIncludes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process.\nDiscord, Usage, Build instructions, Architecture, Technical debt of the project, code style conventions, contributing",
   "usage_code": "",
   "license": "GPL-2.0",
   "homepage": "https://boykopovar.github.io/AnyPS5/",
@@ -1384,6 +1472,30 @@
    "open-education",
    "self-directed-learning",
    "tutorial"
+  ],
+  "default_branch": "main"
+ },
+ "calesthio/OpenMontage": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/calesthio/OpenMontage#readme",
+  "install": [
+   "git clone https://github.com/calesthio/OpenMontage.git",
+   "make setup"
+  ],
+  "usage_title": "Install & Run",
+  "usage_text": "Open the project in your AI coding assistant and tell it what you want:\nOr if you want the real-footage path:\nThat's it. The agent researches your topic with live web search, generates AI images, writes and narrates the script with voice direction, finds royalty-free background music automatically, burns in word-level subtitles, and renders the final video. Before you see anything, the system runs a multi-point self-review — ffprobe validation, frame sampling, audio level analysis, delivery promise verification, and subtitle checks. Every provider selection is scored across 7 dimensions with an auditable decision log. Every creative decision gets your approval…",
+  "usage_code": "git clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\nmake setup",
+  "license": "AGPL-3.0",
+  "homepage": "https://www.openmontage.video/",
+  "topics": [
+   "agent",
+   "agentic-ai",
+   "ai",
+   "claude",
+   "copilot",
+   "cursor",
+   "elevenlabs",
+   "ffmpeg"
   ],
   "default_branch": "main"
  },
@@ -1709,6 +1821,20 @@
   ],
   "default_branch": "master"
  },
+ "garrytan/gstack": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/garrytan/gstack#readme",
+  "install": [
+   "git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "1. Install gstack (two pastes, about 30 seconds of setup; see below).\n2. Run /office-hours and describe what you're building. It pushes back on your framing and writes a design doc the other skills read.\n3. Run /review on any branch with changes. It finds the bugs that pass CI but break in production, and fixes the obvious ones.\n4. Run /qa on your staging URL, or on an isolated local API, CLI, job or webhook. It opens a real browser, reproduces bugs and fixes them.\nStop there. You'll know if this is for you. When you want the whole sprint, /autoplan reviews a plan end to end and /ship runs tests, review and the PR.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "ghostty-org/ghostty": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/ghostty-org/ghostty#readme",
@@ -1719,6 +1845,28 @@
   "license": "MIT",
   "homepage": "https://ghostty.org",
   "topics": [],
+  "default_branch": "main"
+ },
+ "github/spec-kit": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/github/spec-kit#readme",
+  "install": [
+   "uv tool install specify-cli"
+  ],
+  "usage_title": "Get started",
+  "usage_text": "You need Python 3.11+, uv,\nand a supported AI coding agent on Linux, macOS, or Windows.\nRun these commands in your terminal to install Spec Kit and create a project.\nThis example uses GitHub Copilot.\nAfter installing the Specify CLI and creating your project, launch your coding\nagent in the project directory, then choose a process below.\nFor other setups:\n• Installation for pinned releases, other installers, CI, and troubleshooting.\n• Existing projects to start with code you already have.\n• Other agents for integration keys and invocation syntax.\n• Upgrade to update an existing installation.",
+  "usage_code": "uv tool install specify-cli\nspecify init my-project --integration copilot\ncd my-project",
+  "license": "MIT",
+  "homepage": "https://github.github.com/spec-kit/",
+  "topics": [
+   "ai",
+   "copilot",
+   "development",
+   "engineering",
+   "prd",
+   "spec",
+   "spec-driven"
+  ],
   "default_branch": "main"
  },
  "gitroomhq/postiz-app": {
@@ -1784,6 +1932,34 @@
    "google",
    "test-automation",
    "testing"
+  ],
+  "default_branch": "main"
+ },
+ "harry0703/MoneyPrinterTurbo": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo#readme",
+  "install": [
+   "python -m pip install mpt",
+   "git clone https://github.com/harry0703/MoneyPrinterTurbo.git",
+   "docker compose -f docker-compose.release.yml up",
+   "uv python install 3.11",
+   "pip install -r requirements.txt",
+   "sh webui.sh"
+  ],
+  "usage_title": "一站式 AI 短视频生成工具",
+  "usage_text": "只需提供视频 主题 或 关键词 ，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。\n简体中文 | English | 日本語 | 版本发布 | 问题反馈",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "ai-video-generator",
+   "content-creation",
+   "ffmpeg",
+   "instagram-reels",
+   "llm",
+   "python",
+   "short-video",
+   "subtitles"
   ],
   "default_branch": "main"
  },
@@ -1965,7 +2141,7 @@
   "default_branch": "main"
  },
  "jakubkrehel/skills": {
-  "fetched": "2026-10-29",
+  "fetched": "2026-11-05",
   "readme_url": "https://github.com/jakubkrehel/skills#readme",
   "install": [
    "npx skills add jakubkrehel/skills"
@@ -2917,6 +3093,32 @@
    "ai-assistant",
    "ai-skills",
    "autonomous-agents"
+  ],
+  "default_branch": "main"
+ },
+ "scenario-labs/skills": {
+  "fetched": "2026-11-05",
+  "readme_url": "https://github.com/scenario-labs/skills#readme",
+  "install": [
+   "npx skills add scenario-labs/skills",
+   "npx skills add scenario-labs/skills --skill scenario",
+   "npx skills@1.7.4 add scenario-labs/skills#<commit> --skill <name>",
+   "claude mcp add --transport http scenario https://mcp.scenario.com/mcp"
+  ],
+  "usage_title": "Getting started",
+  "usage_text": "Connect the Scenario MCP server and learn the core generation loop every other skill builds on.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://www.skills.sh/scenario-labs/skills",
+  "topics": [
+   "3d-models",
+   "agent-skills",
+   "ai-agents",
+   "ai-art",
+   "blender",
+   "claude-code",
+   "claude-skills",
+   "codex"
   ],
   "default_branch": "main"
  },
