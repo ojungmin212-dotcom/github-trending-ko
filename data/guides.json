@@ -111,6 +111,32 @@
   ],
   "default_branch": "master"
  },
+ "ConardLi/garden-skills": {
+  "fetched": "2026-11-06",
+  "readme_url": "https://github.com/ConardLi/garden-skills#readme",
+  "install": [
+   "npx skills add ConardLi/garden-skills",
+   "npx skills add ConardLi/garden-skills -s web-design-engineer",
+   "npx skills add ConardLi/garden-skills -s gpt-image-2 --global",
+   "npx skills add ConardLi/garden-skills -s kb-retriever -a claude-code",
+   "npx skills add ConardLi/garden-skills/tree/web-design-engineer-v1.0.0/skills/web-design-engineer",
+   "npx skills list  # what's installed"
+  ],
+  "usage_title": "Garden Skills",
+  "usage_text": "A curated collection of production-ready Agent Skills for Claude Code, Cursor, Codex, and other AI coding agents.\n motion-showreel \n Code-rendered short video \n web-video-presentation \n Web video / presentation \n web-design-engineer \n Design / frontend \n gpt-image-2 \n Image generation / prompting \n beautiful-article \n Any source → beautiful article \n kb-retriever \n Local knowledge retrieval \nEnglish · 中文文档 · 日本語\n---",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://github.com/ConardLi/garden-skills",
+  "topics": [
+   "agent",
+   "claude",
+   "gpt-image-2",
+   "rag",
+   "skills",
+   "web-design"
+  ],
+  "default_branch": "main"
+ },
  "CopilotKit/OpenBot": {
   "fetched": "2026-10-30",
   "readme_url": "https://github.com/CopilotKit/OpenBot#readme",
@@ -373,18 +399,18 @@
   "default_branch": "main"
  },
  "HKUDS/DeepTutor": {
-  "fetched": "2026-10-28",
+  "fetched": "2026-11-06",
   "readme_url": "https://github.com/HKUDS/DeepTutor#readme",
   "install": [
    "docker run --rm --name deeptutor -p 127.0.0.1:3782:3782 -v deeptutor-data:/app/data ghcr.io/hkuds/deeptutor:latest",
-   "pip install -U deeptutor",
-   "git clone https://github.com/HKUDS/DeepTutor.git",
+   "python -m pip install -U \"deeptutor[full]\"",
+   "git clone --branch dev https://github.com/HKUDS/DeepTutor.git",
    "python -m pip install --upgrade pip",
-   "python -m pip install -e .",
-   "conda create -n deeptutor python=3.11"
+   "python -m pip install -r requirements/full.txt",
+   "python -m pip install -e . --no-deps"
   ],
   "usage_title": "✨ Key Features",
-  "usage_text": "DeepTutor is an agent-native learning workspace that connects tutoring, problem solving, quiz generation, research, visualization, and mastery practice in one extensible system.\n• One runtime for every mode — Chat, Ask Questions, Quiz, Research, Visualize, Solve, Course Study, Mastery Path, Immersive Reading, and Audio Overview share one capability runtime and session context while keeping purpose-built loops and pipelines…",
+  "usage_text": "DeepTutor is an agent-native learning workspace that connects tutoring, research, creation, and practice in one extensible system.\n• One runtime, many learning modes — Chat, Quiz, Research, Visualize, Solve, Mastery Path, Reading, and more share session context while retaining purpose-built workflows.\n• A connected learning workspace — Home, Learning, and Resources connect Chat, Books, Reading, Practice, Task Board, Calendar, and Learning notebook with shared materials, progress, and learning context…",
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "http://arxiv.org/abs/2604.26962",
@@ -525,7 +551,7 @@
   "default_branch": "main"
  },
  "Leonxlnx/taste-skill": {
-  "fetched": "2026-10-29",
+  "fetched": "2026-11-06",
   "readme_url": "https://github.com/Leonxlnx/taste-skill#readme",
   "install": [
    "npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"",
@@ -533,7 +559,7 @@
    "codex plugin add taste-skill@taste-skill"
   ],
   "usage_title": "Install",
-  "usage_text": "That installs the skill with the npx skills CLI.\nThe skill runs its scripts with Node 22+ and an installed Chrome, Edge or Chromium. It installs nothing and needs no API keys. Finding pictures needs network access.\n Claude Code plugin \nRun these inside Claude Code. The skill is namespaced under taste-skill:, so it does not collide with your other skills.\n/plugin update upgrades it later.\n Codex plugin \nStart a new Codex session afterwards so the skill is loaded.\n From a clone, linked instead of copied \n./install.sh symlinks the skill into Claude Code (--codex for Codex, --all-agents for both), so a git pull updates it in place…",
+  "usage_text": "That installs the skill with the npx skills CLI.\nThe skill runs its scripts with Node 22+ and an installed Chrome, Edge or Chromium (set CHROMEPATH if it is in a non-standard place). Optional: ffmpeg** on the PATH, for WebP output and the phone crop of a hero photograph in photos.mjs. It installs nothing and needs no API keys. Bundled Wikimedia Commons photographs work offline; fetching additional photographs or icons uses network access.\n Claude Code plugin \nRun these inside Claude Code. The skill is namespaced under taste-skill:, so it does not collide with your other skills.\n/plugin update upgrades it later.\n Codex plugin \nStart a new Codex session afterwards so the skill is loaded…",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://tasteskill.dev",
@@ -1455,26 +1481,6 @@
   ],
   "default_branch": "master"
  },
- "byoungd/up": {
-  "fetched": "2026-10-07",
-  "readme_url": "https://github.com/byoungd/up#readme",
-  "install": [],
-  "usage_title": "人生进阶指南",
-  "usage_text": "中文 | English\n韩先凯 著（笔名：离谱）\n副标题：AI 时代终身学习指南。这是一份持续更新的书稿，从英语这扇具体的门出发，写到 AI 学习、真实项目、创业失败、身体恢复，以及一个普通人怎样把生活一点点交还给自己。\n 持续更新书稿 \n 下载中心 \n 下载中文 EPUB \n Download English EPUB \n 下载中文 PDF \n Download English PDF \n 源码与勘误 \n 读者实践回执 \n 正文 CC BY-NC 4.0 \n 从这里开始 \n 先选一个动作，再决定读多远 \n 第一次来不用读完整本。按今天的需要选一个入口，完成一个小动作，结果会告诉你下一页该去哪里。 \n 我还不知道从哪里开始 用阅读指南按问题选择入口，知道何时留下证据、何时回来复查。 \n 我想在今天做成一件事 先用五分钟写下真实问题、已有证据、最小动作和边界，再决定是否需要完整记录。 \n 我想先测一项英语能力 从一个真实场景开始，保存首版，再选择听、说、读、写中的一条训练线。 \nAI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得到一份解释、一段代码、一张计划表，甚至一个看似笃定的人生建议。可真正稀缺的东西并没有因此消失：知道什么问题值得追问，辨别什么证据可以相信，把建议变成真实作品，并为最后的判断承担责任。\n这是一份面向普通人的终身学习指南。它不要求你先成为天才、专家或意志坚定的人，也不许诺某个工具会替你改变命运。它想做的，是陪你在变化加速的时代里，一次次重新学习：面对陌生问题，借助 AI，也保留自己的判断；完成一件真实的事，再把经验带到下一段路。…",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://byoungd.github.io/up/",
-  "topics": [
-   "ai-literacy",
-   "chinese",
-   "english-learning",
-   "lifelong-learning",
-   "open-education",
-   "self-directed-learning",
-   "tutorial"
-  ],
-  "default_branch": "main"
- },
  "calesthio/OpenMontage": {
   "fetched": "2026-11-05",
   "readme_url": "https://github.com/calesthio/OpenMontage#readme",
@@ -1628,10 +1634,9 @@
   "default_branch": "master"
  },
  "debpalash/VoiceStudio": {
-  "fetched": "2026-10-30",
+  "fetched": "2026-11-06",
   "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
   "install": [
-   "curl -fsSL https://voicestudio.sh/install | sh",
    "curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z  # a specific release",
    "curl -fsSL https://voicestudio.sh/install | sh -s -- --main  # build current main",
    "curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall  # remove the app, keep your data",
@@ -1639,8 +1644,8 @@
    "bun run dev"
   ],
   "usage_title": "Get started",
-  "usage_text": "macOS / Linux\nWindows (PowerShell)\nOr download an installer from the table above. Then open Voice cloning, pick a voice or add a clean reference recording, type your text and generate. The app asks before it downloads any model.\n> [!NOTE]\n> On macOS, \"VoiceStudio is damaged and can't be opened\" means Gatekeeper blocked the app, not that the download is broken. See the Gatekeeper fix.\n More install options : a specific version, current main, uninstall, from source, with a coding agent \nIf voicestudio.sh is unreachable, run the script straight from the repository:\ncurl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh…",
-  "usage_code": "curl -fsSL https://voicestudio.sh/install | sh",
+  "usage_text": "Install using the options above. Then open Voice cloning, pick a voice or add a clean reference recording, type your text and generate. The app asks before it downloads any model.\n More install options : a specific version, current main, uninstall, from source, with a coding agent \nIf voicestudio.sh is unreachable, run the script straight from the repository:\ncurl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh.\nPrerequisites and behavior: installer guide.\nFrom source\nbun run dev installs the JavaScript dependencies and, when using a supported\nlocal backend, the Python dependencies before launching Electron. Run…",
+  "usage_code": "curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z   # a specific release\ncurl -fsSL https://voicestudio.sh/install | sh -s -- --main            # build current main\ncurl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall       # remove the app, keep your data",
   "license": "AGPL-3.0",
   "homepage": "https://voicestudio.sh",
   "topics": [
@@ -1653,20 +1658,6 @@
    "local-first",
    "mlx"
   ],
-  "default_branch": "main"
- },
- "deepseek-ai/DeepGEMM": {
-  "fetched": "2026-10-07",
-  "readme_url": "https://github.com/deepseek-ai/DeepGEMM#readme",
-  "install": [
-   "git clone --recursive git@github.com:deepseek-ai/DeepGEMM.git"
-  ],
-  "usage_title": "DeepGEMM",
-  "usage_text": "DeepGEMM is a unified, high-performance tensor core kernel library that brings together the key computation primitives of modern large language models — GEMMs (FP8, FP4, BF16), fused MoE with overlapped communication (Mega MoE), MQA scoring for the lightning indexer, HyperConnection (HC), and more — into a single, cohesive CUDA codebase. All kernels are compiled at runtime through DeepJIT, requiring no CUDA compilation during installation…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
   "default_branch": "main"
  },
  "earthtojake/text-to-cad": {
@@ -1932,6 +1923,25 @@
    "google",
    "test-automation",
    "testing"
+  ],
+  "default_branch": "main"
+ },
+ "google/skills": {
+  "fetched": "2026-11-06",
+  "readme_url": "https://github.com/google/skills#readme",
+  "install": [
+   "npx skills add google/skills",
+   "npx skills update"
+  ],
+  "usage_title": "Agent Skills",
+  "usage_text": "This repository contains Agent Skills for Google\nproducts and technologies, including Google Cloud.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [
+   "google",
+   "googlecloud",
+   "skills"
   ],
   "default_branch": "main"
  },
@@ -2489,8 +2499,20 @@
   "topics": [],
   "default_branch": "main"
  },
+ "microsoft/VibeVoice": {
+  "fetched": "2026-11-06",
+  "readme_url": "https://github.com/microsoft/VibeVoice#readme",
+  "install": [],
+  "usage_title": "🎙️ VibeVoice: Open-Source Frontier Voice AI",
+  "usage_text": "📰 News \n 2026-09-03: 🚀 We released VibeVoice-ASR-Streaming , a unified streaming ASR model that continuously transcribes ''who said what'' as speech arrives, with support for customized hotwords and 10 languages. [ Demo ] [ Models ] [ Report ] \n 2026-07-23: ⚡ We released VibeVoice-ASR-BitNet , an edge CPU inference engine for VibeVoice-ASR. Through heterogeneous quantization (I8S + I2S), the model is compressed from 4.62 GB to 1.58 GB with real-time inference (RTF Code ] [ Models ] [ Report ] \n 2026-03-12: 🚀 VibeVoice-ASR is now integrated into Azure AI Foundry Labs ! You can now explore and test our unified speech-to-text capabilities directly through Microsoft Foundry…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://microsoft.github.io/VibeVoice/",
+  "topics": [],
+  "default_branch": "main"
+ },
  "milind-soni/OpenMausBot": {
-  "fetched": "2026-10-30",
+  "fetched": "2026-11-06",
   "readme_url": "https://github.com/milind-soni/OpenMausBot#readme",
   "install": [
    "git clone https://github.com/milind-soni/OpenMausBot && cd OpenMausBot",
@@ -3454,6 +3476,22 @@
    "ai-memory",
    "memory"
   ],
+  "default_branch": "main"
+ },
+ "vercel-labs/agent-browser": {
+  "fetched": "2026-11-06",
+  "readme_url": "https://github.com/vercel-labs/agent-browser#readme",
+  "install": [
+   "npm install -g agent-browser",
+   "npx skills add vercel-labs/agent-browser",
+   "pnpm install"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "The snapshot for example.com:\n• Refs describe the page at the time of the snapshot. After navigation or a DOM change, take a new snapshot before using refs again.\n• CSS selectors, text, XPath, and semantic locators also work, for example agent-browser find role button click --name \"Submit\". See Selectors.\n• A click fails, instead of reporting success, when the target is hidden, disabled, outside the viewport, or covered by another element such as a consent banner. Dismiss the covering element, take a new snapshot, and retry.\nThe full walkthrough is in the quick start.",
+  "usage_code": "agent-browser open example.com\nagent-browser snapshot -i       # interactive elements, each with a ref\nagent-browser click @e1         # act on a ref from that snapshot\nagent-browser get url           # check the result\nagent-browser close",
+  "license": "Apache-2.0",
+  "homepage": "https://agent-browser.dev",
+  "topics": [],
   "default_branch": "main"
  },
  "vercel-labs/agent-desktop": {
