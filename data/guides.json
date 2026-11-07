@@ -216,7 +216,7 @@
   "default_branch": "main"
  },
  "Donchitos/Claude-Code-Game-Studios": {
-  "fetched": "2026-10-30",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/Donchitos/Claude-Code-Game-Studios#readme",
   "install": [
    "git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git my-game"
@@ -1234,6 +1234,28 @@
   ],
   "default_branch": "main"
  },
+ "angular/angular": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/angular/angular#readme",
+  "install": [
+   "npm install -g @angular/cli"
+  ],
+  "usage_title": "Documentation",
+  "usage_text": "Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website.\n• [Getting Started][quickstart]\n• [Architecture][architecture]\n• [Components and Templates][componentstemplates]\n• [Forms][forms]\n• [API][api]",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://angular.dev",
+  "topics": [
+   "angular",
+   "javascript",
+   "pwa",
+   "typescript",
+   "web",
+   "web-framework",
+   "web-performance"
+  ],
+  "default_branch": "main"
+ },
  "anomalyco/hex": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/anomalyco/hex#readme",
@@ -1326,7 +1348,7 @@
   "default_branch": "main"
  },
  "anthropics/knowledge-work-plugins": {
-  "fetched": "2026-10-31",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/anthropics/knowledge-work-plugins#readme",
   "install": [
    "claude plugin marketplace add anthropics/knowledge-work-plugins",
@@ -1341,7 +1363,7 @@
   "default_branch": "main"
  },
  "anthropics/skills": {
-  "fetched": "2026-10-31",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/anthropics/skills#readme",
   "install": [],
   "usage_title": "Creating a Basic Skill",
@@ -1351,6 +1373,34 @@
   "homepage": "",
   "topics": [
    "agent-skills"
+  ],
+  "default_branch": "main"
+ },
+ "astral-sh/ruff": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/astral-sh/ruff#readme",
+  "install": [
+   "uvx ruff@0.17.4 check  # Lint all files in the current directory.",
+   "uvx ruff@0.17.4 format  # Format all files in the current directory.",
+   "uv tool install ruff@latest  # Install Ruff globally.",
+   "uv add --dev ruff  # Or add Ruff to your project.",
+   "pip install ruff",
+   "pipx install ruff"
+  ],
+  "usage_title": "Usage",
+  "usage_text": "To run Ruff as a linter, try any of the following:\nOr, to run Ruff as a formatter:\nRuff can also be used as a pre-commit hook via ruff-pre-commit:\nRuff can also be used as a VS Code extension or with various other editors.\nRuff can also be used as a GitHub Action via\nruff-action:",
+  "usage_code": "ruff check                          # Lint all files in the current directory (and any subdirectories).\nruff check path/to/code/            # Lint all files in `/path/to/code` (and any subdirectories).\nruff check path/to/code/*.py        # Lint all `.py` files in `/path/to/code`.\nruff check path/to/code/to/file.py  # Lint `file.py`.\nruff check @arguments.txt           # Lint using an input file, treating its contents as newline-delimited command-line arguments.",
+  "license": "MIT",
+  "homepage": "https://docs.astral.sh/ruff",
+  "topics": [
+   "linter",
+   "pep8",
+   "python",
+   "python3",
+   "ruff",
+   "rust",
+   "rustpython",
+   "static-analysis"
   ],
   "default_branch": "main"
  },
@@ -1569,7 +1619,7 @@
   "default_branch": "main"
  },
  "cloudflare/security-audit-skill": {
-  "fetched": "2026-10-31",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
   "install": [
    "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
@@ -1719,6 +1769,29 @@
    "grok",
    "llm",
    "self-hosted"
+  ],
+  "default_branch": "main"
+ },
+ "etcd-io/etcd": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/etcd-io/etcd#readme",
+  "install": [
+   "go get go.etcd.io/etcd/client/v3"
+  ],
+  "usage_title": "Running etcd",
+  "usage_text": "First start a single-member cluster of etcd.\nIf etcd is installed using the [pre-built release binaries][github-release], run it from the installation location as below:\nThe etcd command can be simply run as such if it is moved to the system path as below:\nThis will bring up etcd listening on port 2379 for client communication and on port 2380 for server-to-server communication.\nNext, let's set a single key, and then retrieve it:\netcd is now running and serving client requests. For more, please check out:\n• Animated quick demo",
+  "usage_code": "/tmp/etcd-download-test/etcd",
+  "license": "Apache-2.0",
+  "homepage": "https://etcd.io",
+  "topics": [
+   "cncf",
+   "consensus",
+   "database",
+   "distributed-database",
+   "distributed-systems",
+   "etcd",
+   "go",
+   "key-value"
   ],
   "default_branch": "main"
  },
@@ -2392,31 +2465,8 @@
   ],
   "default_branch": "main"
  },
- "manaflow-ai/cmux": {
-  "fetched": "2026-10-08",
-  "readme_url": "https://github.com/manaflow-ai/cmux#readme",
-  "install": [
-   "brew install --cask cmux"
-  ],
-  "usage_title": "Features",
-  "usage_text": "Notification rings \nPanes get a blue ring and tabs light up when coding agents need your attention\n Notification panel \nSee all pending notifications in one place, jump to the most recent unread\n In-app browser \nSplit a browser alongside your terminal with a scriptable API ported from agent-browser \n Vertical + horizontal tabs \nSidebar shows git branch, linked PR status/number, working directory, listening ports, and latest notification text. Split horizontally and vertically.\n SSH…",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://cmux.com",
-  "topics": [
-   "amp",
-   "claude-code",
-   "cli",
-   "codex",
-   "coding-agents",
-   "gemini",
-   "ghostty",
-   "macos"
-  ],
-  "default_branch": "main"
- },
  "mattpocock/skills": {
-  "fetched": "2026-10-31",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/mattpocock/skills#readme",
   "install": [
    "claude plugin install mattpocock-skills@claude-plugins-official",
@@ -2509,6 +2559,24 @@
   "license": "MIT",
   "homepage": "https://microsoft.github.io/VibeVoice/",
   "topics": [],
+  "default_branch": "main"
+ },
+ "microsoft/vscode": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/microsoft/vscode#readme",
+  "install": [],
+  "usage_title": "The Repository",
+  "usage_text": "This repository (\"Code - OSS\") is where we (Microsoft) develop the Visual Studio Code product together with the community. Not only do we work on code and issues here, but we also publish our roadmap, monthly iteration plans, and our endgame plans. This source code is available to everyone under the standard MIT license.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://code.visualstudio.com",
+  "topics": [
+   "editor",
+   "electron",
+   "microsoft",
+   "typescript",
+   "visual-studio-code"
+  ],
   "default_branch": "main"
  },
  "milind-soni/OpenMausBot": {
@@ -2607,6 +2675,26 @@
   ],
   "default_branch": "main"
  },
+ "mpv-player/mpv": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/mpv-player/mpv#readme",
+  "install": [],
+  "usage_title": "mpv",
+  "usage_text": "• External links\n• Overview\n• System requirements\n• Downloads\n• Changelog\n• Compilation\n• Release cycle\n• Bug reports\n• Contributing\n• License\n• Contact",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://mpv.io",
+  "topics": [
+   "audio",
+   "c",
+   "ffmpeg",
+   "mplayer",
+   "mpv",
+   "multimedia",
+   "video"
+  ],
+  "default_branch": "master"
+ },
  "msitarzewski/agency-agents": {
   "fetched": "2026-10-21",
   "readme_url": "https://github.com/msitarzewski/agency-agents#readme",
@@ -2664,14 +2752,14 @@
   "default_branch": "main"
  },
  "nightly-labs/openbot": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/nightly-labs/openbot#readme",
   "install": [
    "curl -fsSL https://chatgpt.com/codex/install.sh | sh",
    "curl -fsSL https://claude.ai/install.sh | bash"
   ],
   "usage_title": "OpenBot",
-  "usage_text": "OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local\nCodex App Server and\nClaude Code, plus Grok CLI,\nOpenCode, Gemini, Cursor CLI, and Cline CLI through ACP. It gives every agent its own workspace and\nconversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent\nmessaging in one desktop app.\n> [!WARNING]\n> OpenBot is a development preview. Agents currently run with danger-full-access and\n> approvalPolicy: never. They can read and modify files, run commands, use the network, and control\n> the embedded browser without per-action confirmations after the explicit first-launch consent…",
+  "usage_text": "OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local\nCodex App Server and\nClaude Code, plus Grok CLI,\nOpenCode, Gemini, Cursor CLI, Cline CLI, Kimi Code CLI,\nDevin CLI, GitHub Copilot CLI, and Hermes Agent through ACP. It gives every agent its own workspace and\nconversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent\nmessaging in one desktop app.\nOpenBot is ready for production use. A new release ships almost every day.\n> [!WARNING]\n> Agents run with danger-full-access and approvalPolicy: never. They can read and modify files…",
   "usage_code": "",
   "license": "",
   "homepage": "https://openbot.run/",
@@ -2722,6 +2810,25 @@
   "homepage": "",
   "topics": [],
   "default_branch": "winui-preview"
+ },
+ "nushell/nushell": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/nushell/nushell#readme",
+  "install": [
+   "brew install nushell",
+   "winget install nushell"
+  ],
+  "usage_title": "Table of Contents",
+  "usage_text": "• Status\n• Learning About Nu\n• Installation\n• Configuration\n• Philosophy\n• Pipelines\n• Opening files\n• Plugins\n• Goals\n• Officially Supported By\n• Contributing\n• License",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://www.nushell.sh/",
+  "topics": [
+   "nushell",
+   "rust",
+   "shell"
+  ],
+  "default_branch": "main"
  },
  "nvm-sh/nvm": {
   "fetched": "2026-10-15",
@@ -2800,6 +2907,25 @@
    "ollama-webui"
   ],
   "default_branch": "main"
+ },
+ "openssl/openssl": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/openssl/openssl#readme",
+  "install": [],
+  "usage_title": "",
+  "usage_text": "",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://openssl-library.org/",
+  "topics": [
+   "cryptography",
+   "decryption",
+   "encryption",
+   "openssl",
+   "ssl",
+   "tls"
+  ],
+  "default_branch": "master"
  },
  "p-e-w/heretic": {
   "fetched": "2026-11-03",
@@ -2954,6 +3080,33 @@
   "topics": [],
   "default_branch": "main"
  },
+ "prometheus/prometheus": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/prometheus/prometheus#readme",
+  "install": [
+   "docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus",
+   "git clone https://github.com/prometheus/prometheus.git",
+   "go install github.com/prometheus/prometheus/cmd/...",
+   "go get buf.build/gen/go/prometheus/prometheus/protocolbuffers/go@latest",
+   "go get github.com/prometheus/prometheus@v0.300.0",
+   "go get github.com/prometheus/prometheus@v0.35.0"
+  ],
+  "usage_title": "Precompiled binaries",
+  "usage_text": "Precompiled binaries for released versions are available in the\ndownload section\non prometheus.io. Using the latest production release binary\nis the recommended way to install Prometheus.\nSee the Installing\nchapter in the documentation for all the details.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://prometheus.io/",
+  "topics": [
+   "alerting",
+   "graphing",
+   "hacktoberfest",
+   "metrics",
+   "monitoring",
+   "prometheus",
+   "time-series"
+  ],
+  "default_branch": "main"
+ },
  "public-apis/public-apis": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/public-apis/public-apis#readme",
@@ -3002,6 +3155,28 @@
   ],
   "default_branch": "main"
  },
+ "rails/rails": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/rails/rails#readme",
+  "install": [
+   "gem install rails"
+  ],
+  "usage_title": "Getting Started",
+  "usage_text": "1. Install Rails at the command prompt if you haven't yet:\n2. At the command prompt, create a new Rails application:\n where \"myapp\" is the application name.\n3. Change directory to myapp and start the web server:\n Run with --help or -h for options.\n4. Go to http://localhost:3000 and you'll see the Rails bootscreen with your Rails and Ruby versions.\n5. Follow the guidelines to start developing your application. You may find\n the following resources handy:\n• Getting Started with Rails\n• Ruby on Rails Guides\n• The API Documentation",
+  "usage_code": "\t$ gem install rails\n\t",
+  "license": "MIT",
+  "homepage": "https://rubyonrails.org",
+  "topics": [
+   "activejob",
+   "activerecord",
+   "framework",
+   "html",
+   "mvc",
+   "rails",
+   "ruby"
+  ],
+  "default_branch": "main"
+ },
  "ranxianglei/billion-context": {
   "fetched": "2026-11-03",
   "readme_url": "https://github.com/ranxianglei/billion-context#readme",
@@ -3022,6 +3197,25 @@
    "dsh-plugin"
   ],
   "default_branch": "master"
+ },
+ "react/react": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/react/react#readme",
+  "install": [],
+  "usage_title": "Examples",
+  "usage_text": "We have several examples on the website. Here is the first one to get you started:\nThis example will render \"Hello Taylor\" into a container on the page.\nYou'll notice that we used an HTML-like syntax; we call it JSX. JSX is not required to use React, but it makes code more readable, and writing it feels like writing HTML.",
+  "usage_code": "import { createRoot } from 'react-dom/client';\n\nfunction HelloMessage({ name }) {\n  return <div>Hello {name}</div>;\n}\n\nconst root = createRoot(document.getElementById('container'));\nroot.render(<HelloMessage name=\"Taylor\" />);",
+  "license": "MIT",
+  "homepage": "https://react.dev",
+  "topics": [
+   "declarative",
+   "frontend",
+   "javascript",
+   "library",
+   "react",
+   "ui"
+  ],
+  "default_branch": "main"
  },
  "rohitg00/ai-engineering-from-scratch": {
   "fetched": "2026-10-27",
@@ -3049,7 +3243,7 @@
   "default_branch": "main"
  },
  "rust-lang/rust": {
-  "fetched": "2026-10-15",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/rust-lang/rust#readme",
   "install": [],
   "usage_title": "Quick Start",
@@ -3224,7 +3418,7 @@
   "default_branch": "main"
  },
  "storytold/artcraft": {
-  "fetched": "2026-10-17",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/storytold/artcraft#readme",
   "install": [],
   "usage_title": "Show, Don't Tell: Advanced Crafting Features",
@@ -3285,6 +3479,26 @@
    "firebase"
   ],
   "default_branch": "master"
+ },
+ "symfony/symfony": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/symfony/symfony#readme",
+  "install": [],
+  "usage_title": "",
+  "usage_text": "",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://symfony.com",
+  "topics": [
+   "bundle",
+   "framework",
+   "hacktoberfest",
+   "php",
+   "php-framework",
+   "symfony",
+   "symfony-bundle"
+  ],
+  "default_branch": "8.2"
  },
  "tashfeenahmed/freellmapi": {
   "fetched": "2026-10-30",
@@ -3348,7 +3562,7 @@
   "default_branch": "main"
  },
  "thedotmack/claude-mem": {
-  "fetched": "2026-10-31",
+  "fetched": "2026-11-07",
   "readme_url": "https://github.com/thedotmack/claude-mem#readme",
   "install": [
    "npx claude-mem install --ide grok-bot",
@@ -3359,7 +3573,7 @@
    "npx claude-mem install --ide omp"
   ],
   "usage_title": "Quick Start",
-  "usage_text": "Install claude-mem for Grok Bot:\nGrok Bot has no host hooks, so we watch the chat log files. Default is CMEM Pro, the hosted memory. Local observer is opt-in: --provider host. Installing this plugin does not install Cursor.\nAwareness push pilot (LFG + Orifice): needle observations (decision, bugfix, securityalert, sensitive) are appended as dated - YYYY-MM-DD [awareness] … lines into that bot's memory/log/YYYY-MM.md. Grok Bot already re-reads the log from disk. This does not write profile.md, user-memory, or project memory. Disable with CLAUDEMEMGROKBOTAWARENESSENABLED=false.\nInstall with a single command…",
+  "usage_text": "Installing for someone as an AI agent? Run npx claude-mem install --runtime worker on their computer in an interactive terminal (enable PTY in your shell tool). It first asks in the terminal which agents to set up and, for Claude Code, whether to disable native auto-memory (and whether to overwrite an existing install). Relay each question to the user and type their answer, or pass --ide to skip the first one. Keep the installer running. When it prints Continue setup in your browser, open that URL in the user's browser if the installer hasn't already opened it. Let the user go through setup and make their own choices, including the usage-analytics question the installer may ask at the end…",
   "usage_code": "npx claude-mem install --ide grok-bot",
   "license": "Apache-2.0",
   "homepage": "https://claude-mem.ai",
@@ -3705,6 +3919,23 @@
    "swift-package-manager",
    "windows",
    "xcode"
+  ],
+  "default_branch": "main"
+ },
+ "zed-industries/zed": {
+  "fetched": "2026-11-07",
+  "readme_url": "https://github.com/zed-industries/zed#readme",
+  "install": [],
+  "usage_title": "Zed",
+  "usage_text": "Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.\n---",
+  "usage_code": "",
+  "license": "",
+  "homepage": "https://zed.dev",
+  "topics": [
+   "gpui",
+   "rust-lang",
+   "text-editor",
+   "zed"
   ],
   "default_branch": "main"
  }
