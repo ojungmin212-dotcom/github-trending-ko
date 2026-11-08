@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/trending.json data/translations.json data/guides.json data/history.json
+          git add data/trending.json data/translations.json data/guides.json data/history.json feed.json feed.xml llms.txt
           if git diff --cached --quiet; then
             echo "데이터 변경 없음 — 커밋 생략"
             exit 0

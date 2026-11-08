@@ -15,6 +15,8 @@ GitHub 트렌딩 Top 30 정적 대시보드. GitHub Actions가 매일 수집해 
 - 관심 레포 localStorage 키 `gtk-favs-v1`과 그 형식을 바꾸면 사용자 저장분이 사라진다 → 바꿀 땐 마이그레이션 코드 필수.
 - `data/history.json`(순위 기록)을 지우거나 손으로 고치지 말 것. NEW·순위 변화가 전부 틀어진다. 다시 만들 땐 로컬에서 `python scripts/history.py --rebuild`(전체 git 기록 필요).
 - 순위 변화·연속 일수는 **원래 순위(filled_from 없음)만** 비교한다. 보충 항목의 자리 번호는 의미가 없다.
+- `feed.json`은 피드 항목의 저장소다. 지우면 RSS 구독자에게 과거 항목이 사라진다. 다시 만들 땐 `python scripts/feeds.py --rebuild`. 항목 `id`(`owner/name@날짜`)와 `date_published`는 바꾸지 말 것 (리더 앱이 같은 글을 새 글로 다시 띄움).
+- 서비스 워커를 추가하지 말 것 — 매일 바뀌는 데이터가 캐시에 갇힌다. 홈 화면 추가는 `manifest.webmanifest`만으로 충분하다.
 
 ## 코드 컨벤션
 - `index.html`은 빌드 없는 단일 파일(CSS·JS 인라인). 프레임워크·번들러 도입 금지.

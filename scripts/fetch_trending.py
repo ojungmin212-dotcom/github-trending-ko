@@ -29,6 +29,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import guides  # noqa: E402  (README 기반 설치·활용 가이드 추출)
 import history  # noqa: E402  (처음 등장·순위 변화·연속 일수)
+import feeds  # noqa: E402  (feed.xml · feed.json · llms.txt)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "trending.json"
@@ -263,6 +264,12 @@ def main():
     write_json(DATA_FILE, result)
     if new_history is not None:
         write_json(HISTORY_FILE, new_history)
+
+    # 새 저장소 피드(RSS·JSON Feed)와 에이전트용 llms.txt. 실패해도 순위 데이터는 이미 저장됨
+    try:
+        feeds.write_all(result, ROOT, write_json, log=log)
+    except Exception as e:
+        log(f"[경고] 피드·llms.txt 생성 실패 (순위 데이터는 저장됨): {e}")
 
     # 설치·활용 가이드 (README 기반). 실패해도 순위 데이터는 이미 저장됐으므로 계속 진행
     try:

@@ -48,7 +48,10 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
 | `scripts/history.py` | 순위 기록 계산 + `--rebuild`(git 기록에서 재생성, 로컬 전용) |
 | `data/trending.json` | `{fetched_at, date, daily|weekly|monthly: {since, count, repos[]}}` — repo에 `first_seen`, 원래 순위 항목엔 `prev_rank`·`streak` |
 | `data/history.json` | `{repos: {name: {first_seen, last_seen}}, periods: {daily: {date, ranks, streak, prev}}}` 180일 미등장 시 삭제 |
-| `tests/` | `unittest` 16개 + 실제 트렌딩 HTML 일부(`fixtures/trending_daily_sample.html`) |
+| `tests/` | `unittest` 22개 + 실제 트렌딩 HTML 일부(`fixtures/trending_daily_sample.html`) |
+| `scripts/feeds.py` | `feed.json`·`feed.xml`·`llms.txt` 생성 (+ `--rebuild`) |
+| `feed.json` / `feed.xml` / `llms.txt` | 루트에 생성되는 피드·에이전트 요약 (Actions가 매일 커밋) |
+| `manifest.webmanifest`, `icons/`, `scripts/make_icons.py` | 홈 화면 추가용 설정·아이콘 (아이콘은 한 번 생성해 커밋) |
 | `data/translations.json` | 번역 캐시 `{원문: 번역}` — 성공한 것만 저장 |
 | `data/guides.json` | `{full_name: {install[], usage_title, usage_text, usage_code, license, homepage, topics, readme_url, fetched}}` 7일 캐시, 순위 밖 30일 후 삭제 |
 | `index.html` | 대시보드 전부 (CSS·JS 인라인, 약 900줄) |
@@ -76,6 +79,13 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
     - **F4** `data/history.json` + NEW 배지·"처음 보는 것만"·▲▼/진입·N일째. 46일 재생 결과 오늘 30개 중 신규는 하루 중앙값 4개.
     - **D1** 보충 항목 기본 숨김 ("보충 항목도 보기" 버튼).
 
+12. (2026-11-09) 2차 개선:
+    - **F5** `feed.xml`(RSS 2.0)·`feed.json`(JSON Feed 1.1) — 처음 등장한 저장소, 최근 30일. git 기록으로 초기 123개 채움.
+      휴대폰 푸시(ntfy 등)는 외부 서비스 연동이라 하지 않음 — RSS 리더 앱 알림으로 대신.
+    - **F9** `llms.txt` — 데이터 파일 안내 + 오늘 처음 등장 + 기간별 원래 순위, 외부 텍스트 주의 문구.
+    - **F10** `manifest.webmanifest` + `icons/`(make_icons.py, 표준 라이브러리 PNG) + apple-touch-icon + `og:` 태그. 서비스 워커는 일부러 없음.
+    - 테스트 22개.
+
 ### 🔄 진행 중
 - 없음. cron 이동 효과: 10-28~11-08 실제 실행 10:24~12:40 KST(예정 07:35보다 약 3~5시간 늦음). 지연은 줄었지만 남아 있고 푸터 문구가 이를 설명한다.
 
@@ -84,7 +94,7 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
 2. 로고 옆 "GitHub 트렌딩", 상단 메뉴 "Trending"도 새 제목에 맞출지 사용자에게 확인 (이전에 제안만 함).
 3. (선택) 더 나은 가이드: 무료 LLM을 Actions secret으로 붙이고 실패 시 현재 규칙 추출로 폴백. 사용자 원칙(Claude API·유료 금지) 때문에 **사용자 승인 전에는 하지 말 것**.
    후보: `actions/ai-inference`(GitHub Models, `models: read` 권한 + 기본 `GITHUB_TOKEN`, 별도 키 없음). 무료 한도 수치는 미확인.
-4. 2차 개선 후보(사용자 선택 대기): F5 변화 알림(RSS/ntfy), F9 `llms.txt`·`feed.json`, F10 OG 태그·홈 화면 추가, F7 신뢰도 배지, F8 관심 키워드 점수, D2 모바일 배경 애니메이션 끄기.
+4. 남은 개선 후보(사용자 선택 대기): F7 신뢰도 배지, F8 관심 키워드 점수, D2 모바일 배경 애니메이션 끄기, 폰 푸시 알림(ntfy — 외부 서비스라 승인 필요).
 
 ## 3. 설계 결정과 이유
 

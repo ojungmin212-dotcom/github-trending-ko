@@ -1,0 +1,16 @@
+{
+  "name": "오박사의 GitHub Trending Space",
+  "short_name": "Trending Space",
+  "description": "GitHub 트렌딩 — 처음 등장한 저장소와 순위 변화, 한국어 번역과 설치·활용 가이드",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c0c0c",
+  "theme_color": "#0c0c0c",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

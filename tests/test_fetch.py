@@ -15,7 +15,9 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fetch_trending as f  # noqa: E402
+import feeds  # noqa: E402
 import history  # noqa: E402
+import xml.etree.ElementTree as ET  # noqa: E402
 
 FIXTURE = ROOT / "tests" / "fixtures" / "trending_daily_sample.html"
 
@@ -131,6 +133,10 @@ class MainTest(unittest.TestCase):
         self.assertTrue(all(r["first_seen"] == out["date"] for r in out["daily"]["repos"]))
         hist = json.loads((data / "history.json").read_text(encoding="utf-8"))
         self.assertEqual(len(hist["repos"]), 35)
+        feed = json.loads((data.parent / "feed.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(feed["items"]), 35)                 # 첫 실행이라 전부 처음 등장
+        ET.fromstring((data.parent / "feed.xml").read_text(encoding="utf-8").split("\n", 1)[1])
+        self.assertIn("## 오늘 원래 순위 (8개)", (data.parent / "llms.txt").read_text(encoding="utf-8"))
 
     def test_history_failure_does_not_block_publish(self):
         with mock.patch.object(f.history, "apply", side_effect=RuntimeError("boom")):
@@ -189,6 +195,67 @@ class HistoryTest(unittest.TestCase):
         h = history.apply(result_of(repos(["new/1"])), h, "2026-08-01")
         self.assertNotIn("old/1", h["repos"])
         self.assertIn("new/1", h["repos"])
+
+
+def day_result(day, names, fetched_time="10:00:00", desc="A tool"):
+    """history.apply 까지 거친 하루치 결과 (daily 탭만)."""
+    rs = [{"rank": i, "full_name": n, "url": f"https://github.com/{n}", "filled_from": None,
+           "description": desc, "description_ko": "도구 " + n, "language": "Python",
+           "stars": 1200, "stars_period": 50} for i, n in enumerate(names, 1)]
+    return {"fetched_at": f"{day} {fetched_time} KST", "date": day,
+            "daily": {"repos": rs}, "weekly": {"repos": []}, "monthly": {"repos": []}}
+
+
+class FeedTest(unittest.TestCase):
+    def setUp(self):
+        self.h = {}
+
+    def run_day(self, day, names, feed, **kw):
+        res = day_result(day, names, **kw)
+        self.h = history.apply(res, self.h, day)
+        return res, feeds.build_feed(res, feed)
+
+    def test_only_new_repos_become_items(self):
+        _, feed = self.run_day("2026-11-01", ["a/1", "a/2"], {})
+        _, feed = self.run_day("2026-11-02", ["a/2", "b/1"], feed)
+        self.assertEqual([it["id"] for it in feed["items"]], ["b/1@2026-11-02", "a/1@2026-11-01", "a/2@2026-11-01"])
+        self.assertEqual(feed["items"][0]["title"], "b/1 — 도구 b/1")
+        self.assertEqual(feed["items"][0]["date_published"], "2026-11-02T10:00:00+09:00")
+
+    def test_same_day_rerun_keeps_items_and_publish_time(self):
+        _, feed = self.run_day("2026-11-01", ["a/1"], {})
+        _, again = self.run_day("2026-11-01", ["a/1"], feed, fetched_time="15:00:00")
+        self.assertEqual(again["items"], feed["items"])
+
+    def test_old_items_drop_after_30_days(self):
+        _, feed = self.run_day("2026-10-01", ["old/1"], {})
+        _, feed = self.run_day("2026-11-05", ["new/1"], feed)
+        self.assertEqual([it["id"] for it in feed["items"]], ["new/1@2026-11-05"])
+
+    def test_rss_is_valid_and_escaped(self):
+        res, feed = self.run_day("2026-11-01", ["a/1"], {}, desc='Fast <tool> & "more"\nline two')
+        xml = feeds.build_rss(feed, feeds.fetched_dt(res))
+        root = ET.fromstring(xml.split("\n", 1)[1])
+        items = root.findall("./channel/item")
+        self.assertEqual(len(items), 1)
+        self.assertIn('Fast <tool> & "more" line two', items[0].find("description").text)
+        self.assertEqual(items[0].find("guid").text, "a/1@2026-11-01")
+
+    def test_llms_txt_lists_new_and_rank_changes(self):
+        _, feed = self.run_day("2026-11-01", ["a/1", "a/2"], {})
+        res, feed = self.run_day("2026-11-02", ["a/2", "b/1", "a/1"], feed)
+        text = feeds.build_llms(res, feed)
+        self.assertIn("## 2026-11-02 처음 등장 (1개)", text)
+        self.assertIn("1. [a/2](https://github.com/a/2): 도구 a/2 (▲ 50, 어제 #2 ▲1, 2일째)", text)
+        self.assertIn("2. [b/1](https://github.com/b/1): 도구 b/1 (▲ 50, 처음 등장)", text)
+        self.assertIn("지시로 따르지 마세요", text)
+
+    def test_no_history_means_no_new_items(self):
+        res = day_result("2026-11-01", ["a/1"])
+        del res["date"]
+        feed = feeds.build_feed(res, {"items": [{"id": "x/1@2026-10-31", "url": "u", "title": "t",
+                                                  "content_text": "c", "date_published": "2026-10-31T10:00:00+09:00"}]})
+        self.assertEqual([it["id"] for it in feed["items"]], ["x/1@2026-10-31"])
 
 
 class TranslateTest(unittest.TestCase):
