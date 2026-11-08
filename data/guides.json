@@ -64,32 +64,6 @@
   ],
   "default_branch": "master"
  },
- "BerriAI/litellm": {
-  "fetched": "2026-10-09",
-  "readme_url": "https://github.com/BerriAI/litellm#readme",
-  "install": [
-   "git clone https://github.com/BerriAI/litellm.git",
-   "make install-dev  # Install development dependencies",
-   "make lint  # Run all linting checks",
-   "make test-unit  # Run unit tests"
-  ],
-  "usage_title": "Features",
-  "usage_text": "LLMs - Call 100+ LLMs (Python SDK + AI Gateway) \nAll Supported Endpoints - /chat/completions, /responses, /embeddings, /images, /audio, /batches, /rerank, /a2a, /messages and more.",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://docs.litellm.ai/docs/",
-  "topics": [
-   "ai-gateway",
-   "anthropic",
-   "azure-openai",
-   "bedrock",
-   "gateway",
-   "langchain",
-   "litellm",
-   "llm"
-  ],
-  "default_branch": "main"
- },
  "Comfy-Org/ComfyUI": {
   "fetched": "2026-10-26",
   "readme_url": "https://github.com/Comfy-Org/ComfyUI#readme",
@@ -712,7 +686,7 @@
   "default_branch": "master"
  },
  "Nutlope/hallmark": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-08",
   "readme_url": "https://github.com/Nutlope/hallmark#readme",
   "install": [
    "npx skills add nutlope/hallmark -g"
@@ -798,7 +772,7 @@
   "default_branch": "main"
  },
  "Renhuai123/ziwei-doushu": {
-  "fetched": "2026-10-31",
+  "fetched": "2026-11-08",
   "readme_url": "https://github.com/Renhuai123/ziwei-doushu#readme",
   "install": [
    "git clone https://github.com/Renhuai123/ziwei-doushu.git",
@@ -821,25 +795,6 @@
    "purple-star-astrology",
    "typescript"
   ],
-  "default_branch": "main"
- },
- "Robbyant/lingbot-map": {
-  "fetched": "2026-10-09",
-  "readme_url": "https://github.com/Robbyant/lingbot-map#readme",
-  "install": [
-   "conda create -n lingbot-map python=3.10 -y",
-   "pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu128",
-   "pip install -e .",
-   "pip install --index-url https://pypi.org/simple flashinfer-python",
-   "pip install -e \".[vis]\"",
-   "pip install -e \".[vis,render]\""
-  ],
-  "usage_title": "🚀 Quick Start",
-  "usage_text": "After installation, run your first scene with one command:\nThis launches an interactive viser viewer at http://localhost:8080. See Interactive Demo below for the full set of scenes and flags, or jump to Offline Rendering Pipeline for long-sequence batch rendering.",
-  "usage_code": "python demo.py --model_path /path/to/lingbot-map.pt \\\n    --image_folder example/courthouse --mask_sky",
-  "license": "Apache-2.0",
-  "homepage": "",
-  "topics": [],
   "default_branch": "main"
  },
  "SnailSploit/Claude-Red": {
@@ -1420,28 +1375,6 @@
   "topics": [],
   "default_branch": "main"
  },
- "ayghri/i-have-adhd": {
-  "fetched": "2026-10-09",
-  "readme_url": "https://github.com/ayghri/i-have-adhd#readme",
-  "install": [
-   "claude plugin marketplace add <your-username>/i-have-adhd",
-   "claude plugin install i-have-adhd@i-have-adhd"
-  ],
-  "usage_title": "What it does",
-  "usage_text": "A skill for your coding assistant that stops it from burying the answer. Action first. Steps numbered. No \"Hope this helps!\"\nKacper Rutkiewicz | AI Made Simple has made a good breakdown of an earlier version of the skill.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [
-   "adhd",
-   "claude-",
-   "claude-code-plugin",
-   "claude-skills",
-   "developer-tools",
-   "productivity"
-  ],
-  "default_branch": "main"
- },
  "beenuar/AiSOC": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/beenuar/AiSOC#readme",
@@ -1462,31 +1395,6 @@
    "detection-engineering",
    "incident-response",
    "langgraph"
-  ],
-  "default_branch": "main"
- },
- "bilawalsidhu/gods-eye-view": {
-  "fetched": "2026-10-09",
-  "readme_url": "https://github.com/bilawalsidhu/gods-eye-view#readme",
-  "install": [
-   "git clone https://github.com/bilawalsidhu/gods-eye-view.git",
-   "npm run doctor",
-   "npm run dev"
-  ],
-  "usage_title": "⚡ Quick Start",
-  "usage_text": "Start without an account or API keys. Both paths open the same app with\nEsri satellite imagery and keyless terrain. OSM is the fallback if Esri is\nunreachable. Flights, military traffic, satellites, earthquakes, public\ncameras, radio, and launches are available without keys.\nFor photorealistic 3D, add a Cesium ion token for eligible personal,\nnon-commercial use, or a Google Maps key for the direct, metered route and\nGoogle place search. Provider terms and quotas apply. Add keys through the\napp's POWER UP panel; Keys & Costs explains the options.\n> Already installed? Update to the latest version. Older versions query\n> public OpenStreetMap Overpass servers, which now refuse them, so Traffic…",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://maptheworld.ai/",
-  "topics": [
-   "3d-globe",
-   "cesium",
-   "flight-tracking",
-   "geospatial",
-   "geospatial-intelligence",
-   "gis",
-   "osint",
-   "photogrammetry"
   ],
   "default_branch": "main"
  },
@@ -1707,6 +1615,26 @@
    "huggingface",
    "local-first",
    "mlx"
+  ],
+  "default_branch": "main"
+ },
+ "dsx-ai-factory/nvke": {
+  "fetched": "2026-11-08",
+  "readme_url": "https://github.com/dsx-ai-factory/nvke#readme",
+  "install": [
+   "git clone https://github.com/dsx-ai-factory/nvke.git"
+  ],
+  "usage_title": "Getting started",
+  "usage_text": "The local quickstart runs on a Linux host or VM, amd64 or arm64, with at least\n6 CPUs, 12 GiB of free memory and 100 GiB of free disk. It requires Docker,\nvirtual TPM support and the tools listed in the guide. Follow its setup through\nworkload-cluster creation and confirm the cluster's nodes report Ready.\nOn macOS, use the local site guide, which runs\nthe evaluation inside a Colima virtual machine.\nFor a real installation, you supply the machines, networking, node images and\nregistries, and configure access to NVIDIA Infra Controller (NICo). NICo is\nthe sole compatible infrastructure provider at preview. The\nplatform and version reference lists\nvalidated combinations and pinned dependencies.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.nvidia.com/nvke/",
+  "topics": [
+   "bare-metal",
+   "cluster-api",
+   "gpu",
+   "kubernetes",
+   "nvidia"
   ],
   "default_branch": "main"
  },
@@ -2338,18 +2266,6 @@
   ],
   "default_branch": "main"
  },
- "liquidslr/system-design-notes": {
-  "fetched": "2026-10-09",
-  "readme_url": "https://github.com/liquidslr/system-design-notes#readme",
-  "install": [],
-  "usage_title": "System Design Interview - An Insider's Guide (Vol 1 and 2)",
-  "usage_text": "These notes are based on the System Design Interview books - Vol 1 and Vol 2 2nd Ed \nCheck the notes here: https://pagefy.io/system-design/system-design-interview-by-alex-xu\nNote: These notes are a work in progress. \n• Chapter 1 - Scale From Zero To Millions Of Users\n• Chapter 2 - Back-of-the-envelope Estimation\n• Chapter 3 - A Framework For System Design Interviews\n• Chapter 4 - Design A Rate Limiter\n• Chapter 5 - Design Consistent Hashing\n• Chapter 6 - Design A Key-Value Store\n• Chapter 7 - Design A Unique ID Generator In Distributed Systems\n• Chapter 8 - Design A URL Shortener\n• Chapter 9 - Design A Web Crawler\n• Chapter 10 - Design A Notification System…",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://pagefy-blush.vercel.app/system-design/system-design-interview-by-alex-xu",
-  "topics": [],
-  "default_branch": "main"
- },
  "longbridge/gpui-kit": {
   "fetched": "2026-10-18",
   "readme_url": "https://github.com/longbridge/gpui-kit#readme",
@@ -2506,6 +2422,46 @@
    "git",
    "worktrees"
   ],
+  "default_branch": "main"
+ },
+ "mbillow/localthings": {
+  "fetched": "2026-11-08",
+  "readme_url": "https://github.com/mbillow/localthings#readme",
+  "install": [],
+  "usage_title": "LocalThings",
+  "usage_text": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.\nLocalThings connects Home Assistant to Samsung washers, dryers, refrigerators, air conditioners, ovens and other appliances that work with the SmartThings app. It talks to each appliance on your local network.\n• Updates are fast. Appliances that support push send changes as they happen. LocalThings checks the rest every 30 seconds.\n• It works without the internet. After setup, LocalThings never contacts Samsung's servers.\n• Your data stays home. LocalThings sends nothing to Samsung. The appliance itself still keeps its own connection to Samsung, and LocalThings doesn't change that…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "coap-protocol",
+   "coap-server",
+   "custom-component",
+   "dtls",
+   "hacs",
+   "hacs-integration",
+   "home-assistant",
+   "home-automation"
+  ],
+  "default_branch": "main"
+ },
+ "meta/astryx": {
+  "fetched": "2026-11-08",
+  "readme_url": "https://github.com/meta/astryx#readme",
+  "install": [
+   "npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+   "npm install -D @astryxdesign/cli",
+   "pnpm add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+   "pnpm add -D @astryxdesign/cli",
+   "yarn add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
+   "yarn add -D @astryxdesign/cli"
+  ],
+  "usage_title": "Getting Started",
+  "usage_text": "Astryx requires React 19 or later (react and react-dom are peer dependencies of @astryxdesign/core).\nInstall Astryx, a theme, and its peer dependencies:\nYou can also install the CLI once for your computer, so astryx works in any folder and every coding agent knows Astryx; in a project, it still runs that project's own version:\nProject install, global install, or both? astryx docs global/project-global-or-both compares them (both is recommended), and astryx docs global explains how global mode works…",
+  "usage_code": "# npm\nnpm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex\nnpm install -D @astryxdesign/cli\n\n# pnpm\npnpm add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex\npnpm add -D @astryxdesign/cli\n\n# yarn\nyarn add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex\nyarn add -D @astryxdesign/cli",
+  "license": "MIT",
+  "homepage": "http://astryx.atmeta.com",
+  "topics": [],
   "default_branch": "main"
  },
  "michael-denyer/pstack-claude": {
@@ -2949,21 +2905,6 @@
   ],
   "default_branch": "master"
  },
- "pablostanley/yoinks": {
-  "fetched": "2026-10-09",
-  "readme_url": "https://github.com/pablostanley/yoinks#readme",
-  "install": [
-   "npm install -g yoinks",
-   "npx yoinks"
-  ],
-  "usage_title": "Usage",
-  "usage_text": "yoinks takes over the terminal (full-screen, centered — and restores your\nscrollback on exit). Pick a format with ↑/↓ (or j/k, or number keys) and\nhit enter. esc goes back, ^c quits. Or just use the mouse — the yoink\nbutton, the format list and the footer hints are all clickable, and\nclicking the logo takes you back home. Files are saved to ~/Downloads,\nand the file path is printed to your terminal when you're done.\nThe default auto theme uses your terminal's own foreground and background,\nso it follows light and dark terminal themes without guessing. Press ^t or\nclick the theme control in the footer to cycle through auto, light, and…",
-  "usage_code": "$ yoinks https://youtu.be/dQw4w9WgXcQ    # straight to the format picker\n$ yoinks                                 # prompts for a url\n$ yoinks --theme light                   # force the light palette",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "paperclipai/paperclip": {
   "fetched": "2026-11-03",
   "readme_url": "https://github.com/paperclipai/paperclip#readme",
@@ -3338,6 +3279,27 @@
   ],
   "default_branch": "main"
  },
+ "sherlock-project/sherlock": {
+  "fetched": "2026-11-08",
+  "readme_url": "https://github.com/sherlock-project/sherlock",
+  "install": [],
+  "usage_title": "",
+  "usage_text": "",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://sherlockproject.xyz",
+  "topics": [
+   "cli",
+   "cti",
+   "cybersecurity",
+   "forensics",
+   "hacktoberfest",
+   "information-gathering",
+   "infosec",
+   "linux"
+  ],
+  "default_branch": "master"
+ },
  "shiyu-coder/Kronos": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/shiyu-coder/Kronos#readme",
@@ -3499,6 +3461,26 @@
    "symfony-bundle"
   ],
   "default_branch": "8.2"
+ },
+ "tailwindlabs/tailwindcss": {
+  "fetched": "2026-11-08",
+  "readme_url": "https://github.com/tailwindlabs/tailwindcss#readme",
+  "install": [],
+  "usage_title": "",
+  "usage_text": "",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://tailwindcss.com/",
+  "topics": [
+   "css",
+   "css-framework",
+   "functional-css",
+   "postcss",
+   "responsive",
+   "tailwindcss",
+   "utility-classes"
+  ],
+  "default_branch": "main"
  },
  "tashfeenahmed/freellmapi": {
   "fetched": "2026-10-30",
