@@ -4,9 +4,11 @@
 github.com/trending 의 daily / weekly / monthly 세 페이지를 수집·파싱하고,
 설명을 한국어로 번역해 data/trending.json 으로 저장한다.
 
-- GitHub 트렌딩은 기간당 최대 25개이므로 26~30위는 다른 기간 목록에서
-  중복 없이 보충한다 (보충 항목은 filled_from 에 출처 기간 기록).
+- GitHub 트렌딩은 기간당 30개보다 적게(최근 보통 10~20개대) 주므로 모자란 순위는
+  다른 기간 목록에서 중복 없이 보충한다 (보충 항목은 filled_from 에 출처 기간 기록).
 - 번역 결과는 data/translations.json 에 캐시해 같은 문장을 재요청하지 않는다.
+- data/history.json 에 이전 순위를 기억해 처음 등장(first_seen)·어제 순위(prev_rank)·
+  연속 일수(streak)를 붙인다 (scripts/history.py).
 - 어느 기간이든 파싱 결과가 0개이거나 보충 후 10개 미만이면
   기존 데이터를 덮어쓰지 않고 에러 코드로 종료한다.
 
@@ -26,11 +28,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import guides  # noqa: E402  (README 기반 설치·활용 가이드 추출)
+import history  # noqa: E402  (처음 등장·순위 변화·연속 일수)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "trending.json"
 CACHE_FILE = ROOT / "data" / "translations.json"
 GUIDES_FILE = ROOT / "data" / "guides.json"
+HISTORY_FILE = ROOT / "data" / "history.json"
 
 PERIODS = ["daily", "weekly", "monthly"]
 TOP_N = 30
@@ -242,9 +246,23 @@ def main():
     cache = load_cache()
     add_translations([r for p in PERIODS for r in result[p]["repos"]], cache)
 
+    # 처음 등장·순위 변화. 실패해도 순위 데이터는 그대로 게시한다 (배지만 빠짐)
+    today = result["fetched_at"][:10]
+    new_history = None
+    try:
+        new_history = history.apply(result, history.load(HISTORY_FILE), today)
+        result["date"] = today
+        fresh = {r["full_name"] for p in PERIODS for r in result[p]["repos"]
+                 if r.get("first_seen") == today}
+        log(f"기록: 오늘 처음 등장 {len(fresh)}개")
+    except Exception as e:
+        log(f"[경고] 순위 기록 계산 실패 (순위 데이터는 저장함): {e}")
+
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     write_json(CACHE_FILE, dict(sorted(cache.items())))
     write_json(DATA_FILE, result)
+    if new_history is not None:
+        write_json(HISTORY_FILE, new_history)
 
     # 설치·활용 가이드 (README 기반). 실패해도 순위 데이터는 이미 저장됐으므로 계속 진행
     try:

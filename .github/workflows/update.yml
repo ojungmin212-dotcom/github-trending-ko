@@ -27,6 +27,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      # 네트워크 없이 도는 테스트. 코드가 깨졌으면 여기서 멈춰 전날 데이터를 그대로 둔다
+      - name: Test
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m unittest discover -s tests
+
       - name: Fetch GitHub trending
         env:
           PYTHONIOENCODING: utf-8
@@ -37,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/trending.json data/translations.json data/guides.json
+          git add data/trending.json data/translations.json data/guides.json data/history.json
           if git diff --cached --quiet; then
             echo "데이터 변경 없음 — 커밋 생략"
             exit 0

@@ -13,6 +13,8 @@ GitHub 트렌딩 Top 30 정적 대시보드. GitHub Actions가 매일 수집해 
 - 안전장치는 "파싱 0개" 또는 "**보충 후** 10개 미만"일 때만 중단. 원시 개수 10개 기준으로 되돌리지 말 것 (GitHub이 daily를 8개만 주는 날이 있어 매일 실패함).
 - 디자인은 build.nvidia.com 모방(다크 전용). 사용자가 요청한 것이므로 이전 디자인으로 되돌리지 말 것.
 - 관심 레포 localStorage 키 `gtk-favs-v1`과 그 형식을 바꾸면 사용자 저장분이 사라진다 → 바꿀 땐 마이그레이션 코드 필수.
+- `data/history.json`(순위 기록)을 지우거나 손으로 고치지 말 것. NEW·순위 변화가 전부 틀어진다. 다시 만들 땐 로컬에서 `python scripts/history.py --rebuild`(전체 git 기록 필요).
+- 순위 변화·연속 일수는 **원래 순위(filled_from 없음)만** 비교한다. 보충 항목의 자리 번호는 의미가 없다.
 
 ## 코드 컨벤션
 - `index.html`은 빌드 없는 단일 파일(CSS·JS 인라인). 프레임워크·번들러 도입 금지.
@@ -31,9 +33,11 @@ GitHub 트렌딩 Top 30 정적 대시보드. GitHub Actions가 매일 수집해 
 
 ## 작업 흐름
 1. 시작 전 `git pull --rebase` — Actions 봇이 매일 `data/` 커밋을 만든다. push 전에도 다시 rebase.
-2. 수집 로직 변경 → `PYTHONIOENCODING=utf-8 python scripts/fetch_trending.py`로 세 기간 30개 확인.
+2. 파이썬 변경 → `PYTHONIOENCODING=utf-8 python -m unittest discover -s tests`(네트워크 없음, Actions에서도 수집 전에 실행됨).
+   수집 로직 변경 → `PYTHONIOENCODING=utf-8 python scripts/fetch_trending.py`로 세 기간 30개 확인.
    가이드 추출 규칙 변경 → `data/guides.json`을 지우고 재실행(7일 캐시 때문에 안 바뀜).
 3. 화면 변경 → `python -m http.server 8766`(`.claude/launch.json`의 `trending`)으로 확인:
-   카드 30개, 콘솔 오류 0, 375px에서 `scrollWidth <= innerWidth`, 900px 초과에서 2열 + 사이드바.
+   기본 화면은 원래 순위만(보통 10~20개), "보충 항목도 보기"를 켜면 30개, 콘솔 오류 0,
+   **360px·375px**에서 `scrollWidth <= innerWidth`(보충 항목까지 켠 상태로), 900px 초과에서 2열 + 사이드바.
 4. 커밋·푸시 후 `gh api repos/ojungmin212-dotcom/github-trending-ko/pages/builds/latest`가 해당 커밋으로 `built` 된 것을 보고 공개 URL에서 확인.
 5. 커밋 전 로컬 `git config user.email`이 저장소 소유 계정 이메일인지 확인(전역 값은 플레이스홀더).

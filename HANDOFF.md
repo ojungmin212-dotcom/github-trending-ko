@@ -1,7 +1,7 @@
 # HANDOFF — 오박사의 GitHub Trending Space
 
 > 다른 계정·다른 Claude Code 세션에서 이어서 작업하기 위한 인수인계 문서.
-> 작성: 2026-10-09 · 최신 갱신: 2026-10-10 · 기준 커밋: `ac26f8e` 이후 (origin/main과 동기화됨, 미커밋 변경 없음)
+> 작성: 2026-10-09 · 최신 갱신: 2026-11-08 · 기준: 아래 완료 11번 커밋
 
 ## 1. 프로젝트 한눈에 보기
 
@@ -20,12 +20,14 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
 
 ```
 [매일 cron "35 22 * * *" UTC = 07:35 KST] .github/workflows/update.yml
+  └─ python -m unittest discover -s tests       (네트워크 없음. 실패하면 수집하지 않음)
   └─ python scripts/fetch_trending.py           (표준 라이브러리만)
        ├─ github.com/trending?since=daily|weekly|monthly 수집 (UA 헤더, 재시도 3회)
        ├─ parse_trending(): <article class="Box-row"> 정규식 파싱
        ├─ build_top30(): 다른 기간 목록에서 중복 없이 30개까지 보충 (filled_from)
        ├─ 번역: clients5.google.com/translate_a/t (동시 4, data/translations.json 캐시)
-       ├─ 안전장치 통과 시 data/trending.json 저장
+       ├─ scripts/history.py: data/history.json 으로 first_seen·prev_rank·streak 계산 (실패해도 게시)
+       ├─ 안전장치 통과 시 data/trending.json · data/history.json 저장
        └─ scripts/guides.py: README(raw.githubusercontent.com) 규칙 파싱 → data/guides.json
   └─ 변경 있으면 github-actions[bot] 커밋 → git pull --rebase → push
        └─ pages-build-deployment 자동 실행 (1~2분)
@@ -43,7 +45,10 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
 |---|---|
 | `scripts/fetch_trending.py` | 수집·파싱·보충·번역·안전장치·저장 (진입점) |
 | `scripts/guides.py` | README에서 설치 명령·사용법 규칙 추출 (LLM 없음) |
-| `data/trending.json` | `{fetched_at, daily|weekly|monthly: {since, count, repos[]}}` |
+| `scripts/history.py` | 순위 기록 계산 + `--rebuild`(git 기록에서 재생성, 로컬 전용) |
+| `data/trending.json` | `{fetched_at, date, daily|weekly|monthly: {since, count, repos[]}}` — repo에 `first_seen`, 원래 순위 항목엔 `prev_rank`·`streak` |
+| `data/history.json` | `{repos: {name: {first_seen, last_seen}}, periods: {daily: {date, ranks, streak, prev}}}` 180일 미등장 시 삭제 |
+| `tests/` | `unittest` 16개 + 실제 트렌딩 HTML 일부(`fixtures/trending_daily_sample.html`) |
 | `data/translations.json` | 번역 캐시 `{원문: 번역}` — 성공한 것만 저장 |
 | `data/guides.json` | `{full_name: {install[], usage_title, usage_text, usage_code, license, homepage, topics, readme_url, fetched}}` 7일 캐시, 순위 밖 30일 후 삭제 |
 | `index.html` | 대시보드 전부 (CSS·JS 인라인, 약 900줄) |
@@ -64,16 +69,22 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
 8. 이후 매일 봇 커밋 정상 (2026-09-23 ~ 10-09, 17회 연속 success)
 9. 인수인계 문서(HANDOFF.md) + 프로젝트 지침(CLAUDE.md) 커밋 (`ac26f8e`)
 10. 예약 실행 지연 대응: cron `0 0 * * *` → `35 22 * * *`(07:35 KST) + 푸터·README 문구를 실제 동작에 맞게 수정 (아래 4장 버그 #1)
+11. (2026-11-08) 사용자가 고른 1차 개선:
+    - **F1** 375px 이하 가로 넘침 수정 — 900px 이하 `.grid`가 `1fr`이라 카드가 내용 폭 아래로 줄지 않았음(7번에서 고친 뒤에도 남아 있던 원인). `minmax(0,1fr)` + 배지 줄바꿈.
+    - **F2** `curl … | sh` 류 설치 명령 경고 상자 + "먼저 받아서 확인" 명령, 에이전트 프롬프트에 안전 규칙·위험 요소 보고 추가, 위험 명령은 프롬프트 힌트에서 제외.
+    - **F3** `tests/` unittest 16개, 워크플로에서 수집 전에 실행.
+    - **F4** `data/history.json` + NEW 배지·"처음 보는 것만"·▲▼/진입·N일째. 46일 재생 결과 오늘 30개 중 신규는 하루 중앙값 4개.
+    - **D1** 보충 항목 기본 숨김 ("보충 항목도 보기" 버튼).
 
 ### 🔄 진행 중
-- **cron 이동 효과 관측 대기.** 2026-10-11 이후 `gh run list`로 실제 시작 시각을 확인한다.
-  22:40 UTC 근처면 혼잡이 원인이었다는 뜻(해결). 여전히 4~5시간 밀리면 계정·저장소 단위 지연이므로
-  백업 cron 추가(예: `35 22` + `35 01`)를 사용자와 상의한다. 실행 추가는 데이터 무변경 시 커밋을 생략해 안전하다.
+- 없음. cron 이동 효과: 10-28~11-08 실제 실행 10:24~12:40 KST(예정 07:35보다 약 3~5시간 늦음). 지연은 줄었지만 남아 있고 푸터 문구가 이를 설명한다.
 
 ### ⏭ 다음 단계 (우선순위 순)
 1. **옛 Claude 루틴 정리 여부 확인.** 이 프로젝트 전에 쓰던 Claude Code 루틴(`trig_01XrndG9HypGCBXDV2h32ooz`, 매시간 :50, 아티팩트 버전 갱신)이 아직 켜져 있을 수 있다. 사용자에게 비활성화 여부를 물었으나 **답을 받지 못함** — 임의로 끄지 말 것. (다른 계정에서는 접근 불가할 수 있음)
 2. 로고 옆 "GitHub 트렌딩", 상단 메뉴 "Trending"도 새 제목에 맞출지 사용자에게 확인 (이전에 제안만 함).
 3. (선택) 더 나은 가이드: 무료 LLM을 Actions secret으로 붙이고 실패 시 현재 규칙 추출로 폴백. 사용자 원칙(Claude API·유료 금지) 때문에 **사용자 승인 전에는 하지 말 것**.
+   후보: `actions/ai-inference`(GitHub Models, `models: read` 권한 + 기본 `GITHUB_TOKEN`, 별도 키 없음). 무료 한도 수치는 미확인.
+4. 2차 개선 후보(사용자 선택 대기): F5 변화 알림(RSS/ntfy), F9 `llms.txt`·`feed.json`, F10 OG 태그·홈 화면 추가, F7 신뢰도 배지, F8 관심 키워드 점수, D2 모바일 배경 애니메이션 끄기.
 
 ## 3. 설계 결정과 이유
 
