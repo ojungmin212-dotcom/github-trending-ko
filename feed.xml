@@ -5,9 +5,42 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 08 Nov 2026 10:45:28 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 10:54:45 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>anthropics/claude-quickstarts — 개발자가 Claude API를 사용하여 배포 가능한 애플리케이션 구축을 빠르게 시작할 수 있도록 설계된 프로젝트 모음</title>
+      <link>https://github.com/anthropics/claude-quickstarts</link>
+      <guid isPermaLink="false">anthropics/claude-quickstarts@2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 10:54:45 +0900</pubDate>
+      <description>개발자가 Claude API를 사용하여 배포 가능한 애플리케이션 구축을 빠르게 시작할 수 있도록 설계된 프로젝트 모음
+A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
+Python · ★ 19.5k · ▲ 32 (오늘) · 오늘 #4</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>google-deepmind/mujoco — 접촉을 사용한 다중 관절 역학. 범용 물리 시뮬레이터.</title>
+      <link>https://github.com/google-deepmind/mujoco</link>
+      <guid isPermaLink="false">google-deepmind/mujoco@2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 10:54:45 +0900</pubDate>
+      <description>접촉을 사용한 다중 관절 역학. 범용 물리 시뮬레이터.
+Multi-Joint dynamics with Contact. A general purpose physics simulator.
+C++ · ★ 16.4k · ▲ 41 (오늘) · 오늘 #8</description>
+      <category>C++</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>blader/humanizer — 텍스트에서 AI가 작성한 흔적을 제거하는 에이전트 스킬</title>
+      <link>https://github.com/blader/humanizer</link>
+      <guid isPermaLink="false">blader/humanizer@2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 10:54:45 +0900</pubDate>
+      <description>텍스트에서 AI가 작성한 흔적을 제거하는 에이전트 스킬
+Agent skill that removes signs of AI-generated writing from text
+Python · ★ 66.5k · ▲ 3.1k (이번 주) · 이번 주 #17</description>
+      <category>Python</category>
+      <category>이번 주</category>
+    </item>
     <item>
       <title>meta/astryx — 완전히 사용자 정의 가능하고 에이전트가 준비된 오픈 소스 디자인 시스템</title>
       <link>https://github.com/meta/astryx</link>
@@ -1324,27 +1357,6 @@ Python · ★ 17.7k · ▲ 110 (오늘) · 오늘 #10</description>
       <description>Claude Code, Codex 및 기타 AI 도구를 위한 SwiftUI 에이전트 기술입니다.
 SwiftUI agent skill for Claude Code, Codex, and other AI tools.
 ★ 5.5k · ▲ 65 (오늘) · 오늘 #11</description>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>storytold/artcraft — ArtCraft는 예술가, 디자이너, 영화 제작자를 위한 의도적인 제작 엔진입니다.</title>
-      <link>https://github.com/storytold/artcraft</link>
-      <guid isPermaLink="false">storytold/artcraft@2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 14:21:07 +0900</pubDate>
-      <description>ArtCraft는 예술가, 디자이너, 영화 제작자를 위한 의도적인 제작 엔진입니다.
-ArtCraft is an intentional crafting engine for artists, designers, and filmmakers
-Rust · ★ 8.6k · ▲ 2.1k (오늘) · 오늘 #8</description>
-      <category>Rust</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>liquidslr/system-design-notes — 시스템 설계 인터뷰 - 내부자 가이드 책에 대한 참고 사항</title>
-      <link>https://github.com/liquidslr/system-design-notes</link>
-      <guid isPermaLink="false">liquidslr/system-design-notes@2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 14:21:07 +0900</pubDate>
-      <description>시스템 설계 인터뷰 - 내부자 가이드 책에 대한 참고 사항
-Notes of the book System Desgin Interview - An Insider's Guide
-★ 24.8k · ▲ 393 (오늘) · 오늘 #9</description>
       <category>오늘</category>
     </item>
   </channel>

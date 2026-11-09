@@ -38,7 +38,7 @@
   },
   "D4Vinci/Scrapling": {
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "DeusData/codebase-memory-mcp": {
    "first_seen": "2026-09-24",
@@ -50,7 +50,7 @@
   },
   "Donchitos/Claude-Code-Game-Studios": {
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "DuarteSantos8/openGym": {
    "first_seen": "2026-10-06",
@@ -98,7 +98,7 @@
   },
   "HKUDS/DeepTutor": {
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-09"
   },
   "HunxByts/GhostTrack": {
    "first_seen": "2026-10-02",
@@ -182,11 +182,11 @@
   },
   "NVIDIA/auto-ontology": {
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-09"
   },
   "NationalSecurityAgency/ghidra": {
    "first_seen": "2026-10-05",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-09"
   },
   "NawfalMotii79/PLFM_RADAR": {
    "first_seen": "2026-09-29",
@@ -194,7 +194,7 @@
   },
   "Nutlope/hallmark": {
    "first_seen": "2026-10-25",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "Open-Dev-Society/OpenStock": {
    "first_seen": "2026-09-23",
@@ -222,7 +222,7 @@
   },
   "Renhuai123/ziwei-doushu": {
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "Robbyant/lingbot-map": {
    "first_seen": "2026-10-10",
@@ -262,7 +262,7 @@
   },
   "The-PR-Agent/pr-agent": {
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "Thysrael/Horizon": {
    "first_seen": "2026-11-05",
@@ -356,6 +356,10 @@
    "first_seen": "2026-09-26",
    "last_seen": "2026-11-05"
   },
+  "anthropics/claude-quickstarts": {
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09"
+  },
   "anthropics/financial-services": {
    "first_seen": "2026-09-23",
    "last_seen": "2026-10-22"
@@ -366,7 +370,7 @@
   },
   "anthropics/skills": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "antirez/ds4": {
    "first_seen": "2026-10-05",
@@ -396,6 +400,10 @@
    "first_seen": "2026-09-24",
    "last_seen": "2026-10-14"
   },
+  "blader/humanizer": {
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09"
+  },
   "block/buzz": {
    "first_seen": "2026-09-27",
    "last_seen": "2026-09-27"
@@ -406,7 +414,7 @@
   },
   "boykopovar/AnyPS5": {
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "bregman-arie/devops-exercises": {
    "first_seen": "2026-11-01",
@@ -458,7 +466,7 @@
   },
   "cloudflare/security-audit-skill": {
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "colbymchenry/codegraph": {
    "first_seen": "2026-10-01",
@@ -494,7 +502,7 @@
   },
   "debpalash/VoiceStudio": {
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "deepseek-ai/DeepGEMM": {
    "first_seen": "2026-10-07",
@@ -510,7 +518,7 @@
   },
   "dsx-ai-factory/nvke": {
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "earendil-works/pi": {
    "first_seen": "2026-10-02",
@@ -586,11 +594,15 @@
   },
   "github/spec-kit": {
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "gitroomhq/postiz-app": {
    "first_seen": "2026-10-27",
    "last_seen": "2026-10-28"
+  },
+  "google-deepmind/mujoco": {
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09"
   },
   "google-gemini/gemini-cli": {
    "first_seen": "2026-10-25",
@@ -626,7 +638,7 @@
   },
   "heygen-com/hyperframes": {
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "hmjz100/LinkSwift": {
    "first_seen": "2026-10-17",
@@ -650,7 +662,7 @@
   },
   "hyprwm/Hyprland": {
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "ifixai-ai/iFixAi": {
    "first_seen": "2026-10-15",
@@ -658,7 +670,7 @@
   },
   "jakubkrehel/skills": {
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "jamwithai/production-agentic-rag-course": {
    "first_seen": "2026-10-04",
@@ -738,11 +750,11 @@
   },
   "mattpocock/skills": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "max-sixty/worktrunk": {
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "mbillow/localthings": {
    "first_seen": "2026-11-08",
@@ -758,7 +770,7 @@
   },
   "meta/astryx": {
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "michael-denyer/pstack-claude": {
    "first_seen": "2026-10-05",
@@ -778,7 +790,7 @@
   },
   "milind-soni/OpenMausBot": {
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "miuuyy/codex-chatgpt-web": {
    "first_seen": "2026-09-28",
@@ -802,7 +814,7 @@
   },
   "morluto/rea": {
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "mpv-player/mpv": {
    "first_seen": "2026-11-07",
@@ -894,7 +906,7 @@
   },
   "pbakaus/impeccable": {
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "php/php-src": {
    "first_seen": "2026-10-23",
@@ -902,7 +914,7 @@
   },
   "pingdotgg/t3code": {
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "pollen-robotics/microduck": {
    "first_seen": "2026-10-25",
@@ -934,7 +946,7 @@
   },
   "ranxianglei/billion-context": {
    "first_seen": "2026-10-11",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "react/react": {
    "first_seen": "2026-11-07",
@@ -966,7 +978,7 @@
   },
   "sherlock-project/sherlock": {
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "shiyu-coder/Kronos": {
    "first_seen": "2026-10-20",
@@ -990,7 +1002,7 @@
   },
   "storytold/artcraft": {
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "strands-agents/harness-sdk": {
    "first_seen": "2026-09-24",
@@ -1038,7 +1050,7 @@
   },
   "thedotmack/claude-mem": {
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "tile-ai/tilelang": {
    "first_seen": "2026-10-02",
@@ -1070,7 +1082,7 @@
   },
   "vercel-labs/agent-browser": {
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "vercel-labs/agent-desktop": {
    "first_seen": "2026-11-03",
@@ -1139,228 +1151,208 @@
  },
  "periods": {
   "daily": {
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "ranks": {
-    "vercel-labs/agent-browser": 1,
-    "cloudflare/security-audit-skill": 2,
-    "google/skills": 3,
-    "mattpocock/skills": 4,
-    "anthropics/skills": 5,
+    "sherlock-project/sherlock": 1,
+    "dsx-ai-factory/nvke": 2,
+    "milind-soni/OpenMausBot": 3,
+    "anthropics/claude-quickstarts": 4,
+    "vercel-labs/agent-browser": 5,
     "meta/astryx": 6,
-    "prometheus/prometheus": 7,
-    "sherlock-project/sherlock": 8,
-    "milind-soni/OpenMausBot": 9,
-    "astral-sh/ruff": 10,
-    "tailwindlabs/tailwindcss": 11,
-    "mbillow/localthings": 12,
-    "zed-industries/zed": 13,
-    "ranxianglei/billion-context": 14,
-    "dsx-ai-factory/nvke": 15
+    "anthropics/skills": 7,
+    "google-deepmind/mujoco": 8,
+    "ranxianglei/billion-context": 9
    },
    "streak": {
-    "vercel-labs/agent-browser": 1,
-    "cloudflare/security-audit-skill": 2,
-    "google/skills": 3,
-    "mattpocock/skills": 6,
-    "anthropics/skills": 1,
-    "meta/astryx": 1,
-    "prometheus/prometheus": 2,
-    "sherlock-project/sherlock": 1,
-    "milind-soni/OpenMausBot": 1,
-    "astral-sh/ruff": 2,
-    "tailwindlabs/tailwindcss": 1,
-    "mbillow/localthings": 1,
-    "zed-industries/zed": 2,
-    "ranxianglei/billion-context": 1,
-    "dsx-ai-factory/nvke": 1
+    "sherlock-project/sherlock": 2,
+    "dsx-ai-factory/nvke": 2,
+    "milind-soni/OpenMausBot": 2,
+    "anthropics/claude-quickstarts": 1,
+    "vercel-labs/agent-browser": 2,
+    "meta/astryx": 2,
+    "anthropics/skills": 2,
+    "google-deepmind/mujoco": 1,
+    "ranxianglei/billion-context": 2
    },
    "prev": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "ranks": {
-     "zed-industries/zed": 1,
-     "NVIDIA/auto-ontology": 2,
-     "rails/rails": 3,
-     "mpv-player/mpv": 4,
-     "rust-lang/rust": 5,
-     "react/react": 6,
-     "angular/angular": 7,
-     "symfony/symfony": 8,
-     "prometheus/prometheus": 9,
-     "google/skills": 10,
-     "microsoft/vscode": 11,
-     "nushell/nushell": 12,
-     "etcd-io/etcd": 13,
-     "openssl/openssl": 14,
-     "mattpocock/skills": 15,
-     "cloudflare/security-audit-skill": 16,
-     "astral-sh/ruff": 17
+     "vercel-labs/agent-browser": 1,
+     "cloudflare/security-audit-skill": 2,
+     "google/skills": 3,
+     "mattpocock/skills": 4,
+     "anthropics/skills": 5,
+     "meta/astryx": 6,
+     "prometheus/prometheus": 7,
+     "sherlock-project/sherlock": 8,
+     "milind-soni/OpenMausBot": 9,
+     "astral-sh/ruff": 10,
+     "tailwindlabs/tailwindcss": 11,
+     "mbillow/localthings": 12,
+     "zed-industries/zed": 13,
+     "ranxianglei/billion-context": 14,
+     "dsx-ai-factory/nvke": 15
     },
     "streak": {
-     "zed-industries/zed": 1,
-     "NVIDIA/auto-ontology": 3,
-     "rails/rails": 1,
-     "mpv-player/mpv": 1,
-     "rust-lang/rust": 1,
-     "react/react": 1,
-     "angular/angular": 1,
-     "symfony/symfony": 1,
-     "prometheus/prometheus": 1,
-     "google/skills": 2,
-     "microsoft/vscode": 1,
-     "nushell/nushell": 1,
-     "etcd-io/etcd": 1,
-     "openssl/openssl": 1,
-     "mattpocock/skills": 5,
-     "cloudflare/security-audit-skill": 1,
-     "astral-sh/ruff": 1
+     "vercel-labs/agent-browser": 1,
+     "cloudflare/security-audit-skill": 2,
+     "google/skills": 3,
+     "mattpocock/skills": 6,
+     "anthropics/skills": 1,
+     "meta/astryx": 1,
+     "prometheus/prometheus": 2,
+     "sherlock-project/sherlock": 1,
+     "milind-soni/OpenMausBot": 1,
+     "astral-sh/ruff": 2,
+     "tailwindlabs/tailwindcss": 1,
+     "mbillow/localthings": 1,
+     "zed-industries/zed": 2,
+     "ranxianglei/billion-context": 1,
+     "dsx-ai-factory/nvke": 1
     }
    }
   },
   "weekly": {
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "ranks": {
-    "thedotmack/claude-mem": 1,
-    "max-sixty/worktrunk": 2,
-    "Donchitos/Claude-Code-Game-Studios": 3,
-    "Renhuai123/ziwei-doushu": 4,
-    "pingdotgg/t3code": 5,
-    "anthropics/skills": 6,
-    "Nutlope/hallmark": 7,
-    "milind-soni/OpenMausBot": 8,
-    "D4Vinci/Scrapling": 9,
-    "calesthio/OpenMontage": 10,
-    "jakubkrehel/skills": 11,
-    "vercel-labs/agent-browser": 12,
-    "mattpocock/skills": 13,
-    "hyprwm/Hyprland": 14,
-    "github/spec-kit": 15,
-    "obra/superpowers": 16,
-    "The-PR-Agent/pr-agent": 17,
-    "pbakaus/impeccable": 18,
-    "shiyu-coder/Kronos": 19
+    "NVIDIA/auto-ontology": 1,
+    "thedotmack/claude-mem": 2,
+    "max-sixty/worktrunk": 3,
+    "anthropics/skills": 4,
+    "Donchitos/Claude-Code-Game-Studios": 5,
+    "milind-soni/OpenMausBot": 6,
+    "pingdotgg/t3code": 7,
+    "Nutlope/hallmark": 8,
+    "Renhuai123/ziwei-doushu": 9,
+    "D4Vinci/Scrapling": 10,
+    "vercel-labs/agent-browser": 11,
+    "mattpocock/skills": 12,
+    "jakubkrehel/skills": 13,
+    "github/spec-kit": 14,
+    "The-PR-Agent/pr-agent": 15,
+    "hyprwm/Hyprland": 16,
+    "blader/humanizer": 17
    },
    "streak": {
-    "thedotmack/claude-mem": 8,
-    "max-sixty/worktrunk": 5,
-    "Donchitos/Claude-Code-Game-Studios": 2,
-    "Renhuai123/ziwei-doushu": 1,
-    "pingdotgg/t3code": 9,
-    "anthropics/skills": 9,
-    "Nutlope/hallmark": 8,
-    "milind-soni/OpenMausBot": 3,
-    "D4Vinci/Scrapling": 2,
-    "calesthio/OpenMontage": 4,
-    "jakubkrehel/skills": 11,
-    "vercel-labs/agent-browser": 1,
-    "mattpocock/skills": 1,
-    "hyprwm/Hyprland": 5,
-    "github/spec-kit": 1,
-    "obra/superpowers": 10,
-    "The-PR-Agent/pr-agent": 3,
-    "pbakaus/impeccable": 11,
-    "shiyu-coder/Kronos": 2
+    "NVIDIA/auto-ontology": 1,
+    "thedotmack/claude-mem": 9,
+    "max-sixty/worktrunk": 6,
+    "anthropics/skills": 10,
+    "Donchitos/Claude-Code-Game-Studios": 3,
+    "milind-soni/OpenMausBot": 4,
+    "pingdotgg/t3code": 10,
+    "Nutlope/hallmark": 9,
+    "Renhuai123/ziwei-doushu": 2,
+    "D4Vinci/Scrapling": 3,
+    "vercel-labs/agent-browser": 2,
+    "mattpocock/skills": 2,
+    "jakubkrehel/skills": 12,
+    "github/spec-kit": 2,
+    "The-PR-Agent/pr-agent": 4,
+    "hyprwm/Hyprland": 6,
+    "blader/humanizer": 1
    },
    "prev": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "ranks": {
      "thedotmack/claude-mem": 1,
-     "Donchitos/Claude-Code-Game-Studios": 2,
-     "pingdotgg/t3code": 3,
-     "max-sixty/worktrunk": 4,
-     "Nutlope/hallmark": 5,
+     "max-sixty/worktrunk": 2,
+     "Donchitos/Claude-Code-Game-Studios": 3,
+     "Renhuai123/ziwei-doushu": 4,
+     "pingdotgg/t3code": 5,
      "anthropics/skills": 6,
-     "milind-soni/OpenMausBot": 7,
-     "pbakaus/impeccable": 8,
-     "obra/superpowers": 9,
-     "HKUDS/DeepTutor": 10,
-     "hyprwm/Hyprland": 11,
-     "jakubkrehel/skills": 12,
-     "calesthio/OpenMontage": 13,
-     "The-PR-Agent/pr-agent": 14,
-     "nightly-labs/openbot": 15,
-     "D4Vinci/Scrapling": 16,
-     "multica-ai/andrej-karpathy-skills": 17,
-     "shiyu-coder/Kronos": 18
+     "Nutlope/hallmark": 7,
+     "milind-soni/OpenMausBot": 8,
+     "D4Vinci/Scrapling": 9,
+     "calesthio/OpenMontage": 10,
+     "jakubkrehel/skills": 11,
+     "vercel-labs/agent-browser": 12,
+     "mattpocock/skills": 13,
+     "hyprwm/Hyprland": 14,
+     "github/spec-kit": 15,
+     "obra/superpowers": 16,
+     "The-PR-Agent/pr-agent": 17,
+     "pbakaus/impeccable": 18,
+     "shiyu-coder/Kronos": 19
     },
     "streak": {
-     "thedotmack/claude-mem": 7,
-     "Donchitos/Claude-Code-Game-Studios": 1,
-     "pingdotgg/t3code": 8,
-     "max-sixty/worktrunk": 4,
-     "Nutlope/hallmark": 7,
-     "anthropics/skills": 8,
-     "milind-soni/OpenMausBot": 2,
-     "pbakaus/impeccable": 10,
-     "obra/superpowers": 9,
-     "HKUDS/DeepTutor": 2,
-     "hyprwm/Hyprland": 4,
-     "jakubkrehel/skills": 10,
-     "calesthio/OpenMontage": 3,
-     "The-PR-Agent/pr-agent": 2,
-     "nightly-labs/openbot": 1,
-     "D4Vinci/Scrapling": 1,
-     "multica-ai/andrej-karpathy-skills": 13,
-     "shiyu-coder/Kronos": 1
+     "thedotmack/claude-mem": 8,
+     "max-sixty/worktrunk": 5,
+     "Donchitos/Claude-Code-Game-Studios": 2,
+     "Renhuai123/ziwei-doushu": 1,
+     "pingdotgg/t3code": 9,
+     "anthropics/skills": 9,
+     "Nutlope/hallmark": 8,
+     "milind-soni/OpenMausBot": 3,
+     "D4Vinci/Scrapling": 2,
+     "calesthio/OpenMontage": 4,
+     "jakubkrehel/skills": 11,
+     "vercel-labs/agent-browser": 1,
+     "mattpocock/skills": 1,
+     "hyprwm/Hyprland": 5,
+     "github/spec-kit": 1,
+     "obra/superpowers": 10,
+     "The-PR-Agent/pr-agent": 3,
+     "pbakaus/impeccable": 11,
+     "shiyu-coder/Kronos": 2
     }
    }
   },
   "monthly": {
-   "date": "2026-11-08",
+   "date": "2026-11-09",
    "ranks": {
     "morluto/rea": 1,
     "Nutlope/hallmark": 2,
-    "storytold/artcraft": 3,
-    "cloudflare/security-audit-skill": 4,
-    "boykopovar/AnyPS5": 5,
+    "cloudflare/security-audit-skill": 3,
+    "storytold/artcraft": 4,
+    "heygen-com/hyperframes": 5,
     "debpalash/VoiceStudio": 6,
-    "heygen-com/hyperframes": 7,
-    "pingdotgg/t3code": 8,
-    "thedotmack/claude-mem": 9,
-    "pbakaus/impeccable": 10
+    "pingdotgg/t3code": 7,
+    "thedotmack/claude-mem": 8,
+    "boykopovar/AnyPS5": 9,
+    "pbakaus/impeccable": 10,
+    "HKUDS/DeepTutor": 11,
+    "NationalSecurityAgency/ghidra": 12
    },
    "streak": {
-    "morluto/rea": 6,
-    "Nutlope/hallmark": 11,
-    "storytold/artcraft": 2,
-    "cloudflare/security-audit-skill": 23,
-    "boykopovar/AnyPS5": 4,
-    "debpalash/VoiceStudio": 31,
-    "heygen-com/hyperframes": 40,
-    "pingdotgg/t3code": 19,
-    "thedotmack/claude-mem": 16,
-    "pbakaus/impeccable": 20
+    "morluto/rea": 7,
+    "Nutlope/hallmark": 12,
+    "cloudflare/security-audit-skill": 24,
+    "storytold/artcraft": 3,
+    "heygen-com/hyperframes": 41,
+    "debpalash/VoiceStudio": 32,
+    "pingdotgg/t3code": 20,
+    "thedotmack/claude-mem": 17,
+    "boykopovar/AnyPS5": 5,
+    "pbakaus/impeccable": 21,
+    "HKUDS/DeepTutor": 1,
+    "NationalSecurityAgency/ghidra": 1
    },
    "prev": {
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "ranks": {
      "morluto/rea": 1,
-     "storytold/artcraft": 2,
-     "boykopovar/AnyPS5": 3,
-     "Nutlope/hallmark": 4,
-     "cloudflare/security-audit-skill": 5,
+     "Nutlope/hallmark": 2,
+     "storytold/artcraft": 3,
+     "cloudflare/security-audit-skill": 4,
+     "boykopovar/AnyPS5": 5,
      "debpalash/VoiceStudio": 6,
      "heygen-com/hyperframes": 7,
      "pingdotgg/t3code": 8,
      "thedotmack/claude-mem": 9,
-     "NationalSecurityAgency/ghidra": 10,
-     "pbakaus/impeccable": 11,
-     "HKUDS/DeepTutor": 12,
-     "anthropics/knowledge-work-plugins": 13
+     "pbakaus/impeccable": 10
     },
     "streak": {
-     "morluto/rea": 5,
-     "storytold/artcraft": 1,
-     "boykopovar/AnyPS5": 3,
-     "Nutlope/hallmark": 10,
-     "cloudflare/security-audit-skill": 22,
-     "debpalash/VoiceStudio": 30,
-     "heygen-com/hyperframes": 39,
-     "pingdotgg/t3code": 18,
-     "thedotmack/claude-mem": 15,
-     "NationalSecurityAgency/ghidra": 28,
-     "pbakaus/impeccable": 19,
-     "HKUDS/DeepTutor": 2,
-     "anthropics/knowledge-work-plugins": 36
+     "morluto/rea": 6,
+     "Nutlope/hallmark": 11,
+     "storytold/artcraft": 2,
+     "cloudflare/security-audit-skill": 23,
+     "boykopovar/AnyPS5": 4,
+     "debpalash/VoiceStudio": 31,
+     "heygen-com/hyperframes": 40,
+     "pingdotgg/t3code": 19,
+     "thedotmack/claude-mem": 16,
+     "pbakaus/impeccable": 20
     }
    }
   }

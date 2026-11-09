@@ -670,7 +670,7 @@
   "default_branch": "main"
  },
  "NationalSecurityAgency/ghidra": {
-  "fetched": "2026-11-02",
+  "fetched": "2026-11-09",
   "readme_url": "https://github.com/NationalSecurityAgency/ghidra#readme",
   "install": [],
   "usage_title": "Ghidra Software Reverse Engineering Framework",
@@ -1283,6 +1283,18 @@
   ],
   "default_branch": "main"
  },
+ "anthropics/claude-quickstarts": {
+  "fetched": "2026-11-09",
+  "readme_url": "https://github.com/anthropics/claude-quickstarts#readme",
+  "install": [],
+  "usage_title": "Claude Quickstarts",
+  "usage_text": "Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "anthropics/financial-services": {
   "fetched": "2026-10-16",
   "readme_url": "https://github.com/anthropics/financial-services#readme",
@@ -1395,6 +1407,30 @@
    "detection-engineering",
    "incident-response",
    "langgraph"
+  ],
+  "default_branch": "main"
+ },
+ "blader/humanizer": {
+  "fetched": "2026-11-09",
+  "readme_url": "https://github.com/blader/humanizer#readme",
+  "install": [
+   "npx skills add blader/humanizer --global --agent codex",
+   "npx skills add blader/humanizer --global --agent '*'"
+  ],
+  "usage_title": "Usage",
+  "usage_text": "Call the skill directly:\nOr ask in plain language:\nTo rewrite a file, give Humanizer its path:",
+  "usage_code": "/humanizer\n\n[paste your text here]",
+  "license": "MIT",
+  "homepage": "https://skills.sh/blader/humanizer",
+  "topics": [
+   "agent-skills",
+   "ai-humanizer",
+   "ai-writing",
+   "chatgpt",
+   "claude",
+   "claude-code",
+   "codex",
+   "cursor"
   ],
   "default_branch": "main"
  },
@@ -1882,6 +1918,24 @@
   ],
   "default_branch": "main"
  },
+ "google-deepmind/mujoco": {
+  "fetched": "2026-11-09",
+  "readme_url": "https://github.com/google-deepmind/mujoco#readme",
+  "install": [
+   "pip install mujoco"
+  ],
+  "usage_title": "Getting Started",
+  "usage_text": "1. Try MuJoCo in your browser.\nVisit mujoco.org to explore MuJoCo on desktop or mobile\nwith nothing to install, or open live.mujoco.org to\ninspect and drag and drop your own models in the WebAssembly version of the\n[MuJoCo Studio] app (slower than native C, since it runs in WebAssembly).\n2. Run a viewer on your machine.\nFollow the [Getting Started] guide in the documentation to download a prebuilt\nrelease and run the [MuJoCo Studio] app or the classic simulate viewer (shown\nin this video) on your machine.\n3. Explore our online IPython notebooks.\nIf you are a Python user, you might want to start with our tutorial notebooks\nrunning on Google Colab…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://mujoco.org",
+  "topics": [
+   "mujoco",
+   "physics",
+   "robotics"
+  ],
+  "default_branch": "main"
+ },
  "google-gemini/gemini-cli": {
   "fetched": "2026-10-25",
   "readme_url": "https://github.com/google-gemini/gemini-cli#readme",
@@ -2107,7 +2161,7 @@
   "default_branch": "main"
  },
  "hyprwm/Hyprland": {
-  "fetched": "2026-11-02",
+  "fetched": "2026-11-09",
   "readme_url": "https://github.com/hyprwm/Hyprland#readme",
   "install": [],
   "usage_title": "Features",
@@ -2991,7 +3045,7 @@
   "default_branch": "master"
  },
  "pingdotgg/t3code": {
-  "fetched": "2026-11-02",
+  "fetched": "2026-11-09",
   "readme_url": "https://github.com/pingdotgg/t3code#readme",
   "install": [
    "curl -fsSL https://t3.codes/install.sh | sh",

@@ -7,6 +7,75 @@
  "language": "ko",
  "items": [
   {
+   "id": "anthropics/claude-quickstarts@2026-11-09",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "title": "anthropics/claude-quickstarts — 개발자가 Claude API를 사용하여 배포 가능한 애플리케이션 구축을 빠르게 시작할 수 있도록 설계된 프로젝트 모음",
+   "content_text": "개발자가 Claude API를 사용하여 배포 가능한 애플리케이션 구축을 빠르게 시작할 수 있도록 설계된 프로젝트 모음\nA collection of projects designed to help developers quickly get started with building deployable applications using the Claude API\nPython · ★ 19.5k · ▲ 32 (오늘) · 오늘 #4",
+   "date_published": "2026-11-09T10:54:45+09:00",
+   "tags": [
+    "Python",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "anthropics/claude-quickstarts",
+    "first_seen": "2026-11-09",
+    "period": "daily",
+    "rank": 4,
+    "filled_from": null,
+    "stars": 19458,
+    "stars_period": 32,
+    "language": "Python",
+    "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+    "description_ko": "개발자가 Claude API를 사용하여 배포 가능한 애플리케이션 구축을 빠르게 시작할 수 있도록 설계된 프로젝트 모음"
+   }
+  },
+  {
+   "id": "google-deepmind/mujoco@2026-11-09",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "title": "google-deepmind/mujoco — 접촉을 사용한 다중 관절 역학. 범용 물리 시뮬레이터.",
+   "content_text": "접촉을 사용한 다중 관절 역학. 범용 물리 시뮬레이터.\nMulti-Joint dynamics with Contact. A general purpose physics simulator.\nC++ · ★ 16.4k · ▲ 41 (오늘) · 오늘 #8",
+   "date_published": "2026-11-09T10:54:45+09:00",
+   "tags": [
+    "C++",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "google-deepmind/mujoco",
+    "first_seen": "2026-11-09",
+    "period": "daily",
+    "rank": 8,
+    "filled_from": null,
+    "stars": 16446,
+    "stars_period": 41,
+    "language": "C++",
+    "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "description_ko": "접촉을 사용한 다중 관절 역학. 범용 물리 시뮬레이터."
+   }
+  },
+  {
+   "id": "blader/humanizer@2026-11-09",
+   "url": "https://github.com/blader/humanizer",
+   "title": "blader/humanizer — 텍스트에서 AI가 작성한 흔적을 제거하는 에이전트 스킬",
+   "content_text": "텍스트에서 AI가 작성한 흔적을 제거하는 에이전트 스킬\nAgent skill that removes signs of AI-generated writing from text\nPython · ★ 66.5k · ▲ 3.1k (이번 주) · 이번 주 #17",
+   "date_published": "2026-11-09T10:54:45+09:00",
+   "tags": [
+    "Python",
+    "이번 주"
+   ],
+   "_trending": {
+    "full_name": "blader/humanizer",
+    "first_seen": "2026-11-09",
+    "period": "weekly",
+    "rank": 17,
+    "filled_from": null,
+    "stars": 66538,
+    "stars_period": 3118,
+    "language": "Python",
+    "description": "Agent skill that removes signs of AI-generated writing from text",
+    "description_ko": "텍스트에서 AI가 작성한 흔적을 제거하는 에이전트 스킬"
+   }
+  },
+  {
    "id": "meta/astryx@2026-11-08",
    "url": "https://github.com/meta/astryx",
    "title": "meta/astryx — 완전히 사용자 정의 가능하고 에이전트가 준비된 오픈 소스 디자인 시스템",
@@ -2782,51 +2851,6 @@
     "language": "",
     "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
     "description_ko": "Claude Code, Codex 및 기타 AI 도구를 위한 SwiftUI 에이전트 기술입니다."
-   }
-  },
-  {
-   "id": "storytold/artcraft@2026-10-09",
-   "url": "https://github.com/storytold/artcraft",
-   "title": "storytold/artcraft — ArtCraft는 예술가, 디자이너, 영화 제작자를 위한 의도적인 제작 엔진입니다.",
-   "content_text": "ArtCraft는 예술가, 디자이너, 영화 제작자를 위한 의도적인 제작 엔진입니다.\nArtCraft is an intentional crafting engine for artists, designers, and filmmakers\nRust · ★ 8.6k · ▲ 2.1k (오늘) · 오늘 #8",
-   "date_published": "2026-10-09T14:21:07+09:00",
-   "tags": [
-    "Rust",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "storytold/artcraft",
-    "first_seen": "2026-10-09",
-    "period": "daily",
-    "rank": 8,
-    "filled_from": null,
-    "stars": 8617,
-    "stars_period": 2103,
-    "language": "Rust",
-    "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-    "description_ko": "ArtCraft는 예술가, 디자이너, 영화 제작자를 위한 의도적인 제작 엔진입니다."
-   }
-  },
-  {
-   "id": "liquidslr/system-design-notes@2026-10-09",
-   "url": "https://github.com/liquidslr/system-design-notes",
-   "title": "liquidslr/system-design-notes — 시스템 설계 인터뷰 - 내부자 가이드 책에 대한 참고 사항",
-   "content_text": "시스템 설계 인터뷰 - 내부자 가이드 책에 대한 참고 사항\nNotes of the book System Desgin Interview - An Insider's Guide\n★ 24.8k · ▲ 393 (오늘) · 오늘 #9",
-   "date_published": "2026-10-09T14:21:07+09:00",
-   "tags": [
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "liquidslr/system-design-notes",
-    "first_seen": "2026-10-09",
-    "period": "daily",
-    "rank": 9,
-    "filled_from": null,
-    "stars": 24846,
-    "stars_period": 393,
-    "language": "",
-    "description": "Notes of the book System Desgin Interview - An Insider's Guide",
-    "description_ko": "시스템 설계 인터뷰 - 내부자 가이드 책에 대한 참고 사항"
    }
   }
  ]
