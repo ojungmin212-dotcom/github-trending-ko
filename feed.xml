@@ -5,9 +5,42 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Nov 2026 10:54:45 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:17:05 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>garrytan/gbrain — Garry가 주장하는 OpenClaw/Hermes 에이전트 브레인</title>
+      <link>https://github.com/garrytan/gbrain</link>
+      <guid isPermaLink="false">garrytan/gbrain@2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 13:17:05 +0900</pubDate>
+      <description>Garry가 주장하는 OpenClaw/Hermes 에이전트 브레인
+Garry's Opinionated OpenClaw/Hermes Agent Brain
+TypeScript · ★ 32.2k · ▲ 216 (오늘) · 오늘 #6</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>ZhuLinsen/daily_stock_analysis — LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사 결정 보드 및 자동 푸시, 제로 비용 예정 운영 지원. 다중 소스 시장 데이터, 실시간 뉴스, 의사 결정 대시보드, 자동화된 알림 및 무료 예약 실행을 갖춘 LLM 기반 다중 시장 주식 분석 시스템입니다.</title>
+      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
+      <guid isPermaLink="false">ZhuLinsen/daily_stock_analysis@2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 13:17:05 +0900</pubDate>
+      <description>LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사 결정 보드 및 자동 푸시, 제로 비용 예정 운영 지원. 다중 소스 시장 데이터, 실시간 뉴스, 의사 결정 대시보드, 자동화된 알림 및 무료 예약 실행을 갖춘 LLM 기반 다중 시장 주식 분석 시스템입니다.
+LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-f…
+Python · ★ 69.1k · ▲ 506 (오늘) · 오늘 #9</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>homeassistant-ai/ha-mcp — Claude, ChatGPT 및 기타 AI 도우미를 사용하여 홈어시스턴트를 구성하고 자동화하세요.</title>
+      <link>https://github.com/homeassistant-ai/ha-mcp</link>
+      <guid isPermaLink="false">homeassistant-ai/ha-mcp@2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 13:17:05 +0900</pubDate>
+      <description>Claude, ChatGPT 및 기타 AI 도우미를 사용하여 홈어시스턴트를 구성하고 자동화하세요.
+Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
+Python · ★ 6.1k · ▲ 31 (오늘) · 오늘 #10</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
     <item>
       <title>anthropics/claude-quickstarts — 개발자가 Claude API를 사용하여 배포 가능한 애플리케이션 구축을 빠르게 시작할 수 있도록 설계된 프로젝트 모음</title>
       <link>https://github.com/anthropics/claude-quickstarts</link>
@@ -1326,38 +1359,6 @@ A context-compression plugin for small context windows (a 100K context is enough
 TypeScript · ★ 785 · ▲ 259 (이번 주) · 이번 주 #11</description>
       <category>TypeScript</category>
       <category>이번 주</category>
-    </item>
-    <item>
-      <title>BerriAI/litellm — 가장 빠르고 가벼운 AI 게이트웨이. Python SDK를 사용한 Rust 코어. 비용 추적, 가드레일, 로드 밸런싱 및 로깅이 포함된 OpenAI(또는 기본) 형식의 100개 이상의 LLM API 호출[Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]</title>
-      <link>https://github.com/BerriAI/litellm</link>
-      <guid isPermaLink="false">BerriAI/litellm@2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 05:22:08 +0900</pubDate>
-      <description>가장 빠르고 가벼운 AI 게이트웨이. Python SDK를 사용한 Rust 코어. 비용 추적, 가드레일, 로드 밸런싱 및 로깅이 포함된 OpenAI(또는 기본) 형식의 100개 이상의 LLM API 호출[Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
-The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthrop…
-Python · ★ 60.7k · ▲ 95 (오늘) · 오늘 #7</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>Robbyant/lingbot-map — [ECCV 2026 최우수 논문상 후보] LingBot-Map: 스트리밍 3D 재구성을 위한 기하학적 컨텍스트 변환기</title>
-      <link>https://github.com/Robbyant/lingbot-map</link>
-      <guid isPermaLink="false">Robbyant/lingbot-map@2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 05:22:08 +0900</pubDate>
-      <description>[ECCV 2026 최우수 논문상 후보] LingBot-Map: 스트리밍 3D 재구성을 위한 기하학적 컨텍스트 변환기
-[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction
-Python · ★ 17.7k · ▲ 110 (오늘) · 오늘 #10</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>twostraws/SwiftUI-Agent-Skill — Claude Code, Codex 및 기타 AI 도구를 위한 SwiftUI 에이전트 기술입니다.</title>
-      <link>https://github.com/twostraws/SwiftUI-Agent-Skill</link>
-      <guid isPermaLink="false">twostraws/SwiftUI-Agent-Skill@2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 05:22:08 +0900</pubDate>
-      <description>Claude Code, Codex 및 기타 AI 도구를 위한 SwiftUI 에이전트 기술입니다.
-SwiftUI agent skill for Claude Code, Codex, and other AI tools.
-★ 5.5k · ▲ 65 (오늘) · 오늘 #11</description>
-      <category>오늘</category>
     </item>
   </channel>
 </rss>
