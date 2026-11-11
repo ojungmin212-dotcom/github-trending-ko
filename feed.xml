@@ -5,9 +5,31 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:17:05 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 11:10:47 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>we-promise/sure — 모두를 위한 (누구나) 개인 금융 앱</title>
+      <link>https://github.com/we-promise/sure</link>
+      <guid isPermaLink="false">we-promise/sure@2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 11:10:47 +0900</pubDate>
+      <description>모두를 위한 (누구나) 개인 금융 앱
+The personal finance app for everyone (by everyone)
+Ruby · ★ 12k · ▲ 159 (오늘) · 오늘 #6</description>
+      <category>Ruby</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>tokio-rs/topcoat — 웹 앱 구축을 위한 배터리 포함 프레임워크</title>
+      <link>https://github.com/tokio-rs/topcoat</link>
+      <guid isPermaLink="false">tokio-rs/topcoat@2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 11:10:47 +0900</pubDate>
+      <description>웹 앱 구축을 위한 배터리 포함 프레임워크
+A batteries-included framework for building web apps
+Rust · ★ 6.9k · ▲ 192 (오늘) · 오늘 #10</description>
+      <category>Rust</category>
+      <category>오늘</category>
+    </item>
     <item>
       <title>garrytan/gbrain — Garry가 주장하는 OpenClaw/Hermes 에이전트 브레인</title>
       <link>https://github.com/garrytan/gbrain</link>
@@ -1315,49 +1337,6 @@ Assembly · ★ 74.3k · ▲ 466 (오늘) · 오늘 #8</description>
 ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.
 Python · ★ 4.5k · ▲ 936 (이번 주) · 이번 주 #11</description>
       <category>Python</category>
-      <category>이번 주</category>
-    </item>
-    <item>
-      <title>hugohe3/ppt-master — AI는 기본 모양, 전환 및 애니메이션, 데이터 기반 차트 및 주문형 테이블, 발표자 노트의 오디오 내레이션, 자체 .pptx 템플릿 지원을 통해 문서나 주제를 실제 기본 PowerPoint 데크로 바꿔줍니다. · 휴고 헤(Hugo He)</title>
-      <link>https://github.com/hugohe3/ppt-master</link>
-      <guid isPermaLink="false">hugohe3/ppt-master@2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 10:12:12 +0900</pubDate>
-      <description>AI는 기본 모양, 전환 및 애니메이션, 데이터 기반 차트 및 주문형 테이블, 발표자 노트의 오디오 내레이션, 자체 .pptx 템플릿 지원을 통해 문서나 주제를 실제 기본 PowerPoint 데크로 바꿔줍니다. · 휴고 헤(Hugo He)
-AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and suppor…
-Python · ★ 59.5k · ▲ 461 (오늘) · 오늘 #9</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>huggingface/transformers — 🤗 Transformers: 추론과 훈련 모두를 위한 텍스트, 비전, 오디오 및 다중 모드 모델의 최첨단 기계 학습 모델을 위한 모델 정의 프레임워크입니다.</title>
-      <link>https://github.com/huggingface/transformers</link>
-      <guid isPermaLink="false">huggingface/transformers@2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 10:12:12 +0900</pubDate>
-      <description>🤗 Transformers: 추론과 훈련 모두를 위한 텍스트, 비전, 오디오 및 다중 모드 모델의 최첨단 기계 학습 모델을 위한 모델 정의 프레임워크입니다.
-🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
-Python · ★ 167.3k · ▲ 96 (오늘) · 오늘 #11</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>multica-ai/andrej-karpathy-skills — LLM 코딩 함정에 대한 Andrej Karpathy의 관찰에서 파생된 Claude 코드 동작을 개선하기 위한 단일 CLAUDE.md 파일입니다.</title>
-      <link>https://github.com/multica-ai/andrej-karpathy-skills</link>
-      <guid isPermaLink="false">multica-ai/andrej-karpathy-skills@2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 10:12:12 +0900</pubDate>
-      <description>LLM 코딩 함정에 대한 Andrej Karpathy의 관찰에서 파생된 Claude 코드 동작을 개선하기 위한 단일 CLAUDE.md 파일입니다.
-A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
-★ 218.3k · ▲ 278 (오늘) · 오늘 #13</description>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>ranxianglei/billion-context — 작은 컨텍스트 창(100K 컨텍스트이면 충분), 토큰 절약(5배 적은 토큰) 및 한 달 동안의 단일 세션(수십억 개의 토큰)을 위한 컨텍스트 압축 플러그인입니다. 수십억 개의 컨텍스트만 있으면 됩니다.</title>
-      <link>https://github.com/ranxianglei/billion-context</link>
-      <guid isPermaLink="false">ranxianglei/billion-context@2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 10:12:12 +0900</pubDate>
-      <description>작은 컨텍스트 창(100K 컨텍스트이면 충분), 토큰 절약(5배 적은 토큰) 및 한 달 동안의 단일 세션(수십억 개의 토큰)을 위한 컨텍스트 압축 플러그인입니다. 수십억 개의 컨텍스트만 있으면 됩니다.
-A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(…
-TypeScript · ★ 785 · ▲ 259 (이번 주) · 이번 주 #11</description>
-      <category>TypeScript</category>
       <category>이번 주</category>
     </item>
   </channel>

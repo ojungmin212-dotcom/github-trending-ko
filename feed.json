@@ -7,6 +7,52 @@
  "language": "ko",
  "items": [
   {
+   "id": "we-promise/sure@2026-11-11",
+   "url": "https://github.com/we-promise/sure",
+   "title": "we-promise/sure — 모두를 위한 (누구나) 개인 금융 앱",
+   "content_text": "모두를 위한 (누구나) 개인 금융 앱\nThe personal finance app for everyone (by everyone)\nRuby · ★ 12k · ▲ 159 (오늘) · 오늘 #6",
+   "date_published": "2026-11-11T11:10:47+09:00",
+   "tags": [
+    "Ruby",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "we-promise/sure",
+    "first_seen": "2026-11-11",
+    "period": "daily",
+    "rank": 6,
+    "filled_from": null,
+    "stars": 12019,
+    "stars_period": 159,
+    "language": "Ruby",
+    "description": "The personal finance app for everyone (by everyone)",
+    "description_ko": "모두를 위한 (누구나) 개인 금융 앱"
+   }
+  },
+  {
+   "id": "tokio-rs/topcoat@2026-11-11",
+   "url": "https://github.com/tokio-rs/topcoat",
+   "title": "tokio-rs/topcoat — 웹 앱 구축을 위한 배터리 포함 프레임워크",
+   "content_text": "웹 앱 구축을 위한 배터리 포함 프레임워크\nA batteries-included framework for building web apps\nRust · ★ 6.9k · ▲ 192 (오늘) · 오늘 #10",
+   "date_published": "2026-11-11T11:10:47+09:00",
+   "tags": [
+    "Rust",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "tokio-rs/topcoat",
+    "first_seen": "2026-11-11",
+    "period": "daily",
+    "rank": 10,
+    "filled_from": null,
+    "stars": 6857,
+    "stars_period": 192,
+    "language": "Rust",
+    "description": "A batteries-included framework for building web apps",
+    "description_ko": "웹 앱 구축을 위한 배터리 포함 프레임워크"
+   }
+  },
+  {
    "id": "garrytan/gbrain@2026-11-10",
    "url": "https://github.com/garrytan/gbrain",
    "title": "garrytan/gbrain — Garry가 주장하는 OpenClaw/Hermes 에이전트 브레인",
@@ -2761,97 +2807,6 @@
     "language": "Python",
     "description": "ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.",
     "description_ko": "ASD-STE100 모호한 상담원 대면 영어를 다시 작성하기 위한 Claude Code 기술로 용도가 변경된 단순화된 기술 영어 규칙입니다."
-   }
-  },
-  {
-   "id": "hugohe3/ppt-master@2026-10-11",
-   "url": "https://github.com/hugohe3/ppt-master",
-   "title": "hugohe3/ppt-master — AI는 기본 모양, 전환 및 애니메이션, 데이터 기반 차트 및 주문형 테이블, 발표자 노트의 오디오 내레이션, 자체 .pptx 템플릿 지원을 통해 문서나 주제를 실제 기본 PowerPoint 데크로 바꿔줍니다. · 휴고 헤(Hugo He)",
-   "content_text": "AI는 기본 모양, 전환 및 애니메이션, 데이터 기반 차트 및 주문형 테이블, 발표자 노트의 오디오 내레이션, 자체 .pptx 템플릿 지원을 통해 문서나 주제를 실제 기본 PowerPoint 데크로 바꿔줍니다. · 휴고 헤(Hugo He)\nAI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and suppor…\nPython · ★ 59.5k · ▲ 461 (오늘) · 오늘 #9",
-   "date_published": "2026-10-11T10:12:12+09:00",
-   "tags": [
-    "Python",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "hugohe3/ppt-master",
-    "first_seen": "2026-10-11",
-    "period": "daily",
-    "rank": 9,
-    "filled_from": null,
-    "stars": 59469,
-    "stars_period": 461,
-    "language": "Python",
-    "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and suppor…",
-    "description_ko": "AI는 기본 모양, 전환 및 애니메이션, 데이터 기반 차트 및 주문형 테이블, 발표자 노트의 오디오 내레이션, 자체 .pptx 템플릿 지원을 통해 문서나 주제를 실제 기본 PowerPoint 데크로 바꿔줍니다. · 휴고 헤(Hugo He)"
-   }
-  },
-  {
-   "id": "huggingface/transformers@2026-10-11",
-   "url": "https://github.com/huggingface/transformers",
-   "title": "huggingface/transformers — 🤗 Transformers: 추론과 훈련 모두를 위한 텍스트, 비전, 오디오 및 다중 모드 모델의 최첨단 기계 학습 모델을 위한 모델 정의 프레임워크입니다.",
-   "content_text": "🤗 Transformers: 추론과 훈련 모두를 위한 텍스트, 비전, 오디오 및 다중 모드 모델의 최첨단 기계 학습 모델을 위한 모델 정의 프레임워크입니다.\n🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.\nPython · ★ 167.3k · ▲ 96 (오늘) · 오늘 #11",
-   "date_published": "2026-10-11T10:12:12+09:00",
-   "tags": [
-    "Python",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "huggingface/transformers",
-    "first_seen": "2026-10-11",
-    "period": "daily",
-    "rank": 11,
-    "filled_from": null,
-    "stars": 167267,
-    "stars_period": 96,
-    "language": "Python",
-    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-    "description_ko": "🤗 Transformers: 추론과 훈련 모두를 위한 텍스트, 비전, 오디오 및 다중 모드 모델의 최첨단 기계 학습 모델을 위한 모델 정의 프레임워크입니다."
-   }
-  },
-  {
-   "id": "multica-ai/andrej-karpathy-skills@2026-10-11",
-   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-   "title": "multica-ai/andrej-karpathy-skills — LLM 코딩 함정에 대한 Andrej Karpathy의 관찰에서 파생된 Claude 코드 동작을 개선하기 위한 단일 CLAUDE.md 파일입니다.",
-   "content_text": "LLM 코딩 함정에 대한 Andrej Karpathy의 관찰에서 파생된 Claude 코드 동작을 개선하기 위한 단일 CLAUDE.md 파일입니다.\nA single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.\n★ 218.3k · ▲ 278 (오늘) · 오늘 #13",
-   "date_published": "2026-10-11T10:12:12+09:00",
-   "tags": [
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "multica-ai/andrej-karpathy-skills",
-    "first_seen": "2026-10-11",
-    "period": "daily",
-    "rank": 13,
-    "filled_from": null,
-    "stars": 218284,
-    "stars_period": 278,
-    "language": "",
-    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "description_ko": "LLM 코딩 함정에 대한 Andrej Karpathy의 관찰에서 파생된 Claude 코드 동작을 개선하기 위한 단일 CLAUDE.md 파일입니다."
-   }
-  },
-  {
-   "id": "ranxianglei/billion-context@2026-10-11",
-   "url": "https://github.com/ranxianglei/billion-context",
-   "title": "ranxianglei/billion-context — 작은 컨텍스트 창(100K 컨텍스트이면 충분), 토큰 절약(5배 적은 토큰) 및 한 달 동안의 단일 세션(수십억 개의 토큰)을 위한 컨텍스트 압축 플러그인입니다. 수십억 개의 컨텍스트만 있으면 됩니다.",
-   "content_text": "작은 컨텍스트 창(100K 컨텍스트이면 충분), 토큰 절약(5배 적은 토큰) 및 한 달 동안의 단일 세션(수십억 개의 토큰)을 위한 컨텍스트 압축 플러그인입니다. 수십억 개의 컨텍스트만 있으면 됩니다.\nA context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(…\nTypeScript · ★ 785 · ▲ 259 (이번 주) · 이번 주 #11",
-   "date_published": "2026-10-11T10:12:12+09:00",
-   "tags": [
-    "TypeScript",
-    "이번 주"
-   ],
-   "_trending": {
-    "full_name": "ranxianglei/billion-context",
-    "first_seen": "2026-10-11",
-    "period": "weekly",
-    "rank": 11,
-    "filled_from": null,
-    "stars": 785,
-    "stars_period": 259,
-    "language": "TypeScript",
-    "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(…",
-    "description_ko": "작은 컨텍스트 창(100K 컨텍스트이면 충분), 토큰 절약(5배 적은 토큰) 및 한 달 동안의 단일 세션(수십억 개의 토큰)을 위한 컨텍스트 압축 플러그인입니다. 수십억 개의 컨텍스트만 있으면 됩니다."
    }
   }
  ]

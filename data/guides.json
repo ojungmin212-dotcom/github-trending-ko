@@ -1058,7 +1058,7 @@
   "default_branch": "main"
  },
  "addyosmani/agent-skills": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-11-11",
   "readme_url": "https://github.com/addyosmani/agent-skills#readme",
   "install": [
    "npx skills add addyosmani/agent-skills  # install all 25 skills",
@@ -1235,7 +1235,7 @@
   "default_branch": "main"
  },
  "anomalyco/hex": {
-  "fetched": "2026-11-02",
+  "fetched": "2026-11-11",
   "readme_url": "https://github.com/anomalyco/hex#readme",
   "install": [],
   "usage_title": "How it works",
@@ -1549,23 +1549,6 @@
   ],
   "default_branch": "main"
  },
- "chrislgarry/Apollo-11": {
-  "fetched": "2026-10-12",
-  "readme_url": "https://github.com/chrislgarry/Apollo-11#readme",
-  "install": [],
-  "usage_title": "Apollo-11",
-  "usage_text": "[![NASA][1]][2]\n[![SWH]][SWH_URL]\n[![Comanche]][ComancheMilestone]\n[![Luminary]][LuminaryMilestone]\n🌐\n[Azerbaijani][AZ],\n[bahasa Indonesia][ID],\n[Basa Jawa][JV],\n[Català][CA],\n[Čeština][CZ],\n[Dansk][DA],\n[Deutsch][DE],\n[English][EN],\n[Español][ES],\n[Français][FR],\n[Galego][GL],\n[Italiano][IT],\n[Kurdî][KU],\n[Lietuvių][LT],\n[Mongolian][MN],\n[Nederlands][NL],\n[Norsk][NO],\n[Polski][PL],\n[Português][PT_BR],\n[Română][RO],\n[Suomi][FI],\n[Svenska][SV],\n[tiếng Việt][VI],\n[Türkçe][TR],\n[Ελληνικά][GR],\n[Беларуская мова][BE],\n[Русский][RU],\n[Українська][UK],\n[العربية][AR],\n[فارسی][FA],\n[नेपाली भाषा][NE]\n[हिंदी][HI_IN],\n[অসমীয়া][AS_IN],\n[বাংলা][BD_BN],\n[မြန်မာ][MM],\n[한국어][KO_KR],\n[日本語][JA]…",
-  "usage_code": "",
-  "license": "",
-  "homepage": "",
-  "topics": [
-   "agc",
-   "apollo",
-   "hacktoberfest",
-   "nasa"
-  ],
-  "default_branch": "master"
- },
  "cjpais/Handy": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/cjpais/Handy#readme",
@@ -1634,21 +1617,6 @@
   "homepage": "",
   "topics": [],
   "default_branch": "main"
- },
- "danyuchn/asd-ste100-skill": {
-  "fetched": "2026-10-12",
-  "readme_url": "https://github.com/danyuchn/asd-ste100-skill#readme",
-  "install": [
-   "npx skills add danyuchn/asd-ste100-skill",
-   "git clone https://github.com/danyuchn/asd-ste100-skill ~/.claude/skills/asd-ste100"
-  ],
-  "usage_title": "Usage",
-  "usage_text": "Trigger with a request to simplify or clarify English text:\nOr paste text and ask Claude to \"disambiguate this\" / \"apply STE100 to this\" / \"reduce ambiguity in this output.\"\nYou get the rewritten text back and nothing else. To see which rules were applied, add \"show the diff\" or \"explain the changes\" to the request.",
-  "usage_code": "Disambiguate this tool description\nRewrite this error message so an agent can't misparse it\nApply ASD-STE100 to this instruction",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "master"
  },
  "debpalash/VoiceStudio": {
   "fetched": "2026-11-06",
@@ -2096,7 +2064,7 @@
   "default_branch": "main"
  },
  "heygen-com/hyperframes": {
-  "fetched": "2026-11-04",
+  "fetched": "2026-11-11",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
   "install": [
    "claude plugin marketplace add heygen-com/hyperframes",
@@ -2399,29 +2367,6 @@
    "claude-code",
    "guide",
    "tutorial"
-  ],
-  "default_branch": "main"
- },
- "lyogavin/airllm": {
-  "fetched": "2026-10-12",
-  "readme_url": "https://github.com/lyogavin/airllm#readme",
-  "install": [
-   "pip install airllm"
-  ],
-  "usage_title": "example of other models (ChatGLM, QWen, Baichuan, Mistral, e",
-  "usage_text": "• ChatGLM:\n• QWen:\n• Baichuan, InternLM, Mistral, etc:",
-  "usage_code": "from airllm import AutoModel\nMAX_LENGTH = 128\nmodel = AutoModel.from_pretrained(\"THUDM/chatglm3-6b-base\")\ninput_text = ['What is the capital of China?',]\ninput_tokens = model.tokenizer(input_text,\n    return_tensors=\"pt\", \n    return_attention_mask=False, \n    truncation=True, \n    max_length=MAX_LENGTH, \n    padding=True)\ngeneration_output = model.generate(\n    input_tokens['input_ids'].cuda(), \n    max_new_tokens=5,\n    use_cache= True,\n    return_dict_in_generate=True)\nmodel.tokenizer.decode(generation_output.sequences[0])",
-  "license": "Apache-2.0",
-  "homepage": "",
-  "topics": [
-   "chinese-llm",
-   "chinese-nlp",
-   "finetune",
-   "generative-ai",
-   "instruct-gpt",
-   "instruction-set",
-   "llama",
-   "llm"
   ],
   "default_branch": "main"
  },
@@ -3183,7 +3128,7 @@
   "default_branch": "main"
  },
  "ranxianglei/billion-context": {
-  "fetched": "2026-11-03",
+  "fetched": "2026-11-11",
   "readme_url": "https://github.com/ranxianglei/billion-context#readme",
   "install": [
    "npm install -g billion-context --prefix=~/.local",
@@ -3193,9 +3138,9 @@
    "npm run build",
    "docker build -t billion-context ."
   ],
-  "usage_title": "billion-context",
-  "usage_text": "English | 中文 \n Context-compression plugin — billion-context is all you need. \n small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality \n npm install -g billion-context --prefix=~/.local \n---\n> Cache health at a glance: a healthy session keeps a 95–97% prefix-cache hit rate — compression itself costs ≤2%. Sustained lower? Check attribution with /acp or /acp-cache (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug (please report) · other/unknown.",
-  "usage_code": "Agent (Claude Code / Codex / Cursor / Aider ...)\n        │  you point the agent's base URL at the proxy\n        ▼\n┌─────────────────┐\n│  billion-context│   1. parse the request (Anthropic or OpenAI shape)\n│     proxy       │   2. run acp-kernel compression on the conversation\n│                 │   3. inject a `compress` tool + compression philosophy\n│                 │   4. forward to the real model API\n│                 │   5. rewrite the streaming response\n└─────────────────┘\n        │\n        ▼\n   real model API (Anthropic / OpenAI / compatible)",
+  "usage_title": "Quickstart",
+  "usage_text": "Three ways to use it — pick one:\n• Native plugin (most native): bili plugin install — bili\n becomes a plugin inside the client; start the client as usual.\n• Launcher (config-free): one bili command brings up the proxy and\n the client together — no real config file is ever touched.\n• URL change (most universal): prefix your client's baseURL with the proxy\n origin + /bili/.\nMechanism details behind these three options (plugin lifecycle, runtime-info\nprotocol, injection priority) live in docs/technical-notes.md.\nPorts, briefly (#1660): bili start (manual) owns 8787. Everything a lane\nspawns for you (native hooks, launcher lanes) lives in a separate…",
+  "usage_code": "",
   "license": "",
   "homepage": "",
   "topics": [
@@ -3547,7 +3492,7 @@
   "default_branch": "main"
  },
  "tashfeenahmed/freellmapi": {
-  "fetched": "2026-10-30",
+  "fetched": "2026-11-11",
   "readme_url": "https://github.com/tashfeenahmed/freellmapi#readme",
   "install": [
    "curl -fsSL https://freellmapi.co/install.sh | bash",
@@ -3621,6 +3566,18 @@
   "usage_text": "A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models.\n---",
   "usage_code": "",
   "license": "",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
+ "tokio-rs/topcoat": {
+  "fetched": "2026-11-11",
+  "readme_url": "https://github.com/tokio-rs/topcoat#readme",
+  "install": [],
+  "usage_title": "Client reactivity without the boilerplate",
+  "usage_text": "Topcoat renders all markup on the server: components can be async and query the database directly, eliminating all the traditional boilerplate needed for a separate API layer. Interactivity does not have to cost a round-trip, though. A $(...) expression is ordinary type-checked Rust that Topcoat evaluates on the server for the initial render and also translates to JavaScript, so it re-runs instantly in the browser. No wasm bundle, no client build step:\nWhen an update does need the server, like fresh search results, mark the component as a #[shard]. Topcoat re-renders it on the server whenever one of its $(...) arguments changes and swaps the new HTML in place:",
+  "usage_code": "",
+  "license": "MIT",
   "homepage": "",
   "topics": [],
   "default_branch": "main"
@@ -3844,6 +3801,18 @@
    "graphql",
    "multi-agent-system"
   ],
+  "default_branch": "main"
+ },
+ "we-promise/sure": {
+  "fetched": "2026-11-11",
+  "readme_url": "https://github.com/we-promise/sure#readme",
+  "install": [],
+  "usage_title": "Getting Started",
+  "usage_text": "Visit http://localhost:3000 to view the app.\nIf you loaded the optional demo data, log in with these credentials:\n• Email: user@example.com\n• Password: Password1!\nFor further instructions, see guides below.",
+  "usage_code": "cd sure\ncp .env.local.example .env.local\nbin/setup\nbin/dev\n\n# Optionally, load demo data\nrake demo_data:default",
+  "license": "AGPL-3.0",
+  "homepage": "https://sure.am",
+  "topics": [],
   "default_branch": "main"
  },
  "withmarbleapp/os-taxonomy": {
