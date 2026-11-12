@@ -12,7 +12,9 @@ GitHub 트렌딩 Top 30 정적 대시보드. GitHub Actions가 매일 수집해 
 - 원본 참고 폴더 `C:\Users\Win\Desktop\클로드\26-08-29-3\github-trending\`는 **읽기 전용**.
 - 안전장치는 "파싱 0개" 또는 "**보충 후** 10개 미만"일 때만 중단. 원시 개수 10개 기준으로 되돌리지 말 것 (GitHub이 daily를 8개만 주는 날이 있어 매일 실패함).
 - 디자인은 build.nvidia.com 모방(다크 전용). 사용자가 요청한 것이므로 이전 디자인으로 되돌리지 말 것.
-- 관심 레포 localStorage 키 `gtk-favs-v1`과 그 형식을 바꾸면 사용자 저장분이 사라진다 → 바꿀 땐 마이그레이션 코드 필수.
+- 관심 레포 localStorage 키 `gtk-favs-v1`, 관심 키워드 키 `gtk-keywords-v1`(문자열 배열)과 그 형식을 바꾸면 사용자 저장분이 사라진다 → 바꿀 땐 마이그레이션 코드 필수.
+- 신뢰 신호는 점수·등급으로 만들지 말 것(근거 없는 판정이 됨). 사실(만든 날·push·라이선스·보관·포크)과 확인 링크만 보여 준다. 라이선스 `NOASSERTION`은 "기타"로 저장 — "없음"으로 바꾸지 말 것.
+- Browser pane 미리보기에서는 requestAnimationFrame이 멈춰 있을 수 있다 → 캔버스 픽셀 변화로 애니메이션 동작을 판단하지 말 것.
 - `data/history.json`(순위 기록)을 지우거나 손으로 고치지 말 것. NEW·순위 변화가 전부 틀어진다. 다시 만들 땐 로컬에서 `python scripts/history.py --rebuild`(전체 git 기록 필요).
 - 순위 변화·연속 일수는 **원래 순위(filled_from 없음)만** 비교한다. 보충 항목의 자리 번호는 의미가 없다.
 - `feed.json`은 피드 항목의 저장소다. 지우면 RSS 구독자에게 과거 항목이 사라진다. 다시 만들 땐 `python scripts/feeds.py --rebuild`. 항목 `id`(`owner/name@날짜`)와 `date_published`는 바꾸지 말 것 (리더 앱이 같은 글을 새 글로 다시 띄움).

@@ -258,6 +258,27 @@ class FeedTest(unittest.TestCase):
         self.assertEqual([it["id"] for it in feed["items"]], ["x/1@2026-10-31"])
 
 
+class MetaTest(unittest.TestCase):
+    """신뢰 신호에 쓰는 GitHub API 메타데이터."""
+
+    def meta(self, payload):
+        with mock.patch.object(f.guides, "_get", return_value=json.dumps(payload)):
+            return f.guides.fetch_meta("o/r", "token")
+
+    def test_fields(self):
+        m = self.meta({"license": {"spdx_id": "MIT"}, "created_at": "2026-10-01T12:00:00Z",
+                       "pushed_at": "2026-11-10T01:02:03Z", "archived": True, "fork": False, "topics": ["a"]})
+        self.assertEqual((m["license"], m["created"], m["pushed"], m["archived"], m["fork"]),
+                         ("MIT", "2026-10-01", "2026-11-10", True, False))
+
+    def test_license_unknown_is_not_missing(self):
+        self.assertEqual(self.meta({"license": {"spdx_id": "NOASSERTION"}})["license"], "기타")
+        self.assertEqual(self.meta({"license": None})["license"], "")
+
+    def test_no_token_no_meta(self):
+        self.assertEqual(f.guides.fetch_meta("o/r", None), {})
+
+
 class TranslateTest(unittest.TestCase):
     def test_same_text_is_not_repeated(self):
         with mock.patch.object(f, "http_get", return_value='[["안녕", "ko"]]'):

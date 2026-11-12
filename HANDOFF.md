@@ -48,7 +48,7 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
 | `scripts/history.py` | 순위 기록 계산 + `--rebuild`(git 기록에서 재생성, 로컬 전용) |
 | `data/trending.json` | `{fetched_at, date, daily|weekly|monthly: {since, count, repos[]}}` — repo에 `first_seen`, 원래 순위 항목엔 `prev_rank`·`streak` |
 | `data/history.json` | `{repos: {name: {first_seen, last_seen}}, periods: {daily: {date, ranks, streak, prev}}}` 180일 미등장 시 삭제 |
-| `tests/` | `unittest` 22개 + 실제 트렌딩 HTML 일부(`fixtures/trending_daily_sample.html`) |
+| `tests/` | `unittest` 25개 + 실제 트렌딩 HTML 일부(`fixtures/trending_daily_sample.html`) |
 | `scripts/feeds.py` | `feed.json`·`feed.xml`·`llms.txt` 생성 (+ `--rebuild`) |
 | `feed.json` / `feed.xml` / `llms.txt` | 루트에 생성되는 피드·에이전트 요약 (Actions가 매일 커밋) |
 | `manifest.webmanifest`, `icons/`, `scripts/make_icons.py` | 홈 화면 추가용 설정·아이콘 (아이콘은 한 번 생성해 커밋) |
@@ -86,6 +86,14 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
     - **F10** `manifest.webmanifest` + `icons/`(make_icons.py, 표준 라이브러리 PNG) + apple-touch-icon + `og:` 태그. 서비스 워커는 일부러 없음.
     - 테스트 22개.
 
+13. (2026-11-12) 3차 개선:
+    - **F7** 신뢰 신호: `guides.py`가 created·pushed·archived·fork 추가 저장(라이선스 NOASSERTION → "기타"), 가이드에 신뢰 신호 섹션 + 이슈·커밋·Scorecard 링크, 주의 시에만 카드 ⚠ 배지.
+      Scorecard API는 연동하지 않음(외부 서비스 + 새 저장소는 404가 많음) — 링크만.
+    - **F8** 내 관심 키워드(`gtk-keywords-v1`): ♥ 배지, "내 관심순" 정렬, "내 키워드" 빠른 버튼.
+    - **D2** 900px 이하·터치·데이터 절약 모드에서 배경 정지.
+    - 폰 푸시(ntfy)는 하지 않기로 함 — 공개 토픽은 누구나 구독 가능, RSS 리더 알림으로 대체.
+    - 테스트 25개. 11-09~11-12 Actions 4회 연속 성공(테스트·기록·피드 포함) 확인.
+
 ### 🔄 진행 중
 - 없음. cron 이동 효과: 10-28~11-08 실제 실행 10:24~12:40 KST(예정 07:35보다 약 3~5시간 늦음). 지연은 줄었지만 남아 있고 푸터 문구가 이를 설명한다.
 
@@ -94,7 +102,7 @@ Claude API·유료 서비스·서버 없이 **GitHub Actions(매일 수집) + Gi
 2. 로고 옆 "GitHub 트렌딩", 상단 메뉴 "Trending"도 새 제목에 맞출지 사용자에게 확인 (이전에 제안만 함).
 3. (선택) 더 나은 가이드: 무료 LLM을 Actions secret으로 붙이고 실패 시 현재 규칙 추출로 폴백. 사용자 원칙(Claude API·유료 금지) 때문에 **사용자 승인 전에는 하지 말 것**.
    후보: `actions/ai-inference`(GitHub Models, `models: read` 권한 + 기본 `GITHUB_TOKEN`, 별도 키 없음). 무료 한도 수치는 미확인.
-4. 남은 개선 후보(사용자 선택 대기): F7 신뢰도 배지, F8 관심 키워드 점수, D2 모바일 배경 애니메이션 끄기, 폰 푸시 알림(ntfy — 외부 서비스라 승인 필요).
+4. 계획된 개선 후보는 모두 끝남. 남은 선택지: 폰 푸시 알림(ntfy — 외부 서비스라 승인 필요, 권장하지 않음), 무료 LLM 가이드(위 3번).
 
 ## 3. 설계 결정과 이유
 

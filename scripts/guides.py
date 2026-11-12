@@ -3,7 +3,8 @@
 
 LLM 없이 규칙 기반으로 동작한다 (표준 라이브러리만 사용).
 - README는 raw.githubusercontent.com 에서 받는다 (토큰·속도 제한 없음).
-- 저장소 메타데이터(라이선스·홈페이지·토픽)는 GITHUB_TOKEN 이 있을 때만 API 로 받는다.
+- 저장소 메타데이터(라이선스·홈페이지·토픽·생성일·마지막 push·보관·포크)는 GITHUB_TOKEN 이 있을 때만 API 로 받는다.
+  화면의 "신뢰 신호"가 이 값으로 계산된다 (점수가 아니라 참고 정보).
 - 결과는 README 가 바뀌어도 7일마다만 다시 받는다 (guides.json 캐시).
 
 추출 항목 (full_name 별):
@@ -11,6 +12,7 @@ LLM 없이 규칙 기반으로 동작한다 (표준 라이브러리만 사용).
   usage_text   : Usage / Quick Start 류 섹션의 본문 요약 (plain text)
   usage_code   : 그 섹션의 첫 코드 블록
   license, homepage, topics, default_branch, readme_url, fetched
+  created, pushed (YYYY-MM-DD), archived, fork (bool)   ← 토큰이 있을 때만
 """
 
 import json
@@ -85,10 +87,15 @@ def fetch_meta(full_name, token):
         return {}
     lic = (data.get("license") or {}).get("spdx_id") or ""
     return {
-        "license": "" if lic == "NOASSERTION" else lic,
+        # NOASSERTION = 라이선스 파일은 있지만 종류를 자동 판별하지 못함 (여러 라이선스 등) → "없음"과 구분
+        "license": "기타" if lic == "NOASSERTION" else lic,
         "homepage": data.get("homepage") or "",
         "topics": (data.get("topics") or [])[:8],
         "default_branch": data.get("default_branch") or "main",
+        "created": (data.get("created_at") or "")[:10],
+        "pushed": (data.get("pushed_at") or "")[:10],
+        "archived": bool(data.get("archived")),
+        "fork": bool(data.get("fork")),
     }
 
 
@@ -230,13 +237,15 @@ def _fetch_one(args):
 def update_guides(full_names, cache, log=print):
     """필요한 저장소만 새로 받아 cache(dict)를 갱신하고 정리해서 돌려준다."""
     today = time.time()
+    token = _github_token()
     def stale(e):
+        if token and "created" not in e:   # 신뢰 신호 필드가 생기기 전 캐시 → 한 번 새로 받는다
+            return True
         try:
             return today - time.mktime(time.strptime(e.get("fetched", ""), "%Y-%m-%d")) > REFRESH_DAYS * 86400
         except ValueError:
             return True
     todo = [n for n in full_names if n not in cache or stale(cache[n])]
-    token = _github_token()
     log(f"가이드: 대상 {len(full_names)}개 중 캐시 적중 {len(full_names) - len(todo)}, 신규/갱신 {len(todo)}"
         + ("" if token else " (토큰 없음 → 라이선스·토픽 생략)"))
     with ThreadPoolExecutor(max_workers=4) as pool:

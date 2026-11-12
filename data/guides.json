@@ -22,7 +22,11 @@
    "open-source",
    "seo"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-02-07",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "AstrBotDevs/AstrBot": {
   "fetched": "2026-11-01",
@@ -123,7 +127,7 @@
   "default_branch": "main"
  },
  "D4Vinci/Scrapling": {
-  "fetched": "2026-11-10",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/D4Vinci/Scrapling#readme",
   "install": [
    "pip install scrapling",
@@ -148,7 +152,11 @@
    "data",
    "data-extraction"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2024-10-13",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "DietrichGebert/ponytail": {
   "fetched": "2026-10-28",
@@ -175,13 +183,13 @@
   "default_branch": "main"
  },
  "Donchitos/Claude-Code-Game-Studios": {
-  "fetched": "2026-11-07",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/Donchitos/Claude-Code-Game-Studios#readme",
   "install": [
    "git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git my-game"
   ],
-  "usage_title": "Why This Exists",
-  "usage_text": "Building a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code. There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\"\nClaude Code Game Studios solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work. Each agent has defined responsibilities, escalation paths, and quality gates…",
+  "usage_title": "Make me a game",
+  "usage_text": "Open Claude Code in a copy of this repository and say what you want:\n1. A few questions. One round, picked from the genre: the choices that\n shape the game, how it should feel, how it looks, how hard it is, the goal.\n Each has a usual answer, so \"you pick\" works. A vague idea (\"a racing game\")\n gets two or three one-line pitches to choose from first.\n2. A one-page brief. design/game-brief.md: your words kept as you typed\n them, the look, the first minute, the challenge, the features and what is\n left for later. You read it and say Build it, or change something first.\n3. A first build. A browser game in prototypes/ / that opens with a…",
   "usage_code": "",
   "license": "MIT",
   "homepage": "",
@@ -195,7 +203,11 @@
    "game-development",
    "gamedev"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-02-12",
+  "pushed": "2026-11-09",
+  "archived": false,
+  "fork": false
  },
  "EpicGames/raddebugger": {
   "fetched": "2026-10-15",
@@ -306,7 +318,11 @@
   "license": "Apache-2.0",
   "homepage": "https://goo.gle/modern-web-guidance",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-01-27",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "Graphify-Labs/graphify": {
   "fetched": "2026-10-28",
@@ -352,7 +368,7 @@
   "default_branch": "main"
  },
  "HKUDS/DeepTutor": {
-  "fetched": "2026-11-06",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/HKUDS/DeepTutor#readme",
   "install": [
    "docker run --rm --name deeptutor -p 127.0.0.1:3782:3782 -v deeptutor-data:/app/data ghcr.io/hkuds/deeptutor:latest",
@@ -377,7 +393,11 @@
    "learning",
    "multi-agent-systems"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2025-12-28",
+  "pushed": "2026-11-07",
+  "archived": false,
+  "fork": false
  },
  "JetBrains/thinkrail": {
   "fetched": "2026-11-02",
@@ -504,7 +524,7 @@
   "default_branch": "main"
  },
  "Leonxlnx/taste-skill": {
-  "fetched": "2026-11-06",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/Leonxlnx/taste-skill#readme",
   "install": [
    "npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"",
@@ -526,7 +546,11 @@
    "design-system",
    "frontend"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-02-19",
+  "pushed": "2026-11-08",
+  "archived": false,
+  "fork": false
  },
  "MadsLorentzen/ai-job-search": {
   "fetched": "2026-10-17",
@@ -646,10 +670,14 @@
   "license": "Apache-2.0",
   "homepage": "",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-04-27",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "NationalSecurityAgency/ghidra": {
-  "fetched": "2026-11-09",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/NationalSecurityAgency/ghidra#readme",
   "install": [],
   "usage_title": "Ghidra Software Reverse Engineering Framework",
@@ -662,10 +690,14 @@
    "reverse-engineering",
    "software-analysis"
   ],
-  "default_branch": "master"
+  "default_branch": "master",
+  "created": "2019-03-01",
+  "pushed": "2026-11-10",
+  "archived": false,
+  "fork": false
  },
  "Nutlope/hallmark": {
-  "fetched": "2026-11-08",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/Nutlope/hallmark#readme",
   "install": [
    "npx skills add nutlope/hallmark -g"
@@ -676,7 +708,11 @@
   "license": "MIT",
   "homepage": "https://www.usehallmark.com/",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-04-27",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "OpenBMB/VoxCPM": {
   "fetched": "2026-10-24",
@@ -930,7 +966,11 @@
    "java",
    "search"
   ],
-  "default_branch": "master"
+  "default_branch": "master",
+  "created": "2016-07-16",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "Thysrael/Horizon": {
   "fetched": "2026-11-05",
@@ -1035,7 +1075,7 @@
   "default_branch": "master"
  },
  "ZhuLinsen/daily_stock_analysis": {
-  "fetched": "2026-11-10",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/ZhuLinsen/daily_stock_analysis#readme",
   "install": [
    "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git && cd daily_stock_analysis",
@@ -1055,10 +1095,14 @@
    "quantitative-finance",
    "quantitative-trading"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-01-10",
+  "pushed": "2026-11-10",
+  "archived": false,
+  "fork": false
  },
  "addyosmani/agent-skills": {
-  "fetched": "2026-11-11",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/addyosmani/agent-skills#readme",
   "install": [
    "npx skills add addyosmani/agent-skills  # install all 25 skills",
@@ -1081,7 +1125,11 @@
    "cursor",
    "skills"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-02-15",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "fork": false
  },
  "affaan-m/ECC": {
   "fetched": "2026-10-30",
@@ -1291,7 +1339,7 @@
   "default_branch": "main"
  },
  "anthropics/claude-plugins-official": {
-  "fetched": "2026-11-10",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/anthropics/claude-plugins-official#readme",
   "install": [],
   "usage_title": "Claude Code Plugins Directory",
@@ -1304,7 +1352,11 @@
    "mcp",
    "skills"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2025-11-20",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "anthropics/claude-quickstarts": {
   "fetched": "2026-11-09",
@@ -1338,7 +1390,7 @@
   "default_branch": "main"
  },
  "anthropics/knowledge-work-plugins": {
-  "fetched": "2026-11-07",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/anthropics/knowledge-work-plugins#readme",
   "install": [
    "claude plugin marketplace add anthropics/knowledge-work-plugins",
@@ -1350,10 +1402,14 @@
   "license": "Apache-2.0",
   "homepage": "",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-01-23",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "anthropics/skills": {
-  "fetched": "2026-11-07",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/anthropics/skills#readme",
   "install": [],
   "usage_title": "Creating a Basic Skill",
@@ -1364,7 +1420,11 @@
   "topics": [
    "agent-skills"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2025-09-22",
+  "pushed": "2026-11-06",
+  "archived": false,
+  "fork": false
  },
  "astral-sh/ruff": {
   "fetched": "2026-11-07",
@@ -1569,7 +1629,7 @@
   "default_branch": "main"
  },
  "cloudflare/security-audit-skill": {
-  "fetched": "2026-11-07",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
   "install": [
    "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
@@ -1581,7 +1641,11 @@
   "license": "MIT",
   "homepage": "",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-06-18",
+  "pushed": "2026-09-14",
+  "archived": false,
+  "fork": false
  },
  "coollabsio/coolify": {
   "fetched": "2026-10-26",
@@ -1619,7 +1683,7 @@
   "default_branch": "main"
  },
  "debpalash/VoiceStudio": {
-  "fetched": "2026-11-06",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/debpalash/VoiceStudio#readme",
   "install": [
    "curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z  # a specific release",
@@ -1643,7 +1707,11 @@
    "local-first",
    "mlx"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-04-09",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "dsx-ai-factory/nvke": {
   "fetched": "2026-11-08",
@@ -1926,7 +1994,7 @@
   "default_branch": "main"
  },
  "google-deepmind/mujoco": {
-  "fetched": "2026-11-09",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/google-deepmind/mujoco#readme",
   "install": [
    "pip install mujoco"
@@ -1941,7 +2009,11 @@
    "physics",
    "robotics"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2021-08-27",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "google-gemini/gemini-cli": {
   "fetched": "2026-10-25",
@@ -1989,7 +2061,7 @@
   "default_branch": "main"
  },
  "google/skills": {
-  "fetched": "2026-11-06",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/google/skills#readme",
   "install": [
    "npx skills add google/skills",
@@ -2005,7 +2077,11 @@
    "googlecloud",
    "skills"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-03-31",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "harry0703/MoneyPrinterTurbo": {
   "fetched": "2026-11-05",
@@ -2085,10 +2161,14 @@
    "codex",
    "coding-agents"
   ],
-  "default_branch": "master"
+  "default_branch": "master",
+  "created": "2026-03-27",
+  "pushed": "2026-11-07",
+  "archived": false,
+  "fork": false
  },
  "heygen-com/hyperframes": {
-  "fetched": "2026-11-11",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
   "install": [
    "claude plugin marketplace add heygen-com/hyperframes",
@@ -2113,7 +2193,11 @@
    "gsap",
    "html"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-03-10",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "hmjz100/LinkSwift": {
   "fetched": "2026-10-29",
@@ -2137,7 +2221,7 @@
   "default_branch": "dev"
  },
  "homeassistant-ai/ha-mcp": {
-  "fetched": "2026-11-10",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/homeassistant-ai/ha-mcp#readme",
   "install": [
    "curl -LsSf https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/scripts/install-macos.sh | sh",
@@ -2159,7 +2243,11 @@
    "mcp",
    "model-context-protocol"
   ],
-  "default_branch": "master"
+  "default_branch": "master",
+  "created": "2025-09-14",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "hugohe3/ppt-master": {
   "fetched": "2026-10-30",
@@ -2442,7 +2530,7 @@
   "default_branch": "main"
  },
  "mattpocock/skills": {
-  "fetched": "2026-11-07",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/mattpocock/skills#readme",
   "install": [
    "claude plugin install mattpocock-skills@claude-plugins-official",
@@ -2456,7 +2544,11 @@
   "license": "MIT",
   "homepage": "https://aihero.dev/skills",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-02-03",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "max-sixty/worktrunk": {
   "fetched": "2026-11-10",
@@ -2506,7 +2598,7 @@
   "default_branch": "main"
  },
  "meta/astryx": {
-  "fetched": "2026-11-08",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/meta/astryx#readme",
   "install": [
    "npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
@@ -2522,7 +2614,11 @@
   "license": "MIT",
   "homepage": "http://astryx.atmeta.com",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-01-09",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "michael-denyer/pstack-claude": {
   "fetched": "2026-11-03",
@@ -2580,7 +2676,7 @@
   "default_branch": "main"
  },
  "milind-soni/OpenMausBot": {
-  "fetched": "2026-11-06",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/milind-soni/OpenMausBot#readme",
   "install": [
    "git clone https://github.com/milind-soni/OpenMausBot && cd OpenMausBot",
@@ -2590,7 +2686,7 @@
   "usage_text": "Two processes. The app holds no transports of its own — it sends typed commands over HTTP and folds one SSE\nevent stream into state. The harness server owns every agent process and normalizes each provider's native\nprotocol into one canonical runtime event stream (logged per-thread as NDJSON).",
   "usage_code": "flowchart LR\n    subgraph app [\"App — React + Tailwind (5199)\"]\n        UI[Chat UI · model picker · computer panel]\n    end\n    subgraph server [\"Harness server (127.0.0.1:8799)\"]\n        REG[Driver registry] --> BUS[Event bus → SSE]\n        BROKER[Permission broker]\n    end\n    subgraph agents [\"Agents on your computer\"]\n        CL[claude CLI]\n        CX[codex CLI]\n        GR[grok CLI]\n    end\n    UI -- \"HTTP commands\" --> server\n    BUS -- \"one SSE stream\" --> UI\n    REG --> CL & CX & GR\n    CL & CX & GR -- \"permission requests\" --> BROKER\n    server -- \"Boat API\" --> BOAT[(\"Cloud computer<br/>boat.dev\")]\n…",
   "license": "Apache-2.0",
-  "homepage": "https://www.openmausbot.com/",
+  "homepage": "https://www.mausbot.com/",
   "topics": [
    "ai-agents",
    "claude-code",
@@ -2598,10 +2694,14 @@
    "computer-use",
    "docker",
    "electron",
-   "expo",
-   "grok"
+   "grok",
+   "grok-bot"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-08-11",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "mksglu/context-mode": {
   "fetched": "2026-11-04",
@@ -2650,7 +2750,7 @@
   "default_branch": "main"
  },
  "morluto/rea": {
-  "fetched": "2026-11-10",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/morluto/rea#readme",
   "install": [
    "npx rea-agents setup",
@@ -2673,7 +2773,11 @@
    "dsh-plugin",
    "html"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-04-14",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "mpv-player/mpv": {
   "fetched": "2026-11-07",
@@ -2902,7 +3006,11 @@
    "cybersecurity",
    "devsecops"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-07-13",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "openssl/openssl": {
   "fetched": "2026-11-07",
@@ -2993,7 +3101,7 @@
   "default_branch": "main"
  },
  "pbakaus/impeccable": {
-  "fetched": "2026-11-10",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/pbakaus/impeccable#readme",
   "install": [
    "npx impeccable install",
@@ -3011,7 +3119,11 @@
    "design",
    "slop"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2025-11-16",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "php/php-src": {
   "fetched": "2026-10-30",
@@ -3031,23 +3143,20 @@
   "default_branch": "master"
  },
  "pingdotgg/t3code": {
-  "fetched": "2026-11-09",
-  "readme_url": "https://github.com/pingdotgg/t3code#readme",
-  "install": [
-   "curl -fsSL https://t3.codes/install.sh | sh",
-   "winget install T3Tools.T3Code",
-   "scoop install extras/t3code",
-   "brew install --cask t3-code",
-   "apt install ./T3-Code-*.deb",
-   "nix profile add github:NixOS/nixpkgs/nixos-unstable#t3code"
-  ],
-  "usage_title": "T3 Code",
-  "usage_text": "T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app.\nWorks with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them.",
+  "fetched": "2026-11-12",
+  "readme_url": "https://github.com/pingdotgg/t3code",
+  "install": [],
+  "usage_title": "",
+  "usage_text": "",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://t3.codes",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-02-08",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "pollen-robotics/microduck": {
   "fetched": "2026-10-25",
@@ -3304,10 +3413,14 @@
   "license": "MIT",
   "homepage": "",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-06-10",
+  "pushed": "2026-09-12",
+  "archived": false,
+  "fork": false
  },
  "sherlock-project/sherlock": {
-  "fetched": "2026-11-08",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/sherlock-project/sherlock",
   "install": [],
   "usage_title": "",
@@ -3325,7 +3438,11 @@
    "infosec",
    "linux"
   ],
-  "default_branch": "master"
+  "default_branch": "master",
+  "created": "2018-12-24",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "shiyu-coder/Kronos": {
   "fetched": "2026-11-02",
@@ -3547,19 +3664,19 @@
   "default_branch": "main"
  },
  "thedotmack/claude-mem": {
-  "fetched": "2026-11-07",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/thedotmack/claude-mem#readme",
   "install": [
-   "npx claude-mem install --ide grok-bot",
    "npx claude-mem install",
    "npx claude-mem install --ide opencode",
    "npx claude-mem install --ide t3code",
    "npx claude-mem install --ide antigravity",
-   "npx claude-mem install --ide omp"
+   "npx claude-mem install --ide omp",
+   "npx claude-mem install --ide pi"
   ],
   "usage_title": "Quick Start",
-  "usage_text": "Installing for someone as an AI agent? Run npx claude-mem install --runtime worker on their computer in an interactive terminal (enable PTY in your shell tool). It first asks in the terminal which agents to set up and, for Claude Code, whether to disable native auto-memory (and whether to overwrite an existing install). Relay each question to the user and type their answer, or pass --ide to skip the first one. Keep the installer running. When it prints Continue setup in your browser, open that URL in the user's browser if the installer hasn't already opened it. Let the user go through setup and make their own choices, including the usage-analytics question the installer may ask at the end…",
-  "usage_code": "npx claude-mem install --ide grok-bot",
+  "usage_text": "Installing for someone as an AI agent? If the user is available, run npx claude-mem install --setup browser on their computer and keep it running. It prepares the local runtime, then opens setup in their browser; if the page doesn't open, give them the printed URL. Every choice (agents, integrations, skills, model, usage analytics, the optional email) is made by the user on that page, so there are no terminal questions to relay. If the user is away, run npx claude-mem install --setup defer: it prepares the runtime and leaves setup waiting for their first visit, and their next session shows them the link. Don't make their choices for them…",
+  "usage_code": "npx claude-mem install",
   "license": "Apache-2.0",
   "homepage": "https://claude-mem.ai",
   "topics": [
@@ -3572,7 +3689,11 @@
    "claude",
    "claude-agent-sdk"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2025-08-31",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "togg53192-cmd/jailbreaks": {
   "fetched": "2026-10-28",
@@ -3665,7 +3786,7 @@
   "default_branch": "main"
  },
  "vercel-labs/agent-browser": {
-  "fetched": "2026-11-06",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/vercel-labs/agent-browser#readme",
   "install": [
    "npm install -g agent-browser",
@@ -3678,10 +3799,14 @@
   "license": "Apache-2.0",
   "homepage": "https://agent-browser.dev",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-01-11",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "vercel-labs/agent-desktop": {
-  "fetched": "2026-11-10",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/vercel-labs/agent-desktop#readme",
   "install": [
    "npm install -g agent-desktop",
@@ -3702,7 +3827,11 @@
    "computer-use-agent",
    "computer-use-agents"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-02-19",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
  },
  "vercel-labs/skills": {
   "fetched": "2026-10-31",
@@ -3797,7 +3926,7 @@
   "default_branch": "main"
  },
  "we-promise/sure": {
-  "fetched": "2026-11-11",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/we-promise/sure#readme",
   "install": [],
   "usage_title": "Getting Started",
@@ -3806,7 +3935,11 @@
   "license": "AGPL-3.0",
   "homepage": "https://sure.am",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2025-07-23",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "withmarbleapp/os-taxonomy": {
   "fetched": "2026-10-20",
@@ -3907,13 +4040,13 @@
   "default_branch": "main"
  },
  "zed-industries/zed": {
-  "fetched": "2026-11-07",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/zed-industries/zed#readme",
   "install": [],
   "usage_title": "Zed",
   "usage_text": "Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.\n---",
   "usage_code": "",
-  "license": "",
+  "license": "기타",
   "homepage": "https://zed.dev",
   "topics": [
    "gpui",
@@ -3921,6 +4054,10 @@
    "text-editor",
    "zed"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2021-02-20",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  }
 }
