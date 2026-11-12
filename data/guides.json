@@ -1,6 +1,6 @@
 {
  "AgriciDaniel/claude-seo": {
-  "fetched": "2026-11-02",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/AgriciDaniel/claude-seo#readme",
   "install": [
    "git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git",
@@ -9,7 +9,7 @@
    "bash install.sh"
   ],
   "usage_title": "See it in action",
-  "usage_text": "Type /seo in Claude Code to see every command:\nRun a full audit and watch the agents fan out across the site:\nWatch the full demo on YouTube",
+  "usage_text": "Watch the tour in under four minutes. Coral, Violet and Red install Claude SEO, audit a real site and read the plan:\nType /seo in Claude Code to see every command:\nRun a full audit and watch the agents fan out across the site:\nWatch the full demo on YouTube",
   "usage_code": "",
   "license": "MIT",
   "homepage": "skool.com/ai-marketing-hub-pro",
@@ -22,21 +22,6 @@
    "open-source",
    "seo"
   ],
-  "default_branch": "main"
- },
- "Alishahryar1/free-claude-code": {
-  "fetched": "2026-10-13",
-  "readme_url": "https://github.com/Alishahryar1/free-claude-code#readme",
-  "install": [
-   "curl -fsSL \"https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.sh\" | sh",
-   "curl -fsSL \"https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/uninstall.sh\" | sh"
-  ],
-  "usage_title": "4. Run Your Coding Agent",
-  "usage_text": "Claude Code:\nCodex:\nPi:\nOpenCode 2:\nCline:\nHermes:\nDeepSeek Harness Web:\nGrok Build:\nMuse Code:\nAider:\n Select an FCC model from Claude Code's native /model picker.",
-  "usage_code": "fcc-claude",
-  "license": "",
-  "homepage": "",
-  "topics": [],
   "default_branch": "main"
  },
  "AstrBotDevs/AstrBot": {
@@ -212,31 +197,6 @@
   ],
   "default_branch": "main"
  },
- "DuarteSantos8/openGym": {
-  "fetched": "2026-10-13",
-  "readme_url": "https://github.com/DuarteSantos8/openGym#readme",
-  "install": [
-   "git clone https://github.com/DuarteSantos8/openGym",
-   "docker compose pull  # prebuilt images, amd64 + arm64 (skip this to build from source)",
-   "docker compose up -d"
-  ],
-  "usage_title": "Features",
-  "usage_text": "Planning\n• A routine per weekday over a library of over 5,600 exercises with animated demos, searchable and\n browsable by muscle on a body map. Filter by the equipment you own.\n• Four starter plans (Push/Pull/Legs, Upper/Lower, Full Body, 5×5) that load as ordinary,\n editable routines.\n• Move a session to another day without touching the weekly plan. The week starts on Monday or\n Sunday, your choice.\n• Or skip the weekdays altogether: a rotation (A, B, C, A, ...) where the next session is\n simply the next one you haven't done, however the week went.\n• Supersets, warm-up sets, drop sets and rest-pause, timed exercises (planks, hangs, carries)…",
-  "usage_code": "",
-  "license": "AGPL-3.0",
-  "homepage": "https://opengym.ch",
-  "topics": [
-   "bodyweight",
-   "docker",
-   "fitness",
-   "fitness-tracker",
-   "gym",
-   "health",
-   "mcp",
-   "nodejs"
-  ],
-  "default_branch": "main"
- },
  "EpicGames/raddebugger": {
   "fetched": "2026-10-15",
   "readme_url": "https://github.com/EpicGames/raddebugger#readme",
@@ -327,6 +287,25 @@
    "developer-tools",
    "go"
   ],
+  "default_branch": "main"
+ },
+ "GoogleChrome/modern-web-guidance-src": {
+  "fetched": "2026-11-12",
+  "readme_url": "https://github.com/GoogleChrome/modern-web-guidance-src#readme",
+  "install": [
+   "npx modern-web-guidance@latest install",
+   "npx modern-web-guidance@latest search \"animate a dialog modal backdrop\"",
+   "npx modern-web-guidance@latest retrieve \"animate-to-from-top-layer\"",
+   "npx modern-web-guidance@latest legacy-scan .",
+   "npx skills add GoogleChrome/modern-web-guidance",
+   "gh skill install GoogleChrome/modern-web-guidance"
+  ],
+  "usage_title": "Quickstart",
+  "usage_text": "This command runs an interactive wizard to install Modern Web Guidance. See Alternative Installation Methods below.",
+  "usage_code": "npx modern-web-guidance@latest install",
+  "license": "Apache-2.0",
+  "homepage": "https://goo.gle/modern-web-guidance",
+  "topics": [],
   "default_branch": "main"
  },
  "Graphify-Labs/graphify": {
@@ -652,7 +631,7 @@
   "default_branch": "main"
  },
  "NVIDIA/auto-ontology": {
-  "fetched": "2026-11-05",
+  "fetched": "2026-11-12",
   "readme_url": "https://github.com/NVIDIA/auto-ontology#readme",
   "install": [
    "git clone https://github.com/NVIDIA/auto-ontology.git && cd auto-ontology",
@@ -931,6 +910,27 @@
    "pull-request"
   ],
   "default_branch": "main"
+ },
+ "TheAlgorithms/Java": {
+  "fetched": "2026-11-12",
+  "readme_url": "https://github.com/TheAlgorithms/Java#readme",
+  "install": [],
+  "usage_title": "The Algorithms - Java",
+  "usage_text": "You can run and edit the algorithms, or contribute to them using Gitpod.io (a free online development environment) with a single click.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "algorithm",
+   "algorithm-challenges",
+   "algorithms",
+   "algorithms-datastructures",
+   "data-structures",
+   "hacktoberfest",
+   "java",
+   "search"
+  ],
+  "default_branch": "master"
  },
  "Thysrael/Horizon": {
   "fetched": "2026-11-05",
@@ -2063,6 +2063,30 @@
   ],
   "default_branch": "main"
  },
+ "herdrdev/herdr": {
+  "fetched": "2026-11-12",
+  "readme_url": "https://github.com/herdrdev/herdr#readme",
+  "install": [
+   "curl -fsSL https://herdr.dev/install.sh | sh",
+   "git clone https://github.com/herdrdev/herdr"
+  ],
+  "usage_title": "herdr",
+  "usage_text": "herdr.dev · install · quick start · docs \n English · 简体中文 \n---\nhttps://github.com/user-attachments/assets/043ec09f-4bdd-41d5-aee0-8fda6b83e267\nthe runtime your coding agents live on.\n• detach without stopping work — herdr keeps terminals running in a background server when you close the client or lose your SSH connection. after a server or machine restart, herdr restores the saved layout and can resume supported agent sessions; the original processes do not survive. session state →\n• several machines, one window — keep local work and saved ssh machines together, with a combined agent list and independent reconnects. remote machines →…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://herdr.dev",
+  "topics": [
+   "agent",
+   "agent-orchestration",
+   "ai",
+   "ai-agents",
+   "claude-code",
+   "cli",
+   "codex",
+   "coding-agents"
+  ],
+  "default_branch": "master"
+ },
  "heygen-com/hyperframes": {
   "fetched": "2026-11-11",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
@@ -2525,22 +2549,6 @@
   ],
   "default_branch": "main"
  },
- "microsoft/BitNet": {
-  "fetched": "2026-10-13",
-  "readme_url": "https://github.com/microsoft/BitNet#readme",
-  "install": [
-   "git clone --recursive https://github.com/microsoft/BitNet.git",
-   "conda create -n bitnet-cpp python=3.10",
-   "pip install -r requirements.txt"
-  ],
-  "usage_title": "Basic usage",
-  "usage_text": "usage: runinference.py [-h] [-m MODEL] [-n NPREDICT] -p PROMPT [-t THREADS] [-c CTX_SIZE] [-temp TEMPERATURE] [-cnv]\nRun inference\noptional arguments:\n -h, --help show this help message and exit\n -m MODEL, --model MODEL\n Path to model file\n -n NPREDICT, --n-predict NPREDICT\n Number of tokens to predict when generating text\n -p PROMPT, --prompt PROMPT\n Prompt to generate text from\n -t THREADS, --threads THREADS\n Number of threads to use\n -c CTXSIZE, --ctx-size CTXSIZE\n Size of the prompt context\n -temp TEMPERATURE, --temperature TEMPERATURE\n Temperature, a hyperparameter that controls the randomness of the generated text…",
-  "usage_code": "# Run inference with the quantized model\npython run_inference.py -m models/BitNet-b1.58-2B-4T/ggml-model-i2_s.gguf -p \"You are a helpful assistant\" -cnv",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "microsoft/VibeVoice": {
   "fetched": "2026-11-06",
   "readme_url": "https://github.com/microsoft/VibeVoice#readme",
@@ -2872,31 +2880,27 @@
   ],
   "default_branch": "main"
  },
- "open-webui/open-webui": {
-  "fetched": "2026-10-13",
-  "readme_url": "https://github.com/open-webui/open-webui#readme",
+ "openai/codex-security": {
+  "fetched": "2026-11-12",
+  "readme_url": "https://github.com/openai/codex-security#readme",
   "install": [
-   "pip install open-webui",
-   "docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
-   "docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
-   "docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda",
-   "docker run -d -p 3000:8080 -e OPENAI_API_KEY=your_secret_key -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
-   "docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama"
+   "npm install --global @openai/codex-security",
+   "npm install @openai/codex-security"
   ],
-  "usage_title": "Key Features of Open WebUI ⭐",
-  "usage_text": "• 🚀 Effortless Setup: Install seamlessly via pip, uv, Docker, or Kubernetes (kubectl, kustomize, or helm), with :ollama and :cuda tagged images available for container deployments.\n• 🤝 Broad Model & API Integration: Connect any OpenAI-compatible API alongside local Ollama models. Point the API URL at LMStudio, GroqCloud, Mistral, OpenRouter, vLLM, and more to mix and match providers freely.\n• 🔐 Granular RBAC & User Groups: Administrators define detailed roles, groups, and permissions, giving each user exactly the access they need. Secure by default, with tailored experiences per group…",
+  "usage_title": "Features",
+  "usage_text": "• Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings.\n• Validate candidate findings, generate patches, and verify existing fixes.\n• Draft SECURITY.md policies and save threat models for later review.\n• Browse saved scans and findings, identify duplicates, assess severity against\n your own rubric, and suggest owners from source and Git history.\n• Preview third-party scanner findings, save them locally, or publish supported reports to Codex Security Cloud. Scanner import guides.\n• Track findings in Linear, Jira, or GitHub, publish completed scans, or export SARIF, JSON, and CSV. Integration workflows…",
   "usage_code": "",
-  "license": "",
-  "homepage": "https://openwebui.com",
+  "license": "Apache-2.0",
+  "homepage": "https://developers.openai.com/codex/security",
   "topics": [
-   "ai",
-   "llm",
-   "llm-ui",
-   "llm-webui",
-   "llms",
-   "mcp",
-   "ollama",
-   "ollama-webui"
+   "ai-security",
+   "application-security",
+   "cli",
+   "code-scanning",
+   "codex",
+   "codex-security",
+   "cybersecurity",
+   "devsecops"
   ],
   "default_branch": "main"
  },
@@ -3288,6 +3292,20 @@
   ],
   "default_branch": "main"
  },
+ "shadcn/improve": {
+  "fetched": "2026-11-12",
+  "readme_url": "https://github.com/shadcn/improve#readme",
+  "install": [
+   "npx skills add shadcn/improve"
+  ],
+  "usage_title": "improve",
+  "usage_text": "An agent skill that audits any codebase and writes implementation plans for other agents to execute.\nThe idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product.",
+  "usage_code": "/improve                        full audit → prioritized findings → plans\n/improve quick                  cheap pass: hotspots, top findings only\n/improve deep                   exhaustive: every package, every category\n/improve security               focused audit (also: perf, tests, bugs, ...)\n/improve branch                 audit only what the current branch changes\n/improve next                   feature suggestions — where to take the project\n/improve plan <description>     skip the audit, spec one thing\n/improve review-plan <file>     critique and tighten an existing plan\n/improve execute <plan>         dispatch a cheaper executor, review its work\n/improve reconcile              refresh the backlog: verify, unblock, retire\n/improve ... --issues           also publish plans as GitHub issues",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main"
+ },
  "sherlock-project/sherlock": {
   "fetched": "2026-11-08",
   "readme_url": "https://github.com/sherlock-project/sherlock",
@@ -3580,31 +3598,6 @@
   "license": "MIT",
   "homepage": "",
   "topics": [],
-  "default_branch": "main"
- },
- "trycua/cua": {
-  "fetched": "2026-10-13",
-  "readme_url": "https://github.com/trycua/cua#readme",
-  "install": [
-   "curl -fsSL https://cua.ai/install.sh | sh",
-   "uv tool install 'cua-bench[browser]'",
-   "uv tool run --from 'cua-bench[browser]' playwright install chromium"
-  ],
-  "usage_title": "Choose your path",
-  "usage_text": "• Cua Spaces: Install the app and run your first Space.\n• Cua Driver: Operate Calculator and verify its result.\n• Lume: Create a Tahoe VM and connect over SSH.\n• Cua SDK and CLI: Install cua and create a local sandbox.\n• CUA-S1: Explore small, specialized models for computer-use decisions.\n• Cua Bench: Create and verify a simulated task.\nBring your own agent and model, or explore CUA-S1 for specialized decisions. Cua provides the computer and automation tools. Computer-Use 2.0 describes an agent moving between code, APIs, and graphical interfaces within the same task.\n---",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://cua.ai",
-  "topics": [
-   "agent",
-   "ai-agent",
-   "apple",
-   "computer-use",
-   "computer-use-agent",
-   "containerization",
-   "cua",
-   "desktop-automation"
-  ],
   "default_branch": "main"
  },
  "twentyhq/twenty": {

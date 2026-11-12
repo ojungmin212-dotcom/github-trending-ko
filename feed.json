@@ -7,6 +7,120 @@
  "language": "ko",
  "items": [
   {
+   "id": "GoogleChrome/modern-web-guidance-src@2026-11-12",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "title": "GoogleChrome/modern-web-guidance-src — 설명 없음",
+   "content_text": "TypeScript · ★ 1.9k · ▲ 159 (오늘) · 오늘 #3",
+   "date_published": "2026-11-12T12:18:03+09:00",
+   "tags": [
+    "TypeScript",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "GoogleChrome/modern-web-guidance-src",
+    "first_seen": "2026-11-12",
+    "period": "daily",
+    "rank": 3,
+    "filled_from": null,
+    "stars": 1867,
+    "stars_period": 159,
+    "language": "TypeScript",
+    "description": "",
+    "description_ko": ""
+   }
+  },
+  {
+   "id": "shadcn/improve@2026-11-12",
+   "url": "https://github.com/shadcn/improve",
+   "title": "shadcn/improve — 가장 유능한 모델을 사용하여 코드베이스를 감사하고 더 저렴한 모델을 실행할 계획을 작성하세요.",
+   "content_text": "가장 유능한 모델을 사용하여 코드베이스를 감사하고 더 저렴한 모델을 실행할 계획을 작성하세요.\nUse your most capable model to audit your codebase and write plans for cheaper models to execute.\n★ 11k · ▲ 361 (오늘) · 오늘 #4",
+   "date_published": "2026-11-12T12:18:03+09:00",
+   "tags": [
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "shadcn/improve",
+    "first_seen": "2026-11-12",
+    "period": "daily",
+    "rank": 4,
+    "filled_from": null,
+    "stars": 11012,
+    "stars_period": 361,
+    "language": "",
+    "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+    "description_ko": "가장 유능한 모델을 사용하여 코드베이스를 감사하고 더 저렴한 모델을 실행할 계획을 작성하세요."
+   }
+  },
+  {
+   "id": "openai/codex-security@2026-11-12",
+   "url": "https://github.com/openai/codex-security",
+   "title": "openai/codex-security — 보안 취약점을 찾아 검증하고 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK입니다. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "content_text": "보안 취약점을 찾아 검증하고 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK입니다. npm: https://www.npmjs.com/package/@openai/codex-security\nOpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security\nTypeScript · ★ 11.8k · ▲ 52 (오늘) · 오늘 #9",
+   "date_published": "2026-11-12T12:18:03+09:00",
+   "tags": [
+    "TypeScript",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "openai/codex-security",
+    "first_seen": "2026-11-12",
+    "period": "daily",
+    "rank": 9,
+    "filled_from": null,
+    "stars": 11829,
+    "stars_period": 52,
+    "language": "TypeScript",
+    "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "description_ko": "보안 취약점을 찾아 검증하고 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK입니다. npm: https://www.npmjs.com/package/@openai/codex-security"
+   }
+  },
+  {
+   "id": "TheAlgorithms/Java@2026-11-12",
+   "url": "https://github.com/TheAlgorithms/Java",
+   "title": "TheAlgorithms/Java — Java로 구현된 모든 알고리즘",
+   "content_text": "Java로 구현된 모든 알고리즘\nAll Algorithms implemented in Java\nJava · ★ 67.1k · ▲ 51 (오늘) · 오늘 #10",
+   "date_published": "2026-11-12T12:18:03+09:00",
+   "tags": [
+    "Java",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "TheAlgorithms/Java",
+    "first_seen": "2026-11-12",
+    "period": "daily",
+    "rank": 10,
+    "filled_from": null,
+    "stars": 67081,
+    "stars_period": 51,
+    "language": "Java",
+    "description": "All Algorithms implemented in Java",
+    "description_ko": "Java로 구현된 모든 알고리즘"
+   }
+  },
+  {
+   "id": "herdrdev/herdr@2026-11-12",
+   "url": "https://github.com/herdrdev/herdr",
+   "title": "herdrdev/herdr — 코딩 에이전트가 실행되는 런타임",
+   "content_text": "코딩 에이전트가 실행되는 런타임\nthe runtime your coding agents live on\nRust · ★ 50.4k · ▲ 2.2k (이번 주) · 이번 주 #13",
+   "date_published": "2026-11-12T12:18:03+09:00",
+   "tags": [
+    "Rust",
+    "이번 주"
+   ],
+   "_trending": {
+    "full_name": "herdrdev/herdr",
+    "first_seen": "2026-11-12",
+    "period": "weekly",
+    "rank": 13,
+    "filled_from": null,
+    "stars": 50379,
+    "stars_period": 2213,
+    "language": "Rust",
+    "description": "the runtime your coding agents live on",
+    "description_ko": "코딩 에이전트가 실행되는 런타임"
+   }
+  },
+  {
    "id": "we-promise/sure@2026-11-11",
    "url": "https://github.com/we-promise/sure",
    "title": "we-promise/sure — 모두를 위한 (누구나) 개인 금융 앱",
@@ -2738,75 +2852,6 @@
     "language": "Python",
     "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (mu…",
     "description_ko": "터미널, 앱, IDE 또는 휴대폰에서 Claude Code, Codex, VSCode, Pi 및 OpenCode(및 기타 6개 하네스)를 무료(13억 개 이상의 무료 토큰)로 사용하고 이제는 OpenClaw(음성 지원 + ToS 친화적)와 같은 기본 브라우저 세션(다중 하네스 + 다중 모델)이 있는 브라우저에서 사용하세요."
-   }
-  },
-  {
-   "id": "lyogavin/airllm@2026-10-12",
-   "url": "https://github.com/lyogavin/airllm",
-   "title": "lyogavin/airllm — 단일 4GB GPU를 사용한 AirLLM 70B 추론",
-   "content_text": "단일 4GB GPU를 사용한 AirLLM 70B 추론\nAirLLM 70B inference with single 4GB GPU\nJupyter Notebook · ★ 36.5k · ▲ 548 (오늘) · 오늘 #7",
-   "date_published": "2026-10-12T10:41:06+09:00",
-   "tags": [
-    "Jupyter Notebook",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "lyogavin/airllm",
-    "first_seen": "2026-10-12",
-    "period": "daily",
-    "rank": 7,
-    "filled_from": null,
-    "stars": 36525,
-    "stars_period": 548,
-    "language": "Jupyter Notebook",
-    "description": "AirLLM 70B inference with single 4GB GPU",
-    "description_ko": "단일 4GB GPU를 사용한 AirLLM 70B 추론"
-   }
-  },
-  {
-   "id": "chrislgarry/Apollo-11@2026-10-12",
-   "url": "https://github.com/chrislgarry/Apollo-11",
-   "title": "chrislgarry/Apollo-11 — 명령 및 달 모듈을 위한 원본 Apollo 11 AGC(안내 컴퓨터) 소스 코드입니다.",
-   "content_text": "명령 및 달 모듈을 위한 원본 Apollo 11 AGC(안내 컴퓨터) 소스 코드입니다.\nOriginal Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.\nAssembly · ★ 74.3k · ▲ 466 (오늘) · 오늘 #8",
-   "date_published": "2026-10-12T10:41:06+09:00",
-   "tags": [
-    "Assembly",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "chrislgarry/Apollo-11",
-    "first_seen": "2026-10-12",
-    "period": "daily",
-    "rank": 8,
-    "filled_from": null,
-    "stars": 74277,
-    "stars_period": 466,
-    "language": "Assembly",
-    "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-    "description_ko": "명령 및 달 모듈을 위한 원본 Apollo 11 AGC(안내 컴퓨터) 소스 코드입니다."
-   }
-  },
-  {
-   "id": "danyuchn/asd-ste100-skill@2026-10-12",
-   "url": "https://github.com/danyuchn/asd-ste100-skill",
-   "title": "danyuchn/asd-ste100-skill — ASD-STE100 모호한 상담원 대면 영어를 다시 작성하기 위한 Claude Code 기술로 용도가 변경된 단순화된 기술 영어 규칙입니다.",
-   "content_text": "ASD-STE100 모호한 상담원 대면 영어를 다시 작성하기 위한 Claude Code 기술로 용도가 변경된 단순화된 기술 영어 규칙입니다.\nASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.\nPython · ★ 4.5k · ▲ 936 (이번 주) · 이번 주 #11",
-   "date_published": "2026-10-12T10:41:06+09:00",
-   "tags": [
-    "Python",
-    "이번 주"
-   ],
-   "_trending": {
-    "full_name": "danyuchn/asd-ste100-skill",
-    "first_seen": "2026-10-12",
-    "period": "weekly",
-    "rank": 11,
-    "filled_from": null,
-    "stars": 4495,
-    "stars_period": 936,
-    "language": "Python",
-    "description": "ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.",
-    "description_ko": "ASD-STE100 모호한 상담원 대면 영어를 다시 작성하기 위한 Claude Code 기술로 용도가 변경된 단순화된 기술 영어 규칙입니다."
    }
   }
  ]

@@ -5,9 +5,61 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 11 Nov 2026 11:10:47 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 12:18:03 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoogleChrome/modern-web-guidance-src — 설명 없음</title>
+      <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
+      <guid isPermaLink="false">GoogleChrome/modern-web-guidance-src@2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 12:18:03 +0900</pubDate>
+      <description>TypeScript · ★ 1.9k · ▲ 159 (오늘) · 오늘 #3</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>shadcn/improve — 가장 유능한 모델을 사용하여 코드베이스를 감사하고 더 저렴한 모델을 실행할 계획을 작성하세요.</title>
+      <link>https://github.com/shadcn/improve</link>
+      <guid isPermaLink="false">shadcn/improve@2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 12:18:03 +0900</pubDate>
+      <description>가장 유능한 모델을 사용하여 코드베이스를 감사하고 더 저렴한 모델을 실행할 계획을 작성하세요.
+Use your most capable model to audit your codebase and write plans for cheaper models to execute.
+★ 11k · ▲ 361 (오늘) · 오늘 #4</description>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>openai/codex-security — 보안 취약점을 찾아 검증하고 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK입니다. npm: https://www.npmjs.com/package/@openai/codex-security</title>
+      <link>https://github.com/openai/codex-security</link>
+      <guid isPermaLink="false">openai/codex-security@2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 12:18:03 +0900</pubDate>
+      <description>보안 취약점을 찾아 검증하고 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK입니다. npm: https://www.npmjs.com/package/@openai/codex-security
+OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security
+TypeScript · ★ 11.8k · ▲ 52 (오늘) · 오늘 #9</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>TheAlgorithms/Java — Java로 구현된 모든 알고리즘</title>
+      <link>https://github.com/TheAlgorithms/Java</link>
+      <guid isPermaLink="false">TheAlgorithms/Java@2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 12:18:03 +0900</pubDate>
+      <description>Java로 구현된 모든 알고리즘
+All Algorithms implemented in Java
+Java · ★ 67.1k · ▲ 51 (오늘) · 오늘 #10</description>
+      <category>Java</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>herdrdev/herdr — 코딩 에이전트가 실행되는 런타임</title>
+      <link>https://github.com/herdrdev/herdr</link>
+      <guid isPermaLink="false">herdrdev/herdr@2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 12:18:03 +0900</pubDate>
+      <description>코딩 에이전트가 실행되는 런타임
+the runtime your coding agents live on
+Rust · ★ 50.4k · ▲ 2.2k (이번 주) · 이번 주 #13</description>
+      <category>Rust</category>
+      <category>이번 주</category>
+    </item>
     <item>
       <title>we-promise/sure — 모두를 위한 (누구나) 개인 금융 앱</title>
       <link>https://github.com/we-promise/sure</link>
@@ -1305,39 +1357,6 @@ Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for fre
 Python · ★ 59.3k · ▲ 626 (오늘) · 오늘 #9</description>
       <category>Python</category>
       <category>오늘</category>
-    </item>
-    <item>
-      <title>lyogavin/airllm — 단일 4GB GPU를 사용한 AirLLM 70B 추론</title>
-      <link>https://github.com/lyogavin/airllm</link>
-      <guid isPermaLink="false">lyogavin/airllm@2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 10:41:06 +0900</pubDate>
-      <description>단일 4GB GPU를 사용한 AirLLM 70B 추론
-AirLLM 70B inference with single 4GB GPU
-Jupyter Notebook · ★ 36.5k · ▲ 548 (오늘) · 오늘 #7</description>
-      <category>Jupyter Notebook</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>chrislgarry/Apollo-11 — 명령 및 달 모듈을 위한 원본 Apollo 11 AGC(안내 컴퓨터) 소스 코드입니다.</title>
-      <link>https://github.com/chrislgarry/Apollo-11</link>
-      <guid isPermaLink="false">chrislgarry/Apollo-11@2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 10:41:06 +0900</pubDate>
-      <description>명령 및 달 모듈을 위한 원본 Apollo 11 AGC(안내 컴퓨터) 소스 코드입니다.
-Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.
-Assembly · ★ 74.3k · ▲ 466 (오늘) · 오늘 #8</description>
-      <category>Assembly</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>danyuchn/asd-ste100-skill — ASD-STE100 모호한 상담원 대면 영어를 다시 작성하기 위한 Claude Code 기술로 용도가 변경된 단순화된 기술 영어 규칙입니다.</title>
-      <link>https://github.com/danyuchn/asd-ste100-skill</link>
-      <guid isPermaLink="false">danyuchn/asd-ste100-skill@2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 10:41:06 +0900</pubDate>
-      <description>ASD-STE100 모호한 상담원 대면 영어를 다시 작성하기 위한 Claude Code 기술로 용도가 변경된 단순화된 기술 영어 규칙입니다.
-ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.
-Python · ★ 4.5k · ▲ 936 (이번 주) · 이번 주 #11</description>
-      <category>Python</category>
-      <category>이번 주</category>
     </item>
   </channel>
 </rss>
