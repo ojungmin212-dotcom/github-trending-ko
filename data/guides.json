@@ -28,6 +28,25 @@
   "archived": false,
   "fork": false
  },
+ "Alishahryar1/free-claude-code": {
+  "fetched": "2026-11-13",
+  "readme_url": "https://github.com/Alishahryar1/free-claude-code#readme",
+  "install": [
+   "curl -fsSL \"https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install.sh\" | sh",
+   "curl -fsSL \"https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/uninstall.sh\" | sh"
+  ],
+  "usage_title": "Features",
+  "usage_text": "• Route any supported harness to models from any supported provider.\n• 12 supported harnesses: Claude Code, Codex, Pi, OpenCode, Cline, Hermes, DeepSeek Harness, Grok Build, Muse Code, Aider, Antigravity CLI, or VS Code Chat.\n• Preserved native streaming, tool use, and interleaved thinking for maximum performance.\n• For Claude Code, route Fable, Opus, Sonnet, and Haiku to supported models.\n• 61 supported providers, including free, paid, subscription, and local providers.\n• 1.3B+ free tokens per month.\n• FCC follows provider TOS and removes integrations if they stop being allowed…",
+  "usage_code": "",
+  "license": "기타",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main",
+  "created": "2026-01-28",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
+ },
  "AstrBotDevs/AstrBot": {
   "fetched": "2026-11-01",
   "readme_url": "https://github.com/AstrBotDevs/AstrBot#readme",
@@ -101,7 +120,7 @@
   "default_branch": "main"
  },
  "CopilotKit/OpenBot": {
-  "fetched": "2026-10-30",
+  "fetched": "2026-11-13",
   "readme_url": "https://github.com/CopilotKit/OpenBot#readme",
   "install": [
    "bun install",
@@ -110,11 +129,11 @@
    "bun scripts/setup-learning.ts",
    "bash scripts/start.sh"
   ],
-  "usage_title": "Quick start",
-  "usage_text": "> Setting up with an AI assistant? Paste prompt.txt into it first. It carries the\n> same steps as below plus the things that are easy to get wrong: which of the blank keys in\n> .env.example are actually yours to fill (the CopilotKit key and a model key), which the start\n> script fills for you, and what each start-up refusal means. Every claim in it is checked against\n> this repository.\n1. Create .env:\n2. Connect a fresh managed Intelligence project:\n The helper provisions the selected project's runtime key, creates or reuses its\n openbot Learning container, then writes both settings to .env. It preserves\n custom container assignments and never replaces an existing OpenBot key; with one…",
-  "usage_code": "   cp .env.example .env\n   bun install\n   ",
+  "usage_title": "Run from source",
+  "usage_text": "Use the template to customize the workspace, branding, Bots, and skills. The source setup below uses managed Intelligence by default; local Intelligence is also available.",
+  "usage_code": "git clone https://github.com/CopilotKit/OpenBot.git\ncd OpenBot",
   "license": "MIT",
-  "homepage": "https://www.copilotkit.ai/openbot",
+  "homepage": "open.bot",
   "topics": [
    "ag-ui",
    "agent-governance",
@@ -124,7 +143,11 @@
    "generative-ui",
    "mcp"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-08-17",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
  },
  "D4Vinci/Scrapling": {
   "fetched": "2026-11-12",
@@ -786,6 +809,35 @@
   ],
   "default_branch": "main"
  },
+ "QwenLM/qwen-code": {
+  "fetched": "2026-11-13",
+  "readme_url": "https://github.com/QwenLM/qwen-code#readme",
+  "install": [
+   "curl -fsSL https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen-standalone.sh | bash",
+   "npm install -g @qwen-code/qwen-code@latest",
+   "brew install qwen-code"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "Open a terminal in your project and start Qwen Code:\nInside the session, run /auth and choose Qwen Account with Subscription to sign in with your Plus or Pro subscription, or configure a provider with an API key. Then try:\nSee the Authentication Guide and Settings Reference for detailed setup.\n See the terminal interface",
+  "usage_code": "cd /path/to/your-project\nqwen",
+  "license": "Apache-2.0",
+  "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
+  "topics": [
+   "agentic",
+   "ai",
+   "ai-agent",
+   "ai-coding",
+   "cli",
+   "coding-agent",
+   "developer-tools",
+   "llm"
+  ],
+  "default_branch": "main",
+  "created": "2025-06-26",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
+ },
  "Renhuai123/ziwei-doushu": {
   "fetched": "2026-11-08",
   "readme_url": "https://github.com/Renhuai123/ziwei-doushu#readme",
@@ -1426,6 +1478,35 @@
   "archived": false,
   "fork": false
  },
+ "ashhart/TensorFold": {
+  "fetched": "2026-11-13",
+  "readme_url": "https://github.com/ashhart/TensorFold#readme",
+  "install": [
+   "npm install -g github:ashhart/ATC",
+   "brew install ashhart/tensorfold/tensorfold",
+   "curl -fLO \"https://github.com/ashhart/TensorFold/releases/download/v$V/tensorfold-$V-$PLATFORM.tar.gz\"",
+   "curl -fLO \"https://github.com/ashhart/TensorFold/releases/download/v$V/tensorfold-$V-$PLATFORM.tar.gz.sha256\"",
+   "curl -fsS http://127.0.0.1:8080/v1/chat/completions -H 'Content-Type: application/json' -d '{\"model\":\"local-model\",\"messages\":[{\"role\":\"user\",\"content\":\"Say hello in one sentence.\"}],\"max_tokens\":128,\"temperature\":0}'",
+   "curl -N http://127.0.0.1:8080/v1/slide/learn -H \"Authorization: Bearer $(cat ~/models/slide-key)\" -H 'Content-Type: application/json' -d '{\"text\": \"I like blue.\"}'"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Start with Qwen3.5-2B, the small 4-bit checkpoint checked on Metal and a GB10. The commands below download its\npinned revision, then serve it as local-model. Model weights have their own licenses.\nReviewing or benchmarking TensorFold? Evaluating TensorFold covers pinning, signature checks,\na container and the tests that need no GPU.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://tensorfold.dev",
+  "topics": [
+   "ai",
+   "ai-tools",
+   "llm",
+   "llm-inference",
+   "llm-tools"
+  ],
+  "default_branch": "main",
+  "created": "2026-06-19",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
+ },
  "astral-sh/ruff": {
   "fetched": "2026-11-07",
   "readme_url": "https://github.com/astral-sh/ruff#readme",
@@ -1938,6 +2019,26 @@
   "topics": [],
   "default_branch": "main"
  },
+ "ggml-org/llama.cpp": {
+  "fetched": "2026-11-13",
+  "readme_url": "https://github.com/ggml-org/llama.cpp#readme",
+  "install": [
+   "curl -LsSf https://llama.app/install.sh | sh"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "A few options to get llama.cpp installed on your machine:\n• Visit https://llama.app and follow the instructions\n• Run with Docker - see our Docker documentation\n• Download pre-built binaries from the releases page\n• Build from source by cloning this repository - check out our build guide\nOnce installed:\n VLM session with llama cli \n Built-in web UI against llama serve",
+  "usage_code": "# curl\ncurl -LsSf https://llama.app/install.sh | sh\n\n# powershell\nirm https://llama.app/install.ps1 | iex",
+  "license": "MIT",
+  "homepage": "https://llama.app",
+  "topics": [
+   "ggml"
+  ],
+  "default_branch": "master",
+  "created": "2023-03-10",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
+ },
  "ghostty-org/ghostty": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/ghostty-org/ghostty#readme",
@@ -2036,27 +2137,6 @@
    "gemini-api",
    "mcp-client",
    "mcp-server"
-  ],
-  "default_branch": "main"
- },
- "google/artemis": {
-  "fetched": "2026-10-14",
-  "readme_url": "https://github.com/google/artemis#readme",
-  "install": [
-   "uv run artemis mcp --install antigravity",
-   "uv run artemis mcp --install all"
-  ],
-  "usage_title": "Quick Start",
-  "usage_text": "Ensure an Android device (with USB Debugging enabled) or emulator is connected. The one-click startup script will automatically:\n• Install System Toolchains: Detect and auto-install ADB, scrcpy, FFmpeg, and Python (uv) dependencies.\n• Mount Global MCP Server & AI Agent Rules: Prompt to automatically install global MCP configurations and the Artemis Mobile Testing Mindset (rules.md) into your AI IDEs (Antigravity, Cursor, Claude Code, Codex, Windsurf, VS Code, Cline/Roo, OpenClaw).",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "",
-  "topics": [
-   "ai-agents",
-   "android",
-   "google",
-   "test-automation",
-   "testing"
   ],
   "default_branch": "main"
  },
@@ -2880,7 +2960,7 @@
   "default_branch": "main"
  },
  "nodejs/node": {
-  "fetched": "2026-10-24",
+  "fetched": "2026-11-13",
   "readme_url": "https://github.com/nodejs/node#readme",
   "install": [
    "curl -fsLo \"/path/to/nodejs-keyring.kbx\" \"https://github.com/nodejs/release-keys/raw/HEAD/gpg/pubring.kbx\"",
@@ -2889,7 +2969,7 @@
   "usage_title": "Node.js",
   "usage_text": "Node.js is an open-source, cross-platform JavaScript runtime environment.\nFor information on using Node.js, see the [Node.js website][].\nThe Node.js project uses an open governance model. The\n[OpenJS Foundation][] provides support for the project.\nContributors are expected to act in a collaborative manner to move\nthe project forward. We encourage the constructive exchange of contrary\nopinions and compromise. The TSC\nreserves the right to limit or block contributors who repeatedly act in ways\nthat discourage, exhaust, or otherwise negatively affect other participants.\nThis project has a [Code of Conduct][].",
   "usage_code": "",
-  "license": "",
+  "license": "기타",
   "homepage": "https://nodejs.org",
   "topics": [
    "javascript",
@@ -2901,7 +2981,11 @@
    "nodejs",
    "runtime"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2014-11-26",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
  },
  "ntdevlabs/tiny11builder": {
   "fetched": "2026-10-15",
@@ -2935,11 +3019,11 @@
   "default_branch": "main"
  },
  "nvm-sh/nvm": {
-  "fetched": "2026-10-15",
+  "fetched": "2026-11-13",
   "readme_url": "https://github.com/nvm-sh/nvm#readme",
   "install": [
-   "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash",
-   "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash",
+   "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.41.0/install.sh | bash",
+   "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.41.0/install.sh | bash",
    "docker build -t nvmimage --build-arg NODE_VERSION=19 .",
    "docker run --rm -it nvmimage",
    "git clone https://github.com/nvm-sh/nvm.git \"$NVM_DIR\""
@@ -2959,7 +3043,11 @@
    "nvm",
    "nvmrc"
   ],
-  "default_branch": "master"
+  "default_branch": "master",
+  "created": "2010-04-15",
+  "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
  },
  "obra/superpowers": {
   "fetched": "2026-11-04",
@@ -3169,6 +3257,22 @@
   "homepage": "https://pollen-robotics.com/microduck",
   "topics": [],
   "default_branch": "main"
+ },
+ "pookjw/HermesEnabler": {
+  "fetched": "2026-11-13",
+  "readme_url": "https://github.com/pookjw/HermesEnabler#readme",
+  "install": [],
+  "usage_title": "HermesEnabler 2",
+  "usage_text": "English · 한국어 · 简体中文 · 繁體中文 · 日本語 · Español · Français · Deutsch · Português\n> Supported only on watchOS 27.0 through 27.3 beta 1.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main",
+  "created": "2024-12-14",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
  },
  "prometheus/prometheus": {
   "fetched": "2026-11-07",
@@ -4019,25 +4123,6 @@
   "homepage": "",
   "topics": [],
   "default_branch": "master"
- },
- "xtool-org/xtool": {
-  "fetched": "2026-10-14",
-  "readme_url": "https://github.com/xtool-org/xtool#readme",
-  "install": [],
-  "usage_title": "Getting Started",
-  "usage_text": "1. Follow the guide to install xtool\n• Installation (Linux/Windows)\n• Installation (macOS)\n2. Create and run your first xtool-powered app by following the tutorial!",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://xtool.sh",
-  "topics": [
-   "ios",
-   "linux",
-   "swift",
-   "swift-package-manager",
-   "windows",
-   "xcode"
-  ],
-  "default_branch": "main"
  },
  "zed-industries/zed": {
   "fetched": "2026-11-12",

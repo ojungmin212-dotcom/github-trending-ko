@@ -5,9 +5,53 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 12:18:03 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 11:51:49 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pookjw/HermesEnabler — 모든 Apple Watch 기기에서 Hermès Watch Faces 활성화</title>
+      <link>https://github.com/pookjw/HermesEnabler</link>
+      <guid isPermaLink="false">pookjw/HermesEnabler@2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 11:51:49 +0900</pubDate>
+      <description>모든 Apple Watch 기기에서 Hermès Watch Faces 활성화
+Enable Hermès Watch Faces on any Apple Watch devices
+Objective-C · ★ 1.6k · ▲ 218 (오늘) · 오늘 #4</description>
+      <category>Objective-C</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>QwenLM/qwen-code — 터미널에 상주하는 오픈 소스 AI 코딩 에이전트입니다.</title>
+      <link>https://github.com/QwenLM/qwen-code</link>
+      <guid isPermaLink="false">QwenLM/qwen-code@2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 11:51:49 +0900</pubDate>
+      <description>터미널에 상주하는 오픈 소스 AI 코딩 에이전트입니다.
+An open-source AI coding agent that lives in your terminal.
+TypeScript · ★ 29.9k · ▲ 151 (오늘) · 오늘 #6</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>ashhart/TensorFold — Metal, CUDA 및 Vulkan용 LLM 추론 엔진.</title>
+      <link>https://github.com/ashhart/TensorFold</link>
+      <guid isPermaLink="false">ashhart/TensorFold@2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 11:51:49 +0900</pubDate>
+      <description>Metal, CUDA 및 Vulkan용 LLM 추론 엔진.
+LLM Inference Engine for Metal, CUDA and Vulkan.
+Zig · ★ 2k · ▲ 54 (오늘) · 오늘 #7</description>
+      <category>Zig</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>ggml-org/llama.cpp — C/C++의 LLM 추론</title>
+      <link>https://github.com/ggml-org/llama.cpp</link>
+      <guid isPermaLink="false">ggml-org/llama.cpp@2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 11:51:49 +0900</pubDate>
+      <description>C/C++의 LLM 추론
+LLM inference in C/C++
+C++ · ★ 134.6k · ▲ 176 (오늘) · 오늘 #13</description>
+      <category>C++</category>
+      <category>오늘</category>
+    </item>
     <item>
       <title>GoogleChrome/modern-web-guidance-src — 설명 없음</title>
       <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
@@ -1324,39 +1368,6 @@ ARTEMIS turns natural-language instructions into reliable Android automation. It
 Python · ★ 11.5k · ▲ 7k (이번 달) · 이번 달 #22</description>
       <category>Python</category>
       <category>이번 달</category>
-    </item>
-    <item>
-      <title>open-webui/open-webui — 사용자 친화적인 AI 인터페이스(Ollama, OpenAI API 등 지원)</title>
-      <link>https://github.com/open-webui/open-webui</link>
-      <guid isPermaLink="false">open-webui/open-webui@2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 12:08:32 +0900</pubDate>
-      <description>사용자 친화적인 AI 인터페이스(Ollama, OpenAI API 등 지원)
-User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-Python · ★ 155.1k · ▲ 157 (오늘) · 오늘 #5</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>microsoft/BitNet — 1비트 LLM을 위한 공식 추론 프레임워크</title>
-      <link>https://github.com/microsoft/BitNet</link>
-      <guid isPermaLink="false">microsoft/BitNet@2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 12:08:32 +0900</pubDate>
-      <description>1비트 LLM을 위한 공식 추론 프레임워크
-Official inference framework for 1-bit LLMs
-C++ · ★ 41k · ▲ 97 (오늘) · 오늘 #8</description>
-      <category>C++</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>Alishahryar1/free-claude-code — 터미널, 앱, IDE 또는 휴대폰에서 Claude Code, Codex, VSCode, Pi 및 OpenCode(및 기타 6개 하네스)를 무료(13억 개 이상의 무료 토큰)로 사용하고 이제는 OpenClaw(음성 지원 + ToS 친화적)와 같은 기본 브라우저 세션(다중 하네스 + 다중 모델)이 있는 브라우저에서 사용하세요.</title>
-      <link>https://github.com/Alishahryar1/free-claude-code</link>
-      <guid isPermaLink="false">Alishahryar1/free-claude-code@2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 12:08:32 +0900</pubDate>
-      <description>터미널, 앱, IDE 또는 휴대폰에서 Claude Code, Codex, VSCode, Pi 및 OpenCode(및 기타 6개 하네스)를 무료(13억 개 이상의 무료 토큰)로 사용하고 이제는 OpenClaw(음성 지원 + ToS 친화적)와 같은 기본 브라우저 세션(다중 하네스 + 다중 모델)이 있는 브라우저에서 사용하세요.
-Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (mu…
-Python · ★ 59.3k · ▲ 626 (오늘) · 오늘 #9</description>
-      <category>Python</category>
-      <category>오늘</category>
     </item>
   </channel>
 </rss>
