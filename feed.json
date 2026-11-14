@@ -7,6 +7,190 @@
  "language": "ko",
  "items": [
   {
+   "id": "backnotprop/plannotator@2026-11-14",
+   "url": "https://github.com/backnotprop/plannotator",
+   "title": "backnotprop/plannotator — 루프를 유지하고 상담원을 관리할 수 있는 작업 공간 - 한 번의 클릭으로 형성, 결정, 계획, 주석 달기, 코드 검토, 팀과 공유 및 모든 피드백을 상담원에게 보냅니다.",
+   "content_text": "루프를 유지하고 상담원을 관리할 수 있는 작업 공간 - 한 번의 클릭으로 형성, 결정, 계획, 주석 달기, 코드 검토, 팀과 공유 및 모든 피드백을 상담원에게 보냅니다.\nThe workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.\nTypeScript · ★ 10.5k · ▲ 108 (오늘) · 오늘 #6",
+   "date_published": "2026-11-14T11:39:17+09:00",
+   "tags": [
+    "TypeScript",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "backnotprop/plannotator",
+    "first_seen": "2026-11-14",
+    "period": "daily",
+    "rank": 6,
+    "filled_from": null,
+    "stars": 10493,
+    "stars_period": 108,
+    "language": "TypeScript",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "description_ko": "루프를 유지하고 상담원을 관리할 수 있는 작업 공간 - 한 번의 클릭으로 형성, 결정, 계획, 주석 달기, 코드 검토, 팀과 공유 및 모든 피드백을 상담원에게 보냅니다."
+   }
+  },
+  {
+   "id": "louislam/uptime-kuma@2026-11-14",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "title": "louislam/uptime-kuma — 멋진 자체 호스팅 모니터링 도구",
+   "content_text": "멋진 자체 호스팅 모니터링 도구\nA fancy self-hosted monitoring tool\nJavaScript · ★ 93.9k · ▲ 71 (오늘) · 오늘 #7",
+   "date_published": "2026-11-14T11:39:17+09:00",
+   "tags": [
+    "JavaScript",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "louislam/uptime-kuma",
+    "first_seen": "2026-11-14",
+    "period": "daily",
+    "rank": 7,
+    "filled_from": null,
+    "stars": 93889,
+    "stars_period": 71,
+    "language": "JavaScript",
+    "description": "A fancy self-hosted monitoring tool",
+    "description_ko": "멋진 자체 호스팅 모니터링 도구"
+   }
+  },
+  {
+   "id": "tradermonty/claude-trading-skills@2026-11-14",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "title": "tradermonty/claude-trading-skills — 주식 투자자 및 거래자를 위한 Claude Code 기술 - 시장 분석, 기술 차트 작성, 경제 달력, 스크리너 및 거래 전략 개발.",
+   "content_text": "주식 투자자 및 거래자를 위한 Claude Code 기술 - 시장 분석, 기술 차트 작성, 경제 달력, 스크리너 및 거래 전략 개발.\nClaude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.\nPython · ★ 4.2k · ▲ 69 (오늘) · 오늘 #9",
+   "date_published": "2026-11-14T11:39:17+09:00",
+   "tags": [
+    "Python",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "tradermonty/claude-trading-skills",
+    "first_seen": "2026-11-14",
+    "period": "daily",
+    "rank": 9,
+    "filled_from": null,
+    "stars": 4211,
+    "stars_period": 69,
+    "language": "Python",
+    "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "description_ko": "주식 투자자 및 거래자를 위한 Claude Code 기술 - 시장 분석, 기술 차트 작성, 경제 달력, 스크리너 및 거래 전략 개발."
+   }
+  },
+  {
+   "id": "tailscale/tailcat@2026-11-14",
+   "url": "https://github.com/tailscale/tailcat",
+   "title": "tailscale/tailcat — netcat과 유사하지만 Tailscale의 제어 평면이 없는 Tailscale의 데이터 평면을 통해",
+   "content_text": "netcat과 유사하지만 Tailscale의 제어 평면이 없는 Tailscale의 데이터 평면을 통해\nlike netcat, but over Tailscale's data plane, without Tailscale's control plane\nGo · ★ 9.5k · ▲ 256 (오늘) · 오늘 #10",
+   "date_published": "2026-11-14T11:39:17+09:00",
+   "tags": [
+    "Go",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "tailscale/tailcat",
+    "first_seen": "2026-11-14",
+    "period": "daily",
+    "rank": 10,
+    "filled_from": null,
+    "stars": 9490,
+    "stars_period": 256,
+    "language": "Go",
+    "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+    "description_ko": "netcat과 유사하지만 Tailscale의 제어 평면이 없는 Tailscale의 데이터 평면을 통해"
+   }
+  },
+  {
+   "id": "Likely7/Veyra-NRVideo@2026-11-14",
+   "url": "https://github.com/Likely7/Veyra-NRVideo",
+   "title": "Likely7/Veyra-NRVideo — DLSS 5를 사용하여 PS5 GTA6을 120FPS로 구현하세요. 비디오, 이미지 및 캡처 카드 소스에 대한 실시간 미리보기 기능을 갖춘 고급 Windows 비디오 플레이어 및 캡처 향상 도구입니다. AI 기반 초고해상도, DLSS5 이미지 향상 및 프레임 생성을 결합하여 차세대 시각적 경험을 제공합니다.",
+   "content_text": "DLSS 5를 사용하여 PS5 GTA6을 120FPS로 구현하세요. 비디오, 이미지 및 캡처 카드 소스에 대한 실시간 미리보기 기능을 갖춘 고급 Windows 비디오 플레이어 및 캡처 향상 도구입니다. AI 기반 초고해상도, DLSS5 이미지 향상 및 프레임 생성을 결합하여 차세대 시각적 경험을 제공합니다.\nBring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super…\nC++ · ★ 1.6k · ▲ 256 (오늘) · 오늘 #11",
+   "date_published": "2026-11-14T11:39:17+09:00",
+   "tags": [
+    "C++",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "Likely7/Veyra-NRVideo",
+    "first_seen": "2026-11-14",
+    "period": "daily",
+    "rank": 11,
+    "filled_from": null,
+    "stars": 1645,
+    "stars_period": 256,
+    "language": "C++",
+    "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super…",
+    "description_ko": "DLSS 5를 사용하여 PS5 GTA6을 120FPS로 구현하세요. 비디오, 이미지 및 캡처 카드 소스에 대한 실시간 미리보기 기능을 갖춘 고급 Windows 비디오 플레이어 및 캡처 향상 도구입니다. AI 기반 초고해상도, DLSS5 이미지 향상 및 프레임 생성을 결합하여 차세대 시각적 경험을 제공합니다."
+   }
+  },
+  {
+   "id": "ChromeDevTools/chrome-devtools-mcp@2026-11-14",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "title": "ChromeDevTools/chrome-devtools-mcp — 코딩 에이전트용 Chrome DevTools",
+   "content_text": "코딩 에이전트용 Chrome DevTools\nChrome DevTools for coding agents\nTypeScript · ★ 55.5k · ▲ 67 (오늘) · 오늘 #12",
+   "date_published": "2026-11-14T11:39:17+09:00",
+   "tags": [
+    "TypeScript",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "ChromeDevTools/chrome-devtools-mcp",
+    "first_seen": "2026-11-14",
+    "period": "daily",
+    "rank": 12,
+    "filled_from": null,
+    "stars": 55496,
+    "stars_period": 67,
+    "language": "TypeScript",
+    "description": "Chrome DevTools for coding agents",
+    "description_ko": "코딩 에이전트용 Chrome DevTools"
+   }
+  },
+  {
+   "id": "google/elephant-goldfish-model@2026-11-14",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "title": "google/elephant-goldfish-model — 에이전트를 사용하여 소프트웨어를 설계하고 검토하기 위한 오픈 소스 플러그인",
+   "content_text": "에이전트를 사용하여 소프트웨어를 설계하고 검토하기 위한 오픈 소스 플러그인\nOpen-source plugin for designing and reviewing software with agents\nPython · ★ 18.7k · ▲ 5.6k (이번 주) · 이번 주 #5",
+   "date_published": "2026-11-14T11:39:17+09:00",
+   "tags": [
+    "Python",
+    "이번 주"
+   ],
+   "_trending": {
+    "full_name": "google/elephant-goldfish-model",
+    "first_seen": "2026-11-14",
+    "period": "weekly",
+    "rank": 5,
+    "filled_from": null,
+    "stars": 18656,
+    "stars_period": 5560,
+    "language": "Python",
+    "description": "Open-source plugin for designing and reviewing software with agents",
+    "description_ko": "에이전트를 사용하여 소프트웨어를 설계하고 검토하기 위한 오픈 소스 플러그인"
+   }
+  },
+  {
+   "id": "lobehub/lobehub@2026-11-14",
+   "url": "https://github.com/lobehub/lobehub",
+   "title": "lobehub/lobehub — 🤯 LobeHub - 팀의 슈퍼 에이전트. 팀에서 이미 사용하고 있는 채팅에 슈퍼 상담원을 추가하세요. 슈퍼 상담원은 스스로 업무를 처리하고 매주 실력이 향상됩니다.",
+   "content_text": "🤯 LobeHub - 팀의 슈퍼 에이전트. 팀에서 이미 사용하고 있는 채팅에 슈퍼 상담원을 추가하세요. 슈퍼 상담원은 스스로 업무를 처리하고 매주 실력이 향상됩니다.\n🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.\nTypeScript · ★ 85.4k · ▲ 1.1k (이번 주) · 이번 주 #15",
+   "date_published": "2026-11-14T11:39:17+09:00",
+   "tags": [
+    "TypeScript",
+    "이번 주"
+   ],
+   "_trending": {
+    "full_name": "lobehub/lobehub",
+    "first_seen": "2026-11-14",
+    "period": "weekly",
+    "rank": 15,
+    "filled_from": null,
+    "stars": 85410,
+    "stars_period": 1126,
+    "language": "TypeScript",
+    "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+    "description_ko": "🤯 LobeHub - 팀의 슈퍼 에이전트. 팀에서 이미 사용하고 있는 채팅에 슈퍼 상담원을 추가하세요. 슈퍼 상담원은 스스로 업무를 처리하고 매주 실력이 향상됩니다."
+   }
+  },
+  {
    "id": "pookjw/HermesEnabler@2026-11-13",
    "url": "https://github.com/pookjw/HermesEnabler",
    "title": "pookjw/HermesEnabler — 모든 Apple Watch 기기에서 Hermès Watch Faces 활성화",
@@ -2806,75 +2990,6 @@
     "language": "C#",
     "description": "WinUI app for building smaller, customized Windows 11 images.",
     "description_ko": "더 작은 맞춤형 Windows 11 이미지를 구축하기 위한 WinUI 앱입니다."
-   }
-  },
-  {
-   "id": "vercel-labs/skills@2026-10-14",
-   "url": "https://github.com/vercel-labs/skills",
-   "title": "vercel-labs/skills — 개방형 상담사 기술 도구 - npx 기술",
-   "content_text": "개방형 상담사 기술 도구 - npx 기술\nThe open agent skills tool - npx skills\nTypeScript · ★ 34.5k · ▲ 190 (오늘) · 오늘 #6",
-   "date_published": "2026-10-14T10:21:34+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "vercel-labs/skills",
-    "first_seen": "2026-10-14",
-    "period": "daily",
-    "rank": 6,
-    "filled_from": null,
-    "stars": 34525,
-    "stars_period": 190,
-    "language": "TypeScript",
-    "description": "The open agent skills tool - npx skills",
-    "description_ko": "개방형 상담사 기술 도구 - npx 기술"
-   }
-  },
-  {
-   "id": "xtool-org/xtool@2026-10-14",
-   "url": "https://github.com/xtool-org/xtool",
-   "title": "xtool-org/xtool — 크로스 플랫폼 Xcode 대체. Linux, Windows, macOS에서 SwiftPM을 사용하여 iOS 앱을 구축하고 배포하세요.",
-   "content_text": "크로스 플랫폼 Xcode 대체. Linux, Windows, macOS에서 SwiftPM을 사용하여 iOS 앱을 구축하고 배포하세요.\nCross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.\nSwift · ★ 9.4k · ▲ 1.2k (오늘) · 오늘 #9",
-   "date_published": "2026-10-14T10:21:34+09:00",
-   "tags": [
-    "Swift",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "xtool-org/xtool",
-    "first_seen": "2026-10-14",
-    "period": "daily",
-    "rank": 9,
-    "filled_from": null,
-    "stars": 9398,
-    "stars_period": 1198,
-    "language": "Swift",
-    "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
-    "description_ko": "크로스 플랫폼 Xcode 대체. Linux, Windows, macOS에서 SwiftPM을 사용하여 iOS 앱을 구축하고 배포하세요."
-   }
-  },
-  {
-   "id": "google/artemis@2026-10-14",
-   "url": "https://github.com/google/artemis",
-   "title": "google/artemis — ARTEMIS는 자연어 지침을 안정적인 Android 자동화로 전환합니다. 엔드투엔드 워크플로를 자동화하고, 로그를 캡처하며, Antigravity, Codex 및 Claude Code와 같은 AI 코딩 도우미와 원활하게 통합됩니다. 또한 AndroidWorld 벤치마크에서도 99% 이상의 성공률을 달성했습니다.",
-   "content_text": "ARTEMIS는 자연어 지침을 안정적인 Android 자동화로 전환합니다. 엔드투엔드 워크플로를 자동화하고, 로그를 캡처하며, Antigravity, Codex 및 Claude Code와 같은 AI 코딩 도우미와 원활하게 통합됩니다. 또한 AndroidWorld 벤치마크에서도 99% 이상의 성공률을 달성했습니다.\nARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity…\nPython · ★ 11.5k · ▲ 7k (이번 달) · 이번 달 #22",
-   "date_published": "2026-10-14T10:21:34+09:00",
-   "tags": [
-    "Python",
-    "이번 달"
-   ],
-   "_trending": {
-    "full_name": "google/artemis",
-    "first_seen": "2026-10-14",
-    "period": "monthly",
-    "rank": 22,
-    "filled_from": null,
-    "stars": 11549,
-    "stars_period": 7039,
-    "language": "Python",
-    "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity…",
-    "description_ko": "ARTEMIS는 자연어 지침을 안정적인 Android 자동화로 전환합니다. 엔드투엔드 워크플로를 자동화하고, 로그를 캡처하며, Antigravity, Codex 및 Claude Code와 같은 AI 코딩 도우미와 원활하게 통합됩니다. 또한 AndroidWorld 벤치마크에서도 99% 이상의 성공률을 달성했습니다."
    }
   }
  ]

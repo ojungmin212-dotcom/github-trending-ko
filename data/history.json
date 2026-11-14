@@ -2,7 +2,7 @@
  "repos": {
   "AgriciDaniel/claude-seo": {
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "Alishahryar1/free-claude-code": {
    "first_seen": "2026-10-13",
@@ -19,6 +19,10 @@
   "BuilderIO/agent-native": {
    "first_seen": "2026-09-24",
    "last_seen": "2026-09-24"
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14"
   },
   "Comfy-Org/ComfyUI": {
    "first_seen": "2026-10-19",
@@ -90,7 +94,7 @@
   },
   "GoogleChrome/modern-web-guidance-src": {
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-10-21",
@@ -102,7 +106,7 @@
   },
   "HKUDS/DeepTutor": {
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "HunxByts/GhostTrack": {
    "first_seen": "2026-10-02",
@@ -146,11 +150,15 @@
   },
   "Leonxlnx/taste-skill": {
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "LibreChat-AI/LibreChat": {
    "first_seen": "2026-09-24",
    "last_seen": "2026-09-25"
+  },
+  "Likely7/Veyra-NRVideo": {
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14"
   },
   "M-Abozaid/esp32-c3-adblock": {
    "first_seen": "2026-10-06",
@@ -186,7 +194,7 @@
   },
   "NVIDIA/auto-ontology": {
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "NationalSecurityAgency/ghidra": {
    "first_seen": "2026-10-05",
@@ -198,7 +206,7 @@
   },
   "Nutlope/hallmark": {
    "first_seen": "2026-10-25",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "Open-Dev-Society/OpenStock": {
    "first_seen": "2026-09-23",
@@ -294,7 +302,7 @@
   },
   "ZhuLinsen/daily_stock_analysis": {
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-12"
+   "last_seen": "2026-11-14"
   },
   "abue-ammar/tinycast": {
    "first_seen": "2026-09-26",
@@ -306,7 +314,7 @@
   },
   "addyosmani/agent-skills": {
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "affaan-m/ECC": {
    "first_seen": "2026-09-23",
@@ -330,7 +338,7 @@
   },
   "alibaba/open-code-review": {
    "first_seen": "2026-09-23",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-11-14"
   },
   "alirezarezvani/claude-skills": {
    "first_seen": "2026-10-01",
@@ -370,11 +378,11 @@
   },
   "anthropics/claude-plugins-official": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "anthropics/claude-quickstarts": {
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-11"
+   "last_seen": "2026-11-14"
   },
   "anthropics/financial-services": {
    "first_seen": "2026-09-23",
@@ -382,11 +390,11 @@
   },
   "anthropics/knowledge-work-plugins": {
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "anthropics/skills": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "antirez/ds4": {
    "first_seen": "2026-10-05",
@@ -412,6 +420,10 @@
    "first_seen": "2026-09-23",
    "last_seen": "2026-10-09"
   },
+  "backnotprop/plannotator": {
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14"
+  },
   "beenuar/AiSOC": {
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02"
@@ -426,7 +438,7 @@
   },
   "block/buzz": {
    "first_seen": "2026-09-27",
-   "last_seen": "2026-09-27"
+   "last_seen": "2026-11-14"
   },
   "bojieli/ai-agent-book": {
    "first_seen": "2026-09-26",
@@ -486,7 +498,7 @@
   },
   "cloudflare/security-audit-skill": {
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "colbymchenry/codegraph": {
    "first_seen": "2026-10-01",
@@ -522,7 +534,7 @@
   },
   "debpalash/VoiceStudio": {
    "first_seen": "2026-09-23",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "deepseek-ai/DeepGEMM": {
    "first_seen": "2026-10-07",
@@ -630,7 +642,7 @@
   },
   "google-deepmind/mujoco": {
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "google-gemini/gemini-cli": {
    "first_seen": "2026-10-25",
@@ -647,6 +659,10 @@
   "google/ax": {
    "first_seen": "2026-09-23",
    "last_seen": "2026-10-03"
+  },
+  "google/elephant-goldfish-model": {
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14"
   },
   "google/skills": {
    "first_seen": "2026-10-03",
@@ -670,7 +686,7 @@
   },
   "heygen-com/hyperframes": {
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "hmjz100/LinkSwift": {
    "first_seen": "2026-10-17",
@@ -756,9 +772,17 @@
    "first_seen": "2026-09-27",
    "last_seen": "2026-09-27"
   },
+  "lobehub/lobehub": {
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14"
+  },
   "longbridge/gpui-kit": {
    "first_seen": "2026-09-30",
    "last_seen": "2026-10-20"
+  },
+  "louislam/uptime-kuma": {
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14"
   },
   "luongnv89/claude-howto": {
    "first_seen": "2026-10-23",
@@ -786,7 +810,7 @@
   },
   "mattpocock/skills": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "max-sixty/worktrunk": {
    "first_seen": "2026-09-30",
@@ -826,7 +850,7 @@
   },
   "milind-soni/OpenMausBot": {
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "miuuyy/codex-chatgpt-web": {
    "first_seen": "2026-09-28",
@@ -850,7 +874,7 @@
   },
   "morluto/rea": {
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "mpv-player/mpv": {
    "first_seen": "2026-11-07",
@@ -914,7 +938,7 @@
   },
   "openai/codex-security": {
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "openbao/openbao": {
    "first_seen": "2026-09-26",
@@ -946,7 +970,7 @@
   },
   "pbakaus/impeccable": {
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "php/php-src": {
    "first_seen": "2026-10-23",
@@ -954,7 +978,7 @@
   },
   "pingdotgg/t3code": {
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "pollen-robotics/microduck": {
    "first_seen": "2026-10-25",
@@ -1026,7 +1050,7 @@
   },
   "sherlock-project/sherlock": {
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-12"
+   "last_seen": "2026-11-14"
   },
   "shiyu-coder/Kronos": {
    "first_seen": "2026-10-20",
@@ -1076,6 +1100,10 @@
    "first_seen": "2026-09-30",
    "last_seen": "2026-10-01"
   },
+  "tailscale/tailcat": {
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14"
+  },
   "tailwindlabs/tailwindcss": {
    "first_seen": "2026-11-08",
    "last_seen": "2026-11-08"
@@ -1098,7 +1126,7 @@
   },
   "thedotmack/claude-mem": {
    "first_seen": "2026-10-04",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "tile-ai/tilelang": {
    "first_seen": "2026-10-02",
@@ -1111,6 +1139,10 @@
   "tokio-rs/topcoat": {
    "first_seen": "2026-11-11",
    "last_seen": "2026-11-11"
+  },
+  "tradermonty/claude-trading-skills": {
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14"
   },
   "trycua/cua": {
    "first_seen": "2026-09-29",
@@ -1134,11 +1166,11 @@
   },
   "vercel-labs/agent-browser": {
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "vercel-labs/agent-desktop": {
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "vercel-labs/scriptc": {
    "first_seen": "2026-09-28",
@@ -1166,7 +1198,7 @@
   },
   "we-promise/sure": {
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "willfaust/Madeira": {
    "first_seen": "2026-09-28",
@@ -1194,7 +1226,7 @@
   },
   "zed-industries/zed": {
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "zedeus/nitter": {
    "first_seen": "2026-09-24",
@@ -1207,132 +1239,140 @@
  },
  "periods": {
   "daily": {
-   "date": "2026-11-13",
+   "date": "2026-11-14",
    "ranks": {
-    "GoogleChrome/modern-web-guidance-src": 1,
-    "openai/codex-security": 2,
-    "nvm-sh/nvm": 3,
-    "pookjw/HermesEnabler": 4,
+    "alibaba/open-code-review": 1,
+    "GoogleChrome/modern-web-guidance-src": 2,
+    "openai/codex-security": 3,
+    "ZhuLinsen/daily_stock_analysis": 4,
     "we-promise/sure": 5,
-    "QwenLM/qwen-code": 6,
-    "ashhart/TensorFold": 7,
-    "nodejs/node": 8,
-    "addyosmani/agent-skills": 9,
-    "meta/astryx": 10,
-    "CopilotKit/OpenBot": 11,
-    "Alishahryar1/free-claude-code": 12,
-    "ggml-org/llama.cpp": 13
+    "backnotprop/plannotator": 6,
+    "louislam/uptime-kuma": 7,
+    "block/buzz": 8,
+    "tradermonty/claude-trading-skills": 9,
+    "tailscale/tailcat": 10,
+    "Likely7/Veyra-NRVideo": 11,
+    "ChromeDevTools/chrome-devtools-mcp": 12
    },
    "streak": {
-    "GoogleChrome/modern-web-guidance-src": 2,
-    "openai/codex-security": 2,
-    "nvm-sh/nvm": 1,
-    "pookjw/HermesEnabler": 1,
-    "we-promise/sure": 3,
-    "QwenLM/qwen-code": 1,
-    "ashhart/TensorFold": 1,
-    "nodejs/node": 1,
-    "addyosmani/agent-skills": 3,
-    "meta/astryx": 6,
-    "CopilotKit/OpenBot": 1,
-    "Alishahryar1/free-claude-code": 1,
-    "ggml-org/llama.cpp": 1
+    "alibaba/open-code-review": 1,
+    "GoogleChrome/modern-web-guidance-src": 3,
+    "openai/codex-security": 3,
+    "ZhuLinsen/daily_stock_analysis": 1,
+    "we-promise/sure": 4,
+    "backnotprop/plannotator": 1,
+    "louislam/uptime-kuma": 1,
+    "block/buzz": 1,
+    "tradermonty/claude-trading-skills": 1,
+    "tailscale/tailcat": 1,
+    "Likely7/Veyra-NRVideo": 1,
+    "ChromeDevTools/chrome-devtools-mcp": 1
    },
    "prev": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "ranks": {
-     "meta/astryx": 1,
-     "ZhuLinsen/daily_stock_analysis": 2,
-     "GoogleChrome/modern-web-guidance-src": 3,
-     "shadcn/improve": 4,
-     "addyosmani/agent-skills": 5,
-     "vercel-labs/agent-browser": 6,
-     "we-promise/sure": 7,
-     "homeassistant-ai/ha-mcp": 8,
-     "openai/codex-security": 9,
-     "TheAlgorithms/Java": 10
+     "GoogleChrome/modern-web-guidance-src": 1,
+     "openai/codex-security": 2,
+     "nvm-sh/nvm": 3,
+     "pookjw/HermesEnabler": 4,
+     "we-promise/sure": 5,
+     "QwenLM/qwen-code": 6,
+     "ashhart/TensorFold": 7,
+     "nodejs/node": 8,
+     "addyosmani/agent-skills": 9,
+     "meta/astryx": 10,
+     "CopilotKit/OpenBot": 11,
+     "Alishahryar1/free-claude-code": 12,
+     "ggml-org/llama.cpp": 13
     },
     "streak": {
-     "meta/astryx": 5,
-     "ZhuLinsen/daily_stock_analysis": 1,
-     "GoogleChrome/modern-web-guidance-src": 1,
-     "shadcn/improve": 1,
-     "addyosmani/agent-skills": 2,
-     "vercel-labs/agent-browser": 5,
-     "we-promise/sure": 2,
-     "homeassistant-ai/ha-mcp": 3,
-     "openai/codex-security": 1,
-     "TheAlgorithms/Java": 1
+     "GoogleChrome/modern-web-guidance-src": 2,
+     "openai/codex-security": 2,
+     "nvm-sh/nvm": 1,
+     "pookjw/HermesEnabler": 1,
+     "we-promise/sure": 3,
+     "QwenLM/qwen-code": 1,
+     "ashhart/TensorFold": 1,
+     "nodejs/node": 1,
+     "addyosmani/agent-skills": 3,
+     "meta/astryx": 6,
+     "CopilotKit/OpenBot": 1,
+     "Alishahryar1/free-claude-code": 1,
+     "ggml-org/llama.cpp": 1
     }
    }
   },
   "weekly": {
-   "date": "2026-11-13",
+   "date": "2026-11-14",
    "ranks": {
-    "anthropics/skills": 1,
-    "milind-soni/OpenMausBot": 2,
-    "vercel-labs/agent-browser": 3,
-    "NVIDIA/auto-ontology": 4,
-    "cloudflare/security-audit-skill": 5,
-    "vercel-labs/agent-desktop": 6,
-    "mattpocock/skills": 7,
-    "zed-industries/zed": 8,
-    "google-deepmind/mujoco": 9,
-    "google/skills": 10,
-    "D4Vinci/Scrapling": 11
+    "sherlock-project/sherlock": 1,
+    "anthropics/skills": 2,
+    "milind-soni/OpenMausBot": 3,
+    "vercel-labs/agent-browser": 4,
+    "google/elephant-goldfish-model": 5,
+    "ZhuLinsen/daily_stock_analysis": 6,
+    "NVIDIA/auto-ontology": 7,
+    "google-deepmind/mujoco": 8,
+    "mattpocock/skills": 9,
+    "addyosmani/agent-skills": 10,
+    "cloudflare/security-audit-skill": 11,
+    "zed-industries/zed": 12,
+    "anthropics/claude-quickstarts": 13,
+    "vercel-labs/agent-desktop": 14,
+    "lobehub/lobehub": 15
    },
    "streak": {
-    "anthropics/skills": 14,
-    "milind-soni/OpenMausBot": 8,
-    "vercel-labs/agent-browser": 6,
-    "NVIDIA/auto-ontology": 5,
-    "cloudflare/security-audit-skill": 4,
-    "vercel-labs/agent-desktop": 4,
-    "mattpocock/skills": 6,
-    "zed-industries/zed": 2,
-    "google-deepmind/mujoco": 2,
-    "google/skills": 2,
-    "D4Vinci/Scrapling": 7
+    "sherlock-project/sherlock": 1,
+    "anthropics/skills": 15,
+    "milind-soni/OpenMausBot": 9,
+    "vercel-labs/agent-browser": 7,
+    "google/elephant-goldfish-model": 1,
+    "ZhuLinsen/daily_stock_analysis": 1,
+    "NVIDIA/auto-ontology": 6,
+    "google-deepmind/mujoco": 3,
+    "mattpocock/skills": 7,
+    "addyosmani/agent-skills": 1,
+    "cloudflare/security-audit-skill": 5,
+    "zed-industries/zed": 3,
+    "anthropics/claude-quickstarts": 1,
+    "vercel-labs/agent-desktop": 5,
+    "lobehub/lobehub": 1
    },
    "prev": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "ranks": {
-     "NVIDIA/auto-ontology": 1,
-     "anthropics/skills": 2,
-     "vercel-labs/agent-desktop": 3,
-     "milind-soni/OpenMausBot": 4,
-     "vercel-labs/agent-browser": 5,
-     "cloudflare/security-audit-skill": 6,
+     "anthropics/skills": 1,
+     "milind-soni/OpenMausBot": 2,
+     "vercel-labs/agent-browser": 3,
+     "NVIDIA/auto-ontology": 4,
+     "cloudflare/security-audit-skill": 5,
+     "vercel-labs/agent-desktop": 6,
      "mattpocock/skills": 7,
-     "D4Vinci/Scrapling": 8,
-     "zed-industries/zed": 9,
-     "Donchitos/Claude-Code-Game-Studios": 10,
-     "google/skills": 11,
-     "google-deepmind/mujoco": 12,
-     "herdrdev/herdr": 13
+     "zed-industries/zed": 8,
+     "google-deepmind/mujoco": 9,
+     "google/skills": 10,
+     "D4Vinci/Scrapling": 11
     },
     "streak": {
-     "NVIDIA/auto-ontology": 4,
-     "anthropics/skills": 13,
-     "vercel-labs/agent-desktop": 3,
-     "milind-soni/OpenMausBot": 7,
-     "vercel-labs/agent-browser": 5,
-     "cloudflare/security-audit-skill": 3,
-     "mattpocock/skills": 5,
-     "D4Vinci/Scrapling": 6,
-     "zed-industries/zed": 1,
-     "Donchitos/Claude-Code-Game-Studios": 6,
-     "google/skills": 1,
-     "google-deepmind/mujoco": 1,
-     "herdrdev/herdr": 1
+     "anthropics/skills": 14,
+     "milind-soni/OpenMausBot": 8,
+     "vercel-labs/agent-browser": 6,
+     "NVIDIA/auto-ontology": 5,
+     "cloudflare/security-audit-skill": 4,
+     "vercel-labs/agent-desktop": 4,
+     "mattpocock/skills": 6,
+     "zed-industries/zed": 2,
+     "google-deepmind/mujoco": 2,
+     "google/skills": 2,
+     "D4Vinci/Scrapling": 7
     }
    }
   },
   "monthly": {
-   "date": "2026-11-13",
+   "date": "2026-11-14",
    "ranks": {
-    "morluto/rea": 1,
-    "Nutlope/hallmark": 2,
+    "Nutlope/hallmark": 1,
+    "morluto/rea": 2,
     "cloudflare/security-audit-skill": 3,
     "thedotmack/claude-mem": 4,
     "pingdotgg/t3code": 5,
@@ -1340,65 +1380,63 @@
     "heygen-com/hyperframes": 7,
     "HKUDS/DeepTutor": 8,
     "anthropics/skills": 9,
-    "debpalash/VoiceStudio": 10,
-    "anthropics/claude-plugins-official": 11,
+    "AgriciDaniel/claude-seo": 10,
+    "debpalash/VoiceStudio": 11,
     "Leonxlnx/taste-skill": 12,
-    "AgriciDaniel/claude-seo": 13,
-    "anthropics/knowledge-work-plugins": 14
+    "anthropics/knowledge-work-plugins": 13,
+    "anthropics/claude-plugins-official": 14,
+    "vercel-labs/agent-browser": 15
    },
    "streak": {
-    "morluto/rea": 11,
-    "Nutlope/hallmark": 16,
-    "cloudflare/security-audit-skill": 28,
-    "thedotmack/claude-mem": 21,
-    "pingdotgg/t3code": 24,
-    "pbakaus/impeccable": 25,
-    "heygen-com/hyperframes": 45,
-    "HKUDS/DeepTutor": 5,
-    "anthropics/skills": 2,
-    "debpalash/VoiceStudio": 36,
-    "anthropics/claude-plugins-official": 4,
-    "Leonxlnx/taste-skill": 2,
-    "AgriciDaniel/claude-seo": 2,
-    "anthropics/knowledge-work-plugins": 3
+    "Nutlope/hallmark": 17,
+    "morluto/rea": 12,
+    "cloudflare/security-audit-skill": 29,
+    "thedotmack/claude-mem": 22,
+    "pingdotgg/t3code": 25,
+    "pbakaus/impeccable": 26,
+    "heygen-com/hyperframes": 46,
+    "HKUDS/DeepTutor": 6,
+    "anthropics/skills": 3,
+    "AgriciDaniel/claude-seo": 3,
+    "debpalash/VoiceStudio": 37,
+    "Leonxlnx/taste-skill": 3,
+    "anthropics/knowledge-work-plugins": 4,
+    "anthropics/claude-plugins-official": 5,
+    "vercel-labs/agent-browser": 1
    },
    "prev": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "ranks": {
      "morluto/rea": 1,
      "Nutlope/hallmark": 2,
      "cloudflare/security-audit-skill": 3,
      "thedotmack/claude-mem": 4,
      "pingdotgg/t3code": 5,
-     "heygen-com/hyperframes": 6,
-     "pbakaus/impeccable": 7,
+     "pbakaus/impeccable": 6,
+     "heygen-com/hyperframes": 7,
      "HKUDS/DeepTutor": 8,
-     "debpalash/VoiceStudio": 9,
-     "anthropics/claude-plugins-official": 10,
-     "anthropics/skills": 11,
-     "sherlock-project/sherlock": 12,
-     "Leonxlnx/taste-skill": 13,
-     "anthropics/knowledge-work-plugins": 14,
-     "AgriciDaniel/claude-seo": 15,
-     "NationalSecurityAgency/ghidra": 16
+     "anthropics/skills": 9,
+     "debpalash/VoiceStudio": 10,
+     "anthropics/claude-plugins-official": 11,
+     "Leonxlnx/taste-skill": 12,
+     "AgriciDaniel/claude-seo": 13,
+     "anthropics/knowledge-work-plugins": 14
     },
     "streak": {
-     "morluto/rea": 10,
-     "Nutlope/hallmark": 15,
-     "cloudflare/security-audit-skill": 27,
-     "thedotmack/claude-mem": 20,
-     "pingdotgg/t3code": 23,
-     "heygen-com/hyperframes": 44,
-     "pbakaus/impeccable": 24,
-     "HKUDS/DeepTutor": 4,
-     "debpalash/VoiceStudio": 35,
-     "anthropics/claude-plugins-official": 3,
-     "anthropics/skills": 1,
-     "sherlock-project/sherlock": 1,
-     "Leonxlnx/taste-skill": 1,
-     "anthropics/knowledge-work-plugins": 2,
-     "AgriciDaniel/claude-seo": 1,
-     "NationalSecurityAgency/ghidra": 4
+     "morluto/rea": 11,
+     "Nutlope/hallmark": 16,
+     "cloudflare/security-audit-skill": 28,
+     "thedotmack/claude-mem": 21,
+     "pingdotgg/t3code": 24,
+     "pbakaus/impeccable": 25,
+     "heygen-com/hyperframes": 45,
+     "HKUDS/DeepTutor": 5,
+     "anthropics/skills": 2,
+     "debpalash/VoiceStudio": 36,
+     "anthropics/claude-plugins-official": 4,
+     "Leonxlnx/taste-skill": 2,
+     "AgriciDaniel/claude-seo": 2,
+     "anthropics/knowledge-work-plugins": 3
     }
    }
   }

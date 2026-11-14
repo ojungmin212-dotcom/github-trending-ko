@@ -5,9 +5,97 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 13 Nov 2026 11:51:49 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:39:17 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>backnotprop/plannotator — 루프를 유지하고 상담원을 관리할 수 있는 작업 공간 - 한 번의 클릭으로 형성, 결정, 계획, 주석 달기, 코드 검토, 팀과 공유 및 모든 피드백을 상담원에게 보냅니다.</title>
+      <link>https://github.com/backnotprop/plannotator</link>
+      <guid isPermaLink="false">backnotprop/plannotator@2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 11:39:17 +0900</pubDate>
+      <description>루프를 유지하고 상담원을 관리할 수 있는 작업 공간 - 한 번의 클릭으로 형성, 결정, 계획, 주석 달기, 코드 검토, 팀과 공유 및 모든 피드백을 상담원에게 보냅니다.
+The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
+TypeScript · ★ 10.5k · ▲ 108 (오늘) · 오늘 #6</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>louislam/uptime-kuma — 멋진 자체 호스팅 모니터링 도구</title>
+      <link>https://github.com/louislam/uptime-kuma</link>
+      <guid isPermaLink="false">louislam/uptime-kuma@2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 11:39:17 +0900</pubDate>
+      <description>멋진 자체 호스팅 모니터링 도구
+A fancy self-hosted monitoring tool
+JavaScript · ★ 93.9k · ▲ 71 (오늘) · 오늘 #7</description>
+      <category>JavaScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>tradermonty/claude-trading-skills — 주식 투자자 및 거래자를 위한 Claude Code 기술 - 시장 분석, 기술 차트 작성, 경제 달력, 스크리너 및 거래 전략 개발.</title>
+      <link>https://github.com/tradermonty/claude-trading-skills</link>
+      <guid isPermaLink="false">tradermonty/claude-trading-skills@2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 11:39:17 +0900</pubDate>
+      <description>주식 투자자 및 거래자를 위한 Claude Code 기술 - 시장 분석, 기술 차트 작성, 경제 달력, 스크리너 및 거래 전략 개발.
+Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.
+Python · ★ 4.2k · ▲ 69 (오늘) · 오늘 #9</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>tailscale/tailcat — netcat과 유사하지만 Tailscale의 제어 평면이 없는 Tailscale의 데이터 평면을 통해</title>
+      <link>https://github.com/tailscale/tailcat</link>
+      <guid isPermaLink="false">tailscale/tailcat@2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 11:39:17 +0900</pubDate>
+      <description>netcat과 유사하지만 Tailscale의 제어 평면이 없는 Tailscale의 데이터 평면을 통해
+like netcat, but over Tailscale's data plane, without Tailscale's control plane
+Go · ★ 9.5k · ▲ 256 (오늘) · 오늘 #10</description>
+      <category>Go</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>Likely7/Veyra-NRVideo — DLSS 5를 사용하여 PS5 GTA6을 120FPS로 구현하세요. 비디오, 이미지 및 캡처 카드 소스에 대한 실시간 미리보기 기능을 갖춘 고급 Windows 비디오 플레이어 및 캡처 향상 도구입니다. AI 기반 초고해상도, DLSS5 이미지 향상 및 프레임 생성을 결합하여 차세대 시각적 경험을 제공합니다.</title>
+      <link>https://github.com/Likely7/Veyra-NRVideo</link>
+      <guid isPermaLink="false">Likely7/Veyra-NRVideo@2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 11:39:17 +0900</pubDate>
+      <description>DLSS 5를 사용하여 PS5 GTA6을 120FPS로 구현하세요. 비디오, 이미지 및 캡처 카드 소스에 대한 실시간 미리보기 기능을 갖춘 고급 Windows 비디오 플레이어 및 캡처 향상 도구입니다. AI 기반 초고해상도, DLSS5 이미지 향상 및 프레임 생성을 결합하여 차세대 시각적 경험을 제공합니다.
+Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super…
+C++ · ★ 1.6k · ▲ 256 (오늘) · 오늘 #11</description>
+      <category>C++</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>ChromeDevTools/chrome-devtools-mcp — 코딩 에이전트용 Chrome DevTools</title>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <guid isPermaLink="false">ChromeDevTools/chrome-devtools-mcp@2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 11:39:17 +0900</pubDate>
+      <description>코딩 에이전트용 Chrome DevTools
+Chrome DevTools for coding agents
+TypeScript · ★ 55.5k · ▲ 67 (오늘) · 오늘 #12</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>google/elephant-goldfish-model — 에이전트를 사용하여 소프트웨어를 설계하고 검토하기 위한 오픈 소스 플러그인</title>
+      <link>https://github.com/google/elephant-goldfish-model</link>
+      <guid isPermaLink="false">google/elephant-goldfish-model@2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 11:39:17 +0900</pubDate>
+      <description>에이전트를 사용하여 소프트웨어를 설계하고 검토하기 위한 오픈 소스 플러그인
+Open-source plugin for designing and reviewing software with agents
+Python · ★ 18.7k · ▲ 5.6k (이번 주) · 이번 주 #5</description>
+      <category>Python</category>
+      <category>이번 주</category>
+    </item>
+    <item>
+      <title>lobehub/lobehub — 🤯 LobeHub - 팀의 슈퍼 에이전트. 팀에서 이미 사용하고 있는 채팅에 슈퍼 상담원을 추가하세요. 슈퍼 상담원은 스스로 업무를 처리하고 매주 실력이 향상됩니다.</title>
+      <link>https://github.com/lobehub/lobehub</link>
+      <guid isPermaLink="false">lobehub/lobehub@2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 11:39:17 +0900</pubDate>
+      <description>🤯 LobeHub - 팀의 슈퍼 에이전트. 팀에서 이미 사용하고 있는 채팅에 슈퍼 상담원을 추가하세요. 슈퍼 상담원은 스스로 업무를 처리하고 매주 실력이 향상됩니다.
+🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.
+TypeScript · ★ 85.4k · ▲ 1.1k (이번 주) · 이번 주 #15</description>
+      <category>TypeScript</category>
+      <category>이번 주</category>
+    </item>
     <item>
       <title>pookjw/HermesEnabler — 모든 Apple Watch 기기에서 Hermès Watch Faces 활성화</title>
       <link>https://github.com/pookjw/HermesEnabler</link>
@@ -1335,39 +1423,6 @@ WinUI app for building smaller, customized Windows 11 images.
 C# · ★ 20.2k · ▲ 139 (오늘) · 오늘 #11</description>
       <category>C#</category>
       <category>오늘</category>
-    </item>
-    <item>
-      <title>vercel-labs/skills — 개방형 상담사 기술 도구 - npx 기술</title>
-      <link>https://github.com/vercel-labs/skills</link>
-      <guid isPermaLink="false">vercel-labs/skills@2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 10:21:34 +0900</pubDate>
-      <description>개방형 상담사 기술 도구 - npx 기술
-The open agent skills tool - npx skills
-TypeScript · ★ 34.5k · ▲ 190 (오늘) · 오늘 #6</description>
-      <category>TypeScript</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>xtool-org/xtool — 크로스 플랫폼 Xcode 대체. Linux, Windows, macOS에서 SwiftPM을 사용하여 iOS 앱을 구축하고 배포하세요.</title>
-      <link>https://github.com/xtool-org/xtool</link>
-      <guid isPermaLink="false">xtool-org/xtool@2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 10:21:34 +0900</pubDate>
-      <description>크로스 플랫폼 Xcode 대체. Linux, Windows, macOS에서 SwiftPM을 사용하여 iOS 앱을 구축하고 배포하세요.
-Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.
-Swift · ★ 9.4k · ▲ 1.2k (오늘) · 오늘 #9</description>
-      <category>Swift</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>google/artemis — ARTEMIS는 자연어 지침을 안정적인 Android 자동화로 전환합니다. 엔드투엔드 워크플로를 자동화하고, 로그를 캡처하며, Antigravity, Codex 및 Claude Code와 같은 AI 코딩 도우미와 원활하게 통합됩니다. 또한 AndroidWorld 벤치마크에서도 99% 이상의 성공률을 달성했습니다.</title>
-      <link>https://github.com/google/artemis</link>
-      <guid isPermaLink="false">google/artemis@2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 10:21:34 +0900</pubDate>
-      <description>ARTEMIS는 자연어 지침을 안정적인 Android 자동화로 전환합니다. 엔드투엔드 워크플로를 자동화하고, 로그를 캡처하며, Antigravity, Codex 및 Claude Code와 같은 AI 코딩 도우미와 원활하게 통합됩니다. 또한 AndroidWorld 벤치마크에서도 99% 이상의 성공률을 달성했습니다.
-ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity…
-Python · ★ 11.5k · ▲ 7k (이번 달) · 이번 달 #22</description>
-      <category>Python</category>
-      <category>이번 달</category>
     </item>
   </channel>
 </rss>

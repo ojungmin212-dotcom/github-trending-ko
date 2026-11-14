@@ -72,6 +72,33 @@
   ],
   "default_branch": "master"
  },
+ "ChromeDevTools/chrome-devtools-mcp": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp#readme",
+  "install": [
+   "npm i chrome-devtools-mcp@latest -g"
+  ],
+  "usage_title": "Key features",
+  "usage_text": "• Get performance insights: Uses Chrome\n DevTools to record\n traces and extract actionable performance insights.\n• Advanced browser debugging: Analyze network requests, take screenshots and\n check browser console messages (with source-mapped stack traces).\n• Reliable automation. Uses\n puppeteer to automate actions in\n Chrome and automatically wait for action results.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://developer.chrome.com/docs/devtools/agents",
+  "topics": [
+   "browser",
+   "chrome",
+   "chrome-devtools",
+   "debugging",
+   "devtools",
+   "mcp",
+   "mcp-server",
+   "puppeteer"
+  ],
+  "default_branch": "main",
+  "created": "2025-09-11",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
+ },
  "Comfy-Org/ComfyUI": {
   "fetched": "2026-10-26",
   "readme_url": "https://github.com/Comfy-Org/ComfyUI#readme",
@@ -231,22 +258,6 @@
   "pushed": "2026-11-09",
   "archived": false,
   "fork": false
- },
- "EpicGames/raddebugger": {
-  "fetched": "2026-10-15",
-  "readme_url": "https://github.com/EpicGames/raddebugger#readme",
-  "install": [
-   "apt update && sudo apt install build-essential",
-   "apt update && sudo apt install clang llvm",
-   "apt install -y libfreetype6-dev libx11-dev libxext-dev libxfixes-dev libxrandr-dev libgl-dev libegl-dev"
-  ],
-  "usage_title": "The RAD Debugger Project",
-  "usage_text": "NOTE: This README does not document usage instructions and tips for the\r\ndebugger itself, and is intended as a technical overview of the project. The\r\ndebugger's README, which includes usage instructions and tips, can be found\r\npackaged along with debugger releases, or within the build folder after a\r\nlocal copy has been built. You can find pre-built release binaries\r\nhere._\r\nThe RAD Debugger is a native, user-mode, multi-process, graphical debugger. It\r\ncurrently only supports local-machine Windows x64 debugging with PDBs, with\r\nplans to expand and port in the future. In the future we'll expand to also\r\nsupport native Linux debugging and DWARF debug info.\r…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "master"
  },
  "FareedKhan-dev/kimi-k3-in-c": {
   "fetched": "2026-11-05",
@@ -572,6 +583,22 @@
   "default_branch": "main",
   "created": "2026-02-19",
   "pushed": "2026-11-08",
+  "archived": false,
+  "fork": false
+ },
+ "Likely7/Veyra-NRVideo": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/Likely7/Veyra-NRVideo#readme",
+  "install": [],
+  "usage_title": "Real-time GPU Video Enhancement for Windows",
+  "usage_text": "Super Resolution · Denoising · HDR · Frame Generation · Capture · PS5 / Xbox / PC Streaming\nTurn local video, capture cards and game streaming into one real-time GPU enhancement pipeline.\n79K+ cumulative Veyra portable-package downloads (79,332 as of 2026-11-08) · 103K+ downloads across all GitHub Release assets (103,337 including source archives, checksums and images). GitHub Releases · Counts are download events, not unique users.\n⬇ Download Latest Release\n  ·  \n📖 User Guide / Wiki\n  ·  \n🇨🇳 简体中文\n  ·  \n🐛 Report an Issue\n One engine. Any source. Real-time enhancement. \n ⭐ Star History \n Open source · GPL-3.0 · Windows 11 · C++ · DirectX 12 · NVIDIA & AMD \n---…",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main",
+  "created": "2026-09-09",
+  "pushed": "2026-11-11",
   "archived": false,
   "fork": false
  },
@@ -1275,13 +1302,13 @@
   "default_branch": "master"
  },
  "alibaba/open-code-review": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-11-14",
   "readme_url": "https://github.com/alibaba/open-code-review#readme",
   "install": [
    "npm install -g @alibaba-group/open-code-review"
   ],
   "usage_title": "Quick Start",
-  "usage_text": "1. Configure LLM\nYou must configure an LLM before reviewing code, unless you use Delegation Mode.\nThe interactive UI guides you through provider selection, API key entry, and model configuration, then automatically tests connectivity.\nFor CLI setup, environment variables, custom providers, and other advanced configuration, see Configuration.\n2. Review",
+  "usage_text": "1. Configure LLM\nYou must configure an LLM before reviewing code, unless you use Delegation Mode.\n• OCR calls the model: ocr review, the /open-code-review:review command, and the open-code-review skill use OCR's own provider configuration, not your Claude Code Team/Pro subscription login. Authentication requirements depend on the provider; see Configuration.\n• The host agent calls the model: the /open-code-review:delegate-review command and the open-code-review-delegate skill use the host agent's configured model and authentication. No separate LLM configuration or credentials are needed in OCR. See the Claude Code install steps…",
   "usage_code": "ocr config provider          # Select a built-in provider or add a custom one\nocr config model             # Pick a model for the active provider",
   "license": "Apache-2.0",
   "homepage": "https://open-codereview.ai",
@@ -1293,7 +1320,11 @@
    "harness",
    "repository-level-context"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-05-18",
+  "pushed": "2026-11-14",
+  "archived": false,
+  "fork": false
  },
  "android/skills": {
   "fetched": "2026-10-31",
@@ -1411,7 +1442,7 @@
   "fork": false
  },
  "anthropics/claude-quickstarts": {
-  "fetched": "2026-11-09",
+  "fetched": "2026-11-14",
   "readme_url": "https://github.com/anthropics/claude-quickstarts#readme",
   "install": [],
   "usage_title": "Claude Quickstarts",
@@ -1420,7 +1451,11 @@
   "license": "MIT",
   "homepage": "",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2024-08-29",
+  "pushed": "2026-11-06",
+  "archived": false,
+  "fork": false
  },
  "anthropics/financial-services": {
   "fetched": "2026-10-16",
@@ -1551,6 +1586,35 @@
   "topics": [],
   "default_branch": "main"
  },
+ "backnotprop/plannotator": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/backnotprop/plannotator#readme",
+  "install": [
+   "curl -fsSL https://plannotator.ai/install.sh | bash",
+   "curl -fsSL https://plannotator.ai/install.sh | bash -s -- --minimal",
+   "curl -fsSL https://plannotator.ai/install.sh | bash -s -- --version vX.Y.Z"
+  ],
+  "usage_title": "Plannotator",
+  "usage_text": "⭐️ NEW: Plannotator Inbox is the missing review layer between you and multi-agent work. It surfaces decisions, prototypes, variations, plans, and everything you need to stay in the loop. Works with all coding agents and personal assistants.\nPlannotator is a local, browser-based review surface for AI coding agents: Claude Code, Codex, Copilot CLI, Gemini CLI, OpenCode, Kiro, Droid, Amp, DeepSeek Harness, and Pi. Plannotator Inbox also works with personal assistants (Grok Bot, Muse, Hermes, OpenClaw)…",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://plannotator.ai",
+  "topics": [
+   "agents",
+   "claude-code",
+   "code-review",
+   "codex",
+   "obsidian",
+   "opencode",
+   "pi-mono",
+   "plan-mode"
+  ],
+  "default_branch": "main",
+  "created": "2025-12-28",
+  "pushed": "2026-11-14",
+  "archived": false,
+  "fork": false
+ },
  "beenuar/AiSOC": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/beenuar/AiSOC#readme",
@@ -1597,6 +1661,24 @@
    "cursor"
   ],
   "default_branch": "main"
+ },
+ "block/buzz": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/block/buzz#readme",
+  "install": [
+   "git clone https://github.com/block/buzz.git && cd buzz"
+  ],
+  "usage_title": "Getting started",
+  "usage_text": "New to Buzz? Pick the path that matches you.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main",
+  "created": "2026-03-06",
+  "pushed": "2026-11-14",
+  "archived": false,
+  "fork": false
  },
  "boykopovar/AnyPS5": {
   "fetched": "2026-11-05",
@@ -2140,6 +2222,36 @@
   ],
   "default_branch": "main"
  },
+ "google/elephant-goldfish-model": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/google/elephant-goldfish-model#readme",
+  "install": [
+   "claude plugin marketplace add google/elephant-goldfish-model",
+   "claude plugin install egm@egm",
+   "codex plugin marketplace add google/elephant-goldfish-model",
+   "codex plugin add egm@egm"
+  ],
+  "usage_title": "How it works",
+  "usage_text": "Role Context Responsibility \n Elephant Your project, requirements, and earlier decisions Explore the problem and draft the specification. \n Goldfish The document and its referenced source material, without the earlier conversation Find missing assumptions, unclear requirements, and implementation risks. \n You The goals and constraints that matter Resolve trade-offs, approve the design, and decide what to build. \nGoldfish reviews require fresh subagent contexts. If your agent cannot create them, EGM stops the review. A review does not replace tests or human judgment. See supported environments and verification limits.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://egm.dev",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "antigravity",
+   "claude-code",
+   "claude-code-plugin",
+   "claude-skills",
+   "codex",
+   "codex-plugin"
+  ],
+  "default_branch": "main",
+  "created": "2026-09-13",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
+ },
  "google/skills": {
   "fetched": "2026-11-12",
   "readme_url": "https://github.com/google/skills#readme",
@@ -2374,34 +2486,6 @@
   ],
   "default_branch": "main"
  },
- "ifixai-ai/iFixAi": {
-  "fetched": "2026-10-15",
-  "readme_url": "https://github.com/ifixai-ai/iFixAi#readme",
-  "install": [
-   "pip install \"ifixai[openai]\"  # or anthropic, gemini, etc.: install the provider extra you'll test",
-   "codex plugin marketplace add ifixai-ai/iFixAi",
-   "codex plugin add ifixai@ifixai-community",
-   "uvx ifixai install --agents cursor  # any slug: claude, codex, vscode, windsurf, cline, continue, gemini, zed",
-   "uvx ifixai install --agents all  # scaffold every agent at once",
-   "uvx ifixai install --list  # every supported agent and where its file lands"
-  ],
-  "usage_title": "Three ways to run",
-  "usage_text": "All three run the same diagnostic underneath. The difference is how you configure and drive it.",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://www.ifixai.ai",
-  "topics": [
-   "agent-evaluation",
-   "ai",
-   "ai-alignment",
-   "ai-evaluation",
-   "ai-governance",
-   "ai-safety",
-   "cli",
-   "diagnostic-tool"
-  ],
-  "default_branch": "main"
- },
  "jakubkrehel/skills": {
   "fetched": "2026-11-05",
   "readme_url": "https://github.com/jakubkrehel/skills#readme",
@@ -2517,6 +2601,38 @@
   ],
   "default_branch": "main"
  },
+ "lobehub/lobehub": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/lobehub/lobehub#readme",
+  "install": [
+   "npx -y @lobehub/market-cli login",
+   "npx -y @lobehub/market-cli plugin submit https://github.com/OWNER/REPOSITORY",
+   "bash <(curl -fsSL https://lobe.li/setup.sh) -l en",
+   "docker compose up -d",
+   "git clone https://github.com/lobehub/lobehub.git",
+   "pnpm install"
+  ],
+  "usage_title": "LobeHub",
+  "usage_text": "Super-Agents on Your Team\nAdd super-agents to the chats your team already uses. \nThey take on work by themselves and get better every week.\nEnglish · 简体中文 · [Official Site][official-site] · [Changelog][changelog] · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link]\n[![][github-release-shield]][github-release-link]\n[![][docker-release-shield]][docker-release-link]\n[![][vercel-shield]][vercel-link]\n[![][discord-shield]][discord-link] \n[![][codecov-shield]][codecov-link]\n[![][github-action-test-shield]][github-action-test-link]\n[![][github-action-release-shield]][github-action-release-link]\n[![][github-releasedate-shield]][github-releasedate-link]…",
+  "usage_code": "",
+  "license": "기타",
+  "homepage": "https://lobehub.com",
+  "topics": [
+   "agent",
+   "agent-collaboration",
+   "agent-harness",
+   "loop-engineering",
+   "mcp",
+   "personal-assistant",
+   "proactive-agent",
+   "skills"
+  ],
+  "default_branch": "canary",
+  "created": "2023-05-21",
+  "pushed": "2026-11-14",
+  "archived": false,
+  "fork": false
+ },
  "longbridge/gpui-kit": {
   "fetched": "2026-10-18",
   "readme_url": "https://github.com/longbridge/gpui-kit#readme",
@@ -2540,6 +2656,38 @@
    "uikit"
   ],
   "default_branch": "main"
+ },
+ "louislam/uptime-kuma": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/louislam/uptime-kuma#readme",
+  "install": [
+   "curl -o compose.yaml https://raw.githubusercontent.com/louislam/uptime-kuma/master/compose.yaml",
+   "docker compose up -d",
+   "docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2",
+   "docker run ... -p 127.0.0.1:3001:3001 ...",
+   "git clone https://github.com/louislam/uptime-kuma.git",
+   "npm run setup"
+  ],
+  "usage_title": "🥔 Live Demo",
+  "usage_text": "Try it!\nDemo Server (Location: Frankfurt - Germany): \nIt is a temporary live demo, all data will be deleted after 10 minutes. Sponsored by Uptime Kuma Sponsors.\n> [!WARNING]\n> Be careful - the top result in Google, uptimekuma.co, is not our official website, we don't control the website. I recommend following the installation guide in this GitHub repo.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://uptime.kuma.pet",
+  "topics": [
+   "docker",
+   "monitor",
+   "monitoring",
+   "responsive",
+   "self-hosted",
+   "selfhosted",
+   "single-page-app",
+   "socket-io"
+  ],
+  "default_branch": "master",
+  "created": "2021-07-03",
+  "pushed": "2026-11-14",
+  "archived": false,
+  "fork": false
  },
  "luongnv89/claude-howto": {
   "fetched": "2026-10-23",
@@ -2986,18 +3134,6 @@
   "pushed": "2026-11-13",
   "archived": false,
   "fork": false
- },
- "ntdevlabs/tiny11builder": {
-  "fetched": "2026-10-15",
-  "readme_url": "https://github.com/ntdevlabs/tiny11builder#readme",
-  "install": [],
-  "usage_title": "Tiny11 Builder",
-  "usage_text": "Build a smaller Windows 11 ISO with a native WinUI app. Download an official\nWindows image or use your own, choose what to remove, and create your ISO.",
-  "usage_code": "",
-  "license": "",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "winui-preview"
  },
  "nushell/nushell": {
   "fetched": "2026-11-07",
@@ -3710,6 +3846,22 @@
   ],
   "default_branch": "8.2"
  },
+ "tailscale/tailcat": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/tailscale/tailcat#readme",
+  "install": [],
+  "usage_title": "Run a command per connection",
+  "usage_text": "Like inetd, the exec service runs a command for each incoming\nconnection, with the connection as the command's stdin and stdout.\nThe command comes after --:\nThe command's stderr goes to the server's. It gets the peer's node\nkey in $TAILCATPEERKEY (in --allow's format) and the peer's\ntailcat IP:port in $TAILCATREMOTEADDR.\nGiven with the ssh or no-auth-ssh service, the command instead\nreplaces the shell, like OpenSSH's ForceCommand: every SSH session\nruns only that command (on a PTY if the client asks for one), and the\nserver offers no shell, no client-chosen command, and no SFTP. The\nclient's requested command, if any, arrives in $SSHORIGINALCOMMAND.",
+  "usage_code": "$ tailcat serve exec -- /usr/bin/fortune\n# 🐈 Server listening with new address: tcXXXXXXXXX",
+  "license": "BSD-3-Clause",
+  "homepage": "https://tailscale.com/tailcat",
+  "topics": [],
+  "default_branch": "main",
+  "created": "2024-10-29",
+  "pushed": "2026-11-05",
+  "archived": false,
+  "fork": false
+ },
  "tailwindlabs/tailwindcss": {
   "fetched": "2026-11-08",
   "readme_url": "https://github.com/tailwindlabs/tailwindcss#readme",
@@ -3824,6 +3976,22 @@
   "homepage": "",
   "topics": [],
   "default_branch": "main"
+ },
+ "tradermonty/claude-trading-skills": {
+  "fetched": "2026-11-14",
+  "readme_url": "https://github.com/tradermonty/claude-trading-skills#readme",
+  "install": [],
+  "usage_title": "See Example Outputs",
+  "usage_text": "These visual excerpts use fictional data to show the kinds of results you can review before setting up a skill. They are illustrations, not live market readings or trading instructions.\nSelect a preview to open the full-size SVG; on a phone, zoom after opening.\nChoose a workflow: Trading Skills Navigator recommends a starting path from your goal.\nReview market risk: The market-regime-daily workflow ends with an Exposure Coach posture for human review, not an order.\nLearn from closed trades: Weekly Performance Digest summarizes realized outcomes and process lessons.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://tradermonty.github.io/claude-trading-skills/",
+  "topics": [],
+  "default_branch": "main",
+  "created": "2025-10-19",
+  "pushed": "2026-11-14",
+  "archived": false,
+  "fork": false
  },
  "twentyhq/twenty": {
   "fetched": "2026-10-22",
@@ -3998,34 +4166,6 @@
    "keep-awake",
    "mac-os",
    "menu-bar"
-  ],
-  "default_branch": "main"
- },
- "vxcontrol/pentagi": {
-  "fetched": "2026-10-15",
-  "readme_url": "https://github.com/vxcontrol/pentagi#readme",
-  "install": [
-   "wget -O installer.zip https://pentagi.com/downloads/linux/amd64/installer-latest.zip",
-   "docker ps",
-   "curl -o .env https://raw.githubusercontent.com/vxcontrol/pentagi/master/.env.example",
-   "curl -o example.custom.provider.yml https://raw.githubusercontent.com/vxcontrol/pentagi/master/examples/configs/custom-openai.provider.yml",
-   "curl -o example.ollama.provider.yml https://raw.githubusercontent.com/vxcontrol/pentagi/master/examples/configs/ollama-llama318b.provider.yml",
-   "curl -o example.bedrock.provider.yml https://raw.githubusercontent.com/vxcontrol/pentagi/master/examples/configs/bedrock.provider.yml"
-  ],
-  "usage_title": "Features",
-  "usage_text": "• Secure & Isolated. All operations are performed in a sandboxed Docker environment with complete isolation.\n• Fully Autonomous. AI-powered agent that automatically determines and executes penetration testing steps with optional execution monitoring and intelligent task planning for enhanced reliability.\n• Professional Pentesting Tools. Built-in suite of 20+ professional security tools including nmap, metasploit, sqlmap, and more.\n• Smart Memory System. Long-term storage of research results and successful approaches for future use.\n• Optional Knowledge Graph Integration. Graphiti-powered knowledge graph using Neo4j for semantic relationship tracking and advanced context understanding…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://pentagi.com",
-  "topics": [
-   "ai-agents",
-   "ai-security-tool",
-   "anthropic",
-   "autonomous-agents",
-   "golang",
-   "gpt",
-   "graphql",
-   "multi-agent-system"
   ],
   "default_branch": "main"
  },
