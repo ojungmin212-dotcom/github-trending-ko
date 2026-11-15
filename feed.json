@@ -7,6 +7,98 @@
  "language": "ko",
  "items": [
   {
+   "id": "ag-ui-protocol/ag-ui@2026-11-15",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "title": "ag-ui-protocol/ag-ui — AG-UI: 에이전트-사용자 상호 작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다.",
+   "content_text": "AG-UI: 에이전트-사용자 상호 작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다.\nAG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.\nTypeScript · ★ 17.4k · ▲ 9 (오늘) · 오늘 #8",
+   "date_published": "2026-11-15T11:05:30+09:00",
+   "tags": [
+    "TypeScript",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "ag-ui-protocol/ag-ui",
+    "first_seen": "2026-11-15",
+    "period": "daily",
+    "rank": 8,
+    "filled_from": null,
+    "stars": 17389,
+    "stars_period": 9,
+    "language": "TypeScript",
+    "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "description_ko": "AG-UI: 에이전트-사용자 상호 작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다."
+   }
+  },
+  {
+   "id": "Tencent/LoopForge@2026-11-15",
+   "url": "https://github.com/Tencent/LoopForge",
+   "title": "Tencent/LoopForge — 코딩 에이전트 전달을 위한 자체 호스팅 워크플로입니다. 스크립트와 인간 승인 게이트를 사용하여 CodeBuddy, Codex 및 Claude Code를 조율하세요. 코딩 도우미를 위한 로컬 워크플로가 포함됩니다.",
+   "content_text": "코딩 에이전트 전달을 위한 자체 호스팅 워크플로입니다. 스크립트와 인간 승인 게이트를 사용하여 CodeBuddy, Codex 및 Claude Code를 조율하세요. 코딩 도우미를 위한 로컬 워크플로가 포함됩니다.\nSelf-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.\nGo · ★ 932 · ▲ 33 (오늘) · 오늘 #13",
+   "date_published": "2026-11-15T11:05:30+09:00",
+   "tags": [
+    "Go",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "Tencent/LoopForge",
+    "first_seen": "2026-11-15",
+    "period": "daily",
+    "rank": 13,
+    "filled_from": null,
+    "stars": 932,
+    "stars_period": 33,
+    "language": "Go",
+    "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+    "description_ko": "코딩 에이전트 전달을 위한 자체 호스팅 워크플로입니다. 스크립트와 인간 승인 게이트를 사용하여 CodeBuddy, Codex 및 Claude Code를 조율하세요. 코딩 도우미를 위한 로컬 워크플로가 포함됩니다."
+   }
+  },
+  {
+   "id": "martin-olivier/airgorah@2026-11-15",
+   "url": "https://github.com/martin-olivier/airgorah",
+   "title": "martin-olivier/airgorah — WiFi 보안 감사 소프트웨어",
+   "content_text": "WiFi 보안 감사 소프트웨어\nA WiFi security auditing software\nRust · ★ 5.9k · ▲ 270 (오늘) · 오늘 #15",
+   "date_published": "2026-11-15T11:05:30+09:00",
+   "tags": [
+    "Rust",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "martin-olivier/airgorah",
+    "first_seen": "2026-11-15",
+    "period": "daily",
+    "rank": 15,
+    "filled_from": null,
+    "stars": 5898,
+    "stars_period": 270,
+    "language": "Rust",
+    "description": "A WiFi security auditing software",
+    "description_ko": "WiFi 보안 감사 소프트웨어"
+   }
+  },
+  {
+   "id": "Vincentwei1021/video-shotcraft@2026-11-15",
+   "url": "https://github.com/Vincentwei1021/video-shotcraft",
+   "title": "Vincentwei1021/video-shotcraft — Claude Code 및 Codex를 위한 AI 비디오 기술 — Remotion을 사용한 영화적이고 편집 가능한 제품 프로모션: 124개의 샷 레시피 카드, 150개의 모션 미리 보기, 비트 동기화, 사운드 디자인, Motion Workbench 및 JianYing(CapCut CN) 내보내기.",
+   "content_text": "Claude Code 및 Codex를 위한 AI 비디오 기술 — Remotion을 사용한 영화적이고 편집 가능한 제품 프로모션: 124개의 샷 레시피 카드, 150개의 모션 미리 보기, 비트 동기화, 사운드 디자인, Motion Workbench 및 JianYing(CapCut CN) 내보내기.\nAI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN)…\nTypeScript · ★ 19.6k · ▲ 7.6k (이번 달) · 이번 달 #14",
+   "date_published": "2026-11-15T11:05:30+09:00",
+   "tags": [
+    "TypeScript",
+    "이번 달"
+   ],
+   "_trending": {
+    "full_name": "Vincentwei1021/video-shotcraft",
+    "first_seen": "2026-11-15",
+    "period": "monthly",
+    "rank": 14,
+    "filled_from": null,
+    "stars": 19640,
+    "stars_period": 7617,
+    "language": "TypeScript",
+    "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN)…",
+    "description_ko": "Claude Code 및 Codex를 위한 AI 비디오 기술 — Remotion을 사용한 영화적이고 편집 가능한 제품 프로모션: 124개의 샷 레시피 카드, 150개의 모션 미리 보기, 비트 동기화, 사운드 디자인, Motion Workbench 및 JianYing(CapCut CN) 내보내기."
+   }
+  },
+  {
    "id": "backnotprop/plannotator@2026-11-14",
    "url": "https://github.com/backnotprop/plannotator",
    "title": "backnotprop/plannotator — 루프를 유지하고 상담원을 관리할 수 있는 작업 공간 - 한 번의 클릭으로 형성, 결정, 계획, 주석 달기, 코드 검토, 팀과 공유 및 모든 피드백을 상담원에게 보냅니다.",
@@ -2875,121 +2967,6 @@
     "language": "Rust",
     "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for searc…",
     "description_ko": "XERJ는 AI가 데이터를 검색하는 새로운 방법입니다. 자동 색인 기능은 grep 및 sed의 토큰 낭비 없이 에이전트가 데이터를 알 수 있도록 활성화합니다. 하나의 명령은 grep보다 40배 적은 토큰을 사용하여 검색, RAG, 보안 감사 및 에이전트 메모리를 위한 코드, 문서, 로그 및 PDF를 색인화합니다. Elasticsearch와 호환되므로 기존…"
-   }
-  },
-  {
-   "id": "nvm-sh/nvm@2026-10-15",
-   "url": "https://github.com/nvm-sh/nvm",
-   "title": "nvm-sh/nvm — 노드 버전 관리자 - 여러 활성 node.js 버전을 관리하기 위한 POSIX 호환 bash 스크립트입니다.",
-   "content_text": "노드 버전 관리자 - 여러 활성 node.js 버전을 관리하기 위한 POSIX 호환 bash 스크립트입니다.\nNode Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.\nShell · ★ 95.5k · ▲ 52 (오늘) · 오늘 #4",
-   "date_published": "2026-10-15T09:47:33+09:00",
-   "tags": [
-    "Shell",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "nvm-sh/nvm",
-    "first_seen": "2026-10-15",
-    "period": "daily",
-    "rank": 4,
-    "filled_from": null,
-    "stars": 95453,
-    "stars_period": 52,
-    "language": "Shell",
-    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-    "description_ko": "노드 버전 관리자 - 여러 활성 node.js 버전을 관리하기 위한 POSIX 호환 bash 스크립트입니다."
-   }
-  },
-  {
-   "id": "ifixai-ai/iFixAi@2026-10-15",
-   "url": "https://github.com/ifixai-ai/iFixAi",
-   "title": "ifixai-ai/iFixAi — AI 에이전트의 독립적인 감사. AI 에이전트 경제에서 가장 중요한 질문에 답하기 위해 인간 또는 에이전트 자체가 실행합니다. 상담원이 해야 할 일을 하고 있나요? iFixAi를 사용하면 120초 이내에 이 답변을 얻을 수 있습니다.",
-   "content_text": "AI 에이전트의 독립적인 감사. AI 에이전트 경제에서 가장 중요한 질문에 답하기 위해 인간 또는 에이전트 자체가 실행합니다. 상담원이 해야 할 일을 하고 있나요? iFixAi를 사용하면 120초 이내에 이 답변을 얻을 수 있습니다.\nIndependent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have t…\nPython · ★ 27.4k · ▲ 2.1k (오늘) · 오늘 #7",
-   "date_published": "2026-10-15T09:47:33+09:00",
-   "tags": [
-    "Python",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "ifixai-ai/iFixAi",
-    "first_seen": "2026-10-15",
-    "period": "daily",
-    "rank": 7,
-    "filled_from": null,
-    "stars": 27405,
-    "stars_period": 2109,
-    "language": "Python",
-    "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have t…",
-    "description_ko": "AI 에이전트의 독립적인 감사. AI 에이전트 경제에서 가장 중요한 질문에 답하기 위해 인간 또는 에이전트 자체가 실행합니다. 상담원이 해야 할 일을 하고 있나요? iFixAi를 사용하면 120초 이내에 이 답변을 얻을 수 있습니다."
-   }
-  },
-  {
-   "id": "vxcontrol/pentagi@2026-10-15",
-   "url": "https://github.com/vxcontrol/pentagi",
-   "title": "vxcontrol/pentagi — 복잡한 침투 테스트 작업을 수행할 수 있는 완전 자율형 AI 에이전트 시스템",
-   "content_text": "복잡한 침투 테스트 작업을 수행할 수 있는 완전 자율형 AI 에이전트 시스템\nFully autonomous AI Agents system capable of performing complex penetration testing tasks\nGo · ★ 29.5k · ▲ 1k (오늘) · 오늘 #8",
-   "date_published": "2026-10-15T09:47:33+09:00",
-   "tags": [
-    "Go",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "vxcontrol/pentagi",
-    "first_seen": "2026-10-15",
-    "period": "daily",
-    "rank": 8,
-    "filled_from": null,
-    "stars": 29460,
-    "stars_period": 1025,
-    "language": "Go",
-    "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-    "description_ko": "복잡한 침투 테스트 작업을 수행할 수 있는 완전 자율형 AI 에이전트 시스템"
-   }
-  },
-  {
-   "id": "rust-lang/rust@2026-10-15",
-   "url": "https://github.com/rust-lang/rust",
-   "title": "rust-lang/rust — 모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원합니다.",
-   "content_text": "모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원합니다.\nEmpowering everyone to build reliable and efficient software.\nRust · ★ 120k · ▲ 207 (오늘) · 오늘 #9",
-   "date_published": "2026-10-15T09:47:33+09:00",
-   "tags": [
-    "Rust",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "rust-lang/rust",
-    "first_seen": "2026-10-15",
-    "period": "daily",
-    "rank": 9,
-    "filled_from": null,
-    "stars": 120028,
-    "stars_period": 207,
-    "language": "Rust",
-    "description": "Empowering everyone to build reliable and efficient software.",
-    "description_ko": "모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원합니다."
-   }
-  },
-  {
-   "id": "ntdevlabs/tiny11builder@2026-10-15",
-   "url": "https://github.com/ntdevlabs/tiny11builder",
-   "title": "ntdevlabs/tiny11builder — 더 작은 맞춤형 Windows 11 이미지를 구축하기 위한 WinUI 앱입니다.",
-   "content_text": "더 작은 맞춤형 Windows 11 이미지를 구축하기 위한 WinUI 앱입니다.\nWinUI app for building smaller, customized Windows 11 images.\nC# · ★ 20.2k · ▲ 139 (오늘) · 오늘 #11",
-   "date_published": "2026-10-15T09:47:33+09:00",
-   "tags": [
-    "C#",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "ntdevlabs/tiny11builder",
-    "first_seen": "2026-10-15",
-    "period": "daily",
-    "rank": 11,
-    "filled_from": null,
-    "stars": 20220,
-    "stars_period": 139,
-    "language": "C#",
-    "description": "WinUI app for building smaller, customized Windows 11 images.",
-    "description_ko": "더 작은 맞춤형 Windows 11 이미지를 구축하기 위한 WinUI 앱입니다."
    }
   }
  ]

@@ -479,16 +479,16 @@
   "default_branch": "main"
  },
  "JuliusBrussee/caveman": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-11-15",
   "readme_url": "https://github.com/JuliusBrussee/caveman#readme",
   "install": [
    "npx @caveman-ai/cli@latest",
    "npx skills add JuliusBrussee/caveman -g",
    "claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman",
-   "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/v4.0.1/install.sh | bash"
+   "curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/v4.1.0/install.sh | bash"
   ],
-  "usage_title": "why many token when few do trick",
-  "usage_text": "Caveman make your AI agent say less and read less. Code stay exact. Brain still big.\n 33.2% fewer input tokens, whole sessions 54 Claude Code runs , 18 of 18 answers right \n 54% cheaper with Auto, same score 85 coding tasks vs Opus 5.5 at xhigh, interim \n 397 → 76 tokens for one test run Blocks vs | tail -20 \n 1.4 to 2.4× cheaper with caveman-style output Adobe Research , eight models \nCited by Adobe Research · A/B tested by JetBrains · Remade for Elasticsearch on Elasticsearch Labs \n#1 on Hacker News · #1 on GitHub Trending · \"No way this actually works.\" ThePrimeagen\nInstall · Six rocks · Proof · Say less · Read less · Auto · Blocks · Commands · Caveman Cloud\n---…",
+  "usage_title": "New: Caveman Code. Free.",
+  "usage_text": "The most efficient coding agent. Same model, same work, smaller bill.\n 21% cheaper than Codex Terminal-Bench 4, per solved task \n 14% cheaper than Claude Code Terminal-Bench 4, 97 vs 83 solved \n 76% cheaper than Claude Code full workday, 4 connected apps \n Same model on both sides: GPT-6.1 Sol against Codex, Opus 5.5 against Claude Code. Our own runs, November 2026, at list prices. How we measured \nEvery coding agent in one window. Free on the subscriptions and keys you already have.\nDownload Caveman Code for Mac · Read the launch post\n---",
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "https://docs.caveman.so/caveman",
@@ -502,7 +502,11 @@
    "meme",
    "prompt-engineering"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-04-04",
+  "pushed": "2026-11-14",
+  "archived": false,
+  "fork": false
  },
  "JustVugg/colibri": {
   "fetched": "2026-11-03",
@@ -950,33 +954,33 @@
   ],
   "default_branch": "main"
  },
- "Tencent/WeKnora": {
-  "fetched": "2026-10-16",
-  "readme_url": "https://github.com/Tencent/WeKnora#readme",
+ "Tencent/LoopForge": {
+  "fetched": "2026-11-15",
+  "readme_url": "https://github.com/Tencent/LoopForge#readme",
   "install": [
-   "git clone https://github.com/Tencent/WeKnora.git",
-   "docker compose pull  # Pull the latest images",
-   "docker compose up -d  # Start core services",
-   "docker compose --profile neo4j --profile minio pull",
-   "docker compose --profile neo4j --profile minio up -d",
-   "docker compose down  # Stop services"
+   "git clone https://github.com/Tencent/LoopForge.git",
+   "npx -y loopforge-cli@latest install claude"
   ],
-  "usage_title": "Quick Start",
-  "usage_text": "ONLINE \n WeChat Dialog Open Platform \n Manage knowledge bases online and connect Q&A to Official Accounts, Mini Programs and other WeChat scenarios. \n Open the platform → \n CLOUD \n Tencent Cloud Lighthouse \n Deploy WeKnora from an application template and run it on your own cloud server. \n Deploy on Tencent Cloud → \n SELF-HOSTED \n Your own environment \n Deploy with Docker or Kubernetes and configure models, storage and networking yourself. \n Run with Docker Compose ↓",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://weknora.weixin.qq.com",
+  "usage_title": "Quick start",
+  "usage_text": "Install Git and clone the repository first. The installer checks Docker, Compose, Python 3 and curl and offers to install missing components. Python/curl installation supports apt, dnf and yum on Linux; the Compose plugin supports x8664/arm64 and verifies the official release SHA-256. macOS needs a working Python 3 and Docker Desktop; Homebrew can install missing components. Ordinary Linux users are supported through Docker group access or sudo. Set LOOPFORGEYES=1 to accept installation prompts. Package and image downloads require internet access…",
+  "usage_code": "git clone https://github.com/Tencent/LoopForge.git\ncd LoopForge\n./start.sh",
+  "license": "기타",
+  "homepage": "https://loopforge.cn",
   "topics": [
-   "agent",
-   "agentic",
-   "ai",
-   "chatbot",
-   "dsh-plugin",
-   "embeddings",
-   "evaluation",
-   "generative-ai"
+   "agent-orchestration",
+   "agentic-workflow",
+   "ai-agents",
+   "ai-coding",
+   "claude-code",
+   "code-review",
+   "codebuddy",
+   "codex"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-07-28",
+  "pushed": "2026-11-15",
+  "archived": false,
+  "fork": false
  },
  "TencentCloud/Octop": {
   "fetched": "2026-10-23",
@@ -1128,6 +1132,34 @@
   ],
   "default_branch": "main"
  },
+ "Vincentwei1021/video-shotcraft": {
+  "fetched": "2026-11-15",
+  "readme_url": "https://github.com/Vincentwei1021/video-shotcraft#readme",
+  "install": [
+   "npx skills add Vincentwei1021/video-shotcraft",
+   "git clone https://github.com/Vincentwei1021/video-shotcraft.git"
+  ],
+  "usage_title": "video-shotcraft",
+  "usage_text": "English | 中文 | 繁體中文 | 日本語 | Русский\n▶ Browse all 150 shots in the Gallery · 🎬 Watch the Showcase",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "ai-video",
+   "claude-code",
+   "claude-code-skills",
+   "claude-skills",
+   "codex",
+   "motion-design"
+  ],
+  "default_branch": "main",
+  "created": "2026-07-19",
+  "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
+ },
  "YuJunZhiXue/dsh-purge": {
   "fetched": "2026-11-01",
   "readme_url": "https://github.com/YuJunZhiXue/dsh-purge#readme",
@@ -1238,24 +1270,29 @@
   ],
   "default_branch": "main"
  },
- "agent-substrate/substrate": {
-  "fetched": "2026-10-16",
-  "readme_url": "https://github.com/agent-substrate/substrate#readme",
+ "ag-ui-protocol/ag-ui": {
+  "fetched": "2026-11-15",
+  "readme_url": "https://github.com/ag-ui-protocol/ag-ui#readme",
   "install": [
-   "go install ./cmd/kubectl-ate",
-   "kubectl ate create actor my-counter-1 -a ate-demo-counter --template counter",
-   "curl -X POST -H \"ate-target-actor: ate-demo-counter/my-counter-1\" -i http://localhost:8000/",
-   "go run ./tools/setup-gcp bootstrap",
-   "go run ./tools/setup-gcp create cluster",
-   "go run ./tools/setup-gcp create bucket"
+   "npx create-ag-ui-app my-agent-app"
   ],
-  "usage_title": "Ecosystem & Examples",
-  "usage_text": "• Agent Executor: A distributed agent runtime that demonstrates building a secure, hyper-scalable agent harness on Agent Substrate (see the announcement blog and integration guide).\n• kagent: A CNCF Sandbox project and Kubernetes-native framework for building, deploying, and managing AI agents that uses Agent Substrate to run sandboxed, stateful agent workloads (see the announcement blog).",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
+  "usage_title": "🚀 Getting Started",
+  "usage_text": "Create a new AG-UI application in seconds:\n Useful Links: \n• The AG-UI Dojo\n• Build AG-UI-powered applications(Quickstart)\n• Build new AG-UI framework integrations (Quickstart)\n• Book a call to discuss an AG-UI integration with a new framework\n• Join the Discord Community",
+  "usage_code": "npx create-ag-ui-app my-agent-app",
+  "license": "MIT",
+  "homepage": "https://ag-ui.com",
+  "topics": [
+   "ag-ui-protocol",
+   "agent-frontend",
+   "agent-ui",
+   "agentic-workflow",
+   "ai-agents"
+  ],
+  "default_branch": "main",
+  "created": "2025-05-07",
+  "pushed": "2026-11-14",
+  "archived": false,
+  "fork": false
  },
  "akitaonrails/ai-memory": {
   "fetched": "2026-10-25",
@@ -1404,23 +1441,6 @@
   "topics": [],
   "default_branch": "dev"
  },
- "anthropics/claude-code": {
-  "fetched": "2026-10-16",
-  "readme_url": "https://github.com/anthropics/claude-code#readme",
-  "install": [
-   "curl -fsSL https://claude.ai/install.sh | bash",
-   "brew install --cask claude-code",
-   "winget install Anthropic.ClaudeCode",
-   "npm install -g @anthropic-ai/claude-code"
-  ],
-  "usage_title": "Get started",
-  "usage_text": "> [!NOTE]\n> Installation via npm is deprecated. Use one of the recommended methods below.\nFor more installation options, uninstall steps, and troubleshooting, see the setup documentation.\n1. Install Claude Code:\n MacOS/Linux (Recommended):\n Homebrew (MacOS/Linux):\n Windows (Recommended):\n WinGet (Windows):\n NPM (Deprecated):\n2. Navigate to your project directory and run claude.",
-  "usage_code": "    curl -fsSL https://claude.ai/install.sh | bash\n    ",
-  "license": "",
-  "homepage": "https://code.claude.com/docs/en/overview",
-  "topics": [],
-  "default_branch": "main"
- },
  "anthropics/claude-plugins-official": {
   "fetched": "2026-11-12",
   "readme_url": "https://github.com/anthropics/claude-plugins-official#readme",
@@ -1456,25 +1476,6 @@
   "pushed": "2026-11-06",
   "archived": false,
   "fork": false
- },
- "anthropics/financial-services": {
-  "fetched": "2026-10-16",
-  "readme_url": "https://github.com/anthropics/financial-services#readme",
-  "install": [
-   "claude plugin install claude-for-msft-365-install@claude-for-financial-services",
-   "claude plugin marketplace add anthropics/financial-services",
-   "claude plugin install financial-analysis@claude-for-financial-services",
-   "claude plugin install pitch-agent@claude-for-financial-services",
-   "claude plugin install gl-reconciler@claude-for-financial-services",
-   "claude plugin install market-researcher@claude-for-financial-services"
-  ],
-  "usage_title": "Claude for Financial Services",
-  "usage_text": "Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.\nEverything here is available two ways from one source: install it as a Claude Cowork plugin, or deploy it through the Claude Managed Agents API behind your own workflow engine. Same system prompt, same skills — you choose where it runs.\n> [!IMPORTANT]…",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
  },
  "anthropics/knowledge-work-plugins": {
   "fetched": "2026-11-12",
@@ -1873,6 +1874,35 @@
   "default_branch": "main",
   "created": "2026-04-09",
   "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
+ },
+ "dream-num/univer": {
+  "fetched": "2026-11-15",
+  "readme_url": "https://github.com/dream-num/univer#readme",
+  "install": [
+   "pnpm add @univerjs/presets @univerjs/preset-sheets-core",
+   "git clone https://github.com/dream-num/univer.git",
+   "pnpm install"
+  ],
+  "usage_title": "Quick start: an open-source spreadsheet editor",
+  "usage_text": "In a browser application using a bundler such as Vite:\nCreate the container before initializing Univer:\nYour page now contains a spreadsheet editor. Use the returned univerAPI to work with its content. This example uses open-source packages and needs no commercial Univer license or Server SDK.\nFor component frameworks, retain the univer instance returned by createUniver and call univer.dispose() when the component unmounts. See the lifecycle guide.\nPresets compose plugins and register their Facade APIs. For manual control, see the Plugin Mode example below. The installation guide covers both modes, peer dependencies, and framework integrations…",
+  "usage_code": "pnpm add @univerjs/presets @univerjs/preset-sheets-core",
+  "license": "Apache-2.0",
+  "homepage": "https://univer.ai",
+  "topics": [
+   "board",
+   "collaboration",
+   "doc",
+   "docx",
+   "excel",
+   "offce365",
+   "office",
+   "pdf"
+  ],
+  "default_branch": "dev",
+  "created": "2022-09-29",
+  "pushed": "2026-11-14",
   "archived": false,
   "fork": false
  },
@@ -2580,27 +2610,6 @@
   ],
   "default_branch": "main"
  },
- "lightseekorg/tokenspeed": {
-  "fetched": "2026-10-16",
-  "readme_url": "https://github.com/lightseekorg/tokenspeed#readme",
-  "install": [],
-  "usage_title": "Differentiation",
-  "usage_text": "TokenSpeed takes a fundamentally different architectural approach from existing LLM inference engines. The PyTorch Foundation highlighted these architectural differentiators when welcoming TokenSpeed to the PyTorch Ecosystem Landscape:\n> TokenSpeed is an open source LLM inference engine and the first to separate the control plane from the execution plane. The control plane is implemented in C++ as a finite-state machine, using the type system to enforce safe resource management, including request lifecycles and KV cache state, at compile time rather than runtime…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://lightseek.org/blog/lightseek-tokenspeed.html",
-  "topics": [
-   "b200",
-   "b300",
-   "blackwell",
-   "deepseek",
-   "gb200",
-   "gb300",
-   "glm",
-   "gpt-oss"
-  ],
-  "default_branch": "main"
- },
  "lobehub/lobehub": {
   "fetched": "2026-11-14",
   "readme_url": "https://github.com/lobehub/lobehub#readme",
@@ -2756,6 +2765,31 @@
    "ios"
   ],
   "default_branch": "main"
+ },
+ "martin-olivier/airgorah": {
+  "fetched": "2026-11-15",
+  "readme_url": "https://github.com/martin-olivier/airgorah#readme",
+  "install": [],
+  "usage_title": "Usage",
+  "usage_text": "The documentation about the usage of the application is available here.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://crates.io/crates/airgorah",
+  "topics": [
+   "gui",
+   "kali",
+   "linux-app",
+   "security",
+   "security-audit",
+   "wifi",
+   "wifi-security",
+   "wireless"
+  ],
+  "default_branch": "main",
+  "created": "2022-09-30",
+  "pushed": "2026-11-06",
+  "archived": false,
+  "fork": false
  },
  "mattpocock/skills": {
   "fetched": "2026-11-12",
@@ -4018,21 +4052,6 @@
   ],
   "default_branch": "main"
  },
- "twostraws/SwiftUI-Agent-Skill": {
-  "fetched": "2026-10-16",
-  "readme_url": "https://github.com/twostraws/SwiftUI-Agent-Skill#readme",
-  "install": [
-   "npx skills add https://github.com/twostraws/swiftui-agent-skill --skill swiftui-pro",
-   "brew install node"
-  ],
-  "usage_title": "Installing SwiftUI Pro",
-  "usage_text": "You can install this skill into Claude Code, Codex, Gemini, Cursor, and more by using npx:\nIf you get the error npx: command not found, it means you don’t currently have Node installed. You need to run this command to install Node through Homebrew:\nAnd if that fails it usually means you need to install Homebrew first.\nWhen using npx, you can select exactly which agents you want to use during the installation. You can also select whether the skill should be installed just for one project, or whether it should be made available for all your projects.\nClaude Code users can add the SwiftUI Agent Skill marketplace then install the plugin directly through Claude, like this…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "vectorize-io/hindsight": {
   "fetched": "2026-10-23",
   "readme_url": "https://github.com/vectorize-io/hindsight#readme",
@@ -4221,34 +4240,6 @@
    "claude",
    "claude-code",
    "claude-code-marketplace"
-  ],
-  "default_branch": "main"
- },
- "xerj-org/xerj": {
-  "fetched": "2026-10-16",
-  "readme_url": "https://github.com/xerj-org/xerj#readme",
-  "install": [
-   "curl -fsSL https://xerj.org/get | sh",
-   "curl localhost:9200/_cat/indices",
-   "curl \"localhost:9200/ax-*/_search?q=checkout+error\"",
-   "curl localhost:9200/ax-orders/_search -H 'content-type: application/json' -d '{",
-   "git clone https://github.com/xerj-org/xerj",
-   "cargo run --release -p es-yaml-runner -- --dir tests/es-compat-yaml/yaml"
-  ],
-  "usage_title": "XERJ",
-  "usage_text": "English | 简体中文\nXERJ is a community-trusted local AI search that indexes any folder automatically, so your\ncoding agent stops burning tokens reading files one by one and pulls the exact code it\nneeds instead. Reference coding is its main use case and the clearest win: point an agent\nat a task and it downloads the open-source repos closest to it, indexes them, and reuses\nhow they solved the problem before writing its own code. In a controlled study that cut a\ncoding agent's output tokens by 2.7x at the same 16/16 solve rate\n(case study), and people report\nroughly 5x in everyday work\n(field reports).\nIt is enough for a smaller, cheaper model to out-code a pricier one working from memory…",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://xerj.org",
-  "topics": [
-   "ai-search",
-   "ai-search-algorithms",
-   "ai-search-engine",
-   "ai-search-free",
-   "ai-search-module",
-   "ai-search-optimization",
-   "ai-searchengine",
-   "bm25-search"
   ],
   "default_branch": "main"
  },

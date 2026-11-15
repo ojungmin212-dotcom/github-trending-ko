@@ -5,9 +5,53 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:39:17 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 11:05:30 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ag-ui-protocol/ag-ui — AG-UI: 에이전트-사용자 상호 작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다.</title>
+      <link>https://github.com/ag-ui-protocol/ag-ui</link>
+      <guid isPermaLink="false">ag-ui-protocol/ag-ui@2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 11:05:30 +0900</pubDate>
+      <description>AG-UI: 에이전트-사용자 상호 작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다.
+AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.
+TypeScript · ★ 17.4k · ▲ 9 (오늘) · 오늘 #8</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>Tencent/LoopForge — 코딩 에이전트 전달을 위한 자체 호스팅 워크플로입니다. 스크립트와 인간 승인 게이트를 사용하여 CodeBuddy, Codex 및 Claude Code를 조율하세요. 코딩 도우미를 위한 로컬 워크플로가 포함됩니다.</title>
+      <link>https://github.com/Tencent/LoopForge</link>
+      <guid isPermaLink="false">Tencent/LoopForge@2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 11:05:30 +0900</pubDate>
+      <description>코딩 에이전트 전달을 위한 자체 호스팅 워크플로입니다. 스크립트와 인간 승인 게이트를 사용하여 CodeBuddy, Codex 및 Claude Code를 조율하세요. 코딩 도우미를 위한 로컬 워크플로가 포함됩니다.
+Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.
+Go · ★ 932 · ▲ 33 (오늘) · 오늘 #13</description>
+      <category>Go</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>martin-olivier/airgorah — WiFi 보안 감사 소프트웨어</title>
+      <link>https://github.com/martin-olivier/airgorah</link>
+      <guid isPermaLink="false">martin-olivier/airgorah@2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 11:05:30 +0900</pubDate>
+      <description>WiFi 보안 감사 소프트웨어
+A WiFi security auditing software
+Rust · ★ 5.9k · ▲ 270 (오늘) · 오늘 #15</description>
+      <category>Rust</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>Vincentwei1021/video-shotcraft — Claude Code 및 Codex를 위한 AI 비디오 기술 — Remotion을 사용한 영화적이고 편집 가능한 제품 프로모션: 124개의 샷 레시피 카드, 150개의 모션 미리 보기, 비트 동기화, 사운드 디자인, Motion Workbench 및 JianYing(CapCut CN) 내보내기.</title>
+      <link>https://github.com/Vincentwei1021/video-shotcraft</link>
+      <guid isPermaLink="false">Vincentwei1021/video-shotcraft@2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 11:05:30 +0900</pubDate>
+      <description>Claude Code 및 Codex를 위한 AI 비디오 기술 — Remotion을 사용한 영화적이고 편집 가능한 제품 프로모션: 124개의 샷 레시피 카드, 150개의 모션 미리 보기, 비트 동기화, 사운드 디자인, Motion Workbench 및 JianYing(CapCut CN) 내보내기.
+AI video skill for Claude Code &amp; Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench &amp; JianYing (CapCut CN)…
+TypeScript · ★ 19.6k · ▲ 7.6k (이번 달) · 이번 달 #14</description>
+      <category>TypeScript</category>
+      <category>이번 달</category>
+    </item>
     <item>
       <title>backnotprop/plannotator — 루프를 유지하고 상담원을 관리할 수 있는 작업 공간 - 한 번의 클릭으로 형성, 결정, 계획, 주석 달기, 코드 검토, 팀과 공유 및 모든 피드백을 상담원에게 보냅니다.</title>
       <link>https://github.com/backnotprop/plannotator</link>
@@ -1367,61 +1411,6 @@ Python · ★ 2.5k · ▲ 30 (오늘) · 오늘 #11</description>
 XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for searc…
 Rust · ★ 5.6k · ▲ 715 (오늘) · 오늘 #12</description>
       <category>Rust</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>nvm-sh/nvm — 노드 버전 관리자 - 여러 활성 node.js 버전을 관리하기 위한 POSIX 호환 bash 스크립트입니다.</title>
-      <link>https://github.com/nvm-sh/nvm</link>
-      <guid isPermaLink="false">nvm-sh/nvm@2026-10-15</guid>
-      <pubDate>Thu, 15 Oct 2026 09:47:33 +0900</pubDate>
-      <description>노드 버전 관리자 - 여러 활성 node.js 버전을 관리하기 위한 POSIX 호환 bash 스크립트입니다.
-Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.
-Shell · ★ 95.5k · ▲ 52 (오늘) · 오늘 #4</description>
-      <category>Shell</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>ifixai-ai/iFixAi — AI 에이전트의 독립적인 감사. AI 에이전트 경제에서 가장 중요한 질문에 답하기 위해 인간 또는 에이전트 자체가 실행합니다. 상담원이 해야 할 일을 하고 있나요? iFixAi를 사용하면 120초 이내에 이 답변을 얻을 수 있습니다.</title>
-      <link>https://github.com/ifixai-ai/iFixAi</link>
-      <guid isPermaLink="false">ifixai-ai/iFixAi@2026-10-15</guid>
-      <pubDate>Thu, 15 Oct 2026 09:47:33 +0900</pubDate>
-      <description>AI 에이전트의 독립적인 감사. AI 에이전트 경제에서 가장 중요한 질문에 답하기 위해 인간 또는 에이전트 자체가 실행합니다. 상담원이 해야 할 일을 하고 있나요? iFixAi를 사용하면 120초 이내에 이 답변을 얻을 수 있습니다.
-Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have t…
-Python · ★ 27.4k · ▲ 2.1k (오늘) · 오늘 #7</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>vxcontrol/pentagi — 복잡한 침투 테스트 작업을 수행할 수 있는 완전 자율형 AI 에이전트 시스템</title>
-      <link>https://github.com/vxcontrol/pentagi</link>
-      <guid isPermaLink="false">vxcontrol/pentagi@2026-10-15</guid>
-      <pubDate>Thu, 15 Oct 2026 09:47:33 +0900</pubDate>
-      <description>복잡한 침투 테스트 작업을 수행할 수 있는 완전 자율형 AI 에이전트 시스템
-Fully autonomous AI Agents system capable of performing complex penetration testing tasks
-Go · ★ 29.5k · ▲ 1k (오늘) · 오늘 #8</description>
-      <category>Go</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>rust-lang/rust — 모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원합니다.</title>
-      <link>https://github.com/rust-lang/rust</link>
-      <guid isPermaLink="false">rust-lang/rust@2026-10-15</guid>
-      <pubDate>Thu, 15 Oct 2026 09:47:33 +0900</pubDate>
-      <description>모든 사람이 안정적이고 효율적인 소프트웨어를 구축할 수 있도록 지원합니다.
-Empowering everyone to build reliable and efficient software.
-Rust · ★ 120k · ▲ 207 (오늘) · 오늘 #9</description>
-      <category>Rust</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>ntdevlabs/tiny11builder — 더 작은 맞춤형 Windows 11 이미지를 구축하기 위한 WinUI 앱입니다.</title>
-      <link>https://github.com/ntdevlabs/tiny11builder</link>
-      <guid isPermaLink="false">ntdevlabs/tiny11builder@2026-10-15</guid>
-      <pubDate>Thu, 15 Oct 2026 09:47:33 +0900</pubDate>
-      <description>더 작은 맞춤형 Windows 11 이미지를 구축하기 위한 WinUI 앱입니다.
-WinUI app for building smaller, customized Windows 11 images.
-C# · ★ 20.2k · ▲ 139 (오늘) · 오늘 #11</description>
-      <category>C#</category>
       <category>오늘</category>
     </item>
   </channel>
