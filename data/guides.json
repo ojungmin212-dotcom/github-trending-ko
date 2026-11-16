@@ -606,29 +606,6 @@
   "archived": false,
   "fork": false
  },
- "MadsLorentzen/ai-job-search": {
-  "fetched": "2026-10-17",
-  "readme_url": "https://github.com/MadsLorentzen/ai-job-search#readme",
-  "install": [
-   "gh repo fork MadsLorentzen/ai-job-search --clone"
-  ],
-  "usage_title": "Quick start",
-  "usage_text": "> 🎥 Prefer to see it in action first? The Next New Thing did a hands-on walkthrough of how the workflow is actually used, from setup to a finished application (recorded August 2026 - commands may have evolved since).",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [
-   "ai",
-   "ai-agents",
-   "career",
-   "claude-code",
-   "cover-letter",
-   "cv",
-   "interview-preparation",
-   "job-application"
-  ],
-  "default_branch": "master"
- },
  "Meloong-Git/PCL": {
   "fetched": "2026-10-23",
   "readme_url": "https://github.com/Meloong-Git/PCL#readme",
@@ -680,6 +657,35 @@
   "homepage": "https://docs.nvidia.com/openshell/latest/",
   "topics": [],
   "default_branch": "main"
+ },
+ "NVIDIA/SkillEvaluator": {
+  "fetched": "2026-11-16",
+  "readme_url": "https://github.com/NVIDIA/SkillEvaluator#readme",
+  "install": [
+   "pip install skillevaluator",
+   "npx skills add NVIDIA/SkillEvaluator",
+   "git clone --depth 1 https://github.com/NVIDIA/SkillEvaluator.git"
+  ],
+  "usage_title": "Get started",
+  "usage_text": "Three ways in, one CLI, same results.\n 1. Run the CLI directly \n 2. Add it to your repo via CI \n 3. Wire it to your agent \nInstall (or uv tool install):\nRun all Tier 1 checks, no API key:\nOr run from a clone: Quickstart.\nCheck changed skills on every pull request. On GitHub, run:\nIt opens a setup PR. On GitLab, copy the CI template.\nAdd the SkillEvaluator skill to Claude Code, Codex or any skill-aware agent:\nThen ask: \"Is my skill any good?\" No Node.js? Copy the folder.\nGuides: installation,\nCI setup (GitHub,\nGitLab, report examples) and\nagent skill.",
+  "usage_code": "pip install skillevaluator",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.nvidia.com/skills/skillevaluator/",
+  "topics": [
+   "agent-evaluation",
+   "agent-plugins",
+   "agent-security",
+   "agent-skills",
+   "agentic-ai",
+   "benchmark",
+   "claude-code",
+   "codex"
+  ],
+  "default_branch": "main",
+  "created": "2026-06-24",
+  "pushed": "2026-11-16",
+  "archived": false,
+  "fork": false
  },
  "NVIDIA/SkillSpector": {
   "fetched": "2026-10-27",
@@ -1964,6 +1970,34 @@
   "topics": [],
   "default_branch": "main"
  },
+ "elementalsouls/Claude-BugHunter": {
+  "fetched": "2026-11-16",
+  "readme_url": "https://github.com/elementalsouls/Claude-BugHunter#readme",
+  "install": [
+   "git clone https://github.com/elementalsouls/Claude-BugHunter.git",
+   "bash scripts/install.sh"
+  ],
+  "usage_title": "Quickstart",
+  "usage_text": "Option A — install as a Claude Code plugin (recommended). From inside Claude Code:\nAll 83 skills + 15 commands load namespaced under claude-bughunter: and update when you bump the plugin version — no files copied into ~/.claude/.\nOption B — copy install (no plugin system / pin to a clone):\nBoth copy the skills + commands into ~/.claude/ (macOS/Linux) or %USERPROFILE%\\.claude\\ (Windows) and wire the hunt engagement scaffolder.\nWhat each install path gives you:\nThe plugin is the fastest path to the skills + slash commands. The terminal-native\ncbh runner installs standalone — pipx install git+https://github.com/elementalsouls/Claude-BugHunter…",
+  "usage_code": "/plugin marketplace add elementalsouls/Claude-BugHunter\n/plugin install claude-bughunter@elementalsouls",
+  "license": "MIT",
+  "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
+  "topics": [
+   "ai-security",
+   "anthropic",
+   "application-security",
+   "bug-bounty",
+   "bugbounty",
+   "bugcrowd",
+   "claude",
+   "claude-code"
+  ],
+  "default_branch": "main",
+  "created": "2026-05-05",
+  "pushed": "2026-11-15",
+  "archived": false,
+  "fork": false
+ },
  "elie222/rakazo": {
   "fetched": "2026-10-24",
   "readme_url": "https://github.com/elie222/rakazo#readme",
@@ -2131,6 +2165,26 @@
   "topics": [],
   "default_branch": "main"
  },
+ "ggml-org/ggml": {
+  "fetched": "2026-11-16",
+  "readme_url": "https://github.com/ggml-org/ggml#readme",
+  "install": [
+   "git clone https://github.com/ggml-org/ggml"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Build from source:\nFor a minimal, fully commented example (matrix multiplication), see examples/simple.",
+  "usage_code": "git clone https://github.com/ggml-org/ggml\ncd ggml\n\nmkdir build && cd build\ncmake ..\ncmake --build . --config Release -j 8",
+  "license": "MIT",
+  "homepage": "https://github.com/ggml-org",
+  "topics": [
+   "machine-learning"
+  ],
+  "default_branch": "master",
+  "created": "2022-09-18",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "fork": false
+ },
  "ggml-org/llama.cpp": {
   "fetched": "2026-11-13",
   "readme_url": "https://github.com/ggml-org/llama.cpp#readme",
@@ -2251,6 +2305,26 @@
    "mcp-server"
   ],
   "default_branch": "main"
+ },
+ "google-labs-code/stitch-skills": {
+  "fetched": "2026-11-16",
+  "readme_url": "https://github.com/google-labs-code/stitch-skills#readme",
+  "install": [
+   "npx skills add google-labs-code/stitch-skills",
+   "npx plugins --help",
+   "npx skills --help"
+  ],
+  "usage_title": "Stitch Design Skills",
+  "usage_text": "A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install).",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
+  "topics": [],
+  "default_branch": "main",
+  "created": "2026-01-16",
+  "pushed": "2026-08-17",
+  "archived": false,
+  "fork": false
  },
  "google/elephant-goldfish-model": {
   "fetched": "2026-11-14",

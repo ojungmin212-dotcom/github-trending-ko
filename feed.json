@@ -7,6 +7,98 @@
  "language": "ko",
  "items": [
   {
+   "id": "google-labs-code/stitch-skills@2026-11-16",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "title": "google-labs-code/stitch-skills — Stitch MCP 서버와 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 개방형 표준을 따릅니다.",
+   "content_text": "Stitch MCP 서버와 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 개방형 표준을 따릅니다.\nA library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude…\nTypeScript · ★ 9.3k · ▲ 247 (오늘) · 오늘 #3",
+   "date_published": "2026-11-16T11:21:42+09:00",
+   "tags": [
+    "TypeScript",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "google-labs-code/stitch-skills",
+    "first_seen": "2026-11-16",
+    "period": "daily",
+    "rank": 3,
+    "filled_from": null,
+    "stars": 9349,
+    "stars_period": 247,
+    "language": "TypeScript",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude…",
+    "description_ko": "Stitch MCP 서버와 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 개방형 표준을 따릅니다."
+   }
+  },
+  {
+   "id": "ggml-org/ggml@2026-11-16",
+   "url": "https://github.com/ggml-org/ggml",
+   "title": "ggml-org/ggml — 머신러닝을 위한 Tensor 라이브러리",
+   "content_text": "머신러닝을 위한 Tensor 라이브러리\nTensor library for machine learning\nC++ · ★ 15.9k · ▲ 43 (오늘) · 오늘 #8",
+   "date_published": "2026-11-16T11:21:42+09:00",
+   "tags": [
+    "C++",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "ggml-org/ggml",
+    "first_seen": "2026-11-16",
+    "period": "daily",
+    "rank": 8,
+    "filled_from": null,
+    "stars": 15937,
+    "stars_period": 43,
+    "language": "C++",
+    "description": "Tensor library for machine learning",
+    "description_ko": "머신러닝을 위한 Tensor 라이브러리"
+   }
+  },
+  {
+   "id": "elementalsouls/Claude-BugHunter@2026-11-16",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "title": "elementalsouls/Claude-BugHunter — 버그 사냥 및 외부 레드팀 작업을 위한 Claude Code 기술 번들 - 82개 기술, 15개 슬래시 명령, 24개 핵심 취약성 클래스에 걸쳐 선별된 681개 공개 보고서 패턴, 기업 ID + 인프라 공격 매트릭스.",
+   "content_text": "버그 사냥 및 외부 레드팀 작업을 위한 Claude Code 기술 번들 - 82개 기술, 15개 슬래시 명령, 24개 핵심 취약성 클래스에 걸쳐 선별된 681개 공개 보고서 패턴, 기업 ID + 인프라 공격 매트릭스.\nA Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise ident…\nPython · ★ 6.5k · ▲ 98 (오늘) · 오늘 #9",
+   "date_published": "2026-11-16T11:21:42+09:00",
+   "tags": [
+    "Python",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "elementalsouls/Claude-BugHunter",
+    "first_seen": "2026-11-16",
+    "period": "daily",
+    "rank": 9,
+    "filled_from": null,
+    "stars": 6516,
+    "stars_period": 98,
+    "language": "Python",
+    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise ident…",
+    "description_ko": "버그 사냥 및 외부 레드팀 작업을 위한 Claude Code 기술 번들 - 82개 기술, 15개 슬래시 명령, 24개 핵심 취약성 클래스에 걸쳐 선별된 681개 공개 보고서 패턴, 기업 ID + 인프라 공격 매트릭스."
+   }
+  },
+  {
+   "id": "NVIDIA/SkillEvaluator@2026-11-16",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "title": "NVIDIA/SkillEvaluator — 품질 게이트, 의미론적 중복 감지, 합성 평가 데이터세트 생성, 기술이 에이전트 행동에 미치는 영향을 측정하는 실시간 에이전트 평가를 통해 AI 에이전트 기술을 평가하기 위한 다계층 프레임워크입니다.",
+   "content_text": "품질 게이트, 의미론적 중복 감지, 합성 평가 데이터세트 생성, 기술이 에이전트 행동에 미치는 영향을 측정하는 실시간 에이전트 평가를 통해 AI 에이전트 기술을 평가하기 위한 다계층 프레임워크입니다.\nMulti-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect…\nPython · ★ 1.8k · ▲ 122 (오늘) · 오늘 #12",
+   "date_published": "2026-11-16T11:21:42+09:00",
+   "tags": [
+    "Python",
+    "오늘"
+   ],
+   "_trending": {
+    "full_name": "NVIDIA/SkillEvaluator",
+    "first_seen": "2026-11-16",
+    "period": "daily",
+    "rank": 12,
+    "filled_from": null,
+    "stars": 1763,
+    "stars_period": 122,
+    "language": "Python",
+    "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect…",
+    "description_ko": "품질 게이트, 의미론적 중복 감지, 합성 평가 데이터세트 생성, 기술이 에이전트 행동에 미치는 영향을 측정하는 실시간 에이전트 평가를 통해 AI 에이전트 기술을 평가하기 위한 다계층 프레임워크입니다."
+   }
+  },
+  {
    "id": "ag-ui-protocol/ag-ui@2026-11-15",
    "url": "https://github.com/ag-ui-protocol/ag-ui",
    "title": "ag-ui-protocol/ag-ui — AG-UI: 에이전트-사용자 상호 작용 프로토콜. 에이전트를 프런트엔드 애플리케이션으로 가져옵니다.",
@@ -2898,75 +2990,6 @@
     "language": "JavaScript",
     "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
     "description_ko": "네트워크 디스크 파일의 다운로드 주소를 얻기 위한 JavaScript 기반 도구입니다. [네트워크 디스크 직접 링크 다운로드 도우미] 수정에 따라 Baidu Cloud Disk / Alibaba Cloud Disk / China Mobile Cloud Disk / Tianyi Cloud Disk / Thunder Cloud Disk / Quark Clou…"
-   }
-  },
-  {
-   "id": "ruvnet/ruflo@2026-10-16",
-   "url": "https://github.com/ruvnet/ruflo",
-   "title": "ruvnet/ruflo — 🌊 오리지널 에이전트 하네스. 지능형 멀티 플레이어 떼를 배포하고, 자율적인 워크플로를 조정하고, 대화형 AI 시스템을 구축하세요. 적응형 메모리, 자가 학습 인텔리전스, 연합, 벡터 RAG 통합, 기본 Claude Code/Codex/Hermes 등 다양한 기능 통합",
-   "content_text": "🌊 오리지널 에이전트 하네스. 지능형 멀티 플레이어 떼를 배포하고, 자율적인 워크플로를 조정하고, 대화형 AI 시스템을 구축하세요. 적응형 메모리, 자가 학습 인텔리전스, 연합, 벡터 RAG 통합, 기본 Claude Code/Codex/Hermes 등 다양한 기능 통합\n🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, feder…\nTypeScript · ★ 75.1k · ▲ 147 (오늘) · 오늘 #7",
-   "date_published": "2026-10-16T09:40:29+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "ruvnet/ruflo",
-    "first_seen": "2026-10-16",
-    "period": "daily",
-    "rank": 7,
-    "filled_from": null,
-    "stars": 75118,
-    "stars_period": 147,
-    "language": "TypeScript",
-    "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, feder…",
-    "description_ko": "🌊 오리지널 에이전트 하네스. 지능형 멀티 플레이어 떼를 배포하고, 자율적인 워크플로를 조정하고, 대화형 AI 시스템을 구축하세요. 적응형 메모리, 자가 학습 인텔리전스, 연합, 벡터 RAG 통합, 기본 Claude Code/Codex/Hermes 등 다양한 기능 통합"
-   }
-  },
-  {
-   "id": "lightseekorg/tokenspeed@2026-10-16",
-   "url": "https://github.com/lightseekorg/tokenspeed",
-   "title": "lightseekorg/tokenspeed — TokenSpeed는 빛의 속도 LLM 추론 엔진입니다.",
-   "content_text": "TokenSpeed는 빛의 속도 LLM 추론 엔진입니다.\nTokenSpeed is a speed-of-light LLM inference engine.\nPython · ★ 2.5k · ▲ 30 (오늘) · 오늘 #11",
-   "date_published": "2026-10-16T09:40:29+09:00",
-   "tags": [
-    "Python",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "lightseekorg/tokenspeed",
-    "first_seen": "2026-10-16",
-    "period": "daily",
-    "rank": 11,
-    "filled_from": null,
-    "stars": 2481,
-    "stars_period": 30,
-    "language": "Python",
-    "description": "TokenSpeed is a speed-of-light LLM inference engine.",
-    "description_ko": "TokenSpeed는 빛의 속도 LLM 추론 엔진입니다."
-   }
-  },
-  {
-   "id": "xerj-org/xerj@2026-10-16",
-   "url": "https://github.com/xerj-org/xerj",
-   "title": "xerj-org/xerj — XERJ는 AI가 데이터를 검색하는 새로운 방법입니다. 자동 색인 기능은 grep 및 sed의 토큰 낭비 없이 에이전트가 데이터를 알 수 있도록 활성화합니다. 하나의 명령은 grep보다 40배 적은 토큰을 사용하여 검색, RAG, 보안 감사 및 에이전트 메모리를 위한 코드, 문서, 로그 및 PDF를 색인화합니다. Elasticsearch와 호환되므로 기존…",
-   "content_text": "XERJ는 AI가 데이터를 검색하는 새로운 방법입니다. 자동 색인 기능은 grep 및 sed의 토큰 낭비 없이 에이전트가 데이터를 알 수 있도록 활성화합니다. 하나의 명령은 grep보다 40배 적은 토큰을 사용하여 검색, RAG, 보안 감사 및 에이전트 메모리를 위한 코드, 문서, 로그 및 PDF를 색인화합니다. Elasticsearch와 호환되므로 기존…\nXERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for searc…\nRust · ★ 5.6k · ▲ 715 (오늘) · 오늘 #12",
-   "date_published": "2026-10-16T09:40:29+09:00",
-   "tags": [
-    "Rust",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "xerj-org/xerj",
-    "first_seen": "2026-10-16",
-    "period": "daily",
-    "rank": 12,
-    "filled_from": null,
-    "stars": 5636,
-    "stars_period": 715,
-    "language": "Rust",
-    "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for searc…",
-    "description_ko": "XERJ는 AI가 데이터를 검색하는 새로운 방법입니다. 자동 색인 기능은 grep 및 sed의 토큰 낭비 없이 에이전트가 데이터를 알 수 있도록 활성화합니다. 하나의 명령은 grep보다 40배 적은 토큰을 사용하여 검색, RAG, 보안 감사 및 에이전트 메모리를 위한 코드, 문서, 로그 및 PDF를 색인화합니다. Elasticsearch와 호환되므로 기존…"
    }
   }
  ]
