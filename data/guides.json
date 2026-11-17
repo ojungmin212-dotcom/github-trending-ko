@@ -208,6 +208,34 @@
   "archived": false,
   "fork": false
  },
+ "DeanChensj/jiangshan-map": {
+  "fetched": "2026-11-17",
+  "readme_url": "https://github.com/DeanChensj/jiangshan-map#readme",
+  "install": [
+   "git clone https://github.com/DeanChensj/jiangshan-map.git",
+   "docker compose up -d --build"
+  ],
+  "usage_title": "Feature 1: Scrub the Timeline to Watch Realms Rise & Fall, T",
+  "usage_text": "• Multi-Polity Confrontations on a Single Canvas: From the Seven Warring States (Qin, Chu, Qi, Yan, Zhao, Wei, Han) alongside Zhou, Yue, Ba-Shu, Zhongshan, and Yiqu, to the Three Kingdoms warlords (Yuan Shao, Cao Cao, Liu Bei, Sun Quan, Gongsun's Liaodong), Northern & Southern Dynasties, Five Dynasties & Ten Kingdoms, and Song, Liao, Western Xia, Dali, Jin, and the Mongols—all rendered side-by-side in high-contrast traditional parchment hues. Hover over any polity in the bottom-left legend to highlight its territory, or click to open that polity's profile (lifespan, capitals and a short history) and zoom to its territory…",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "https://deanchen.me/jiangshan-map/",
+  "topics": [
+   "ancient-china",
+   "cartography",
+   "china-map",
+   "chinese-history",
+   "classical-chinese-poetry",
+   "digital-humanities",
+   "gis",
+   "historical-atlas"
+  ],
+  "default_branch": "main",
+  "created": "2026-07-23",
+  "pushed": "2026-11-16",
+  "archived": false,
+  "fork": false
+ },
  "DietrichGebert/ponytail": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
@@ -2165,6 +2193,31 @@
   "topics": [],
   "default_branch": "main"
  },
+ "getarcaneapp/arcane": {
+  "fetched": "2026-11-17",
+  "readme_url": "https://github.com/getarcaneapp/arcane#readme",
+  "install": [],
+  "usage_title": "Documentation",
+  "usage_text": "For setup instructions, configuration details, and development guides, visit the official documentation site.",
+  "usage_code": "",
+  "license": "BSD-3-Clause",
+  "homepage": "https://getarcane.app",
+  "topics": [
+   "compose",
+   "container-management",
+   "containers",
+   "docker",
+   "docker-compose",
+   "docker-management",
+   "go",
+   "self-hosted"
+  ],
+  "default_branch": "main",
+  "created": "2025-04-19",
+  "pushed": "2026-11-17",
+  "archived": false,
+  "fork": false
+ },
  "ggml-org/ggml": {
   "fetched": "2026-11-16",
   "readme_url": "https://github.com/ggml-org/ggml#readme",
@@ -2323,6 +2376,28 @@
   "default_branch": "main",
   "created": "2026-01-16",
   "pushed": "2026-08-17",
+  "archived": false,
+  "fork": false
+ },
+ "google-research/paper-orchestra": {
+  "fetched": "2026-11-17",
+  "readme_url": "https://github.com/google-research/paper-orchestra#readme",
+  "install": [
+   "conda create -n paper_orchestra python=3.11",
+   "pip install -r requirements.txt"
+  ],
+  "usage_title": "Key Features",
+  "usage_text": "• Multi-Agent Pipeline: Orchestrates specialized agents (Outline, Literature Review, Section Writing, Content Refinement, Plotting) for end-to-end paper generation.\n• Comprehensive Literature Synthesis: Automatically searches, prioritizes, and integrates relevant literature into the manuscript.\n• Visuals Generation: Generates plots and supports the inclusion of conceptual diagrams.\n• LaTeX Automation: Produces submission-ready LaTeX manuscripts adhering to target conference templates.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://yiwen-song.github.io/paper_orchestra/",
+  "topics": [
+   "ai-research-assistant",
+   "multi-agent-systems"
+  ],
+  "default_branch": "main",
+  "created": "2026-05-01",
+  "pushed": "2026-11-15",
   "archived": false,
   "fork": false
  },
@@ -2616,6 +2691,38 @@
   "topics": [],
   "default_branch": "main"
  },
+ "kajisho5/ffmpeg-skill": {
+  "fetched": "2026-11-17",
+  "readme_url": "https://github.com/kajisho5/ffmpeg-skill#readme",
+  "install": [
+   "apt install ffmpeg",
+   "npx ffmpeg-skill",
+   "npx ffmpeg-skill doctor",
+   "npx ffmpeg-skill contract --json | head -40",
+   "npx ffmpeg-skill  # Claude Code   → ~/.claude/skills/ffmpeg-skill",
+   "npx ffmpeg-skill --cursor  # Cursor        → ~/.cursor/skills/ffmpeg-skill"
+  ],
+  "usage_title": "Quick start",
+  "usage_text": "Captions from speech (caption.py --transcribe) need one local speech engine, installed separately. pip install faster-whisper is the simplest; the first run downloads its model, and the audio never leaves the machine. Without an engine, everything else works, doctor lists the engine as missing optional, and --transcribe refuses with the install line for each engine it supports.\nAlready installed? re-run npx ffmpeg-skill to refresh ~/.claude/skills/ffmpeg-skill. Copies are not updated automatically…",
+  "usage_code": "# 0. FFmpeg itself, once (Ubuntu/Debian shown; macOS and Windows are in the Install table below)\nsudo apt install ffmpeg\n\n# 1. install the skill for Claude Code (Cursor: --cursor, Codex: --codex, all three: --all)\nnpx ffmpeg-skill\n\n# 2. check the machine: ffmpeg, ffprobe and every FFmpeg component the tools need\nnpx ffmpeg-skill doctor\n\n# 3. (for agent frameworks) read the machine-readable contract\nnpx ffmpeg-skill contract --json | head -40",
+  "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "audio-processing",
+   "captions",
+   "claude-code",
+   "codex",
+   "coding-agent",
+   "cursor"
+  ],
+  "default_branch": "main",
+  "created": "2026-09-03",
+  "pushed": "2026-11-16",
+  "archived": false,
+  "fork": false
+ },
  "karpathy/nanochat": {
   "fetched": "2026-11-03",
   "readme_url": "https://github.com/karpathy/nanochat#readme",
@@ -2715,30 +2822,6 @@
   "pushed": "2026-11-14",
   "archived": false,
   "fork": false
- },
- "longbridge/gpui-kit": {
-  "fetched": "2026-10-18",
-  "readme_url": "https://github.com/longbridge/gpui-kit#readme",
-  "install": [
-   "npx skills add longbridge/gpui-kit",
-   "cargo run",
-   "cargo run -p example-dock",
-   "cargo run -p example-markdown",
-   "cargo run -p example-html",
-   "cargo run -p example-editor"
-  ],
-  "usage_title": "Features",
-  "usage_text": "• 75+ Components and Primitives: Forms, navigation, overlays, data display, editing, feedback, and layout, with polished interactions and productive defaults.\n• Production Ready: Used to build Longbridge Pro from day one and continuously refined in a publicly shipped commercial desktop application.\n• WebAssembly: Run applications and the same component showcases on the web with wasm32-unknown-unknown.\n• Accessibility: AccessKit roles, names, states, relationships, and actions are built into the interaction layer and covered by tests.\n• UI Integration Testing: Render real components in headless windows, drive pointer and keyboard input, and assert state, focus, layout, and accessibility…",
-  "usage_code": "",
-  "license": "",
-  "homepage": "http://gpui-kit.com",
-  "topics": [
-   "desktop-application",
-   "gpui",
-   "rust",
-   "uikit"
-  ],
-  "default_branch": "main"
  },
  "louislam/uptime-kuma": {
   "fetched": "2026-11-14",
@@ -3163,6 +3246,38 @@
   "homepage": "",
   "topics": [],
   "default_branch": "main"
+ },
+ "mvanhorn/last30days-skill": {
+  "fetched": "2026-11-17",
+  "readme_url": "https://github.com/mvanhorn/last30days-skill#readme",
+  "install": [
+   "npx skills add mvanhorn/last30days-skill -g",
+   "npx skills add mvanhorn/last30days-skill -g -a claude-code",
+   "npx skills add mvanhorn/last30days-skill -g -a codex",
+   "npx skills add mvanhorn/last30days-skill -g -a cursor",
+   "npx skills add mvanhorn/last30days-skill -g -a gemini-cli",
+   "npx skills add mvanhorn/last30days-skill -g -a codex -a cursor"
+  ],
+  "usage_title": "How it works",
+  "usage_text": "1. You type a topic. Person, company, product, technology, \"X vs Y.\" Anything.\n2. The agent resolves who matters. Finds X handles (including founders), GitHub repos, subreddits, TikTok hashtags, YouTube channels. For \"Kanye West\" it knows r/hiphopheads, @kanyewest, and \"bully review\" on YouTube. For \"OpenClaw\" it resolves openclaw/openclaw on GitHub and fetches live star counts.\n3. All sources searched in parallel. Multi-query expansion. Results scored by engagement, relevance, freshness.\n4. The depth nobody else has. Full YouTube transcripts from reaction videos. Top Reddit comments with upvote counts. TikTok captions. Polymarket odds. Not just titles and links…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "ai-prompts",
+   "ai-skill",
+   "bluesky",
+   "claude",
+   "claude-code",
+   "clawhub",
+   "deep-research",
+   "hackernews"
+  ],
+  "default_branch": "main",
+  "created": "2026-01-23",
+  "pushed": "2026-11-17",
+  "archived": false,
+  "fork": false
  },
  "mvschwarz/openrig": {
   "fetched": "2026-10-31",
@@ -3933,6 +4048,26 @@
    "firebase"
   ],
   "default_branch": "master"
+ },
+ "sveltejs/svelte": {
+  "fetched": "2026-11-17",
+  "readme_url": "https://github.com/sveltejs/svelte#readme",
+  "install": [],
+  "usage_title": "What is Svelte?",
+  "usage_text": "Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.\nLearn more at the Svelte website, or stop by the Discord chatroom.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://svelte.dev",
+  "topics": [
+   "compiler",
+   "template",
+   "ui"
+  ],
+  "default_branch": "main",
+  "created": "2016-11-20",
+  "pushed": "2026-11-16",
+  "archived": false,
+  "fork": false
  },
  "symfony/symfony": {
   "fetched": "2026-11-07",

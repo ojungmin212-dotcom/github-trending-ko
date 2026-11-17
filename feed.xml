@@ -5,9 +5,75 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Nov 2026 11:21:42 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:44:10 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>getarcaneapp/arcane — 모두를 위해 설계된 최신 Docker 관리</title>
+      <link>https://github.com/getarcaneapp/arcane</link>
+      <guid isPermaLink="false">getarcaneapp/arcane@2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 13:44:10 +0900</pubDate>
+      <description>모두를 위해 설계된 최신 Docker 관리
+Modern Docker Management, Designed for Everyone
+Go · ★ 8.9k · ▲ 46 (오늘) · 오늘 #6</description>
+      <category>Go</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>DeanChensj/jiangshan-map — 18개 왕조, 198개 영토 스냅샷, 고대부터 현대까지의 장소 계보 및 고전 시 루트에 걸친 중국의 대화형 역사 지도책</title>
+      <link>https://github.com/DeanChensj/jiangshan-map</link>
+      <guid isPermaLink="false">DeanChensj/jiangshan-map@2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 13:44:10 +0900</pubDate>
+      <description>18개 왕조, 198개 영토 스냅샷, 고대부터 현대까지의 장소 계보 및 고전 시 루트에 걸친 중국의 대화형 역사 지도책
+江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes
+JavaScript · ★ 7.1k · ▲ 288 (오늘) · 오늘 #7</description>
+      <category>JavaScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>mvanhorn/last30days-skill — Reddit, X, YouTube, HN, Polymarket 및 웹 전반에서 모든 주제를 조사한 다음 근거 있는 요약을 합성하는 AI 에이전트 기술</title>
+      <link>https://github.com/mvanhorn/last30days-skill</link>
+      <guid isPermaLink="false">mvanhorn/last30days-skill@2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 13:44:10 +0900</pubDate>
+      <description>Reddit, X, YouTube, HN, Polymarket 및 웹 전반에서 모든 주제를 조사한 다음 근거 있는 요약을 합성하는 AI 에이전트 기술
+AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+Python · ★ 68.3k · ▲ 135 (오늘) · 오늘 #9</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>google-research/paper-orchestra — PaperOrchestra는 자동화된 AI 연구 논문 작성을 위한 다중 에이전트 프레임워크입니다.</title>
+      <link>https://github.com/google-research/paper-orchestra</link>
+      <guid isPermaLink="false">google-research/paper-orchestra@2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 13:44:10 +0900</pubDate>
+      <description>PaperOrchestra는 자동화된 AI 연구 논문 작성을 위한 다중 에이전트 프레임워크입니다.
+PaperOrchestra is a multi-agent framework for automated AI research paper writing.
+Python · ★ 1.7k · ▲ 313 (오늘) · 오늘 #12</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>sveltejs/svelte — 우리 모두를 위한 웹 개발</title>
+      <link>https://github.com/sveltejs/svelte</link>
+      <guid isPermaLink="false">sveltejs/svelte@2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 13:44:10 +0900</pubDate>
+      <description>우리 모두를 위한 웹 개발
+web development for the rest of us
+JavaScript · ★ 89.1k · ▲ 115 (오늘) · 오늘 #14</description>
+      <category>JavaScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>kajisho5/ffmpeg-skill — 코딩 에이전트를 위한 로컬 비디오 편집기: Claude Code, Cursor 및 Codex를 위한 기계 판독 가능 계약 및 MCP 서버가 포함된 42개의 FFmpeg 도구. 컷, 캡션, 리프레임, 음량, 플랫폼 내보내기. 클라우드도, API 키도 없습니다.</title>
+      <link>https://github.com/kajisho5/ffmpeg-skill</link>
+      <guid isPermaLink="false">kajisho5/ffmpeg-skill@2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 13:44:10 +0900</pubDate>
+      <description>코딩 에이전트를 위한 로컬 비디오 편집기: Claude Code, Cursor 및 Codex를 위한 기계 판독 가능 계약 및 MCP 서버가 포함된 42개의 FFmpeg 도구. 컷, 캡션, 리프레임, 음량, 플랫폼 내보내기. 클라우드도, API 키도 없습니다.
+Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No clo…
+Python · ★ 7k · ▲ 367 (오늘) · 오늘 #15</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
     <item>
       <title>google-labs-code/stitch-skills — Stitch MCP 서버와 작동하도록 설계된 에이전트 스킬 라이브러리입니다. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 개방형 표준을 따릅니다.</title>
       <link>https://github.com/google-labs-code/stitch-skills</link>
@@ -1391,37 +1457,6 @@ Python · ★ 138.6k · ▲ 154 (오늘) · 오늘 #13</description>
 The open source coding agent.
 TypeScript · ★ 215.3k · ▲ 438 (오늘) · 오늘 #11</description>
       <category>TypeScript</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>android/skills — 설명 없음</title>
-      <link>https://github.com/android/skills</link>
-      <guid isPermaLink="false">android/skills@2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 09:44:21 +0900</pubDate>
-      <description>Kotlin · ★ 8.1k · ▲ 36 (오늘) · 오늘 #7</description>
-      <category>Kotlin</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>MadsLorentzen/ai-job-search — 귀하의 컴퓨터에서 실행되는 채용정보 검색입니다. Claude Code를 기반으로 구축된 AI 입사 지원 프레임워크: 게시물 평가, CV 맞춤화, 자기 소개서 작성, 인터뷰 준비. 그것을 포크하고 소유하십시오.</title>
-      <link>https://github.com/MadsLorentzen/ai-job-search</link>
-      <guid isPermaLink="false">MadsLorentzen/ai-job-search@2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 09:44:21 +0900</pubDate>
-      <description>귀하의 컴퓨터에서 실행되는 채용정보 검색입니다. Claude Code를 기반으로 구축된 AI 입사 지원 프레임워크: 게시물 평가, CV 맞춤화, 자기 소개서 작성, 인터뷰 준비. 그것을 포크하고 소유하십시오.
-The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
-Python · ★ 48.5k · ▲ 898 (오늘) · 오늘 #11</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>hmjz100/LinkSwift — 네트워크 디스크 파일의 다운로드 주소를 얻기 위한 JavaScript 기반 도구입니다. [네트워크 디스크 직접 링크 다운로드 도우미] 수정에 따라 Baidu Cloud Disk / Alibaba Cloud Disk / China Mobile Cloud Disk / Tianyi Cloud Disk / Thunder Cloud Disk / Quark Clou…</title>
-      <link>https://github.com/hmjz100/LinkSwift</link>
-      <guid isPermaLink="false">hmjz100/LinkSwift@2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 09:44:21 +0900</pubDate>
-      <description>네트워크 디스크 파일의 다운로드 주소를 얻기 위한 JavaScript 기반 도구입니다. [네트워크 디스크 직접 링크 다운로드 도우미] 수정에 따라 Baidu Cloud Disk / Alibaba Cloud Disk / China Mobile Cloud Disk / Tianyi Cloud Disk / Thunder Cloud Disk / Quark Clou…
-一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘
-JavaScript · ★ 23.7k · ▲ 538 (오늘) · 오늘 #12</description>
-      <category>JavaScript</category>
       <category>오늘</category>
     </item>
   </channel>
