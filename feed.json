@@ -3037,29 +3037,6 @@
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
     "description_ko": "그래프/노드 인터페이스를 갖춘 가장 강력한 모듈형 확산 모델 GUI, API 및 백엔드입니다. 세계에서 가장 빠른 로컬 추론 엔진."
    }
-  },
-  {
-   "id": "anomalyco/opencode@2026-10-18",
-   "url": "https://github.com/anomalyco/opencode",
-   "title": "anomalyco/opencode — 오픈소스 코딩 에이전트.",
-   "content_text": "오픈소스 코딩 에이전트.\nThe open source coding agent.\nTypeScript · ★ 215.3k · ▲ 438 (오늘) · 오늘 #11",
-   "date_published": "2026-10-18T09:13:51+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "anomalyco/opencode",
-    "first_seen": "2026-10-18",
-    "period": "daily",
-    "rank": 11,
-    "filled_from": null,
-    "stars": 215290,
-    "stars_period": 438,
-    "language": "TypeScript",
-    "description": "The open source coding agent.",
-    "description_ko": "오픈소스 코딩 에이전트."
-   }
   }
  ]
 }

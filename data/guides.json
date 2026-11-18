@@ -577,18 +577,6 @@
   ],
   "default_branch": "main"
  },
- "Kruk2/jasna": {
-  "fetched": "2026-10-19",
-  "readme_url": "https://github.com/Kruk2/jasna#readme",
-  "install": [],
-  "usage_title": "Quick start",
-  "usage_text": "1. Download the release for your system and GPU.\n2. Unpack it into a folder with no Chinese, Japanese, accented or other\n non-English characters in the path.\n3. Start the app:\n• Windows: double-click jasna.exe.\n• Linux NVIDIA: run the jasna file.\n• Linux AMD: run runjasnaamd.sh.\n4. Add a video, choose settings and click the ▶ button at the bottom.\nYour first job is slow. On NVIDIA, Jasna first prepares the models for\nyour exact GPU. This takes about 15–60 minutes, only once. Close other\napps and don't use the PC during this time. When you update Jasna, copy the\nmodel_weights folder to the new version, so you don't wait again…",
-  "usage_code": "",
-  "license": "AGPL-3.0",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "Leonxlnx/taste-skill": {
   "fetched": "2026-11-12",
   "readme_url": "https://github.com/Leonxlnx/taste-skill#readme",
@@ -1277,7 +1265,7 @@
   "fork": false
  },
  "affaan-m/ECC": {
-  "fetched": "2026-10-30",
+  "fetched": "2026-11-18",
   "readme_url": "https://github.com/affaan-m/ECC#readme",
   "install": [
    "npx ecc-universal@2.2.3 setup",
@@ -1302,7 +1290,11 @@
    "mcp",
    "productivity"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-01-18",
+  "pushed": "2026-11-17",
+  "archived": false,
+  "fork": false
  },
  "ag-ui-protocol/ag-ui": {
   "fetched": "2026-11-15",
@@ -1869,7 +1861,7 @@
   "default_branch": "main"
  },
  "cursor/plugins": {
-  "fetched": "2026-10-30",
+  "fetched": "2026-11-18",
   "readme_url": "https://github.com/cursor/plugins#readme",
   "install": [],
   "usage_title": "Cursor plugins",
@@ -1878,7 +1870,11 @@
   "license": "",
   "homepage": "",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-01-23",
+  "pushed": "2026-11-17",
+  "archived": false,
+  "fork": false
  },
  "debpalash/VoiceStudio": {
   "fetched": "2026-11-12",
@@ -2691,6 +2687,32 @@
   "topics": [],
   "default_branch": "main"
  },
+ "jingyaogong/minimind": {
+  "fetched": "2026-11-18",
+  "readme_url": "https://github.com/jingyaogong/minimind#readme",
+  "install": [
+   "git clone --depth 1 https://github.com/jingyaogong/minimind",
+   "git clone https://huggingface.co/jingyaogong/minimind-3",
+   "ollama run jingyaogong/minimind-3",
+   "git clone https://github.com/EleutherAI/lm-evaluation-harness",
+   "curl http://localhost:8998/v1/chat/completions -H \"Content-Type: application/json\" -d '{",
+   "ollama create -f minimind.modelfile minimind-local"
+  ],
+  "usage_title": "📌 项目介绍",
+  "usage_text": "大语言模型（Large Language Model, LLM）的出现，引发了全球范围内对 AI 的空前关注。无论是 ChatGPT、DeepSeek 还是 Qwen，都以惊艳的效果让人真切感受到这场技术浪潮的冲击力。然而，动辄数百亿参数的模型规模，使得它们对个人设备而言不仅难以训练，甚至连部署都显得遥不可及。打开大模型的“黑盒子”，真正去理解其内部运作机制，本应是一件令人心潮澎湃的事。遗憾的是，绝大多数探索最终都止步于使用 LoRA 等技术对现有大模型做少量微调，学习一些新指令或特定任务。这更像是在教牛顿如何使用 21 世纪的智能手机——虽然有趣，却偏离了理解物理本质的初衷。\n与此同时，第三方的大模型框架与工具库，如 transformers / trl / peft 等，往往只暴露出高度抽象的接口。只需短短十几行代码，就可以完成“加载模型 + 加载数据集 + 推理 + 强化学习”的全流程训练。这种高效封装固然便利，却也在一定程度上把开发者与底层实现隔离开来，削弱了深入理解 LLM 核心代码的机会。我认为 “用乐高自己拼出一架飞机，远比坐在头等舱里飞行更让人兴奋”，然而更现实的问题是，互联网上充斥着大量付费课程和营销内容，用漏洞百出、一知半解的讲解包装所谓的 AI 教程。正因如此，本项目的初衷就是尽可能降低 LLM 的学习门槛，让每个人都能从理解每一行代码开始，从 0 开始亲手训练一个极小的语言模型。是的，从零开始训练，而不是仅仅停留在推理层面。最低只需不到 3 块钱的服务器成本，就能亲身体验从 0 到 1 构建一个语言模型的全过程。\n😊 一起感受创造的乐趣吧！\n---",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://jingyaogong.github.io/minimind",
+  "topics": [
+   "artificial-intelligence",
+   "large-language-model"
+  ],
+  "default_branch": "master",
+  "created": "2024-07-27",
+  "pushed": "2026-10-27",
+  "archived": false,
+  "fork": false
+ },
  "kajisho5/ffmpeg-skill": {
   "fetched": "2026-11-17",
   "readme_url": "https://github.com/kajisho5/ffmpeg-skill#readme",
@@ -3150,24 +3172,6 @@
   ],
   "default_branch": "main"
  },
- "mlabonne/llm-course": {
-  "fetched": "2026-10-19",
-  "readme_url": "https://github.com/mlabonne/llm-course#readme",
-  "install": [],
-  "usage_title": "1. Running LLMs",
-  "usage_text": "Running LLMs can be difficult due to high hardware requirements. Depending on your use case, you might want to simply consume a model through an API (like GPT-4) or run it locally. In any case, additional prompting and guidance techniques can improve and constrain the output for your applications.\n• LLM APIs: APIs are a convenient way to deploy LLMs. This space is divided between private LLMs (OpenAI, Google, Anthropic, etc.) and open-source LLMs (OpenRouter, Hugging Face, Together AI, etc.)…",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://mlabonne.github.io/blog/",
-  "topics": [
-   "course",
-   "large-language-models",
-   "llm",
-   "machine-learning",
-   "roadmap"
-  ],
-  "default_branch": "main"
- },
  "morluto/rea": {
   "fetched": "2026-11-12",
   "readme_url": "https://github.com/morluto/rea#readme",
@@ -3409,7 +3413,7 @@
   "fork": false
  },
  "obra/superpowers": {
-  "fetched": "2026-11-04",
+  "fetched": "2026-11-18",
   "readme_url": "https://github.com/obra/superpowers#readme",
   "install": [
    "git clone https://github.com/obra/superpowers.git"
@@ -3429,7 +3433,11 @@
    "subagent-driven-development",
    "superpowers"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2025-10-09",
+  "pushed": "2026-11-03",
+  "archived": false,
+  "fork": false
  },
  "openai/codex-security": {
   "fetched": "2026-11-12",
