@@ -1,6 +1,6 @@
 {
  "AgriciDaniel/claude-seo": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/AgriciDaniel/claude-seo#readme",
   "install": [
    "git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git",
@@ -24,7 +24,7 @@
   ],
   "default_branch": "main",
   "created": "2026-02-07",
-  "pushed": "2026-11-11",
+  "pushed": "2026-11-16",
   "archived": false,
   "fork": false
  },
@@ -364,7 +364,7 @@
   "default_branch": "main"
  },
  "GoogleChrome/modern-web-guidance-src": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/GoogleChrome/modern-web-guidance-src#readme",
   "install": [
    "npx modern-web-guidance@latest install",
@@ -382,7 +382,7 @@
   "topics": [],
   "default_branch": "main",
   "created": "2026-01-27",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -415,7 +415,7 @@
   "default_branch": "v8"
  },
  "HKUDS/CLI-Anything": {
-  "fetched": "2026-10-22",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/HKUDS/CLI-Anything#readme",
   "install": [
    "pip install cli-anything-hub",
@@ -427,10 +427,14 @@
   "license": "Apache-2.0",
   "homepage": "https://clianything.cc/",
   "topics": [],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-03-08",
+  "pushed": "2026-09-22",
+  "archived": false,
+  "fork": false
  },
  "HKUDS/DeepTutor": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/HKUDS/DeepTutor#readme",
   "install": [
    "docker run --rm --name deeptutor -p 127.0.0.1:3782:3782 -v deeptutor-data:/app/data ghcr.io/hkuds/deeptutor:latest",
@@ -457,7 +461,7 @@
   ],
   "default_branch": "main",
   "created": "2025-12-28",
-  "pushed": "2026-11-07",
+  "pushed": "2026-11-18",
   "archived": false,
   "fork": false
  },
@@ -578,7 +582,7 @@
   "default_branch": "main"
  },
  "Leonxlnx/taste-skill": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/Leonxlnx/taste-skill#readme",
   "install": [
    "npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"",
@@ -773,7 +777,7 @@
   "fork": false
  },
  "Nutlope/hallmark": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/Nutlope/hallmark#readme",
   "install": [
    "npx skills add nutlope/hallmark -g"
@@ -1208,7 +1212,7 @@
   "default_branch": "master"
  },
  "ZhuLinsen/daily_stock_analysis": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/ZhuLinsen/daily_stock_analysis#readme",
   "install": [
    "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git && cd daily_stock_analysis",
@@ -1230,7 +1234,7 @@
   ],
   "default_branch": "main",
   "created": "2026-01-10",
-  "pushed": "2026-11-10",
+  "pushed": "2026-11-18",
   "archived": false,
   "fork": false
  },
@@ -1523,7 +1527,7 @@
   "fork": false
  },
  "anthropics/skills": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/anthropics/skills#readme",
   "install": [],
   "usage_title": "Creating a Basic Skill",
@@ -1536,7 +1540,37 @@
   ],
   "default_branch": "main",
   "created": "2025-09-22",
-  "pushed": "2026-11-06",
+  "pushed": "2026-11-16",
+  "archived": false,
+  "fork": false
+ },
+ "appwrite/appwrite": {
+  "fetched": "2026-11-19",
+  "readme_url": "https://github.com/appwrite/appwrite#readme",
+  "install": [
+   "docker run -it --rm --publish 127.0.0.1:20080:20080 --volume /var/run/docker.sock:/var/run/docker.sock --volume \"$(pwd)\"/appwrite:/usr/src/code/appwrite:rw --entrypoint=\"install\" appwrite/appwrite:2.7.2",
+   "docker run -it --rm ^",
+   "docker run -it --rm `",
+   "npx skills add appwrite/agent-skills"
+  ],
+  "usage_title": "Getting Started",
+  "usage_text": "Getting started with Appwrite is as easy as creating a new project, connecting an agent, or integrating an SDK into your code. You can start from a prompt, a quick start tutorial, or the hosted MCP server.",
+  "usage_code": "",
+  "license": "BSD-3-Clause",
+  "homepage": "https://appwrite.io",
+  "topics": [
+   "android",
+   "appwrite",
+   "backend",
+   "backend-as-a-service",
+   "docker",
+   "firebase",
+   "firewall",
+   "flutter"
+  ],
+  "default_branch": "main",
+  "created": "2019-04-08",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -1596,6 +1630,31 @@
    "static-analysis"
   ],
   "default_branch": "main"
+ },
+ "astral-sh/uv": {
+  "fetched": "2026-11-19",
+  "readme_url": "https://github.com/astral-sh/uv#readme",
+  "install": [
+   "curl -LsSf https://astral.sh/uv/install.sh | sh",
+   "pip install uv",
+   "pipx install uv"
+  ],
+  "usage_title": "uv",
+  "usage_text": "An extremely fast Python package and project manager, written in Rust.\n Installing Trio 's dependencies with a warm cache.",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.astral.sh/uv",
+  "topics": [
+   "packaging",
+   "python",
+   "resolver",
+   "uv"
+  ],
+  "default_branch": "main",
+  "created": "2023-10-02",
+  "pushed": "2026-11-19",
+  "archived": false,
+  "fork": false
  },
  "aws/agent-toolkit-for-aws": {
   "fetched": "2026-10-25",
@@ -1819,7 +1878,7 @@
   "default_branch": "main"
  },
  "cloudflare/security-audit-skill": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
   "install": [
    "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
@@ -2478,34 +2537,6 @@
   ],
   "default_branch": "main"
  },
- "headroomlabs-ai/headroom": {
-  "fetched": "2026-10-20",
-  "readme_url": "https://github.com/headroomlabs-ai/headroom#readme",
-  "install": [
-   "uv tool install --python 3.13 \"headroom-ai[all]\"  # CLI in a self-contained env",
-   "pip install \"headroom-ai[all]\"  # Python — ships the `headroom` CLI",
-   "npm install headroom-ai  # TypeScript SDK only — no CLI",
-   "uv tool install --python 3.13 \"headroom-ai[all]\"  # CLI, isolated app env",
-   "pip install \"headroom-ai[all]\"  # Python, everything — includes the CLI",
-   "npm install headroom-ai  # TypeScript SDK (library only)"
-  ],
-  "usage_title": "How it works",
-  "usage_text": "• ContentRouter detects the content type and selects a compressor for it.\n• SmartCrusher / CodeCompressor / Kompress-v2-base handle JSON, source code and prose respectively.\n• CacheAligner flags volatile content that would bust a provider KV-cache prefix. It never rewrites prompts.\n• CCR stores originals locally so the model can call headroom_retrieve when it needs the full text.\n→ Architecture ·\nCCR ·\nKompress-v2-base model card",
-  "usage_code": " Your agent / app\n   (Claude Code, Cursor, Codex, LangChain, Agno, Strands, your own code…)\n        │   prompts · tool outputs · logs · RAG results · files\n        ▼\n    ┌────────────────────────────────────────────────────┐\n    │  Headroom   (runs locally — your data stays here)  │\n    │  ────────────────────────────────────────────────  │\n    │  CacheAligner  →  ContentRouter  →  CCR            │\n    │                    ├─ SmartCrusher   (JSON)        │\n    │                    ├─ CodeCompressor (AST)         │\n    │                    └─ Kompress-v2-base (text, HF)  │\n    │                                                    │\n    │  Cross-agent memory  ·  headroom learn  ·  MCP     │\n    └────────────────────────────────────────────────────┘\n        │   compressed prompt  +  retrieval tool\n        ▼\n LLM provider  (Anthropic · OpenAI · Bedrock · …)",
-  "license": "Apache-2.0",
-  "homepage": "https://docs.headroomlabs.ai/docs",
-  "topics": [
-   "agent",
-   "ai",
-   "anthropic",
-   "claude-code",
-   "compression",
-   "context-engineering",
-   "context-window",
-   "cursor"
-  ],
-  "default_branch": "main"
- },
  "herdrdev/herdr": {
   "fetched": "2026-11-12",
   "readme_url": "https://github.com/herdrdev/herdr#readme",
@@ -2535,7 +2566,7 @@
   "fork": false
  },
  "heygen-com/hyperframes": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
   "install": [
    "claude plugin marketplace add heygen-com/hyperframes",
@@ -2562,7 +2593,7 @@
   ],
   "default_branch": "main",
   "created": "2026-03-10",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -2710,6 +2741,31 @@
   "default_branch": "master",
   "created": "2024-07-27",
   "pushed": "2026-10-27",
+  "archived": false,
+  "fork": false
+ },
+ "jquery/jquery": {
+  "fetched": "2026-11-19",
+  "readme_url": "https://github.com/jquery/jquery#readme",
+  "install": [
+   "npm install",
+   "npm run build",
+   "npm run build:all",
+   "npm run build -- --help",
+   "npm run build -- --amd=\"custom-name\"",
+   "npm run build -- --amd"
+  ],
+  "usage_title": "Custom Build Examples",
+  "usage_text": "Create a custom build using npm run build, listing the modules to be excluded. Excluding a top-level module also excludes its corresponding directory of modules.\nExclude all ajax functionality:\nExcluding css removes modules depending on CSS: effects, offset, dimensions.\nExclude a bunch of modules (-e is an alias for --exclude):\nThere is a special alias to generate a build with the same configuration as the official jQuery Slim build:\nOr, to create the slim build as an esm module:\nNon-official custom builds are not regularly tested. Use them at your own risk.",
+  "usage_code": "npm run build -- --exclude=ajax",
+  "license": "MIT",
+  "homepage": "https://jquery.com",
+  "topics": [
+   "jquery"
+  ],
+  "default_branch": "main",
+  "created": "2009-04-03",
+  "pushed": "2026-11-17",
   "archived": false,
   "fork": false
  },
@@ -3039,7 +3095,7 @@
   "default_branch": "main"
  },
  "meta/astryx": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/meta/astryx#readme",
   "install": [
    "npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
@@ -3057,7 +3113,7 @@
   "topics": [],
   "default_branch": "main",
   "created": "2026-01-09",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -3117,7 +3173,7 @@
   "default_branch": "main"
  },
  "milind-soni/OpenMausBot": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/milind-soni/OpenMausBot#readme",
   "install": [
    "git clone https://github.com/milind-soni/OpenMausBot && cd OpenMausBot",
@@ -3140,7 +3196,7 @@
   ],
   "default_branch": "main",
   "created": "2026-08-11",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-18",
   "archived": false,
   "fork": false
  },
@@ -3310,6 +3366,35 @@
   ],
   "default_branch": "main"
  },
+ "n8n-io/n8n": {
+  "fetched": "2026-11-19",
+  "readme_url": "https://github.com/n8n-io/n8n#readme",
+  "install": [
+   "curl -fsSL https://get.n8n.io | sh",
+   "docker volume create n8n_data",
+   "docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "Try n8n instantly with our install script (requires Docker):\nOr deploy manually with Docker:\nAccess the editor at http://localhost:5678",
+  "usage_code": "curl -fsSL https://get.n8n.io | sh",
+  "license": "기타",
+  "homepage": "https://n8n.io",
+  "topics": [
+   "ai",
+   "apis",
+   "automation",
+   "cli",
+   "data-flow",
+   "development",
+   "integration-framework",
+   "integrations"
+  ],
+  "default_branch": "master",
+  "created": "2019-06-22",
+  "pushed": "2026-11-19",
+  "archived": false,
+  "fork": false
+ },
  "nightly-labs/openbot": {
   "fetched": "2026-11-07",
   "readme_url": "https://github.com/nightly-labs/openbot#readme",
@@ -3440,7 +3525,7 @@
   "fork": false
  },
  "openai/codex-security": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/openai/codex-security#readme",
   "install": [
    "npm install --global @openai/codex-security",
@@ -3463,7 +3548,7 @@
   ],
   "default_branch": "main",
   "created": "2026-07-13",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -3485,6 +3570,33 @@
    "tls"
   ],
   "default_branch": "master"
+ },
+ "openvinotoolkit/openvino": {
+  "fetched": "2026-11-19",
+  "readme_url": "https://github.com/openvinotoolkit/openvino#readme",
+  "install": [
+   "pip install -U openvino"
+  ],
+  "usage_title": "Tutorials and Examples",
+  "usage_text": "OpenVINO Quickstart example will walk you through the basics of deploying your first model.\nLearn how to optimize and deploy popular models with the OpenVINO Notebooks 📚:\n• Create an LLM-powered Chatbot using OpenVINO\n• YOLOv11 Optimization\n• Text-to-Image Generation\n• Multimodal assistant with LLaVa and OpenVINO\n• Automatic speech recognition using Whisper and OpenVINO\nDiscover more examples in the OpenVINO Samples (Python & C++) and Notebooks (Python).\nHere are easy-to-follow code examples demonstrating how to run PyTorch and TensorFlow model inference using OpenVINO:\nPyTorch Model\nTensorFlow Model…",
+  "usage_code": "import openvino as ov\nimport torch\nimport torchvision\n\n# load PyTorch model into memory\nmodel = torch.hub.load(\"pytorch/vision\", \"shufflenet_v2_x1_0\", weights=\"DEFAULT\")\n\n# convert the model into OpenVINO model\nexample = torch.randn(1, 3, 224, 224)\nov_model = ov.convert_model(model, example_input=(example,))\n\n# compile the model for CPU device\ncore = ov.Core()\ncompiled_model = core.compile_model(ov_model, 'CPU')\n\n# infer the model on random data\noutput = compiled_model({0: example.numpy()})",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.openvino.ai",
+  "topics": [
+   "ai",
+   "computer-vision",
+   "deep-learning",
+   "deploy-ai",
+   "diffusion-models",
+   "generative-ai",
+   "good-first-issue",
+   "inference"
+  ],
+  "default_branch": "master",
+  "created": "2018-10-15",
+  "pushed": "2026-11-19",
+  "archived": false,
+  "fork": false
  },
  "p-e-w/heretic": {
   "fetched": "2026-11-03",
@@ -3556,7 +3668,7 @@
   "default_branch": "main"
  },
  "pbakaus/impeccable": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/pbakaus/impeccable#readme",
   "install": [
    "npx impeccable install",
@@ -3576,12 +3688,12 @@
   ],
   "default_branch": "main",
   "created": "2025-11-16",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-18",
   "archived": false,
   "fork": false
  },
  "php/php-src": {
-  "fetched": "2026-10-30",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/php/php-src#readme",
   "install": [
    "make install",
@@ -3595,21 +3707,36 @@
   "license": "BSD-3-Clause",
   "homepage": "https://www.php.net",
   "topics": [],
-  "default_branch": "master"
+  "default_branch": "master",
+  "created": "2011-06-16",
+  "pushed": "2026-11-18",
+  "archived": false,
+  "fork": false
  },
  "pingdotgg/t3code": {
-  "fetched": "2026-11-12",
-  "readme_url": "https://github.com/pingdotgg/t3code",
-  "install": [],
-  "usage_title": "",
-  "usage_text": "",
+  "fetched": "2026-11-19",
+  "readme_url": "https://github.com/pingdotgg/t3code#readme",
+  "install": [
+   "curl -fsSL https://t3.codes/install.sh | sh"
+  ],
+  "usage_title": "What you get",
+  "usage_text": "• Your subscriptions. T3 Code does not resell tokens. It drives the agents you are already signed in to.\n• Every agent in one place. Change models in the middle of a thread. Let Claude hand a task to Codex.\n• Desktop, web, and phone. One server, and every client shows the same threads. There are apps for iOS and Android.\n• Remote ready. Run agents on any machine. Connect over your local network, Tailscale, or T3 Connect.\n• Git built in. Each thread can work in its own worktree. Review the diff, then commit, push, and open a pull request with one button.\n• Fast. Performance is a feature here. We measure it, and we treat a dropped frame as a bug…",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://t3.codes",
-  "topics": [],
+  "topics": [
+   "agent-orchestration",
+   "agents",
+   "ai",
+   "chatgpt",
+   "claude",
+   "claude-code",
+   "code",
+   "vibe-coding"
+  ],
   "default_branch": "main",
   "created": "2026-02-08",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -3688,6 +3815,25 @@
    "open-source"
   ],
   "default_branch": "master"
+ },
+ "punkpeye/awesome-mcp-servers": {
+  "fetched": "2026-11-19",
+  "readme_url": "https://github.com/punkpeye/awesome-mcp-servers#readme",
+  "install": [],
+  "usage_title": "Tutorials",
+  "usage_text": "• Tool Definition Quality Score (TDQS)\n• Model Context Protocol (MCP) Quickstart\n• Setup Claude Desktop App to Use a SQLite Database",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://glama.ai/mcp/servers",
+  "topics": [
+   "ai",
+   "mcp"
+  ],
+  "default_branch": "main",
+  "created": "2024-11-30",
+  "pushed": "2026-11-17",
+  "archived": false,
+  "fork": false
  },
  "rails/rails": {
   "fetched": "2026-11-07",
@@ -3891,7 +4037,7 @@
   "fork": false
  },
  "sherlock-project/sherlock": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/sherlock-project/sherlock",
   "install": [],
   "usage_title": "",
@@ -3911,7 +4057,7 @@
   ],
   "default_branch": "master",
   "created": "2018-12-24",
-  "pushed": "2026-11-11",
+  "pushed": "2026-11-18",
   "archived": false,
   "fork": false
  },
@@ -3952,6 +4098,35 @@
    "antigravity-skills"
   ],
   "default_branch": "main"
+ },
+ "solidjs/solid": {
+  "fetched": "2026-11-19",
+  "readme_url": "https://github.com/solidjs/solid#readme",
+  "install": [
+   "npx degit solidjs/templates/solid-v2/basic my-app",
+   "npm install",
+   "npm run dev"
+  ],
+  "usage_title": "Key features",
+  "usage_text": "• Fine-grained updates to the real DOM — no virtual DOM diff.\n• Declarative reactive primitives (createSignal, createMemo, createStore).\n• Render-once components — your component function is plain JavaScript that runs once.\n• Automatic dependency tracking — reading reactive state subscribes to it.\n• Microtask-batched updates with flush() for synchronous interop.\n• First-class async: any computation can return a Promise/AsyncIterable; is the boundary.\n• Optimistic UI primitives (createOptimistic, createOptimisticStore) and structured action(...) mutations.\n• Streaming SSR and progressive hydration.\n• TypeScript-first, JSX-first, web-component friendly…",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://solidjs.com",
+  "topics": [
+   "declarative",
+   "fine-grained",
+   "javascript",
+   "jsx",
+   "performance",
+   "proxies",
+   "reactive",
+   "solid"
+  ],
+  "default_branch": "main",
+  "created": "2018-04-24",
+  "pushed": "2026-11-19",
+  "archived": false,
+  "fork": false
  },
  "spotify/portal-ai-plugins": {
   "fetched": "2026-11-04",
@@ -4171,7 +4346,7 @@
   "default_branch": "main"
  },
  "thedotmack/claude-mem": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/thedotmack/claude-mem#readme",
   "install": [
    "npx claude-mem install",
@@ -4182,7 +4357,7 @@
    "npx claude-mem install --ide pi"
   ],
   "usage_title": "Quick Start",
-  "usage_text": "Installing for someone as an AI agent? If the user is available, run npx claude-mem install --setup browser on their computer and keep it running. It prepares the local runtime, then opens setup in their browser; if the page doesn't open, give them the printed URL. Every choice (agents, integrations, skills, model, usage analytics, the optional email) is made by the user on that page, so there are no terminal questions to relay. If the user is away, run npx claude-mem install --setup defer: it prepares the runtime and leaves setup waiting for their first visit, and their next session shows them the link. Don't make their choices for them…",
+  "usage_text": "Installing for someone as an AI agent? If the user is available, run npx claude-mem install --setup browser on their computer and keep it running. In an interactive terminal, they can enter a work email and an optional message, or press Enter to skip. An unattended terminal skips both prompts. The installer prepares the local runtime, then opens the browser for the user to choose agents, integrations, skills, model, and usage analytics. If the page doesn't open, give them the printed URL. If the user is away, run npx claude-mem install --setup defer to prepare the runtime and leave setup waiting for their first visit. Their next session shows them the link…",
   "usage_code": "npx claude-mem install",
   "license": "Apache-2.0",
   "homepage": "https://claude-mem.ai",
@@ -4198,7 +4373,7 @@
   ],
   "default_branch": "main",
   "created": "2025-08-31",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-18",
   "archived": false,
   "fork": false
  },
@@ -4294,7 +4469,7 @@
   "default_branch": "main"
  },
  "vercel-labs/agent-browser": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/vercel-labs/agent-browser#readme",
   "install": [
    "npm install -g agent-browser",
@@ -4309,7 +4484,7 @@
   "topics": [],
   "default_branch": "main",
   "created": "2026-01-11",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -4406,7 +4581,7 @@
   "default_branch": "main"
  },
  "we-promise/sure": {
-  "fetched": "2026-11-12",
+  "fetched": "2026-11-19",
   "readme_url": "https://github.com/we-promise/sure#readme",
   "install": [],
   "usage_title": "Getting Started",
@@ -4417,21 +4592,9 @@
   "topics": [],
   "default_branch": "main",
   "created": "2025-07-23",
-  "pushed": "2026-11-12",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
- },
- "withmarbleapp/os-taxonomy": {
-  "fetched": "2026-10-20",
-  "readme_url": "https://github.com/withmarbleapp/os-taxonomy#readme",
-  "install": [],
-  "usage_title": "Marble Skill Taxonomy",
-  "usage_text": "An open, structured taxonomy of what children learn across the primary/elementary years — decomposed into fine-grained \"micro-topics\", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by Marble.\n> Version: v1 · Topics: 1,591 · Prerequisite edges: 3,225 · Subjects: 8",
-  "usage_code": "",
-  "license": "ODbL-1.0",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
  },
  "wshobson/agents": {
   "fetched": "2026-10-21",

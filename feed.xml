@@ -5,9 +5,85 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:49:24 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 12:48:08 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>astral-sh/uv — Rust로 작성된 매우 빠른 Python 패키지 및 프로젝트 관리자입니다.</title>
+      <link>https://github.com/astral-sh/uv</link>
+      <guid isPermaLink="false">astral-sh/uv@2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:48:08 +0900</pubDate>
+      <description>Rust로 작성된 매우 빠른 Python 패키지 및 프로젝트 관리자입니다.
+An extremely fast Python package and project manager, written in Rust.
+Rust · ★ 92.3k · ▲ 258 (오늘) · 오늘 #7</description>
+      <category>Rust</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>jquery/jquery — jQuery 자바스크립트 라이브러리</title>
+      <link>https://github.com/jquery/jquery</link>
+      <guid isPermaLink="false">jquery/jquery@2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:48:08 +0900</pubDate>
+      <description>jQuery 자바스크립트 라이브러리
+jQuery JavaScript Library
+JavaScript · ★ 60k · ▲ 266 (오늘) · 오늘 #11</description>
+      <category>JavaScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>appwrite/appwrite — 에이전트와 개발자를 위한 오픈 소스 클라우드입니다. 인증, 데이터베이스, 저장소, 기능, 메시징, 호스팅, 실시간, WAF 등 포함</title>
+      <link>https://github.com/appwrite/appwrite</link>
+      <guid isPermaLink="false">appwrite/appwrite@2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:48:08 +0900</pubDate>
+      <description>에이전트와 개발자를 위한 오픈 소스 클라우드입니다. 인증, 데이터베이스, 저장소, 기능, 메시징, 호스팅, 실시간, WAF 등 포함
+The open-source cloud for agents &amp; devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more
+TypeScript · ★ 58.3k · ▲ 232 (오늘) · 오늘 #12</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>openvinotoolkit/openvino — OpenVINO™는 AI 추론을 최적화하고 배포하기 위한 오픈 소스 툴킷입니다.</title>
+      <link>https://github.com/openvinotoolkit/openvino</link>
+      <guid isPermaLink="false">openvinotoolkit/openvino@2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:48:08 +0900</pubDate>
+      <description>OpenVINO™는 AI 추론을 최적화하고 배포하기 위한 오픈 소스 툴킷입니다.
+OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
+C++ · ★ 11.4k · ▲ 24 (오늘) · 오늘 #13</description>
+      <category>C++</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>n8n-io/n8n — 기본 AI 기능을 갖춘 공정한 코드 워크플로 자동화 플랫폼입니다. 시각적 구축을 사용자 정의 코드, 자체 호스트 또는 클라우드, 400개 이상의 통합과 결합합니다.</title>
+      <link>https://github.com/n8n-io/n8n</link>
+      <guid isPermaLink="false">n8n-io/n8n@2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:48:08 +0900</pubDate>
+      <description>기본 AI 기능을 갖춘 공정한 코드 워크플로 자동화 플랫폼입니다. 시각적 구축을 사용자 정의 코드, 자체 호스트 또는 클라우드, 400개 이상의 통합과 결합합니다.
+Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+TypeScript · ★ 211.2k · ▲ 325 (오늘) · 오늘 #17</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>solidjs/solid — 사용자 인터페이스 구축을 위한 선언적이고 효율적이며 유연한 JavaScript 라이브러리입니다.</title>
+      <link>https://github.com/solidjs/solid</link>
+      <guid isPermaLink="false">solidjs/solid@2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:48:08 +0900</pubDate>
+      <description>사용자 인터페이스 구축을 위한 선언적이고 효율적이며 유연한 JavaScript 라이브러리입니다.
+A declarative, efficient, and flexible JavaScript library for building user interfaces.
+TypeScript · ★ 36.6k · ▲ 40 (오늘) · 오늘 #18</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>punkpeye/awesome-mcp-servers — MCP 서버 모음입니다.</title>
+      <link>https://github.com/punkpeye/awesome-mcp-servers</link>
+      <guid isPermaLink="false">punkpeye/awesome-mcp-servers@2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:48:08 +0900</pubDate>
+      <description>MCP 서버 모음입니다.
+A collection of MCP servers.
+★ 98.1k · ▲ 53 (오늘) · 오늘 #19</description>
+      <category>오늘</category>
+    </item>
     <item>
       <title>getarcaneapp/arcane — 모두를 위해 설계된 최신 Docker 관리</title>
       <link>https://github.com/getarcaneapp/arcane</link>
@@ -1415,38 +1491,6 @@ DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同
 JavaScript · ★ 8.9k · ▲ 2.9k (이번 주) · 이번 주 #13</description>
       <category>JavaScript</category>
       <category>이번 주</category>
-    </item>
-    <item>
-      <title>mlabonne/llm-course — 로드맵과 Colab 노트북을 사용하여 LLM(대형 언어 모델)을 시작하는 과정입니다.</title>
-      <link>https://github.com/mlabonne/llm-course</link>
-      <guid isPermaLink="false">mlabonne/llm-course@2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 09:25:44 +0900</pubDate>
-      <description>로드맵과 Colab 노트북을 사용하여 LLM(대형 언어 모델)을 시작하는 과정입니다.
-Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
-★ 84k · ▲ 81 (오늘) · 오늘 #11</description>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>Kruk2/jasna — 비디오 복원 도구</title>
-      <link>https://github.com/Kruk2/jasna</link>
-      <guid isPermaLink="false">Kruk2/jasna@2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 09:25:44 +0900</pubDate>
-      <description>비디오 복원 도구
-Video restoration tool
-Python · ★ 2.4k · ▲ 115 (오늘) · 오늘 #12</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>Comfy-Org/ComfyUI — 그래프/노드 인터페이스를 갖춘 가장 강력한 모듈형 확산 모델 GUI, API 및 백엔드입니다. 세계에서 가장 빠른 로컬 추론 엔진.</title>
-      <link>https://github.com/Comfy-Org/ComfyUI</link>
-      <guid isPermaLink="false">Comfy-Org/ComfyUI@2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 09:25:44 +0900</pubDate>
-      <description>그래프/노드 인터페이스를 갖춘 가장 강력한 모듈형 확산 모델 GUI, API 및 백엔드입니다. 세계에서 가장 빠른 로컬 추론 엔진.
-The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
-Python · ★ 138.6k · ▲ 154 (오늘) · 오늘 #13</description>
-      <category>Python</category>
-      <category>오늘</category>
     </item>
   </channel>
 </rss>
