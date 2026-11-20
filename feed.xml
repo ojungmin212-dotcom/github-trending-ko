@@ -5,9 +5,97 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 19 Nov 2026 12:48:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:41:30 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>firecrawl/firecrawl — 상담원을 더욱 스마트하게 만드는 지식 인프라입니다. 하나의 API를 통해 검색, 스크랩 및 550개 이상의 데이터 제공자를 제공합니다.</title>
+      <link>https://github.com/firecrawl/firecrawl</link>
+      <guid isPermaLink="false">firecrawl/firecrawl@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:41:30 +0900</pubDate>
+      <description>상담원을 더욱 스마트하게 만드는 지식 인프라입니다. 하나의 API를 통해 검색, 스크랩 및 550개 이상의 데이터 제공자를 제공합니다.
+Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.
+TypeScript · ★ 204.4k · ▲ 825 (오늘) · 오늘 #6</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>nginx/nginx — 공식 NGINX 오픈 소스 저장소.</title>
+      <link>https://github.com/nginx/nginx</link>
+      <guid isPermaLink="false">nginx/nginx@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:41:30 +0900</pubDate>
+      <description>공식 NGINX 오픈 소스 저장소.
+The official NGINX Open Source repository.
+C · ★ 32.4k · ▲ 73 (오늘) · 오늘 #7</description>
+      <category>C</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>mjmirza/app-store-compliance — 일반적인 App Store 및 Google Play 거부를 피하세요. 117개의 문서화된 거부 패턴 및 수정 사항, 개인 정보 보호 매니페스트 및 데이터 안전 확인, 95개의 추적 마감일(EU AI Act, DSA, COPPA, 연령법) 및 AI 코딩 에이전트 기술을 갖춘 공개 플레이북 및 제출 전 가드입니다.</title>
+      <link>https://github.com/mjmirza/app-store-compliance</link>
+      <guid isPermaLink="false">mjmirza/app-store-compliance@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:41:30 +0900</pubDate>
+      <description>일반적인 App Store 및 Google Play 거부를 피하세요. 117개의 문서화된 거부 패턴 및 수정 사항, 개인 정보 보호 매니페스트 및 데이터 안전 확인, 95개의 추적 마감일(EU AI Act, DSA, COPPA, 연령법) 및 AI 코딩 에이전트 기술을 갖춘 공개 플레이북 및 제출 전 가드입니다.
+Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlin…
+Shell · ★ 2k · ▲ 377 (오늘) · 오늘 #12</description>
+      <category>Shell</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>Tracer-Cloud/opensre — CI/CD 안정성을 위한 오픈 소스 에이전트입니다.</title>
+      <link>https://github.com/Tracer-Cloud/opensre</link>
+      <guid isPermaLink="false">Tracer-Cloud/opensre@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:41:30 +0900</pubDate>
+      <description>CI/CD 안정성을 위한 오픈 소스 에이전트입니다.
+The open-source agent for CI/CD reliability.
+Python · ★ 13.2k · ▲ 38 (오늘) · 오늘 #13</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>toeverything/AFFiNE — Notion과 Miro보다 더 많은 것이 있을 수 있습니다. AFFiNE([ə'fain]으로 발음)은 계획, 분류 및 생성을 모두 함께 제공하는 차세대 지식 기반입니다. 개인 정보 보호 우선, 오픈 소스, 사용자 정의 가능, 즉시 사용 가능.</title>
+      <link>https://github.com/toeverything/AFFiNE</link>
+      <guid isPermaLink="false">toeverything/AFFiNE@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:41:30 +0900</pubDate>
+      <description>Notion과 Miro보다 더 많은 것이 있을 수 있습니다. AFFiNE([ə'fain]으로 발음)은 계획, 분류 및 생성을 모두 함께 제공하는 차세대 지식 기반입니다. 개인 정보 보호 우선, 오픈 소스, 사용자 정의 가능, 즉시 사용 가능.
+There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and…
+TypeScript · ★ 75.3k · ▲ 182 (오늘) · 오늘 #14</description>
+      <category>TypeScript</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>XiaoYouChR/Ghost-Downloader-3 — 당신에게 필요한 유일한 다운로더. 다운로더의 달인.</title>
+      <link>https://github.com/XiaoYouChR/Ghost-Downloader-3</link>
+      <guid isPermaLink="false">XiaoYouChR/Ghost-Downloader-3@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:41:30 +0900</pubDate>
+      <description>당신에게 필요한 유일한 다운로더. 다운로더의 달인.
+The only downloader you need. 下载器的集大成者。
+Python · ★ 12.9k · ▲ 341 (오늘) · 오늘 #15</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>zhouxiaoka/autoclip — AutoClip | 하나의 링크, 원클릭으로 클립이 제작됩니다. 팟캐스트, 인터뷰, 강의 등 긴 동영상을 자동으로 짧은 동영상으로 자르고 자막, 표지, 출판 사본을 생성하는 오픈소스 AI 동영상 편집 데스크톱 도구로 Douyin, Xiaohongshu, TikTok, Reels, YouTube Shorts에 적합합니다. 오픈 소스 AI 비디오 클리핑 및…</title>
+      <link>https://github.com/zhouxiaoka/autoclip</link>
+      <guid isPermaLink="false">zhouxiaoka/autoclip@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:41:30 +0900</pubDate>
+      <description>AutoClip | 하나의 링크, 원클릭으로 클립이 제작됩니다. 팟캐스트, 인터뷰, 강의 등 긴 동영상을 자동으로 짧은 동영상으로 자르고 자막, 표지, 출판 사본을 생성하는 오픈소스 AI 동영상 편집 데스크톱 도구로 Douyin, Xiaohongshu, TikTok, Reels, YouTube Shorts에 적합합니다. 오픈 소스 AI 비디오 클리핑 및…
+AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp; content repurposing.
+Python · ★ 11.4k · ▲ 126 (오늘) · 오늘 #16</description>
+      <category>Python</category>
+      <category>오늘</category>
+    </item>
+    <item>
+      <title>Jakeschincariol/instagram-agent-skill — Instagram 계정을 운영하는 13가지 Claude 기술: 26개의 득점 후크 공식, 바이러스성 연구 기술, 캡션 린터 및 휴머나이저를 실행합니다. 무료, MIT.</title>
+      <link>https://github.com/Jakeschincariol/instagram-agent-skill</link>
+      <guid isPermaLink="false">Jakeschincariol/instagram-agent-skill@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:41:30 +0900</pubDate>
+      <description>Instagram 계정을 운영하는 13가지 Claude 기술: 26개의 득점 후크 공식, 바이러스성 연구 기술, 캡션 린터 및 휴머나이저를 실행합니다. 무료, MIT.
+Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.
+Python · ★ 7.4k · ▲ 5.3k (이번 달) · 이번 달 #7</description>
+      <category>Python</category>
+      <category>이번 달</category>
+    </item>
     <item>
       <title>astral-sh/uv — Rust로 작성된 매우 빠른 Python 패키지 및 프로젝트 관리자입니다.</title>
       <link>https://github.com/astral-sh/uv</link>
@@ -1449,48 +1537,6 @@ A high-throughput and memory-efficient inference and serving engine for LLMs
 Python · ★ 94.4k · ▲ 128 (오늘) · 오늘 #15</description>
       <category>Python</category>
       <category>오늘</category>
-    </item>
-    <item>
-      <title>headroomlabs-ai/headroom — 도구 출력, 로그, 파일 및 RAG 청크가 LLM에 도달하기 전에 압축합니다. 코딩 에이전트의 경우 토큰이 20% 적고 JSON의 경우 토큰이 60-95% 적으며 답변은 동일합니다. 라이브러리, 프록시, MCP 서버.</title>
-      <link>https://github.com/headroomlabs-ai/headroom</link>
-      <guid isPermaLink="false">headroomlabs-ai/headroom@2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 10:12:25 +0900</pubDate>
-      <description>도구 출력, 로그, 파일 및 RAG 청크가 LLM에 도달하기 전에 압축합니다. 코딩 에이전트의 경우 토큰이 20% 적고 JSON의 경우 토큰이 60-95% 적으며 답변은 동일합니다. 라이브러리, 프록시, MCP 서버.
-Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
-Python · ★ 76.3k · ▲ 310 (오늘) · 오늘 #7</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>withmarbleapp/os-taxonomy — 설명 없음</title>
-      <link>https://github.com/withmarbleapp/os-taxonomy</link>
-      <guid isPermaLink="false">withmarbleapp/os-taxonomy@2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 10:12:25 +0900</pubDate>
-      <description>JavaScript · ★ 6.1k · ▲ 284 (오늘) · 오늘 #8</description>
-      <category>JavaScript</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>shiyu-coder/Kronos — 크로노스: 금융 시장 언어의 기초 모델</title>
-      <link>https://github.com/shiyu-coder/Kronos</link>
-      <guid isPermaLink="false">shiyu-coder/Kronos@2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 10:12:25 +0900</pubDate>
-      <description>크로노스: 금융 시장 언어의 기초 모델
-Kronos: A Foundation Model for the Language of Financial Markets
-Python · ★ 41.7k · ▲ 363 (오늘) · 오늘 #12</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>YuJunZhiXue/dsh-purge — DeepSeek 하네스 방어구 파괴: 모든 모델이 방어구를 파괴할 수 있습니다. 다른 모델은 다른 프롬프트 단어로 대체될 수 있습니다. 기본 프롬프트 단어는 중국어 모델 "Xiaomajiang"에 대한 것입니다. 모든 모델에 대한 탈옥 - 모델별로 프롬프트를 교환합니다. 스타 컬렉션 요청 ⭐ 사본을 열려면 서명 요구 사항 섹션을 확인하세요.</title>
-      <link>https://github.com/YuJunZhiXue/dsh-purge</link>
-      <guid isPermaLink="false">YuJunZhiXue/dsh-purge@2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 10:12:25 +0900</pubDate>
-      <description>DeepSeek 하네스 방어구 파괴: 모든 모델이 방어구를 파괴할 수 있습니다. 다른 모델은 다른 프롬프트 단어로 대체될 수 있습니다. 기본 프롬프트 단어는 중국어 모델 "Xiaomajiang"에 대한 것입니다. 모든 모델에 대한 탈옥 - 모델별로 프롬프트를 교환합니다. 스타 컬렉션 요청 ⭐ 사본을 열려면 서명 요구 사항 섹션을 확인하세요.
-DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
-JavaScript · ★ 8.9k · ▲ 2.9k (이번 주) · 이번 주 #13</description>
-      <category>JavaScript</category>
-      <category>이번 주</category>
     </item>
   </channel>
 </rss>

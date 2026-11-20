@@ -465,6 +465,24 @@
   "archived": false,
   "fork": false
  },
+ "Jakeschincariol/instagram-agent-skill": {
+  "fetched": "2026-11-20",
+  "readme_url": "https://github.com/Jakeschincariol/instagram-agent-skill#readme",
+  "install": [
+   "git clone https://github.com/Jakeschincariol/instagram-agent-skill.git"
+  ],
+  "usage_title": "The five tools that actually run",
+  "usage_text": "No dependencies, no network, nothing uploaded. They run on your machine, on\nyour text.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [],
+  "default_branch": "main",
+  "created": "2026-09-13",
+  "pushed": "2026-09-13",
+  "archived": false,
+  "fork": false
+ },
  "JetBrains/thinkrail": {
   "fetched": "2026-11-02",
   "readme_url": "https://github.com/JetBrains/thinkrail#readme",
@@ -1107,6 +1125,33 @@
   ],
   "default_branch": "main"
  },
+ "Tracer-Cloud/opensre": {
+  "fetched": "2026-11-20",
+  "readme_url": "https://github.com/Tracer-Cloud/opensre#readme",
+  "install": [
+   "curl -fsSL https://install.opensre.com | bash -s -- -gh"
+  ],
+  "usage_title": "Quick Start",
+  "usage_text": "Contributors: start at main.py for the process entrypoint map.\nRun opensre to sign in and get started. The first launch activates the hosted model.\nWebapp contributors can run opensre setup --dev to authenticate through http://localhost:3000.\nInteractive shell — with no subcommand, opensre validates your account and starts a REPL (TTY required). You can exit and stay signed out, but the shell only opens for an active account. Describe incidents in plain language, watch the agent work, and use slash commands for session control (/help, /status, /cost, /sessions, /resume, /compact, /new, /exit) and integrations (/integrations list, /integrations verify)…",
+  "usage_code": "opensre",
+  "license": "Apache-2.0",
+  "homepage": "https://opensre.com",
+  "topics": [
+   "alerting",
+   "ci-cd",
+   "cli",
+   "datadog",
+   "devops",
+   "gitlab-ci",
+   "grafana",
+   "incident-management"
+  ],
+  "default_branch": "main",
+  "created": "2026-01-13",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "fork": false
+ },
  "Usagi-org/ai-goofish-monitor": {
   "fetched": "2026-11-04",
   "readme_url": "https://github.com/Usagi-org/ai-goofish-monitor#readme",
@@ -1183,6 +1228,31 @@
   "default_branch": "main",
   "created": "2026-07-19",
   "pushed": "2026-11-11",
+  "archived": false,
+  "fork": false
+ },
+ "XiaoYouChR/Ghost-Downloader-3": {
+  "fetched": "2026-11-20",
+  "readme_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3#readme",
+  "install": [],
+  "usage_title": "Features",
+  "usage_text": "• Fast where it matters. Every downloader is fast on a good connection. The real test is a bad one. Smart chunking without file merging. Auto-detects bandwidth. Real-browser TLS fingerprints, invisible to anti-bot checks.\n• One app instead of five. Everything in one place, nothing watered down. HTTP, Magnet/BT, FTP, M3U8, MPEG-DASH, eD2k. YouTube and Bilibili with clip selection, any quality and subtitles, playlists and multi-part episodes. GitHub and HuggingFace with mirror acceleration…",
+  "usage_code": "",
+  "license": "GPL-3.0",
+  "homepage": "https://gd.xychr.com/",
+  "topics": [
+   "async",
+   "asyncio",
+   "bittorent",
+   "bt",
+   "cross-platform",
+   "download-manager",
+   "downloader",
+   "fluent-design"
+  ],
+  "default_branch": "main",
+  "created": "2023-08-16",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -1832,7 +1902,7 @@
   "default_branch": "main"
  },
  "cathrynlavery/diagram-design": {
-  "fetched": "2026-10-21",
+  "fetched": "2026-11-20",
   "readme_url": "https://github.com/cathrynlavery/diagram-design#readme",
   "install": [
    "npx skills add cathrynlavery/diagram-design",
@@ -1856,7 +1926,11 @@
    "mermaid",
    "svg"
   ],
-  "default_branch": "main"
+  "default_branch": "main",
+  "created": "2026-04-16",
+  "pushed": "2026-11-19",
+  "archived": false,
+  "fork": false
  },
  "cjpais/Handy": {
   "fetched": "2026-11-02",
@@ -2170,6 +2244,38 @@
    "openapi"
   ],
   "default_branch": "master"
+ },
+ "firecrawl/firecrawl": {
+  "fetched": "2026-11-20",
+  "readme_url": "https://github.com/firecrawl/firecrawl#readme",
+  "install": [
+   "cargo install firecrawl-local",
+   "npx -y firecrawl-cli@latest scrape https://firecrawl.dev",
+   "curl -X POST 'https://api.firecrawl.dev/v2/search' -H 'Authorization: Bearer fc-YOUR_API_KEY' -H 'Content-Type: application/json' -d '{",
+   "curl -X POST 'https://api.firecrawl.dev/v2/scrape' -H 'Authorization: Bearer fc-YOUR_API_KEY' -H 'Content-Type: application/json' -d '{",
+   "curl -X POST 'https://api.firecrawl.dev/v2/scrape' -H 'Authorization: Bearer fc-YOUR_API_KEY' -H 'Content-Type: application/json' -d '{\"url\": \"https://amazon.com\"}'",
+   "curl -X POST 'https://api.firecrawl.dev/v2/scrape/SCRAPE_ID/interact' -H 'Authorization: Bearer fc-YOUR_API_KEY' -H 'Content-Type: application/json' -d '{\"prompt\": \"Search for mechanical keyboard\"}'"
+  ],
+  "usage_title": "Run the Firecrawl API on localhost",
+  "usage_text": "serve answers the Firecrawl v2 API on port 3002, so code written for Firecrawl runs against it unchanged and local routes need no API key.\nPoint any Firecrawl SDK at it by setting the API URL.\nThe Firecrawl Local README covers every command and option, the security defaults for serve and running it in Docker. Move to Firecrawl Cloud when you need structured JSON, Interact, the Agent or scale beyond one machine.\n---",
+  "usage_code": "firecrawl-local serve",
+  "license": "AGPL-3.0",
+  "homepage": "https://firecrawl.dev",
+  "topics": [
+   "ai",
+   "ai-agents",
+   "ai-crawler",
+   "ai-scraping",
+   "ai-search",
+   "crawler",
+   "data-extraction",
+   "html-to-markdown"
+  ],
+  "default_branch": "main",
+  "created": "2024-04-15",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "fork": false
  },
  "floci-io/floci": {
   "fetched": "2026-11-04",
@@ -3200,6 +3306,34 @@
   "archived": false,
   "fork": false
  },
+ "mjmirza/app-store-compliance": {
+  "fetched": "2026-11-20",
+  "readme_url": "https://github.com/mjmirza/app-store-compliance#readme",
+  "install": [
+   "git clone https://github.com/mjmirza/app-store-compliance ~/repositories/app-store-compliance",
+   "bash ~/repositories/app-store-compliance/scripts/install.sh --tool all"
+  ],
+  "usage_title": "No AI tool. Run it by hand",
+  "usage_text": "No agent is needed. Nothing is installed and nothing is hooked. Skip the install section above if this one-time scan is all you want.",
+  "usage_code": "bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-guard.sh /path/to/your/app",
+  "license": "기타",
+  "homepage": "https://mjmirza.github.io/app-store-compliance/",
+  "topics": [
+   "accessibility",
+   "ai-agents",
+   "android",
+   "app-review-guidelines",
+   "app-store",
+   "app-store-connect",
+   "app-store-rejection",
+   "app-store-review"
+  ],
+  "default_branch": "main",
+  "created": "2026-06-06",
+  "pushed": "2026-11-19",
+  "archived": false,
+  "fork": false
+ },
  "mksglu/context-mode": {
   "fetched": "2026-11-04",
   "readme_url": "https://github.com/mksglu/context-mode#readme",
@@ -3277,20 +3411,6 @@
    "video"
   ],
   "default_branch": "master"
- },
- "msitarzewski/agency-agents": {
-  "fetched": "2026-10-21",
-  "readme_url": "https://github.com/msitarzewski/agency-agents#readme",
-  "install": [
-   "brew install --cask msitarzewski/agency-agents/agency-agents"
-  ],
-  "usage_title": "Scenario 3: Enterprise Feature Development",
-  "usage_text": "Your Team:\n1. 👔 Senior Project Manager - Scope and task planning\n2. 💎 Senior Developer - Complex implementation\n3. 🎨 UI Designer - Design system and components\n4. 🧪 Experiment Tracker - A/B test planning\n5. 📸 Evidence Collector - Quality verification\n6. 🔍 Reality Checker - Production readiness\nResult: Enterprise-grade delivery with quality gates and documentation.\n---",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
  },
  "multica-ai/andrej-karpathy-skills": {
   "fetched": "2026-11-02",
@@ -3392,6 +3512,35 @@
   "default_branch": "master",
   "created": "2019-06-22",
   "pushed": "2026-11-19",
+  "archived": false,
+  "fork": false
+ },
+ "nginx/nginx": {
+  "fetched": "2026-11-20",
+  "readme_url": "https://github.com/nginx/nginx#readme",
+  "install": [
+   "apt install gcc make",
+   "apt install libpcre3-dev zlib1g-dev",
+   "apt install libssl-dev"
+  ],
+  "usage_title": "How it works",
+  "usage_text": "NGINX is installed software with binary packages available for all major operating systems and Linux distributions. See Tested OS and Platforms for a full list of compatible systems.\n> [!IMPORTANT]\n> While nearly all popular Linux-based operating systems are distributed with a community version of nginx, we highly advise installation and usage of official packages or sources from this repository. Doing so ensures that you're using the most recent release or source code, including the latest feature-set, fixes and security patches.",
+  "usage_code": "",
+  "license": "BSD-2-Clause",
+  "homepage": "https://nginx.org/",
+  "topics": [
+   "content-cache",
+   "http",
+   "http2",
+   "http3",
+   "https",
+   "load-balancer",
+   "mail-proxy-server",
+   "nginx"
+  ],
+  "default_branch": "master",
+  "created": "2015-06-23",
+  "pushed": "2026-11-18",
   "archived": false,
   "fork": false
  },
@@ -3753,18 +3902,18 @@
   "default_branch": "main"
  },
  "pookjw/HermesEnabler": {
-  "fetched": "2026-11-13",
+  "fetched": "2026-11-20",
   "readme_url": "https://github.com/pookjw/HermesEnabler#readme",
   "install": [],
   "usage_title": "HermesEnabler 2",
-  "usage_text": "English · 한국어 · 简体中文 · 繁體中文 · 日本語 · Español · Français · Deutsch · Português\n> Supported only on watchOS 27.0 through 27.3 beta 1.",
+  "usage_text": "English · Tiếng Việt · 한국어 · 简体中文 · 繁體中文 · 日本語 · Español · Français · Deutsch · Português\n> Supported on watchOS 27.0 through 27.3 beta 1.\n> If you’re using an unsupported watchOS version, use Clocky.",
   "usage_code": "",
   "license": "MIT",
   "homepage": "",
   "topics": [],
   "default_branch": "main",
   "created": "2024-12-14",
-  "pushed": "2026-11-13",
+  "pushed": "2026-11-19",
   "archived": false,
   "fork": false
  },
@@ -4076,29 +4225,6 @@
   "topics": [],
   "default_branch": "master"
  },
- "sickn33/agentic-awesome-skills": {
-  "fetched": "2026-10-21",
-  "readme_url": "https://github.com/sickn33/agentic-awesome-skills#readme",
-  "install": [
-   "npm exec --yes --ignore-scripts --package=agentic-awesome-skills@19.12.1 -- agentic-awesome-skills --release 19.12.1 --path .agents/skills --skills brainstorming,systematic-debugging --dry-run"
-  ],
-  "usage_title": "AAS Core — Agentic Awesome Skills",
-  "usage_text": "> Find reusable instructions for your project, inspect their complete files, and keep an exact skill set you can review and reuse.\nAgentic Awesome Skills is a library of 2,724+ installable SKILL.md playbooks. AAS Core helps Codex or Claude search the complete local catalog, record the skills the agent chooses, and preview a plan you can inspect before changing a target. Core does not rank or recommend skills.\nCurrent release: V19.12.1. AAS Core supports local catalog inspection, agent-owned selection, stack validation, and plan preview. Apply and recovery remain experimental. Read the AAS Core preview guide for setup and exact trust boundaries…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://aaskills.tech/",
-  "topics": [
-   "agent-skills",
-   "agentic-skills",
-   "ai-agent-skills",
-   "ai-agents",
-   "ai-coding",
-   "ai-workflows",
-   "antigravity",
-   "antigravity-skills"
-  ],
-  "default_branch": "main"
- },
  "solidjs/solid": {
   "fetched": "2026-11-19",
   "readme_url": "https://github.com/solidjs/solid#readme",
@@ -4377,6 +4503,31 @@
   "archived": false,
   "fork": false
  },
+ "toeverything/AFFiNE": {
+  "fetched": "2026-11-20",
+  "readme_url": "https://github.com/toeverything/AFFiNE#readme",
+  "install": [],
+  "usage_title": "Getting started & staying tuned with us.",
+  "usage_text": "Star us, and you will receive all release notifications from GitHub without any delay!",
+  "usage_code": "",
+  "license": "기타",
+  "homepage": "https://affine.pro",
+  "topics": [
+   "app",
+   "crdt",
+   "editor",
+   "electron",
+   "knowledge-base",
+   "markdown",
+   "miro",
+   "notes"
+  ],
+  "default_branch": "canary",
+  "created": "2022-07-31",
+  "pushed": "2026-11-19",
+  "archived": false,
+  "fork": false
+ },
  "togg53192-cmd/jailbreaks": {
   "fetched": "2026-10-28",
   "readme_url": "https://github.com/togg53192-cmd/jailbreaks#readme",
@@ -4533,29 +4684,6 @@
   "topics": [],
   "default_branch": "main"
  },
- "vllm-project/vllm": {
-  "fetched": "2026-10-21",
-  "readme_url": "https://github.com/vllm-project/vllm#readme",
-  "install": [
-   "uv pip install vllm"
-  ],
-  "usage_title": "Getting Started",
-  "usage_text": "Install vLLM with uv (recommended) or pip:\nOr build from source for development.\nVisit our documentation to learn more.\n• Installation\n• Quickstart\n• List of Supported Models",
-  "usage_code": "uv pip install vllm\nvllm download-kernels  # precompiled kernels for faster startup",
-  "license": "Apache-2.0",
-  "homepage": "https://vllm.ai",
-  "topics": [
-   "amd",
-   "blackwell",
-   "cuda",
-   "deepseek",
-   "deepseek-v3",
-   "gpt",
-   "gpt-oss",
-   "inference"
-  ],
-  "default_branch": "main"
- },
  "vorssaint/vorssaint-utils": {
   "fetched": "2026-11-01",
   "readme_url": "https://github.com/vorssaint/vorssaint-utils#readme",
@@ -4596,33 +4724,6 @@
   "archived": false,
   "fork": false
  },
- "wshobson/agents": {
-  "fetched": "2026-10-21",
-  "readme_url": "https://github.com/wshobson/agents#readme",
-  "install": [
-   "gh repo clone wshobson/agents ~/agents",
-   "make install-opencode",
-   "make install-antigravity",
-   "make install-copilot",
-   "make install-pi"
-  ],
-  "usage_title": "Quick start",
-  "usage_text": "Choose a plugin for the work you do:\nSee the plugin catalog for all 94 plugins and the usage guide for commands and examples.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://sethhobson.com",
-  "topics": [
-   "agent-skills",
-   "agentic-ai",
-   "ai-agents",
-   "anthropic",
-   "antigravity",
-   "claude",
-   "claude-code",
-   "claude-code-marketplace"
-  ],
-  "default_branch": "main"
- },
  "xiaolai/the-craft-of-selfteaching": {
   "fetched": "2026-10-29",
   "readme_url": "https://github.com/xiaolai/the-craft-of-selfteaching#readme",
@@ -4653,6 +4754,38 @@
   "default_branch": "main",
   "created": "2021-02-20",
   "pushed": "2026-11-12",
+  "archived": false,
+  "fork": false
+ },
+ "zhouxiaoka/autoclip": {
+  "fetched": "2026-11-20",
+  "readme_url": "https://github.com/zhouxiaoka/autoclip#readme",
+  "install": [
+   "git clone https://github.com/zhouxiaoka/autoclip.git",
+   "docker compose up -d --build",
+   "docker compose run --rm --no-deps --user root --entrypoint sh autoclip -c 'chown -R autoclip:autoclip /app/data /app/logs /app/uploads'",
+   "docker compose up -d",
+   "python -m pip install -r requirements.txt",
+   "python -m pip install --force-reinstall --no-deps autoclip_mcp-*-py3-none-any.whl"
+  ],
+  "usage_title": "一个链接，一键出片",
+  "usage_text": "开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成 视频、封面和发布文案 ， \n适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。 \n软件免费，云端模型按量计费；需要调整时可进入编辑器。\n官网 · 下载桌面版 · 案例库 · 研究 · 快速开始 · 文档 · 问题反馈\n简体中文 · English · 日本語 · 한국어 · Español · Português · Русский · Français\n最新正式版，桌面、CLI 与 MCP 同步更新。版本以 autoclip --version 和 MCP get_version 为准。一键出片、字幕分页、人物取景与长视频队列修复见 更新日志。旧版用户请升级。",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
+  "topics": [
+   "ai-agent",
+   "ai-video-editor",
+   "content-repurposing",
+   "desktop-app",
+   "douyin",
+   "instagram-reels",
+   "mcp",
+   "open-source"
+  ],
+  "default_branch": "main",
+  "created": "2025-07-08",
+  "pushed": "2026-11-20",
   "archived": false,
   "fork": false
  }
