@@ -73,7 +73,7 @@
   "default_branch": "master"
  },
  "ChromeDevTools/chrome-devtools-mcp": {
-  "fetched": "2026-11-14",
+  "fetched": "2026-11-21",
   "readme_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp#readme",
   "install": [
    "npm i chrome-devtools-mcp@latest -g"
@@ -95,7 +95,7 @@
   ],
   "default_branch": "main",
   "created": "2025-09-11",
-  "pushed": "2026-11-13",
+  "pushed": "2026-11-20",
   "archived": false,
   "fork": false
  },
@@ -573,30 +573,6 @@
   "license": "Apache-2.0",
   "homepage": "https://justvugg.github.io/colibri",
   "topics": [],
-  "default_branch": "main"
- },
- "K-Dense-AI/scientific-agent-skills": {
-  "fetched": "2026-10-22",
-  "readme_url": "https://github.com/K-Dense-AI/scientific-agent-skills#readme",
-  "install": [
-   "curl -LsSf https://astral.sh/uv/install.sh | sh",
-   "pip install uv"
-  ],
-  "usage_title": "🎥 More tutorials",
-  "usage_text": "Recorded walkthroughs of these skills on real research tasks, from the K-Dense YouTube channel:\n---",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://arxiv.org/abs/2609.00065",
-  "topics": [
-   "agent-skills",
-   "ai-scientist",
-   "bioinformatics",
-   "chemoinformatics",
-   "claude",
-   "claude-skills",
-   "claudecode",
-   "clinical-research"
-  ],
   "default_branch": "main"
  },
  "Leonxlnx/taste-skill": {
@@ -1439,9 +1415,10 @@
   "default_branch": "master"
  },
  "alibaba/open-code-review": {
-  "fetched": "2026-11-14",
+  "fetched": "2026-11-21",
   "readme_url": "https://github.com/alibaba/open-code-review#readme",
   "install": [
+   "npx skills add alibaba/open-code-review",
    "npm install -g @alibaba-group/open-code-review"
   ],
   "usage_title": "Quick Start",
@@ -1459,7 +1436,7 @@
   ],
   "default_branch": "main",
   "created": "2026-05-18",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-20",
   "archived": false,
   "fork": false
  },
@@ -1743,7 +1720,7 @@
   "default_branch": "main"
  },
  "backnotprop/plannotator": {
-  "fetched": "2026-11-14",
+  "fetched": "2026-11-21",
   "readme_url": "https://github.com/backnotprop/plannotator#readme",
   "install": [
    "curl -fsSL https://plannotator.ai/install.sh | bash",
@@ -1767,7 +1744,7 @@
   ],
   "default_branch": "main",
   "created": "2025-12-28",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-21",
   "archived": false,
   "fork": false
  },
@@ -4313,51 +4290,6 @@
   ],
   "default_branch": "main"
  },
- "strelov1/freehire": {
-  "fetched": "2026-10-22",
-  "readme_url": "https://github.com/strelov1/freehire#readme",
-  "install": [
-   "curl localhost:8080/health",
-   "curl localhost:8080/api/v1/jobs"
-  ],
-  "usage_title": "Quick start",
-  "usage_text": "Migrations are applied automatically on first Postgres volume init\n(the migrations/ folder is mounted into /docker-entrypoint-initdb.d).\nChanging a migration does not re-apply to an existing volume — recreate it with\ndocker compose down -v && make up, or apply pending files manually with\nmake migrate.\nIf port 8080 is already taken, pick another host port:",
-  "usage_code": "make up        # build + start the whole stack in Docker:\n               # api, web, postgres, meilisearch, redis, s3\ncurl localhost:8080/health\ncurl localhost:8080/api/v1/jobs",
-  "license": "MIT",
-  "homepage": "https://freehire.me",
-  "topics": [
-   "ats",
-   "career",
-   "careers",
-   "golang",
-   "hiring",
-   "job-aggregator",
-   "job-board",
-   "job-portal"
-  ],
-  "default_branch": "main"
- },
- "supabase/supabase": {
-  "fetched": "2026-10-22",
-  "readme_url": "https://github.com/supabase/supabase#readme",
-  "install": [],
-  "usage_title": "How it works",
-  "usage_text": "Supabase is a combination of open source tools. We’re building the features of Firebase using enterprise-grade, open source products. If the tools and communities exist, with an MIT, Apache 2, or equivalent open license, we will use and support that tool. If the tool doesn't exist, we build and open source it ourselves. Supabase is not a 1-to-1 mapping of Firebase. Our aim is to give developers a Firebase-like developer experience using open source tools.\nArchitecture\nSupabase is a hosted platform. You can sign up and start using Supabase without installing anything.\nYou can also self-host and develop locally…",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://supabase.com",
-  "topics": [
-   "ai",
-   "alternative",
-   "auth",
-   "database",
-   "deno",
-   "embeddings",
-   "example",
-   "firebase"
-  ],
-  "default_branch": "master"
- },
  "sveltejs/svelte": {
   "fetched": "2026-11-17",
   "readme_url": "https://github.com/sveltejs/svelte#readme",
@@ -4555,45 +4487,20 @@
   "default_branch": "main"
  },
  "tradermonty/claude-trading-skills": {
-  "fetched": "2026-11-14",
+  "fetched": "2026-11-21",
   "readme_url": "https://github.com/tradermonty/claude-trading-skills#readme",
   "install": [],
   "usage_title": "See Example Outputs",
-  "usage_text": "These visual excerpts use fictional data to show the kinds of results you can review before setting up a skill. They are illustrations, not live market readings or trading instructions.\nSelect a preview to open the full-size SVG; on a phone, zoom after opening.\nChoose a workflow: Trading Skills Navigator recommends a starting path from your goal.\nReview market risk: The market-regime-daily workflow ends with an Exposure Coach posture for human review, not an order.\nLearn from closed trades: Weekly Performance Digest summarizes realized outcomes and process lessons.",
+  "usage_text": "These visual excerpts use fictional data to show the kinds of results you can review before setting up a skill. They are illustrations, not live market readings or trading instructions.\nSelect a preview to open the full-size SVG; on a phone, zoom after opening.\nChoose a workflow: Trading Skills Navigator recommends a starting path from your goal.\nReview market risk: The market-regime-daily workflow ends with an Exposure Coach posture for human review, not an order.\nLearn from closed trades: Weekly Performance Digest summarizes realized outcomes and process lessons…",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://tradermonty.github.io/claude-trading-skills/",
   "topics": [],
   "default_branch": "main",
   "created": "2025-10-19",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-20",
   "archived": false,
   "fork": false
- },
- "twentyhq/twenty": {
-  "fetched": "2026-10-22",
-  "readme_url": "https://github.com/twentyhq/twenty#readme",
-  "install": [
-   "npx create-twenty-app my-app",
-   "npx twenty app:publish --private",
-   "npx skills add https://github.com/twentyhq/twenty/tree/agent-skills --list"
-  ],
-  "usage_title": "Why Twenty",
-  "usage_text": "Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves. Twenty is the CRM you build, ship, and version like the rest of your stack.\n Learn more about why we built Twenty",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://twenty.com",
-  "topics": [
-   "crm",
-   "crm-system",
-   "customer",
-   "good-first-issue",
-   "graphql",
-   "hacktoberfest",
-   "javascript",
-   "marketing"
-  ],
-  "default_branch": "main"
  },
  "vectorize-io/hindsight": {
   "fetched": "2026-10-23",

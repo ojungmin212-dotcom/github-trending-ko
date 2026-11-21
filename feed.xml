@@ -5,7 +5,7 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Nov 2026 12:41:30 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:24:51 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -1492,50 +1492,6 @@ TypeScript · ★ 59.2k · ▲ 112 (오늘) · 오늘 #8</description>
 freehire — the open-source search engine for job seekers
 Go · ★ 2.4k · ▲ 360 (오늘) · 오늘 #10</description>
       <category>Go</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>Graphify-Labs/graphify — 문서, SQL 스키마, 구성 및 PDF가 포함된 모든 코드베이스를 쿼리 가능한 지식 그래프로 변환하세요. Claude Code, Cursor, Codex 및 Gemini CLI를 위한 /graphify 기술: 로컬 결정론적 AST 구문 분석, 모든 에지 설명, 벡터 저장 없음.</title>
-      <link>https://github.com/Graphify-Labs/graphify</link>
-      <guid isPermaLink="false">Graphify-Labs/graphify@2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 09:50:16 +0900</pubDate>
-      <description>문서, SQL 스키마, 구성 및 PDF가 포함된 모든 코드베이스를 쿼리 가능한 지식 그래프로 변환하세요. Claude Code, Cursor, Codex 및 Gemini CLI를 위한 /graphify 기술: 로컬 결정론적 AST 구문 분석, 모든 에지 설명, 벡터 저장 없음.
-Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…
-Python · ★ 130.2k · ▲ 802 (오늘) · 오늘 #7</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>wshobson/agents — Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity 및 Pi를 위한 다중 하네스 에이전트 플러그인 마켓플레이스</title>
-      <link>https://github.com/wshobson/agents</link>
-      <guid isPermaLink="false">wshobson/agents@2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 09:50:16 +0900</pubDate>
-      <description>Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity 및 Pi를 위한 다중 하네스 에이전트 플러그인 마켓플레이스
-Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi
-Python · ★ 41.3k · ▲ 93 (오늘) · 오늘 #12</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>sickn33/agentic-awesome-skills — AAS Core는 2,600개 이상의 에이전트 기술이 지원되는 완전한 카탈로그 검색, 에이전트 소유 선택, 스택 검증 및 계획을 위한 로컬 에이전트 우선 제어 평면입니다. CLI, 로컬 MCP, 카탈로그, 플러그인 및 Workbench가 포함됩니다.</title>
-      <link>https://github.com/sickn33/agentic-awesome-skills</link>
-      <guid isPermaLink="false">sickn33/agentic-awesome-skills@2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 09:50:16 +0900</pubDate>
-      <description>AAS Core는 2,600개 이상의 에이전트 기술이 지원되는 완전한 카탈로그 검색, 에이전트 소유 선택, 스택 검증 및 계획을 위한 로컬 에이전트 우선 제어 평면입니다. CLI, 로컬 MCP, 카탈로그, 플러그인 및 Workbench가 포함됩니다.
-AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catal…
-Python · ★ 48.1k · ▲ 83 (오늘) · 오늘 #13</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>vllm-project/vllm — LLM을 위한 높은 처리량과 메모리 효율적인 추론 및 제공 엔진</title>
-      <link>https://github.com/vllm-project/vllm</link>
-      <guid isPermaLink="false">vllm-project/vllm@2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 09:50:16 +0900</pubDate>
-      <description>LLM을 위한 높은 처리량과 메모리 효율적인 추론 및 제공 엔진
-A high-throughput and memory-efficient inference and serving engine for LLMs
-Python · ★ 94.4k · ▲ 128 (오늘) · 오늘 #15</description>
-      <category>Python</category>
       <category>오늘</category>
     </item>
   </channel>
