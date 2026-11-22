@@ -3083,52 +3083,6 @@
     "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
     "description_ko": "Minecraft 런처 PCL(Plain Craft Launcher)입니다."
    }
-  },
-  {
-   "id": "twentyhq/twenty@2026-10-22",
-   "url": "https://github.com/twentyhq/twenty",
-   "title": "twentyhq/twenty — AI용으로 설계된 Salesforce의 개방형 대안입니다.",
-   "content_text": "AI용으로 설계된 Salesforce의 개방형 대안입니다.\nThe open alternative to Salesforce, designed for AI.\nTypeScript · ★ 59.2k · ▲ 112 (오늘) · 오늘 #8",
-   "date_published": "2026-10-22T09:51:04+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "twentyhq/twenty",
-    "first_seen": "2026-10-22",
-    "period": "daily",
-    "rank": 8,
-    "filled_from": null,
-    "stars": 59166,
-    "stars_period": 112,
-    "language": "TypeScript",
-    "description": "The open alternative to Salesforce, designed for AI.",
-    "description_ko": "AI용으로 설계된 Salesforce의 개방형 대안입니다."
-   }
-  },
-  {
-   "id": "strelov1/freehire@2026-10-22",
-   "url": "https://github.com/strelov1/freehire",
-   "title": "strelov1/freehire — freehire — 구직자를 위한 오픈 소스 검색 엔진",
-   "content_text": "freehire — 구직자를 위한 오픈 소스 검색 엔진\nfreehire — the open-source search engine for job seekers\nGo · ★ 2.4k · ▲ 360 (오늘) · 오늘 #10",
-   "date_published": "2026-10-22T09:51:04+09:00",
-   "tags": [
-    "Go",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "strelov1/freehire",
-    "first_seen": "2026-10-22",
-    "period": "daily",
-    "rank": 10,
-    "filled_from": null,
-    "stars": 2383,
-    "stars_period": 360,
-    "language": "Go",
-    "description": "freehire — the open-source search engine for job seekers",
-    "description_ko": "freehire — 구직자를 위한 오픈 소스 검색 엔진"
-   }
   }
  ]
 }

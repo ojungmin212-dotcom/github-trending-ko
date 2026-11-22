@@ -620,22 +620,6 @@
   "archived": false,
   "fork": false
  },
- "Meloong-Git/PCL": {
-  "fetched": "2026-10-23",
-  "readme_url": "https://github.com/Meloong-Git/PCL#readme",
-  "install": [],
-  "usage_title": "Plain Craft Launcher",
-  "usage_text": "包含 PCL 的大部分源代码，包括 UI 库、动画模块、下载模块、Minecraft 启动模块等！ \n代码并不是实时更新的，它会在每次 PCL 发布更新时同步一次。 \n非常感谢社区的大力支持！",
-  "usage_code": "",
-  "license": "",
-  "homepage": "https://meloong.com/PCL",
-  "topics": [
-   "launcher",
-   "minecraft",
-   "minecraft-launcher"
-  ],
-  "default_branch": "main"
- },
  "MichaelCade/90DaysOfDevOps": {
   "fetched": "2026-11-05",
   "readme_url": "https://github.com/MichaelCade/90DaysOfDevOps#readme",
@@ -1002,31 +986,6 @@
   "archived": false,
   "fork": false
  },
- "TencentCloud/Octop": {
-  "fetched": "2026-10-23",
-  "readme_url": "https://github.com/TencentCloud/Octop#readme",
-  "install": [
-   "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash",
-   "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.bat -o install.bat",
-   "curl -fsSL https://finnie-1258344699.cos.ap-guangzhou.myqcloud.com/octop/install.sh | bash -s -- --extras browser",
-   "pip install octop"
-  ],
-  "usage_title": "3. Run",
-  "usage_text": "Open http://127.0.0.1:8088. With Docker, a valid OCTOPDEFAULTPASSWORD creates the admin on first boot (credentials in /data/.octop/credential.txt); if it is unset or rejected, open the setup wizard (unlock password in /data/.octop/octop-login.txt). Interactive octop init / the setup wizard asks you to choose a password (≥8 characters, letters and digits).",
-  "usage_code": "# Foreground (API + Web dashboard)\noctop run\n\n# Custom host / port\noctop run --host 0.0.0.0 --port 8088\n\n# Register as a system service (systemd / launchd / Windows service)\noctop service start",
-  "license": "MIT",
-  "homepage": "https://octop.cloud",
-  "topics": [
-   "agent",
-   "agentic-ai",
-   "ai",
-   "ai-agent",
-   "ai-agents",
-   "local-first",
-   "long-term-memory"
-  ],
-  "default_branch": "main"
- },
  "The-PR-Agent/pr-agent": {
   "fetched": "2026-11-05",
   "readme_url": "https://github.com/The-PR-Agent/pr-agent#readme",
@@ -1347,14 +1306,18 @@
   "fork": false
  },
  "ag-ui-protocol/ag-ui": {
-  "fetched": "2026-11-15",
+  "fetched": "2026-11-22",
   "readme_url": "https://github.com/ag-ui-protocol/ag-ui#readme",
   "install": [
-   "npx create-ag-ui-app my-agent-app"
+   "npx create-ag-ui-app@latest",
+   "pip install ag-ui-protocol fastapi uvicorn",
+   "npm init -y && npm pkg set type=module",
+   "npm install @ag-ui/client tsx",
+   "npx tsx client.ts"
   ],
-  "usage_title": "🚀 Getting Started",
-  "usage_text": "Create a new AG-UI application in seconds:\n Useful Links: \n• The AG-UI Dojo\n• Build AG-UI-powered applications(Quickstart)\n• Build new AG-UI framework integrations (Quickstart)\n• Book a call to discuss an AG-UI integration with a new framework\n• Join the Discord Community",
-  "usage_code": "npx create-ag-ui-app my-agent-app",
+  "usage_title": "Quick start",
+  "usage_text": "Start a new app. The CLI scaffolds a frontend (CopilotKit on Next.js, or a terminal client) wired to the agent framework you pick:\nThen follow the printed next steps. The generated templates call OpenAI, so set your key before npm run dev:\n Or speak the protocol directly: a 30-line agent server and client \nAn AG-UI agent is any HTTP endpoint that accepts a RunAgentInput and streams events back. No API keys needed for this one.\n1. The agent (Python). Requires Python 3.9+.\n2. The client (TypeScript). In a second terminal, in a new folder. Requires Node.js 20+.\nYou should see Hello from AG-UI! stream in. Swap the server for any supported framework and the client doesn't change.",
+  "usage_code": "npx create-ag-ui-app@latest",
   "license": "MIT",
   "homepage": "https://ag-ui.com",
   "topics": [
@@ -1366,7 +1329,7 @@
   ],
   "default_branch": "main",
   "created": "2025-05-07",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-21",
   "archived": false,
   "fork": false
  },
@@ -2018,7 +1981,7 @@
   "fork": false
  },
  "dream-num/univer": {
-  "fetched": "2026-11-15",
+  "fetched": "2026-11-22",
   "readme_url": "https://github.com/dream-num/univer#readme",
   "install": [
    "pnpm add @univerjs/presets @univerjs/preset-sheets-core",
@@ -2042,7 +2005,7 @@
   ],
   "default_branch": "dev",
   "created": "2022-09-29",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-21",
   "archived": false,
   "fork": false
  },
@@ -2196,31 +2159,6 @@
   "homepage": "",
   "topics": [],
   "default_branch": "main"
- },
- "fastapi/fastapi": {
-  "fetched": "2026-10-23",
-  "readme_url": "https://github.com/fastapi/fastapi#readme",
-  "install": [
-   "uv add \"fastapi[standard]\"",
-   "uv run fastapi dev",
-   "uv run fastapi deploy"
-  ],
-  "usage_title": "Run it",
-  "usage_text": "Run the server with:\n About the command fastapi dev ... \nThe command fastapi dev reads your main.py file automatically, detects the FastAPI app in it, and starts a server using Uvicorn.\nBy default, fastapi dev will start with auto-reload enabled for local development.\nYou can read more about it in the FastAPI CLI docs.",
-  "usage_code": "$ uv run fastapi dev\n\n ╭────────── FastAPI CLI - Development mode ───────────╮\n │                                                     │\n │  Serving at: http://127.0.0.1:8000                  │\n │                                                     │\n │  API docs: http://127.0.0.1:8000/docs               │\n │                                                     │\n │  Running in development mode, for production use:   │\n │                                                     │\n │  fastapi run                                        │\n │                                                     │\n ╰─────────────────────────────────────────────────────╯\n\nINFO:     Will watch for changes in these directories: ['/home/user/code/awesomeapp']\nINFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)\nINFO:     Started reloader process [2248755] using WatchFiles\nINFO:     Started server process [2248757]\n…",
-  "license": "MIT",
-  "homepage": "https://fastapi.tiangolo.com/",
-  "topics": [
-   "api",
-   "async",
-   "asyncio",
-   "fastapi",
-   "framework",
-   "json",
-   "json-schema",
-   "openapi"
-  ],
-  "default_branch": "master"
  },
  "firecrawl/firecrawl": {
   "fetched": "2026-11-20",
@@ -3015,27 +2953,6 @@
   "pushed": "2026-11-14",
   "archived": false,
   "fork": false
- },
- "luongnv89/claude-howto": {
-  "fetched": "2026-10-23",
-  "readme_url": "https://github.com/luongnv89/claude-howto#readme",
-  "install": [
-   "git clone https://github.com/luongnv89/claude-howto.git",
-   "claude mcp add --transport http github https://api.githubcopilot.com/mcp/ --header \"Authorization: Bearer YOUR_GITHUB_PAT\"",
-   "uv pip install -r scripts/requirements-dev.txt",
-   "uv run scripts/build_epub.py"
-  ],
-  "usage_title": "3. Combine features into workflows",
-  "usage_text": "The real power is in combining features. Learn to wire slash commands + memory + subagents + hooks into automated pipelines that handle code reviews, deployments, and documentation generation.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "http://luongnv.com/claude-howto/",
-  "topics": [
-   "claude-code",
-   "guide",
-   "tutorial"
-  ],
-  "default_branch": "main"
  },
  "macro-inc/macro": {
   "fetched": "2026-10-29",
@@ -4501,30 +4418,6 @@
   "pushed": "2026-11-20",
   "archived": false,
   "fork": false
- },
- "vectorize-io/hindsight": {
-  "fetched": "2026-10-23",
-  "readme_url": "https://github.com/vectorize-io/hindsight#readme",
-  "install": [
-   "npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs",
-   "docker run -it --pull always --name hindsight --restart unless-stopped -p 8888:8888 -p 9999:9999 -e HINDSIGHT_API_LLM_API_KEY=$OPENAI_API_KEY -v hindsight-data:/home/hindsight/.pg0 ghcr.io/vectorize-io/hindsight:latest",
-   "docker compose up",
-   "pip install hindsight-api",
-   "helm install hindsight oci://ghcr.io/vectorize-io/charts/hindsight --set api.llm.provider=openai --set api.llm.apiKey=sk-xxx --set postgresql.enabled=true",
-   "pip install hindsight-client -U  # Python"
-  ],
-  "usage_title": "What is Hindsight?",
-  "usage_text": "Hindsight™ is an agent memory system built to create smarter agents that learn over time. Most agent memory systems focus on recalling conversation history. Hindsight is focused on making agents that learn, not just remember.\nIt eliminates the shortcomings of alternative techniques such as RAG and knowledge graph and delivers state-of-the-art performance on long term memory tasks.\nContents\n• Memory Performance & Accuracy\n• Quick Start — server · clients · platforms · embedded\n• Adding Hindsight to Your Agent — LLM Wrapper · integrations · coding agents · MCP\n• Core Concepts — memory types · retain / recall / reflect · observations · mental models & knowledge pages · banks\n• Use Cases…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://hindsight.vectorize.io/",
-  "topics": [
-   "agentic-ai",
-   "agents",
-   "ai-memory",
-   "memory"
-  ],
-  "default_branch": "main"
  },
  "vercel-labs/agent-browser": {
   "fetched": "2026-11-19",

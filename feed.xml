@@ -5,7 +5,7 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:24:51 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 11:35:53 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -1470,28 +1470,6 @@ Python · ★ 43.2k · ▲ 177 (오늘) · 오늘 #8</description>
 Minecraft 启动器 Plain Craft Launcher（PCL）。
 Visual Basic .NET · ★ 8.7k · ▲ 119 (오늘) · 오늘 #9</description>
       <category>Visual Basic .NET</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>twentyhq/twenty — AI용으로 설계된 Salesforce의 개방형 대안입니다.</title>
-      <link>https://github.com/twentyhq/twenty</link>
-      <guid isPermaLink="false">twentyhq/twenty@2026-10-22</guid>
-      <pubDate>Thu, 22 Oct 2026 09:51:04 +0900</pubDate>
-      <description>AI용으로 설계된 Salesforce의 개방형 대안입니다.
-The open alternative to Salesforce, designed for AI.
-TypeScript · ★ 59.2k · ▲ 112 (오늘) · 오늘 #8</description>
-      <category>TypeScript</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>strelov1/freehire — freehire — 구직자를 위한 오픈 소스 검색 엔진</title>
-      <link>https://github.com/strelov1/freehire</link>
-      <guid isPermaLink="false">strelov1/freehire@2026-10-22</guid>
-      <pubDate>Thu, 22 Oct 2026 09:51:04 +0900</pubDate>
-      <description>freehire — 구직자를 위한 오픈 소스 검색 엔진
-freehire — the open-source search engine for job seekers
-Go · ★ 2.4k · ▲ 360 (오늘) · 오늘 #10</description>
-      <category>Go</category>
       <category>오늘</category>
     </item>
   </channel>
