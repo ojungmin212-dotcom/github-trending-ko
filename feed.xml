@@ -5,7 +5,7 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 22 Nov 2026 11:35:53 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 12:01:54 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -1427,50 +1427,6 @@ Open-source Grok Bot alternative. Choose your own model and sandbox.
 TypeScript · ★ 5.4k · ▲ 1.1k (이번 주) · 이번 주 #15</description>
       <category>TypeScript</category>
       <category>이번 주</category>
-    </item>
-    <item>
-      <title>php/php-src — PHP 인터프리터</title>
-      <link>https://github.com/php/php-src</link>
-      <guid isPermaLink="false">php/php-src@2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 09:52:54 +0900</pubDate>
-      <description>PHP 인터프리터
-The PHP Interpreter
-C · ★ 41.2k · ▲ 287 (오늘) · 오늘 #1</description>
-      <category>C</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>fastapi/fastapi — FastAPI 프레임워크, 고성능, 배우기 쉬움, 빠른 코딩, 생산 준비 완료</title>
-      <link>https://github.com/fastapi/fastapi</link>
-      <guid isPermaLink="false">fastapi/fastapi@2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 09:52:54 +0900</pubDate>
-      <description>FastAPI 프레임워크, 고성능, 배우기 쉬움, 빠른 코딩, 생산 준비 완료
-FastAPI framework, high performance, easy to learn, fast to code, ready for production
-Python · ★ 103.7k · ▲ 101 (오늘) · 오늘 #7</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>luongnv89/claude-howto — 즉각적인 가치를 제공하는 복사-붙여넣기 템플릿을 사용하여 기본 개념부터 고급 에이전트까지 Claude Code에 대한 시각적 예시 중심 가이드입니다.</title>
-      <link>https://github.com/luongnv89/claude-howto</link>
-      <guid isPermaLink="false">luongnv89/claude-howto@2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 09:52:54 +0900</pubDate>
-      <description>즉각적인 가치를 제공하는 복사-붙여넣기 템플릿을 사용하여 기본 개념부터 고급 에이전트까지 Claude Code에 대한 시각적 예시 중심 가이드입니다.
-A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
-Python · ★ 43.2k · ▲ 177 (오늘) · 오늘 #8</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>Meloong-Git/PCL — Minecraft 런처 PCL(Plain Craft Launcher)입니다.</title>
-      <link>https://github.com/Meloong-Git/PCL</link>
-      <guid isPermaLink="false">Meloong-Git/PCL@2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 09:52:54 +0900</pubDate>
-      <description>Minecraft 런처 PCL(Plain Craft Launcher)입니다.
-Minecraft 启动器 Plain Craft Launcher（PCL）。
-Visual Basic .NET · ★ 8.7k · ▲ 119 (오늘) · 오늘 #9</description>
-      <category>Visual Basic .NET</category>
-      <category>오늘</category>
     </item>
   </channel>
 </rss>
