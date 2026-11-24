@@ -7,6 +7,29 @@
  "language": "ko",
  "items": [
   {
+   "id": "yetone/magpie@2026-11-24",
+   "url": "https://github.com/yetone/magpie",
+   "title": "yetone/magpie — 모든 에이전트의 모델. 한 곳. 메뉴 표시줄에서 DeepSeek의 Codex, Kimi의 Claude Code.",
+   "content_text": "모든 에이전트의 모델. 한 곳. 메뉴 표시줄에서 DeepSeek의 Codex, Kimi의 Claude Code.\nEvery agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.\nGo · ★ 40.7k · ▲ 20.7k (이번 달) · 이번 달 #10",
+   "date_published": "2026-11-24T15:19:01+09:00",
+   "tags": [
+    "Go",
+    "이번 달"
+   ],
+   "_trending": {
+    "full_name": "yetone/magpie",
+    "first_seen": "2026-11-24",
+    "period": "monthly",
+    "rank": 10,
+    "filled_from": null,
+    "stars": 40670,
+    "stars_period": 20747,
+    "language": "Go",
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "description_ko": "모든 에이전트의 모델. 한 곳. 메뉴 표시줄에서 DeepSeek의 Codex, Kimi의 Claude Code."
+   }
+  },
+  {
    "id": "firecrawl/firecrawl@2026-11-20",
    "url": "https://github.com/firecrawl/firecrawl",
    "title": "firecrawl/firecrawl — 상담원을 더욱 스마트하게 만드는 지식 인프라입니다. 하나의 API를 통해 검색, 스크랩 및 550개 이상의 데이터 제공자를 제공합니다.",
@@ -2875,121 +2898,6 @@
     "language": "TypeScript",
     "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
     "description_ko": "끝났다고 생각해 보세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트."
-   }
-  },
-  {
-   "id": "Renhuai123/ziwei-doushu@2026-10-24",
-   "url": "https://github.com/Renhuai123/ziwei-doushu",
-   "title": "Renhuai123/ziwei-doushu — Ziwei Doushu 오픈 소스 순위 엔진 - 완전한 순위 알고리즘, 4가지 현대화 시스템, 패턴 지식 기반 및 고대 서적의 원본 데이터를 포함하는 Ni Haixia의 \"Tianji\" 시스템을 기반으로 합니다.",
-   "content_text": "Ziwei Doushu 오픈 소스 순위 엔진 - 완전한 순위 알고리즘, 4가지 현대화 시스템, 패턴 지식 기반 및 고대 서적의 원본 데이터를 포함하는 Ni Haixia의 \"Tianji\" 시스템을 기반으로 합니다.\n紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据\nTypeScript · ★ 6.9k · ▲ 546 (오늘) · 오늘 #5",
-   "date_published": "2026-10-24T09:59:57+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "Renhuai123/ziwei-doushu",
-    "first_seen": "2026-10-24",
-    "period": "daily",
-    "rank": 5,
-    "filled_from": null,
-    "stars": 6862,
-    "stars_period": 546,
-    "language": "TypeScript",
-    "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-    "description_ko": "Ziwei Doushu 오픈 소스 순위 엔진 - 완전한 순위 알고리즘, 4가지 현대화 시스템, 패턴 지식 기반 및 고대 서적의 원본 데이터를 포함하는 Ni Haixia의 \"Tianji\" 시스템을 기반으로 합니다."
-   }
-  },
-  {
-   "id": "SnailSploit/Claude-Red@2026-10-24",
-   "url": "https://github.com/SnailSploit/Claude-Red",
-   "title": "SnailSploit/Claude-Red — clude-red는 Claude 기술 시스템을 위해 설계된 엄선된 공격 보안 기술 라이브러리입니다. 각 기술은 SQLi에서 쉘코드, EDR 회피, 악용 개발에 이르기까지 특정 공격 표면에 대한 전문가 수준의 방법론을 Claude에게 제공하는 구조화된 SKILL.md 파일입니다.",
-   "content_text": "clude-red는 Claude 기술 시스템을 위해 설계된 엄선된 공격 보안 기술 라이브러리입니다. 각 기술은 SQLi에서 쉘코드, EDR 회피, 악용 개발에 이르기까지 특정 공격 표면에 대한 전문가 수준의 방법론을 Claude에게 제공하는 구조화된 SKILL.md 파일입니다.\nclaude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a spe…\nPython · ★ 8.5k · ▲ 226 (오늘) · 오늘 #6",
-   "date_published": "2026-10-24T09:59:57+09:00",
-   "tags": [
-    "Python",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "SnailSploit/Claude-Red",
-    "first_seen": "2026-10-24",
-    "period": "daily",
-    "rank": 6,
-    "filled_from": null,
-    "stars": 8492,
-    "stars_period": 226,
-    "language": "Python",
-    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a spe…",
-    "description_ko": "clude-red는 Claude 기술 시스템을 위해 설계된 엄선된 공격 보안 기술 라이브러리입니다. 각 기술은 SQLi에서 쉘코드, EDR 회피, 악용 개발에 이르기까지 특정 공격 표면에 대한 전문가 수준의 방법론을 Claude에게 제공하는 구조화된 SKILL.md 파일입니다."
-   }
-  },
-  {
-   "id": "OpenBMB/VoxCPM@2026-10-24",
-   "url": "https://github.com/OpenBMB/VoxCPM",
-   "title": "OpenBMB/VoxCPM — VoxCPM2: 다국어 음성 생성, 창의적인 음성 디자인 및 실제 복제를 위한 토크나이저가 필요 없는 TTS",
-   "content_text": "VoxCPM2: 다국어 음성 생성, 창의적인 음성 디자인 및 실제 복제를 위한 토크나이저가 필요 없는 TTS\nVoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning\nPython · ★ 40.3k · ▲ 150 (오늘) · 오늘 #7",
-   "date_published": "2026-10-24T09:59:57+09:00",
-   "tags": [
-    "Python",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "OpenBMB/VoxCPM",
-    "first_seen": "2026-10-24",
-    "period": "daily",
-    "rank": 7,
-    "filled_from": null,
-    "stars": 40258,
-    "stars_period": 150,
-    "language": "Python",
-    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
-    "description_ko": "VoxCPM2: 다국어 음성 생성, 창의적인 음성 디자인 및 실제 복제를 위한 토크나이저가 필요 없는 TTS"
-   }
-  },
-  {
-   "id": "nodejs/node@2026-10-24",
-   "url": "https://github.com/nodejs/node",
-   "title": "nodejs/node — Node.js JavaScript 런타임 ✨🐢🚀✨",
-   "content_text": "Node.js JavaScript 런타임 ✨🐢🚀✨\nNode.js JavaScript runtime ✨🐢🚀✨\nJavaScript · ★ 122.9k · ▲ 66 (오늘) · 오늘 #8",
-   "date_published": "2026-10-24T09:59:57+09:00",
-   "tags": [
-    "JavaScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "nodejs/node",
-    "first_seen": "2026-10-24",
-    "period": "daily",
-    "rank": 8,
-    "filled_from": null,
-    "stars": 122867,
-    "stars_period": 66,
-    "language": "JavaScript",
-    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-    "description_ko": "Node.js JavaScript 런타임 ✨🐢🚀✨"
-   }
-  },
-  {
-   "id": "elie222/rakazo@2026-10-24",
-   "url": "https://github.com/elie222/rakazo",
-   "title": "elie222/rakazo — 오픈 소스 Grok Bot 대안. 자신만의 모델과 샌드박스를 선택하세요.",
-   "content_text": "오픈 소스 Grok Bot 대안. 자신만의 모델과 샌드박스를 선택하세요.\nOpen-source Grok Bot alternative. Choose your own model and sandbox.\nTypeScript · ★ 5.4k · ▲ 1.1k (이번 주) · 이번 주 #15",
-   "date_published": "2026-10-24T09:59:57+09:00",
-   "tags": [
-    "TypeScript",
-    "이번 주"
-   ],
-   "_trending": {
-    "full_name": "elie222/rakazo",
-    "first_seen": "2026-10-24",
-    "period": "weekly",
-    "rank": 15,
-    "filled_from": null,
-    "stars": 5447,
-    "stars_period": 1094,
-    "language": "TypeScript",
-    "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-    "description_ko": "오픈 소스 Grok Bot 대안. 자신만의 모델과 샌드박스를 선택하세요."
    }
   }
  ]
