@@ -5,9 +5,20 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:19:01 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:00:02 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ebony-Vinyl/dsh-our-free-model — 이 플러그인을 dsh에 설치하기만 하면 로그인, 등록 또는 API 키 입력 없이 DeepSeek V4.1 Flash 및 Kimi K3를 포함한 최첨단 모델을 완전 무료 및 무제한으로 사용할 수 있습니다. 당신이 해야 할 일은 dsh에 이 플러그인을 설치하는 것뿐입니다. 로그인도, 가입도, API 키도 없습니다. DeepSeek V4.1 Flash와 Kim…</title>
+      <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
+      <guid isPermaLink="false">Ebony-Vinyl/dsh-our-free-model@2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 14:00:02 +0900</pubDate>
+      <description>이 플러그인을 dsh에 설치하기만 하면 로그인, 등록 또는 API 키 입력 없이 DeepSeek V4.1 Flash 및 Kimi K3를 포함한 최첨단 모델을 완전 무료 및 무제한으로 사용할 수 있습니다. 당신이 해야 할 일은 dsh에 이 플러그인을 설치하는 것뿐입니다. 로그인도, 가입도, API 키도 없습니다. DeepSeek V4.1 Flash와 Kim…
+在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there…
+JavaScript · ★ 86.3k · ▲ 48.2k (이번 달) · 이번 달 #9</description>
+      <category>JavaScript</category>
+      <category>이번 달</category>
+    </item>
     <item>
       <title>yetone/magpie — 모든 에이전트의 모델. 한 곳. 메뉴 표시줄에서 DeepSeek의 Codex, Kimi의 Claude Code.</title>
       <link>https://github.com/yetone/magpie</link>
@@ -1316,72 +1327,6 @@ PHP · ★ 64.4k · ▲ 152 (오늘) · 오늘 #9</description>
 Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local…
 Python · ★ 20.9k · ▲ 197 (오늘) · 오늘 #11</description>
       <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>aws/agent-toolkit-for-aws — AI 에이전트가 AWS에서 구축하는 데 도움이 되는 공식 AWS 지원 MCP 서버, 기술 및 플러그인</title>
-      <link>https://github.com/aws/agent-toolkit-for-aws</link>
-      <guid isPermaLink="false">aws/agent-toolkit-for-aws@2026-10-25</guid>
-      <pubDate>Sun, 25 Oct 2026 09:29:52 +0900</pubDate>
-      <description>AI 에이전트가 AWS에서 구축하는 데 도움이 되는 공식 AWS 지원 MCP 서버, 기술 및 플러그인
-Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS
-Python · ★ 3.1k · ▲ 13 (오늘) · 오늘 #3</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>Nutlope/hallmark — Claude Code, Cursor, Codex의 AI 슬롭 방지 설계 스킬입니다.</title>
-      <link>https://github.com/Nutlope/hallmark</link>
-      <guid isPermaLink="false">Nutlope/hallmark@2026-10-25</guid>
-      <pubDate>Sun, 25 Oct 2026 09:29:52 +0900</pubDate>
-      <description>Claude Code, Cursor, Codex의 AI 슬롭 방지 설계 스킬입니다.
-Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
-CSS · ★ 32.1k · ▲ 455 (오늘) · 오늘 #4</description>
-      <category>CSS</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>pollen-robotics/microduck — 작은 이족보행 오리 로봇 🦆</title>
-      <link>https://github.com/pollen-robotics/microduck</link>
-      <guid isPermaLink="false">pollen-robotics/microduck@2026-10-25</guid>
-      <pubDate>Sun, 25 Oct 2026 09:29:52 +0900</pubDate>
-      <description>작은 이족보행 오리 로봇 🦆
-A Tiny biped duck robot 🦆
-Rust · ★ 11k · ▲ 319 (오늘) · 오늘 #7</description>
-      <category>Rust</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>google-gemini/gemini-cli — Gemini의 강력한 기능을 터미널에 직접 제공하는 오픈 소스 AI 에이전트입니다.</title>
-      <link>https://github.com/google-gemini/gemini-cli</link>
-      <guid isPermaLink="false">google-gemini/gemini-cli@2026-10-25</guid>
-      <pubDate>Sun, 25 Oct 2026 09:29:52 +0900</pubDate>
-      <description>Gemini의 강력한 기능을 터미널에 직접 제공하는 오픈 소스 AI 에이전트입니다.
-An open-source AI agent that brings the power of Gemini directly into your terminal.
-TypeScript · ★ 108k · ▲ 44 (오늘) · 오늘 #8</description>
-      <category>TypeScript</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>jbiaojerry/ebook-treasure-chest — 각종 전자책 다운로드 링크가 모인 곳, 전자책 다운로드 보물창고에 오신 것을 환영합니다. 고전 문학, 영감을 주는 비즈니스 및 경영 서적, 평생 학습, 직장 기업가 정신, 기술 매뉴얼 또는 기타 유형의 책을 읽고 싶든 이 책은 여러분의 요구를 충족할 수 있습니다. 도서관은 Fanshu 앱(이전의 Fandeng Reading), WeChat Reading,…</title>
-      <link>https://github.com/jbiaojerry/ebook-treasure-chest</link>
-      <guid isPermaLink="false">jbiaojerry/ebook-treasure-chest@2026-10-25</guid>
-      <pubDate>Sun, 25 Oct 2026 09:29:52 +0900</pubDate>
-      <description>각종 전자책 다운로드 링크가 모인 곳, 전자책 다운로드 보물창고에 오신 것을 환영합니다. 고전 문학, 영감을 주는 비즈니스 및 경영 서적, 평생 학습, 직장 기업가 정신, 기술 매뉴얼 또는 기타 유형의 책을 읽고 싶든 이 책은 여러분의 요구를 충족할 수 있습니다. 도서관은 Fanshu 앱(이전의 Fandeng Reading), WeChat Reading,…
-欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。
-Python · ★ 22.6k · ▲ 227 (오늘) · 오늘 #9</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>makecindy/cindy — 끝났다고 생각해 보세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트.</title>
-      <link>https://github.com/makecindy/cindy</link>
-      <guid isPermaLink="false">makecindy/cindy@2026-10-25</guid>
-      <pubDate>Sun, 25 Oct 2026 09:29:52 +0900</pubDate>
-      <description>끝났다고 생각해 보세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트.
-Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
-TypeScript · ★ 4.1k · ▲ 477 (오늘) · 오늘 #10</description>
-      <category>TypeScript</category>
       <category>오늘</category>
     </item>
   </channel>

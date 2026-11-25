@@ -99,27 +99,6 @@
   "archived": false,
   "fork": false
  },
- "Comfy-Org/ComfyUI": {
-  "fetched": "2026-10-26",
-  "readme_url": "https://github.com/Comfy-Org/ComfyUI#readme",
-  "install": [
-   "pip install comfy-cli"
-  ],
-  "usage_title": "Examples",
-  "usage_text": "See what ComfyUI can do with the newer template workflows or old example workflows.",
-  "usage_code": "",
-  "license": "GPL-3.0",
-  "homepage": "https://www.comfy.org/",
-  "topics": [
-   "ai",
-   "comfy",
-   "comfyui",
-   "python",
-   "pytorch",
-   "stable-diffusion"
-  ],
-  "default_branch": "master"
- },
  "ConardLi/garden-skills": {
   "fetched": "2026-11-06",
   "readme_url": "https://github.com/ConardLi/garden-skills#readme",
@@ -284,6 +263,34 @@
   "default_branch": "main",
   "created": "2026-02-12",
   "pushed": "2026-11-09",
+  "archived": false,
+  "fork": false
+ },
+ "Ebony-Vinyl/dsh-our-free-model": {
+  "fetched": "2026-11-25",
+  "readme_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model#readme",
+  "install": [
+   "npm run start:standalone",
+   "npm run typecheck # tsc --noEmit，严格检查 adapter/ 接缝（可选：需要 typescript）"
+  ],
+  "usage_title": "dsh-our-free-model",
+  "usage_text": "简体中文 | English\n Trendshift JavaScript 周榜第 1 · 2026-10-05 至 2026-10-11 · 更新中，截至 2026-10-11 \n> 在 dsh 里装上插件即可使用免费车道，无需登录、注册或填写 API Key。\n>\n> *Install the plugin in dsh to use the free lane without signing in, creating an\n> account, or entering an API key.*\n>\n> 模型清单跟随上游刷新，可用性由你自己这台机器的网络出口实测得出，\n> 思考强度下发的是真实预算而不是提示词，另附一个 OpenAI 兼容的本地转发端口。\n>\n> 纯插件挂载：不改内核、无构建步骤、零依赖。\n---",
+  "usage_code": "",
+  "license": "기타",
+  "homepage": "",
+  "topics": [
+   "ai-agents",
+   "deepseek",
+   "deepseek-harness",
+   "developer-tools",
+   "dsh",
+   "dsh-plugin",
+   "free-model",
+   "llm"
+  ],
+  "default_branch": "main",
+  "created": "2026-09-24",
+  "pushed": "2026-11-24",
   "archived": false,
   "fork": false
  },
@@ -1756,31 +1763,8 @@
   "archived": false,
   "fork": false
  },
- "coollabsio/coolify": {
-  "fetched": "2026-10-26",
-  "readme_url": "https://github.com/coollabsio/coolify#readme",
-  "install": [
-   "curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash"
-  ],
-  "usage_title": "Quick start",
-  "usage_text": "Install Coolify on a supported server with one command:\nRead the installation guide for requirements and detailed instructions. You can also review the installation script before you run it.",
-  "usage_code": "curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash",
-  "license": "Apache-2.0",
-  "homepage": "https://coolify.io",
-  "topics": [
-   "coolify",
-   "databases",
-   "deployment",
-   "docker",
-   "docker-compose",
-   "inertiajs",
-   "laravel",
-   "mariadb"
-  ],
-  "default_branch": "main"
- },
  "cursor/plugins": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "readme_url": "https://github.com/cursor/plugins#readme",
   "install": [],
   "usage_title": "Cursor plugins",
@@ -1791,7 +1775,7 @@
   "topics": [],
   "default_branch": "main",
   "created": "2026-01-23",
-  "pushed": "2026-11-17",
+  "pushed": "2026-11-24",
   "archived": false,
   "fork": false
  },
@@ -2526,7 +2510,7 @@
   "default_branch": "main"
  },
  "jingyaogong/minimind": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "readme_url": "https://github.com/jingyaogong/minimind#readme",
   "install": [
    "git clone --depth 1 https://github.com/jingyaogong/minimind",
@@ -2536,8 +2520,8 @@
    "curl http://localhost:8998/v1/chat/completions -H \"Content-Type: application/json\" -d '{",
    "ollama create -f minimind.modelfile minimind-local"
   ],
-  "usage_title": "📌 项目介绍",
-  "usage_text": "大语言模型（Large Language Model, LLM）的出现，引发了全球范围内对 AI 的空前关注。无论是 ChatGPT、DeepSeek 还是 Qwen，都以惊艳的效果让人真切感受到这场技术浪潮的冲击力。然而，动辄数百亿参数的模型规模，使得它们对个人设备而言不仅难以训练，甚至连部署都显得遥不可及。打开大模型的“黑盒子”，真正去理解其内部运作机制，本应是一件令人心潮澎湃的事。遗憾的是，绝大多数探索最终都止步于使用 LoRA 等技术对现有大模型做少量微调，学习一些新指令或特定任务。这更像是在教牛顿如何使用 21 世纪的智能手机——虽然有趣，却偏离了理解物理本质的初衷。\n与此同时，第三方的大模型框架与工具库，如 transformers / trl / peft 等，往往只暴露出高度抽象的接口。只需短短十几行代码，就可以完成“加载模型 + 加载数据集 + 推理 + 强化学习”的全流程训练。这种高效封装固然便利，却也在一定程度上把开发者与底层实现隔离开来，削弱了深入理解 LLM 核心代码的机会。我认为 “用乐高自己拼出一架飞机，远比坐在头等舱里飞行更让人兴奋”，然而更现实的问题是，互联网上充斥着大量付费课程和营销内容，用漏洞百出、一知半解的讲解包装所谓的 AI 教程。正因如此，本项目的初衷就是尽可能降低 LLM 的学习门槛，让每个人都能从理解每一行代码开始，从 0 开始亲手训练一个极小的语言模型。是的，从零开始训练，而不是仅仅停留在推理层面。最低只需不到 3 块钱的服务器成本，就能亲身体验从 0 到 1 构建一个语言模型的全过程。\n😊 一起感受创造的乐趣吧！\n---",
+  "usage_title": "❤️ 赞助",
+  "usage_text": "MiniMind × Infistar.cc ：Claude、GPT、Gemini、DeepSeek等200+模型一个Key搞定，低至官方0.1折（省99%），100%官方纯血可验真，千条线路自动切换。通过 专属链接 注册即送¥5。\n 关于赞助与合作 \nMiniMind 以 Apache 2.0 协议完全开源、永久免费。赞助完全自愿，不换取任何特权，也不影响项目使用。感谢每一位支持者，让这个业余时间维护的项目得以持续。\n赞助方式包括按月占位，或直接赞助 GPU 服务器（算力可能用于项目相关或不相关的研究性探索）。\n如有意向，欢迎通过 邮件 联系。\n---",
   "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "https://jingyaogong.github.io/minimind",
@@ -2547,7 +2531,7 @@
   ],
   "default_branch": "master",
   "created": "2024-07-27",
-  "pushed": "2026-10-27",
+  "pushed": "2026-11-23",
   "archived": false,
   "fork": false
  },
@@ -3303,7 +3287,7 @@
   "fork": false
  },
  "obra/superpowers": {
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-25",
   "readme_url": "https://github.com/obra/superpowers#readme",
   "install": [
    "git clone https://github.com/obra/superpowers.git"
@@ -3325,7 +3309,7 @@
   ],
   "default_branch": "main",
   "created": "2025-10-09",
-  "pushed": "2026-11-03",
+  "pushed": "2026-11-24",
   "archived": false,
   "fork": false
  },

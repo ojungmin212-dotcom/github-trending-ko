@@ -7,6 +7,29 @@
  "language": "ko",
  "items": [
   {
+   "id": "Ebony-Vinyl/dsh-our-free-model@2026-11-25",
+   "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+   "title": "Ebony-Vinyl/dsh-our-free-model — 이 플러그인을 dsh에 설치하기만 하면 로그인, 등록 또는 API 키 입력 없이 DeepSeek V4.1 Flash 및 Kimi K3를 포함한 최첨단 모델을 완전 무료 및 무제한으로 사용할 수 있습니다. 당신이 해야 할 일은 dsh에 이 플러그인을 설치하는 것뿐입니다. 로그인도, 가입도, API 키도 없습니다. DeepSeek V4.1 Flash와 Kim…",
+   "content_text": "이 플러그인을 dsh에 설치하기만 하면 로그인, 등록 또는 API 키 입력 없이 DeepSeek V4.1 Flash 및 Kimi K3를 포함한 최첨단 모델을 완전 무료 및 무제한으로 사용할 수 있습니다. 당신이 해야 할 일은 dsh에 이 플러그인을 설치하는 것뿐입니다. 로그인도, 가입도, API 키도 없습니다. DeepSeek V4.1 Flash와 Kim…\n在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there…\nJavaScript · ★ 86.3k · ▲ 48.2k (이번 달) · 이번 달 #9",
+   "date_published": "2026-11-25T14:00:02+09:00",
+   "tags": [
+    "JavaScript",
+    "이번 달"
+   ],
+   "_trending": {
+    "full_name": "Ebony-Vinyl/dsh-our-free-model",
+    "first_seen": "2026-11-25",
+    "period": "monthly",
+    "rank": 9,
+    "filled_from": null,
+    "stars": 86334,
+    "stars_period": 48193,
+    "language": "JavaScript",
+    "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there…",
+    "description_ko": "이 플러그인을 dsh에 설치하기만 하면 로그인, 등록 또는 API 키 입력 없이 DeepSeek V4.1 Flash 및 Kimi K3를 포함한 최첨단 모델을 완전 무료 및 무제한으로 사용할 수 있습니다. 당신이 해야 할 일은 dsh에 이 플러그인을 설치하는 것뿐입니다. 로그인도, 가입도, API 키도 없습니다. DeepSeek V4.1 Flash와 Kim…"
+   }
+  },
+  {
    "id": "yetone/magpie@2026-11-24",
    "url": "https://github.com/yetone/magpie",
    "title": "yetone/magpie — 모든 에이전트의 모델. 한 곳. 메뉴 표시줄에서 DeepSeek의 Codex, Kimi의 Claude Code.",
@@ -2760,144 +2783,6 @@
     "language": "Python",
     "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local…",
     "description_ko": "Claude Code를 위한 범용 SEO 기술. 기술 SEO, E-E-A-T, 스키마, GEO/AEO, 에이전트 준비 상태(Lighthouse Agentic Browsing, WebMCP, llms.txt), 백링크, 로컬 SEO, 전자 상거래, 국제 SEO, Google API 및 PDF/Excel 보고를 다루는 26개의 하위 기술 + 19개의 하위 에…"
-   }
-  },
-  {
-   "id": "aws/agent-toolkit-for-aws@2026-10-25",
-   "url": "https://github.com/aws/agent-toolkit-for-aws",
-   "title": "aws/agent-toolkit-for-aws — AI 에이전트가 AWS에서 구축하는 데 도움이 되는 공식 AWS 지원 MCP 서버, 기술 및 플러그인",
-   "content_text": "AI 에이전트가 AWS에서 구축하는 데 도움이 되는 공식 AWS 지원 MCP 서버, 기술 및 플러그인\nOfficial, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS\nPython · ★ 3.1k · ▲ 13 (오늘) · 오늘 #3",
-   "date_published": "2026-10-25T09:29:52+09:00",
-   "tags": [
-    "Python",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "aws/agent-toolkit-for-aws",
-    "first_seen": "2026-10-25",
-    "period": "daily",
-    "rank": 3,
-    "filled_from": null,
-    "stars": 3126,
-    "stars_period": 13,
-    "language": "Python",
-    "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-    "description_ko": "AI 에이전트가 AWS에서 구축하는 데 도움이 되는 공식 AWS 지원 MCP 서버, 기술 및 플러그인"
-   }
-  },
-  {
-   "id": "Nutlope/hallmark@2026-10-25",
-   "url": "https://github.com/Nutlope/hallmark",
-   "title": "Nutlope/hallmark — Claude Code, Cursor, Codex의 AI 슬롭 방지 설계 스킬입니다.",
-   "content_text": "Claude Code, Cursor, Codex의 AI 슬롭 방지 설계 스킬입니다.\nAnti-AI-slop design skill for Claude Code, Cursor, and Codex.\nCSS · ★ 32.1k · ▲ 455 (오늘) · 오늘 #4",
-   "date_published": "2026-10-25T09:29:52+09:00",
-   "tags": [
-    "CSS",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "Nutlope/hallmark",
-    "first_seen": "2026-10-25",
-    "period": "daily",
-    "rank": 4,
-    "filled_from": null,
-    "stars": 32133,
-    "stars_period": 455,
-    "language": "CSS",
-    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-    "description_ko": "Claude Code, Cursor, Codex의 AI 슬롭 방지 설계 스킬입니다."
-   }
-  },
-  {
-   "id": "pollen-robotics/microduck@2026-10-25",
-   "url": "https://github.com/pollen-robotics/microduck",
-   "title": "pollen-robotics/microduck — 작은 이족보행 오리 로봇 🦆",
-   "content_text": "작은 이족보행 오리 로봇 🦆\nA Tiny biped duck robot 🦆\nRust · ★ 11k · ▲ 319 (오늘) · 오늘 #7",
-   "date_published": "2026-10-25T09:29:52+09:00",
-   "tags": [
-    "Rust",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "pollen-robotics/microduck",
-    "first_seen": "2026-10-25",
-    "period": "daily",
-    "rank": 7,
-    "filled_from": null,
-    "stars": 10990,
-    "stars_period": 319,
-    "language": "Rust",
-    "description": "A Tiny biped duck robot 🦆",
-    "description_ko": "작은 이족보행 오리 로봇 🦆"
-   }
-  },
-  {
-   "id": "google-gemini/gemini-cli@2026-10-25",
-   "url": "https://github.com/google-gemini/gemini-cli",
-   "title": "google-gemini/gemini-cli — Gemini의 강력한 기능을 터미널에 직접 제공하는 오픈 소스 AI 에이전트입니다.",
-   "content_text": "Gemini의 강력한 기능을 터미널에 직접 제공하는 오픈 소스 AI 에이전트입니다.\nAn open-source AI agent that brings the power of Gemini directly into your terminal.\nTypeScript · ★ 108k · ▲ 44 (오늘) · 오늘 #8",
-   "date_published": "2026-10-25T09:29:52+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "google-gemini/gemini-cli",
-    "first_seen": "2026-10-25",
-    "period": "daily",
-    "rank": 8,
-    "filled_from": null,
-    "stars": 108049,
-    "stars_period": 44,
-    "language": "TypeScript",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "description_ko": "Gemini의 강력한 기능을 터미널에 직접 제공하는 오픈 소스 AI 에이전트입니다."
-   }
-  },
-  {
-   "id": "jbiaojerry/ebook-treasure-chest@2026-10-25",
-   "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
-   "title": "jbiaojerry/ebook-treasure-chest — 각종 전자책 다운로드 링크가 모인 곳, 전자책 다운로드 보물창고에 오신 것을 환영합니다. 고전 문학, 영감을 주는 비즈니스 및 경영 서적, 평생 학습, 직장 기업가 정신, 기술 매뉴얼 또는 기타 유형의 책을 읽고 싶든 이 책은 여러분의 요구를 충족할 수 있습니다. 도서관은 Fanshu 앱(이전의 Fandeng Reading), WeChat Reading,…",
-   "content_text": "각종 전자책 다운로드 링크가 모인 곳, 전자책 다운로드 보물창고에 오신 것을 환영합니다. 고전 문학, 영감을 주는 비즈니스 및 경영 서적, 평생 학습, 직장 기업가 정신, 기술 매뉴얼 또는 기타 유형의 책을 읽고 싶든 이 책은 여러분의 요구를 충족할 수 있습니다. 도서관은 Fanshu 앱(이전의 Fandeng Reading), WeChat Reading,…\n欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。\nPython · ★ 22.6k · ▲ 227 (오늘) · 오늘 #9",
-   "date_published": "2026-10-25T09:29:52+09:00",
-   "tags": [
-    "Python",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "jbiaojerry/ebook-treasure-chest",
-    "first_seen": "2026-10-25",
-    "period": "daily",
-    "rank": 9,
-    "filled_from": null,
-    "stars": 22600,
-    "stars_period": 227,
-    "language": "Python",
-    "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
-    "description_ko": "각종 전자책 다운로드 링크가 모인 곳, 전자책 다운로드 보물창고에 오신 것을 환영합니다. 고전 문학, 영감을 주는 비즈니스 및 경영 서적, 평생 학습, 직장 기업가 정신, 기술 매뉴얼 또는 기타 유형의 책을 읽고 싶든 이 책은 여러분의 요구를 충족할 수 있습니다. 도서관은 Fanshu 앱(이전의 Fandeng Reading), WeChat Reading,…"
-   }
-  },
-  {
-   "id": "makecindy/cindy@2026-10-25",
-   "url": "https://github.com/makecindy/cindy",
-   "title": "makecindy/cindy — 끝났다고 생각해 보세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트.",
-   "content_text": "끝났다고 생각해 보세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트.\nConsider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。\nTypeScript · ★ 4.1k · ▲ 477 (오늘) · 오늘 #10",
-   "date_published": "2026-10-25T09:29:52+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "makecindy/cindy",
-    "first_seen": "2026-10-25",
-    "period": "daily",
-    "rank": 10,
-    "filled_from": null,
-    "stars": 4092,
-    "stars_period": 477,
-    "language": "TypeScript",
-    "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-    "description_ko": "끝났다고 생각해 보세요. 즉시 작동하는 오픈소스 AI 에이전트 · 생각하면 할 수 있습니다. 오픈 소스, 즉시 사용 가능한 AI 에이전트."
    }
   }
  ]
