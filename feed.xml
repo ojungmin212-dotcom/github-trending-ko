@@ -5,9 +5,20 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:00:02 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 13:19:13 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>n8n-io/nod — 자체 컴퓨터를 갖춘 오픈 소스 개인 에이전트. 송장을 추적하고, 전화를 준비하고, 실제 웹사이트에서 평가판을 취소하고, 실행하기 전에 묻습니다. 선택한 모델로 컴퓨터에서 실행됩니다. n8n으로요.</title>
+      <link>https://github.com/n8n-io/nod</link>
+      <guid isPermaLink="false">n8n-io/nod@2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 13:19:13 +0900</pubDate>
+      <description>자체 컴퓨터를 갖춘 오픈 소스 개인 에이전트. 송장을 추적하고, 전화를 준비하고, 실제 웹사이트에서 평가판을 취소하고, 실행하기 전에 묻습니다. 선택한 모델로 컴퓨터에서 실행됩니다. n8n으로요.
+Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By…
+TypeScript · ★ 3.6k · ▲ 1k (이번 주) · 이번 주 #4</description>
+      <category>TypeScript</category>
+      <category>이번 주</category>
+    </item>
     <item>
       <title>Ebony-Vinyl/dsh-our-free-model — 이 플러그인을 dsh에 설치하기만 하면 로그인, 등록 또는 API 키 입력 없이 DeepSeek V4.1 Flash 및 Kimi K3를 포함한 최첨단 모델을 완전 무료 및 무제한으로 사용할 수 있습니다. 당신이 해야 할 일은 dsh에 이 플러그인을 설치하는 것뿐입니다. 로그인도, 가입도, API 키도 없습니다. DeepSeek V4.1 Flash와 Kim…</title>
       <link>https://github.com/Ebony-Vinyl/dsh-our-free-model</link>
@@ -1283,50 +1294,6 @@ TypeScript · ★ 38.5k · ▲ 188 (오늘) · 오늘 #12</description>
 Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor &amp; any agent
 HTML · ★ 26.8k · ▲ 251 (오늘) · 오늘 #13</description>
       <category>HTML</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>TauricResearch/TradingAgents — TradingAgents: 다중 에이전트 LLM 금융 거래 프레임워크</title>
-      <link>https://github.com/TauricResearch/TradingAgents</link>
-      <guid isPermaLink="false">TauricResearch/TradingAgents@2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 09:38:52 +0900</pubDate>
-      <description>TradingAgents: 다중 에이전트 LLM 금융 거래 프레임워크
-TradingAgents: Multi-Agents LLM Financial Trading Framework
-Python · ★ 114.6k · ▲ 381 (오늘) · 오늘 #6</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>JetBrains/thinkrail — 작업 방식에 맞춰 자체적으로 맞춤화되는 경량의 실제 IDE에 Pi가 포함된 Vibe 코드 — 필요한 Vibe</title>
-      <link>https://github.com/JetBrains/thinkrail</link>
-      <guid isPermaLink="false">JetBrains/thinkrail@2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 09:38:52 +0900</pubDate>
-      <description>작업 방식에 맞춰 자체적으로 맞춤화되는 경량의 실제 IDE에 Pi가 포함된 Vibe 코드 — 필요한 Vibe
-Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
-TypeScript · ★ 1.7k · ▲ 51 (오늘) · 오늘 #8</description>
-      <category>TypeScript</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>coollabsio/coolify — Vercel, Heroku 및 Netlify에 대한 오픈 소스, 자체 호스팅 가능 PaaS 대안으로 정적 사이트, 데이터베이스, 전체 스택 애플리케이션 및 360개 이상의 원클릭 서비스를 자체 서버에 쉽게 배포할 수 있습니다.</title>
-      <link>https://github.com/coollabsio/coolify</link>
-      <guid isPermaLink="false">coollabsio/coolify@2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 09:38:52 +0900</pubDate>
-      <description>Vercel, Heroku 및 Netlify에 대한 오픈 소스, 자체 호스팅 가능 PaaS 대안으로 정적 사이트, 데이터베이스, 전체 스택 애플리케이션 및 360개 이상의 원클릭 서비스를 자체 서버에 쉽게 배포할 수 있습니다.
-An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
-PHP · ★ 64.4k · ▲ 152 (오늘) · 오늘 #9</description>
-      <category>PHP</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>AgriciDaniel/claude-seo — Claude Code를 위한 범용 SEO 기술. 기술 SEO, E-E-A-T, 스키마, GEO/AEO, 에이전트 준비 상태(Lighthouse Agentic Browsing, WebMCP, llms.txt), 백링크, 로컬 SEO, 전자 상거래, 국제 SEO, Google API 및 PDF/Excel 보고를 다루는 26개의 하위 기술 + 19개의 하위 에…</title>
-      <link>https://github.com/AgriciDaniel/claude-seo</link>
-      <guid isPermaLink="false">AgriciDaniel/claude-seo@2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 09:38:52 +0900</pubDate>
-      <description>Claude Code를 위한 범용 SEO 기술. 기술 SEO, E-E-A-T, 스키마, GEO/AEO, 에이전트 준비 상태(Lighthouse Agentic Browsing, WebMCP, llms.txt), 백링크, 로컬 SEO, 전자 상거래, 국제 SEO, Google API 및 PDF/Excel 보고를 다루는 26개의 하위 기술 + 19개의 하위 에…
-Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local…
-Python · ★ 20.9k · ▲ 197 (오늘) · 오늘 #11</description>
-      <category>Python</category>
       <category>오늘</category>
     </item>
   </channel>

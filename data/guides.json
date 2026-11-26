@@ -1,6 +1,6 @@
 {
  "AgriciDaniel/claude-seo": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/AgriciDaniel/claude-seo#readme",
   "install": [
    "git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git",
@@ -9,7 +9,7 @@
    "bash install.sh"
   ],
   "usage_title": "See it in action",
-  "usage_text": "Watch the tour in under four minutes. Coral, Violet and Red install Claude SEO, audit a real site and read the plan:\nType /seo in Claude Code to see every command:\nRun a full audit and watch the agents fan out across the site:\nWatch the full demo on YouTube",
+  "usage_text": "Two videos. The tour takes under four minutes: Coral, Violet and Red install Claude SEO, audit a real site and read the plan. The masterclass is the full walkthrough: 47 minutes, two live sites, a team of AI agents and every step explained.\n The tour (4 min) · The masterclass (47 min) \nType /seo in Claude Code to see every command:\nRun a full audit and watch the agents fan out across the site:\nWatch the full demo on YouTube",
   "usage_code": "",
   "license": "MIT",
   "homepage": "skool.com/ai-marketing-hub-pro",
@@ -24,7 +24,7 @@
   ],
   "default_branch": "main",
   "created": "2026-02-07",
-  "pushed": "2026-11-16",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -343,7 +343,7 @@
   "default_branch": "main"
  },
  "GoogleChrome/modern-web-guidance-src": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/GoogleChrome/modern-web-guidance-src#readme",
   "install": [
    "npx modern-web-guidance@latest install",
@@ -354,14 +354,14 @@
    "gh skill install GoogleChrome/modern-web-guidance"
   ],
   "usage_title": "Quickstart",
-  "usage_text": "This command runs an interactive wizard to install Modern Web Guidance. See Alternative Installation Methods below.",
+  "usage_text": "This command runs an interactive wizard to install Modern Web Guidance. See Alternative Installation Methods below. Requires Node.js 22 or later.",
   "usage_code": "npx modern-web-guidance@latest install",
   "license": "Apache-2.0",
   "homepage": "https://goo.gle/modern-web-guidance",
   "topics": [],
   "default_branch": "main",
   "created": "2026-01-27",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-25",
   "archived": false,
   "fork": false
  },
@@ -394,7 +394,7 @@
   "default_branch": "v8"
  },
  "HKUDS/CLI-Anything": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/HKUDS/CLI-Anything#readme",
   "install": [
    "pip install cli-anything-hub",
@@ -408,12 +408,12 @@
   "topics": [],
   "default_branch": "main",
   "created": "2026-03-08",
-  "pushed": "2026-09-22",
+  "pushed": "2026-11-20",
   "archived": false,
   "fork": false
  },
  "HKUDS/DeepTutor": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/HKUDS/DeepTutor#readme",
   "install": [
    "docker run --rm --name deeptutor -p 127.0.0.1:3782:3782 -v deeptutor-data:/app/data ghcr.io/hkuds/deeptutor:latest",
@@ -440,7 +440,7 @@
   ],
   "default_branch": "main",
   "created": "2025-12-28",
-  "pushed": "2026-11-18",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -664,33 +664,6 @@
   "archived": false,
   "fork": false
  },
- "NVIDIA/SkillSpector": {
-  "fetched": "2026-10-27",
-  "readme_url": "https://github.com/NVIDIA/SkillSpector#readme",
-  "install": [
-   "uv tool install git+https://github.com/NVIDIA/skillspector.git",
-   "uv tool install 'skillspector[mcp] @ git+https://github.com/NVIDIA/skillspector.git'",
-   "git clone https://github.com/NVIDIA/skillspector.git",
-   "make install",
-   "make install-dev"
-  ],
-  "usage_title": "Features",
-  "usage_text": "• Multi-format input: Scan Git repos, URLs, zip files, directories, or single files\n• 71 vulnerability patterns across 17 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, anti-refusal, trigger abuse, dangerous code (AST), taint tracking, YARA signatures, MCP least privilege, and MCP tool poisoning\n• Two-stage analysis: Fast static analysis + optional LLM semantic evaluation\n• Live vulnerability lookups: SC4 queries OSV.dev for real-time CVE data with automatic offline fallback\n• Multiple output formats: Terminal, JSON, Markdown, and SARIF reports…",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://docs.nvidia.com/skills/scanning-agent-skills",
-  "topics": [
-   "agent-security",
-   "agent-skills",
-   "agentic-ai",
-   "ai-security",
-   "claude-code",
-   "mcp",
-   "prompt-injection",
-   "security-scanner"
-  ],
-  "default_branch": "main"
- },
  "NVIDIA/auto-ontology": {
   "fetched": "2026-11-12",
   "readme_url": "https://github.com/NVIDIA/auto-ontology#readme",
@@ -734,7 +707,7 @@
   "fork": false
  },
  "Nutlope/hallmark": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/Nutlope/hallmark#readme",
   "install": [
    "npx skills add nutlope/hallmark -g"
@@ -771,27 +744,6 @@
    "ai-assistant",
    "ai-automation",
    "ai-employee"
-  ],
-  "default_branch": "main"
- },
- "Panniantong/Agent-Reach": {
-  "fetched": "2026-10-27",
-  "readme_url": "https://github.com/Panniantong/Agent-Reach#readme",
-  "install": [],
-  "usage_title": "❤️赞助商",
-  "usage_text": "> 想出现在这里？\n 点击展开 \n Bright Data 亮数据 | 全球领先的数据采集基础设施。Scraper Studio 智能爬取器让你用自然语言一键生成爬虫，无需写代码；Unlocker 网站解锁器自动绕过反爬虫机制，轻松采集 Amazon、Google、LinkedIn、TikTok 等复杂网站数据。内置 350+ 现成 API 集成，覆盖电商、社交、搜索、地图等全品类数据源，直接调用开箱即用。1.5 亿+ 全球真实住宅 IP 保障采集稳定性。每月免费 5,000 次请求， 立即免费注册 。 \n RapidProxy 是专为开发者打造的数据采集代理解决方案，提供稳定可靠的住宅代理服务。拥有 9000 万+ 全球住宅 IP，覆盖 200+ 国家和地区，支持智能轮换与精准地理定位，可用于网页抓取、AI 数据采集与训练、SEO 监控、电商数据分析等场景，帮助提升数据采集效率与稳定性。支持 Playwright、Selenium、Puppeteer 等主流自动化框架，流量永久有效，价格低至 $0.55/GB， 支持免费测试 。 \n BrowserAct 支持从 Amazon、LinkedIn、X、Google Maps 等复杂网站提取你需要的任意数据。你只需用自然语言描述抓取需求，Agent 就会基于真实浏览器自动探索并测试页面流程，生成可靠、可复用的数据采集 Bot，并返回结构化结果。无需手动构建爬虫，无需编写代码。BrowserAct 内置隐身浏览、验证码处理和高质量住宅代理，帮助你更稳定地完成复杂网页数据采集。新用户注册即送 1000 积分， 立即免费试用 。…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [
-   "agent-infrastructure",
-   "ai-agent",
-   "ai-search",
-   "automation",
-   "bilibili",
-   "claude-code",
-   "cli",
-   "cursor"
   ],
   "default_branch": "main"
  },
@@ -1239,31 +1191,6 @@
   "archived": false,
   "fork": false
  },
- "alchaincyf/huashu-design": {
-  "fetched": "2026-10-27",
-  "readme_url": "https://github.com/alchaincyf/huashu-design#readme",
-  "install": [
-   "npx skills add alchaincyf/huashu-design",
-   "npm i -g skills@latest  # 或 npx skills@latest add alchaincyf/huashu-design",
-   "git clone https://github.com/alchaincyf/huashu-design.git ~/.claude/skills/huashu-design"
-  ],
-  "usage_title": "Huashu Design",
-  "usage_text": "> 「打字。回车。一份能交付的设计。」\n> \"Type. Hit enter. A finished design lands in your lap.\"\n在你的 agent 里打一句话，拿回一份能交付的设计。\n3 到 30 分钟，你能 ship 一段产品发布动画、一个能点击的 App 原型、一套能编辑的 PPT、一份印刷级的信息图。\n不是「AI 做的还行」那种水平——是看起来像大厂设计团队做的。给 skill 你的品牌资产（logo、色板、UI 截图），它会读懂你的品牌气质；什么都不给，六张缩略图里挑出的三个真实方向 + 84 种带样张的风格库也能兜底到不出 AI slop。\n你看到这篇 README 里的每一页设计，都是 huashu-design 自己做的。 不是 Figma，不是 AE，就是一句话 prompt + skill 跑通。下次产品发布要做宣传片？现在你也能做。\n跨 agent 通用——Claude Code、Cursor、Codex、OpenClaw、Hermes 都能装。\n> 📣 已改为 MIT 协议。 自 2026-05-14 起本 skill 完全开源（MIT License），个人和商用都免费，无需事先授权。原「个人使用免费、企业商用需授权」的条款已作废。(查看变更)\n> 🆕 3.0：三个方向更敢，项目之间也不再长一个样。 先出六张缩略图再挑三版做成真稿；风格库扩到 84 种（新增 App、中文与东亚两个分区），每种都有样张；参照作品先截图再动手；带一个只量事实的设计体检，和一本记住你做过什么样子的外观账本。详见核心机制…",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [
-   "agent-skills",
-   "ai-design",
-   "claude-code",
-   "claude-skills",
-   "codex",
-   "cursor",
-   "design",
-   "html"
-  ],
-  "default_branch": "master"
- },
  "alibaba/open-code-review": {
   "fetched": "2026-11-21",
   "readme_url": "https://github.com/alibaba/open-code-review#readme",
@@ -1406,7 +1333,7 @@
   "fork": false
  },
  "anthropics/skills": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/anthropics/skills#readme",
   "install": [],
   "usage_title": "Creating a Basic Skill",
@@ -1745,7 +1672,7 @@
   "default_branch": "main"
  },
  "cloudflare/security-audit-skill": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/cloudflare/security-audit-skill#readme",
   "install": [
    "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit",
@@ -2174,27 +2101,6 @@
   ],
   "default_branch": "main"
  },
- "gitroomhq/postiz-app": {
-  "fetched": "2026-10-27",
-  "readme_url": "https://github.com/gitroomhq/postiz-app#readme",
-  "install": [],
-  "usage_title": "Quick Start",
-  "usage_text": "To have the project up and running, please follow the Quick Start Guide",
-  "usage_code": "",
-  "license": "AGPL-3.0",
-  "homepage": "https://postiz.com",
-  "topics": [
-   "nextjs",
-   "open-source",
-   "open-source-social-media-scheduling-tool",
-   "oss",
-   "postiz-cloud",
-   "postiz-hosted",
-   "redis",
-   "scheduling-tool"
-  ],
-  "default_branch": "main"
- },
  "google-deepmind/mujoco": {
   "fetched": "2026-11-12",
   "readme_url": "https://github.com/google-deepmind/mujoco#readme",
@@ -2369,34 +2275,34 @@
   "fork": false
  },
  "heygen-com/hyperframes": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/heygen-com/hyperframes#readme",
   "install": [
+   "npx skills add heygen-com/hyperframes  # pick \"Core Skills\" in the picker",
+   "npx hyperframes skills update",
    "claude plugin marketplace add heygen-com/hyperframes",
    "claude plugin install hyperframes@hyperframes",
-   "npx skills add heygen-com/hyperframes",
-   "bun run package:codex-plugin",
    "npx hyperframes init my-video",
-   "npx hyperframes preview  # preview in browser with live reload"
+   "npx hyperframes preview  # live preview in the browser"
   ],
-  "usage_title": "How It Works",
-  "usage_text": "Define a video as HTML. Add data attributes for timing and tracks. Use GSAP, CSS, Lottie, Three.js, Anime.js, WAAPI, or your own frame adapter for seekable animation.\nPreview instantly in the browser. Render locally or in Docker. The renderer seeks each frame in headless Chrome and encodes the result with FFmpeg, so the same input produces the same video.",
-  "usage_code": "<div id=\"stage\" data-composition-id=\"launch\" data-start=\"0\" data-width=\"1920\" data-height=\"1080\">\n  <video\n    class=\"clip\"\n    data-start=\"0\"\n    data-duration=\"6\"\n    data-track-index=\"0\"\n    src=\"intro.mp4\"\n    muted\n    playsinline\n  ></video>\n\n  <h1 id=\"title\" class=\"clip\" data-start=\"1\" data-duration=\"4\" data-track-index=\"1\">Launch day</h1>\n\n  <audio\n    data-start=\"0\"\n    data-duration=\"6\"\n    data-track-index=\"2\"\n    data-volume=\"0.5\"\n…",
+  "usage_title": "Quick start for developers",
+  "usage_text": "Using Claude Code, Codex, Cursor, or another coding agent? Install the skills once, then ask your agent to make a video.",
+  "usage_code": "",
   "license": "Apache-2.0",
   "homepage": "https://hyperframes.heygen.com",
   "topics": [
+   "agent-skills",
    "ai",
    "ai-agents",
+   "ai-video",
+   "ai-video-editor",
    "animation",
    "claude-code",
-   "ffmpeg",
-   "framework",
-   "gsap",
-   "html"
+   "ffmpeg"
   ],
   "default_branch": "main",
   "created": "2026-03-10",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -2841,7 +2747,7 @@
   "default_branch": "main"
  },
  "meta/astryx": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/meta/astryx#readme",
   "install": [
    "npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex",
@@ -2852,14 +2758,14 @@
    "yarn add -D @astryxdesign/cli"
   ],
   "usage_title": "Getting Started",
-  "usage_text": "Astryx requires React 19 or later (react and react-dom are peer dependencies of @astryxdesign/core).\nInstall Astryx, a theme, and its peer dependencies:\nYou can also install the CLI once for your computer, so astryx works in any folder and every coding agent knows Astryx; in a project, it still runs that project's own version:\nProject install, global install, or both? astryx docs global/project-global-or-both compares them (both is recommended), and astryx docs global explains how global mode works…",
+  "usage_text": "Astryx requires React 19 or later (react and react-dom are peer dependencies of @astryxdesign/core).\nInstall Astryx, a theme, and its peer dependencies:\nThen finish setup with init, once, before you write UI. It asks no questions, prints the getting-started steps (styles, theme), and saves the Astryx guide to AGENTS.md/CLAUDE.md so you and your agents build with Astryx instead of guessing:\nYou can also install the CLI once for your computer, so astryx works in any folder and every coding agent knows Astryx; in a project, it still runs that project's own version…",
   "usage_code": "# npm\nnpm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex\nnpm install -D @astryxdesign/cli\n\n# pnpm\npnpm add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex\npnpm add -D @astryxdesign/cli\n\n# yarn\nyarn add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex\nyarn add -D @astryxdesign/cli",
   "license": "MIT",
   "homepage": "http://astryx.atmeta.com",
   "topics": [],
   "default_branch": "main",
   "created": "2026-01-09",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -2919,7 +2825,7 @@
   "default_branch": "main"
  },
  "milind-soni/OpenMausBot": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/milind-soni/OpenMausBot#readme",
   "install": [
    "git clone https://github.com/milind-soni/OpenMausBot && cd OpenMausBot",
@@ -2942,7 +2848,7 @@
   ],
   "default_branch": "main",
   "created": "2026-08-11",
-  "pushed": "2026-11-18",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -3155,6 +3061,33 @@
   "archived": false,
   "fork": false
  },
+ "n8n-io/nod": {
+  "fetched": "2026-11-26",
+  "readme_url": "https://github.com/n8n-io/nod#readme",
+  "install": [
+   "git clone https://github.com/n8n-io/nod.git"
+  ],
+  "usage_title": "",
+  "usage_text": "",
+  "usage_code": "",
+  "license": "Apache-2.0",
+  "homepage": "https://nod.n8n.io/",
+  "topics": [
+   "agents",
+   "ai-agent",
+   "ai-assistant",
+   "anthropic",
+   "automation",
+   "browser-automation",
+   "computer-use",
+   "electron"
+  ],
+  "default_branch": "main",
+  "created": "2026-09-25",
+  "pushed": "2026-11-26",
+  "archived": false,
+  "fork": false
+ },
  "nginx/nginx": {
   "fetched": "2026-11-20",
   "readme_url": "https://github.com/nginx/nginx#readme",
@@ -3361,7 +3294,7 @@
   "default_branch": "master"
  },
  "openvinotoolkit/openvino": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/openvinotoolkit/openvino#readme",
   "install": [
    "pip install -U openvino"
@@ -3383,7 +3316,7 @@
   ],
   "default_branch": "master",
   "created": "2018-10-15",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -3457,7 +3390,7 @@
   "default_branch": "main"
  },
  "pbakaus/impeccable": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/pbakaus/impeccable#readme",
   "install": [
    "npx impeccable install",
@@ -3477,7 +3410,7 @@
   ],
   "default_branch": "main",
   "created": "2025-11-16",
-  "pushed": "2026-11-18",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -3503,7 +3436,7 @@
   "fork": false
  },
  "pingdotgg/t3code": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/pingdotgg/t3code#readme",
   "install": [
    "curl -fsSL https://t3.codes/install.sh | sh"
@@ -3525,7 +3458,7 @@
   ],
   "default_branch": "main",
   "created": "2026-02-08",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -3674,31 +3607,6 @@
   ],
   "default_branch": "main"
  },
- "rohitg00/ai-engineering-from-scratch": {
-  "fetched": "2026-10-27",
-  "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch#readme",
-  "install": [
-   "npx skills add rohitg00/ai-engineering-from-scratch",
-   "npx --version",
-   "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git"
-  ],
-  "usage_title": "Run local code",
-  "usage_text": "The preflight separates requirements needed now from tools needed later. Every\nrequired failure includes the detected reason and a corrective command. The\nvectors.py command is a dependency-free lesson and ends by showing that a matrix\ntimes a vector is the operation inside a neural network layer. Save that\nterminal output as your first evidence.\n Use every lesson the same way",
-  "usage_code": "git clone https://github.com/rohitg00/ai-engineering-from-scratch.git\ncd ai-engineering-from-scratch\npython3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner\npython3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py",
-  "license": "MIT",
-  "homepage": "https://aiengineeringfromscratch.com",
-  "topics": [
-   "agents",
-   "ai",
-   "ai-agents",
-   "ai-engineering",
-   "computer-vision",
-   "course",
-   "deep-learning",
-   "dsh"
-  ],
-  "default_branch": "main"
- },
  "rust-lang/rust": {
   "fetched": "2026-11-07",
   "readme_url": "https://github.com/rust-lang/rust#readme",
@@ -3814,7 +3722,7 @@
   "fork": false
  },
  "sherlock-project/sherlock": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/sherlock-project/sherlock",
   "install": [],
   "usage_title": "",
@@ -3834,7 +3742,7 @@
   ],
   "default_branch": "master",
   "created": "2018-12-24",
-  "pushed": "2026-11-18",
+  "pushed": "2026-11-25",
   "archived": false,
   "fork": false
  },
@@ -4032,7 +3940,7 @@
   "default_branch": "main"
  },
  "thedotmack/claude-mem": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/thedotmack/claude-mem#readme",
   "install": [
    "npx claude-mem install",
@@ -4059,7 +3967,7 @@
   ],
   "default_branch": "main",
   "created": "2025-08-31",
-  "pushed": "2026-11-18",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -4131,7 +4039,7 @@
   "fork": false
  },
  "vercel-labs/agent-browser": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/vercel-labs/agent-browser#readme",
   "install": [
    "npm install -g agent-browser",
@@ -4146,7 +4054,7 @@
   "topics": [],
   "default_branch": "main",
   "created": "2026-01-11",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -4220,7 +4128,7 @@
   "default_branch": "main"
  },
  "we-promise/sure": {
-  "fetched": "2026-11-19",
+  "fetched": "2026-11-26",
   "readme_url": "https://github.com/we-promise/sure#readme",
   "install": [],
   "usage_title": "Getting Started",
@@ -4231,7 +4139,7 @@
   "topics": [],
   "default_branch": "main",
   "created": "2025-07-23",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
