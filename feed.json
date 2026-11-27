@@ -7,6 +7,29 @@
  "language": "ko",
  "items": [
   {
+   "id": "obsidianmd/obsidian-skills@2026-11-27",
+   "url": "https://github.com/obsidianmd/obsidian-skills",
+   "title": "obsidianmd/obsidian-skills — 에이전트에게 Obsidian과 Markdown, Bases, JSON Canvas를 포함한 개방형 형식을 사용하도록 교육하세요.",
+   "content_text": "에이전트에게 Obsidian과 Markdown, Bases, JSON Canvas를 포함한 개방형 형식을 사용하도록 교육하세요.\nTeach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.\nShell · ★ 54.1k · ▲ 704 (이번 주) · 이번 주 #13",
+   "date_published": "2026-11-27T13:29:03+09:00",
+   "tags": [
+    "Shell",
+    "이번 주"
+   ],
+   "_trending": {
+    "full_name": "obsidianmd/obsidian-skills",
+    "first_seen": "2026-11-27",
+    "period": "weekly",
+    "rank": 13,
+    "filled_from": null,
+    "stars": 54077,
+    "stars_period": 704,
+    "language": "Shell",
+    "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+    "description_ko": "에이전트에게 Obsidian과 Markdown, Bases, JSON Canvas를 포함한 개방형 형식을 사용하도록 교육하세요."
+   }
+  },
+  {
    "id": "n8n-io/nod@2026-11-26",
    "url": "https://github.com/n8n-io/nod",
    "title": "n8n-io/nod — 자체 컴퓨터를 갖춘 오픈 소스 개인 에이전트. 송장을 추적하고, 전화를 준비하고, 실제 웹사이트에서 평가판을 취소하고, 실행하기 전에 묻습니다. 선택한 모델로 컴퓨터에서 실행됩니다. n8n으로요.",
@@ -2645,75 +2668,6 @@
     "language": "",
     "description": "LIST OF ALL MY JAILBREAKS",
     "description_ko": "내 모든 탈옥 목록"
-   }
-  },
-  {
-   "id": "nightly-labs/openbot@2026-10-27",
-   "url": "https://github.com/nightly-labs/openbot",
-   "title": "nightly-labs/openbot — 지속적인 AI 팀원을 위한 로컬 우선 데스크톱 작업 공간입니다. 전용 작업 공간, 작업 대기열, 파일 공유, 브라우저 제어 및 에이전트 간 협업을 통해 Codex, Claude 및 Grok을 실행하세요.",
-   "content_text": "지속적인 AI 팀원을 위한 로컬 우선 데스크톱 작업 공간입니다. 전용 작업 공간, 작업 대기열, 파일 공유, 브라우저 제어 및 에이전트 간 협업을 통해 Codex, Claude 및 Grok을 실행하세요.\nA local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.\nTypeScript · ★ 1.5k · ▲ 176 (오늘) · 오늘 #9",
-   "date_published": "2026-10-27T10:36:03+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "nightly-labs/openbot",
-    "first_seen": "2026-10-27",
-    "period": "daily",
-    "rank": 9,
-    "filled_from": null,
-    "stars": 1501,
-    "stars_period": 176,
-    "language": "TypeScript",
-    "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-    "description_ko": "지속적인 AI 팀원을 위한 로컬 우선 데스크톱 작업 공간입니다. 전용 작업 공간, 작업 대기열, 파일 공유, 브라우저 제어 및 에이전트 간 협업을 통해 Codex, Claude 및 Grok을 실행하세요."
-   }
-  },
-  {
-   "id": "gitroomhq/postiz-app@2026-10-27",
-   "url": "https://github.com/gitroomhq/postiz-app",
-   "title": "gitroomhq/postiz-app — 📨 최고의 에이전트 소셜 미디어 일정 관리 도구 🤖",
-   "content_text": "📨 최고의 에이전트 소셜 미디어 일정 관리 도구 🤖\n📨 The ultimate agentic social media scheduling tool 🤖\nTypeScript · ★ 38.5k · ▲ 188 (오늘) · 오늘 #12",
-   "date_published": "2026-10-27T10:36:03+09:00",
-   "tags": [
-    "TypeScript",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "gitroomhq/postiz-app",
-    "first_seen": "2026-10-27",
-    "period": "daily",
-    "rank": 12,
-    "filled_from": null,
-    "stars": 38480,
-    "stars_period": 188,
-    "language": "TypeScript",
-    "description": "📨 The ultimate agentic social media scheduling tool 🤖",
-    "description_ko": "📨 최고의 에이전트 소셜 미디어 일정 관리 도구 🤖"
-   }
-  },
-  {
-   "id": "alchaincyf/huashu-design@2026-10-27",
-   "url": "https://github.com/alchaincyf/huashu-design",
-   "title": "alchaincyf/huashu-design — Huashu Design 3.0 · 에이전트에 문장을 입력하고 전달할 수 있는 디자인을 돌려받음: 웹 페이지 / 앱 프로토타입 / 편집 가능한 PPTX / 애니메이션 / 인포그래픽 · 3가지 방향에서 선택할 수 있는 6가지 후보자 · 샘플이 포함된 84개의 스타일 라이브러리 · 사용할수록 외관 계정 및 디자인 점검을 더 잘 이해할 수 있음 · Claude…",
-   "content_text": "Huashu Design 3.0 · 에이전트에 문장을 입력하고 전달할 수 있는 디자인을 돌려받음: 웹 페이지 / 앱 프로토타입 / 편집 가능한 PPTX / 애니메이션 / 인포그래픽 · 3가지 방향에서 선택할 수 있는 6가지 후보자 · 샘플이 포함된 84개의 스타일 라이브러리 · 사용할수록 외관 계정 및 디자인 점검을 더 잘 이해할 수 있음 · Claude…\nHuashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent\nHTML · ★ 26.8k · ▲ 251 (오늘) · 오늘 #13",
-   "date_published": "2026-10-27T10:36:03+09:00",
-   "tags": [
-    "HTML",
-    "오늘"
-   ],
-   "_trending": {
-    "full_name": "alchaincyf/huashu-design",
-    "first_seen": "2026-10-27",
-    "period": "daily",
-    "rank": 13,
-    "filled_from": null,
-    "stars": 26804,
-    "stars_period": 251,
-    "language": "HTML",
-    "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
-    "description_ko": "Huashu Design 3.0 · 에이전트에 문장을 입력하고 전달할 수 있는 디자인을 돌려받음: 웹 페이지 / 앱 프로토타입 / 편집 가능한 PPTX / 애니메이션 / 인포그래픽 · 3가지 방향에서 선택할 수 있는 6가지 후보자 · 샘플이 포함된 84개의 스타일 라이브러리 · 사용할수록 외관 계정 및 디자인 점검을 더 잘 이해할 수 있음 · Claude…"
    }
   }
  ]

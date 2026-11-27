@@ -215,30 +215,6 @@
   "archived": false,
   "fork": false
  },
- "DietrichGebert/ponytail": {
-  "fetched": "2026-10-28",
-  "readme_url": "https://github.com/DietrichGebert/ponytail#readme",
-  "install": [
-   "codex plugin marketplace add DietrichGebert/ponytail",
-   "codex plugin add ponytail@ponytail"
-  ],
-  "usage_title": "How it works",
-  "usage_text": "The ladder runs after it understands the problem, not instead of it: it reads the code the change touches and traces the real flow before picking a rung. Lazy about the solution, never about reading.\nLazy, not negligent: trust-boundary validation, data-loss handling, security, and accessibility are never on the chopping block.\nLogic with a branch, a loop, a parser, money or security leaves one small test behind. Every reply ends with what was skipped or not checked and any risk you should know.",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "https://ponytail.dev",
-  "topics": [
-   "agent-skills",
-   "ai-agents",
-   "claude",
-   "claude-code",
-   "claude-code-plugin",
-   "cursor-rules",
-   "developer-tools",
-   "llm"
-  ],
-  "default_branch": "main"
- },
  "Donchitos/Claude-Code-Game-Studios": {
   "fetched": "2026-11-12",
   "readme_url": "https://github.com/Donchitos/Claude-Code-Game-Studios#readme",
@@ -365,34 +341,6 @@
   "archived": false,
   "fork": false
  },
- "Graphify-Labs/graphify": {
-  "fetched": "2026-10-28",
-  "readme_url": "https://github.com/Graphify-Labs/graphify#readme",
-  "install": [
-   "brew install python@3.12 uv",
-   "winget install astral-sh.uv",
-   "apt install python3.12 python3-pip pipx",
-   "curl -LsSf https://astral.sh/uv/install.sh | sh",
-   "uv tool install graphifyy  # recommended, isolated env (if 'graphify' isn't found after, run: uv tool update-shell)",
-   "pipx install graphifyy  # alternative"
-  ],
-  "usage_title": "See it in action",
-  "usage_text": "Once the graph is built you query it instead of reading files. Real output, graphify run on the FastAPI codebase shown above:\nEvery edge carries a confidence tag (EXTRACTED = explicit in the source, INFERRED = derived by resolution), so you can tell what was read directly from what was inferred. graphify query \" \" returns a scoped subgraph for a plain-language question, and graphify path A B traces how any two things connect.\n---",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://www.graphify.com",
-  "topics": [
-   "ai-agents",
-   "antigravity",
-   "ast",
-   "claude-code",
-   "code-analysis",
-   "code-search",
-   "codex",
-   "cursor"
-  ],
-  "default_branch": "v8"
- },
  "HKUDS/CLI-Anything": {
   "fetched": "2026-11-26",
   "readme_url": "https://github.com/HKUDS/CLI-Anything#readme",
@@ -445,7 +393,7 @@
   "fork": false
  },
  "Jakeschincariol/instagram-agent-skill": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/Jakeschincariol/instagram-agent-skill#readme",
   "install": [
    "git clone https://github.com/Jakeschincariol/instagram-agent-skill.git"
@@ -618,21 +566,6 @@
    "networking",
    "terraform"
   ],
-  "default_branch": "main"
- },
- "NVIDIA/OpenShell": {
-  "fetched": "2026-10-28",
-  "readme_url": "https://github.com/NVIDIA/OpenShell#readme",
-  "install": [
-   "curl -LsSf https://raw.githubusercontent.com/NVIDIA/OpenShell/main/install.sh | sh",
-   "npx skills add NVIDIA/OpenShell"
-  ],
-  "usage_title": "How It Works",
-  "usage_text": "OpenShell governs what agents can do in two ways: it instruments the kernel to enforce policy on every file access, system call, and network connection at runtime, and it uses formal verification to check what a policy change would allow before it is applied.\n• Kernel-level enforcement. Each agent runs in an isolated sandbox. Kernel controls confine which files it can access and which system calls it can make, and every network connection passes through a policy check before it leaves the sandbox. Agents never see real credentials; OpenShell adds them only to requests bound for approved endpoints…",
-  "usage_code": "",
-  "license": "Apache-2.0",
-  "homepage": "https://docs.nvidia.com/openshell/latest/",
-  "topics": [],
   "default_branch": "main"
  },
  "NVIDIA/SkillEvaluator": {
@@ -942,7 +875,7 @@
   "default_branch": "main"
  },
  "Tracer-Cloud/opensre": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/Tracer-Cloud/opensre#readme",
   "install": [
    "curl -fsSL https://install.opensre.com | bash -s -- -gh"
@@ -964,7 +897,7 @@
   ],
   "default_branch": "main",
   "created": "2026-01-13",
-  "pushed": "2026-11-20",
+  "pushed": "2026-11-27",
   "archived": false,
   "fork": false
  },
@@ -1025,7 +958,7 @@
   "fork": false
  },
  "XiaoYouChR/Ghost-Downloader-3": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3#readme",
   "install": [],
   "usage_title": "Features",
@@ -1045,7 +978,7 @@
   ],
   "default_branch": "main",
   "created": "2023-08-16",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -1622,7 +1555,7 @@
   "default_branch": "main"
  },
  "cathrynlavery/diagram-design": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/cathrynlavery/diagram-design#readme",
   "install": [
    "npx skills add cathrynlavery/diagram-design",
@@ -1648,7 +1581,7 @@
   ],
   "default_branch": "main",
   "created": "2026-04-16",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -1809,21 +1742,6 @@
   ],
   "default_branch": "main"
  },
- "elayadesign/ai-design-skills": {
-  "fetched": "2026-10-28",
-  "readme_url": "https://github.com/elayadesign/ai-design-skills#readme",
-  "install": [
-   "git clone https://github.com/elayadesign/ai-design-skills.git /tmp/ai-design-skills",
-   "curl -o .cursor/rules/<skill-name>.md https://raw.githubusercontent.com/elayadesign/ai-design-skills/main/skills/<skill-name>/SKILL.md"
-  ],
-  "usage_title": "AI Design Skills",
-  "usage_text": "A growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file.\nEach skill is a self-contained folder. Install the ones you need.\n---",
-  "usage_code": "",
-  "license": "MIT",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
- },
  "elementalsouls/Claude-BugHunter": {
   "fetched": "2026-11-23",
   "readme_url": "https://github.com/elementalsouls/Claude-BugHunter#readme",
@@ -1894,7 +1812,7 @@
   "default_branch": "main"
  },
  "firecrawl/firecrawl": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/firecrawl/firecrawl#readme",
   "install": [
    "cargo install firecrawl-local",
@@ -1921,7 +1839,7 @@
   ],
   "default_branch": "main",
   "created": "2024-04-15",
-  "pushed": "2026-11-20",
+  "pushed": "2026-11-27",
   "archived": false,
   "fork": false
  },
@@ -1950,27 +1868,6 @@
    "s3"
   ],
   "default_branch": "main"
- },
- "flutter/flutter": {
-  "fetched": "2026-10-28",
-  "readme_url": "https://github.com/flutter/flutter#readme",
-  "install": [],
-  "usage_title": "Documentation",
-  "usage_text": "• Install Flutter\n• Flutter documentation\n• Development wiki\n• Contributing to Flutter\nFor release and other announcements, join the\nflutter-announce\nmailing list. Our documentation also tracks breaking\nchanges across releases.",
-  "usage_code": "",
-  "license": "BSD-3-Clause",
-  "homepage": "https://flutter.dev",
-  "topics": [
-   "android",
-   "app-framework",
-   "cross-platform",
-   "dart",
-   "dart-platform",
-   "desktop",
-   "flutter",
-   "flutter-package"
-  ],
-  "default_branch": "master"
  },
  "garrytan/gbrain": {
   "fetched": "2026-11-10",
@@ -2853,7 +2750,7 @@
   "fork": false
  },
  "mjmirza/app-store-compliance": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/mjmirza/app-store-compliance#readme",
   "install": [
    "git clone https://github.com/mjmirza/app-store-compliance ~/repositories/app-store-compliance",
@@ -2876,7 +2773,7 @@
   ],
   "default_branch": "main",
   "created": "2026-06-06",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -3089,7 +2986,7 @@
   "fork": false
  },
  "nginx/nginx": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/nginx/nginx#readme",
   "install": [
    "apt install gcc make",
@@ -3113,7 +3010,7 @@
   ],
   "default_branch": "master",
   "created": "2015-06-23",
-  "pushed": "2026-11-18",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -3243,6 +3140,36 @@
   "default_branch": "main",
   "created": "2025-10-09",
   "pushed": "2026-11-24",
+  "archived": false,
+  "fork": false
+ },
+ "obsidianmd/obsidian-skills": {
+  "fetched": "2026-11-27",
+  "readme_url": "https://github.com/obsidianmd/obsidian-skills#readme",
+  "install": [
+   "claude plugin marketplace add obsidianmd/obsidian-skills",
+   "claude plugin install obsidian@obsidian-skills",
+   "codex plugin marketplace add obsidianmd/obsidian-skills",
+   "npx skills add https://github.com/obsidianmd/obsidian-skills"
+  ],
+  "usage_title": "Installation",
+  "usage_text": "Obsidian is an official plugin for Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, and Kiro. Most other agents can install the skills from GitHub.",
+  "usage_code": "",
+  "license": "MIT",
+  "homepage": "",
+  "topics": [
+   "agents",
+   "agentskills",
+   "bases",
+   "chatgpt",
+   "claude",
+   "claude-code",
+   "claude-skills",
+   "cli"
+  ],
+  "default_branch": "main",
+  "created": "2026-01-02",
+  "pushed": "2026-11-26",
   "archived": false,
   "fork": false
  },
@@ -3463,7 +3390,7 @@
   "fork": false
  },
  "pookjw/HermesEnabler": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/pookjw/HermesEnabler#readme",
   "install": [],
   "usage_title": "HermesEnabler 2",
@@ -3972,7 +3899,7 @@
   "fork": false
  },
  "toeverything/AFFiNE": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/toeverything/AFFiNE#readme",
   "install": [],
   "usage_title": "Getting started & staying tuned with us.",
@@ -3992,23 +3919,9 @@
   ],
   "default_branch": "canary",
   "created": "2022-07-31",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-27",
   "archived": false,
   "fork": false
- },
- "togg53192-cmd/jailbreaks": {
-  "fetched": "2026-10-28",
-  "readme_url": "https://github.com/togg53192-cmd/jailbreaks#readme",
-  "install": [
-   "ollama create gemma4-jb -f gemma4.md"
-  ],
-  "usage_title": "Jailbreaks",
-  "usage_text": "A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models.\n---",
-  "usage_code": "",
-  "license": "",
-  "homepage": "",
-  "topics": [],
-  "default_branch": "main"
  },
  "tokio-rs/topcoat": {
   "fetched": "2026-11-11",
@@ -4202,34 +4115,34 @@
   "fork": false
  },
  "zhouxiaoka/autoclip": {
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-27",
   "readme_url": "https://github.com/zhouxiaoka/autoclip#readme",
   "install": [
-   "git clone https://github.com/zhouxiaoka/autoclip.git",
-   "docker compose up -d --build",
-   "docker compose run --rm --no-deps --user root --entrypoint sh autoclip -c 'chown -R autoclip:autoclip /app/data /app/logs /app/uploads'",
-   "docker compose up -d",
+   "uvx autoclip-mcp",
+   "npx skills add zhouxiaoka/autoclip",
    "python -m pip install -r requirements.txt",
-   "python -m pip install --force-reinstall --no-deps autoclip_mcp-*-py3-none-any.whl"
+   "python -m pip install --force-reinstall --no-deps autoclip_mcp-*-py3-none-any.whl",
+   "python -m pip install --no-deps .",
+   "git clone https://github.com/zhouxiaoka/autoclip.git"
   ],
-  "usage_title": "一个链接，一键出片",
-  "usage_text": "开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成 视频、封面和发布文案 ， \n适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。 \n软件免费，云端模型按量计费；需要调整时可进入编辑器。\n官网 · 下载桌面版 · 案例库 · 研究 · 快速开始 · 文档 · 问题反馈\n简体中文 · English · 日本語 · 한국어 · Español · Português · Русский · Français\n最新正式版，桌面、CLI 与 MCP 同步更新。版本以 autoclip --version 和 MCP get_version 为准。一键出片、字幕分页、人物取景与长视频队列修复见 更新日志。旧版用户请升级。",
+  "usage_title": "Examples",
+  "usage_text": "Click any thumbnail or ▶ Play to watch full clips rendered by AutoClip. Language labels indicate burned-in subtitle language.",
   "usage_code": "",
   "license": "MIT",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
   "topics": [
    "ai-agent",
    "ai-video-editor",
+   "claude-code",
    "content-repurposing",
    "desktop-app",
    "douyin",
    "instagram-reels",
-   "mcp",
-   "open-source"
+   "local-first"
   ],
   "default_branch": "main",
   "created": "2025-07-08",
-  "pushed": "2026-11-20",
+  "pushed": "2026-11-27",
   "archived": false,
   "fork": false
  }
