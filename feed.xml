@@ -5,7 +5,7 @@
     <link>https://ojungmin212-dotcom.github.io/github-trending-ko/</link>
     <description>GitHub 트렌딩(오늘·이번 주·이번 달)에 처음 등장한 저장소. 매일 한 번 갱신, 최근 30일.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 27 Nov 2026 13:29:03 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 13:10:04 +0900</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://ojungmin212-dotcom.github.io/github-trending-ko/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -1244,35 +1244,6 @@ A collection of agent skills that help you build great interfaces.
 Markdown · ★ 9k · ▲ 776 (이번 주) · 이번 주 #11</description>
       <category>Markdown</category>
       <category>이번 주</category>
-    </item>
-    <item>
-      <title>elayadesign/ai-design-skills — 설명 없음</title>
-      <link>https://github.com/elayadesign/ai-design-skills</link>
-      <guid isPermaLink="false">elayadesign/ai-design-skills@2026-10-28</guid>
-      <pubDate>Wed, 28 Oct 2026 10:37:09 +0900</pubDate>
-      <description>★ 9.4k · ▲ 1.4k (오늘) · 오늘 #1</description>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>HKUDS/DeepTutor — DeepTutor: 평생 맞춤형 튜터링. https://deeptutor.info/.</title>
-      <link>https://github.com/HKUDS/DeepTutor</link>
-      <guid isPermaLink="false">HKUDS/DeepTutor@2026-10-28</guid>
-      <pubDate>Wed, 28 Oct 2026 10:37:09 +0900</pubDate>
-      <description>DeepTutor: 평생 맞춤형 튜터링. https://deeptutor.info/.
-DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
-Python · ★ 46k · ▲ 1.6k (오늘) · 오늘 #9</description>
-      <category>Python</category>
-      <category>오늘</category>
-    </item>
-    <item>
-      <title>togg53192-cmd/jailbreaks — 내 모든 탈옥 목록</title>
-      <link>https://github.com/togg53192-cmd/jailbreaks</link>
-      <guid isPermaLink="false">togg53192-cmd/jailbreaks@2026-10-28</guid>
-      <pubDate>Wed, 28 Oct 2026 10:37:09 +0900</pubDate>
-      <description>내 모든 탈옥 목록
-LIST OF ALL MY JAILBREAKS
-★ 5.6k · ▲ 902 (오늘) · 오늘 #11</description>
-      <category>오늘</category>
     </item>
   </channel>
 </rss>
